@@ -1,0 +1,71 @@
+<style name="roulette" version="1.0.1" source="ui/spain/swf/roulette.swf">
+	
+	<custom>
+		<!--  左轮手枪轮盘 -->
+		<custom classname="flash.geom.Point" stylename="asset.rouletteFramePos" x="500" y="320" /> 
+  		<custom classname="flash.geom.Point" stylename="gun.GunMovieClip.GunMovieClipPos" x="920" y="100" /> 
+  		<custom classname="flash.geom.Point" stylename="asset.roulette.pointerMovieClipPos" x="150" y="96" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.aperture.point0" x="-69.5" y="-196" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.aperture.point1" x="122.5" y="-169.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.aperture.point2" x="196.5" y="15.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.aperture.point3" x="69.5" y="164" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.aperture.point4" x="-120" y="130" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.aperture.point5" x="-190" y="-48" /> 
+  		
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point0" x="-60.5" y="-185" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point1" x="-40.5" y="-169" />
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point2" x="-25.5" y="-185.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point3" x="4" y="-185.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point4" x="121" y="-153.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point5" x="119" y="-127.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point6" x="137.5" y="-122" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point7" x="156.5" y="-91" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point8" x="74" y="93.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point9" x="97.5" y="85" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point10" x="92.5" y="72.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point11" x="102.5" y="41.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point12" x="-66" y="122.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point13" x="-39.5" y="138.5" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point14" x="-25.5" y="126" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point15" x="3" y="126" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point16" x="-132.5" y="-12" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point17" x="-132.5" y="17" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point18" x="-122.5" y="19" /> 
+  		<custom classname="flash.geom.Point" stylename="roulette.number.point19" x="-101.5" y="43.5" />
+  	</custom>
+	<components>
+		<!--左轮手枪转盘-->
+	  <component classname="roulette.RouletteFrame" stylename="roulette.rouletteFrame" moveEnable="false" escEnable="false" />
+	
+	  <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="roulette.startBtn"  selectedStyle="asset.roulette.startDownBtn" unSelectedStyle="asset.roulette.startUpBtn" filterString="null,lightFilter,null,grayFilter"/>
+	  <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="roulette.exchangeBtn"  selectedStyle="asset.roulette.exchangeDownBtn" unSelectedStyle="asset.roulette.exchangeUpBtn" filterString="null,lightFilter,null,grayFilter"/>
+	  <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="roulette.helpBtn"  selectedStyle="asset.roulette.NoteHelpDownBtn" unSelectedStyle="asset.roulette.NoteHelpUpBtn" filterString="null,lightFilter,null,grayFilter"/>
+	  <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="roulette.closeBtn"  selectedStyle="asset.roulette.closeDownBtn" unSelectedStyle="asset.roulette.closeUpBtn" filterString="null,lightFilter,null,grayFilter" />
+	  <component classname="com.pickgliss.ui.image.MovieImage" stylename="roulette.gun" resourceLink="asset.roulette.gun" x="910" y="363" />
+	  <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="roulette.transferHelpScale9BG" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="409" height="400" x="0" y="0" />
+	  <component classname="store.HelpPrompt" stylename="roulette.transferHelp" bg9ScalseStyle="roulette.transferHelpScale9BG" contentStyle="rouletteHelpText" />
+	  <custom classname="rouletteHelpText" stylename="rouletteHelpText" x="50" y="20" />
+	  <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.tipText" textFormatStyle="roulette.tipTextTF" x="20" y="465" />
+	  <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="rouletteTipFrame.TipInfoText" />
+	  <component classname="roulette.RouletteFrame" stylename="test.rouletteFrm" backStyle="SimpleFrameBackgound" parentStyle="BaseFrame" moveEnable="false" 
+		escEnable="false" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width="250" height="490" />
+		<!--HelpFrame-->
+      <component classname="roulette.HelpFrame" backStyle="SimpleFrameBackgound" stylename="roulette.helpFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="8" containerY="31" width="382" height="481" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+      
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.roulette.TurnplateMainView" x="-241" y="-233"/>
+		 <bitmapData resourceLink="asset.roulette.rechargeable" x="-59" y="83"/>
+		 <bitmapData resourceLink="asset.roulette.recur" x="-177" y="-50"/>
+		 <bitmapData resourceLink="asset.roulette.helpBG" x="-1" y="1"/>
+		 <bitmapData resourceLink="asset.roulette.startDownBtn" x="-108.5" y="-131.5" />
+		 <bitmapData resourceLink="asset.roulette.startUpBtn" x="-108" y="-128" />
+		 <bitmapData resourceLink="asset.roulette.exchangeDownBtn" x="-107" y="-133" />
+		 <bitmapData resourceLink="asset.roulette.exchangeUpBtn" x="-107" y="-133" />
+		 <bitmapData resourceLink="asset.roulette.NoteHelpDownBtn" x="161" y="-169" />
+		 <bitmapData resourceLink="asset.roulette.NoteHelpUpBtn" x="161" y="-169" />
+		<bitmapData resourceLink="asset.roulette.closeDownBtn" x="134" y="-223" />
+     	<bitmapData resourceLink="asset.roulette.closeUpBtn" x="133" y="-222" />
+	</bitmaps>
+</style>

@@ -1,0 +1,12 @@
+<Result value="true" message="Success!">
+  <item BadgeID="1" BadgeName="Búa-Thường          " Cost="10000" LimitLevel="1" ValidDate="30" />
+  <item BadgeID="2" BadgeName="Đầu lâu-Thường      " Cost="10000" LimitLevel="1" ValidDate="30" />
+  <item BadgeID="3" BadgeName="Song kiếm-Thường    " Cost="10000" LimitLevel="1" ValidDate="30" />
+  <item BadgeID="4" BadgeName="Đầu lâu-Hào hoa     " Cost="15000" LimitLevel="4" ValidDate="30" />
+  <item BadgeID="5" BadgeName="Sói-Hào hoa         " Cost="15000" LimitLevel="4" ValidDate="30" />
+  <item BadgeID="6" BadgeName="Rắn-Hào hoa         " Cost="15000" LimitLevel="4" ValidDate="30" />
+  <item BadgeID="7" BadgeName="Chim ưng-Hào hoa    " Cost="15000" LimitLevel="4" ValidDate="30" />
+  <item BadgeID="8" BadgeName="Vương miện-Hào hoa  " Cost="20000" LimitLevel="8" ValidDate="30" />
+  <item BadgeID="9" BadgeName="Sư tử-Hào hoa       " Cost="20000" LimitLevel="8" ValidDate="30" />
+  <item BadgeID="10" BadgeName="Trái tim-Hào hoa    " Cost="20000" LimitLevel="8" ValidDate="30" />
+</Result>

@@ -1,0 +1,202 @@
+<style name="cardSystem" version="1.0.1" source="ui/spain/swf/cardSystem.swf">
+
+<sets>
+	<set stylename="cardSystem.TF" args="Arial,14,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="cardSystem.TF3" args="Arial,14,0x5C000F,true" type="flash.text.TextFormat" />
+	<set stylename="cardSystem.TF2" args="Arial,12,0x000000" type="flash.text.TextFormat" />
+	<set stylename="CardBagCell.countTF" args="Arial,12,0x000000,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="CardBagCell.countGF" args="0xffffff,1,2,2,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="CollectBagItem.setsNameTF" args="Arial,16,0x000000,true" type="flash.text.TextFormat" />
+	<set stylename="CollectBagItem.setsNameGF" args="0x351500,1,3,3,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="CardBagCell.nameTF" args="Arial,12,0x8e7043,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="PreviewCard.nameTF" args="Arial,10,0x8e7043,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="CardBagCell.nameGF" args="0xcfb288,1,3,3,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="TurnPage.pageTextTF" args="Arial,14,0xffffff,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="TurnPage.pageTextGF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="CollectPreview.storyTF" args="Arial,14,0xd7c593" leading="4" type="flash.text.TextFormat" />
+	<set stylename="CollectPreview.storyGF" args="0x281000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="PreviewCard.PropsetTF" args="Arial,12,0xfff4cf,,,,,,center" leading="0" type="flash.text.TextFormat" />
+	<set stylename="PreviewCard.PropsetGF" args="0x652508,1,3,3,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="PreviewCard.setsPropDescripTF" args="Arial,14,0xfff194" type="flash.text.TextFormat" />
+	<set stylename="PreviewCard.setsPropDescripGF" args="0x2a1f00,1,2,2,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="upgradeFrame.numTF" args="Arial,12,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="upgradeFrame.numGF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+	<set stylename="upgradeFrame.leftNumTF" args="Arial,14,0xffffff,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="upgradeFrame.ruleTF" args="Arial,14,0xffffff,true" leading="6" type="flash.text.TextFormat" />
+	<set stylename="cardSystem.CardNameTF" args="Arial,14,0xfff3d7" type="flash.text.TextFormat" />
+	<set args="0x542200,1,2,2,10,1" stylename="P_CardNameTF" type="flash.filters.GlowFilter"/>
+</sets>
+
+<customDisplay>
+	<custom classname="cardSystem.view.cardEquip.CardEquipView" stylename="cardEquipView" x="32" y="80" />
+	<custom classname="cardSystem.view.cardCollect.CollectBagItem" stylename="cardSystem.CollectBagItem"/>
+	<custom classname="flash.geom.Point" stylename="OneTypeSets.pos" x="0" y="35"/>
+	<custom classname="flash.geom.Point" stylename="UpGradeFrame.cellPos" x="12" y="28"/>
+	<custom classname="flash.geom.Point" stylename="UpGradeFrame.countPos" x="92" y="159"/>
+	<custom classname="cardSystem.view.ResetCardCell" stylename="PropResetCell" x="32" y="82"/>
+	<custom classname="flash.geom.Point" stylename="PropResetFrame.countPos" x="66" y="242"/>
+	
+	
+	<custom classname="flash.geom.Point" stylename="CardCell.Pos0" x="117" y="17"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.Pos1" x="-4" y="9"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.Pos2" x="292" y="9"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.Pos3" x="-4" y="137"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.Pos4" x="292" y="137"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos0" x="0" y="8"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos1" x="297" y="8"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos2" x="0" y="137"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.viceBorder.Pos3" x="297" y="137"/>
+	<custom classname="flash.geom.Point" stylename="CardCell.mainBorder.Pos" x="118" y="6"/>
+	<custom classname="flash.geom.Point" stylename="CardBagListView.Pos" x="432" y="30"/>
+	<custom classname="flash.geom.Point" stylename="CardBagListView.Pos2" x="-14" y="18"/>
+	<custom classname="cardSystem.view.cardBag.CardBagListItem" stylename="cardSystem.cardBagListItem" />
+	<custom classname="cardSystem.view.cardCollect.CollectBagView" stylename="collectBagView" x="404" y="62" />
+	<custom classname="cardSystem.view.cardCollect.CollectTurnPage" stylename="CollectTurnPage" x="114" y="395" />
+	<custom classname="cardSystem.view.cardCollect.CollectPreview" stylename="CollectPreview" x="24" y="43" />
+	<custom classname="flash.geom.Point" stylename="PreviewCard.cellPos" x="6" y="6"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.starPos0" x="168" y="96"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.starPos1" x="217" y="96"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.starPos2" x="268" y="96"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.progressMoivePos" x="173" y="150"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.upSuccessMoivePos" x="498" y="320"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.upSuccessStarPos1" x="11" y="-80"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.upSuccessStarPos2" x="60" y="-80"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.upSuccessStarPos3" x="111" y="-80"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.cellPos" x="26" y="84"/>
+	<custom classname="flash.geom.Point" stylename="cardView.helpBtnPos" x="710" y="-34"/>
+	<custom classname="flash.geom.Point" stylename="cardView.okBtnPos" x="166" y="439"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.progressPos" x="253" y="156"/>
+	<custom classname="flash.geom.Point" stylename="upgradeFrame.progressMaskPos" x="170" y="146"/>
+	<custom classname="flash.geom.Point" stylename="resetFrame.bgPos" x="29" y="57"/>
+	<custom classname="flash.geom.Point" stylename="resetFrame.help.contentPos" x="28" y="50"/>
+	<custom classname="flash.geom.Point" stylename="cardSystem.level.small.pos" x="33" y="1"/>
+	<custom classname="flash.geom.Point" stylename="cardSystem.level.big.pos" x="38" y="0"/>
+	<custom classname="flash.geom.Point" stylename="cardSystem.upgrade.level.pos" x="221" y="112"/>
+</customDisplay>
+
+<components>	
+	<!-- cardView -->
+	<component classname="com.pickgliss.ui.controls.Frame" stylename="cardView.helpFrame" parentStyle="BaseFrame"  width="432" height="482" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>
+	
+	<!-- CardEquipView -->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="CardEquipView.BG" resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" width="397" height="440"/>
+
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG1" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard1"  imageRectString=",17|17|17|45|4" width="88" height="123"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG2" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard2" imageRectString=",17|17|17|45|4" width="88" height="123" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG3" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard3" imageRectString=",17|17|17|45|4" width="88" height="123" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="CardEquipView.viceCardBG4" resourceLink="asset.cardEquipView.viceCard,asset.cardEquipView.viceCard4" imageRectString=",17|17|17|45|4" width="88" height="123" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.cardEquipView.mainBG" resourceLink="asset.cardEquipView.mainCard,asset.cardEquipView.mainCardWord" imageRectString=",38|41|23|86|4" width="142" height="192" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardEquipView.openBtn" backStyle="asset.cardEquipView.openBtn" filterString="null,lightFilter,null,grayFilter" x="7" y="61"/>
+
+	
+	<!-- CardBagCell -->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagCell.upGradeBtn" backStyle="asset.cardCell.upGrade" filterString="null,lightFilter,null,grayFilter" x="0" y="78"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagCell.propReset" backStyle="asset.cardCell.reset" filterString="null,lightFilter,null,grayFilter" x="0" y="78"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBagCell.count" textFormatStyle="CardBagCell.countTF" filterString="CardBagCell.countGF" autoSize="none" width="43" height="22" x="40" y="79" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBagCell.name" textFormatStyle="CardBagCell.nameTF" filterString="CardBagCell.nameGF" autoSize="none" width="64" multiline="true" wordWrap="true" x="13" />
+	
+	<!-- upGradeFrame -->
+	<component classname="cardSystem.view.UpGradeFrame" stylename="UpGradeFrame" parentStyle="BaseFrame" width="360" height="350" moveEnable="false"/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="UpGradeFrame.button" parentStyle="core.simplebt" x="120" y="307" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="UpGradeFrame.helpBtn" backStyle="asset.helpBtn" filterString="null,lightFilter,null,grayFilter" x="244" y="41"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="UpGradeFrame.leftNum" textFormatStyle="upgradeFrame.leftNumTF" filterString="upgradeFrame.numGF" autoSize="none" width="40" height="20" multiline="false" wordWrap="false" x="112" y="247"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="UpGradeFrame.progeressTxt" textFormatStyle="upgradeFrame.numTF" filterString="upgradeFrame.numGF" autoSize="none" width="120" height="20" multiline="false" wordWrap="false" x="192" y="149"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="UpGradeFrame.ruleTxt" textFormatStyle="upgradeFrame.ruleTF" filterString="upgradeFrame.numGF" autoSize="none" width="150" multiline="true" wordWrap="true" x="175" y="195"/>
+	<component classname="com.pickgliss.ui.controls.Frame" stylename="UpGradeFrame.helpFrame" parentStyle="BaseFrame"  width="290" height="360" moveEnable="false" escEnable="true" moveInnerRectString="0,30,0,30,1"/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="UpGradeFrame.helpFrame.OK" parentStyle="core.simplebt" x="108" y="318" />
+	
+	<!-- PropResetFrame -->
+	<component classname="cardSystem.view.PropResetFrame" stylename="PropResetFrame" width="524" height="383" moveEnable="false" 
+			parentStyle="BaseFrame" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="PropResetFrame.BG1" resourceLink="asset.core.cardResetBG1.1,asset.core.cardResetBG1.2,asset.core.cardResetBG1.3,asset.core.cardResetBG1.4,asset.core.cardResetBG1.5,asset.core.cardResetBG1.6,asset.core.cardResetBG1.7,asset.core.cardResetBG1.8,asset.core.cardResetBG1.9" width="494" height="289" x="16" y="40"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="PropResetFrame.BG2" resourceLink="asset.core.cardResetBG2.1,asset.core.cardResetBG2.2,asset.core.cardResetBG2.3,asset.core.cardResetBG2.4,asset.core.cardResetBG2.5,asset.core.cardResetBG2.6,asset.core.cardResetBG2.7,asset.core.cardResetBG2.8,asset.core.cardResetBG2.9" width="295" height="196" x="20" y="72"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="PropResetFrame.BG3" parentStyle="PropResetFrame.BG2" width="182" height="196" x="323" y="72"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.oldPropWord" textFormatStyle="cardSystem.TF" width="40" height="20" x="20" y="30" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.newPropWord" textFormatStyle="cardSystem.TF" width="40" height="20" x="210" y="30" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.PropText" textFormatStyle="cardSystem.TF3" width="40" height="20"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.basePropContainer1" spacing="38" x="156" y="89"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.basePropContainer2" spacing="38" x="340" y="89"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.oldPropContainer" spacing="38" x="266" y="87"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="PropResetFrame.newPropContainer" spacing="38" x="448" y="87"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PropResetFrame.explain" textFormatStyle="cardSystem.TF2" multiline="true" wordWrap="true" width="280" height="40" x="27" y="185" />
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="PropResetFrame.noReplace" parentStyle="core.simplebt" x="54" y="236" />
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="PropResetFrame.reset" parentStyle="core.simplebt" x="140" y="236" />
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="PropResetFrame.Replace" parentStyle="core.simplebt" x="230" y="236" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="PropResetFrame.Help" backStyle="asset.cardSystem.help.back" filterString="null,lightFilter,null,grayFilter" x="414" y="46" />
+	<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="PropResetFrame.HelpFrame" parentStyle="BaseFrame" width="310" height="368" />
+	<component classname="com.pickgliss.ui.controls.ComboBox" stylename="cardNameChoose" listPanelStyle="core.ComboxListpanel1" buttonStyle="core.comboxButton2" width="107" height="30" textStyle="core.comboxListCellTxt" listInnerRectString="5,33,10,75,18" textInnerRectString="5,25,7,0,0" x="40" y="33"/>
+	<!-- CardBagView -->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagView.sortbtn" backStyle="asset.cardBag.sortBtn" filterString="null,lightFilter,null,grayFilter" x="111" y="-7"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagView.collectBtn" backStyle="asset.cardBag.collectBtn" filterString="null,lightFilter,null,grayFilter" x="88" y="218"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CardBagView.CardBtn" backStyle="asset.cardBag.cardButton" filterString="null,lightFilter,null,grayFilter" x="215" y="218"/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="CardBagView.cardselect"  parentStyle="core.ScrollPanel"  hScrollProxy="2" vScrollProxy="0" x = "12" y = "4" width="125"  height="100"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chat.CardListBg" resourceLink="asset.chat.CardListBg" scaleGridString="10,10,42,42" width="145" height="110" x="" y=""/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cardSystem.CardNameTxt" filterString="P_CardNameTF" textFormatStyle="cardSystem.CardNameTF" width="40" height="20"/>
+	
+	<!-- cardBagListItem -->
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="cardBagListItem.container" spacing="1" height="110"/>
+	<!-- cardBagList -->
+	<!--  <component classname="com.pickgliss.ui.controls.ListPanel" stylename="cardSyste.cardBagList" hScrollbarStyle="core.HScrollbar"  
+			vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,10,21,0,4" 	vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|cardSystem.cardBagListItem,110" listStyle="com.pickgliss.ui.controls.list.List"
+			width="404" height="332" x="-14" y="16" hScrollProxy="2" /> -->
+	<component classname="com.pickgliss.ui.controls.OutMainListPanel" stylename="cardSyste.cardBagList" vScrollbarStyle="core.VScrollbar"
+		 	vScrollbarInnerRectString="21,0,-5,5,3" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|cardSystem.cardBagListItem,110"
+			width="331" height="330" x="10" y="54"/>
+			
+	<!-- TurnPage -->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="TurnPage.prePageBtn" backStyle="asset.cardBag.prePageBtn" filterString="null,lightFilter,null,grayFilter" x="9" y="7"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="TurnPage.nextPageBtn" backStyle="asset.cardBag.nextPageBtn" filterString="null,lightFilter,null,grayFilter" x="137" y="7"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="TurnPage.pageText" textFormatStyle="TurnPage.pageTextTF" filterString="TurnPage.pageTextGF" autoSize="none" width="56" height="22" multiline="false" wordWrap="false" x="71" y="12" />
+	
+	<!-- cardCollectView -->
+	<component classname="cardSystem.view.cardCollect.CardCollectView" stylename="CardCollectView" width="863" height="530" moveEnable="false" 
+			backStyle="core.bg006" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"  	
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="cardCollectView.BG" resourceLink="asset.core.ScaleBitmapTree_01,asset.core.ScaleBitmapTree_02,asset.core.ScaleBitmapTree_03,asset.core.ScaleBitmapTree_04,asset.core.ScaleBitmapTree_05,asset.core.ScaleBitmapTree_06,asset.core.ScaleBitmapTree_07,asset.core.ScaleBitmapTree_08,asset.core.ScaleBitmapTree_09" width="847" height="482" x="6" y="34"/>
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="CollectBagView.container" spacing="-10"/>
+	
+	<!-- CollectBagItem -->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="CollectBagItem.BG" resourceLink="asset.cardCollect.911,asset.cardCollect.912,asset.cardCollect.913,asset.cardCollect.914,asset.cardCollect.915,asset.cardCollect.916,asset.cardCollect.917,asset.cardCollect.918,asset.cardCollect.919" width="420" height="123" x="-1" y="14"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="CollectBagItem.light" resourceLink="asset.cardCollect.light" width="430" height="133" scaleGridString="18,20,398,97" x="-7" y="10"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CollectBagItem.setsNameFFT" textFormatStyle="CollectBagItem.setsNameTF" />
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="CollectBagItem.setsName" textFieldStyle="CollectBagItem.setsNameFFT" colors="0xffffff,0xffd201,0xff4901" filterString="CollectBagItem.setsNameGF" alphas="1,1,1" ratios="0,120,255" x="10" y="3"/>
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="CollectBagItem.container" spacing="-6" y="18" x="0"/>
+	
+	<!-- CollectPreview -->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="CollectPreview.BG" parentStyle="CollectBagItem.BG" width="364" height="411" x="12" y="31"/>
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="CollectPreview.setsName"  parentStyle="CollectBagItem.setsName" x="152" y="19"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CollectPreview.story" textFormatStyle="CollectPreview.storyTF" filterString="CollectPreview.storyGF" autoSize="none" width="336" multiline="true" wordWrap="true" x="33" y="52" />
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="CollectPreview.container" spacing="-2" y="148" x="24"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="CollectPreview.setsPropBG" resourceLink="asset.cardCollect.921,asset.cardCollect.922,asset.cardCollect.923,asset.cardCollect.924,asset.cardCollect.925,asset.cardCollect.926,asset.cardCollect.927,asset.cardCollect.928,asset.cardCollect.929" width="352" height="123" x="17" y="312"/>
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="CollectPreview.propExplain"  parentStyle="CollectBagItem.setsName" x="22" y="302"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PreviewCard.setsPropDescrip" textFormatStyle="PreviewCard.setsPropDescripTF" filterString="PreviewCard.setsPropDescripGF" multiline="true" wordWrap="true" mouseEnable="false" mouseChildren="false" />
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="CollectPreview.propArea" textStyle="PreviewCard.setsPropDescrip" vScrollProxy="0" parentStyle="core.SimpleTextArea" width="318" height="100" x="34" y="324" />
+	
+	<!-- PreviewCard -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PreviewCard.Propset" textFormatStyle="PreviewCard.PropsetTF" filterString="PreviewCard.PropsetGF" autoSize="none" multiline="true" wordWrap="true" width="67" x="2" y="77"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PreviewCard.name" textFormatStyle="PreviewCard.nameTF" filterString="CardBagCell.nameGF" autoSize="none" width="60" multiline="true" wordWrap="true" x="5" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="Scale9CornerImage17" resourceLink="asset.core.Scale9CornerImage17.1,asset.core.Scale9CornerImage17.2,asset.core.Scale9CornerImage17.3,asset.core.Scale9CornerImage17.4,asset.core.Scale9CornerImage17.5,asset.core.Scale9CornerImage17.6,asset.core.Scale9CornerImage17.7,asset.core.Scale9CornerImage17.8,asset.core.Scale9CornerImage17.9"
+		x="14" y="40" width="282" height="274"/>
+</components>
+
+<bitmaps>
+	<bitmapData resourceLink="asset.cardBagCell.BG" x="-12" y="-15"/>
+	
+	<bitmapData resourceLink="asset.cardEquipView.BG" x="-10" y="5"/>
+	<bitmapData resourceLink="asset.cardEquipView.title" x="15" y="0"/>
+	<bitmapData resourceLink="asset.cardBag.BG" x="-25" y="-13"/>
+	<bitmapData resourceLink="asset.cardBag.word" x="-9" y="-21"/>
+	<bitmapData resourceLink="asset.cardCollect.BG" x="22" y="58"/>
+	<bitmapData resourceLink="asset.cardCollect.storyBG" x="18" y="42"/>
+	<bitmapData resourceLink="asset.upgradeFrame.bg" x="13" y="72"/>
+	<bitmapData resourceLink="asset.upgradeFrame.cardNum" x="45" y="251"/>
+	<bitmapData resourceLink="asset.upgradeFrame.content" x="12" y="37"/>
+	<bitmapData resourceLink="asset.cardSystem.help.content" x="12" y="37"/>
+	<bitmapData resourceLink="asset.cardBag.cell.buttonbg" x="2" y="83"/>
+	<bitmapData resourceLink="asset.cardSystem.reset.Back" x="15" y="38"/>
+	<bitmapData resourceLink="asset.cardSystem.reset.help" x="13" y="41"/>
+	<bitmapData resourceLink="asset.cardBag.mainCardLight" x="-3" y="-3"/>
+	<bitmapData resourceLink="asset.upgradeFrame.level" x="176" y="113"/>
+</bitmaps>
+</style>

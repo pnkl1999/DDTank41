@@ -1,0 +1,44 @@
+<Result value="true" message="Success!">
+  <ItemTemplate>
+    <Item Level="1" Attack="6" Lucky="6" Agility="6" Blood="40" Defence="6" Guard="3" Exp="80" />
+    <Item Level="2" Attack="9" Lucky="9" Agility="9" Blood="55" Defence="9" Guard="5" Exp="110" />
+    <Item Level="3" Attack="12" Lucky="12" Agility="12" Blood="70" Defence="12" Guard="7" Exp="160" />
+    <Item Level="4" Attack="15" Lucky="15" Agility="15" Blood="85" Defence="15" Guard="9" Exp="230" />
+    <Item Level="5" Attack="25" Lucky="25" Agility="25" Blood="130" Defence="25" Guard="14" Exp="330" />
+    <Item Level="6" Attack="35" Lucky="35" Agility="35" Blood="175" Defence="35" Guard="19" Exp="450" />
+    <Item Level="7" Attack="45" Lucky="45" Agility="45" Blood="220" Defence="45" Guard="24" Exp="590" />
+    <Item Level="8" Attack="55" Lucky="55" Agility="55" Blood="265" Defence="55" Guard="29" Exp="760" />
+    <Item Level="9" Attack="65" Lucky="65" Agility="65" Blood="310" Defence="65" Guard="34" Exp="950" />
+    <Item Level="10" Attack="81" Lucky="81" Agility="81" Blood="385" Defence="81" Guard="42" Exp="1170" />
+    <Item Level="11" Attack="97" Lucky="97" Agility="97" Blood="460" Defence="97" Guard="50" Exp="1420" />
+    <Item Level="12" Attack="113" Lucky="113" Agility="113" Blood="535" Defence="113" Guard="58" Exp="1690" />
+    <Item Level="13" Attack="129" Lucky="129" Agility="129" Blood="610" Defence="129" Guard="66" Exp="1990" />
+    <Item Level="14" Attack="145" Lucky="145" Agility="145" Blood="685" Defence="145" Guard="74" Exp="2320" />
+    <Item Level="15" Attack="168" Lucky="168" Agility="168" Blood="790" Defence="168" Guard="85" Exp="2670" />
+    <Item Level="16" Attack="191" Lucky="191" Agility="191" Blood="895" Defence="191" Guard="96" Exp="3050" />
+    <Item Level="17" Attack="214" Lucky="214" Agility="214" Blood="1000" Defence="214" Guard="107" Exp="3460" />
+    <Item Level="18" Attack="237" Lucky="237" Agility="237" Blood="1105" Defence="237" Guard="118" Exp="3900" />
+    <Item Level="19" Attack="260" Lucky="260" Agility="260" Blood="1210" Defence="260" Guard="129" Exp="4370" />
+    <Item Level="20" Attack="289" Lucky="289" Agility="289" Blood="1345" Defence="289" Guard="143" Exp="4870" />
+    <Item Level="21" Attack="318" Lucky="318" Agility="318" Blood="1480" Defence="318" Guard="157" Exp="5400" />
+    <Item Level="22" Attack="347" Lucky="347" Agility="347" Blood="1615" Defence="347" Guard="171" Exp="5950" />
+    <Item Level="23" Attack="376" Lucky="376" Agility="376" Blood="1750" Defence="376" Guard="185" Exp="6530" />
+    <Item Level="24" Attack="405" Lucky="405" Agility="405" Blood="1885" Defence="405" Guard="199" Exp="7140" />
+    <Item Level="25" Attack="441" Lucky="441" Agility="441" Blood="2050" Defence="441" Guard="216" Exp="7790" />
+    <Item Level="26" Attack="477" Lucky="477" Agility="477" Blood="2215" Defence="477" Guard="233" Exp="8470" />
+    <Item Level="27" Attack="513" Lucky="513" Agility="513" Blood="2380" Defence="513" Guard="250" Exp="9180" />
+    <Item Level="28" Attack="549" Lucky="549" Agility="549" Blood="2545" Defence="549" Guard="267" Exp="9920" />
+    <Item Level="29" Attack="585" Lucky="585" Agility="585" Blood="2710" Defence="585" Guard="284" Exp="10690" />
+    <Item Level="30" Attack="627" Lucky="627" Agility="627" Blood="2905" Defence="627" Guard="304" Exp="11490" />
+    <Item Level="31" Attack="669" Lucky="669" Agility="669" Blood="3100" Defence="669" Guard="324" Exp="12290" />
+    <Item Level="32" Attack="711" Lucky="711" Agility="711" Blood="3300" Defence="711" Guard="344" Exp="13090" />
+    <Item Level="33" Attack="921" Lucky="921" Agility="921" Blood="3500" Defence="921" Guard="364" Exp="13890" />
+    <Item Level="34" Attack="1005" Lucky="1005" Agility="1005" Blood="3700" Defence="1005" Guard="384" Exp="14690" />
+    <Item Level="35" Attack="1047" Lucky="1047" Agility="1047" Blood="3900" Defence="1047" Guard="404" Exp="15490" />
+    <Item Level="36" Attack="1089" Lucky="1089" Agility="1089" Blood="4100" Defence="1089" Guard="424" Exp="16290" />
+    <Item Level="37" Attack="1131" Lucky="1131" Agility="1131" Blood="4300" Defence="1131" Guard="444" Exp="17090" />
+    <Item Level="38" Attack="1215" Lucky="1215" Agility="1215" Blood="4500" Defence="1215" Guard="464" Exp="17890" />
+    <Item Level="39" Attack="1257" Lucky="1257" Agility="1257" Blood="4700" Defence="1257" Guard="484" Exp="18690" />
+    <Item Level="40" Attack="1299" Lucky="1299" Agility="1299" Blood="4900" Defence="1299" Guard="504" Exp="19490" />
+  </ItemTemplate>
+</Result>

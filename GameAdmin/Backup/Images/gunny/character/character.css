@@ -1,0 +1,263 @@
+body {
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    line-height: 19px;
+    color: #573700;
+}
+.char-info {
+    position:relative;
+    width:436px;
+    height:450px;
+    background:url(character-bg.png) no-repeat;
+}
+.char-guild {
+    position:relative;
+    width:160px;
+    height:25px;
+    padding-top:3px;
+    padding-left:72px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 22px;color: black;
+    text-shadow: 2px 2px 2px white;
+}
+.char-guild a, .char-guild a:hover,.char-guild a:visited{
+	color:black !important;
+}
+.char-guild .duty {
+    color:blue;
+    font-size:11px;
+}
+
+.char-rank ,.char-rank2 {
+    position:absolute;
+    width:60px;
+    line-height:22px;
+    top:38px;
+    left:310px;
+    font-weight:bold;
+    overflow:hidden;
+    color:white;
+    vertical-align:top;
+    text-shadow: gray 0px -1px 5px;
+}
+.char-rank {
+top: 62px;color:blue;
+}
+div.character-model {
+    position:relative;
+    top:10px;
+    left:135px;
+    width:160px;
+    height:180px;
+    overflow:hidden;
+    z-index:80
+}
+span.char-name {
+    color:yellow;
+    font-weight:bold;
+    padding-top:40px;
+    margin-left:20px;
+    display:block;
+}
+span.char-name a:link, a:visited {
+    color:yellow;
+    font-weight:bold; 
+    text-decoration: none;
+}
+span.char-name a:hover {
+    text-decoration: underline; 
+}
+span.char-title {
+    font-weight:normal;
+}
+.part {
+    background-repeat:no-repeat;
+    position:absolute;
+    top:5px;
+    left:30px;
+    width:360px;
+    height:150px;
+    z-index:95;
+}
+div.part2 {
+    position:absolute;
+}
+div.bg-circle {
+    z-index:50;
+    top:-20px;
+    left:-10px;
+}
+div.wings {
+    z-index:90;
+    top:-20px;
+    left:-5px;
+}
+div.effect {
+    z-index:100;
+    top:10;
+}
+div.effect {
+    z-index:100;
+    top:40px;
+    left:10px
+}
+.slot-left, .slot-right {
+    width:102px;
+    height:224px;
+    position:absolute;
+}
+.slot-right {
+    top:85px;
+    left:311px;
+}
+.slot-weapon {
+    width:190px;
+    height:60px;
+    position:absolute;
+    top:267px;
+    left:133px;
+}
+.slot-weapon .slot-item {
+    padding-right:10px;
+}
+.slot-status {
+    top:85px;
+    width:190px;
+    height:40px;
+    position:absolute;
+    left:133px;
+}
+.slot-status .slot-item {
+    float:left;
+    width:24px;
+    height:30px;
+    margin: 2px 3px 5px 0px;
+    overflow:hidden;
+}
+.slot-status .slot-item img {
+    width:24px;
+    height:30px
+}
+.slot-left {
+    top:86px;
+    left:25px;
+}
+.slot-item {
+    float:left;
+    width:42px;
+    height:42px;
+    margin: 4px 5px 5px 4px;
+    overflow:hidden;
+}
+.slot-item a img {
+    width:42px;
+    height:42px;
+    border:0
+}
+.slot-item a {
+    display:block;
+    width:41px;
+    height:41px;
+    background-color:#d8d1b5;
+}
+div#level-tooltip{
+	position:absolute;
+    top:85px;
+    left:260px;
+    width:40px;
+    height:30px;
+    overflow:hidden;
+    z-index:85;
+    
+}
+div.slot-level {
+    position:absolute;
+    top:80px;
+    left:255px;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    z-index:80;
+    text-align:center;
+}
+div.slot-level img {
+    width:35px;
+    width:35px;
+    padding-top:5px;
+}
+div.slot-level .level-effect {
+    position:absolute;
+    top:0;
+    left:0
+}
+div.slot-vip {
+    position:absolute;
+    top:120px;
+    left:267px;
+    width:27px;
+    height:27px;
+    overflow:hidden;
+    z-index:100;
+}
+div.slot-married {
+    position:absolute;
+    top:150px;
+    left:270px;
+    width:24px;
+    height:24px;
+    overflow:hidden;
+    z-index:100;
+}
+.level-progress {
+    position:relative;
+    top:52px;
+    line-height:30px;
+    vertical-align:middle;
+    left:00;
+    z-index:50;
+    font-weight:bold;
+}.level-progress  .level{float:left; position:relative; width:70px;  line-height:18px; text-align:right;vertical-align:top;font-size:16px;margin-right:5px}
+.level-progress  .bar-container{float:left; position:relative; width:108px;  height:22px; background:url(level-progress.png) no-repeat}
+.level-progress  .bar-container .value{
+position:relative; z-index:1; text-align:center; color:#FFFFFF; line-height:15px; font-weight:bold;
+}
+.level-progress  .bar-container .bar{
+position:relative; z-index:0; background-image:url(bar.gif); width:80%; height:16px; position: absolute; top: 1px; left:2px; border-right:1px solid #CC9900;
+}
+.char-detail {
+    width:440px;
+    height:93px;
+    padding-top:68px;
+    font-weight:bold;
+}
+.char-detail .properties-left {
+    float:left;
+    width:285px;
+    height:93px;
+    padding-left:30px;
+        padding-top:5px;
+        text-align:center;
+}
+
+.char-detail .properties-left span{
+    float:left;
+    width:60px;
+    height:20px;
+    margin: 18px 15px 0px 40px;
+    text-align:center;
+    color: black;
+}
+.char-detail .properties {
+    float:left;
+    width:85px;
+    height:93px;
+    padding-top:13px;
+}
+.char-detail .properties span.element {
+    display:block;
+    line-height:20px;
+    color:white;
+    width:85px;
+    text-align:center
+}

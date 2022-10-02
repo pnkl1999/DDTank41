@@ -1,0 +1,160 @@
+﻿<style name="churchRoomList" version="1.0.1" source="ui/spain/swf/churchRoomList.swf">
+<sets>
+	<set stylename="church.textFormat1" args="Arial,12,0x000000" type="flash.text.TextFormat" />
+	<set stylename="church.textFormat2" args="Arial,15,0x000000,true" type="flash.text.TextFormat"/>
+	<set stylename="church.textFormat3" args="Arial,12,0xFDE28B" type="flash.text.TextFormat" />
+	<set stylename="church.textFormat4" args="Arial,16,0x000000" type="flash.text.TextFormat" />
+	<set stylename="church.textFormat5" args="Arial,16,0x000000,true" type="flash.text.TextFormat" italic="true"/>
+	<set stylename="church.textFormat6" args="Arial,16,0x000000,true" type="flash.text.TextFormat" align="center"/>
+	<set stylename="church.textFormat7" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat" align="center"/>
+	<set stylename="church.textFormat8" args="Arial,16,0xFFFDD7,true" type="flash.text.TextFormat" align="left"/>
+	<set stylename="church.textFormat9" args="Arial,16,0xFFFFFF" type="flash.text.TextFormat" />
+	<set stylename="church.textFormat10" args="Arial,12,0x000000" type="flash.text.TextFormat"  kerning="true" letterSpacing="0"/>
+	<set stylename="church.textFormat11" args="Arial,12,0x000000,true" type="flash.text.TextFormat"/>
+	<set stylename="church.textFormat12" args="Arial,10,0xFF3C00" type="flash.text.TextFormat" />
+	<set stylename="church.GlowFilter1" args="0xFF5702,1,5,5,3" type="flash.filters.GlowFilter" />
+	<set stylename="church.GlowFilter2" args="0xFFFFFF,1,6,6,3" type="flash.filters.GlowFilter" />
+</sets>
+<components>
+	<!--房间大厅导航按钮-->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnCreateAsset" backStyle="asset.church.main.btnCreateAsset" filterString="null,lightFilter,null,grayFilter" x="565" y="143"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnJoinAsset" backStyle="asset.church.main.btnJoinAsset" filterString="null,lightFilter,null,grayFilter" x="565" y="254"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnDivorceAsset" backStyle="asset.church.main.btnDivorceAsset" filterString="null,lightFilter,null,grayFilter" x="565" y="361"/>
+	
+	<!--房间列表-->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnPageFirstAsset" backStyle="asset.church.main.btnPageFirstAsset" filterString="null,lightFilter,null,grayFilter" x="598" y="458"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnPageBackAsset" backStyle="asset.church.main.btnPageBackAsset" filterString="null,lightFilter,null,grayFilter" x="648" y="458"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnPageNextAsset" backStyle="asset.church.main.btnPageNextAsset" filterString="null,lightFilter,null,grayFilter" x="803" y="458"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.main.btnPageLastAsset" backStyle="asset.church.main.btnPageLastAsset" filterString="null,lightFilter,null,grayFilter" x="854" y="458"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.lblPageInfo" textFormatStyle="church.textFormat7" autoSize="none" x="703" y="461" width="91" height="20"/>
+	
+	<!--基础文本-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.filterFrameText1" textFormatStyle="church.textFormat1" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.filterFrameText2" textFormatStyle="church.textFormat2" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.filterFrameText3" textFormatStyle="church.textFormat4" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.filterFrameText4" textFormatStyle="church.textFormat9" />
+	
+	<!--创建房间-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.main.createRoomFrameLeftTopBg" parentStyle="core.scale9CornerImage1" x="12" y="25" width="266" height="113"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.main.createRoomFrameLeftBottomBg" parentStyle="core.scale9CornerImage1" x="12" y="166" width="266" height="113"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.txtCreateRoomName" textFormatStyle="church.textFormat2" type="input" autoSize="none" maxChars="40" multiline="false" textInnerRectString="10,10,3,2,0" backgroundColor="0xFFFFFF" x="32" y="42" width="224" height="21"/>
+	<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="church.main.chkCreateRoomPassword" parentStyle="core.simpleSelectBtn" selectedIconStyle="asset.church.roomCreatePwdLabelAsset" unselectedIconStyle="asset.church.roomCreatePwdLabelAsset" x="31" y="79"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="church.main.txtCreateRoomPassword" textStyle="church.filterFrameText1" textInnerRectString="0,0,0,0,0" backStyle="core.textInputBg" x="106" y="78" width="112" height="17" filterString="null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="church.main.chkCreateRoomIsGuest" parentStyle="core.simpleSelectBtn" selectedIconStyle="asset.church.roomCreateGuestLabelAsset" unselectedIconStyle="asset.church.roomCreateGuestLabelAsset" x="31" y="107"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.church.main.roomCreateIntroMaxChLabelAsset" textFormatStyle="church.textFormat3" x="416" y="9" width="76" height="16"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.main.createRoomFrameRightBg" parentStyle="core.scale9CornerImage3" x="288" y="27" width="248" height="254"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="asset.church.main.txtRoomCreateIntroAsset" textStyle="church.filterFrameText3" x="293" y="31" width="235" height="244"/>
+	
+	<!--时间选择-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.church.roomCreateTime1Selected" resourceLink="asset.church.roomCreateTime1AcAsset,asset.church.roomCreateTimeAcAsset" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.church.roomCreateTime1SelectedBtn" unSelectedStyle="asset.church.roomCreateTime1Asset" selectedStyle="asset.church.roomCreateTime1Selected" x="22.05" y="186"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.church.roomCreateTime2Selected" resourceLink="asset.church.roomCreateTime2AcAsset,asset.church.roomCreateTimeAcAsset" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.church.roomCreateTime2SelectedBtn" unSelectedStyle="asset.church.roomCreateTime2Asset" selectedStyle="asset.church.roomCreateTime2Selected" x="109.05" y="186"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.church.roomCreateTime3Selected" resourceLink="asset.church.roomCreateTime3AcAsset,asset.church.roomCreateTimeAcAsset" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.church.roomCreateTime3SelectedBtn" unSelectedStyle="asset.church.roomCreateTime3Asset" selectedStyle="asset.church.roomCreateTime3Selected" x="196" y="186"/>
+
+	<!--房间列表-->
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.church.main.WeddingRoomListBoxAsset" x="580" y="196" width="335" height="247" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.church.main.WeddingRoomListItemAsset" resourceLink="asset.church.main.bgListItemAcAsset,asset.church.main.bgListItemAsset"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.church.main.weddingRoomListItemNumberAsset" textFormatStyle="church.textFormat5" x="8" y="5" width="39" height="22"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.church.main.weddingRoomListItemNameAsset" textFormatStyle="church.textFormat4" autoSize="none"  x="58" y="5" width="208" height="22"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.church.main.weddingRoomListItemCountAsset" textFormatStyle="church.textFormat6" x="264" y="5" width="66" height="22"/>
+
+	<!--确认进入房间-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.main.roomEnterConfirmBg" parentStyle="core.scale9CornerImage1" x="14" y="0" width="548" height="221"/>
+	<component classname="com.pickgliss.ui.image.Image" resourceLink="asset.church.roomEnterLine2Asset" stylename="church.roomEnterLine2Asset" x="24" y="83" />
+	<component classname="com.pickgliss.ui.image.Image" resourceLink="asset.church.roomEnterLine2Asset" stylename="church.roomEnterLine3Asset" x="24" y="125" />
+	<component classname="com.pickgliss.ui.image.Image" resourceLink="asset.church.roomEnterLine2Asset" stylename="church.roomEnterLine4Asset" x="24" y="169" />
+	<component classname="com.pickgliss.ui.image.Image" resourceLink="asset.church.roomEnterLine2Asset" stylename="church.roomEnterLine5Asset" x="24" y="211" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.roomEnterRoomNameTextAsset" autoSize="none" textFormatStyle="church.textFormat8" filterString="church.GlowFilter1"  width="430" x="125" y="12" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.roomEnterGroomTextAsset" textFormatStyle="church.textFormat8" filterString="church.GlowFilter1" x="115" y="56" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.roomEnterBrideTextAsset" textFormatStyle="church.textFormat8" filterString="church.GlowFilter1" x="115" y="98" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.roomEnterCountTextAsset" textFormatStyle="church.textFormat8" filterString="church.GlowFilter1" x="115" y="142" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.roomEnterSpareTimeTextAsset" textFormatStyle="church.textFormat8" filterString="church.GlowFilter1" x="141" y="185" />
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="church.main.txtRoomEnterDescriptionAsset" textStyle="church.filterFrameText3" x="304" y="76" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.view.weddingRoomList.frame.WeddingRoomCreateView"
+		textFormatStyle="church.textFormat10" wordWrap="true"  multiline="true" mouseChildren = "false" mouseEnabled = "false"
+		 x="2" y="2" />
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="church.view.weddingRoomList.frame.txtRoomEnterDescriptionAsset"
+		parentStyle="core.SimpleTextArea"  
+		backgoundInnerRectString="5,3,4,6,-1" textStyle="church.view.weddingRoomList.frame.WeddingRoomCreateView"  vScrollProxy='1'
+		x="304" y="77" width="241" height="137" vUnitIncrement="10"/>
+	
+	<!--确认进入房间-密码输入-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.main.roomEnterRoomPasswordLabelAsset" textFormatStyle="church.textFormat7" x="12" y="-7" />
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="church.main.roomEnterRoomPasswordTextAsset" textStyle="church.filterFrameText4" backStyle="asset.core.bg007" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="5,5,3,2,0" x="90" y="0" width="100" height="25" />
+
+	<!--创建房间-->
+	<component classname="church.view.weddingRoomList.frame.WeddingRoomCreateView" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="5,5,1" width="572" height="380" containerX="12" containerY="40" stylename="church.main.weddingRoomList.weddingRoomCreateView"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.view.weddingRoomList.frame.WeddingRoomCreateViewInput"
+		textFormatStyle="church.textFormat10" wordWrap="true"  multiline='true'
+		type="input" x="2" y="2" />
+	
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="church.view.weddingRoomList.frame.WeddingRoomCreateViewField"
+		parentStyle="core.SimpleTextArea"  
+		backgoundInnerRectString="5,3,4,6,-1" textStyle="church.view.weddingRoomList.frame.WeddingRoomCreateViewInput"  vScrollProxy='0'
+		x="290" y="29" width="244" height="249" vUnitIncrement="10"/>
+	
+	<!--进入房间确认窗口-->
+	<component classname="church.view.weddingRoomList.frame.WeddingRoomEnterConfirmView" parentStyle="BaseFrame" width="600" height="325" containerX="12" containerY="40"  moveEnable="false" stylename="church.main.weddingRoomList.WeddingRoomEnterConfirmView"/>
+
+	<!--进入房间确认密码输入窗口-->
+	<component classname="church.view.weddingRoomList.frame.WeddingRoomEnterInputPasswordView" parentStyle="BaseFrame" width="280" height="120" containerX="12" containerY="40" stylename="church.main.weddingRoomList.WeddingRoomEnterInputPasswordView"/>
+	
+	<!--离婚窗口-->
+	<component classname="church.view.weddingRoomList.frame.WeddingUnmarryView" parentStyle="BaseFrame" moveEnable="false" width="450" height="216" containerX="15" containerY="5" stylename="church.weddingRoomList.frame.WeddingUnmarryView"/>
+</components>
+<customDisplay>
+	<!--房间列表-->
+	<custom classname="church.view.weddingRoomList.WeddingRoomListItemView" stylename="church.view.WeddingRoomListItemView" />
+	<custom classname="flash.geom.Point" stylename="church.view.WeddingRoomListItemView.cellPos" x="382" y="317"/>
+</customDisplay>
+<bitmaps>
+	<!--房间大厅-->
+	<bitmapData resourceLink="asset.church.main.titleMainAsset" x="303" y="11" />
+	<bitmapData resourceLink="asset.church.main.picPreviewAsset" x="-12" y="59" />
+	<bitmapData resourceLink="asset.church.main.bgNavAsset" x="533" y="57" />
+	<bitmapData resourceLink="asset.church.main.bgJoinListAsset" x="533" y="57" />
+	
+	<!--创建房间-->
+	<bitmapData resourceLink="asset.church.roomCreateRoomNameTitleAsset" x="17" y="6" />
+	<bitmapData resourceLink="asset.church.roomCreateTimeTitleAsset" x="17" y="148" />
+	<bitmapData resourceLink="asset.church.roomCreatePwdLabelAsset" x="20" y="-4" />
+	<bitmapData resourceLink="asset.church.roomCreateGuestLabelAsset" x="20" y="-4" />
+	
+	<bitmapData resourceLink="asset.church.roomCreateIntroAsset" x="289" y="-9" />
+	<bitmapData resourceLink="asset.church.roomCreateIntroMaxChBgAsset" width="140" height="16" x="412" y="10" />
+	
+	<!--房间列表-->
+	<bitmapData resourceLink="asset.church.roomListItemLockAsset" x="58" y="7" />
+	
+	<!--进入房间确认窗口-->
+	<bitmapData resourceLink="asset.church.roomEnterRoomNameAsset" x="30" y="4" />
+	<bitmapData resourceLink="asset.church.roomEnterGroomAsset" x="30" y="49" />
+	<bitmapData resourceLink="asset.church.roomEnterBrideAsset" x="30" y="92" />
+	<bitmapData resourceLink="asset.church.roomEnterCountAsset" x="30" y="134" />
+	<bitmapData resourceLink="asset.church.roomEnterSpareTimeAsset" x="30" y="178" />
+	<bitmapData resourceLink="asset.church.roomEnterLineBoxAsset" x="300" y="67" />
+	
+	<bitmapData resourceLink="asset.church.roomEnterDescriptionAsset" x="301" y="48" />
+	<bitmapData resourceLink="asset.church.roomEnterLine1Asset" x="24" y="36" />
+	<bitmapData resourceLink="asset.church.roomEnterLine2Asset" />
+	
+	<!--离婚提示-->
+	<bitmapData resourceLink="asset.church.UnmarryAsset" x="-18" y="30"/>
+	<bitmapData resourceLink="asset.church.divorceTitleAsset"   x="193" y="0"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.view.weddingRoomList.WeddingUnmarryViewT1"
+	textFormatStyle="church.textFormat11" wordWrap="false"  multiline="false" mouseChildren = "false" mouseEnabled = "false"
+	x="48" y="116" />	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.view.weddingRoomList.WeddingUnmarryViewT2"
+	textFormatStyle="church.textFormat11" wordWrap="false"  multiline="false" mouseChildren = "false" mouseEnabled = "false"
+	x="314" y="114" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.view.weddingRoomList.WeddingUnmarryViewT3"
+	textFormatStyle="church.textFormat12" wordWrap="false"  multiline="false" mouseChildren = "false" mouseEnabled = "false"
+	filterString="church.GlowFilter2" x="5" y="141" />
+	<custom classname="flash.geom.Point" stylename="church.view.weddingRoomList.pointout" x="5214" y="999" />	
+</bitmaps>
+</style>

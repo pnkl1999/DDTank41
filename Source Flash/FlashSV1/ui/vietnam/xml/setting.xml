@@ -1,0 +1,53 @@
+<style name="setting" version="1.0.1" source="ui/spain/swf/setting.swf">
+	<sets>
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="setting.sliderBg1" x="16" y="73"/>
+		<custom classname="flash.geom.Point" stylename="setting.sliderBg2" x="16" y="152"/>
+		<custom classname="flash.geom.Point" stylename="setting.recommendHintPos" x="15" y="407"/>
+	</customs>
+	
+	<components>
+		<!--Frame-->
+		<component classname="setting.view.SettingView" stylename="setting.mainFrame" moveEnable="false" parentStyle="BaseFrame" containerX="10" containerY="30" width="328" height="510" x="336" y="45"/>
+		
+		<!--Image-->
+		<component classname="com.pickgliss.ui.image.Image" stylename="setting.title1" resourceLink="asset.setting.title" width="305" height="23" x="2" y="2"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="setting.title2" resourceLink="asset.setting.title" width="305" height="23" x="2" y="197"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="setting.title3" resourceLink="asset.setting.title" width="305" height="23" x="2" y="277"/>
+		
+		<!--CheckBox-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.cbBjyy" 
+		unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" 
+		useLogID="119" textStyle="asset.setting.bjyy" displacement="false" 
+		fieldX="37" fieldY="9" width="103" height="28" x="23" y="37"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.cbYxyx" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" useLogID="120" textStyle="asset.setting.yxyx" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="23" y="116"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.cbWqtx" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" useLogID="121" textStyle="asset.setting.wqtx" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="23" y="229"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.cbLbgn" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" useLogID="122" textStyle="asset.setting.lbgn" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="177" y="229"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.cbJsyq" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" useLogID="123" textStyle="asset.setting.jsyq" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="23" y="304"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.cbSxts" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" useLogID="124" textStyle="asset.setting.sxts" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="177" y="304"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.allowAddFriend" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" textStyle="asset.setting.addFriend" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="23" y="334"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.CommunityFunction" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" textStyle="asset.setting.CommunityFunction" displacement="false" fieldX="37" fieldY="9" x="177" y="334"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.refusedPrivateChat" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" textStyle="asset.setting.refusedPrivateChat" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="23" y="364"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="setting.academy" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" textStyle="asset.setting.academy" displacement="false" fieldX="37" fieldY="9" width="103" height="28" x="23" y="394"/>
+		
+		<!--HSilder-->  
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="setting.sliderIconButton" backStyle="asset.setting.warhead" displacement="false" width="43" height="26" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="setting.silderGrayBar" resourceLink="asset.setting.grayBarAsset" width="216" height="23"/>  
+		<component classname="com.pickgliss.ui.controls.Silder" stylename="setting.HSilderBJYY" thumbStyle="setting.sliderIconButton" barStyle="setting.silderGrayBar" progressBarStyle="asset.setting.progressBarAsset" maskShowAreaInnerRectString="5,15,0,0,0" thumbShowInnerRectString="11,23,-1,0,0" width="216" height="23" x="47" y="80" minimum="0" maximum="100" />
+		<component classname="com.pickgliss.ui.controls.Silder" stylename="setting.HSilderYXYX" parentStyle="setting.HSilderBJYY" x="47" y="159" />
+	</components>
+	
+	<bitmaps>
+		
+		<bitmapData resourceLink="asset.setting.selectedCheckBtn" width="29" height="28" x="0" y="0"/>
+		<bitmapData resourceLink="asset.setting.bg" width="308" height="432" x="0" y="2"/>
+		<bitmapData resourceLink="asset.setting.ypsz" width="76" height="28" x="3" y="1"/>
+		<bitmapData resourceLink="asset.setting.xssz" width="76" height="28" x="3" y="195"/>
+		<bitmapData resourceLink="asset.setting.gnsz" width="76" height="28" x="3" y="275"/>
+		
+		<bitmapData resourceLink="asset.setting.sliderBg" width="279" height="36"/>
+		<bitmapData resourceLink="asset.setting.warhead" width="43" height="26" x="-25"/>
+	</bitmaps>
+</style>

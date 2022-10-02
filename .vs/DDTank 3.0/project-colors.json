@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "e9b67168-6c13-42f6-b199-b3dd95118af2": {
+      "ProjectGuid": "e9b67168-6c13-42f6-b199-b3dd95118af2",
+      "DisplayName": "Game.Logic",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

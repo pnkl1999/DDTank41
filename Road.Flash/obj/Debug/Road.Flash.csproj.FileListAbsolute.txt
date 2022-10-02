@@ -1,0 +1,207 @@
+C:\Source\Road.Flash\bin\Debug\Road.Flash.dll
+C:\Source\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\Source\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\Source\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\Source\Road.Flash\bin\Debug\System.Memory.dll
+C:\Source\Road.Flash\bin\Debug\System.Buffers.dll
+C:\Source\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\Source\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\Source\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Source\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\Source\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\Source\Road.Flash\obj\Debug\Road.Flash.dll
+C:\Source\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\Road.Flash.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\obj\Debug\Road.Flash.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Road.Flash\obj\Debug\Road.Flash.pdb
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\Road.Flash.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\Road.Flash.pdb
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\SqlDataProvider.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\protobuf-net.Core.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Memory.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Buffers.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source\Road.Flash\bin\Debug\SqlDataProvider.pdb
+G:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+G:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.dll
+G:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\Road.Flash.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\obj\Debug\Road.Flash.dll
+C:\Users\Administrator\Desktop\Source8-12\Road.Flash\obj\Debug\Road.Flash.pdb
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\Road.Flash.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\Road.Flash.pdb
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\SqlDataProvider.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\protobuf-net.Core.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Memory.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Buffers.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source\Road.Flash\bin\Debug\SqlDataProvider.pdb
+H:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+H:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.dll
+H:\1.Gunny Project\Source\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\Road.Flash.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\System.Memory.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\obj\Debug\Road.Flash.dll
+C:\Users\Administrator\Desktop\Source 26-12\Road.Flash\obj\Debug\Road.Flash.pdb
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\Road.Flash.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\Road.Flash.pdb
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\SqlDataProvider.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\protobuf-net.Core.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Memory.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Buffers.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\SqlDataProvider.pdb
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.dll
+G:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.pdb
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\Road.Flash.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\Road.Flash.pdb
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\SqlDataProvider.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\protobuf-net.Core.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Memory.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Buffers.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\bin\Debug\SqlDataProvider.pdb
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.dll
+H:\1.Gunny Project\Source ManhQuynh\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\Road.Flash.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\log4net.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\System.Memory.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\System.Buffers.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\PhamNgocKhanhLam\Source\Road.Flash\bin\Debug\log4net.xml
+C:\PhamNgocKhanhLam\Source\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\PhamNgocKhanhLam\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\PhamNgocKhanhLam\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\PhamNgocKhanhLam\Source\Road.Flash\obj\Debug\Road.Flash.dll
+C:\PhamNgocKhanhLam\Source\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\NEWGUN\Source\Road.Flash\bin\Debug\Road.Flash.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\NEWGUN\Source\Road.Flash\bin\Debug\log4net.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\System.Memory.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\System.Buffers.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\NEWGUN\Source\Road.Flash\bin\Debug\log4net.xml
+C:\NEWGUN\Source\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\NEWGUN\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\NEWGUN\Source\Road.Flash\obj\Debug\Road.Flash.dll
+C:\NEWGUN\Source\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\Road.Flash.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\log4net.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\System.Memory.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\System.Buffers.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\NEWGUN\Source Server\Road.Flash\bin\Debug\log4net.xml
+C:\NEWGUN\Source Server\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\NEWGUN\Source Server\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source Server\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\NEWGUN\Source Server\Road.Flash\obj\Debug\Road.Flash.dll
+C:\NEWGUN\Source Server\Road.Flash\obj\Debug\Road.Flash.pdb
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\Road.Flash.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\Road.Flash.pdb
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\log4net.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\SqlDataProvider.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\protobuf-net.Core.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\System.Memory.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\System.Buffers.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\SqlDataProvider.pdb
+C:\NEWGUN36\NEWGUN\Road.Flash\bin\Debug\log4net.xml
+C:\NEWGUN36\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+C:\NEWGUN36\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+C:\NEWGUN36\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+C:\NEWGUN36\NEWGUN\Road.Flash\obj\Debug\Road.Flash.dll
+C:\NEWGUN36\NEWGUN\Road.Flash\obj\Debug\Road.Flash.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\Road.Flash.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\Road.Flash.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\log4net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\Newtonsoft.Json.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\SqlDataProvider.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\protobuf-net.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\System.Memory.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\System.Buffers.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\SqlDataProvider.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\log4net.xml
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\bin\Debug\Newtonsoft.Json.xml
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.pdb

@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>
+    </TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>H:\dandantang.1\publish.web\playgame</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AccessError.htm">
+      <publishTime>08/07/2010 16:07:32</publishTime>
+    </File>
+    <File Include="auth/forgotpass.ashx">
+      <publishTime>12/25/2012 21:56:09</publishTime>
+    </File>
+    <File Include="auth/forgotpass.aspx">
+      <publishTime>08/02/2013 20:43:21</publishTime>
+    </File>
+    <File Include="auth/register.ashx">
+      <publishTime>07/20/2012 17:24:58</publishTime>
+    </File>
+    <File Include="auth/register.aspx">
+      <publishTime>09/11/2013 05:17:50</publishTime>
+    </File>
+    <File Include="auth/register.html">
+      <publishTime>08/02/2013 19:17:47</publishTime>
+    </File>
+    <File Include="auth/validatecode.ashx">
+      <publishTime>07/17/2013 20:34:25</publishTime>
+    </File>
+    <File Include="auth/ValidateCode.aspx">
+      <publishTime>05/31/2013 23:21:27</publishTime>
+    </File>
+    <File Include="BeginLoad.aspx">
+      <publishTime>08/07/2010 16:07:34</publishTime>
+    </File>
+    <File Include="bin/Bussiness.dll">
+      <publishTime>01/18/2015 07:33:25</publishTime>
+    </File>
+    <File Include="bin/Bussiness.pdb">
+      <publishTime>06/03/2013 02:01:26</publishTime>
+    </File>
+    <File Include="bin/Game.Base.dll">
+      <publishTime>01/18/2015 07:33:24</publishTime>
+    </File>
+    <File Include="bin/Game.Base.pdb">
+      <publishTime>05/18/2013 17:31:23</publishTime>
+    </File>
+    <File Include="bin/Languages/Language-vn.txt">
+      <publishTime>01/12/2015 11:54:48</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>08/07/2010 16:02:36</publishTime>
+    </File>
+    <File Include="bin/log4net.xml">
+      <publishTime>08/07/2010 16:03:04</publishTime>
+    </File>
+    <File Include="bin/Road.Flash.dll">
+      <publishTime>01/20/2015 15:35:53</publishTime>
+    </File>
+    <File Include="bin/Road.Flash.pdb">
+      <publishTime>06/03/2013 01:47:50</publishTime>
+    </File>
+    <File Include="bin/SqlDataProvider.dll">
+      <publishTime>01/18/2015 07:33:24</publishTime>
+    </File>
+    <File Include="bin/SqlDataProvider.pdb">
+      <publishTime>06/03/2013 01:47:50</publishTime>
+    </File>
+    <File Include="bin/Tank.Flash.dll">
+      <publishTime>01/20/2015 15:35:53</publishTime>
+    </File>
+    <File Include="bin/Tank.Flash.pdb">
+      <publishTime>06/03/2013 02:39:43</publishTime>
+    </File>
+    <File Include="bin/zlib.net.dll">
+      <publishTime>08/07/2010 16:03:24</publishTime>
+    </File>
+    <File Include="characterDefine.xml">
+      <publishTime>08/17/2012 19:43:29</publishTime>
+    </File>
+    <File Include="checkuser.ashx">
+      <publishTime>07/18/2013 22:09:20</publishTime>
+    </File>
+    <File Include="config.xml">
+      <publishTime>08/19/2012 09:14:02</publishTime>
+    </File>
+    <File Include="createLogin.ashx">
+      <publishTime>07/20/2012 16:19:35</publishTime>
+    </File>
+    <File Include="CreatShortCut.ashx">
+      <publishTime>12/25/2012 22:19:45</publishTime>
+    </File>
+    <File Include="css/animate-custom.css">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_222222_256x240.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_454545_256x240.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_888888_256x240.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.accordion.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.all.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.autocomplete.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.base.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.button.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.core.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.datepicker.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.dialog.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.progressbar.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.resizable.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.selectable.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.slider.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.tabs.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/base/jquery.ui.theme.css">
+      <publishTime>09/11/2013 05:53:30</publishTime>
+    </File>
+    <File Include="css/Box_event_4.css">
+      <publishTime>02/09/2013 20:44:18</publishTime>
+    </File>
+    <File Include="css/demo.css">
+      <publishTime>09/11/2013 06:50:16</publishTime>
+    </File>
+    <File Include="css/event.css">
+      <publishTime>02/09/2013 20:39:48</publishTime>
+    </File>
+    <File Include="css/font-awesome.css">
+      <publishTime>07/19/2013 13:52:47</publishTime>
+    </File>
+    <File Include="css/fonts/BebasNeue-webfont.eot">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/BebasNeue-webfont.svg">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/BebasNeue-webfont.ttf">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/BebasNeue-webfont.woff">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/Dharma Type Font License.txt">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/fontomas-webfont.eot">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/fontomas-webfont.svg">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/fontomas-webfont.ttf">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/fontomas-webfont.woff">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/franchise-bold-webfont.eot">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/franchise-bold-webfont.svg">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/franchise-bold-webfont.ttf">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/fonts/franchise-bold-webfont.woff">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="css/gunny-index.css">
+      <publishTime>07/16/2013 23:44:18</publishTime>
+    </File>
+    <File Include="css/home.css">
+      <publishTime>02/09/2013 20:38:04</publishTime>
+    </File>
+    <File Include="css/mainsite.css">
+      <publishTime>12/25/2012 11:36:19</publishTime>
+    </File>
+    <File Include="css/style-frame.css">
+      <publishTime>12/25/2012 20:26:38</publishTime>
+    </File>
+    <File Include="css/style.css">
+      <publishTime>08/02/2013 20:29:53</publishTime>
+    </File>
+    <File Include="css/style2.css">
+      <publishTime>09/11/2013 01:27:00</publishTime>
+    </File>
+    <File Include="css/style3.css">
+      <publishTime>09/11/2013 01:27:00</publishTime>
+    </File>
+    <File Include="css/thickbox.css">
+      <publishTime>07/16/2013 23:44:18</publishTime>
+    </File>
+    <File Include="css/tinyscrollbar.css">
+      <publishTime>02/09/2013 21:44:38</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>07/19/2013 15:34:53</publishTime>
+    </File>
+    <File Include="default.html">
+      <publishTime>08/02/2013 20:21:52</publishTime>
+    </File>
+    <File Include="EndLoading.aspx">
+      <publishTime>08/07/2010 16:07:50</publishTime>
+    </File>
+    <File Include="Error.htm">
+      <publishTime>08/07/2010 16:07:54</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>12/12/2011 05:46:34</publishTime>
+    </File>
+    <File Include="font/fontawesome-webfont.eot">
+      <publishTime>07/16/2013 20:04:55</publishTime>
+    </File>
+    <File Include="font/fontawesome-webfont.svg">
+      <publishTime>07/16/2013 20:04:55</publishTime>
+    </File>
+    <File Include="font/fontawesome-webfont.ttf">
+      <publishTime>07/16/2013 20:04:55</publishTime>
+    </File>
+    <File Include="font/fontawesome-webfont.woff">
+      <publishTime>07/16/2013 20:04:55</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>08/07/2010 16:07:54</publishTime>
+    </File>
+    <File Include="html/idbannernew.htm">
+      <publishTime>02/09/2013 22:57:53</publishTime>
+    </File>
+    <File Include="html/idgn102012.htm">
+      <publishTime>12/25/2012 11:57:09</publishTime>
+    </File>
+    <File Include="html/saved_resource.htm">
+      <publishTime>02/09/2013 21:23:50</publishTime>
+    </File>
+    <File Include="images/bg-banner.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-bot.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-control.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-dangnhap.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-grass.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-loop.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-news.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-thaoluan.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-tinhnang.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-top.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-toploop.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-vukhi.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg-wrapper.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg.jpg">
+      <publishTime>09/11/2013 01:09:37</publishTime>
+    </File>
+    <File Include="images/bg2.jpg">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="images/bg3.jpg">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="images/bg_all.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg_scroBut_12x32.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/bg_scroVer_7x3.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/block-tintuc.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/blurred.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/btn-new-user.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/choingay.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/close.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/close1.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/cursors/default.cur">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/dangky.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/footerBg-x.jpg">
+      <publishTime>07/18/2013 17:02:14</publishTime>
+    </File>
+    <File Include="images/footerLogo.png">
+      <publishTime>07/19/2013 15:42:08</publishTime>
+    </File>
+    <File Include="images/forgot.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/gameBackGround.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/gn_bn_khamphacoloa_210x200.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/gn_bn_ManIp5_210x200.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/GN_CodehotGunnythang1_210x200.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/gunny_gaphiuluu_210x200.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/icon-light.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/icon-like.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/icon-note.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/icon-smile.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/icon01.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/iconRe.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/iconRe.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/loading.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/loai-vukhi-nor.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/logo7road.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/logogunny.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/menu-top.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/noise.jpg">
+      <publishTime>07/17/2013 00:16:03</publishTime>
+    </File>
+    <File Include="images/noise.png">
+      <publishTime>07/17/2013 00:13:07</publishTime>
+    </File>
+    <File Include="images/photo.png">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/popup.png">
+      <publishTime>07/17/2013 00:21:01</publishTime>
+    </File>
+    <File Include="images/so-do-huong-dan-newbies.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/tet_210x200.jpg">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/Thumbs.db">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="images/waiting.gif">
+      <publishTime>09/11/2013 02:53:59</publishTime>
+    </File>
+    <File Include="images/wood_pattern.jpg">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="images/__utm.gif">
+      <publishTime>07/16/2013 23:00:25</publishTime>
+    </File>
+    <File Include="index.htm">
+      <publishTime>01/22/2014 16:16:32</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="index1.htm">
+      <publishTime>09/11/2013 02:41:27</publishTime>
+    </File>
+    <File Include="index3.html">
+      <publishTime>09/11/2013 01:26:51</publishTime>
+    </File>
+    <File Include="js/jquery.placeholder.min.js">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="js/modernizr.custom.63321.js">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="load.htm">
+      <publishTime>07/16/2013 23:54:16</publishTime>
+    </File>
+    <File Include="loading.htm">
+      <publishTime>01/22/2014 16:07:37</publishTime>
+    </File>
+    <File Include="LoadingCount.aspx">
+      <publishTime>06/28/2012 14:47:16</publishTime>
+    </File>
+    <File Include="login.htm">
+      <publishTime>08/02/2013 20:21:52</publishTime>
+    </File>
+    <File Include="loginBK.htm">
+      <publishTime>07/18/2013 19:50:18</publishTime>
+    </File>
+    <File Include="LoginGame.aspx">
+      <publishTime>08/14/2013 16:37:45</publishTime>
+    </File>
+    <File Include="Login~.htm">
+      <publishTime>07/12/2013 23:04:28</publishTime>
+    </File>
+    <File Include="playgame.aspx">
+      <publishTime>08/07/2013 14:27:16</publishTime>
+    </File>
+    <File Include="script/common.js">
+      <publishTime>02/09/2013 21:54:30</publishTime>
+    </File>
+    <File Include="script/dandantang.js">
+      <publishTime>12/25/2012 20:37:10</publishTime>
+    </File>
+    <File Include="script/event.js">
+      <publishTime>02/09/2013 20:39:07</publishTime>
+    </File>
+    <File Include="script/fadegallery.js">
+      <publishTime>02/09/2013 20:41:03</publishTime>
+    </File>
+    <File Include="script/ga-idlogin-gn.js">
+      <publishTime>12/25/2012 11:36:19</publishTime>
+    </File>
+    <File Include="script/ga.js">
+      <publishTime>12/25/2012 11:36:19</publishTime>
+    </File>
+    <File Include="script/gt-analytic-idgunnynew.js">
+      <publishTime>12/25/2012 11:36:19</publishTime>
+    </File>
+    <File Include="script/gunny-index.js">
+      <publishTime>12/25/2012 11:36:19</publishTime>
+    </File>
+    <File Include="script/isSafeFlash.js">
+      <publishTime>12/25/2012 20:37:10</publishTime>
+    </File>
+    <File Include="script/jbanner.js">
+      <publishTime>02/09/2013 21:19:59</publishTime>
+    </File>
+    <File Include="script/jquery-1.7.2.min.js">
+      <publishTime>07/16/2013 22:30:49</publishTime>
+    </File>
+    <File Include="script/jquery-ui-1.8.21.custom.js">
+      <publishTime>09/11/2013 05:55:45</publishTime>
+    </File>
+    <File Include="script/jquery.corner.js">
+      <publishTime>09/11/2013 03:48:48</publishTime>
+    </File>
+    <File Include="script/jquery.js">
+      <publishTime>12/25/2012 21:13:53</publishTime>
+    </File>
+    <File Include="script/jquery.placeholder.min.js">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="script/jquery.ui.button.js">
+      <publishTime>09/11/2013 05:52:12</publishTime>
+    </File>
+    <File Include="script/mainsite.js">
+      <publishTime>12/25/2012 11:36:19</publishTime>
+    </File>
+    <File Include="script/modernizr.custom.63321.js">
+      <publishTime>07/16/2013 20:04:54</publishTime>
+    </File>
+    <File Include="script/popup.js">
+      <publishTime>07/17/2013 00:04:54</publishTime>
+    </File>
+    <File Include="script/rightClick.js">
+      <publishTime>12/25/2012 20:37:10</publishTime>
+    </File>
+    <File Include="script/swfobject.js">
+      <publishTime>12/25/2012 20:37:10</publishTime>
+    </File>
+    <File Include="script/thickbox.js">
+      <publishTime>08/02/2013 20:16:14</publishTime>
+    </File>
+    <File Include="script/webtoolkit.md5.js">
+      <publishTime>07/18/2013 22:40:33</publishTime>
+    </File>
+    <File Include="sectionlive.ashx">
+      <publishTime>07/19/2013 13:35:17</publishTime>
+    </File>
+    <File Include="smallNote.txt">
+      <publishTime>12/26/2012 20:49:14</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/11/2014 22:34:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

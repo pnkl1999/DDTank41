@@ -1,0 +1,197 @@
+<style name="guildmemberweek" version="2.0.1" source="ui/vietnam/swf/guildmemberweek.swf">
+
+
+
+	<sets>
+		<!-- 公会成员 贡献主界面 -->
+		
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.upDataTimeTxtTF" args="Arial,12,0xFFFAAD,true,,,,,right"/>
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.upDataTimeTxtTF1" args="Arial,12,0xFFFAAD,true,,,,,right"/>
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.dataShowLabelTxtTF" args="Arial,12,0xFFFAAD,true,,,,,center"/>
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.dataShowLabelTxtTF2" args="Arial,10,0xFFFAAD,true,,,,,center" leading="-1"/>
+		
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.NormalLabelTxtTF" args="Arial,11,0xFFFAAD,true,,,,,left"/>
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.BigLabelTxtTF" args="Arial,18,0xFFFAAD,true,,,,,left"/>
+		<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.dataShowBigLabelTxtTF" args="Arial,18,0xFFFF00,true,,,,,center"/>
+		
+		<set type="flash.filters.GlowFilter" stylename="guildmemberweek.mainFrame.upDataTimeTxtGF" args="0x471E00,1,4,4,10"/>
+		<set type="flash.filters.GlowFilter" stylename="guildmemberweek.mainFrame.left.addRankingTxtGF" args="0xFF6633,1,4,4,10"/>
+			<!-- 主界面的 左边排名前十数据显示 文本 -->
+			<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.TopTenLabelTxtTF" args="Arial,14,0xFFFFFF,true,,,,,center"/>
+			<set type="flash.text.TextFormat" stylename="guildmemberweek.mainFrame.TopTenContributeLabelTxtTF" args="Arial,14,0xFFFFFF,true,,,,,right"/>
+			<set type="flash.filters.GlowFilter" stylename="guildmemberweek.mainFrame.TopTenLabelTxtGF" args="0x000000,1,4,4,10"/>
+			<!-- 加码面板 中 文本 -->
+			<set type="flash.text.TextFormat" stylename="guildmemberweek.addRanking.ExplainTxtTF" args="Arial,16,0xFFFAAD,true,,,,,center"/>
+			<set type="flash.filters.GlowFilter" stylename="guildmemberweek.addRanking.ExplainTxtGF" args="0xFF0000,1,4,4,10"/>
+			<set type="flash.text.TextFormat" stylename="guildmemberweek.addRanking.DeductTaxExplainTxtTF" args="Arial,11,0xFFFF00,false,,,,,center"/>
+			<set type="flash.text.TextFormat" stylename="guildmemberweek.addRanking.LabelTxtTF" args="Arial,14,0x000000,true,,,,,center"/>
+			<set type="flash.text.TextFormat" stylename="guildmemberweek.addRanking.inputTxtTF" args="Arial,14,0xfff6c9,bold,,,,,right"/>
+		<!-- 排名前10弹出框 -->
+		<set stylename="guildmemberweek.Top10TF8"  args="Arial,14,0xfff4d4,true,,,,,left"  type="flash.text.TextFormat" leading = "5" letterSpacing="2"/>
+		<set stylename="guildmemberweek.Top10GF8" args="0x7c4519,1,2,2,30"  type="flash.filters.GlowFilter"/>	
+		<set stylename="guildmemberweek.Top10RedGF8" args="0xFF0000,1,2,2,30"  type="flash.filters.GlowFilter"/>	
+		<set stylename="guildmemberweek.Top10RedTF8"  args="Arial,14,0xfff4d4,true,,,,,center"  type="flash.text.TextFormat" leading = "5" letterSpacing="2"/>
+		<set stylename="guildmemberweek.selectBnt.TF4"  args="Arial,12,0xfff2b2,,,,,,left"  type="flash.text.TextFormat" />
+		<set stylename="guildmemberweek.selectBnt.GF4" args="0x411c00,1,2,2,30"  type="flash.filters.GlowFilter"/>
+	
+		<set stylename="guildmemberweek.mainFrame.left.giftNumberShowTxtTF"  args="Arial,10,0x000000,,,,,,right"  type="flash.text.TextFormat" />
+		<set stylename="guildmemberweek.mainFrame.left.giftNumberShowTxtG" args="0xFFFFFF,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		
+	
+	
+	</sets>
+	
+	
+	
+
+
+	<components>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.coreIcon.guildMemberWeekNo1AssetImg" resourceLink="asset.coreIcon.orderNo1Asset" x="20"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.coreIcon.guildMemberWeekNo2AssetImg" resourceLink="asset.coreIcon.orderNo2Asset" x="20"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.coreIcon.guildMemberWeekNo3AssetImg" resourceLink="asset.coreIcon.orderNo3Asset" x="20"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.guildMemberWeektopThreeRink" resourceLink="asset.coreIcon.guildMemberWeekNo1AssetImg,asset.coreIcon.guildMemberWeekNo2AssetImg,asset.coreIcon.guildMemberWeekNo3AssetImg"/>
+		
+		<!-- 周贡献场景界面 -->
+		<component classname="guildMemberWeek.view.GuildMemberWeekFrame" backStyle="SimpleFrameBackgound"
+		closestyle="core.closebt" stylename="Window.guildmemberweek.GuildMemberWeekFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="44,19,6,30,14" width="852" height="535" />	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.MainrunkingBG.png" resourceLink="asset.guildmemberweek.Main.bigrunking.png" x="0" y="-2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.MainrunkingSG.png" resourceLink="asset.guildmemberweek.Main.smallrunking.png" x="5" y="423"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.MainRecordBG.png" resourceLink="asset.guildmemberweek.Main.RightRcord.png" x="580" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.MainTenMBG.png" resourceLink="asset.guildmemberweek.Main.10MBG.png" x="550" y="440"/>
+		<!-- 加码记录 -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.MainrightRecordBG.png" resourceLink="asset.guildmemberweek.Main.rightRecordbg.png" x="0" y="0"/>
+		
+		<!-- 按钮设置 -->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="guildmemberweek.MainFrme.addRanking.btn" backStyle="asset.guildmemberweek.MainFrame.addRanking" x="480" y="400" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		
+		<component classname="guildMemberWeek.view.GuildMemberWeekHelpFrame" stylename="guildmemberweek.HelpFrame" parentStyle="BaseFrame" width="414" height="454" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="guildmemberweek.help.btn" backStyle="asset.guildmemberweek.help" x="735" y="-41" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<!-- 滚动条 -->
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="guildmemberweek.RankingRecordListBox" spacing="10" x="45" y="160" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="guildmemberweek.help.scrollpanel" thumbStyle="core.scrollVThumb" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="365" height="370" x="20" y="50"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="guildmemberweek.MainFrameRight.scrollpanel" thumbStyle="core.scrollVThumb" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="210" height="340" x="0" y="0"/>
+		<!-- 排名前10 滚动条 -->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="guildmemberweek.MainFrameLeft.TopTenscrollpanel" thumbStyle="core.scrollVThumb" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="650" height="360" x="0" y="0"/>
+		<!-- 文本 -->
+		<!-- 数据表刷新显示 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.upDataTimeTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.NormalLabelTxtTF" autoSize="none" height="30" width="400" x="10" y="405"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.upExplainTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.upDataTimeTxtTF" autoSize="none" height="30" width="250" x="540" y="445"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.activityStartTimeTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.upDataTimeTxtTF1" autoSize="none" height="30" width="250" x="540" y="378"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.activityEndTimeTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.upDataTimeTxtTF1" autoSize="none" height="30" width="250" x="540" y="406"/>
+		<!-- GuildMemberWeekFrame标签 "加码记录"-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.MainFrame.Right.AddRankingRecordItem.countTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.NormalLabelTxtTF"  wordWrap="true" height="55" width="190" x="0" y="0"/>
+		
+		<!-- GuildMemberWeekFrame标签 "我的排名" "我的贡献"-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.ShowMyRankingTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowBigLabelTxtTF" autoSize="none" height="30" width="80" x="90" y="431"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.ShowMyContributeTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowBigLabelTxtTF" autoSize="none" height="30" width="100" x="260" y="431"/>
+		<!-- 排名前十数据列表标签 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.dataTitleRankingTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowLabelTxtTF" autoSize="none" height="30" width="100" x="-2" y="12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.dataTitleNameTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowLabelTxtTF" autoSize="none" height="30" width="100" x="105" y="12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.dataTitleContributeTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowLabelTxtTF2" autoSize="none" height="35" width="60" x="239" y="8" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.dataTitleRankingGiftTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowLabelTxtTF" autoSize="none" height="30" width="110" x="340" y="12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.dataTitleAddRankingGiftTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.dataShowLabelTxtTF" autoSize="none" height="30" width="100" x="471" y="12"/>
+		<!-- 排名前十的列表 项文本设置 -->
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="guildmemberweek.RankingTopTenListBox" spacing="5" x="0" y="0" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.MainFrame.left.ShowGuildMemberDataItem.RankingTxt" filterString="guildmemberweek.mainFrame.TopTenLabelTxtGF" textFormatStyle="guildmemberweek.mainFrame.TopTenLabelTxtTF" autoSize="none" height="22" width="90" x="0" y="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.MainFrame.left.ShowGuildMemberDataItem.MemberNameTxt" filterString="guildmemberweek.mainFrame.TopTenLabelTxtGF" textFormatStyle="guildmemberweek.mainFrame.TopTenLabelTxtTF" autoSize="none" height="22" width="125" x="82" y="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.MainFrame.left.ShowGuildMemberDataItem.MemberContributeTxt" filterString="guildmemberweek.mainFrame.TopTenLabelTxtGF" textFormatStyle="guildmemberweek.mainFrame.TopTenContributeLabelTxtTF" autoSize="none" height="22" width="90" x="215" y="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.MainFrame.left.ShowGuildMemberDataItem.AddRankingTxt" filterString="guildmemberweek.mainFrame.left.addRankingTxtGF" textFormatStyle="guildmemberweek.mainFrame.TopTenContributeLabelTxtTF" autoSize="none" height="22" width="90" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.mainFrame.left.giftNumberShowTxt"  textFormatStyle="guildmemberweek.mainFrame.left.giftNumberShowTxtTF" filterString="guildmemberweek.mainFrame.left.giftNumberShowTxtG" autoSize="none" height="15" width="30" x="0" y="15"/>
+		
+		<!-- 活动结束界面 -->
+		<component classname="guildMemberWeek.view.ShowRankingFrame.GuildMemberWeekShowRankingFrame" backStyle="SimpleFrameBackgound"
+		closestyle="core.closebt" stylename="Window.guildmemberweek.GuildMemberWeekShowRankingFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="44,19,6,30,14" width="625" height="535" />
+		
+		
+		
+		
+		
+		
+		<!-- 公会成员周贡献  加码界面 -->
+		<component classname="guildMemberWeek.view.addRankingFrame.GuildMemberWeekAddRankingFrame" backStyle="SimpleFrameBackgoundOneIII"
+		closestyle="core.closebt" stylename="Window.guildmemberweek.GuildMemberWeekAddRankingFrame" titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+		closeInnerRectString="44,19,6,30,14" width="442" height="400" />	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.AddRankingFrameBG" resourceLink="asset.guildmemberweek.AddRankingFrame.BG" x="5" y="60"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.AddRankingFrameExplainBG" resourceLink="asset.guildmemberweek.AddRankingFrameExplain.BG" x="5" y="28"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.guildmemberweek.AddRankingFramePlayerPoint" resourceLink="asset.guildmemberweek.AddRankingFrame.PlayerPoint.png" x="25" y="2"/>
+		
+			<!-- 文本 -->
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.PlayerPointBookTxt" filterString="guildmemberweek.addRanking.ExplainTxtGF" textFormatStyle="guildmemberweek.addRanking.ExplainTxtTF" autoSize="none" height="30" width="100" x="84" y="1"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.DeductTaxExplainTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.addRanking.DeductTaxExplainTxtTF" autoSize="none" height="30" width="410" x="0" y="30"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.PutInPointBookExplainLabelTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.NormalLabelTxtTF" autoSize="none" height="30" width="140" x="134" y="70"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.GetPointBookExplainLabelTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.NormalLabelTxtTF" autoSize="none" height="30" width="150" x="270" y="70"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.RankingLabelTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.NormalLabelTxtTF" autoSize="none" height="30" width="150" x="17" y="70"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.Item.RankingTxt" filterString="guildmemberweek.mainFrame.TopTenLabelTxtGF" textFormatStyle="guildmemberweek.mainFrame.TopTenLabelTxtTF" autoSize="none" height="23" width="70" x="5" y="7"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.Item.AddPointBookTxt" filterString="guildmemberweek.mainFrame.upDataTimeTxtGF" textFormatStyle="guildmemberweek.mainFrame.upDataTimeTxtTF" autoSize="none" height="23" width="70" x="155" y="7"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.Item.GetPointBookTxt" filterString="guildmemberweek.addRanking.ExplainTxtGF" textFormatStyle="guildmemberweek.mainFrame.upDataTimeTxtTF" autoSize="none" height="23" width="70" x="340" y="7"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildmemberweek.addRankingFrame.Item.ShowGetPointBookTxt" filterString="guildmemberweek.addRanking.ExplainTxtGF" textFormatStyle="guildmemberweek.addRanking.inputTxtTF" autoSize="none" height="23" width="100" x="225" y="7"/>
+			<!-- 输入文本 -->
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="guildmemberweek.addRanking.inputTxt" textFormatStyle="guildmemberweek.addRanking.inputTxtTF" 
+			filterString="guildmemberweek.mainFrame.TopTenLabelTxtGF" x="75"  y="7"
+		    autoSize="none" type="input" restrict="0-9" maxChars="11" width="100" height="20" />
+			<!-- 滚动条 -->
+			<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="guildmemberweek.addRankingFrame.panel" thumbStyle="core.scrollVThumb" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="380" height="175" x="10" y="105"/>
+			<!-- 缓存箱子 -->
+			<component classname="com.pickgliss.ui.controls.container.VBox" stylename="guildmemberweek.addRankingListBox" spacing="2" x="0" y="0" />
+		
+		
+		<!-- 获奖提示框 -->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="ddt.guildMemberWeek.core.simplebt"
+			backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle"
+			backgoundInnerRectString="20,20,7,13,-1" filterString="null,lightFilter,null,grayFilter" x="158" y="446"/>
+		<component classname="guildMemberWeek.view.mainFrame.GuildMemberWeekPromptFrame" backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt" 
+			stylename="guildMemberWeek.view.GuildMemberWeekPromptFrame" titleStyle="FrameTitleTextStyle" parentStyle="BaseFrame" 
+			titleOuterRectPosString="15,10,5" x="-160" y="-40" submitButtonStyle="ddt.guildMemberWeek.core.simplebt" cancelButtonStyle="ddt.guildMemberWeek.core.simplebt" 
+			closeInnerRectString="44,19,6,30,14" width="430" height="170" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="guildMemberWeek.alert.txt" textFormatStyle="guildmemberweek.Top10TF8" x="20"  y="50"
+			filterString="guildmemberweek.Top10GF8" wordWrap="true" multiline="true" width="400" height="80" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="guildMemberWeek.alertRanking.txt" textFormatStyle="guildmemberweek.Top10RedTF8" filterString="guildmemberweek.Top10RedGF8" autoSize="none" x="134"  y="50" width="30" height="30" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="guildMemberWeek.Top10Yes.selectBtn" parentStyle="core.simpleSelectBtn" textStyle="christmas.right.desTxt" displacement="false" fieldX="18" fieldY="-2" x="36" y="114" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+		stylename="guildmemberweek.right.desTxt" textFormatStyle="guildmemberweek.selectBnt.TF4" x="262"  y="486"
+		filterString="guildmemberweek.selectBnt.GF4" multiline="false" wordWrap="false" />
+		
+		
+		
+		<!-- 帮助窗口 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="guildMemberWeek.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="0" y="0" width="390" height="356" />
+		<component classname="store.HelpPrompt" stylename="guildmemberweek.HelpPrompt" bg9ScalseStyle="guildMemberWeek.HelpFrame.FrameBg" contentStyle="guildmemberweek.helpFrame.Text" x="12" y="38" />
+		
+	</components>
+	
+	
+	
+	
+	
+	
+	
+	<customs>
+		<custom classname="guildmemberweek.helpFrame.Text" stylename="asset.guildmemberweek.helpFrame.Text" resourceLink="guildmemberweek.helpFrame.Text" x="0" y="0" />
+		<!-- 加码记录 列表 项 -->
+		<custom classname="guildMemberWeek.view.mainFrame.GuildMemberWeekFrameRight" stylename="guildmemberweek.MainFrame.GuildMemberWeekFrameRight" x="590" y="25"/>
+		<custom classname="guildMemberWeek.items.AddRankingRecordItem" stylename="guildmemberweek.MainFrame.Right.AddRankingRecordItem" />
+		<!-- 排名前十 列表 项-->
+		<custom classname="guildMemberWeek.view.mainFrame.GuildMemberWeekFrameLeft" stylename="guildmemberweek.MainFrame.GuildMemberWeekFrameLeft" x="5" y="53"/>
+		<custom classname="guildMemberWeek.items.ShowGuildMemberDataItem" stylename="guildmemberweek.MainFrame.Left.ShowGuildMemberDataItem" />
+		<custom classname="flash.geom.Point" stylename="guildMemberWeek.cellPos" x="370" y="-1"/>
+		<!-- 奖励加码 项 -->
+		<custom classname="guildMemberWeek.items.AddRankingWorkItem" stylename="guildmemberweek.addRanking.AddRankingWorkItem" />
+		<!-- 奖励加码 控制器 -->
+		<custom classname="guildMemberWeek.controller.GuildMemberWeekAddRankingController" stylename="guildmemberweek.GuildMemberWeekAddRanking.Controller" />
+		<!-- 排名前十 列表 项 里面的礼品坐标设置-->
+		<custom classname="flash.geom.Point" stylename="guildMemberWeek.ShowGift.cellPos" x="320" y="0"/>
+		<!-- 结果展示 "我的排名"和"我的贡献"坐标设置 -->
+		<custom classname="flash.geom.Point" stylename="guildMemberWeek.ShowRankingPos" x="96" y="422"/>
+		
+	</customs>
+	
+</style>

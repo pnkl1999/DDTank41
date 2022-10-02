@@ -1,0 +1,56 @@
+<style name="hotSpringRoom" version="1.0.1" source="ui/spain/swf/hotSpringRoom.swf">
+	<sets>
+		<set stylename="hotSpring.countDown_text" args="Arial,12,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="hotSpring.room.textFormat1" args="Arial,16,0x5BFF09,true" type="flash.text.TextFormat"/>
+		<set stylename="hotSpring.room.textFormat2" args="Arial,16,0xFFFF66,true,,,,,center" type="flash.text.TextFormat"/>
+		<set args="0xFF6600,1,3,3,500" stylename="hotSpring.room.glowFilter1" type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	<customDisplay>
+	<custom classname="flash.geom.Point" stylename="asset.hotSpring.RoomMenuViewPos" x="904" y="530"/>
+	<custom classname="ddt.view.common.VipLevelIcon" stylename="asset.hotSpring.VipIcon"/>
+	</customDisplay>
+	
+	<components>
+		<!--button-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.switchBtnIMG" resourceLink="asset.hotSpring.menu.switchBtn1,asset.hotSpring.menu.switchBtn2,asset.hotSpring.menu.switchBtn1"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.hotSpring.switchBtn" backStyle="asset.hotSpring.switchBtnIMG" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.hotSpring.continuBtnOver" resourceLink="asset.hotSpring.menu.selected,asset.hotSpring.menu.continu" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.continuBtnIMG" resourceLink="asset.hotSpring.menu.continu,asset.hotSpring.continuBtnOver,asset.hotSpring.menu.continu" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.hotSpring.continuBtn" backStyle="asset.hotSpring.continuBtnIMG" x="105" y="6" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.hotSpring.returnBtnOver" resourceLink="asset.hotSpring.menu.selected,asset.hotSpring.menu.return"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.returnBtnIMG" resourceLink="asset.hotSpring.menu.return,asset.hotSpring.returnBtnOver,asset.hotSpring.menu.return"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.hotSpring.returnBtn" backStyle="asset.hotSpring.returnBtnIMG" x="45" y="6" />
+		
+		
+		<!--Image-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.showNameBtn" resourceLink="asset.hotSpring.showName1,asset.hotSpring.showName2" x="10" y="42"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.showPaoBtn" resourceLink="asset.hotSpring.showPaoAsset1,asset.hotSpring.showPaoAsset2" x="10" y="74"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.showPlayerBtn" resourceLink="asset.hotSpring.showPlayer1,asset.hotSpring.showPlayer2" x="10" y="106"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.countDownIMG" resourceLink="asset.hotSpring.countDown1,asset.hotSpring.countDown2" x="843" y="39"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.hotSpring.switchIMG" resourceLink="asset.hotSpring.menu.close,asset.hotSpring.menu.open" x="10" y="10"/>
+		
+		<!--text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='asset.hotSpring.countDownTxt' textFormatStyle="hotSpring.countDown_text" width="66" height="19" x="934" y="41" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='asset.hotSpring.roomNumTxt' textFormatStyle="hotSpring.countDown_text" width="66" height="19" x="934" y="12" />
+		
+		<!--玩家昵称-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='asset.hotSpring.room.playerNickName' textFormatStyle="hotSpring.room.textFormat1"/>
+		<!--入水特效-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="hotSpring.room.inWaterAsset" resourceLink="asset.hotSpring.room.inWater1,asset.hotSpring.room.inWater2,asset.hotSpring.room.inWater3,asset.hotSpring.room.inWater4,asset.hotSpring.room.inWater5,asset.hotSpring.room.inWater6,asset.hotSpring.room.inWater7,asset.hotSpring.room.inWater8,asset.hotSpring.room.inWater9,asset.hotSpring.room.inWater10" width="130" height="193"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="hotSpring.room.wavePlayerAsset" resourceLink="asset.hotSpring.room.wavePlayerAsset1,asset.hotSpring.room.wavePlayerAsset2,asset.hotSpring.room.wavePlayerAsset3,asset.hotSpring.room.wavePlayerAsset4,asset.hotSpring.room.wavePlayerAsset5,asset.hotSpring.room.wavePlayerAsset6,asset.hotSpring.room.wavePlayerAsset7,asset.hotSpring.room.wavePlayerAsset8,asset.hotSpring.room.wavePlayerAsset9,asset.hotSpring.room.wavePlayerAsset10,asset.hotSpring.room.wavePlayerAsset11,asset.hotSpring.room.wavePlayerAsset12,asset.hotSpring.room.wavePlayerAsset13,asset.hotSpring.room.wavePlayerAsset14,asset.hotSpring.room.wavePlayerAsset15,asset.hotSpring.room.wavePlayerAsset16,asset.hotSpring.room.wavePlayerAsset17,asset.hotSpring.room.wavePlayerAsset18,asset.hotSpring.room.wavePlayerAsset19,asset.hotSpring.room.wavePlayerAsset20,asset.hotSpring.room.wavePlayerAsset21,asset.hotSpring.room.wavePlayerAsset22,asset.hotSpring.room.wavePlayerAsset23,asset.hotSpring.room.wavePlayerAsset24,asset.hotSpring.room.wavePlayerAsset25" x="1" />
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='hotSpring.room.txtExpUPAsset' textFormatStyle="hotSpring.room.textFormat2" filterString="hotSpring.room.glowFilter1" autoSize="none" width="67" height="27" x="0" y="22" />
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.hotSpring.showName2" x="4" y="4" />
+		<bitmapData resourceLink="asset.hotSpring.showPaoAsset2" x="4" y="4" />
+		<bitmapData resourceLink="asset.hotSpring.showPlayer2" x="4" y="4" />
+		<bitmapData resourceLink="asset.hotSpring.roomNum" x="853" y="10" smoothing="true"/>
+		<bitmapData resourceLink="asset.hotSpring.menu.switchBtn2" x="0" y="1" />
+		<bitmapData resourceLink="asset.hotSpring.menu.selected" x="-11" y="-1" />
+		<bitmapData resourceLink="asset.hotSpring.iconExpUPAsset" x="23" y="40" />	
+		<bitmapData resourceLink="asset.hotSpring.menu.continu" x="-11" />
+	</bitmaps>
+</style>

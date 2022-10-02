@@ -1,0 +1,83 @@
+<style name="playerTip" version="1.0.1" source="ui/spain/swf/playerTip.swf">
+	<sets>
+		<set stylename="playerTip.ConsortiaBtnsFilter" args="0x996348,1,3,3,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="playerTip.GlobalTF" args="Arial,12,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="groupItem.textTF" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>
+		<set args="0x000000,1,3,3,10" stylename="groupItem.textGF" type="flash.filters.GlowFilter"/>
+		<set stylename="playerTip.PhotoNameTxtTF" args="Arial,12,0xFFFFFF,bold" type="flash.text.TextFormat"/>
+		<set stylename="playerTip.ConsortiaBtnsTF" args="Arial,12,0xffffff" type="flash.text.TextFormat"/>
+	</sets>
+	<tips alltips="simpleTip001"/>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="playerTip.BottomPos"  x="0" y="237"/>
+		<custom classname="flash.geom.Point" stylename="playerTip.PhotoPos"  x="110" y="78"/>
+		
+		<custom classname="flash.geom.Point" stylename="groupTip.pos"  x="-165" y="211"/>
+		
+		<custom classname="ddt.view.common.VipLevelIcon" stylename="playerTip.VipIcon" x="148" y="10"/>
+	</customDisplay>
+		
+	<components>
+		<!-- friendsGroupTip -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="friendsGroupTip.bg" parentStyle="core.GoodsTipBg" width="162" height="136"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="friendsGroupTip.panel"  
+			parentStyle="core.ScrollPanel2" width="150" height="123" vUnitIncrement="3" vScrollProxy="0" x="3" y="8"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="friendsGroupTip.ItemContainer" spacing="5" x="5" y="9"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GroupTItem.text" textFormatStyle="groupItem.textTF"  filterString="groupItem.textGF" autoSize="none"  x="8" y="0" width="129" height="20" isAutoFitLength="true" type="dynamic"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.NameTxt" textFormatStyle="playerTip.GlobalTF" autoSize="none"  x="8" y="8" width="137" height="20" isAutoFitLength="true" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.ClubTxt" textFormatStyle="playerTip.GlobalTF"  x="8" y="27" width="165" height="16" type="dynamic"/>
+		
+		<!-- 3.0 人物tips 改版后 去掉 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.HonorTxt" textFormatStyle="playerTip.GlobalTF"  x="8" y="51" width="82" height="16" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.LevelTxt" textFormatStyle="playerTip.GlobalTF"  x="92" y="51" width="82" height="16" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.PowerTxt" textFormatStyle="playerTip.GlobalTF"  x="8" y="72" width="82" height="16" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.WinCntTxt" textFormatStyle="playerTip.GlobalTF"  x="8" y="93" width="82" height="16" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.LostCntTxt" textFormatStyle="playerTip.GlobalTF"  x="92" y="93" width="82" height="16" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.WinRateTxt" textFormatStyle="playerTip.GlobalTF"  x="8" y="114" width="82" height="16" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.TotalCntTxt" textFormatStyle="playerTip.GlobalTF"  x="92" y="114" width="82" height="16" type="dynamic"/>
+		-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="playerTip.BG" parentStyle="core.GoodsTipBg" width="183" height="239"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="playerTip.line" parentStyle="HRuleAsset" width="173"  x="5" y="47"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="playerTip.ItemContainer" spacing="3" x="8" y="47"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="playerTip.ItemBg" resourceLink=",asset.playerTip.PlayerTipItemBg,asset.playerTip.PlayerTipItemBg"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.Challenge" backStyle="playerTip.ItemBg" iconStyle="asset.playerTip.PlayerTipChallenge" useLogID="132" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemViewAchieve" backStyle="playerTip.ItemBg"  useLogID="133" iconStyle="asset.playerTip.PlayerTipViewAchieve" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemPresentGift" backStyle="playerTip.ItemBg" iconStyle="asset.playerTip.presentGift" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemMakeFriend" backStyle="playerTip.ItemBg"  useLogID="134" iconStyle="asset.playerTip.PlayerTipMakeFriend" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemPrivateChat" backStyle="playerTip.ItemBg"  useLogID="135" iconStyle="asset.playerTip.PlayerTipPrivateChat" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemCopyName" backStyle="playerTip.ItemBg"  useLogID="136" iconStyle="asset.playerTip.PlayerTipCopyName" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemInfo" backStyle="playerTip.ItemBg"  useLogID="137" iconStyle="asset.playerTip.PlayerTipViewInfo" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.ItemBlackList" backStyle="playerTip.ItemBg"  useLogID="138" iconStyle="asset.playerTip.PlayerTipBlackList" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.academyIcon" backStyle="playerTip.ItemBg"  useLogID="139" iconStyle="asset.playerTip.academyIcon" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="playerTip.OneOnOneChat" backStyle="playerTip.ItemBg"  iconStyle="asset.playerTip.privateChat" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="PlayerTip.transferFriend" backStyle="playerTip.ItemBg"  iconStyle="asset.playerTip.moveFriendIcon" filterString="null,lightFilter,null,grayFilter"/>
+				
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="playerTip.ProposeBtn" backStyle="asset.playerTip.PlayerTipProposeBtn" useLogID="139" filterString="null,lightFilter,null,grayFilter" x="103" y="200"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.ConsortiaBtnsText" textFormatStyle="playerTip.ConsortiaBtnsTF" filterString="playerTip.ConsortiaBtnsFilter" type="dynamic"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="playerTip.PlayerTipInviteBtn" textStyle="playerTip.ConsortiaBtnsText" backStyle="asset.playerTip.PlayerTipInviteBtn" backgoundInnerRectString="8,8,4,4,-1" filterString="null,lightFilter,null,grayFilter" x="20" y="7"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="playerTip.PlayerTipPromoteBtn" textStyle="playerTip.ConsortiaBtnsText" backStyle="asset.playerTip.PlayerTipPromoteBtn" backgoundInnerRectString="2,2,2,2,-1" filterString="null,lightFilter,null,grayFilter" x="4" y="10"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="playerTip.PlayerTipDemoteBtn" textStyle="playerTip.ConsortiaBtnsText" backStyle="asset.playerTip.PlayerTipDemoteBtn" backgoundInnerRectString="2,2,2,2,-1" filterString="null,lightFilter,null,grayFilter" x="63" y="10"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="playerTip.PlayerTipExpelBtn" textStyle="playerTip.ConsortiaBtnsText" backStyle="asset.playerTip.PlayerTipExpelBtn" backgoundInnerRectString="2,2,2,2,-1" filterString="null,lightFilter,null,grayFilter" x="123" y="10"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="playerTip.PhotoNameTxt" textFormatStyle="playerTip.PhotoNameTxtTF"  x="0" y="60" width="82" height="16" type="dynamic"/>
+		
+	</components>
+
+
+	<bitmaps>
+		<bitmapData resourceLink="asset.playerTip.PlayerTipItemBg"  y="4"/>
+		<bitmapData resourceLink="asset.playerTip.presentGift"  x="0" />
+		<bitmapData resourceLink="asset.playerTip.academyIcon"  x="0" y="2"/>
+		<bitmapData resourceLink="asset.playerTip.moveFriendIcon"  x="1"  y="7"/>
+		<bitmapData resourceLink="asset.playerTip.privateChat"  x="1"  y="5"/>
+		<bitmapData resourceLink="asset.playerTip.PlayerTipPrivateChat" y="5"/>
+		<bitmapData resourceLink="asset.playerTip.PlayerTipViewInfo" y="3"/>
+		<bitmapData resourceLink="asset.playerTip.PlayerTipCopyName" x="1" y="4"/>
+		<bitmapData resourceLink="asset.playerTip.PlayerTipMakeFriend" y="2"/>
+		<bitmapData resourceLink="asset.playerTip.presentGift" y="2"/>
+		
+	</bitmaps>
+</style>

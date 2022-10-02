@@ -1,0 +1,9 @@
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\bin\Debug\ZGunLauncher.exe
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\bin\Debug\ZGunLauncher.pdb
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.csproj.AssemblyReference.cache
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.Properties.Resources.resources
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.exe
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.pdb
+C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\obj\Debug\ZGunLauncher.Form1.resources

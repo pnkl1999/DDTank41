@@ -1,0 +1,12 @@
+<list>
+  <emitter beginAngle="0" name="3单发飞镖" endAngle="6.28" life="0" id="3" interval="0.03">
+    <particle weightSize="0" beginTime="0" endTime="1000" blendMode="add" sizeSize="0" vOrient="0" lifeSize="0" name="单飞" sizeOrient="1" keepColor="true" spinOrient="2" lifeOrient="0.2" motionVSize="0" countSize="0" spinSize="0" colorOrient="0" rotation="0" keepOldFirst="false" displayCreator="0" alphaOrient="1" weightOrient="0" motionVOrient="0" countOrient="1" vSize="0" lifeEasing="[object AbstractLifeEasing]">
+      <easing name="vLine" value=""/>
+      <easing name="rvLine" value=""/>
+      <easing name="spLine" value=""/>
+      <easing name="sizeLine" value=""/>
+      <easing name="weightLine" value=""/>
+      <easing name="alphaLine" value="0:0.7,1:0,"/>
+    </particle>
+  </emitter>
+</list>

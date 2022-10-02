@@ -1,0 +1,146 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Gun321.Client</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>alpha_DcG_icon.ico</ApplicationIcon>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="GunDaiVietLauncher\**" />
+    <Compile Remove="ZGunLauncher\**" />
+    <EmbeddedResource Remove="GunDaiVietLauncher\**" />
+    <EmbeddedResource Remove="ZGunLauncher\**" />
+    <None Remove="GunDaiVietLauncher\**" />
+    <None Remove="ZGunLauncher\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Launcher\Properties\Resources.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Launcher\Properties\Resources.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Bunifu.Licensing.dll" />
+    <None Remove="Bunifu.UI.WinForms.BunifuButton.dll" />
+    <None Remove="Bunifu.UI.WinForms.BunifuDataGridView.dll" />
+    <None Remove="Bunifu.UI.WinForms.BunifuDropdown.dll" />
+    <None Remove="Bunifu.UI.WinForms.BunifuScrollBar.dll" />
+    <None Remove="Bunifu.UI.WinForms.BunifuTextBox.dll" />
+    <None Remove="CircularProgressBar.dll" />
+    <None Remove="c___lib.dll" />
+    <None Remove="Microsoft.AspNet.SignalR.Client.dll" />
+    <None Remove="Newtonsoft.Json.dll" />
+    <None Remove="WinFormAnimation.dll" />
+    <None Remove="YOaArqps6qFpVMBadk.tGfMj05OXYCLrcK8w5" />
+    <None Remove="LV8cSnXPehd8LWI1LS.UscmMYrOVxsORNA580" />
+    <None Remove="Gun321.Client.exe.licenses" />
+    <None Remove="Launcher\Resources.Sounds.DoorBell-SoundBible.wav" />
+    <None Remove="Launcher\Resources.Sounds.sms-alert-2-daniel_simon.wav" />
+    <None Remove="Launcher\Resources.HTML.js.bootstrap.bundle.min.js" />
+    <None Remove="Launcher\Resources.HTML.css.bootstrap.min.css" />
+    <None Remove="Launcher\Resources.HTML.index.html" />
+    <None Remove="Launcher\EmbedAssemblies\Assemblies.winfl.ocx" />
+    <None Remove="Launcher\EmbedAssemblies\Assemblies.CircularProgressBar.dll" />
+    <None Remove="Launcher\EmbedAssemblies\Assemblies.WinFormAnimation.dll" />
+    <None Remove="Launcher\EmbedAssemblies\Assemblies.zlib.net.dll" />
+    <None Remove="Launcher\FlashSettings.runtime.dll" />
+    <None Remove="Launcher\FlashSettings.q.gun321.com.settings.sol" />
+    <None Remove="Launcher\FlashSettings.vdc.gun321.com.settings.sol" />
+    <None Remove="Launcher\FlashSettings.settings.sol" />
+    <None Remove="Launcher\FlashSettings.ddt.trminhpc.com.settings.sol" />
+    <None Remove="Launcher\FlashSettings.res.trminhpc.com.settings.sol" />
+    <None Remove="Launcher\FlashSettings.q.gun321.xyz.settings.sol" />
+    <None Remove="zlib.net.dll" />
+    <EmbeddedResource Include="YOaArqps6qFpVMBadk.tGfMj05OXYCLrcK8w5" />
+    <EmbeddedResource Include="LV8cSnXPehd8LWI1LS.UscmMYrOVxsORNA580" />
+    <EmbeddedResource Include="Gun321.Client.exe.licenses" />
+    <EmbeddedResource Include="Launcher\Resources.Sounds.DoorBell-SoundBible.wav" />
+    <EmbeddedResource Include="Launcher\Resources.Sounds.sms-alert-2-daniel_simon.wav" />
+    <EmbeddedResource Include="Launcher\Resources.HTML.js.bootstrap.bundle.min.js" />
+    <EmbeddedResource Include="Launcher\Resources.HTML.css.bootstrap.min.css" />
+    <EmbeddedResource Include="Launcher\Resources.HTML.index.html" />
+    <EmbeddedResource Include="Launcher\EmbedAssemblies\Assemblies.winfl.ocx" />
+    <EmbeddedResource Include="Launcher\EmbedAssemblies\Assemblies.CircularProgressBar.dll" />
+    <EmbeddedResource Include="Launcher\EmbedAssemblies\Assemblies.WinFormAnimation.dll" />
+    <EmbeddedResource Include="Launcher\EmbedAssemblies\Assemblies.zlib.net.dll" />
+    <EmbeddedResource Include="Launcher\FlashSettings.runtime.dll" />
+    <EmbeddedResource Include="Launcher\FlashSettings.q.gun321.com.settings.sol" />
+    <EmbeddedResource Include="Launcher\FlashSettings.vdc.gun321.com.settings.sol" />
+    <EmbeddedResource Include="Launcher\FlashSettings.settings.sol" />
+    <EmbeddedResource Include="Launcher\FlashSettings.ddt.trminhpc.com.settings.sol" />
+    <EmbeddedResource Include="Launcher\FlashSettings.res.trminhpc.com.settings.sol" />
+    <EmbeddedResource Include="Launcher\FlashSettings.q.gun321.xyz.settings.sol" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CircularProgressBar" Version="2.8.0.16" />
+    <PackageReference Include="zlib.net" Version="1.0.4" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.SignalR.Client">
+      <HintPath>..\Microsoft.AspNet.SignalR.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox">
+      <HintPath>..\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDropdown">
+      <HintPath>..\Bunifu.UI.WinForms.BunifuDropdown.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuButton">
+      <HintPath>..\Bunifu.UI.WinForms.BunifuButton.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuDataGridView">
+      <HintPath>..\Bunifu.UI.WinForms.BunifuDataGridView.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Bunifu.UI.WinForms.BunifuScrollBar">
+      <HintPath>..\Bunifu.UI.WinForms.BunifuScrollBar.dll</HintPath>
+    </Reference>
+    <Reference Include="c___lib">
+      <HintPath>..\c___lib.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar" />
+    <Reference Include="System.Core" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="zlib.net" />
+    <Reference Include="WinFormAnimation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resx</DependentUpon>
+    </Compile>
+    <Compile Update="Launcher\Popup\MomoConfirm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

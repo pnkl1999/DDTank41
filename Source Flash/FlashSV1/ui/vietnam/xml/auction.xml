@@ -1,0 +1,244 @@
+<style name="auction" version="1.0.1" source="ui/spain/swf/auction.swf">
+<sets>
+<set stylename="auctionHouse.TFormat_12" args="Arial,14,0xFFFF00,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_13" args="Arial,14,0x000000,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_14" args="Arial,14,0xFFFF66,true,,,,,left" type="flash.text.TextFormat" letterSpacing="0"/>
+<set stylename="auctionHouse.TFormat_15" args="Arial,14,0x000000,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_16" args="Arial,14,0xFFFFCC,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_17" args="Arial,14,0xFFFFFF,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_18" args="Arial,14,0xFFFFFF,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_19" args="Arial,14,0xf6d4a3,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_20" args="Arial,12,0xfffdd3,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_21" args="Arial,16,0x502a0b,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.TFormat_22" args="Arial,14,0xfef5dc,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="auctionHouse.Prompt_txt" args="Arial,14,0xFF0000,true" type="flash.text.TextFormat"/>
+<set args="0xFFFFFF,1,3,3,40" stylename="filter.auctionHouse.Prompt_txt" type="flash.filters.GlowFilter"/>
+<set args="0x4B3014,1,3,3,100" stylename="filter.auctionHouse.MoneyFilter" type="flash.filters.GlowFilter"/>
+<set args="0x502900,1,4,4,50" stylename="filter.auctionHouse.leftStripFilter" type="flash.filters.GlowFilter"/>
+<set args="0x1f1005,1,3,3,100" stylename="filter.auctionHouse.leftStripSubFilter" type="flash.filters.GlowFilter"/>
+<set args="0x000000,1,3,3,100" stylename="filter.auctionHouse.SellName" type="flash.filters.GlowFilter"/>
+<set args="0x200e00,1,3,3,100" stylename="filter.auctionHouse.PageName" type="flash.filters.GlowFilter"/>
+
+<set args="0xFFFF99,1,15,15,1,1" stylename="filter.auctionHouse.selectButtonI" type="flash.filters.GlowFilter"/>
+<set args="0xFFFF99,1,10,10,1.6,3,true,true" stylename="filter.auctionHouse.selectButtonII" type="flash.filters.GlowFilter"/>
+
+<set stylename="auctionHouse.sell.cell.CountFieldTF" args="Arial,12,0x000000" type="flash.text.TextFormat" />
+<set stylename="auctionHouse.sell.cell.CountFieldGF" args="0xFFFFFF,1,3,3,10" type="flash.filters.GlowFilter" />
+</sets>
+
+<components>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.bigBG" resourceLink="asset.auctionHouse.TitleBmp,asset.auctionHouse.BigBG,asset.auctionHouse.moneyBG"/>
+<!--NotesButton-->
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.NotesSelectAsset" resourceLink="asset.auctionHouse.Notes,asset.auctionHouse.NotesSelect"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.NotesAsset" resourceLink="asset.auctionHouse.Notes,auctionHouse.NotesSelectAsset,auctionHouse.NotesSelectAsset,asset.auctionHouse.Notes"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.NotesButton" backStyle="auctionHouse.NotesAsset" x="880" y="60" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.PromptTxt"
+			textFormatStyle="auctionHouse.Prompt_txt" filterString="filter.auctionHouse.Prompt_txt" x='367' y='62' />
+
+<!--NotesFrame-->
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="auctionHouse.NotesFrameEnter" parentStyle="core.simplebt" x="111" y="323" />
+
+<!--TitleAsset-->
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.TitleAsset" x="4" y="48" resourceLink="asset.auctionHouse.TitleBrowse_btn,asset.auctionHouse.TitleBuy_btn,asset.auctionHouse.TitleSell_btn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Browse_btn" backStyle="asset.auctionHouse.TitleSelect" x="17" y="54" />
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Buy_btn"   backStyle="asset.auctionHouse.TitleSelect2" x="219" y="54" />
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Sell_btn"  backStyle="asset.auctionHouse.TitleSelect1" x="115"  y="54" />
+
+<!--Text-->
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.gold" filterString="filter.auctionHouse.MoneyFilter" textFormatStyle="auctionHouse.TFormat_12" text="0" x="312" y="503" autoSize="left" width="74" height="20"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.money" parentStyle="auctionHouse.gold" x="325" y="503"/>
+
+<!--browse-->
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Bid_btn" backStyle="asset.auctionHouse.Browse.Bid" x="802" y="488" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Mouthful_btn" backStyle="asset.auctionHouse.Browse.Mouthful" x="890" parentStyle="auctionHouse.Bid_btn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Bid_btnR" backStyle="asset.auctionHouse.Browse.BidR" x="15" y="5" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Mouthful_btnR" backStyle="asset.auctionHouse.Browse.MouthfulR" x="15" y="35" parentStyle="auctionHouse.Bid_btn"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="auctionHouse.core.commonTipBg" resourceLink="asset.core.tip.GoodsTipBg" scaleGridString="10,10,61,46" width="120" height="68" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BidMoney" textFormatStyle="auctionHouse.TFormat_13" autoSize="none" width="110" height="20" x="78" y="5"  maxChars="9" type="input"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.BidInputIcon" resourceLink="asset.auctionHouse.MoneyIcon" x="224" y="6"/>
+<!--browseLeft-->
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.BrowseLeftStripIcon" resourceLink="asset.auctionHouse.Browse.LeftStripAdd,asset.auctionHouse.Browse.LeftStripSub" x="12" y="10"/>
+
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="auctionHouse.Browse.LeftStripIAsset" resourceLink="asset.auctionHouse.Browse.LeftStripI" scaleGridString="10,10,45,25" width="58" height="38" />
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="auctionHouse.Browse.LeftStripIIAsset" resourceLink="asset.auctionHouse.Browse.LeftStripII" scaleGridString="10,10,45,25" width="58" height="38" />
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="auctionHouse.Browse.LeftSubStripIAsset" resourceLink="asset.auctionHouse.Browse.LeftSubStripI" scaleGridString="10,10,45,25" width="58" height="34"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="auctionHouse.Browse.LeftSubStripIIAsset" resourceLink="asset.auctionHouse.Browse.LeftSubStripII" scaleGridString="10,10,45,25" width="58" height="34"/>
+
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.BrowseLeftStripBG" resourceLink="auctionHouse.Browse.LeftStripIAsset,auctionHouse.Browse.LeftStripIIAsset" width="197"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BrowseLeftStripText" textFormatStyle="auctionHouse.TFormat_14" text="0" autoSize="none" width="160" height="26" condenseWhite="true"/>
+<component classname="com.pickgliss.ui.text.GradientText" stylename="auctionHouse.BrowseLeftStripTextFilt" textFieldStyle="auctionHouse.BrowseLeftStripText" colors="0xffffff,0xffc664" filterString="filter.auctionHouse.leftStripFilter" alphas="1,1" ratios="0,255" x="34" y="7" />
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.BrowseLeftSubStripBG" resourceLink="auctionHouse.Browse.LeftSubStripIAsset,auctionHouse.Browse.LeftSubStripIIAsset" width="177" height="38"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BrowseLeftSubStripText" textFormatStyle="auctionHouse.TFormat_19" filterString="filter.auctionHouse.leftStripSubFilter" x="10" y="10" autoSize="none" width="156" height="26"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.baidu_btn" backStyle="asset.auctionHouse.Browse.baidu" useLogID="89" x="170" y="15" parentStyle="auctionHouse.Bid_btn"/>
+<component classname="com.pickgliss.ui.controls.SimpleDropListTarget" stylename="auctionHouse.baiduText" parentStyle="auctionHouse.BidMoney" textFormatStyle="auctionHouse.TFormat_20" autoSize="none" type="input" width="140" height="24" x="22" y="21"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.LeftBG" resourceLink="asset.auctionHouse.Browse.baiduBG"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.LeftBG1"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage5.1,asset.core.Scale9CornerImage.scale9CornerImage5.2,asset.core.Scale9CornerImage.scale9CornerImage5.3,asset.core.Scale9CornerImage.scale9CornerImage5.4,asset.core.Scale9CornerImage.scale9CornerImage5.5,asset.core.Scale9CornerImage.scale9CornerImage5.6,asset.core.Scale9CornerImage.scale9CornerImage5.7,asset.core.Scale9CornerImage.scale9CornerImage5.8,asset.core.Scale9CornerImage.scale9CornerImage5.9" x="1" y="3" width="248" height="441"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.LeftBG2"
+			resourceLink="asset.core.auctionBg_1,asset.core.auctionBg_2,asset.core.auctionBg_3,asset.core.auctionBg_4,asset.core.auctionBg_5,asset.core.auctionBg_6,asset.core.auctionBg_7,asset.core.auctionBg_8,asset.core.auctionBg_9" width="248" height="397" x="0" y="43"/>
+<!--Scroll-->
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="auctionHouse.BrowseLeftScrollpanel" parentStyle="core.ScrollPanel" width="220" height="375" x="16" y="54" vUnitIncrement="10"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="auctionHouse.BrowseRightScrollpanel" parentStyle="core.ScrollPanel" width="681" height="310" x="13" y="51" vUnitIncrement="10"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="auctionHouse.BrowseBuyScrollpanel" parentStyle="core.ScrollPanel" width="945" height="335" x="13" y="51" vUnitIncrement="10"/>
+<component classname="com.pickgliss.ui.controls.list.DropList" stylename="auctionHouse.SimpleDropList" containerStyle="droplist.Container" backStyle="droplist.Bg" cellStyle="auctionHouse.view.AuctionDimCell" showLength="6" x="12" y="47" />
+<!--list-->
+<component classname="com.pickgliss.ui.controls.ListPanel" stylename="auctionHouse.rightListII" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|auctionHouse.view.StripView,53,650" listStyle="com.pickgliss.ui.controls.list.List" width="680" height="328" x="13" y="51" hScrollProxy="2" vScrollProxy="1" vUnitIncrement="10"/>
+
+<!--browseRight-->
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.RightBG1"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage5.1,asset.core.Scale9CornerImage.scale9CornerImage5.2,asset.core.Scale9CornerImage.scale9CornerImage5.3,asset.core.Scale9CornerImage.scale9CornerImage5.4,asset.core.Scale9CornerImage.scale9CornerImage5.5,asset.core.Scale9CornerImage.scale9CornerImage5.6,asset.core.Scale9CornerImage.scale9CornerImage5.7,asset.core.Scale9CornerImage.scale9CornerImage5.8,asset.core.Scale9CornerImage.scale9CornerImage5.9" y="3" width="710" height="395"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.RightBG2"
+			resourceLink="asset.core.auctionBg_1,asset.core.auctionBg_2,asset.core.auctionBg_3,asset.core.auctionBg_4,asset.core.auctionBg_5,asset.core.auctionBg_6,asset.core.auctionBg_7,asset.core.auctionBg_8,asset.core.auctionBg_9" width="704" height="347" x="1" y="43"/>
+			
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Prev_btn" backStyle="asset.auctionHouse.borwse.prev" x="292" y="412" parentStyle="auctionHouse.Bid_btn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.Next_btn" backStyle="asset.auctionHouse.borwse.next" x="462" y="412" parentStyle="auctionHouse.Bid_btn"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.RightPageText" textFormatStyle="auctionHouse.TFormat_22" filterString="filter.auctionHouse.PageName" autoSize="center" width="86" height="22" x="404" y="416"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.BidPerson_btn" backStyle="asset.auctionHouse.BidPerson" x="400" y="17" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.BidPrice_btn" backStyle="asset.auctionHouse.BidPrice" x="525" parentStyle="auctionHouse.BidPerson_btn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.GoodsName_btn" backStyle="asset.auctionHouse.GoodsName" x="69" width="167" height="28" parentStyle="auctionHouse.BidPerson_btn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.RemainingTime_btn" backStyle="asset.auctionHouse.RemainingTime" x="311" parentStyle="auctionHouse.BidPerson_btn"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.SellPerson_btn" backStyle="asset.auctionHouse.SellPerson" x="400" parentStyle="auctionHouse.BidPerson_btn"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.ArrowI" x="211" y="28" resourceLink="asset.auctionHouse.Up,asset.auctionHouse.Down"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.ArrowII" x="377" parentStyle="auctionHouse.ArrowI"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.ArrowIII" x="502" parentStyle="auctionHouse.ArrowI"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.ArrowV" x="652" parentStyle="auctionHouse.ArrowI"/>
+
+<!--StripCurPriceView-->
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.StripMoneyIconI" resourceLink="asset.auctionHouse.GoldIcon,asset.auctionHouse.MoneyIcon" x="138" y="1"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.StripMoneyIconII" parentStyle="auctionHouse.StripMoneyIconI" y="22"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.StripMoneyTextI" filterString="filter.auctionHouse.MoneyFilter" textFormatStyle="auctionHouse.TFormat_16" text="0" x="61" y="-1" autoSize="none" width="76" height="20" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.StripMoneyTextII" y="19" parentStyle="auctionHouse.StripMoneyTextI"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BaseStripName" textFormatStyle="auctionHouse.TFormat_17" text="0" x="63" y="19" autoSize="none" width="160" height="20" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BaseStripCount" x="230" autoSize="none" width="65" parentStyle="auctionHouse.BaseStripName"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BaseStripLeftTime" x="309" autoSize="none" width="85" parentStyle="auctionHouse.BaseStripName"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.BaseStripSeller" x="393" autoSize="none" width="112" parentStyle="auctionHouse.BaseStripName"/>
+
+<!--BuyView-->
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.buyBG1"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage5.1,asset.core.Scale9CornerImage.scale9CornerImage5.2,asset.core.Scale9CornerImage.scale9CornerImage5.3,asset.core.Scale9CornerImage.scale9CornerImage5.4,asset.core.Scale9CornerImage.scale9CornerImage5.5,asset.core.Scale9CornerImage.scale9CornerImage5.6,asset.core.Scale9CornerImage.scale9CornerImage5.7,asset.core.Scale9CornerImage.scale9CornerImage5.8,asset.core.Scale9CornerImage.scale9CornerImage5.9" y="3" width="971" height="400"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.buyBG2"
+			resourceLink="asset.core.auctionBg_1,asset.core.auctionBg_2,asset.core.auctionBg_3,asset.core.auctionBg_4,asset.core.auctionBg_5,asset.core.auctionBg_6,asset.core.auctionBg_7,asset.core.auctionBg_8,asset.core.auctionBg_9" width="968" height="353" x="1" y="43"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.BuyPriceState" resourceLink="asset.auctionHouse.BuyPriceTop,asset.auctionHouse.BuyPriceChao" x="216" y="5"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.StripMoneyIconIII" parentStyle="auctionHouse.StripMoneyIconI" x="149" y="7"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.StripMoneyIconV" parentStyle="auctionHouse.StripMoneyIconI" x="442" y="7"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.StripCurPricelTextII" x="317" y="5" autoSize="none" width="122" textFormatStyle="auctionHouse.TFormat_16" height="20" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.StripmouthfulTextII" x="25" autoSize="none" width="122" parentStyle="auctionHouse.StripCurPricelTextII"/>
+
+<!--SellView-->
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.sell.cell.CountField" textFormatStyle="auctionHouse.sell.cell.CountFieldTF" 
+	filterString="auctionHouse.sell.cell.CountFieldGF" autoSize="right" visible="false" />
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="SellView.cancelAuctionDown" resourceLink="asset.auctionHouse.CancelBid_btn,asset.auctionHouse.CancelBid_btn.light"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="SellView.cancelAuction" resourceLink="asset.auctionHouse.CancelBid_btn,SellView.cancelAuctionDown,SellView.cancelAuctionDown,asset.auctionHouse.CancelBid_btn" />
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.CancelBid_btn" backStyle="SellView.cancelAuction" filterString="null,lightFilter,lightFilter,grayFilter" x="818" y="490" />
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.StartBid_btn" backStyle="asset.auctionHouse.StartBid_btn" x="20" y="375" parentStyle="auctionHouse.CancelBid_btn"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.SellLeftBG" resourceLink="asset.auctionHouse.SellLeftBG"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.SellLeftIcon0" resourceLink="asset.auctionHouse.MoneyIcon" x="183" y="164"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="auctionHouse.SellLeftIcon1" resourceLink="asset.auctionHouse.MoneyIcon" x="183" y="226"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.SellkeepText" textFormatStyle="auctionHouse.TFormat_13" autoSize="none" width="72" height="20" x="108" y="340"  text="100"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.startMoneyText" textFormatStyle="auctionHouse.TFormat_21" autoSize="none" width="143" height="20" x="34" y="161" type="input"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.mouthfulText" y="222" parentStyle="auctionHouse.startMoneyText"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.NameText" textFormatStyle="auctionHouse.TFormat_18" filterString="filter.auctionHouse.SellName" autoSize="none" width="139" height="20" x="80" y="82" text="1ghjghjgjhg"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.StripMoneyIconVI" parentStyle="auctionHouse.StripMoneyIconI" x="171" y="157"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.StripMoneyIconVII" parentStyle="auctionHouse.StripMoneyIconI" x="171" y="215"/>
+<component classname="auctionHouse.view.AuctionSellLeftAler" stylename="auctionHouse.AuctionSellLeftAler"  parentStyle="BaseFrame" moveEnable="false" width="320" height="192" containerX="15" containerY="5"/>
+<component classname="auctionHouse.view.AuctionInputFrame" stylename="auctionHouse.AuctionInputFrame"  parentStyle="BaseFrame" moveEnable="false" width="322" height="190"/>
+
+<!--HYellowGlowButton-->
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.bidTime1Bmp" resourceLink="asset.auctionHouse.SelectTimeIAsset,asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.bidTime1S" resourceLink="asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.bidTime2Bmp" resourceLink="asset.auctionHouse.SelectTimeIIAsset,asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight" parentStyle="auctionHouse.bidTime1Bmp"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.bidTime2S" resourceLink="asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight" parentStyle="auctionHouse.bidTime1S"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.bidTime3Bmp" resourceLink="asset.auctionHouse.SelectTimeIIIAsset,asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight" parentStyle="auctionHouse.bidTime1Bmp"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.bidTime3S" resourceLink="asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight,asset.auctionHouse.SelectTimeLight" parentStyle="auctionHouse.bidTime1S"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="auctionHouse.UnSelectImg" resourceLink="asset.auctionHouse.AuctionObjectAsset,asset.auctionHouse.AuctionObjectAsset,asset.auctionHouse.AuctionObjectAsset" parentStyle="auctionHouse.bidTime1Bmp"/>
+
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="auctionHouse.bidTime1_btn" unSelectedStyle="auctionHouse.bidTime1Bmp" selectedStyle="auctionHouse.bidTime1S" x="28" y="280" backStyle="asset.auctionHouse.SelectTimeIAsset" displacement="false"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="auctionHouse.bidTime2_btn" unSelectedStyle="auctionHouse.bidTime2Bmp" selectedStyle="auctionHouse.bidTime2S" x="95" y="280" backStyle="asset.auctionHouse.SelectTimeIIAsset" displacement="false"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="auctionHouse.bidTime3_btn" unSelectedStyle="auctionHouse.bidTime3Bmp" selectedStyle="auctionHouse.bidTime3S" x="163" y="280" backStyle="asset.auctionHouse.SelectTimeIIIAsset" displacement="false"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="auctionHouse.auctionObjCell" backStyle="auctionHouse.UnSelectImg" x="19" y="62" />
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.SellLeftAlerBt1" backStyle="asset.auctionHouse.SellLeftAlerBt1" x="243" y="59" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="auctionHouse.SellLeftAlerBt2" backStyle="asset.auctionHouse.SellLeftAlerBt2" x="243" y="74" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="auctionHouse.SellLeftAlerInputText" textFormatStyle="auctionHouse.TFormat_15" autoSize="none" width="134" height="23" x="104" y="62" type="input"/>
+</components>
+
+<customDisplay>
+<custom classname="auctionHouse.view.AuctionDescriptionFrame" backStyle="SimpleFrameBackgound" stylename="auctionHouse.NotesFrame"  closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="8" containerY="31" width="314" height="396" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+<custom classname="auctionHouse.view.StripCurPriceView" stylename="auctionHouse.view.StripCurPriceView" x="495" y="9"/>
+
+<custom classname="auctionHouse.view.BidMoneyView" stylename="auctionHouse.view.BidMoneyView" x="42" y="68"/>
+<custom classname="auctionHouse.view.BrowseLeftMenuView" stylename="auctionHouse.view.BrowseLeftMenuView" x="13" y="88"/>
+<custom classname="auctionHouse.view.AuctionRightView" stylename="auctionHouse.view.AuctionRightView" x="272" y="88"/>
+<custom classname="auctionHouse.view.StripCurBuyPriceView" stylename="auctionHouse.view.StripCurBuyPriceView" x="415" y="12"/>
+<custom classname="auctionHouse.view.AuctionBuyRightView" stylename="auctionHouse.view.AuctionBuyRightView" x="12" y="88"/>
+<custom classname="auctionHouse.view.AuctionSellLeftView" stylename="auctionHouse.view.AuctionSellLeftView" x="16" y="88"/>
+
+<!--StripTip-->
+<custom classname="ddt.command.StripTip" stylename="auctionHouse.view.StripIocn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,3,4" width="24" height="21" x="259" y="17"/>
+<custom classname="ddt.command.StripTip" stylename="auctionHouse.view.StripLeftTime" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,3,4" x="309" y="17" tipGapH="5"/>
+
+<custom classname="flash.geom.Rectangle" stylename="auctionHouse.sell.cell.PicRect" x="3" y="3" width="40" height="42" />
+
+<custom classname="auctionHouse.view.BagAuctionFrame" stylename="auctionHouse.view.GoodsBagFrame" backStyle="core.bg006" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" containerX="6" containerY="35" width="412" height="490" x="300" y="50"/>
+
+<!--SELL-->
+<custom classname="ddt.view.tips.MultipleLineTip" stylename="auctionHouse.SellSelectedBtn" tipWidth="106"/>
+<custom classname="auctionHouse.view.AuctionCellView" stylename="auctionHouse.AuctionCellView" x="28" y="71" tipGapV="-50" tipGapH="-2"/>
+
+<!-- HELP -->
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="auctionHouse.helpBg"
+			resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="296" height="317" />
+			
+<custom classname="flash.geom.Point" stylename="AutionBagView.Pos" x="1" y="-8"/>
+
+</customDisplay>
+
+<bitmaps>
+<bitmapData resourceLink="asset.auctionHouse.Browse.PageCountBg" x="356" y="414"/>
+<bitmapData resourceLink="asset.auctionHouse.StartBidLightbtn" x="18" y="372"/>
+<bitmapData resourceLink="asset.auctionHouse.BigBG" x="4" y="86" />
+<bitmapData resourceLink="asset.auctionHouse.TitleBmp" x="368" y="9"/>
+<bitmapData resourceLink="asset.auctionHouse.moneyBG" x="270" y="500"/>
+<bitmapData resourceLink="asset.auctionHouse.NotesSelect" x="-2" y="-1" width="102"/>
+<bitmapData resourceLink="asset.auctionHouse.Browse.baiduBG" x="16" y="16" width="150"/>
+<bitmapData resourceLink="asset.auctionHouse.Browse.LeftStripI" width="182"/>
+<bitmapData resourceLink="asset.auctionHouse.Browse.LeftSubStripI" width="145"/>
+<bitmapData resourceLink="asset.auctionHouse.Browse.LeftStripSub" y="3.5"/>
+
+<bitmapData resourceLink="asset.auctionHouse.borwse.RightBG" width="721" x="-5"/>
+<bitmapData resourceLink="asset.auctionHouse.topLeft"   y="16"/>
+<bitmapData resourceLink="asset.auctionHouse.topRight"  y="16"/>
+
+<bitmapData resourceLink="asset.auctionHouse.topLb1"  y="17"/>
+<bitmapData resourceLink="asset.auctionHouse.topLb2"  y="17"/>
+<bitmapData resourceLink="asset.auctionHouse.topLb3"  y="17"/>
+<bitmapData resourceLink="asset.auctionHouse.topLb4"  y="17"/>
+<bitmapData resourceLink="asset.auctionHouse.topLb5"  y="17"/>
+<bitmapData resourceLink="asset.auctionHouse.topLb6"  y="17"/>
+
+<bitmapData resourceLink="asset.auctionHouse.NotesContent" x="-6" y="-14" width="308" height="344" />
+
+<bitmapData resourceLink="asset.auctionHouse.BidNumber" x="238" y="17"/>
+<bitmapData resourceLink="asset.auctionHouse.mouth_bit" x="14" y="21"/>
+<bitmapData resourceLink="asset.auctionHouse.yourPrice_bit" x="14" y="0"/>
+<bitmapData resourceLink="asset.auctionHouse.StripGoodsLeftBG" x="2.5" y="4"/>
+<bitmapData resourceLink="asset.auctionHouse.StripGoodsRightBG" x="54" y="4"/>
+<bitmapData resourceLink="asset.auctionHouse.StripIocnAsset"/>
+
+<bitmapData resourceLink="asset.auctionHouse.Help" x="52" y="123"/>
+<bitmapData resourceLink="asset.auctionHouse.SellLeftAlerBg" x="19" y="59"/>
+<bitmapData resourceLink="asset.auctionHouse.SelectTimeLight" x="0" y="0"/>
+<bitmapData resourceLink="asset.auctionHouse.CancelBid_btn.light" x="-4" y="-5"/>
+</bitmaps>
+</style>

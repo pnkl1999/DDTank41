@@ -1,0 +1,558 @@
+<style name="awardSystem" version="1.0.1" source="ui/spain/swf/awardSystem.swf">
+<sets>
+<set stylename="timebox.TFormat_10" args="Arial,18,0xFFFF00,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_11" args="Arial,12,0x000000,,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_12" args="Arial,14,0xFFFF99,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_121" args="Arial,12,0xFFFF99,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="timebox.timeBoxFormat" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_13" args="Arial,18,0xFFFF33,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_14" args="Arial Unicode MS,16,0xFFFF00,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_15" args="Arial Unicode MS,16,0xFF0000,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_16" args="Arial Unicode MS,20,0xFFFF00,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_17" args="Arial,12,0xFFF4a9,,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_18" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_19" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_20" args="Arial,14,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="timebox.TFormat_21" args="Arial,18,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>
+<set args="0x000000,1,3,3,100" stylename="timebox.TimeBoxFilter" type="flash.filters.GlowFilter"/>
+<set args="0xFF9933,1,2,2,10" stylename="roulette.RouletteBoxFilter" type="flash.filters.GlowFilter"/>
+<set args="0xFFFFFF,1,2,2,10" stylename="roulette.RouletteBoxCellCountFilter" type="flash.filters.GlowFilter"/>
+<set args="0x663300,1,2,2,10" stylename="caddy.nameFilter" type="flash.filters.GlowFilter"/>
+<set args="Arial,12,0x006b0d" stylename="caddy.readAward.ContentFieldTF" type="flash.text.TextFormat" leading="5" />
+<set args="Arial,16,0xffffff" stylename="caddy.QuickBuy.ItemCountField" type="flash.text.TextFormat"/>
+<set args="Arial,14,0xFFEB8F,,,,,,center" stylename="caddy.OfferPack.PackItem.CountFieldTF" type="flash.text.TextFormat"/>
+<set args="0x411d00,1,2,2,10" stylename="caddy.OfferPack.PackItem.CountFieldGF" type="flash.filters.GlowFilter" />
+<set args="Arial,14,0xFFEB8F,,,,,,center" stylename="caddy.OfferPack.PackItem.OfferFieldTF" type="flash.text.TextFormat" />
+<set args="Arial,16,0xFFEB8F,,,,,,center" stylename="card.OfferFieldTF" type="flash.text.TextFormat" />
+<set args="Arial,12,0xFFFFFF" stylename="award.AutoOpenTF" type="flash.text.TextFormat" />
+
+<set type="flash.text.TextFormat" stylename="timebox.TF_18" args="Arial,16,0xFF0000,true"  />
+<set type="flash.filters.GlowFilter" stylename="timebox.GF_18" args="0xFFFFFF,1,3,3,10"  />
+<set type="flash.filters.GlowFilter" stylename="timebox.GF_19" args="0x000000,1,5,5,10"  />
+<set type="flash.filters.GlowFilter" stylename="timebox.GF_20" args="0x000000,1,3,3,10"  />
+<set stylename="Vip.GetAwardsByLVTF" args="Arial,16,0xFF0000,bold" type="flash.text.TextFormat" />
+<set stylename="Vip.GetAwardsByLVFilter" args="0xFFFFFF,1,3,3,5"  type="flash.filters.GlowFilter"/>
+</sets>
+
+<components>
+<!--Timebox-->
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bossbox.TimeBoxStyle" filterString="timebox.TimeBoxFilter" textFormatStyle="timebox.timeBoxFormat" text="00:59:59" x="6" y="55"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="LimitAward.TimeBoxStyle" filterString="timebox.TimeBoxFilter" textFormatStyle="timebox.timeBoxFormat" text="" x="3" y="55"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bossbox.TimeBoxBG" resourceLink="asset.awardSystem.timeBox.BgImage" width="1100" height="700" x="-50" y="-50"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="bossbox.openBox" resourceLink="asset.timeBox.BGRotationAsset" x="-22" y="-8"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="bossbox.closeBox" resourceLink="asset.timeBox.Jumpbox" x="0" y="-15"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="bossbox.downBox" resourceLink="asset.awardSystem.timeBox.DownBox" x="490"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="LimitAward.Button" resourceLink="asset.timeBox.LimitAwardButton" x="3" y="12"></component>
+
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="AutoOpenButton" 
+	parentStyle="core.simpleSelectBtn" filterString="null,lightFilter,null,grayFilter" 
+	displacement="true" backStyle="asset.awardSystem.AutoOpen" textStyle="award.AutoOpenLabel" x="296" y="339"/>
+<custom classname="ddt.view.buff.BuffControl" stylename="asset.bagAndInfo.buffII" x="15" y="320"/>
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="buybuffBtnI" backStyle="asset.core.PayBuffBtn" x="15" y="320"  tipStyle="core.PayBuffTip" tipDirctions="7,6,5,1,6,4"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="award.AutoOpenLabel" 
+textFormatStyle="award.AutoOpenTF" filterString="store.transfer.CheckFieldGF" x="16" y="-2"/>
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bossbox.AwardsViewFrameBackgound" resourceLink="core.bg006,core.bg002" imageRectString=",8|8|50|7|4" />
+<component classname="ddt.view.bossbox.AwardsView" backStyle="bossbox.AwardsViewFrameBackgound" stylename="bossbox.AwardsViewAsset"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" escEnable='true' width="395" height="350" />
+
+<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxTimeTip" resourceLink="asset.awardSystem.timeBox.TimeTip" x="41" y="47"/>
+ <component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxFightLibTip" resourceLink="asset.awardSystem.timeBox.FightLibTip" x="30" y="47"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxGradeTip" resourceLink="asset.awardSystem.timeBox.GradeTip" x="41" y="47"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.BoxTipBg" resourceLink="asset.awardSystem.timeBox.TipBg" x="21" y="42"/>
+ <component classname="com.pickgliss.ui.image.MovieImage" stylename="bossbox.BoxGetBlik" visible="false" resourceLink="asset.awardSystem.timeBox.GetBlikAsset.vip"/>
+ <component classname="com.pickgliss.ui.image.MovieImage" stylename="bossbox.BoxGetBlik.vip" visible="false" resourceLink="asset.awardSystem.timeBox.GetBlikAsset.vip"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="bossbox.TipAsset" resourceLink="bossbox.BoxTimeTip,bossbox.BoxGradeTip,asset.awardSystem.timeBox.VipTip,bossbox.BoxFightLibTip"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bossbox.AwardsAsset" resourceLink="bossbox.BoxTipBg"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="bossbox.TipAssetII" resourceLink="bossbox.BoxTimeTip,bossbox.BoxGradeTip,asset.awardSystem.timeBox.VipTip,bossbox.BoxFightLibTip" x="82"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bossbox.AwardsAssetII" resourceLink="bossbox.BoxTipBg" x="82"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="bossbox.BoxGetButtonAsset" resourceLink="asset.awardSystem.timeBox.GetAsset"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="bossbox.VipBoxTipBg"  resourceLink="asset.awardSystem.VipBox.TipBg" x="21" y="42"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bossbox.scale9GoodsImage" resourceLink="asset.awardSystem.timeBox.LeftUp,asset.awardSystem.timeBox.UpCentre,asset.awardSystem.timeBox.RightUp,asset.awardSystem.timeBox.LeftCentre,asset.awardSystem.timeBox.Centre,asset.awardSystem.timeBox.RightCentre,asset.awardSystem.timeBox.LeftDown,asset.awardSystem.timeBox.DownCentre,asset.awardSystem.timeBox.RightDown" width="348" height="203" x="23" y="86"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bossbox.scale9GoodsImageII" resourceLink="asset.awardSystem.timeBox.LeftUp,asset.awardSystem.timeBox.UpCentre,asset.awardSystem.timeBox.RightUp,asset.awardSystem.timeBox.LeftCentre,asset.awardSystem.timeBox.Centre,asset.awardSystem.timeBox.RightCentre,asset.awardSystem.timeBox.LeftDown,asset.awardSystem.timeBox.DownCentre,asset.awardSystem.timeBox.RightDown" width="500" height="200" x="23" y="86"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bossbox.scale9GoodsImageIII" resourceLink="asset.awardSystem.timeBox.LeftUp,asset.awardSystem.timeBox.UpCentre,asset.awardSystem.timeBox.RightUp,asset.awardSystem.timeBox.LeftCentre,asset.awardSystem.timeBox.Centre,asset.awardSystem.timeBox.RightCentre,asset.awardSystem.timeBox.LeftDown,asset.awardSystem.timeBox.DownCentre,asset.awardSystem.timeBox.RightDown" width="354" height="87" x="23" y="86"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="bossbox.BoxGetButton" backStyle="bossbox.BoxGetButtonAsset" x="134" y="297" filterString="null,lightFilter,lightFilter,grayFilter" />
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="bossbox.BoxGetButtonII" backStyle="bossbox.BoxGetButtonAsset" x="218" y="299" filterString="null,lightFilter,lightFilter,grayFilter" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.GoodsCellName" textFormatStyle="timebox.TFormat_121" width="100" height="50" type="2" x="47"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bossbox.boxCellCount" filterString="roulette.RouletteBoxCellCountFilter" textFormatStyle="timebox.TFormat_11" text="99" autoSize="none" width="40" height="22"  x="5" y="28"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bossbox.TheNextTimeText" 
+	textFormatStyle="timebox.TF_18" filterString="timebox.GF_18" 
+	x="28" y="38" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="BoxVipTips.ItemName" textFormatStyle="timebox.TFormat_12" width="96" height="35" type="2" x="65" y="8" wordWrap="true"/>	
+
+
+<!--Scroll-->
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="TimeBoxScrollpanel" parentStyle="core.ScrollPanel" width="330" height="200"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="caddy.ReaderScrollpanel" parentStyle="core.ScrollPanel" viewportInnerRectString="3,22,40,288,1" 
+	width="234" height="328" hScrollProxy="2" vScrollProxy="0" x="20" y="20"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="caddy.CaddyReaderScrollpanel" parentStyle="core.ScrollPanel"
+	width="234" height="231" hScrollProxy="2" vScrollProxy="0" x="20" y="20"/>
+
+<!--Roulette-->
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteStyleI" x="350" y="28" filterString="roulette.RouletteBoxFilter" textFormatStyle="timebox.TFormat_10" text="99" autoSize="none" width="46" height="22" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteStyleII" x="74" parentStyle="roulette.RouletteStyleI"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteStyleIII" x="219" parentStyle="roulette.RouletteStyleI"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roulette.RouletteCellCount" filterString="roulette.RouletteBoxCellCountFilter" textFormatStyle="timebox.TFormat_11" text="99" autoSize="none" width="40" height="22"  x="13" y="35"/>
+<component classname="ddt.view.roulette.RouletteBoxPanel" backStyle="core.bg006" stylename="roulette.RoulettePanelAsset"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" containerX="10" containerY="36" width="466" height="561"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="roulette.BuyKeyButton" backStyle="asset.awardSystem.roulette.BuyKeyAsset" x="93" y="142" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roulette.start" resourceLink="asset.awardSystem.roulette.startAsset,asset.awardSystem.roulette.startAsset,asset.awardSystem.roulette.startAssetII,asset.awardSystem.roulette.startAsset"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="roulette.StartTurnButton" backStyle="roulette.start" x="156" y="218" filterString="null,lightFilter,lightFilter,grayFilter" displacement="false"/>
+
+<!--HBox-->
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="roulette.SeletedHBox" x="40" y="436" spacing="-2"/>
+<component classname="com.pickgliss.ui.controls.container.VBox" stylename="caddy.readVBox" spacing="1"/>
+
+
+<!--TimeTip-->
+<component classname="ddt.view.bossbox.TimeTip" stylename="TimeBox.TimeTip" tipStyle="ddt.view.tips.MultipleLineTip" tipDirctions="0,3,4" width="69" height="70" tipWidth="148" tipGapH="-60" tipGapV="17"/>
+<component classname="ddt.view.bossbox.TimeTip" stylename="LimitAwardBox.TimeTip" tipStyle="ddt.view.tips.MultipleLineTip" tipDirctions="0,3,4" width="69" height="70" tipWidth="148"/>
+<component classname="ddt.view.bossbox.TimeTip" stylename="LimitAwardBox.TimeTipOne" tipStyle="ddt.view.tips.MultipleLineTip" tipDirctions="0,3,4" width="69" height="70" tipWidth="148" tipGapH="-100" tipGapV="-160"/>
+<component classname="ddt.view.bossbox.TimeTip" stylename="LimitAwardBox.TimeTipTwo" tipStyle="ddt.view.tips.MultipleLineTip" tipDirctions="0,3,4" width="69" height="70" tipWidth="148" tipGapH="0" tipGapV="8"/>
+
+<!--远古宝箱-->
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="caddy.caddyMc" resourceLink="asset.caddy.caddyAsset"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="caddy.panelMc" resourceLink="asset.caddy.panelAsset" x="20" y="249"/>
+<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="caddy.BaseFrame" 
+ backStyle="SimpleFrameBackgound" submitButtonStyle="core.simplebt"	cancelButtonStyle="core.simplebt" 	
+ titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"  width="250" height="180"/>
+<component classname="ddt.view.caddy.CaddyPanel" stylename="caddy.CaddyPanel"  backStyle="SimpleFrameBackgound" parentStyle="caddy.BaseFrame" containerX="10" containerY="32" width="344" height="367"/>
+
+<!--砸罐子-->
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="caddy.rightBG" parentStyle="bagScaleBGAssetCore" width="325" height="373"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.rightGridBGI" resourceLink="asset.core.bg002" width="310" height="30" x="7" y="278"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.rightGridBGII" parentStyle="caddy.rightGridBGI"  height="55" y="310"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.numberI" resourceLink="asset.caddy.textBGAsset" x="129" y="277"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.numberII" resourceLink="asset.caddy.textBGAsset" x="240" y="277"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.numberBG" resourceLink="asset.caddy.FontI,caddy.numberI,caddy.numberII" y="6"/>
+
+<!-- 魔罐快捷购买按钮 -->
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.KeyBtn" backStyle="caddy.KeyBtn.Background" x="104" y="282" 
+ tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"/>
+    
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.BoxBtn" backStyle="caddy.BoxBtn.Background" x="215" y="282"
+ tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"/>
+
+ <!-- 魔罐快捷购买按钮背景 --> 
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.BoxBtn.Background" resourceLink="asset.caddy.BoxAsset,asset.caddy.BoxOverAsset,asset.caddy.BoxOverAsset,asset.caddy.BoxAsset"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.KeyBtn.Background" resourceLink="asset.caddy.KeyAsset,asset.caddy.KeyOverAsset,asset.caddy.KeyOverAsset,asset.caddy.KeyAsset"/>
+   
+<!-- 功勋红包选择按钮背景 --> 
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.offerpack.item.Background" resourceLink="ddt.view.caddy.OfferPack.PackItem,ddt.view.caddy.OfferPack.PackItemOver,ddt.view.caddy.OfferPack.PackItemOver,ddt.view.caddy.OfferPack.PackItem"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.LookBtn" backStyle="asset.caddy.LookBtn" x="203" y="15" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.OpenBtn" backStyle="asset.caddy.OpenBtn" x="104" y="318" filterString="null,lightFilter,lightFilter,grayFilter"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.goodsNameTxt" filterString="caddy.nameFilter" textFormatStyle="timebox.TFormat_13" text="" autoSize="none" width="190" height="22"  x="70" y="250"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.keyNumberTxt"  textFormatStyle="timebox.TFormat_14" text="0" 
+  autoSize="none" width="44" height="22"  x="127" y="280"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.boxNumberTxt" parentStyle="caddy.keyNumberTxt"  x="238"/>
+
+
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="caddy.LeftBG" parentStyle="bagScaleBGAssetCore" width="270" height="373"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.bagBG" resourceLink="asset.core.caddyBagAsset" scaleGridString="20,20,120,120" width="250" height="300" x="8" y="12"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.sellAllBtn" backStyle="asset.caddy.SellAllBtn" x="149" y="320" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<!--查看奖品 -->
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="caddy.TrophyBGI" parentStyle="bagScaleBGAssetCore" width="273" height="295"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.TrophyBGII" parentStyle="caddy.bagBG" width="255" height="215" x="8" y="32"/>
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="caddy.prevBtn" parentStyle="core.simplebt" x="9" y="255" />
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="caddy.nextBtn" parentStyle="core.simplebt" x="158" y="255" />
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.pageTxt" textFormatStyle="timebox.TFormat_16"  x="118" y="255" autoSize="none" width="40" height="26"/>
+
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="caddy.BugleViewItemContainer" spacing="40"/>
+<!--开宝珠-->
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bead.rightGridBGI" resourceLink="asset.core.bg002" width="310" height="55" x="7" y="254"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="bead.beatItemBG" resourceLink="asset.bead.numberBG1,asset.bead.numberBG2"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bead.numberTxt" parentStyle="caddy.keyNumberTxt"  x="37" y="8"/>
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="bead.selectBox" x="25" y="265" spacing="20"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="bead.fontII" resourceLink="asset.caddy.FontII" x="15" y="245"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="bead.turnBG" resourceLink="asset.bead.attack,asset.bead.defense,asset.bead.attribute"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="bead.movieAsset" resourceLink="asset.bead.movieAsset" x="165" y="115"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bead.goodsNameTxt" parentStyle="caddy.goodsNameTxt" autoSize="none" height="22" width="270" x="26" y="217"/>
+ <component classname="com.pickgliss.ui.controls.BaseButton" stylename="caddy.bead.QuickBuyButton" backStyle="asset.bead.quickBuy" x="180" y="268" visible="false"/>
+
+
+<!--开功勋红包-->
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="offer.rightGridBGI" resourceLink="asset.core.bg002" width="310" height="60" x="7" y="249"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="offer.quickBtn" backStyle="asset.offerPack.quickBuyBtn" x="232" y="255" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="offer.fontII" resourceLink="asset.caddy.FontII" x="10" y="283"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="offer.offerNumberTxt" parentStyle="caddy.keyNumberTxt"  x="95" y="252" autoSize="none" width="128"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="offer.packNumberTxt" parentStyle="caddy.keyNumberTxt"  x="229" y="279" autoSize="none" width="69"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="offer.itemNameTxt" textFormatStyle="timebox.TFormat_17"  x="23" y="3" autoSize="none" width="75" height="20"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="offer.turnBG" resourceLink="asset.offerPack.packI,asset.offerPack.packII,asset.offerPack.packIII,asset.offerPack.packIV,asset.offerPack.packV"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.view.caddy.OfferPack.OfferField" 
+	textFormatStyle="caddy.OfferPack.PackItem.OfferFieldTF" filterString="caddy.OfferPack.PackItem.CountFieldGF"
+  	mouseEnabled="false" x="80" y="16" autoSize="none" width="64" height="20"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.OfferPack.PackItem.CountField" 
+  textFormatStyle="caddy.OfferPack.PackItem.CountFieldTF" filterString="caddy.OfferPack.PackItem.CountFieldGF" 
+  autoSize="none" x="5" y="40" width="40" height="22" />
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="offerPack.consortiaMUnSelect" resourceLink="ddt.view.caddy.OfferPack.consortiaManager"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="offerPack.consortiaManagerSelected" resourceLink="ddt.view.caddy.OfferPack.consortiaManager,ddt.view.caddy.OfferPack.consortiaManager.Selected"/>
+
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="offerPack.consortiaManager" resourceLink="offerPack.consortiaMUnSelect,offerPack.consortiaManagerSelected,offerPack.consortiaManagerSelected,offerPack.consortiaMUnSelect"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="offerPack.consortiaManagerBtn" backStyle="offerPack.consortiaManager" x="240" y="16" />
+
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+	stylename="offer.comboxItembgB" resourceLink="asset.core.comboxItembgB"
+	scaleGridString="4,12,26,14" width="133" height="25"/>
+<component classname="com.pickgliss.ui.controls.ListPanel" stylename="offer.ComboxListpanel"
+	vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,0,22,0,5"
+	factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|ddt.view.caddyII.offerPack.OfferItem,25,98"
+	listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.comboxListBG1"
+	backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1"
+	vUnitIncrement="5"/>
+<component classname="ddt.view.caddyII.offerPack.OfferComboBox" stylename="offer.offerComboBox"
+	listPanelStyle="offer.ComboxListpanel" buttonStyle="core.comboxButton2" width="133"
+	height="30" textStyle="core.comboxListCellTxt" offerItemStyle="offer.offerItem" listInnerRectString="5,33,10,125,18"
+	textInnerRectString="5,25,7,0,0" x="95" y="277"/>
+
+<!--快捷购买-->
+<component classname="com.pickgliss.ui.image.Image" stylename="bead.quickFont1" resourceLink="asset.bead.quickFont1" x="60" y="170"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="bead.quickFont2" resourceLink="asset.bead.quickFont2" x="220" y="170"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="bead.quickMoneyBG" resourceLink="asset.bead.quickMoneyBG" x="162" y="168"/>
+
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.quickFont1" resourceLink="asset.bead.quickFont1" x="-30" y="170"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.quickFont2" resourceLink="asset.bead.quickFont2" x="135" y="170"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.quickFont3" resourceLink="asset.bead.quickFont3" x="235" y="170"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.quickMoneyBG" resourceLink="asset.bead.quickMoneyBG" x="75" y="168"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="caddy.quickGiftBG" resourceLink="asset.bead.quickMoneyBG" x="180" y="168"/>
+
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="bead.quickBox" x="6" y="15" spacing="25"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bead.moneyTxt"  textFormatStyle="timebox.TFormat_15" filterString="roulette.RouletteBoxCellCountFilter" text="0" autoSize="none" width="58" height="24"  x="162" y="168"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.moneyTxt"  x="75" parentStyle="bead.moneyTxt"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.giftTxt"  x="180" parentStyle="bead.moneyTxt"/>
+
+<component classname="com.pickgliss.ui.controls.container.HBox" stylename="offer.quickBox" x="5" y="15" spacing="15"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="offer.quickFont1" resourceLink="asset.bead.quickFont1" x="50" y="160"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="offer.quickFont2" resourceLink="asset.offerPack.fontII" x="220" y="160"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="offer.quickMoneyBG" resourceLink="asset.bead.quickMoneyBG" x="153" y="158"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="offer.moneyTxt"  textFormatStyle="timebox.TFormat_15" filterString="roulette.RouletteBoxCellCountFilter" text="0" autoSize="none" width="58" height="24"  x="153" y="158"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="offer.ShortCutSelect" resourceLink="asset.core.QuickBuyCellBG,asset.core.shortCutSelect"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="offer.StoreShortcutCellBg" x="-6" y="-6" resourceLink="asset.core.QuickBuyCellBG,offer.ShortCutSelect"/>
+    
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.QuickBuy.ItemCountField" textFormatStyle="caddy.QuickBuy.ItemCountField" filterString="timebox.TimeBoxFilter"
+    mouseEnabled="false" />
+    
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="CaddyCardBoxBag.openAllBtn" backStyle="ddt.view.cardBoxCaddy.openAll" x="149" y="320" />
+
+
+<!--奖品公告-->
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="caddy.readAwardsBGI" parentStyle="bagScaleBGAssetCore" width="273" height="373"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.readAwardsBGII" parentStyle="caddy.bagBG" width="255" height="352" x="8" y="12"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.caddyreadAwardsBGII" parentStyle="caddy.bagBG" width="255" height="250" x="8" y="12"/>
+
+<!--惊喜轮盘-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="surpriseRoulette.startImg" resourceLink="asset.awardSystem.surpriseRoulette.start,asset.awardSystem.surpriseRoulette.start,asset.awardSystem.surpriseRoulette.start2,asset.awardSystem.surpriseRoulette.start2"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="surpriseRoulette.start" backStyle="surpriseRoulette.startImg" x="134" y="145" displacement="false" filterString="null,lightFilter,lightFilter,lightFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="surpriseRoulette.buy" backStyle="asset.awardSystem.surpriseRoulette.buy" x="492" y="321" filterString="null,lightFilter,lightFilter,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="surpriseRoulette.close" backStyle="asset.awardSystem.surpriseRoulette.close" x="709" y="141" filterString="null,lightFilter,lightFilter,grayFilter"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="surpriseRoulette.txtKeyCount" textFormatStyle="timebox.TFormat_18" filterString="roulette.RouletteBoxFilter" autoSize="none" width="36" height="22" x="493" y="409"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="surpriseRoulette.txtNeedKey" textFormatStyle="timebox.TFormat_18" filterString="roulette.RouletteBoxFilter" autoSize="none" width="36" height="22" x="617" y="409"/>  
+
+<!-- 开卡牌 -->
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.card.cardNumber" 
+	textFormatStyle="card.OfferFieldTF" filterString="caddy.OfferPack.PackItem.CountFieldGF"
+  	mouseEnabled="false" x="95" y="16" autoSize="none" width="64" height="20"/>
+  	
+ <!-- 衰神排行榜 -->
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.badLuck.awardBtnbmp1n" resourceLink="asset.caddy.badLuck.AwardBtnI,asset.caddy.badLuck.BtnShare"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.badLuck.awardBtnbmp1s" resourceLink="asset.caddy.badLuck.AwardBtnII,asset.caddy.badLuck.BtnShare"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.badLuck.awardBtn1n" resourceLink="asset.caddy.badLuck.AwardBtnI,caddy.badLuck.awardBtnbmp1n,caddy.badLuck.awardBtnbmp1n,asset.caddy.badLuck.AwardBtnI"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.badLuck.awardBtn1s" resourceLink="asset.caddy.badLuck.AwardBtnII,caddy.badLuck.awardBtnbmp1s,caddy.badLuck.awardBtnbmp1s,asset.caddy.badLuck.AwardBtnII"/>
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.badLuck.bacLuckBtnbmp1n" resourceLink="asset.caddy.badLuck.BadLuckBtnI,asset.caddy.badLuck.BtnShare"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.badLuck.bacLuckBtnbmp1s" resourceLink="asset.caddy.badLuck.BadLuckBtnII,asset.caddy.badLuck.BtnShare"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.badLuck.bacLuckBtn1n" resourceLink="asset.caddy.badLuck.BadLuckBtnI,caddy.badLuck.bacLuckBtnbmp1n,caddy.badLuck.bacLuckBtnbmp1n,asset.caddy.badLuck.BadLuckBtnI"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.badLuck.bacLuckBtn1s" resourceLink="asset.caddy.badLuck.BadLuckBtnII,caddy.badLuck.bacLuckBtnbmp1s,caddy.badLuck.bacLuckBtnbmp1s,asset.caddy.badLuck.BadLuckBtnII"/>
+
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="caddy.badLuck.awardBtn" unSelectedStyle="caddy.badLuck.awardBtn1s" selectedStyle="caddy.badLuck.awardBtn1n" x="117" y="13" backStyle="asset.caddy.badLuck.BadLuckBtnI" displacement="false"/>
+<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="caddy.badLuck.bacLuckBtn" unSelectedStyle="caddy.badLuck.bacLuckBtn1s" selectedStyle="caddy.badLuck.bacLuckBtn1n" x="21" y="13" backStyle="asset.caddy.badLuck.BadLuckBtnI" displacement="false"/>
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.badLuck.badLuckTitle" x="7" y="15" resourceLink="asset.caddy.badLuck.GridBG,asset.caddy.badLuck.FontSort,asset.caddy.badLuck.FontName,asset.caddy.badLuck.FontNumber"/>
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.badLuckBg2" x="1" y="6" resourceLink="asset.caddy.badLuckBG,asset.caddy.badLuckBGII"/>
+
+<component classname="com.pickgliss.ui.controls.container.VBox" stylename="caddy.badLuckBox" spacing="1"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="caddy.badLuckScrollpanel" parentStyle="core.ScrollPanel"
+	width="252" height="207" hScrollProxy="2" vScrollProxy="0" x="10" y="48"/>
+	
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.badLuck.bacLuckItemBG" resourceLink="asset.caddy.badLuck.GridBGI,asset.caddy.badLuck.GridBGII"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.sortTxt"  textFormatStyle="timebox.TFormat_18" filterString="timebox.GF_19" autoSize="none" width="42" height="23"  x="1" y="6"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.NameTxt"  textFormatStyle="timebox.TFormat_19" filterString="timebox.GF_20" autoSize="none" width="133" height="22"  x="46" y="7"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.NumberTxt"  textFormatStyle="timebox.TFormat_19" filterString="timebox.GF_20" autoSize="none" width="46" height="22"  x="182" y="7"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.lastTimeTxt"  textFormatStyle="timebox.TFormat_20" filterString="timebox.GF_20" autoSize="none" width="250" height="22"  x="8" y="300"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.MyNumberTxt"  textFormatStyle="timebox.TFormat_21" filterString="timebox.GF_20" text="0" autoSize="none" width="136" height="22"  x="125" y="335"/>
+
+<component classname="ddt.view.caddyII.badLuck.ReceiveBadLuckAwardFrame"  stylename="caddy.ReceiveBadLuckAwardFrame" parentStyle="BaseFrame" width="661" height="520"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="caddy.RBadLuckBGI" parentStyle="core.scale9cornerImage4" x="16" y="77" width="628" height="395"/>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="caddy.RBadLuckBGII" parentStyle="core.scale9CornerImage22" width="595" height="128" x="33" y="331"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.RBadLuckBGIII" resourceLink="asset.caddy.badLuckBG" scaleGridString="50,50,120,120" width="603" height="220" x="29" y="114"/>
+<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="caddy.RBadLuckBGV" resourceLink="asset.caddy.badLuckBGII" scaleGridString="50,50,120,120" width="588" height="173" x="36" y="154"/>
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="caddy.RbadLuckTitle" x="36" y="123" resourceLink="asset.RBadLuck.GridBG,asset.RBadLuck.FontSort,asset.RBadLuck.FontName,asset.RBadLuck.FontAward"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.badLuck.RbadLuckItemBG" resourceLink="asset.RBadLuck.GridBGI,asset.RBadLuck.GridBGII"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.RsortTxt"  textFormatStyle="timebox.TFormat_18" filterString="timebox.GF_19" text="0" autoSize="none" width="69" height="23"  x="1" y="6"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.RNameTxt"  textFormatStyle="timebox.TFormat_19" filterString="timebox.GF_20" text="0" autoSize="none" width="212" height="22"  x="69" y="7"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="caddy.badLuck.RgoodsTxt"  textFormatStyle="timebox.TFormat_21" filterString="timebox.GF_20" text="0" autoSize="none" width="260" height="22"  x="290" y="7"/>
+<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="caddy.RBadTopThreeRink" x="12" y="4" resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" />
+
+<component classname="com.pickgliss.ui.controls.container.VBox" stylename="caddy.RbadLuckBox" spacing="0"/>
+<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="caddy.RbadLuckScrollpanel" parentStyle="core.ScrollPanel"
+	width="585" height="170" hScrollProxy="2" vScrollProxy="0" x="38" y="156"/>
+<!--VIP优化礼包-->
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Vip.GetAwardsByLV" textFormatStyle="Vip.GetAwardsByLVTF" filterString="Vip.GetAwardsByLVFilter" height="20" x="32" y="47" />
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="Vip.GetAwardsByLVBtn" backStyle="bossbox.BoxGetButtonAsset" x="140" y="198" filterString="null,lightFilter,lightFilter,grayFilter" />
+</components>
+
+<customDisplay>
+<custom classname="ddt.view.bossbox.AwardsGoodsList" stylename="bossbox.AwardsGoodsList" x="40" y="100"/>
+<custom classname="ddt.view.bossbox.BoxAwardsCell" stylename="bossbox.BoxAwardsCell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15"/>
+ <custom classname="ddt.view.caddyII.TempIDProxy" stylename="Caddy.TempID" 
+  tempid="7027,7024,7026,17002,14010,9025,11030,11031,11032,11033,7019,7016,1165,1266,2231,3149,5150,5250,5156,5255,11024,11023,8502,8503,8504,8506,9502,9503,9505,9506,9424,8402,8403,8404,8406,9402,9403,9405,9406,9324,11904,11905,7020,7021,7022,7015,7018,7023,17001,17003,14009,14007,14008,11018,11004,11008,11012"/>
+<custom classname="ddt.view.caddyII.CaddyAwardModel" stylename="CaddyAwardModel" 
+  awardData="7027,7024,7026,17002,14010,9025,11030,11031,11032,11033,7019,7016,1165,1266,2231,3149,5150,5250,5156,5255,11024,11023,8502,8503,8504,8506,9502,9503,9505,9506,9424,8402,8403,8404,8406,9402,9403,9405,9406,9324,11904,11905,7020,7021,7022,7015,7018,7023,7017,17001,17003,14009,14007,14008,11018,11004,11008,11012,11016,11035"
+  silverAwardData="7027,7024,7026,17002,14010,9025,11030,11031,11032,11033,7019,7016,1165,1266,2231,3149,5150,5250,5156,5255,11904,11905,7020,7021,7022,7015,7018,7023,7017,17001,17003,14009,14007,14008,11018,11004,11008,11016,11012,11035"
+  goldAwardData="7027,7024,7026,17002,14010,9025,11030,11031,11032,11033,7019,7016,1165,1266,2231,3149,5150,5250,5156,5255,11024,11023,8502,8503,8504,8506,9502,9503,9505,9506,9424,8402,8403,8404,8406,9402,9403,9405,9406,9324"
+  silverAwardCount="6"
+  goldAwardCount="83" />
+<custom classname="ddt.data.BeadModel" stylename="BeadModel"
+  beads="311999,312999,313599,313000,313999,313100,313200,313300,313400,313199,313299,313399,313499,312000,312100,312200,312300,312400,312199,312299,312399,312499,312599,311000,311100,311200,311300,311400,311199,311299,311399,311499,311599" />
+<custom classname="flash.text.TextField" stylename="caddy.readAward.ContentField" multiline="true" wordWrap="true" width="210" 
+  mouseWheelEnabled="false" mouseEnabled="true" selectable="false" />
+<custom classname="ddt.view.bossbox.VipInfoTipList" stylename="bossbox.VipInfoTipList" x="42" y="104"/>  
+<custom classname="ddt.view.bossbox.BoxVipTipsInfoCell" stylename="bossbox.BoxVipTipsInfoCell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15"/>
+<!--砸罐子-->
+<custom classname="flash.geom.Point" stylename="caddyII.bead.QuickBuyItem.CountPos" x="80" y="76" />
+<custom classname="ddt.view.caddyII.CaddyFrame" backStyle="core.bg006" stylename="caddyII.CaddyFrame"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" containerX="10" containerY="36" width="897" height="419"/>
+<custom classname="ddt.view.caddyII.CaddyViewII" stylename="caddy.CaddyViewII" x="275"/>
+<custom classname="ddt.view.caddyII.CaddyBagView" stylename="caddy.CaddyBagView"/>
+<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="caddy.SimpleTileList" x="20" y="25" vSpace="-1" hSpace="-1"/>
+<custom classname="ddt.view.caddyII.CaddyTurn" stylename="caddy.CaddyTurn"/>
+<custom classname="ddt.view.caddyII.MoveSprite" stylename="caddy.MoveSprite"/>
+<custom classname="bagAndInfo.cell.BaseCell" stylename="caddy.moveCell"/>
+<custom classname="flash.geom.Point" stylename="caddy.selectCellSize" x="50" y="50"/>
+<custom classname="flash.display.Sprite" stylename="caddy.moveSprite" x="430" y="168"/>
+<custom classname="flash.display.Sprite" stylename="caddy.turnSprite" x="157" y="168"/>
+<custom classname="flash.geom.Point" stylename="caddy.moviePos" x="8" y="47"/>
+<custom classname="ddt.view.caddyII.LookTrophy" backStyle="core.bg006" stylename="caddyII.LookTrophy"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" containerX="10" containerY="30" width="295" height="340"/>
+<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="caddy.TrophyList" x="22" y="53" vSpace="-1" hSpace="-1"/>
+<custom classname="ddt.view.caddyII.MovieGet" stylename="MovieGet" x="10" y="70" visible="false" mouseEnabled="false" mouseChildren="false" />
+<custom classname="flash.geom.Point" stylename="caddy.QuickBuyBtn.ButtonSize" x="190" y="25"/>
+<custom classname="flash.geom.Point" stylename="caddy.QuickBuy.ListPos" x="8" y="15"/>
+
+<!--惊喜轮盘-->
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos0" x="249" y="84" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos1" x="303" y="91" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos2" x="357" y="119" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos3" x="406" y="172" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos4" x="428" y="229" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos5" x="429" y="287" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos6" x="411" y="346" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos7" x="364" y="402" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos8" x="309" y="432" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos9" x="250" y="443" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos10" x="191" y="432" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos11" x="135" y="402" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos12" x="90" y="346" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos13" x="72" y="287" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos14" x="72" y="229" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos15" x="97" y="172" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos16" x="140" y="119" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.pos17" x="194" y="91" />
+	<custom classname="flash.geom.Point" stylename="surpriseRoulette.posGreen" x="-5" y="-4" />
+    <custom classname="flash.geom.Point" stylename="surpriseRoulette.posBig" x="-60" y="9" />
+    <custom classname="flash.geom.Rectangle" stylename="surpriseRoulette.rect" width="8" height="54" x="527" y="238" />
+    <custom classname="flash.geom.Rectangle" stylename="surpriseRoulette.rectGlow" width="60" height="60" x="-20" y="-18" />
+<!--快捷购买-->
+<custom classname="ddt.view.caddyII.QuickBuyCaddy" stylename="caddy.QuickBuyCaddy"  backStyle="SimpleFrameBackgound" submitButtonStyle="core.simplebt" width="330" height="300" containerX="45" containerY="45" closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14"/>
+<custom classname="flash.geom.Point" stylename="bead.quickCellSize" x="73" y="73"/>
+<custom classname="bagAndInfo.cell.BaseCell" stylename="bead.quickCell" buttonMode="true" x="15" y="5" tipDirctions="2,3,7" tipGapH="10"/>
+<custom classname="ddt.command.NumberSelecter" stylename="bead.numberSelecter" y="100" scaleX="0.7" scaleY="0.9"/>
+<custom classname="ddt.view.caddyII.bead.QuickBuyBead" stylename="bead.QuickBuyBead"  backStyle="SimpleFrameBackgound" submitButtonStyle="core.simplebt" width="400" height="300" containerX="20" containerY="45" closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14"/>
+<custom classname="ddt.view.caddyII.bead.CardBoxQuickBuy" stylename="bead.CardBoxQuickBuy"  backStyle="SimpleFrameBackgound" submitButtonStyle="core.simplebt" width="300" height="300" containerX="20" containerY="45" closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14"/>
+
+<custom classname="ddt.command.NumberSelecter" stylename="offer.numberSelecter" x="110" y="110"/>
+<custom classname="ddt.view.caddyII.offerPack.OfferQuickBuyFrame" stylename="offer.OfferQuickBuyFrame" backStyle="SimpleFrameBackgound" submitButtonStyle="core.simplebt" width="406" height="285" containerX="20" containerY="45" closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14"/>
+
+
+<!--开宝珠-->
+<custom classname="ddt.view.caddyII.bead.BeadViewII" stylename="bead.BeadViewII" x="275"/>
+<custom classname="bagAndInfo.cell.BaseCell" stylename="bead.selectCell" x="4" y="4" tipDirctions="2,3,7" tipGapH="35"/>
+<custom classname="flash.geom.Point" stylename="bead.cellSize" x="35" y="35"/>
+<custom classname="flash.geom.Point" stylename="bead.selectCellSize" x="70" y="70"/>
+<custom classname="flash.geom.Point" stylename="bead.beadCellSize" x="60" y="60"/>
+<custom classname="flash.display.Sprite" stylename="bead.turnSprite" x="160" y="170"/>
+<custom classname="flash.display.Sprite" stylename="bead.SelectSprite" x="164" y="125"/>
+<custom classname="flash.display.Sprite" stylename="bead.moveSprite" x="440" y="125"/>
+ <custom classname="ddt.view.caddyII.bead.BeadItem" stylename="bead.SmeltBeadCell" mouseEnabled="false" x="50" y="264"/>
+<!--开功勋红包-->
+<custom classname="flash.geom.Point" stylename="offer.itemCellSize" x="25" y="25"/>
+<custom classname="bagAndInfo.cell.BaseCell" stylename="offer.itemCell" x="0" y="0" tipDirctions="2,3,7" tipGapH="35"/>
+<custom classname="ddt.view.caddyII.offerPack.OfferItem" stylename="offer.offerItem"  x="3" y="5" showBG="false"/>
+<custom classname="flash.geom.Point" stylename="offer.turnCellSize" x="70" y="70"/>
+<custom classname="bagAndInfo.cell.BaseCell" stylename="offer.turnCell" x="0" y="0"/>
+<custom classname="flash.geom.Point" stylename="offer.quickCellSize" x="60" y="60"/>
+<custom classname="flash.geom.Rectangle" stylename="ddt.view.caddyII.offerPack.OfferPackItem.cellBounds" x="8" y="2" width="40" height="40" />
+<custom classname="flash.geom.Point" stylename="offer.OfferPackViewII.PackBar.TopLeft" x="11" y="249"/>
+<!--开功勋红包-->
+<custom classname="ddt.view.caddyII.offerPack.OfferPackViewII" stylename="offer.OfferPackViewII" x="275"/>
+ 
+<custom classname="ddt.view.caddyII.offerPack.OfferPackItem" stylename="ddt.view.caddyII.offerPack.OfferPackItem" 
+	backStyle="caddy.offerpack.item.Background" countStyle="caddy.OfferPack.PackItem.CountField" selectedStyle="ddt.view.caddy.OfferPack.PackItem.Selected" />
+
+<!--奖品公告-->
+<custom classname="ddt.view.caddyII.reader.ReadAwardsView" stylename="caddy.ReadAwardsView" x="605"/>
+<custom classname="ddt.view.caddyII.reader.CaddyReadAwardsView" stylename="caddy.CaddyReadAwardsView" x="0" y="32"/>
+
+<!-- 开卡牌 -->
+<custom classname="ddt.view.caddyII.card.CardFrame" backStyle="core.bg006" stylename="caddy.CardFrame"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" containerX="10" containerY="30" width="343" height="410"/>
+<custom classname="ddt.view.caddyII.card.CardViewII" stylename="caddy.CardViewII"/>
+<custom classname="ddt.view.caddyII.bead.BeadItem" stylename="card.cardCell" x="122" y="264"/>
+<custom classname="ddt.view.caddyII.CaddyFrame" backStyle="core.bg006" stylename="caddyIII.CardBoxFrame"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" containerX="10" containerY="36" width="620" height="419"/>
+
+<!-- 衰神排行榜 -->
+<custom classname="ddt.view.caddyII.badLuck.BadLuckView" stylename="caddy.BadLuckView" x="605" y="1"/>
+<custom classname="ddt.view.caddyII.badLuck.CaddyBadLuckView" stylename="card.CaddyBadLuckView" x="0" y="33"/>
+<custom classname="ddt.view.caddyII.badLuck.BadLuckItem" stylename="card.BadLuckItem"/>
+<custom classname="bagAndInfo.cell.BaseCell" stylename="badLuck.itemCell" x="512" y="4" width="28" height="28" tipDirctions="2,7,6,1,5,4,0,3,6"/>
+<custom classname="ddt.view.caddyII.badLuck.ReceiveBadLuckItem" stylename="card.ReceiveBadLuckItem" height="34"/>
+
+
+
+<!--SmallBoxButton-->
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point0" x="913" y="150"/>
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point1" x="154" y="1"/>
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point2" x="681" y="4"/>
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point3" x="544" y="1"/>
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point4" x="681" y="11"/>
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point5" x="929" y="222"/>
+<custom classname="flash.geom.Point" stylename="smallBoxbutton.point6" x="930" y="220"/>
+
+<!-- LimitAwardButton -->
+<custom classname="flash.geom.Point" stylename="limitAwardButton.point0" x="910" y="240"></custom>
+<custom classname="flash.geom.Point" stylename="limitAwardButton.point1" x="1" y="1"></custom>
+<custom classname="flash.geom.Point" stylename="limitAwardButton.point2" x="674" y="88"></custom>
+<custom classname="flash.geom.Point" stylename="limitAwardButton.point3" x="1" y="1"></custom>
+<custom classname="flash.geom.Point" stylename="limitAwardButton.point4" x="674" y="88"></custom>
+
+<!--up-->
+<custom classname="flash.geom.Point" stylename="roulette.point0" x="31" y="68"/>
+<custom classname="flash.geom.Point" stylename="roulette.point1" x="98" y="68"/>
+<custom classname="flash.geom.Point" stylename="roulette.point2" x="164" y="68"/>
+<custom classname="flash.geom.Point" stylename="roulette.point3" x="231" y="68"/>
+<custom classname="flash.geom.Point" stylename="roulette.point4" x="299" y="68"/>
+<custom classname="flash.geom.Point" stylename="roulette.point5" x="367" y="68"/>
+
+<!--right-->
+<custom classname="flash.geom.Point" stylename="roulette.point6" x="367" y="136"/>
+<custom classname="flash.geom.Point" stylename="roulette.point7" x="367" y="204"/>
+<custom classname="flash.geom.Point" stylename="roulette.point8" x="367" y="272"/>
+
+<!--down-->
+<custom classname="flash.geom.Point" stylename="roulette.point9" x="367" y="339"/>
+<custom classname="flash.geom.Point" stylename="roulette.point10" x="300" y="339"/>
+<custom classname="flash.geom.Point" stylename="roulette.point11" x="233" y="339"/>
+<custom classname="flash.geom.Point" stylename="roulette.point12" x="167" y="339"/>
+<custom classname="flash.geom.Point" stylename="roulette.point13" x="99" y="339"/>
+<custom classname="flash.geom.Point" stylename="roulette.point14" x="30" y="339"/>
+
+<!--left-->
+<custom classname="flash.geom.Point" stylename="roulette.point15" x="30" y="272"/>
+<custom classname="flash.geom.Point" stylename="roulette.point16" x="30" y="204"/>
+<custom classname="flash.geom.Point" stylename="roulette.point17" x="30" y="136"/>
+
+
+<custom classname="flash.geom.Point" stylename="caddyCardBoxBagView.note.pos" x="27" y="33"/>
+
+<custom classname="flash.geom.Point" stylename="cardBoxQuickBuy.pos" x="80" y="15"/>
+<custom classname="flash.geom.Point" stylename="cardBoxQuickBuy.font1pos" x="31" y="166"/>
+<custom classname="flash.geom.Point" stylename="cardBoxQuickBuy.font2pos" x="191" y="166"/>
+<custom classname="flash.geom.Point" stylename="cardBoxQuickBuy.moneyBGpos" x="133" y="165"/>
+<custom classname="flash.geom.Point" stylename="cardBoxQuickBuy.moneyTxtpos" x="133" y="164"/>
+</customDisplay>
+
+<bitmaps>
+<bitmapData resourceLink="asset.timeBox.smallOpenBox" x="0" y="10"/>
+<bitmapData resourceLink="asset.timeBox.smallCloseBox" x="0" y="-15"/>
+<bitmapData resourceLink="asset.timeBox.timeBGAsset" x="2" y="53"/>
+<bitmapData resourceLink="asset.awardSystem.roulette.RouletteBG" x="-3" y="-4"/>
+<bitmapData resourceLink="asset.timeBox.LimitAwardButton" x="3" y="-3"/>
+
+<bitmapData resourceLink="asset.timeBox.GoodsCellBG" x="1" y="0" height="50" />
+<bitmapData resourceLink="asset.timeBox.GoodsCellShin" x="1" y="1" width="154" height="55"/>
+<bitmapData resourceLink="asset.timeBox.goodsCellShow" x="3" y="3"  width="45" height="45"/>
+
+<!--砸罐子-->
+<bitmapData resourceLink="asset.caddy.CaddyViewBG" x="9" y="45"/>
+<bitmapData resourceLink="asset.caddy.GoodsNameBG" x="50" y="246"/>
+<bitmapData resourceLink="asset.caddy.FontI" x="15" y="277"/>
+<bitmapData resourceLink="asset.caddy.NodeAsset" x="13" y="14"/>
+<bitmapData resourceLink="asset.caddy.NodeBagAsset" x="10" y="323"/>
+ 
+ <!-- 罐子快捷购买按钮 -->   
+<bitmapData resourceLink="asset.caddy.BoxOverAsset" x="-7" y="-3" />
+<bitmapData resourceLink="asset.caddy.KeyOverAsset" x="-7" y="-3" />
+<bitmapData resourceLink="asset.caddy.BoxAsset" x="-2" y="-1" />
+<bitmapData resourceLink="asset.caddy.QuickBuy.Selected" x="2.5" y ="-6" visible="false" />
+ 
+<!--开宝珠-->
+<bitmapData resourceLink="asset.bead.numberBG1" x="2" y="3"/>
+<bitmapData resourceLink="asset.bead.selectNode" x="102" y="243"/>
+<bitmapData resourceLink="asset.bead.openBG" x="9" y="45"/>
+<bitmapData resourceLink="asset.bead.goodsNameBG" x="8" y="213"/>
+<bitmapData resourceLink="asset.bead.quickCellBG" x="10"/>
+
+
+<!--  装备铸金  -->
+<bitmapData resourceLink="asset.awardSystem.EquipBG" x="108" y="75" width="106" height="106" />
+<bitmapData resourceLink="asset.awardSystem.bagEquip" x="345" y="22" />
+<bitmapData resourceLink="asset.bead.selectNodeI" x="98" y="241"/>
+<bitmapData resourceLink="asset.awardSystem.WishAutoOpen" x="-67" y="-1" />
+
+<!--开功勋红包-->
+<bitmapData resourceLink="asset.offerPack.offerNumberBG" x="98" y="253"/>
+<bitmapData resourceLink="asset.offerPack.PackNumberBG" x="232" y="282"/>
+<bitmapData resourceLink="asset.offerPack.fontI" x="10" y="255"/>
+<bitmapData resourceLink="ddt.view.caddy.OfferPack.PackItem.Selected" x="-5" y="-4" visible="false"/>
+<bitmapData resourceLink="asset.awardSystem.timeBox.VipTip" x="41" y="47"/>
+<bitmapData resourceLink="ddt.view.caddy.OfferPack.OfferBack" x="10" y="12" />
+<bitmapData resourceLink="ddt.view.caddy.OfferPack.consortiaManager.Selected" x="-1" y="-2"/>
+
+<!--奖品公告-->
+<bitmapData resourceLink="asset.caddy.AwardsNode" x="25" y="27"/>
+<bitmapData resourceLink="asset.awardSystem.AutoOpen" x="-66" y="-2"/>
+
+<bitmapData resourceLink="asset.caddy.lookFont" x="8" y="12"/>
+<bitmapData resourceLink="asset.card.getFontBG" x="97" y="17"/>
+<bitmapData resourceLink="asset.card.getFont" x="8" y="19"/>
+
+<!-- 衰神排行榜 -->
+<bitmapData resourceLink="asset.caddy.badLuck.BtnShare" x="-3" y="-4"/>
+<bitmapData resourceLink="asset.caddy.badLuck.MyNumberBG" x="7" y="328"/>
+<bitmapData resourceLink="asset.caddy.badLuck.FontSort" x="10" y="5"/>
+<bitmapData resourceLink="asset.caddy.badLuck.FontName" x="94" y="5"/>
+<bitmapData resourceLink="asset.caddy.badLuck.FontNumber" x="189" y="5"/>
+<bitmapData resourceLink="asset.caddy.badLuckBGII" x="8" y="41"/>
+<bitmapData resourceLink="asset.RBadLuck.FontTitle" x="61" y="33"/>
+<bitmapData resourceLink="asset.RBadLuck.FontR" x="123" y="91"/>
+<bitmapData resourceLink="asset.RBadLuck.FontSort" x="17" y="5"/>
+<bitmapData resourceLink="asset.RBadLuck.FontName" x="151" y="5"/>
+<bitmapData resourceLink="asset.RBadLuck.FontAward" x="384" y="5"/>
+<bitmapData resourceLink="asset.RBadLuck.FontRbadEx" x="68" y="348"/>
+
+<bitmapData resourceLink="asset.timeBox.GoodsCellShinEnable" x="-10" y="-12"/>
+<bitmapData resourceLink="asset.awardSystem.VipBox.TipBg" width="384"/>
+
+ <!--惊喜轮盘-->
+    <bitmapData resourceLink="asset.awardSystem.surpriseRoulette.bg" x="0" y="0" />
+    <bitmapData resourceLink="asset.awardSystem.surpriseRoulette.bg1" x="115" y="126" />
+    <bitmapData resourceLink="asset.awardSystem.surpriseRoulette.cellBg" smoothing="true" width="46" height="46" x="-23" y="-23" />
+    <bitmapData resourceLink="asset.awardSystem.surpriseRoulette.selectedCellBg" smoothing="true" width="46" height="46" x="-23" y="-23" />
+    <bitmapData resourceLink="asset.bead.numberBG2" width="78" />
+
+
+</bitmaps>
+</style>

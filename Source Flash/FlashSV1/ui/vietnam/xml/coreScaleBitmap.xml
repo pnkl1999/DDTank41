@@ -1,0 +1,56 @@
+﻿<style name="coreScaleBitmap" version="1.0.1" source="ui/spain/swf/coreScaleBitmap.swf">
+	<sets>
+
+	</sets>
+	<customDisplay>
+
+	</customDisplay>
+		
+	<components>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.levelRewardBg"
+			resourceLink="asset.core.levelRewardBg_left_up,asset.core.levelRewardBg_up,asset.core.levelRewardBg_right_up,asset.core.levelRewardBg_left,asset.core.levelRewardBg_center,asset.core.levelRewardBg_right,asset.core.levelRewardBg_left_down,asset.core.levelRewardBg_down,asset.core.levelRewardBg_right_down" width="600" height="380" x="25" y="70"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.levelRewardLightBg"
+			resourceLink="asset.core.levelRewardLightBgAsset_leftup,asset.core.levelRewardLightBgAsset_up,asset.core.levelRewardLightBgAsset_rightup,asset.core.levelRewardLightBgAsset_left,asset.core.levelRewardLightBgAsset_center,asset.core.levelRewardLightBgAsset_right,asset.core.levelRewardLightBgAsset_leftdown,asset.core.levelRewardLightBgAsset_down,asset.core.levelRewardLightBgAsset_rightdown" width="590" height="180"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.levelRewardhighColourBg"
+			resourceLink="asset.core.highColourBgAsset_leftup,asset.core.highColourBgAsset_up,asset.core.highColourBgAsset_rightup,asset.core.highColourBgAsset_left,asset.core.highColourBgAsset_center,asset.core.highColourBgAsset_right,asset.core.highColourBgAsset_leftdown,asset.core.highColourBgAsset_down,asset.core.highColourBgAsset_rightdown" width="590" height="180"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.shop.RankingBackBg" 
+			resourceLink="asset.core.shop.RankingBackBg" scaleGridString="15,15,20,20" 
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.shop.RankingFrontBg" 
+			resourceLink="asset.core.shop.RankingFrontBg" scaleGridString="15,15,20,20" 
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.shop.ShopPresentClearingFrameBg1" 
+			resourceLink="asset.core.shop.ShopPresentClearingFrameBg1" scaleGridString="15,15,20,20" 
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.consortia.taskBackBg" 
+			resourceLink="asset.core.consortiaTaskBG" scaleGridString="15,15,270,98" 
+		/>
+		<!-- 发光 -->
+    	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage16" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9"/>  
+		<!-- 发光 -->
+    	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.ddtscale9CornerImage16" resourceLink="asset.core.ddtScale9CornerImage16.1,asset.core.ddtScale9CornerImage16.2,asset.core.ddtScale9CornerImage16.3,asset.core.ddtScale9CornerImage16.4,asset.core.ddtScale9CornerImage16.5,asset.core.ddtScale9CornerImage16.6,asset.core.ddtScale9CornerImage16.7,asset.core.ddtScale9CornerImage16.8,asset.core.ddtScale9CornerImage16.9"/>  
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage24"
+			resourceLink=
+			"asset.core.Scale9CornerImage.scale9CornerImage24_1,asset.core.Scale9CornerImage.scale9CornerImage24_2,asset.core.Scale9CornerImage.scale9CornerImage24_3,asset.core.Scale9CornerImage.scale9CornerImage24_4,asset.core.Scale9CornerImage.scale9CornerImage24_5,asset.core.Scale9CornerImage.scale9CornerImage24_6,asset.core.Scale9CornerImage.scale9CornerImage24_7,asset.core.Scale9CornerImage.scale9CornerImage24_8,asset.core.Scale9CornerImage.scale9CornerImage24_9"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage25"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage25_1,asset.core.Scale9CornerImage.scale9CornerImage25_2,asset.core.Scale9CornerImage.scale9CornerImage25_3,asset.core.Scale9CornerImage.scale9CornerImage25_4,asset.core.Scale9CornerImage.scale9CornerImage25_5,asset.core.Scale9CornerImage.scale9CornerImage25_6,asset.core.Scale9CornerImage.scale9CornerImage25_7,asset.core.Scale9CornerImage.scale9CornerImage25_8,asset.core.Scale9CornerImage.scale9CornerImage25_9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage26"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage26_1,asset.core.Scale9CornerImage.scale9CornerImage26_2,asset.core.Scale9CornerImage.scale9CornerImage26_3,asset.core.Scale9CornerImage.scale9CornerImage26_4,asset.core.Scale9CornerImage.scale9CornerImage26_5,asset.core.Scale9CornerImage.scale9CornerImage26_6,asset.core.Scale9CornerImage.scale9CornerImage26_7,asset.core.Scale9CornerImage.scale9CornerImage26_8,asset.core.Scale9CornerImage.scale9CornerImage26_9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage27"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage27_1,asset.core.Scale9CornerImage.scale9CornerImage27_2,asset.core.Scale9CornerImage.scale9CornerImage27_3,asset.core.Scale9CornerImage.scale9CornerImage27_4,asset.core.Scale9CornerImage.scale9CornerImage27_5,asset.core.Scale9CornerImage.scale9CornerImage27_6,asset.core.Scale9CornerImage.scale9CornerImage27_7,asset.core.Scale9CornerImage.scale9CornerImage27_8,asset.core.Scale9CornerImage.scale9CornerImage27_9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage28"  resourceLink="asset.core.cardResetBG2.1,asset.core.cardResetBG2.2,asset.core.cardResetBG2.3,asset.core.cardResetBG2.4,asset.core.cardResetBG2.5,asset.core.cardResetBG2.6,asset.core.cardResetBG2.7,asset.core.cardResetBG2.8,asset.core.cardResetBG2.9"/>
+	
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImageInputBG" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" resourceLink="asset.core.NewScale9CornerImage13.1,asset.core.NewScale9CornerImage13.2,asset.core.NewScale9CornerImage13.3,asset.core.NewScale9CornerImage13.4,asset.core.NewScale9CornerImage13.5,asset.core.NewScale9CornerImage13.6,asset.core.NewScale9CornerImage13.7,asset.core.NewScale9CornerImage13.8,asset.core.NewScale9CornerImage13.9"/>
+	</components>
+	
+
+	<bitmaps>
+		<bitmapData resourceLink="asset.core.bg012" x="0" y="-8"/>
+	</bitmaps>
+</style>

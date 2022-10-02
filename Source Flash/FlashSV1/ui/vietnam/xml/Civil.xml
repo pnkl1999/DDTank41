@@ -1,0 +1,170 @@
+<style name="Civil" version="1.0.1" source="ui/spain/swf/Civil.swf">
+<sets>
+		<set stylename="civil.PlayerNameFilter" args="0x000000,1,3,3,2"  type="flash.filters.GlowFilter"/>
+		<set stylename="civil.guildNameFilter" args="0xffffff,1,3,3,2"  type="flash.filters.GlowFilter"/>
+		<set stylename="civil.reputeFilter" args="0xffffff,1,3,3,2"  type="flash.filters.GlowFilter"/>
+		<set stylename="civil.offerFilter" args="0xffffff,1,3,3,2"  type="flash.filters.GlowFilter"/>
+		<set stylename="civil.SelectBGPlayerNameFilter" args="0xffffff,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="civil.registerMarriedFilter" args="0x0066ff,1,3,3,5"  type="flash.filters.GlowFilter"/>
+		<set stylename="civil.TextAreaInputFilter" args="0xffffff,1,4,4,10"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="civil.PlayerNameTF" args="Arial,16,0xffffff,ture" type="flash.text.TextFormat"/>
+		<set stylename="civil.guildNameTF" args="Arial,16,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="civil.reputeTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="civil.offerTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="civil.marriedTF" args="Arial,14,0xff0000" type="flash.text.TextFormat"/>
+		<set stylename="civil.SelectBGPlayerNameTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="civil.pageTF" args="Arial,12,0xffffff,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="civil.searchTF" args="Arial,14,0xfffdd3,true" type="flash.text.TextFormat"/>
+		<set stylename="civil.registerStaticTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="civil.registerMarriedTF" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>
+		<set stylename="civil.TextAreaInputTF" args="Arial,14,0x013465" type="flash.text.TextFormat"/>
+		
+		<set stylename="civil.register.LabelTF" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+		<set stylename="civil.register.NicknameTF" args="Arial,12,0x000000" type="flash.text.TextFormat" />
+		<set stylename="civil.register.IntrodoctionTF" args="Arial,14,0x013465" type="flash.text.TextFormat" />
+		<set stylename="civil.register.MatrimonyFieldTF" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat" />
+		
+		<set stylename="civil.register.MatrimonyFieldGF" args="0x0066ff,1,3,3,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="civil.register.BlackBorder" args="0x000000,1,3,3,10,1" type="flash.filters.GlowFilter" />
+</sets>
+<customDisplay>
+	<custom classname="flash.geom.Point" stylename="civil.playerPos" x="199" y="180"/>
+	<custom classname="flash.geom.Point" stylename="civil.Pos_1" x="55" y="142"/>
+	<custom classname="ddt.view.common.LevelIcon" stylename="civil.levelIcon" x="452" y="84"/>
+	<custom classname="ddt.view.common.LevelIcon" stylename="civil.levelIcon_list" x="250"/>
+	
+	<custom classname="civil.view.CivilPlayerInfoList" stylename="civil.view.CivilPlayerInfoList" y="4" />
+	
+	<custom classname="flash.geom.Point" stylename="civil.register.RegisterPos" x="-2" y="0"/>
+</customDisplay>
+<components>
+	<!--CivilRightView-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.civil.RightViewFirstBG" parentStyle="core.scale9cornerImage4" x="509" y="65" width="478" height="488"/>
+	
+	<!--GenderButton-->
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="civil.GenderBtnContainer" spacing="9" x="540" y="89"/>
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.civil.maleButton" selectedStyle="asset.civil.male_selAsset" unSelectedStyle = "asset.civil.maleAsset" filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.civil.femaleButton" selectedStyle="asset.civil.female_selAsset" unSelectedStyle = "asset.civil.femaleAsset" filterString="null,lightFilter,null,grayFilter"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.searchBtn" backStyle="asset.civil.searchBtnAsset" useLogID="87" x="905" y="88" />
+<!--	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.firstBtn" backStyle="asset.civil.firstBtnAsset" x="535" y="488" />-->
+<!--	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.lastBtn" backStyle="asset.civil.lastBtnAsset" x="792" y="488" />-->
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.preBtn" backStyle="asset.civil.preBtnAsset" x="541" y="490" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.nextBtn" backStyle="asset.civil.nextBtnAsset" x="697" y="490" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.registerBtn" backStyle="asset.civil.registerBtnAsset" useLogID="83" x="763" y="488" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.addBigBtn" backStyle="asset.civil.addBtnBigAsset" x="867" y="487" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.page" textFormatStyle="civil.pageTF" x="596" y="494" autoSize="none" width="96"  height="22" type="dynamic" text="1/1" aotuSize="none"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.searchTextStyle" textFormatStyle="civil.searchTF"  multiline="false" wordwrap="false" autoSize="none"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="civil.searchText" textStyle="civil.searchTextStyle" x="773" y="94" autoSize="none" width="124" height="20" maxChars="14" multiline="false" wordwrap="false" />
+	
+	<!--ItemFrame-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.SelectBGPlayerName" 
+	textFormatStyle="civil.SelectBGPlayerNameTF" filterString="civil.SelectBGPlayerNameFilter" x="21" y="4" autoSize="none" isAutoFitLength="true" width="179"  height="19" type="dynamic"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="civil.state_icon"
+			resourceLink="asset.civil.online_maleAsset,asset.civil.online_femaleAsset,asset.civil.offlineAsset" x="319" y="6" />
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="civil.memberList" spacing="0" x="537" y="160" width="419" height="30" />
+	
+	<!--CivilLeftView-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.civil.LeftViewBg" parentStyle="core.scale9cornerImage4" x="18" y="69" width="484" height="349"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.courtshipBtn" backStyle="asset.civil.courtshipBtnAsset" useLogID="88"  x="279" y="365"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.talkBtn" backStyle="asset.civil.talkBtnAsset" useLogID="84"   x="279" y="327"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.equipBtn" backStyle="asset.civil.equipBtnAsset" useLogID="86" x="381" y="327" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.civil.addBtn" backStyle="asset.civil.addBtnAsset" useLogID="85" x="381" y="365" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.PlayerName" textFormatStyle="civil.PlayerNameTF" filterString="civil.PlayerNameFilter" autoSize="none" isAutoFitLength="true" x="97" y="83" width="194"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.guildName" textFormatStyle="civil.guildNameTF" filterString="civil.guildNameFilter" autoSize="none" isAutoFitLength="true" x="319" y="83" width="143"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.repute" textFormatStyle="civil.reputeTF" filterString="civil.reputeFilter" x="345" y="117" width="70"  height="17" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.offer" textFormatStyle="civil.offerTF" filterString="civil.offerFilter" x="442" y="117" width="63"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.married" textFormatStyle="civil.marriedTF" x="393" y="143" width="135"  height="22" type="dynamic"/>
+	
+	
+	<!-- 个人简介 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.TextAreaDy"
+		textFormatStyle="civil.TextAreaInputTF" multiline="true" wordWrap="true" />
+	
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="civil.IntroductionText" 
+		parentStyle="core.SimpleTextArea" textStyle="civil.TextAreaDy" vScrollProxy='0'
+		x="280" y="192" width="186" height="120" vUnitIncrement="10" />
+	
+	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="civil.sexBg"
+			resourceLink="asset.civil.male_bgAsset,asset.civil.female_bgAsset" x="36" y="110" />
+			
+			
+	<!--RegisterFrame-->
+	<!-- Frame -->
+	<component classname="civil.view.CivilRegisterFrame" stylename="civil.register.CivilRegisterFrame"
+		backStyle="SimpleFrameBackgound" closestyle="core.closebt"
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+		closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+		width="460" height="400" moveEnable="false" escEnable="true" enterEnable="true" />
+		
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="civil.register.SubmitButton" parentStyle="core.simplebt"
+		x="86" y="358"/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="civil.register.CancelButton" parentStyle="core.simplebt"
+		x="290" y="358"/>
+			
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="civil.register.RegisterTitle"
+			resourceLink="asset.civil.title2Asset,asset.civil.title3Asset" x="138" y="58" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.NicknameLabel"
+		textFormatStyle="civil.register.LabelTF" x="38" y="102" />
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.NicknameField"
+		textFormatStyle="civil.register.NicknameTF" x="91" y="102" />
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.MatrimonyLabel"
+		textFormatStyle="civil.register.LabelTF" x="248" y="102"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.MatrimonyField"
+		textFormatStyle="civil.register.MatrimonyFieldTF" filterString="civil.register.MatrimonyFieldGF"
+		x="320" y="102"/>
+		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.IntroductionLabel"
+		textFormatStyle="civil.register.LabelTF" x="38" y="126"/>
+	
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.IntroductionInput"
+		textFormatStyle="civil.register.IntrodoctionTF"
+		type="input" multiline="true" wordWrap="true" />
+	
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="civil.register.IntroductionField"
+		parentStyle="core.SimpleTextArea" backgoundStyle="civil.register.introductionbackground"  
+		backgoundInnerRectString="5,3,4,6,-1" textStyle="civil.register.IntroductionInput"  vScrollProxy='0'
+		x="42" y="156" width="382" height="110" vUnitIncrement="10" />
+			
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="civil.register.PublicEquipLabel"
+		textFormatStyle="civil.register.MatrimonyFieldTF" filterString="civil.register.BlackBorder" 
+		x="16" y="-2"/>
+	
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="civil.register.PublicEquipButton" 
+		parentStyle="core.simpleSelectBtn" displacement="true" textStyle="civil.register.PublicEquipLabel"  x="42" y="300" />
+		
+</components>
+
+<bitmaps>
+	<!--CivilView-->
+	<bitmapData resourceLink="asset.civil.titleAseet" x="309" y="13"/>
+	
+	<!--CivilRightView-->
+	<bitmapData resourceLink="asset.civil.rightViewBgAsset" x="524" y="119"/>
+	<bitmapData resourceLink="asset.civil.name2Title" x="537" y="135"/>
+	<bitmapData resourceLink="asset.civil.levelTitle" x="760" y="135"/>
+	<bitmapData resourceLink="asset.civil.stateTitle" x="835" y="135"/>
+	<bitmapData resourceLink="asset.civil.search_bgAsset" x="766" y="90"/>
+	
+	<!--ItemFrame-->
+	<bitmapData resourceLink="asset.civil.selectAsset" x="2" y="1"/>
+	<bitmapData resourceLink="asset.civil.selectBgAsset" />
+	
+	<!--CivilLeftView-->
+	<bitmapData resourceLink="asset.civil.leftViewBgIIAsset" x="22" y="74"/>
+	<bitmapData resourceLink="asset.civil.nameTitle" x="40" y="85"/>
+	<bitmapData resourceLink="asset.civil.guildTitle" x="270" y="85"/>
+	
+	<!--RegisterFrame-->
+</bitmaps>
+</style>

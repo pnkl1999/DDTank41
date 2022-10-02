@@ -1,0 +1,17 @@
+﻿namespace Game.Server.Packets
+{
+    public enum RingStationPackageType
+    {
+        RINGSTATION_VIEWINFO = 1,
+        RINGSTATION_BUYCOUNTORTIME = 2,
+        RINGSTATION_ARMORY = 3,
+        RINGSTATION_NEWBATTLEFIELD = 4,
+        RINGSTATION_CHALLENGE = 5,
+        RINGSTATION_FIGHTFLAG = 6,
+        RINGSTATION_SENDSIGNMSG = 7,
+        RINGSTATION_GETREWARD = 8,
+        LANDERSAWARD_RECEIVE = 48,
+        LANDERSAWARD_GET = 49,
+        DUNGEON_UPDATEEXP = 64,
+    }
+}

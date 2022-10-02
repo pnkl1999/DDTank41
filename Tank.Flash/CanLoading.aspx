@@ -1,0 +1,1 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CanLoading.aspx.cs" Inherits="Tank.Flash.CanLoading" %>

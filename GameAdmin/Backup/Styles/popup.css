@@ -1,0 +1,75 @@
+﻿#personPopupContainer
+{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    z-index: 20000;
+}
+
+.personPopupPopup
+{
+    filter:alpha(opacity=90);
+	-moz-opacity: 0.90;
+	opacity: 0.90;
+}
+
+#personPopupContent
+{
+    background-color: #FFF;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+.personPopupPopup .personPopupImage
+{
+    margin: 5px;
+    margin-right: 5px;
+}
+
+.personPopupPopup .corner 
+{
+    width: 19px;
+    height: 15px;
+}
+    
+.personPopupPopup .topLeft 
+{
+    background: url(../Images/balloon_topLeft.png) no-repeat;
+}
+    
+.personPopupPopup .bottomLeft 
+{
+    background: url(../Images/balloon_bottomLeft.png) no-repeat;
+}
+    
+.personPopupPopup .left 
+{
+    background: url(../Images/balloon_left.png) repeat-y;
+}
+    
+.personPopupPopup .right 
+{
+    background: url(../Images/balloon_right.png) repeat-y;
+}
+    
+.personPopupPopup .topRight 
+{
+    background: url(../Images/balloon_topRight.png) no-repeat;
+}
+    
+.personPopupPopup .bottomRight 
+{
+    background: url(../Images/balloon_bottomRight.png) no-repeat;
+}
+    
+.personPopupPopup .top 
+{
+    background: url(../Images/balloon_top.png) repeat-x;
+}
+    
+.personPopupPopup .bottom 
+{
+    background: url(../Images/balloon_bottom.png) repeat-x;
+    text-align: center;
+}

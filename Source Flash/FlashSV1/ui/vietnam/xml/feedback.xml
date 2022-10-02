@@ -1,0 +1,434 @@
+<style name="feedback" version="1.0.1" source="ui/spain/swf/feedback.swf">
+	<sets>
+		<!--Filter-->
+
+		<!--TextFormat-->
+		<set stylename="feedback.Input_1" args="Arial,14,0x000000" type="flash.text.TextFormat" leading='5'/>
+		<set stylename="feedback.T_tel" args="Arial,12,0x540303,true" type="flash.text.TextFormat"/>
+		<set stylename="feedback.T_1" args="Arial,12,0xff0000,true" type="flash.text.TextFormat"/>
+	</sets>
+	<bitmaps>
+		<!--星号.png-->
+		<bitmapData resourceLink="asset.feedback.asteriskImg"/>
+		<!--文字图片-->
+		<!--问题类型Text.png-->
+		<bitmapData resourceLink="asset.feedback.problemTypesTextImg"/>
+		<!--问题标题Text.png-->
+		<bitmapData resourceLink="asset.feedback.problemTitleTextImg"/>
+		<!--发生时间Text.png-->
+		<bitmapData resourceLink="asset.feedback.occurrenceTimeTextImg"/>
+		<!--年Text.png-->
+		<bitmapData resourceLink="asset.feedback.yearTextImg"/>
+		<!--月Text.png-->
+		<bitmapData resourceLink="asset.feedback.monthTextImg"/>
+		<!--日Text.png-->
+		<bitmapData resourceLink="asset.feedback.dayTextImg"/>
+		<!--详细描述Text.png-->
+		<bitmapData resourceLink="asset.feedback.detailTextImg"/>
+		<!--活动是否异常Text.png-->
+		<bitmapData resourceLink="asset.feedback.whetherTheActivitiesTextImg"/>
+		<!--活动名称Text.png-->
+		<bitmapData resourceLink="asset.feedback.activityTitleTextImg"/>
+		<!--是Text.png-->
+		<bitmapData resourceLink="asset.feedback.yesTextImg" />
+		<!--否Text.png-->
+		<bitmapData resourceLink="asset.feedback.noTextImg"/>
+		<!--物品获取途径Text.png-->
+		<bitmapData resourceLink="asset.feedback.acquirementTextImg"/>
+		<!--物品获取时间Text.png-->
+		<bitmapData resourceLink="asset.feedback.getTimeTextImg"/>
+		<!--充值订单号Text.png-->
+		<bitmapData resourceLink="asset.feedback.orderNumberValueTextImg"/>
+		<!--充值方式Text.png-->
+		<bitmapData resourceLink="asset.feedback.prepaidModeTextImg"/>
+		<!--充值金额Text.png-->
+		<bitmapData resourceLink="asset.feedback.prepaidAmountTextImg"/>
+		<!--举报名称或网址Text.png-->
+		<bitmapData resourceLink="asset.feedback.reportTitleOrUrlTextImg"/>
+		<!--举报用户名称Text.png-->
+		<bitmapData resourceLink="asset.feedback.reportUserNameTextImg"/>
+		<!--玩家姓名Text.png-->
+		<bitmapData resourceLink="asset.feedback.playersNameTextImg"/>
+		<!--玩家手机Text.png-->
+		<bitmapData resourceLink="asset.feedback.playersMobileTextImg"/>
+		<!--投诉标题.png-->
+		<bitmapData resourceLink="asset.feedback.complaintTitleTextImg"/>
+		<!--投诉来源.png-->
+		<bitmapData resourceLink="asset.feedback.complaintSourceTextImg"/>
+		<!--客服回复Text.png-->
+		<bitmapData resourceLink="asset.feedback.customerTextImg"/>
+		<!--标题文字背景.png-->
+		<bitmapData resourceLink="asset.feedback.titleTextBgImg"/>
+		<!--玩家评价.png-->
+		<bitmapData resourceLink="asset.feedback.playerEvaluationTextImg"/>
+		<!--回复评价Text.png-->
+		<bitmapData resourceLink="asset.feedback.replyEvaluationTextImg"/>
+		<!--差Text.png-->
+		<bitmapData resourceLink="asset.feedback.poorTextImg"/>
+		<!--一般Text.png-->
+		<bitmapData resourceLink="asset.feedback.generalTextImg"/>
+		<!--满意Text.png-->
+		<bitmapData resourceLink="asset.feedback.satisfactoryTextImg"/>
+		<!--非常满意Text.png-->
+		<bitmapData resourceLink="asset.feedback.verySatisfiedTextImg"/>
+		
+	</bitmaps>
+	
+	<components>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedback.baglockedBg"
+			resourceLink="asset.core.baglockedBgAsset" width="10" height="10"  
+			scaleGridString="5,5,110,63"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="feedback.frameBackgound"
+			resourceLink="core.bg006,core.bg002,feedback.baglockedBg" imageRectString=",8|8|39|7|4,10|11|35|50|0" 
+			/>
+	
+		<!--窗口-->
+		<component classname="feedback.view.FeedbackSubmitFrame" stylename='feedback.feedbackSubmitFrame'
+			backStyle="feedback.frameBackgound" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"  
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20"
+			moveInnerRectString="0,30,0,30,1" containerY="40" 
+			width='550' height='430' 
+			moveEnable="false"  
+			escEnable='true'
+		/>
+		<component classname="feedback.view.FeedbackReplyFrame" stylename='feedback.feedbackReplyFrame'
+			parentStyle="feedback.feedbackSubmitFrame" 
+			closestyle='null' 
+		/>
+		<!---->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="feedback.textBgImg_style"
+			resourceLink="asset.feedback.textBgImg" width='51' height='42' scaleGridString="8,10,46,36"  
+		/>
+		<!--下拉菜单-->
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename='feedback.combox'
+			parentStyle="core.Combox2" textInnerRectString="10,25,6,0,0"  />
+		<!--文本框-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='feedback.infoText'
+			textFormatStyle="feedback.T_1"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='feedback.csTelText'
+			textFormatStyle="feedback.T_tel" x="345" y="56" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='feedback.text'
+			textFormatStyle="feedback.Input_1"  autoSize='none' maxChars='20' multiline='false'  
+		/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='feedback.text1'
+			textFormatStyle="feedback.Input_1" type='input'  multiline='true' wordWrap='true'  maxChars='250'
+		/>
+		<!--输入框-->
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="feedback.textInput"
+			backStyle="feedback.textBgImg_style" 
+			textStyle="feedback.text" 
+			textInnerRectString="5,5,5,4,0" 
+			height='28' 
+			/>
+		<!--按钮-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="feedback.btn"
+			parentStyle="core.simplebt" />
+		<!--带下条的输入框-->
+		<component classname="com.pickgliss.ui.text.TextArea"  stylename="feedback.simpleTextArea" 
+			parentStyle="core.SimpleTextArea" backgoundStyle="feedback.textBgImg_style"  
+			backgoundInnerRectString="5,3,4,3,-1"  
+			textStyle="feedback.text1" maxChars="250"
+			vScrollProxy='0'  
+		/>
+		<!--按钮  是-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.yesSelectedCheckButton"
+			parentStyle="store.MoneySelectBtn" fieldX='35' fieldY='14' 
+			textStyle="asset.feedback.yesTextImg" />
+		<!--按钮  否-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.noSelectedCheckButton"
+			parentStyle="store.MoneySelectBtn" fieldX='35' fieldY='14' 
+			textStyle="asset.feedback.noTextImg" />
+		
+		<!--按钮  差-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.poorCheckButton"
+			parentStyle="store.MoneySelectBtn" fieldX='35' fieldY='14' 
+			textStyle="asset.feedback.poorTextImg" />
+		<!--按钮  一般-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.generalCheckButton"
+			parentStyle="store.MoneySelectBtn" fieldX='35' fieldY='14' 
+			textStyle="asset.feedback.generalTextImg" />
+		<!--按钮  满意-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.satisfactoryCheckButton"
+			parentStyle="store.MoneySelectBtn" fieldX='35' fieldY='14'  
+			textStyle="asset.feedback.satisfactoryTextImg" />
+		<!--按钮  非常满意-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="feedback.verySatisfiedCheckButton"
+			parentStyle="store.MoneySelectBtn" fieldX='35' fieldY='14' 
+			textStyle="asset.feedback.verySatisfiedTextImg" />
+	</components>
+	<!--提交问题坐标-->
+	<customs>
+		<!--发光坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTypesTextImgRec"
+			x="2"	 y="10"/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.comboxRec"  
+			x="80" y="6" width='180' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTypesAsteriskTextRec"
+			x="260" y="12"/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleTextImgRec"
+			x="280" y="10"/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleInputRec"
+			x="360" y="4" width='140' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleAsteriskTextRec"
+			x="500" y="12" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.occurrenceTimeTextImgRec"  
+			x="0" y="50" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.yearComboxRec"  
+			x="80" y="46" width='75' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.yearTextImgRec"  
+			x="155" y="52" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.monthComboxRec" 
+			x="180" y="46" width='55' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.monthTextImgRec" 
+			x="235" y="52" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.dayComboxRec" 
+			x="260" y="46" width='55' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.dayTextImgRec" 
+			x="320" y="52" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.submitBtnRec" 
+			x="110" y="350"   />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.closeBtnRec" parentStyle='feedback.submitBtnRec'
+			x="320" />
+		
+		<!--咨询游戏问题--><!--建议反馈--><!--BUG信息反馈--><!--其它-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImgRec"
+			x="0" y="90"/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailInfoTextRec"
+			x="80" y="94"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextAreaRec"
+			x="5" y="120" width='500' height='205' />
+		<!--咨询活动相关-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsWhetherTheActivitiesTextImgRec" 
+			x="0" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.yesSelectedCheckButtonRec"  
+			x="105" y="75" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.noSelectedCheckButtonRec" 
+			x="160" y="75" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsActivityTitleTextImgRec"
+			x="266" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsActivityTitleInputRec"
+			x="360" y="82" width='140' height='26'/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsActivityTitleAsteriskRec"
+			x="500" y="86"  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsDetailTextImgRec"  
+			x="0" y="120" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsInfoTextRec"
+			x="80" y="124"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemsDetailTextAreaRec"
+			x="5" y="150" width='500' height='170' />
+		<!--物品道具异常消失-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsAcquirementTextImgRec"
+			x="0" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsAcquirementInputRec"  
+			x="115" y="82" width='270' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsAcquirementAsteriskRec"
+			x="390" y="86" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsGetTimeTextImgRec"
+			x="0" y="120" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsGetTimeInputRec"
+			x="115" y="120" width='270' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsGetTimeAsteriskRec" 
+			x="390" y="124" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsInfoDateTextRec" 
+			x="405" y="124" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsDisappearDetailTextImgRec" 
+			x="0" y="160" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsDisappearInfoTextRec"
+			x="80" y="164"   />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.propsDisappearDetailTextAreaRec"
+			x="5" y="190" width='500' height='135' />
+		<!--盗号受理类-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandExplainTextAreaRec"
+			x="5" y="85" width='500' height='240'  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandAcquirementTextImgRec"
+			x="0" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandAcquirementInputRec"  
+			x="115" y="82" width='270' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandAcquirementAsteriskRec"
+			x="390" y="86" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandGetTimeTextImgRec"
+			x="0" y="120" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandGetTimeInputRec"
+			x="115" y="120" width='270' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandGetTimeAsteriskRec" 
+			x="390" y="124" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandInfoDateTextRec" 
+			x="405" y="124" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandDetailTextImgRec" 
+			x="0" y="160" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandDisappearInfoTextRec"
+			x="80" y="164"   />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandDetailTextAreaRec" 
+			x="5" y="190" width='500' height='135' />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandNextBtnRec"  parentStyle='feedback.submitBtnRec'
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandBackBtnRec"  parentStyle='feedback.submitBtnRec' 
+		 />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.stealHandSubmitBtnRec" parentStyle='feedback.submitBtnRec'
+			x="320" />
+		<!--充值卡类-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardOrderNumberValueTextImgRec"
+			x="0" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardOrderNumberValueInputRec"  
+			x="100" y="82" width='350' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardOrderNumberValueAsteriskRec" 
+			x="450" y="86" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidModeTextImgRec" 
+			x="0" y="120"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidModeInputRec"  
+			x="100" y="116" width='350' height='26'  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidModeAsteriskRec"   
+			x="450" y="120" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidAmountTextImgRec"
+			x="0" y="155"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidAmountInputRec"  
+			x="100" y="152" width='350' height='26'  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardPrepaidAmountAsteriskRec"  
+			x="450" y="156" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardDetailTextImgRec"  
+			x="0" y="190" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardDisappearInfoTextRec"
+			x="80" y="194"   />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.prepaidCardDetailTextAreaRec"
+			x="5" y="220" width='500' height='105' />
+		<!--举报非法-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportTitleOrUrlTextImgRec"
+			x="0" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportTitleOrUrlInputRec"  
+			x="130" y="82" width='350' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportTitleOrUrlAsteriskRec" 
+			x="480" y="86" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportUserNameTextImgRec" 
+			x="0" y="120"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportUserNameInputRec"   
+			x="130" y="116" width='350' height='26'  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportUserNameAsteriskRec"  
+			x="480" y="120" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportDetailTextImgRec" 
+			x="0" y="160" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportDisappearInfoTextRec"
+			x="80" y="164"   />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.reportDetailTextAreaRec" 
+			x="5" y="190" width='500' height='135' />
+		<!--服务投诉-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playersNameTextImgRec"
+			x="0" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playersNamelInputRec" 
+			x="80" y="82" width='160' height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playersNameAsteriskRec" 
+			x="240" y="88" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playersMobileTextImgRec" 
+			x="260" y="85" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playersMobileInputRec"  
+			x="340" y="82" width='160'  height='26' />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playersMobileAsteriskRec" 
+			x="500" y="86" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintTitleTextImgRec" 
+			x="0" y="120"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintTitleInputRec"  
+			x="80" y="116" width='160' height='26'  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintTitleAsteriskRec"  
+			x="240" y="122"  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintSourceTextImgRec" 
+			x="260" y="120" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintSourceInputRec"  
+			x="340" y="116" width='160' height='26'  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintSourceAsteriskRec" 
+			x="500" y="122"  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintDetailTextImgRec" 
+			x="0" y="160" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintDisappearInfoTextRec"
+			x="80" y="164"   />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.complaintDetailTextAreaRec"
+			x="5" y="190" width='500' height='135' />
+	</customs>
+	<!--回复问题坐标-->
+	<customs>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleTextImg1Rec"
+			x="0" y="10" />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.problemTitleInput1Rec"
+			x="80" y="6" width='350' height='26'/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.dateInputRec"
+			x="80" y="46" width='350' height='26'  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImg1Rec"
+			x="0" y="90"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea1Rec"
+			x="5" y="120" width='240' height='205'  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.customerTextImgRec"
+			x="255" y="90"  />
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea2Rec"
+			x="260" y="120" width='240' height='205'  />
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.continueSubmitBtnRec" parentStyle='feedback.submitBtnRec'
+			x="300" />
+		<!--结贴坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.titleTextBgImgRec"
+			x="5" y="5" 
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.playerEvaluationTextImgRec"
+			x="200" y="8"  
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.replyEvaluationTextImgRec"
+			x="0" y="50"  
+		/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.poorCheckButtonRec"
+			x="10" y="75" 
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.generalCheckButtonRec"
+			x="110" y="75"  
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.satisfactoryCheckButtonRec"
+			x="225" y="75"  
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.verySatisfiedCheckButtonRec"
+			x="340" y="75"  
+		/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImg3Rec"
+			x="0" y="120" 
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea3Rec"
+			x="5" y="150" width='500' height='175' 
+		/>
+		
+		<custom classname="flash.geom.Rectangle" stylename="feedback.submitAssessmentBtnRec" parentStyle='feedback.submitBtnRec'
+			x="195"   
+		/>
+		<!--继续提交坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailTextImg4Rec"
+			x="0" y="45"   
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailTextInfoText4Rec"
+			x="80" y="48"   
+		/>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.detailSimpleTextArea4Rec"
+			x="5" y="75" width='500' height='250' 
+		/>
+	</customs>
+</style>

@@ -1,0 +1,309 @@
+<style name="toffilist" version="1.0.1" source="ui/spain/swf/Toffilist.swf">
+	<!--名人堂-->
+	<sets>
+			<!--Filter-->
+		<set args="1,45,0x000000,1,1,1,1000" stylename="toffilist.T_d1" type="flash.filters.DropShadowFilter"/>
+		<set args="0x000000,1,3,3,1000" stylename="toffilist.T_g1" type="flash.filters.GlowFilter"/>
+		<set args="0x48300C,1,4,4,1000" stylename="toffilist.T_g2" type="flash.filters.GlowFilter"/>
+		<set args="0x48300C,1,2,2,1000" stylename="toffilist.T_g3" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,2,2,1000" stylename="toffilist.T_g4" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,5,5,1000" stylename="toffilist.T_g5" type="flash.filters.GlowFilter"/>
+			<!--TextFormat-->
+		<set stylename="toffilist.T_1" args="Arial,18,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.T_2" args="Arial,16,0x99FF00,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.T_3" args="Arial,15,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="toffilist.T_1_Name" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+	</sets>
+	<components>
+		<!--名人堂背景-->
+		<component classname="com.pickgliss.ui.image.Image" stylename='toffilist.toffilistBG' x="6" y="14" resourceLink='asset.Toffilist.ToffilistBGAsset' />
+		<component classname="com.pickgliss.ui.image.Image" stylename='toffilist.bgImg4' x="507" y="107" resourceLink='asset.Toffilist.bgImg4Asset' />
+		<component classname="com.pickgliss.ui.image.Image" stylename='toffilist.ToffilistImg' x="90" y="16" resourceLink='asset.Toffilist.ToffilistImgAsset' />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="toffilist.ToffilistBgGrid" resourceLink='asset.Toffilist.ToffilistBgGrid1Asset,asset.Toffilist.ToffilistBgGrid2Asset,asset.Toffilist.ToffilistBgGrid3Asset,asset.Toffilist.ToffilistBgGrid4Asset,asset.Toffilist.ToffilistBgGrid5Asset,asset.Toffilist.ToffilistBgGrid6Asset,asset.Toffilist.ToffilistBgGrid7Asset,asset.Toffilist.ToffilistBgGrid8Asset,asset.Toffilist.ToffilistBgGrid9Asset' />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='toffilist.bgImg2' resourceLink='asset.Toffilist.bgImg2Asset' scaleGridString="40,40,125,85" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='toffilist.bgImg3' resourceLink='asset.Toffilist.bgImg3Asset' />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.ToffilistBg2" x="495" y="14" width="500" height="528" resourceLink="toffilist.ToffilistBgGrid,toffilist.bgImg2,toffilist.bgImg3" imageRectString=",-1|-2|52|108|0,14|14|125|122|0" />
+		
+		
+		<!--名人堂左侧信息-->
+			<!--text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.text1" x='144' y='382' width='100'  height='20' autoSize='center' textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.consortiaName" autoSize='none'  x='260' y='385' width='115' height='20' textFormatStyle="toffilist.T_2" isAutoFitLength="true" filterString="toffilist.T_g1" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.nameTxt" x="116" y='343' textFormatStyle="toffilist.T_1" filterString="toffilist.T_g2" autoSize="none" width="300" height="25" isAutoFitLength="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.chairmanNameTxt" y='343' textFormatStyle="toffilist.T_1" filterString="toffilist.T_g3" autoSize="none" width="300" height="25" isAutoFitLength="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.chairmanNameTxt2" y='343' textFormatStyle="toffilist.T_1" filterString="toffilist.T_g3"  autoSize="none" width="300" height="25" isAutoFitLength="true" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.updateTimeTxt" x='110' y='-32' width='220'  height='20' autoSize='center'  textFormatStyle="toffilist.T_3" filterString="toffilist.T_g4" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.leftInfoText" autoSize='center'  textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1" />
+		
+			<!--Img-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='toffilist.textBg' x="95" y="381" width='104' height='27' resourceLink='asset.Toffilist.textBgAsset' scaleGridString="2,2,102,25" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='toffilist.textBg2' x="258" width='117' parentStyle='toffilist.textBg' />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='toffilist.leftImgBg' width='476' height='65' resourceLink='asset.Toffilist.leftImgBgAsset' scaleGridString="5,5,142,18" />
+			<!--Btn-->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.lookEquip_btn" x="388" y="378" backStyle="asset.Toffilist.lookEquip_btnAsset" filterString="null,lightFilter,null,grayFilter" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.lookEffort_btn" x="388" y="335" backStyle="asset.Toffilist.effortBtn" filterString="null,lightFilter,null,grayFilter" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.applyJoinClub_btn" x="392" y="343" backStyle="asset.Toffilist.applyJoinClubBtn" filterString="null,lightFilter,null,grayFilter" />
+		
+		<!--名人堂右侧信息-->
+			<!--Btn-->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.prePageBtn" x="228" y="430" backStyle="asset.Toffilist.prePageImgAsset" filterString="null,lightFilter,null,grayFilter" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="toffilist.nextPageBtn" x="380" y="430" backStyle="asset.Toffilist.nextPageImgAsset" filterString="null,lightFilter,null,grayFilter" />
+			<!--菜单1-->
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.toffilist.serverSelected" resourceLink="asset.Toffilist.selectedAssetI,asset.Toffilist.selectedAssetII"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tofflist.theServerBtn" textStyle="asset.Toffilist.theServerAsset" fieldX="28" fieldY="2" unSelectedStyle="asset.Toffilist.unselectedAsset" selectedStyle="asset.toffilist.serverSelected" displacement='false' y="10" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tofflist.crossServerBtn" textStyle="asset.Toffilist.crossServerAsset" fieldX="28" fieldY="2" unSelectedStyle="asset.Toffilist.unselectedAsset" selectedStyle="asset.toffilist.serverSelected" displacement='false' x="126" y="10" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="tofflist.personalBtn" unSelectedStyle="asset.Toffilist.personalAssetI" selectedStyle="asset.Toffilist.personalAssetII" displacement='false' x="301" y="9" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="tofflist.consortiaBtn" unSelectedStyle="asset.Toffilist.consortiaAssetI" selectedStyle="asset.Toffilist.consortiaAssetII" displacement='false' x="386" y="9" />
+		
+			<!--菜单2-->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.battleImg2" resourceLink="asset.Toffilist.battleImg2Asset,asset.Toffilist.menu2LightAsset" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.gradeOrderImg2" resourceLink="asset.Toffilist.gradeOrderImg2Asset,asset.Toffilist.menu2LightAsset" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.exploitOrderImg2" resourceLink="asset.Toffilist.exploitOrderImg2Asset,asset.Toffilist.menu2LightAsset" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.achievementpointImg2" resourceLink="asset.Toffilist.achievementpointImg2Asset,asset.Toffilist.menu2LightAsset" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.charmvalueImg2" resourceLink="asset.Toffilist.charmvalueImg2Asset,asset.Toffilist.menu2LightAsset" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.meansImg2" resourceLink="asset.Toffilist.meansImg2Asset,asset.Toffilist.menu2LightAsset" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="toffilist.matchesImg2" resourceLink="asset.Toffilist.matches2Asset,asset.Toffilist.menu2LightAsset" />
+		
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.battle1" resourceLink="asset.Toffilist.battleImg1Asset,toffilist.battleImg2,toffilist.battleImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.gradeOrder1" resourceLink="asset.Toffilist.gradeOrderImg1Asset,toffilist.gradeOrderImg2,toffilist.gradeOrderImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.exploitOrder1" resourceLink="asset.Toffilist.exploitOrderImg1Asset,toffilist.exploitOrderImg2,toffilist.exploitOrderImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.achievementpoint1" resourceLink="asset.Toffilist.achievementpointImg1Asset,toffilist.achievementpointImg2,toffilist.achievementpointImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.charmvalue1" resourceLink="asset.Toffilist.charmvalueImg1Asset,toffilist.charmvalueImg2,toffilist.charmvalueImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.means1" resourceLink="asset.Toffilist.meansImg1Asset,toffilist.meansImg2,toffilist.meansImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.matchesImg1" resourceLink="asset.Toffilist.matches1Asset,toffilist.matchesImg2,toffilist.matchesImg2"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.RankingLift" resourceLink="asset.Toffilist.shengImg,asset.Toffilist.downImg" x="56",y="39"></component>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.RankingLiftTwo" resourceLink="asset.Toffilist.shengImg,asset.Toffilist.downImg" x="56",y="39"></component>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.battleBtn" unSelectedStyle="toffilist.battle1" selectedStyle="toffilist.battleImg2" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.gradeOrderBtn" unSelectedStyle="toffilist.gradeOrder1" selectedStyle="toffilist.gradeOrderImg2" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.exploitOrderBtn" unSelectedStyle="toffilist.exploitOrder1" selectedStyle="toffilist.exploitOrderImg2" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.achievementpointBtn" unSelectedStyle="toffilist.achievementpoint1" selectedStyle="toffilist.achievementpointImg2" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.charmvalueBtn" unSelectedStyle="toffilist.charmvalue1" selectedStyle="toffilist.charmvalueImg2" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.mathesBtn" unSelectedStyle="toffilist.matchesImg1" selectedStyle="toffilist.matchesImg2" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.meansBtn" unSelectedStyle="toffilist.means1" selectedStyle="toffilist.meansImg2" displacement='false' />
+			<!--菜单3-->
+		<component classname="com.pickgliss.ui.image.Image" stylename="toffilist.dayAddBtnStyle"  resourceLink="asset.Toffilist.dayAddImg1Asset" filterString="grayFilter" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="toffilist.weekAddBtnStyle"  resourceLink="asset.Toffilist.weekAddImg1Asset" filterString="grayFilter" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="toffilist.accumulateBtnStyle"  resourceLink="asset.Toffilist.accumulateImg1Asset" filterString="grayFilter" />
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.dayAdd1" resourceLink="asset.Toffilist.dayAddImg1Asset,asset.Toffilist.dayAddImg2Asset,asset.Toffilist.dayAddImg2Asset,toffilist.dayAddBtnStyle"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.weekAdd1" resourceLink="asset.Toffilist.weekAddImg1Asset,asset.Toffilist.weekAddImg2Asset,asset.Toffilist.weekAddImg2Asset,toffilist.weekAddBtnStyle"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.accumulate1" resourceLink="asset.Toffilist.accumulateImg1Asset,asset.Toffilist.accumulateImg2Asset,asset.Toffilist.accumulateImg2Asset,toffilist.accumulateBtnStyle"/>
+			
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.dayAddBtn" unSelectedStyle="toffilist.dayAdd1" selectedStyle="asset.Toffilist.dayAddImg2Asset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.weekAddBtn" unSelectedStyle="toffilist.weekAdd1" selectedStyle="asset.Toffilist.weekAddImg2Asset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="toffilist.accumulateBtn" unSelectedStyle="toffilist.accumulate1" selectedStyle="asset.Toffilist.accumulateImg2Asset" />
+			<!--text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.pageTxt" x='340' y='434' width='60'  height='20' autoSize='center' textFormatStyle="toffilist.T_1" filterString="toffilist.T_g5" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.listItemText" autoSize='center' textFormatStyle="toffilist.T_1" filterString="toffilist.T_d1" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="toffilist.listItemNameText" autoSize='none' isAutoFitLength="true" textFormatStyle="toffilist.T_1_Name" filterString="toffilist.T_d1" />
+		
+			<!--Img-->
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg1" resourceLink="asset.Toffilist.GridBgAsset1" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg2" resourceLink="asset.Toffilist.GridBgAsset2" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg3" resourceLink="asset.Toffilist.GridBgAsset3" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg4" resourceLink="asset.Toffilist.GridBgAsset4" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg5" resourceLink="asset.Toffilist.GridBgAsset5" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg6" resourceLink="asset.Toffilist.GridBgAsset6" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg7" resourceLink="asset.Toffilist.GridBgAsset7" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="toffilist.GridBg8" resourceLink="asset.Toffilist.GridBgAsset8" width="468" height="279" direction="1" gape="1" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.GridBg" x='2' y='26' resourceLink="toffilist.GridBg1,toffilist.GridBg2,toffilist.GridBg3,toffilist.GridBg4,toffilist.GridBg5,toffilist.GridBg6,toffilist.GridBg3,toffilist.GridBg8"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="toffilist.topThreeRink" resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" />
+		
+	</components>
+	
+	<!--自定义-->
+	<customDisplay>
+		<!--名人堂左侧信息-->
+		<custom classname="flash.geom.Point" stylename="tofflist.playerPos" x="293" y="151"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.rankPos" x="208" y="100"/>
+		<custom classname="flash.geom.Point" stylename="tofflist.item.badgePos" x="4" y="4"/>
+		
+		<custom classname="tofflist.view.TofflistLeftInfoView" stylename="tofflist.leftInfoView" x='508' y='465' 
+		resourceLink='0#asset.Toffilist.IRankImgAsset|
+									1#asset.Toffilist.myGuildRankImgAsset|
+									2#asset.Toffilist.rankingImgAsset1_2|
+									3#asset.Toffilist.exploitImgAsset1_2|
+									4#asset.Toffilist.gradeImgAsset1_2|
+									5#asset.Toffilist.EXPImgAsset1_2|
+									6#asset.Toffilist.wealthImgAsset1_2|
+									7#asset.Toffilist.LnTAImgAsset1_2|
+									8#asset.Toffilist.fightingImgAsset1_2|
+									9#asset.Toffilist.AchievementImgAsset1_2|
+									10#asset.Toffilist.charmvalueImgAsset1_2|
+									11#toffilist.leftInfoText|
+									12#toffilist.leftInfoText|
+									13#toffilist.leftInfoText|
+									14#asset.Toffilist.matchScoreDayAsset|
+									15#asset.Toffilist.matchScoreWeekAsset|
+									16#toffilist.leftInfoText' 
+		setAllStyleXY='0#10,6|2#5,34|8#233,34|11#25,37,100,22|12#292,37,180,22|13#40,37,180,22|16#116,37,180,22~
+									0#10,6|2#5,34|5#317,33|4#232,33|11#20,36,100,22|12#305,36,180,22|13#40,37,180,22|16#116,36,180,22~
+									0#10,6|2#5,34|9#233,34|11#25,37,100,22|12#292,37,180,22|13#60,37,180,22|16#116,37,180,22~
+									0#10,6|2#5,34|10#233,34|11#25,37,100,22|12#292,37,180,22|13#60,37,180,22|16#116,37,180,22~
+									0#10,6|2#5,34|15#232,34|11#25,37,100,22|12#292,37,180,22|13#60,37,180,22|16#116,37,180,22~
+									
+									1#10,6|2#5,34|8#233,34|11#25,37,100,22|12#292,37,180,22|13#60,37,180,22|16#60,37,180,22~
+									1#10,6|2#5,34|6#317,34|4#232,33|11#25,37,100,22|12#305,37,180,22|13#272,37,45,22|16#116,36,180,22~
+									1#10,6|2#5,34|7#233,34|11#25,37,100,22|12#292,37,180,22|13#60,37,180,22|16#60,37,180,22~
+									1#10,6|2#5,34|10#233,34|11#25,37,100,22|12#292,37,180,22|13#60,37,180,22|16#60,37,180,22~'
+		 />
+		<!--名人堂右侧信息-->
+		<!--菜单1-->
+		<custom classname="tofflist.view.TofflistStairMenu" stylename="tofflist.stairMenu" y='28' />
+		 
+		<!-- resourceLink='0#toffilist.individualOrderBtn|
+						1#toffilist.consortiaOrderBtn|
+						2#toffilist.crossServerIndividualBtn|
+						3#toffilist.crossServerConsortiaBtn'
+		setAllStyleXY='0#0,0|1#118,0|2#237,0|3#355,0'-->
+		 />
+		<!--菜单2-->
+		<custom classname="tofflist.view.TofflistTwoGradeMenu" stylename="tofflist.twoGradeMenu" y='78' 
+		resourceLink='0#toffilist.battleBtn|
+									1#toffilist.gradeOrderBtn|
+									2#toffilist.achievementpointBtn|
+									3#toffilist.meansBtn|
+									4#toffilist.charmvalueBtn|
+									5#toffilist.mathesBtn'
+		setAllStyleXY='0#0,0|1#65,0|2#130,0|4#195,0|5#260,0~
+								0#0,0|1#65,0|2#130,0|4#195,0~
+								0#0,0|1#65,0|3#130,0|4#195,0'
+		 />
+		<!--菜单3-->
+		<custom classname="tofflist.view.TofflistThirdClassMenu" stylename="tofflist.hirdClassMenu" x ='316' y='80'
+		resourceLink='0#toffilist.dayAddBtn|
+									1#toffilist.weekAddBtn|
+									2#toffilist.accumulateBtn'
+		setAllStyleXY='0#12,0|1#61,0|2#110,0'
+		 />
+		 	
+		 <!--网格标题框-->
+		<custom classname="tofflist.view.TofflistGridBox" stylename="tofflist.gridBox" y="115"
+		resourceLink='0#asset.Toffilist.meansTitleImgAsset|
+									1#asset.Toffilist.battleTitleImgAsset|
+									2#asset.Toffilist.orderTitleImgAsset|
+									3#asset.Toffilist.rankingTitleImgAsset|
+									4#asset.Toffilist.nameTitleImgAsset|
+									5#asset.Toffilist.consortiaExploitTitleImgAsset|
+									6#asset.Toffilist.individualExploitTitleImgAsset|
+									7#asset.Toffilist.gradeOrderTitleImgAsset|
+									8#asset.Toffilist.achievementpointTitleImgAsset|
+									9#asset.Toffilist.wealthTitleImgAsset|
+									10#asset.Toffilist.EXPTitleImgAsset|
+									11#asset.Toffilist.charmlevelTitleImgAsset|
+									12#asset.Toffilist.charmvalueTitleImgAsset|
+									13#asset.Toffilist.weekScoreImgAsset'
+		setAllStyleXY='3#15,0|4#120,0|1#320,0~
+									3#15,0|4#150,0|7#278,0|10#380,0~
+									3#15,0|4#120,0|8#315,0~
+									3#15,0|4#120,0|11#265,0|12#380,0~
+									3#15,0|4#120,0|13#320,0~
+									
+									3#45,0|4#158,0|1#320,0~
+									3#45,0|4#150,0|7#278,0|9#380,0~
+									3#45,0|4#158,0|0#320,0~
+									3#45,0|4#158,0|12#320,0~
+									
+									3#15,0|4#120,0|2#265,0|1#380,0~
+									3#15,0|4#110,0|7#208,0|2#280,0|10#400,-1~
+									3#15,0|4#120,0|2#265,0|8#380,0~
+									3#15,0|4#110,0|11#186,0|2#280,0|12#390,0~
+									
+									3#45,0|4#158,0|2#265,0|1#380,0~
+									3#16,0|4#111,0|7#207,0|2#280,0|9#399,0~
+									3#45,0|4#158,0|2#265,0|0#390,0~
+									3#45,0|4#158,0|2#265,0|12#380,0'
+		 />
+		 <!--网格列表
+		 
+		 
+		 -->
+		<custom classname="tofflist.view.TofflistOrderItem" stylename="tofflist.orderItem" 
+		resourceLink='0#toffilist.listItemText|
+									1#toffilist.listItemNameText|
+									2#toffilist.listItemText|
+									3#toffilist.listItemText|
+									4#toffilist.listItemText'
+									
+		setAllStyleXY='0#2,7,60|1#65,7,163,22|2#226,7,235~
+									0#2,7,55,22|1#70,7,205,22|2#322,7,138,22~
+									0#2,7,55,22|1#65,7,163,22|2#226,7,235,22~
+									0#2,7,55,22|1#65,7,162,22|2#358,7,103,22|3#226,7,130,22~
+									0#2,7,60|1#65,7,163,22|2#226,7,235~
+									
+									0#38,7,55,22|1#99,7,160,22|2#238,7,235,22~
+									0#38,7,55,22|1#99,7,160,22|2#322,7,138,22|3#275,7,50,22~
+									0#38,7,55,22|1#99,7,160,22|2#238,7,235,22~
+									0#38,7,55,22|1#99,7,160,22|2#238,7,235,22~
+									
+									0#2,7,55,22|1#65,7,168,22|2#358,7,103,22|3#226,7,130,22~
+									0#2,7,55,22|1#65,7,132,22|2#360,7,108,22|3#251,7,110,22~
+									0#2,7,55,22|1#65,7,168,22|2#358,7,103,22|3#226,7,130,22~
+									0#2,7,55,22|1#65,7,132,22|2#360,7,108,22|3#244,7,110,22|4#198,7,55,22~
+									
+									0#38,7,55,22|1#98,7,137,22|2#358,7,103,22|3#229,7,130,22~
+									0#6,7,55,22|1#61,7,137,22|2#360,7,108,22|3#250,7,110,22|4#198,7,55,22~
+									0#38,7,55,22|1#98,7,137,22|2#358,7,103,22|3#229,7,130,22~
+									0#38,7,55,22|1#98,7,137,22|2#358,7,103,22|3#229,7,130,22'
+		 />
+		
+	</customDisplay>
+	
+	<bitmaps>
+		<!--名人堂左侧信息-->
+		<bitmapData  x="20" y="378" resourceLink='asset.Toffilist.fightingImgAsset1_1'  /><!-- 战斗-->
+		<bitmapData  x="25" y="378" resourceLink='asset.Toffilist.exploitImgAsset1_1'  /><!-- 功勋-->
+		<bitmapData  x="30" y="383" resourceLink='asset.Toffilist.EXPImgAsset1_1'  /><!--EXP-->
+		<bitmapData  x="25" y="380" resourceLink='asset.Toffilist.scoreAsset1'  /><!--分数-->
+		<bitmapData  x="25" y="378" resourceLink='asset.Toffilist.wealthImgAsset1_1'  /><!--财富-->
+		<bitmapData  x="20" y="378" resourceLink='asset.Toffilist.LnTAImgAsset1_1'  /><!--总资产-->
+		<bitmapData  x="20" y="378" resourceLink='asset.Toffilist.AchievementImgAsset1_1'  /><!-- 成就点-->
+		<bitmapData  x="20" y="380" resourceLink='asset.Toffilist.charmvalueImgAsset1_1'  /><!-- 成就点-->
+		
+		<bitmapData  x="197" y="383" resourceLink='asset.Toffilist.guildImgAsset'  />
+		
+		<bitmapData  x="4" y="28" resourceLink='asset.Toffilist.textImgBgAsset'  />
+		<bitmapData  x="4" y="30" resourceLink='asset.Toffilist.textImgBgAssetOne'/>
+		
+		<bitmapData  x="10" y="6" resourceLink='asset.Toffilist.IRankImgAsset'  /><!--0 我的排名-->
+		<bitmapData  x="10" y="6" resourceLink='asset.Toffilist.myGuildRankImgAsset'  /><!--1 我的公会排名-->
+		<bitmapData  x="5" y="34" resourceLink='asset.Toffilist.rankingImgAsset1_2'  /><!--2 排名-->
+		<bitmapData  x="233" y="34" resourceLink='asset.Toffilist.exploitImgAsset1_2'  /><!--3 功勋-->
+		<bitmapData  x="232" y="33" resourceLink='asset.Toffilist.gradeImgAsset1_2'  /><!--4 等级-->
+		<bitmapData  x="317" y="33" resourceLink='asset.Toffilist.EXPImgAsset1_2'  /><!--5 EXP-->		
+		<bitmapData  x="233" y="34" resourceLink='asset.Toffilist.wealthImgAsset1_2'  /><!--6 财富-->
+		<bitmapData  x="233" y="34" resourceLink='asset.Toffilist.LnTAImgAsset1_2'  /><!--7 总资产-->
+		<bitmapData  x="233" y="34" resourceLink='asset.Toffilist.fightingImgAsset1_2'  /><!--8 战斗-->
+		<bitmapData  x="233" y="34" resourceLink='asset.Toffilist.AchievementImgAsset1_2'  /><!--9 成就点-->
+		<bitmapData  x="114" y="38" resourceLink='asset.Toffilist.shengImg'></bitmapData>
+		<bitmapData  x="114" y="38" resourceLink='asset.Toffilist.downImg'></bitmapData>
+		<!--名人堂右侧信息-->
+		<bitmapData  x="-4" y="-3" resourceLink='asset.Toffilist.menu2LightAsset'  /><!--菜单2发光图片-->
+		
+		<bitmapData  resourceLink='asset.Toffilist.meansTitleImgAsset'  /><!--0总资产-->
+		<bitmapData  resourceLink='asset.Toffilist.battleTitleImgAsset'  /><!--1战斗力-->
+		<bitmapData  resourceLink='asset.Toffilist.orderTitleImgAsset'  /><!--2所在区-->
+		<bitmapData  resourceLink='asset.Toffilist.rankingTitleImgAsset'  /><!--3排名-->
+		<bitmapData  resourceLink='asset.Toffilist.nameTitleImgAsset'  /><!--4名称-->
+		<bitmapData  resourceLink='asset.Toffilist.consortiaExploitTitleImgAsset'  /><!--5公会功勋-->
+		<bitmapData  resourceLink='asset.Toffilist.individualExploitTitleImgAsset'  /><!--6个人功勋-->
+		<bitmapData  resourceLink='asset.Toffilist.gradeOrderTitleImgAsset'  /><!--7等级-->
+		<bitmapData  resourceLink='asset.Toffilist.achievementpointTitleImgAsset'  /><!--8成就点数-->
+		<bitmapData  resourceLink='asset.Toffilist.wealthTitleImgAsset'  /><!--9财富-->
+		<bitmapData  resourceLink='asset.Toffilist.EXPTitleImgAsset'  /><!--10EXP-->
+		
+		<bitmapData  x="312" y="429" resourceLink='asset.Toffilist.upDownTextBgImgAsset'  />
+		
+		<bitmapData  x="0" y="0" width='472' height='38' resourceLink='asset.Toffilist.itemBgAsset'  />
+		
+		<bitmapData  x="-2" y="0" resourceLink='asset.toffilist.orderNo1Asset'  />
+	</bitmaps>
+</style>

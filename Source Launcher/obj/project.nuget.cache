@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Veay38KcazF++DuIgMypDIwvbr0td95Ci12w8rC2Czzu7jw4BZVdWToWW1tUmVv4YLj+m1C+n6Nj8cIHbDhEfw==",
+  "success": true,
+  "projectFilePath": "E:\\Backup KhanhLam\\Launcher Gun321\\Zgun\\Gun321.Client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Khanh Duy\\.nuget\\packages\\circularprogressbar\\2.8.0.16\\circularprogressbar.2.8.0.16.nupkg.sha512",
+    "C:\\Users\\Khanh Duy\\.nuget\\packages\\winformanimation\\1.6.0.4\\winformanimation.1.6.0.4.nupkg.sha512",
+    "C:\\Users\\Khanh Duy\\.nuget\\packages\\zlib.net\\1.0.4\\zlib.net.1.0.4.nupkg.sha512"
+  ],
+  "logs": []
+}

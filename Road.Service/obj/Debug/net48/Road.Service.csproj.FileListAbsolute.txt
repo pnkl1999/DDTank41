@@ -1,0 +1,83 @@
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\App.config
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\battle.xml
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Datas\consortiatask.data
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Datas\consortiatask.snapedata
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Datas\LittleGame\map.data
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Datas\shopfreecount.data
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Datas\shopfreecount.snapedata
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\logconfig.xml
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Road.Service.exe.config
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Road.Service.exe
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Road.Service.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\log4net.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\protobuf-net.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Buffers.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Memory.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Bussiness.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Game.Base.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Game.Logic.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Game.Server.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Newtonsoft.Json.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Configuration.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.Configuration.Install.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\System.ServiceProcess.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\zlib.net.dll
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Bussiness.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Game.Base.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Game.Logic.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Game.Server.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Newtonsoft.Json.pdb
+C:\NEWGUN36\NEWGUN\Road.Service\bin\Debug\net48\Newtonsoft.Json.xml
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.AssemblyReference.cache
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.SuggestedBindingRedirects.cache
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.CoreCompileInputs.cache
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.CopyComplete
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.exe
+C:\NEWGUN36\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\App.config
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\battle.xml
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Datas\consortiatask.data
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Datas\consortiatask.snapedata
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Datas\LittleGame\map.data
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Datas\shopfreecount.data
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Datas\shopfreecount.snapedata
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\logconfig.xml
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Road.Service.exe.config
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Road.Service.exe
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Road.Service.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\log4net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Newtonsoft.Json.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\protobuf-net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\protobuf-net.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Buffers.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Collections.Immutable.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Memory.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Bussiness.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Game.Base.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Game.Logic.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Game.Server.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\SqlDataProvider.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Configuration.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.Configuration.Install.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\System.ServiceProcess.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\zlib.net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Bussiness.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Game.Base.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Game.Logic.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\Game.Server.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\bin\Debug\net48\SqlDataProvider.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.CopyComplete
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.exe
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.pdb

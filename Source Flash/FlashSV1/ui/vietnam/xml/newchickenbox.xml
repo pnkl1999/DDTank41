@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="newchickenbox" version="1.0.1" source="ui/spain/swf/newchickenbox.swf">
+	<sets>
+		<!--新小鸡宝箱字体-->
+		<set stylename="newChickenBox.TFormat_1" args="Arial,16,0xffeebf,true" type="flash.text.TextFormat"/>
+		<set stylename="newChickenBox.TFormat_2" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>
+		<set stylename="newChickenBox.BtnTextFilter" args="0x791c00,1,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="newChickenBox.TFormat_3" args="Arial,12,0xd6e9b6,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="newChickenBox.refreshTimer.TF" args="Arial,12,0xffffff,,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="newChickenBox.refreshTimer.GF" args="0x013a37,1,3,4,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="newChickenBox.refreshTimer.GF2" args="0x000000,1,3,4,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="newChickenBox.refreshTimer.GF3" args="0x830505,1,3,4,10,1" type="flash.filters.GlowFilter" />
+		
+		
+		<set stylename="newChickenBox.openCardFreeTxt.tf" args="Arial,14,0xdb0000,true" type="flash.text.TextFormat"/>
+		<set stylename="newChickenBox.openCardFreeTxt.gf" args="0xfbfbfb,1,4,4,30" type="flash.filters.GlowFilter" />
+		
+		<set stylename="newChickenBox.refreshCardFreeTxt.tf" args="Arial,12,0xd4d231,true" type="flash.text.TextFormat"/>
+		<set stylename="newChickenBox.refreshCardFreeTxt.gf" args="0x013a37,1,4,4,30" type="flash.filters.GlowFilter" />
+		
+		<set stylename="newChickenBox.timePlayTxt.tf" args="Arial,16,0xfffbfb" type="flash.text.TextFormat"/>
+		<set stylename="newChickenBox.timePlayTxt.gf" args="0x210909,1,4,4,30" type="flash.filters.GlowFilter" />
+	</sets>
+	<components>
+		<component classname="newChickenBox.view.NewChickenBoxFrame" stylename="newChickenBox.newChickenBoxFrame" parentStyle="bigBaseFrame" titleOuterRectPosString="16,11,5" width="908" height="551"  titleStyle="newChickenBox.FrameTitleTextStyle"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="newChickenBox.newChickenBoxFrame.BG" resourceLink="asset.newChickenBox.BG" x="12" y="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.FrameTitleTextStyle" textFormatStyle="newChickenBox.TFormat_1" filterString="core.frametitleGF"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="newChickenBox.countNum" resourceLink="asset.newChickenBox.countNum_0,asset.newChickenBox.countNum_1,asset.newChickenBox.countNum_2,asset.newChickenBox.countNum_3,asset.newChickenBox.countNum_4,asset.newChickenBox.countNum_5,asset.newChickenBox.countNum_6,asset.newChickenBox.countNum_7,asset.newChickenBox.countNum_8,asset.newChickenBox.countNum_9" x="280" y="55"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.freeFluashBntText"  textFormatStyle="newChickenBox.TFormat_3" filterString="newChickenBox.refreshTimer.GF" autoSize="none" width="100" height="20" ></component>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="newChickenBox.freeFluashBnt" textStyle="newChickenBox.freeFluashBntText"  backStyle="newChickenBox.freeFluashBntTextBg"   backgoundInnerRectString="15,160,13,30,13" autoSizeAble="false" x="589" y="61"   filterString="null,lightFilter,null,grayFilter" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="5,2,0,3,7,1" tipGapV="-13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="newChickenBox.freeFluashBntTextBg" resourceLink="newChickenBox.freeFluashBntBg" imageRectString="5|124|5|36|13"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="newChickenBox.selectBnt" parentStyle="core.simpleSelectBtn" filterString="null,lightFilter,null,grayFilter" displacement="true" textStyle="award.AutoOpenLabel" fieldX="-100" fieldY="-3" x="230" y="98" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="newChickenBox.selectBnt2" parentStyle="core.simpleSelectBtn" filterString="null,lightFilter,null,grayFilter" displacement="true" textStyle="award.AutoOpenLabel" fieldX="-100" fieldY="-3" x="412" y="113" />
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newChickenBox.helpPageBtn" backStyle="asset.newChickenBox.Notes" filterString="null,lightFilter,null,grayFilter" x="715" y="65"/>
+		
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="newChickenBox.helpPageFrame" parentStyle="BaseFrame"  width="400" height="485" moveEnable="true" moveInnerRectString="0,30,0,30,1" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="newChickenBox.helpPageCloseBtn" parentStyle="core.simplebt" x="155" y="432" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="newChickenBox.helpPageFrameBG" width="368" height="376" x="16" y="44"	parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.text.adoptRefreshTimer" textFormatStyle="newChickenBox.refreshTimer.TF" filterString="newChickenBox.refreshTimer.GF2" x="597" y="108"  />
+		
+
+		<component classname="com.pickgliss.ui.image.Image" stylename="newChickenBox.openCardTimes" resourceLink="asset.newChickenBox.openCardTimes" x="31" y="50"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="newChickenBox.goonOpen" resourceLink="asset.newChickenBox.goonOpen" x="553" y="471"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newChickenBox.startBtn" backStyle="asset.newChickenBox.OpenBtn" x="374" y="470" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="asset.newChickenBox.OpenBtn" resourceLink="asset.newChickenBox.start"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newChickenBox.flushBtn" backStyle="asset.newChickenBox.flushBtn" x="184" y="470" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="asset.newChickenBox.flushBtn" resourceLink="asset.newChickenBox.flush"/>
+		
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="newChickenBox.goonOpenBnt" parentStyle="core.simpleSelectBtn" 
+			filterString="null,lightFilter,null,grayFilter" displacement="true"  x="643" y="473" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.TextStyle_1" textFormatStyle="newChickenBox.TFormat_2" filterString="newChickenBox.refreshTimer.GF3" x="551" y="497"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.hall.newChickenBoxEntranceBtn" resourceLink="asset.hall.newChickenBoxBtn" width="89" height="67"/>
+
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="newChickenBox.ReaderScrollpanel" parentStyle="core.ScrollPanel" viewportInnerRectString="14,27,9,335,1" width="360" height="357" hScrollProxy="3" vScrollProxy="0" x="21" y="49"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.CountText" textFormatStyle="frameNameTF" filterString="P_g4" x="19" y="20" autoSize="right" width="20" height="20"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.openCardFreeTxt" 
+			textFormatStyle="newChickenBox.openCardFreeTxt.tf" filterString="newChickenBox.openCardFreeTxt.gf" 
+			autoSize="none" width="50" height="20" x="453" y="113"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.eyeFreeTxt" 
+			parentStyle="newChickenBox.openCardFreeTxt" x="606" y="113"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.refreshCardFreeTxt" 
+			textFormatStyle="newChickenBox.refreshCardFreeTxt.tf" filterString="newChickenBox.refreshCardFreeTxt.gf" 
+			autoSize="none" width="50" height="20" x="739" y="73"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newChickenBox.timePlayTxt" 
+			textFormatStyle="newChickenBox.timePlayTxt.tf" filterString="newChickenBox.timePlayTxt.gf" 
+			autoSize="none" width="250" height="22" x="71" y="484"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newChickenBox.openCardBtn" 
+			backStyle="asset.newChickenBox.openCardBtn"  tipStyle="ddt.view.tips.OneLineTip" 
+			tipDirctions="5,2,0,3,7,1" tipGapV="-27"  filterString="null,lightFilter,null,grayFilter"
+			x="367" y="53"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="newChickenBox.eyeBtn" 
+			backStyle="asset.newChickenBox.eagleEyeBtn"  tipStyle="ddt.view.tips.OneLineTip" 
+			tipDirctions="5,2,0,3,7,1" tipGapV="-27"  filterString="null,lightFilter,null,grayFilter"
+			x="504" y="46"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="newChickenBox.selectBnt3" parentStyle="core.simpleSelectBtn" filterString="null,lightFilter,null,grayFilter" displacement="true" textStyle="award.AutoOpenLabel" fieldX="-105" fieldY="-2" x="235" y="95" />
+	</components>
+	<customDisplay>
+		<!--新小鸡宝箱-->
+		<custom classname="flash.geom.Point" stylename="asset.newChickenBox.eagleEyePos" x="416" y="47" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos0" x="90" y="190" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos1" x="226" y="190" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos2" x="362" y="190" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos3" x="498" y="190" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos4" x="634" y="190" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos5" x="770" y="190" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos6" x="90" y="295" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos7" x="226" y="295" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos8" x="362" y="295" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos9" x="498" y="295" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos10" x="634" y="295" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos11" x="770" y="295" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos12" x="90" y="400" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos13" x="226" y="400" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos14" x="362" y="400" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos15" x="498" y="400" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos16" x="634" y="400" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.itemPos17"  x="770" y="400" />
+	    <custom classname="flash.geom.Point" stylename="newChickenBox.eggPos"  x="559" y="335" />
+	</customDisplay>
+	<bitmaps>
+		<!--新小鸡宝箱-->
+	    
+	</bitmaps>
+</style>

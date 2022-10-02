@@ -1,0 +1,9 @@
+D:\gun321launcher\GunDaiVietLauncher\bin\Debug\GunDaiVietLauncher.exe
+D:\gun321launcher\GunDaiVietLauncher\bin\Debug\GunDaiVietLauncher.pdb
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\GunDaiVietLauncher.csproj.AssemblyReference.cache
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\ZGunLauncher.Form1.resources
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\GunDaiVietLauncher.Properties.Resources.resources
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\GunDaiVietLauncher.csproj.GenerateResource.cache
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\GunDaiVietLauncher.csproj.CoreCompileInputs.cache
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\GunDaiVietLauncher.exe
+D:\gun321launcher\GunDaiVietLauncher\obj\Debug\GunDaiVietLauncher.pdb

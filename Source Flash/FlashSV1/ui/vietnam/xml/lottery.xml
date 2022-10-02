@@ -1,0 +1,94 @@
+﻿<style name="lottery" version="1.0.1" source="ui/spain/swf/lottery.swf">
+  <sets>
+    <!--Filter-->
+    <!--TextFormat-->
+    <set stylename="lottery.cardCell.NameTF" args="Arial,11.5,0x000000,true,,,,,center" letterSpacing="-1" type="flash.text.TextFormat" />
+    <set stylename="lottery.cardCell.NameGF" args="0xfffcd0,1,3,3,5" type="flash.filters.GlowFilter" />
+
+	<set stylename="lottery.lotteryHall.allWagerTF" args="Arial,13,0xFF0000,true,,,,,center" type="flash.text.TextFormat" />
+    <set stylename="lottery.lotteryHall.allWagerGF" args="0xfffcd0,1,3,3,5" type="flash.filters.GlowFilter" />
+  </sets>
+  <components>
+	 <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldWagerField" autoSize="none" width="145" height="42"  textFormatStyle="lottery.lotteryHall.allWagerTF" />
+	 <component classname="com.pickgliss.ui.text.GradientText" stylename="lottery.worldWagerTxtIII" textFieldStyle="worldWagerField" x="73" y="485" colors="0xf3ff32,0xff9600" filterString="lottery.lotteryHall.allWagerGF" alphas="1,1" ratios="30,255" />
+	 <component classname="com.pickgliss.ui.text.GradientText" stylename="lottery.worldWagerTxt" parentStyle="vipName" x="73" y="485"/>
+
+	 
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.luckyFailureFrame.btnOk" backStyle="asset.lotteryFrame.btnOkAsset" x="232" y="210" />
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.luckyHelpFrame.btnOk" backStyle="asset.lotteryFrame.btnOkAsset" x="260" y="406" />
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.cardHelpFrame.btnOk" backStyle="asset.lotteryFrame.btnOkAsset" x="270" y="447" />
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.cardResultFrame.btnOk" backStyle="asset.lotteryFrame.btnOkAsset" x="345" y="537" />
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.LuckyAwardFrame.btnOk" backStyle="asset.lotteryFrame.btnOkAsset" x="202" y="270" />
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.cardNoResultFrame.btnOk" backStyle="asset.lotteryFrame.btnOkAsset" x="235" y="205" />
+	 
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.cardResultFrame.btnPrev" backStyle="asset.looteryFrame.btnPrevAsset" x="567" y="544" />
+	 <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="lottery.cardResultFrame.btnNext" backStyle="asset.looteryFrame.btnNextAsset" x="648" y="544" />
+	
+	 <component classname="lottery.view.CardLotteryHelpFrame" stylename="lottery.CardLotteryHelpFrame" parentStyle="BaseFrame"  width="552" height="438"  />
+
+	 <component classname="com.pickgliss.ui.controls.container.HBox" stylename="lottery.resultFrame.resutlContainer" x="117" y="173" />
+	 <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="lottery.resultFrame.previewPanel" parentStyle="core.ScrollPanel" x="105" y="305" width="615" height="232" vScrollProxy="0" />
+
+ 
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="lottery.buffCell.buffName" x="54" y="21"
+		resourceLink="asset.lotteryBuffCell.doubleExpAsset,asset.lotteryBuffCell.doubleGesteAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="lottery.buffCell.timeLimit" x="50" y="0"
+		resourceLink="asset.lotteryBuffCell.minute60Asset,asset.lotteryBuffCell.minute120Asset,asset.lotteryBuffCell.minute180Asset" />
+
+
+    <!--窗口-->
+    <component classname="lottery.view.LotteryResultFrame" stylename="lottery.LotteryResultFrame" backStyle="core.bg006" parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" containerX="15" containerY="38" titleOuterRectPosString="6,6,5" moveInnerRectString="0,30,0,30,1" width="715" height="550" moveEnable="false" escEnable="true" />
+
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="lottery.cardCell.cardPic" 
+		resourceLink="lottery.cardCell.cardPicAsset1,lottery.cardCell.cardPicAsset2,lottery.cardCell.cardPicAsset3,lottery.cardCell.cardPicAsset4,lottery.cardCell.cardPicAsset5,lottery.cardCell.cardPicAsset6,lottery.cardCell.cardPicAsset7,lottery.cardCell.cardPicAsset8,lottery.cardCell.cardPicAsset9,lottery.cardCell.cardPicAsset10,lottery.cardCell.cardPicAsset11,lottery.cardCell.cardPicAsset12,lottery.cardCell.cardPicAsset13,lottery.cardCell.cardPicAsset14,lottery.cardCell.cardPicAsset15,lottery.cardCell.cardPicAsset16,lottery.cardCell.cardPicAsset17,lottery.cardCell.cardPicAsset18,lottery.cardCell.cardPicAsset19,lottery.cardCell.cardPicAsset20,lottery.cardCell.cardPicAsset21,lottery.cardCell.cardPicAsset22,lottery.cardCell.cardPicAsset23,lottery.cardCell.cardPicAsset24,lottery.cardCell.cardPicAsset25" />
+
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="lottery.cardCell.selctedBg" 
+		resourceLink="lottery.cardCell.selectedBGAsset" width="118" height="94" x="-2" y="-3" scaleGridString="30,30,90,60" />
+    
+	<component classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="lottery.cardChoose.allCardCcontainer" x="110" y="92" />
+	<component classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="lottery.cardChoose.selectedContainer" x="547" y="248" />
+	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.lotteryCardChoose.btnSureOver" resourceLink="asset.lotteryCardChoose.btnSureAsset,asset.lotteryCardChoose.btnSureLightAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.lotteryCardChoose.btnSure" resourceLink="asset.lotteryCardChoose.btnSureAsset,asset.lotteryCardChoose.btnSureOver,asset.lotteryCardChoose.btnSureOver,asset.lotteryCardChoose.btnSureAsset" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="lottery.cardChoose.btnSure" filterString="null,lightFilter,null,grayFilter" backStyle="asset.lotteryCardChoose.btnSure" x="740" y="470" />
+
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.lotteryCardChoose.btnResetOver" resourceLink="asset.lotteryCardChoose.btnResetAsset,asset.lotteryCardChoose.btnResetLightAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.lotteryCardChoose.btnReset" 
+		resourceLink="asset.lotteryCardChoose.btnResetAsset,asset.lotteryCardChoose.btnResetOver,asset.lotteryCardChoose.btnResetOver,asset.lotteryCardChoose.btnResetAsset" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="lottery.cardChoose.btnReset" filterString="null,lightFilter,null,grayFilter" backStyle="asset.lotteryCardChoose.btnReset" x="578" y="470" />
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="lottery.lotteryCardCell.nameField" autoSize="none" width="110" height="24" x="-2" y="83" textFormatStyle="lottery.cardCell.NameTF" filterString="lottery.cardCell.NameGF" />
+
+  </components>
+  <customs>
+    <custom classname="lottery.view.CardChooseView" stylename="lottery.CardChooseView" x="12" y="7" />
+	<custom classname="lottery.cell.LotteryBuffCell" stylename="lottery.winnerAwardsCell" x="181" y="198" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15" />
+	<custom classname="ddt.view.tips.MultipleLineTip" stylename="lottery.multipleLineTip" tipWidth="146" />
+	<custom classname="ddt.view.tips.OneLineTip" stylename="lottery.oneLineTip" tipWidth="80" />
+	
+	<custom classname="flash.geom.Rectangle" stylename="lottery.cardCell.picSmallSize" width="80" height="60" />
+	<custom classname="flash.geom.Rectangle" stylename="lottery.cardCell.selectedSmallSize" width="94" height="77" x="-7" y="-8" />
+	<custom classname="flash.geom.Rectangle" stylename="lottery.cardCell.picBigSize" width="104" height="84" />
+	<custom classname="flash.geom.Rectangle" stylename="lottery.cardCell.selectedBigSize" width="118" height="94" x="-6" y="-7" />
+  </customs>
+  <bitmaps>
+    <bitmapData resourceLink="asset.lottery.cardChooseViewbg" x="10" y="10" />
+
+	<bitmapData resourceLink="lottery.resultFrame.title" x="139" y="-2" />
+	<bitmapData resourceLink="lottery.resultFrame.resultBg" x="18" y="77" />
+	<bitmapData resourceLink="lottery.resultFrame.previewBg" x="21" y="244" />
+
+	<bitmapData resourceLink="lottery.luckyLottery.awardBgAsset" x="-3" y="20" />
+	<bitmapData resourceLink="lottery.luckyLottery.awardTitleAsset" x="30" y="30" />
+	<bitmapData resourceLink="lottery.luckyLottery.FailueDescAsset" x="37" y="40" />
+	<bitmapData resourceLink="asset.luckyLottery.helpTitleAsset" x="46" y="33" />
+	<bitmapData resourceLink="lottery.luckyLottery.helpFrameAsset" x="9" y="80" />
+
+	<bitmapData resourceLink="asset.cardLottery.helpTitleAsset" x="67" y="33" />
+	<bitmapData resourceLink="lottery.cardLottery.helpFrameAsset" x="9" y="80" />
+	<bitmapData resourceLink="asset.lotteryCardCell.shadingAsset" x="-6" y="-7" />
+	<bitmapData resourceLink="asset.lotteryCardChoose.btnResetLightAsset" x="-4" y="-8" />
+	<bitmapData resourceLink="asset.lotteryCardChoose.btnSureLightAsset" x="-4" y="-9" />
+  </bitmaps>
+</style>
+

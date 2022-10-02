@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminGunny", "AdminGunny.csproj", "{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bussiness", "..\Bussiness\Bussiness.csproj", "{87C66FCB-06BB-42C0-86E1-ED814A77EBE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SqlDataProvider", "..\SqlDataProvider\SqlDataProvider.csproj", "{037F4B7B-B05B-44A9-B83E-32C21D7A7B41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87C66FCB-06BB-42C0-86E1-ED814A77EBE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87C66FCB-06BB-42C0-86E1-ED814A77EBE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87C66FCB-06BB-42C0-86E1-ED814A77EBE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87C66FCB-06BB-42C0-86E1-ED814A77EBE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037F4B7B-B05B-44A9-B83E-32C21D7A7B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037F4B7B-B05B-44A9-B83E-32C21D7A7B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037F4B7B-B05B-44A9-B83E-32C21D7A7B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037F4B7B-B05B-44A9-B83E-32C21D7A7B41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

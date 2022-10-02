@@ -1,0 +1,661 @@
+<style name="store" version="1.0.1" source="ui/spain/swf/store.swf">
+<sets>
+<set stylename="consortia.consortiaInfo_text" args="Arial,16,0xFFE53F,true,true" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_12" args="Arial,18,0xFFFF33,true,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_13" args="Arial,12,0xFFFF33,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_14" args="Arial,12,0x000000,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_15" args="Arial,14,0x000000,false,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_16" args="Arial,16,0x663300,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_17" args="Arial,18,0xFF0000,false,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_18" args="Arial,16,0xFFFFFF,false,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_19" args="Arial,20,0xFFFFFF,false,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_20" args="Arial,20,0xFF0000,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_21" args="Arial,20,0xFFCC33,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_22" args="Arial,14,0xFF0000,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_23" args="Arial,12,0xFFFF33,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_24" args="Arial,18,0xFFFF33,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_26" args="Arial,12,0x0ffffee,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_27" args="Arial,14,0x0ffff33,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_28" args="Arial,12,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_29" args="Arial,14,0x000000,false,,,,,right" type="flash.text.TextFormat"/>
+<set stylename="store.TFormat_30" args="Arial,14,0x000000,true,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="consortia.consortiaInfo_filter" args="0xD8851A,1,3,3,10" type="flash.filters.GlowFilter"/>
+<set args="0x370c00,1,2,2,100" stylename="filter.store.showSuccessRate" type="flash.filters.GlowFilter"/>
+<set args="0x000000,1,3,3,100" stylename="filter.store.MoneyFilter" type="flash.filters.GlowFilter"/>
+<set args="0xFFFFFF,1,3,3,100" stylename="filter.store.goodsCountFilter" type="flash.filters.GlowFilter"/>
+<set args="0xFFFFFF,1,3,3,100" stylename="GF_01" type="flash.filters.GlowFilter"/>
+<set args="0.3,0.59,0.11,0,0,0.3,0.59,0.11,0,0,0.3,0.59,0.11,0,0,0,0,0,1,0" stylename="store.myColorFilter" type="flash.filters.ColorMatrixFilter"/>
+<set args="1,0,0,0,25,0,1,0,0,25,0,0,1,0,25,0,0,0,1,0" stylename="store.lightFilter" type="flash.filters.ColorMatrixFilter"/>
+
+<set stylename="store.transfer.CheckFieldTF" args="Arial,16,0xFFFFFF" type="flash.text.TextFormat"/>
+<set stylename="store.transfer.CheckFieldGF" args="0x0,1,3,3,10,1" type="flash.filters.GlowFilter"/>
+<set stylename="store.transfer.HoleTipLabelTF" args="Arial,16,0x0,,,,,,center" type="flash.text.TextFormat"/>
+	
+	<set type="flash.filters.GlowFilter" stylename="wishBeadMainView.itemCell.countTxt.gf" args="0xFFFFFF,1,2,2,10"/>
+	<set type="flash.text.TextFormat" stylename="wishBeadMainView.itemCell.countTxt.tf" args="Arial,14,0x000000,true,,,,,right"/>
+	<set type="flash.text.TextFormat" stylename="wishBeadMainView.tipTxt.tf" args="Arial,14,0xffe786,true" letterSpacing="0"/>
+	<set type="flash.filters.GlowFilter" stylename="wishBeadMainView.tipTxt.gf" args="0x59320f,1,4,4,30"/>
+  	
+  	
+  	 <set stylename="ddt.store.view.exalt.StoreExaltProgressBar.titleTF" args="Arial,12,0xffec15,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.store.view.exalt.StoreExaltProgressBar.titleGF" args="0x502323,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.store.view.exalt.StoreExaltProgressBar.explainTF" args="Arial,12,0xffffff,,,,,,center" leading="5" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.store.view.exalt.StoreExaltProgressBar.explainGF" args="0x000000,1,3,3,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.store.view.exalt.StoreExaltProgressBar.percentageTF" args="Arial,12,0xffe8b0,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.store.view.exalt.StoreExaltProgressBar.percentageGF" args="0x711802,1,2,2,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddt.store.view.exalt.LaterEquipmentViewTextTF" args="Arial,14,0x66ff00,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.store.view.exalt.luckyTextTF" args="Arial,18,0xFF71FF,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddt.store.view.exalt.luckyTextGF" args="0x340457,1,2,2,30" type="flash.filters.GlowFilter"/> 
+  	
+  	<set stylename="ddtstore.StoreBagView.ItemCellTitleTextTF" args="Arial,14,0xfffbe9,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.StoreBagView.ItemCellTitleTextGF" args="0x744a16,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtstore.StoreBagView.ItemCellTipTextTF" args="Arial,12,0xffe6a9,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.StoreBagView.ItemCellTipTextGF" args="0x61410a,1,2,2,10" type="flash.filters.GlowFilter"/>  
+   
+   	<set stylename="ddtstore.bagFinatialTF" args="Arial,14,0xfff2b2,true,,,,,center" type="flash.text.TextFormat"/>  
+   	<set stylename="ddtstore.StoreIIStrengthBG.StrengthenEquipmentCellTextTF" args="Arial,14,0xeee48f,true,,,,,center" type="flash.text.TextFormat" leading="1" letterSpacing="0"/>  
+    <set stylename="ddtstore.StoreIIStrengthBG.StrengthenEquipmentCellTextGF" args="0x612929,1,4,4,30" type="flash.filters.GlowFilter"/>  
+   	
+   	<set stylename="ddtstore.StoreIIStrengthBG.GoodCellTextTF" args="Arial,14,0xfcf3d3,true,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.StoreIIStrengthBG.GoodCellTextGF" args="0x654512,1,4,4,30" type="flash.filters.GlowFilter"/>  
+   	
+   	<set stylename="ddtstore.StoreStrengthProgressTF" args="Arial,11,0xFFE9B3,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.StoreStrengthProgressGF" args="0x701A00,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtstore.StoreIIStrengthBg.TotalTextTF" args="Arial,14,0xFEF29D,,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.StoreIIStrengthBg.TotalTextGF" args="0x4B350B,1,4,4,30" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtstore.StoreIIStrengthBg.VipDiscountTxtTF" args="Arial,12,0xffdb96" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.StoreIIStrengthBg.VipDiscountTxtGF" args="0x561111,1,2,2,10" type="flash.filters.GlowFilter"/>  
+   	<set stylename="ddtstore.SellLeftAlerInputText.TF" args="Arial,14,0xfff8d6,true,,,,,left" type="flash.text.TextFormat"/>  
+    <set stylename="ddtstore.SellLeftAlerInputText.GF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>  
+   	
+</sets>
+
+    <components>
+        <!--StoreBG-->
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.scale9BG" resourceLink="asset.store.LeftUp,asset.store.UpCentre,asset.store.RightUp,asset.store.LeftCentre,asset.store.Centre,asset.store.RightCentre,asset.store.LeftDown,asset.store.DownCentre,asset.store.RightDown" width="808" height="437" x="0" y="40"/>
+        
+        <!--ManagerEffect-->
+        <component classname="com.pickgliss.ui.image.MovieImage" stylename="store.ManagerEffect" resourceLink="asset.store.ManagerEffect" x="654" y="17"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.consortiaMUnSelect" resourceLink="asset.store.consortiaManager"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.consortiaManagerSelect" resourceLink="asset.store.consortiaManager,asset.store.consortiaManagerSelect"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.consortiaManager" resourceLink="store.consortiaMUnSelect,store.consortiaManagerSelect,store.consortiaManagerSelect,store.consortiaMUnSelect"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.consortiaManagerBtn" backStyle="store.consortiaManager" x="655" y="19"/>
+        
+        <!--MainView-->
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.MainViewBG" x="58" y="8" resourceLink="asset.store.strengthBG,asset.store.composeBG,asset.store.fusionBG,asset.store.embedBG,asset.store.transfBG,asset.store.transfBG"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.MainViewBG1" x="58" y="8" resourceLink="asset.store.wishBeadBG1,asset.store.wishBeadBG1,asset.store.wishBeadBG1,asset.store.wishBeadBG1,asset.store.wishBeadBG1,asset.store.wishBeadBG1"/>
+       
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.strength_btn" backStyle="asset.store.strengthBtn" x="12" y="19" displacement="false"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.compose_btn" backStyle="asset.store.composeBtn" y="171" parentStyle="store.strength_btn"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.fusion_btn" backStyle="asset.store.fusionBtn" y="319" parentStyle="store.strength_btn"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.embed_btn" backStyle="asset.store.embedBtn" y="95" parentStyle="store.strength_btn"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.transf_Btn" backStyle="asset.store.transfBtn" y="246" parentStyle="store.strength_btn"/>
+        <component classname="com.pickgliss.ui.image.MovieImage" stylename="store.embed_btnMC" resourceLink="asset.store.EmbedBtnShine" x="12" y="95"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.exalt_btn" backStyle="asset.forgeMainView.tabSelectedButton0" x="12" y="19" displacement="false"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.wishBead_btn" backStyle="asset.forgeMainView.tabSelectedButton1" y="171" parentStyle="store.strength_btn"/>
+        
+        <!--goodsCountText-->
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.stoneCountText" x="60" y="57" width="49" height="20" filterString="filter.store.goodsCountFilter" textFormatStyle="store.TFormat_15"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.FunsionstoneCountTextI" x="74" y="70" parentStyle="store.stoneCountText"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.FunsionstoneCountTextII" x="26" y="38" parentStyle="store.stoneCountText" textFormatStyle="store.TFormat_29" width="30" autoSize="none"/>
+        <!--HelpFrame-->
+        <component classname="store.HelpFrame" backStyle="SimpleFrameBackgound" stylename="store.helpFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="8" containerY="31" width="425" height="480" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+        
+        
+        
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.composeHelpScale9BG" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="387" height="400" x="0" y="0"/>
+        <component classname="store.HelpPrompt" stylename="store.composeHelp" bg9ScalseStyle="store.composeHelpScale9BG" contentStyle="composeHelpText"/>
+        <custom classname="composeHelpText" stylename="composeHelpText" x="18" y="12"/>
+        
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.strengHelpScale9BG" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="409" height="400" x="0" y="0"/>
+        <component classname="store.HelpPrompt" stylename="store.strengHelp" bg9ScalseStyle="store.strengHelpScale9BG" contentStyle="strengthHelpText"/>
+        <custom classname="strengthHelpText" stylename="strengthHelpText" x="18" y="12"/>
+        
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.transferHelpScale9BG" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="409" height="400" x="0" y="0"/>
+        <component classname="store.HelpPrompt" stylename="store.transferHelp" bg9ScalseStyle="store.transferHelpScale9BG" contentStyle="transferHelpText"/>
+        <custom classname="transferHelpText" stylename="transferHelpText" x="18" y="12"/>
+        
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.embedHelpScale9BG" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="409" height="400" x="0" y="0"/>
+        <component classname="store.HelpPrompt" stylename="store.embedHelp" bg9ScalseStyle="store.embedHelpScale9BG" contentStyle="embedHelpText"/>
+        <custom classname="embedHelpText" stylename="embedHelpText" x="18" y="12"/>
+                
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.fushionHelpScale9BG" resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="409" height="400" x="0" y="0"/>
+        <component classname="store.HelpPrompt" stylename="store.fushionHelp" bg9ScalseStyle="store.fushionHelpScale9BG" contentStyle="fushionHelpText"/>
+        <custom classname="fushionHelpText" stylename="fushionHelpText" x="18" y="12"/>
+        
+        
+        
+        
+        
+        <!--成功失败提示-->
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.storeTipTxt" x="210" autoSize="none" width="300" height="40" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_21"/>
+        
+        
+        <!--强化-->
+<component classname="com.pickgliss.ui.image.Image" stylename="store.StrengthLuckyBG" resourceLink="asset.store.LuckyBG" x="13" y="56"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.StrengthEquipBG" resourceLink="asset.store.EquipBG" x="113" y="101"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.StrengthStoneI" resourceLink="asset.store.StrengthStoneBG" x="113" y="1"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.StrengthStoneII" resourceLink="asset.store.StrengthStoneBG" x="213" y="101"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.StrengthStoneIII" resourceLink="asset.store.StrengthStoneBG" x="113" y="201"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.BaiFengTxtBGI" resourceLink="asset.store.BaiFengTxtBG" x="85" y="-2"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.BaiFengTxtBGII" resourceLink="asset.store.BaiFengTxtBG" x="75" y="-2"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.StrengthconsortiaBG" resourceLink="asset.store.consortiaBG,store.BaiFengTxtBGI"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.StrengthSuccessRates" resourceLink="asset.store.SuccessRates,store.BaiFengTxtBGII"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.StrengthBG" resourceLink="store.StrengthLuckyBG,asset.store.GodBG,store.StrengthEquipBG,store.StrengthStoneI,store.StrengthStoneII,store.StrengthStoneIII"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.needMoneyTxt" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_12" x="101" y="293" autoSize="none" width="65" height="24"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.consortiaRateTitle" x="0" y="0" autoSize="none" width="110" height="20" text="0%" parentStyle="store.needMoneyTxt" textFormatStyle="store.TFormat_13"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.consortiaRateTxt" x="0" y="20" autoSize="none" width="100" height="26" text="0%" textFormatStyle="store.TFormat_20" filterString="filter.store.goodsCountFilter"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.consortiaRateTxtII" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_12" x="75" y="-2" autoSize="none" width="65" height="24"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.percentageTxt" x="67" parentStyle="store.consortiaRateTxtII"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.consortiaSmithLevelTxt" textFormatStyle="consortia.consortiaInfo_text" filterString="consortia.consortiaInfo_filter" autoSize="none" width="47" height="24" x="35" y="5"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.StrengthBtn" backStyle="asset.store.StrengthBtn" useLogID="98" filterString="null,lightFilter,lightFilter,grayFilter" x="72"  y="322"/>
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="store.StrengthButtonShine" resourceLink="asset.store.ButtonShine" x="62" y="315"/>
+
+<component classname="com.pickgliss.ui.image.MovieImage" stylename="store.ArrowHeadMC" resourceLink="asset.store.ArrowHeadMC" x="158" y="338"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ArrowHeadTip" resourceLink="store.ArrowHeadMC,asset.store.StartStrengthTip"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.StrengthNodeBtn" backStyle="asset.store.NoteBtnBG" filterString="null,lightFilter,lightFilter,grayFilter" x="234"  y="345"/>
+<component classname="ddt.view.common.BuyItemButton" stylename="store.BuyLuckyBtn" backStyle="asset.store.BuyLuckyBG" useLogID="94" filterString="null,lightFilter,lightFilter,grayFilter" tipStyle="core.GoodsTip" tipDirctions="7,0" x="24"  y="13"/>
+<component classname="ddt.view.common.BuyItemButton" stylename="store.BuyHierogramBtn" backStyle="asset.store.BuyGodBG" useLogID="95" x="24"  y="240" parentStyle="store.BuyLuckyBtn"/>
+<component classname="ddt.view.common.BuyItemButton" stylename="store.BuyStoneBtn" backStyle="asset.store.BuyStrengthStoneBG" useLogID="96"  x="224"  y="58" parentStyle="store.BuyLuckyBtn"/>
+<component classname="store.view.strength.BuyGiftBagButton" stylename="store.BuyGiftBagBtn" backStyle="asset.store.BuyGiftBagBG" useLogID="97" x="209"  y="217" filterString="null,lightFilter,lightFilter,grayFilter" tipStyle="core.GoodsTip" tipDirctions="7,0"/>
+
+        <!--合成-->
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.ComposeLuckyBG" resourceLink="asset.store.LuckyBG" x="12" y="101"/>
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.ComposeEquipBG" resourceLink="asset.store.EquipBG" x="112" y="102"/>
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.ComposeStoneBG" resourceLink="asset.store.ComposeStoneBG" x="212" y="102"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ComposeBG" resourceLink="store.ComposeLuckyBG,store.ComposeEquipBG,store.ComposeStoneBG"/>
+        
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.ComposeNodeBtn" backStyle="asset.store.ComposeNodeBtn" filterString="null,lightFilter,lightFilter,grayFilter" x="224" y="0"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.ComposeBtn" backStyle="asset.store.ComposeBtn" useLogID="99" filterString="null,lightFilter,lightFilter,grayFilter" x="72" y="322"/>
+        
+        <component classname="ddt.view.common.BuyItemButton" stylename="store.BuyLuckyComposeBtn" useLogID="100" x="23" y="59" parentStyle="store.BuyLuckyBtn"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.BuyComposeStoneBtn" backStyle="asset.store.BuyComposeStoneBG" useLogID="101" filterString="null,lightFilter,lightFilter,grayFilter" x="220" y="59"/>
+        
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ArrowHeadComposeTip" resourceLink="store.ArrowHeadMC,asset.store.StartComposeTip"/>
+        
+       <!--转移-->
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.TransferNeedMoneyBG" resourceLink="asset.store.NeedMoneyBG" x="66" y="247"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.TransferBG" resourceLink="asset.store.transfPrevBG,asset.store.transfNextBG,asset.store.transfArrowBG,store.TransferNeedMoneyBG"/>
+        
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.TransferNodeBtn" backStyle="asset.store.transfNodeBtn" filterString="null,lightFilter,lightFilter,grayFilter" x="224" y="0"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.TransferBtn" backStyle="asset.store.transfStartBtn" useLogID="102" filterString="null,lightFilter,lightFilter,grayFilter" x="72" y="322"/>
+        
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.TransferneedMoneyTxt" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_24" text="0" x="161" y="248" autoSize="none" width="65" height="24" type="Dynamic"/>
+        
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ArrowHeadTransferTip" resourceLink="store.ArrowHeadMC,asset.store.transfStartTip"/>
+        
+        <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="store.transfer.HoleBeforeCheck" parentStyle="core.simpleSelectBtn" backStyle="asset.store.transfer.EquipHole" filterString="null,lightFilter,null,grayFilter" displacement="true" textStyle="store.transfer.HoleLabel" x="112" y="10"/>
+        <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="store.transfer.HoleAfterCheck" parentStyle="core.simpleSelectBtn" backStyle="asset.store.transfer.Hole" filterString="null,lightFilter,null,grayFilter" displacement="true" textStyle="store.transfer.HoleLabel" x="112" y="40"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.transfer.HoleTipLabel" textFormatStyle="store.transfer.HoleTipLabelTF" filterString="GF_01" multiline="true" mouseEnabled="false" autoSize="none" y="70" width="356" height="40"/>
+        <!--熔炼-->
+<component classname="com.pickgliss.ui.image.Image" stylename="store.FusionGoodsiBGI" resourceLink="asset.store.FusionGoodsiBG" x="43" y="38"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.FusionGoodsiBGII" resourceLink="asset.store.FusionGoodsiBG" x="115" y="38"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.FusionGoodsiBGIII" resourceLink="asset.store.FusionGoodsiBG" x="43" y="108"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.FusionGoodsiBGIV" resourceLink="asset.store.FusionGoodsiBG" x="115" y="108"/>
+<component classname="com.pickgliss.ui.image.Image" stylename="store.FusionNeedMoneyBG" resourceLink="asset.store.NeedMoneyBG" x="70" y="280"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.FusionBG" resourceLink="store.FusionGoodsiBGI,store.FusionGoodsiBGII,store.FusionGoodsiBGIII,store.FusionGoodsiBGIV,asset.store.FusionGongshiBG,store.FusionNeedMoneyBG"/>
+
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.FusionneedMoneyTxt" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_12"  x="262" y="296" autoSize="none" width="46" height="24" text="0"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.FusionNodeBtn" backStyle="asset.store.FusionNodeBtn" filterString="null,lightFilter,lightFilter,grayFilter" x="224"  y="0"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.FusionBtn" backStyle="asset.store.FusionStartBtn" useLogID="104" parentStyle="store.FusionNodeBtn" x="72"  y="322"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.BuyGongshiBtn" backStyle="asset.store.FusionBuyGongshi" useLogID="103" parentStyle="store.FusionNodeBtn" x="223"  y="25"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.previewBtn" backStyle="asset.store.PreviewBtn" parentStyle="store.FusionNodeBtn" x="89"  y="223"/>
+
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ArrowHeadFusionTip" resourceLink="store.ArrowHeadMC,asset.store.FusionStartTip"/>
+
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="store.AutoOpenButton" 
+	parentStyle="core.simpleSelectBtn" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" 
+	filterString="null,lightFilter,null,grayFilter" 
+	displacement="true" backStyle="asset.store.AutoOpen" textStyle="store.AutoOpenLabel" x="292" y="264"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.AutoOpenLabel" 
+textFormatStyle="filter.store.MoneyFilter" filterString="store.transfer.CheckFieldGF" x="16" y="-2"/>
+
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.SellLeftAlerBt1" backStyle="asset.store.SellLeftAlerBt1" x="246" y="64" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.SellLeftAlerBt2" backStyle="asset.store.SellLeftAlerBt2" x="246" y="79" filterString="null,lightFilter,lightFilter,grayFilter"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.SellLeftAlerInputText" textFormatStyle="store.TFormat_30" autoSize="none" width="134" height="23" x="107" y="68" type="input"/>
+<component classname="store.view.fusion.FusionSelectNumAlertFrame" stylename="store.FusionSelectNumAlertFrame"  parentStyle="BaseFrame" moveEnable="false" width="320" height="192" containerX="15" containerY="5"/>
+
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="store.SellLeftAlerAutoSplitCk" 
+	parentStyle="core.simpleSelectBtn" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" 
+	filterString="null,lightFilter,null,grayFilter" 
+	displacement="true" backStyle="asset.store.SellLeftAutoSplitTxt" textStyle="store.AutoOpenLabel" x="292" y="237"/>
+
+<!--熔炼预览-->
+<component classname="com.pickgliss.ui.image.Image" stylename="store.PreviewSuccessRates" resourceLink="asset.store.FusionSuccessRates" x="74" y="31"/>
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.PreviewBG" x="21" y="20" resourceLink="asset.store.FusionGoodsiBG,store.PreviewSuccessRates"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.PreviewNameTxt" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_23" x="120" y="268" text="" autoSize="none" width="82" height="21" multiline="true" wordWrap="true"/>
+<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.PreviewSuccessRateTxt" filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_24"  x="124" y="293" text="0%" autoSize="none" width="77" height="23"/>
+<component classname="com.pickgliss.ui.controls.TextButton" stylename="store.PreviewFrameEnter" parentStyle="core.simplebt" x="100" y="200"/>
+
+        <!--镶嵌-->
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.EmbedEquipBG" resourceLink="asset.store.EquipBG" x="130" y="120"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.EmbedBG" resourceLink="store.EmbedEquipBG"/>
+        
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.EmbedNodeBtn" backStyle="asset.store.EmbedNodeBtn" filterString="null,lightFilter,lightFilter,grayFilter" x="224" y="0"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="store.EmbedBackoutDownBtn" backStyle="asset.store.embedBackoutDownItem" filterString="null,lightFilter,lightFilter,grayFilter"/>
+        <component classname="store.view.embed.MultipleButton" stylename="store.EmbedOpenHoleFive" 
+        	backStyle="asset.store.embedOpenHoleBtn" parentStyle="store.FusionNodeBtn" 
+        	x="22" y="281" width="62" height="27" tipStyle="ddt.view.tips.MultipleLineTip" tipDirctions="7,0,1,2" tipWidth="155" tipGapH="10"/>
+        <component classname="store.view.embed.MultipleButton" stylename="store.EmbedOpenHoleSix" backStyle="asset.store.embedOpenHoleBtn" parentStyle="store.EmbedOpenHoleFive" x="22" y="158"/>
+        
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.EmbedOpenGrid" x="-8" y="-7" resourceLink="asset.store.EmbedGridAttack,asset.store.EmbedGridDefense,asset.store.EmbedGridAttribute"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.embedBackoutMouseIcon" resourceLink="asset.store.embedBackoutMouseUp,asset.store.embedBackoutMouseDown"/>
+        
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.embed.ExpRateField" 
+        	x="3" y="-1" autoSize="none" width="60" height="20" 
+        	filterString="filter.store.MoneyFilter" textFormatStyle="store.TFormat_28"/>
+        <!--快速购买-->
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ShortCutSelect" resourceLink="asset.core.QuickBuyCellBG,asset.core.shortCutSelect"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.StoreShortcutCellBg" x="-6" y="-6" resourceLink="asset.core.QuickBuyCellBG,store.ShortCutSelect"/>
+        <component classname="com.pickgliss.ui.controls.TextButton" stylename="store.ShortBuyFrameEnter" parentStyle="core.simplebt" x="160"/>
+        
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ShortCutViewBG" resourceLink="asset.store.SelectMoneyBG,asset.store.SelectMoneyTip"/>
+        
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.ShortCutTxt" textFormatStyle="store.TFormat_16" x="0" y="65" autoSize="none" width="60" height="24"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.totalText" textFormatStyle="store.TFormat_17" x="215" y="276" autoSize="none" width="105" height="22" filterString="filter.store.goodsCountFilter"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.embed.HoleExpTipLvField" textFormatStyle="store.TFormat_23" x="16" y="4" autoSize="left" filterString="filter.store.HoleLvTip"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.embed.HoleExpTipExpField" textFormatStyle="store.TFormat_24" y="4" autoSize="left" filterString="filter.store.HoleExpTip"/>
+        
+        
+        <!--铁匠铺背包-->
+        <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.bagScaleBGAsset" parentStyle="bagScaleBGAssetCore" width="367" height="392"/>
+        
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagBGI" resourceLink="asset.store.bagBGI,asset.store.bagBGII,asset.store.bagEquip,asset.store.bagProp"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagBGII" resourceLink="asset.store.bagEquip"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.bagBG" x="10" y="10" resourceLink="store.bagBGI,store.bagBGII"/>
+        <custom classname="store.StoreBagBgWHPoint" stylename="store.bagBGWHPoint"  sequencePoint="0xE8E3CF,-1,26,326.9,142.6,-1,200,326.9,142.6,-1,18,327,326"/>
+        
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.ShowMoneyBGI" resourceLink="asset.store.ShowBG" x="12" y="354"/>
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.ShowMoneyBGII" resourceLink="asset.store.ShowBG" x="122" y="354"/>
+        <component classname="com.pickgliss.ui.image.Image" stylename="store.ShowMoneyBGIII" resourceLink="asset.store.ShowBG" x="235" y="354"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.ShowMoneyBG" resourceLink="store.ShowMoneyBGI,store.ShowMoneyBGII,store.ShowMoneyBGIII,asset.store.bagGif,asset.store.bagGold,asset.store.bagMoney"/>
+        
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagStrenghMsg" resourceLink="asset.store.bagStrengthI,asset.store.bagStrengthII"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagComposeMsg" resourceLink="asset.store.bagComposeI,asset.store.bagStrengthII"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagFusionMsg" resourceLink="asset.store.bagFusionI,store.bagFusionMsg0"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagFusionMsg0" resourceLink="asset.store.bagFusionI" y="173"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagEmbMsg" resourceLink="asset.store.bagEmbI,asset.store.bagEmbII"/>
+        <component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.bagTransfMsg" resourceLink="asset.store.bagTransf"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.bagMsg" x="90" y="12" resourceLink="store.bagStrenghMsg,store.bagComposeMsg,store.bagFusionMsg,store.bagEmbMsg,store.bagTransfMsg,store.bagTransfMsg"/>
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.bagMsg1" x="90" y="12" resourceLink="store.bagStrenghMsg,store.bagComposeMsg,store.bagFusionMsg,store.bagEmbMsg,store.bagTransfMsg,store.bagTransfMsg"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.bagMoneyTxt" textFormatStyle="store.TFormat_14" x="43" y="361" autoSize="none" width="70" height="18"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.bagGiftTxt" parentStyle="store.bagMoneyTxt" x="156"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.bagGoldTxt" parentStyle="store.bagMoneyTxt" x="268"/>
+        
+        
+        <!--Scroll-->
+        <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="store.bagEquipScrollPanel" parentStyle="core.ScrollPanel" width="347" height="138" vUnitIncrement="10"/>
+        <component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="store.bagSingleScrollPanel" parentStyle="core.ScrollPanel" width="347" height="323" vUnitIncrement="10"/>
+        
+        <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.showSuccessBg" resourceLink="asset.store.showSuccessBg,asset.store.showSuccessVipBg"/>
+        <!-- 显示成功率 -->
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.showSuccessRateTxtV" textFormatStyle="store.TFormat_26" x="1" y="19" autoSize="none" width="70" height="18"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.showSuccessRateTxtVI"  parentStyle="store.showSuccessRateTxtV" x="62"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.showSuccessRateTxtVII"  parentStyle="store.showSuccessRateTxtV" x="129"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.showSuccessRateTxtVIII" textFormatStyle="store.TFormat_27" x="221" y="18" autoSize="none" width="70" height="22"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.showSuccessRateTxtVIP"  parentStyle="store.showSuccessRateTxtV" x="170"/>
+    
+    	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="newStore.tabStoreBtn" unSelectedStyle="asset.newStore.tabStore.unSelectedBtn" selectedStyle="asset.newStore.tabStore.selectedBtn" x="31" y="6"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="newStore.tabForgeBtn" unSelectedStyle="asset.newStore.tabForge.unSelectedBtn" selectedStyle="asset.newStore.tabForge.selectedBtn" x="183" y="6"/>
+    	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="newStore.tabFineStoreBtn" unSelectedStyle="asset.newStore.tabFine.unSelectedBtn" selectedStyle="asset.newStore.tabFine.selectedBtn" x="321" y="6"/>
+    	<!--  装备铸金  -->  
+    	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="wishBead.bg" parentStyle="core.bg6920" width="600" height="375" x="12" y="13" scaleGridString="5,10,80,20"/>
+    	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wishBeadMainView.itemCell.countTxt" textFormatStyle="wishBeadMainView.itemCell.countTxt.tf" filterString="wishBeadMainView.itemCell.countTxt.gf" wordWrap="true" width="49" height="20" x="8" y="39"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="wishBeadMainView.continuousBtn" 
+			parentStyle="core.simpleSelectBtn" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" 
+			filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="asset.wishBead.continuousIcon" x="270" y="230"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="wishBeadMainView.doBtn" backStyle="asset.wishBead.doBtn" x="115" y="337"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wishBeadMainView.tipTxt" textFormatStyle="wishBeadMainView.tipTxt.tf" filterString="wishBeadMainView.tipTxt.gf" x="96" y="271"/>
+    	 <component classname="com.pickgliss.ui.image.Image" stylename="wishBead.EquipmentCellBg" parentStyle="ddtstore.EquipmentCellBg" x="108" y="75"/>  
+    	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="wishBead.EquipmentCellText" x="136" y="113" textFormatStyle="wishBead.EquipmentCellTextTF" filterString="wishBead.EquipmentCellTextGF"/>  
+    	<component classname="store.HelpFrame" stylename="wishBead.helpFrame" parentStyle="BaseFrame" width="404" height="485"/>  
+    	
+    	<!-- FusionSelectNumberAlertFrame -->  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtstore.SellLeftAlerBt1" parentStyle="core.quickNumberLeftBtn" x="237" y="62"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtstore.SellLeftAlerBt2" parentStyle="core.quickNumberRightBtn" x="38" y="-26"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.SellLeftAlerInputText" textFormatStyle="ddtstore.SellLeftAlerInputText.TF" filterString="ddtstore.SellLeftAlerInputText.GF" autoSize="none" width="120" height="23" x="122" y="77" type="input"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtstore.SellLeftAlerInputTextBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="120" height="30" x="113" y="72"/>  
+    	
+    	<component classname="store.view.exalt.ExaltSelectNumAlertFrame" stylename="store.view.exalt.exaltSelectNumAlertFrame" parentStyle="BaseFrame" moveEnable="false" width="350" height="192" containerX="15" containerY="5"/>
+    
+    	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="ddt.store.view.exalt.buyBtn" backStyle="asset.ddtstore.exalt.BuyRock" enable="true" x="18" y="259"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddt.store.view.exalt.exaltBtnImage" parentStyle="ddtstore.StoreIIStrengthBG.StrengthenBtnImage" resourceLink=",asset.ddtstore.exalt.exalt" imageRectString="0|140|0|46|13,11|160|3|46|13"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtstore.BagStoreFrame.exaltBtn" selectedStyle="asset.ddtstore.exaltTabBtnSelected" unSelectedStyle="asset.ddtstore.exaltTabBtnUnSelected" x="-2" y="91" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddt.store.view.exalt.exaltBtn" backStyle="ddt.store.view.exalt.exaltBtnImage" useLogID="99" filterString="null,lightFilter,lightFilter,grayFilter" x="76" y="307" width="135" height="370"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddt.store.view.exalt.SelectedCheckButton" parentStyle="core.simpleSelectBtn" unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn"  filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="ddt.store.view.exalt.SelectedCheckButtonIMG" x="271" y="257"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddt.store.view.exalt.SelectedCheckButtonIMG" resourceLink="asset.ddtstore.exalt.continuousText" x="-83" y="7"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.store.view.exalt.StoreExaltProgressBar.title" x="104" y="169" textFormatStyle="ddt.store.view.exalt.StoreExaltProgressBar.titleTF" filterString="ddt.store.view.exalt.StoreExaltProgressBar.titleGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.store.view.exalt.StoreExaltProgressBar.explain" x="46" y="214" autoSize="none" width="250" height="40" textFormatStyle="ddt.store.view.exalt.StoreExaltProgressBar.explainTF" filterString="ddt.store.view.exalt.StoreExaltProgressBar.explainGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.store.view.exalt.StoreExaltProgressBar.percentage" x="71" y="194" autoSize="none" width="200" height="25" textFormatStyle="ddt.store.view.exalt.StoreExaltProgressBar.percentageTF" filterString="ddt.store.view.exalt.StoreExaltProgressBar.percentageGF"/>  
+    <component classname="store.view.exalt.ExaltTips" stylename="ddtstore.ExaltTips"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="com.ShortCutBuyView.selectBtn" parentStyle="core.simpleSelectBtn" width="103" height="28" x="94" y="190" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected" displacement="false"/>  
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="com.ShortCutBuyView.selectbandBtn" parentStyle="core.simpleSelectBtn" width="103" height="28" x="240" y="190" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected" displacement="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddt.store.view.exalt.luckyText" x="133" y="167" textFormatStyle="ddt.store.view.exalt.luckyTextTF" filterString="ddt.store.view.exalt.luckyTextGF"/>  
+    <component classname="store.HelpFrame" stylename="ddtstore.HelpFrame" parentStyle="BaseFrame" width="404" height="485"/>  
+    	
+    <!-- BagStoreFrame -->  
+    <component classname="ddt.bagStore.BagStoreFrame" stylename="ddtstore.BagStoreFrame" x="77" y="21" width="862" height="560" parentStyle="bigBaseFrame" containerX="10" containerY="27"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddt.bagStore.BagStoreFrameTitle" resourceLink="asset.ddtstore.StoreTitle" x="209" y="-8" width="374" height="58"/>  
+    <custom classname="asset.ddtstore.ContentBg" stylename="ddtstore.BagStoreFrame.ContentBg" x="60" y="52" width="748" height="427" />
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="ddtstore.BagStoreFrame.TabSelectedBtnContainer" spacing="1" y="-10"/>  
+    
+    <!-- StoreBagView -->  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreBagViewBg" parentStyle="core.Scale9CornerImage.BGAsset5" width="378" height="410"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreBagView.EquipmentsColumnBg" parentStyle="core.Scale9CornerImage.BGAsset6" x="2" y="30" width="348" height="160"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreBagView.ItemsColumnBg" parentStyle="core.Scale9CornerImage.BGAsset6" x="2" y="202" width="348" height="160"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtstore.StoreBagView.GoodItemFrameBg" resourceLink="asset.core.GoodItemFrameBg" width="42" height="42"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreBagView.NormalBg" resourceLink="ddtstore.StoreBagView.EquipmentsColumnBg,ddtstore.StoreBagView.ItemsColumnBg" imageRectString="0|348|0|160|13,0|348|174|160|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreBagView.TransferBg" parentStyle="core.Scale9CornerImage.BGAsset6" x="2" y="-3" width="344" height="342"/>  
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtstore.StoreBagViewBg2" resourceLink="ddtstore.StoreBagView.NormalBg,ddtstore.StoreBagView.TransferBg" x="7" y="27"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.EquipmentTitleText" x="12" y="9" textFormatStyle="ddtstore.StoreBagView.ItemCellTitleTextTF" filterString="ddtstore.StoreBagView.ItemCellTitleTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.ItemTitleText" x="12" y="184" textFormatStyle="ddtstore.StoreBagView.ItemCellTitleTextTF" filterString="ddtstore.StoreBagView.ItemCellTitleTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.EquipmentTipText" x="100" y="9" textFormatStyle="ddtstore.StoreBagView.ItemCellTipTextTF" filterString="ddtstore.StoreBagView.ItemCellTipTextGF"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.ItemTipText" x="64" y="185" textFormatStyle="ddtstore.StoreBagView.ItemCellTipTextTF" filterString="ddtstore.StoreBagView.ItemCellTipTextGF"/>  
+    
+	<!-- 金钱、点券、勋章显示框 -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.TicketText" x="82" y="376" autoSize="center" textFormatStyle="ddtstore.bagFinatialTF" filterString="ddtshop.DTextFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.GiftText" x="199" y="376" autoSize="center" textFormatStyle="ddtstore.bagFinatialTF" filterString="ddtshop.VTextFilter"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreBagView.GoldText" x="321" y="376" autoSize="center" textFormatStyle="ddtstore.bagFinatialTF" filterString="ddtshop.ZTextFilter"/>  
+	
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtstore.HelpButton" x="225" y="357" backStyle="asset.corei.helpbutton"/>  
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="wishBead.NodeBtn" backStyle="asset.corei.helpbutton" filterString="null,lightFilter,lightFilter,grayFilter" x="262" y="373"/>
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddtstore.StoreIIStrengthBG.stoneCellBg" resourceLink="asset.ddtstore.EquipmentCellBg" x="20" y="20"/>  
+    
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreIIStrengthBG.GoodCellText" textFormatStyle="ddtstore.StoreIIStrengthBG.GoodCellTextTF" filterString="ddtstore.StoreIIStrengthBG.GoodCellTextGF"/>  
+    <component classname="store.HelpPrompt" stylename="wishBead.wishBeadHelp" bg9ScalseStyle="store.composeHelpScale9BG" contentStyle="asset.awardSystem.wishBeadHelp" x="9" y="35"/>
+    
+    
+        <!-- StrengthenView -->  
+    <custom classname="store.view.strength.StoreIIStrengthBG" stylename="ddtstore.StoreIIStrengthBGView" x="65" y="30"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddtstore.StoreIIStrengthBG.EquipmentCellBg" parentStyle="ddtstore.EquipmentCellBg"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreIIStrengthBG.StrengthenEquipmentCellText" textFormatStyle="ddtstore.StoreIIStrengthBG.StrengthenEquipmentCellTextTF" filterString="ddtstore.StoreIIStrengthBG.StrengthenEquipmentCellTextGF"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreIIStrengthBg.SymbolBuyBtnImage" resourceLink="core.bg6905,asset.ddtstore.SymbolImage" imageRectString="0|70|0|32|13,9|19|8|19|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreIIStrengthBg.StoneBuyBtnImage" resourceLink="asset.core.redBtn,asset.ddtstore.StoneImage" imageRectString="0|70|0|32|13,9|19|7|19|13"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreIIStrengthBg.GodSymbolBuyBtnImage" resourceLink="core.bg6905,asset.ddtstore.GodSymbolImage" imageRectString="0|70|0|32|13,9|19|8|19|13"/>  
+    <component classname="ddt.view.common.BuyItemButton" stylename="ddtstore.StoreIIStrengthBG.LuckySymbolBuyBtn" backStyle="ddtstore.StoreIIStrengthBg.SymbolBuyBtnImage" useLogID="94" textStyle="ddtstore.StoreIIStrengthBg.BuyButtonText" backgoundInnerRectString="13,66,8,32,13" filterString="null,lightFilter,lightFilter,grayFilter" tipStyle="core.GoodsTip" tipDirctions="7,0" x="29" y="19"/>  
+    <component classname="ddt.view.common.BuyItemButton" stylename="ddtstore.StoreIIStrengthBG.StoneBuyBtn" backStyle="ddtstore.StoreIIStrengthBg.StoneBuyBtnImage" useLogID="95" x="10" y="210" parentStyle="ddtstore.StoreIIStrengthBG.LuckySymbolBuyBtn"/>  
+    <component classname="ddt.view.common.BuyItemButton" stylename="ddtstore.StoreIIStrengthBG.GodSymbolBuyBtn" backStyle="ddtstore.StoreIIStrengthBg.GodSymbolBuyBtnImage" useLogID="96" x="31" y="235" parentStyle="ddtstore.StoreIIStrengthBG.LuckySymbolBuyBtn"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreIIStrengthBG.BuyGiftBagBtnImage" resourceLink="core.bg6905,asset.ddtstore.StrengthGiftBag" imageRectString="110|60|0|0|9,11|98|10|48|13" x="0" y="0" width="115" height="65"/>  
+    <component classname="store.view.strength.BuyGiftBagButton" stylename="ddtstore.StoreIIStrengthBG.BuyGiftBagBtn" backStyle="ddtstore.StoreIIStrengthBG.BuyGiftBagBtnImage" useLogID="97" x="212" y="206" filterString="null,lightFilter,lightFilter,grayFilter" tipStyle="core.GoodsTip" tipDirctions="7,0"/>  
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="ddtstore.StoreIIStrengthBG.ArrowHeadMC" resourceLink="asset.trainer.TrainerArrowAsset" x="279" y="384" rotation="120"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.StoreIIStrengthBG.ArrowHeadTip" resourceLink="ddtstore.StoreIIStrengthBG.ArrowHeadMC,asset.ddtstore.StartStrengthTip" imageRectString=",465|298|132|44|13"/>  
+    <component classname="store.view.strength.StrengthTips" stylename="ddtstore.StrengthTips"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.ddtstore.strengthenLevel9CornerImageBG" width="100" height="126" resourceLink="asset.ddtstore.strengthenLevel9CornerImage1,asset.ddtstore.strengthenLevel9CornerImage2,asset.ddtstore.strengthenLevel9CornerImage3,asset.ddtstore.strengthenLevel9CornerImage4,asset.ddtstore.strengthenLevel9CornerImage5,asset.ddtstore.strengthenLevel9CornerImage6,asset.ddtstore.strengthenLevel9CornerImage7,asset.ddtstore.strengthenLevel9CornerImage8,asset.ddtstore.strengthenLevel9CornerImage9"/>  
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.strengthTips.strengthenImageBG" resourceLink="asset.ddtstore.strengthenLevel9CornerImageBG" width="90" height="34" x="-5"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtstore.StoreIIStrengthBg.VipDiscountTxt" textFormatStyle="ddtstore.StoreIIStrengthBg.VipDiscountTxtTF" filterString="ddtstore.StoreIIStrengthBg.VipDiscountTxtGF" x="36" y="41"/>  
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ddtstore.StoreIIStrengthBg.VipDiscountBg" parentStyle="core.Scale9CornerImage.Scale9CornerImage13" x="4" y="34" width="193" height="30"/>  
+    <component classname="com.pickgliss.ui.image.Image" stylename="ddtstore.StoreIIStrengthBg.VipDiscountIcon" resourceLink="asset.game.smallplayer.seniorVIP" x="13" y="40"/>  
+    
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtstore.fineStore.forgeBtn" 
+			selectedStyle="asset.store.fineForgeBtn" unSelectedStyle="asset.store.unFineForgeBtn" 
+			x="-2" y="-6" displacement="false" />
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="ddtstore.fineStore.bringUpBtn" 
+			selectedStyle="asset.store.fineBringUpBtn" unSelectedStyle="asset.store.unFineBringUpBtn" 
+			x="-2" y="-6" displacement="false" />	
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="ddtstore.BringUp.MoneyPanelBg" 
+	width="370" height="42" x="4" y="364" 
+	resourceLink="core.Scale9CornerImage.Scale9CornerImage20,ddtstore.StoreBagView.TicketTextBg,ddtstore.StoreBagView.GiftTextBg,ddtstore.StoreBagView.MoneyTextBg" 
+	imageRectString="0|370|0|42|13,14|104|8|26|13,133|104|8|26|13,253|104|8|26|13"/>				
+    </components>
+    
+    <customDisplay>
+    
+    <custom classname="store.view.exalt.StoreExaltBG" stylename="store.exaltPanelBG" x="65" y="30"/>
+    <custom classname="store.forge.wishBead.WishBeadMainView" stylename="store.wishBeadView" x="65" y="30"/>
+    
+    <custom classname="flash.geom.Point" stylename="ddtstore.StoreIIStrengthBG.StrengthenEquipmentCellTextPos" x="43" y="109"/>  
+    <custom classname="flash.geom.Point" stylename="ddtstore.StoreIIStrengthBG.EquipmentCellBgPos" x="15" y="65"/>  
+    
+    
+    <custom classname="bagAndInfo.bag.RichesButton" stylename="ddtstore.StoreBagView.GoldButton" x="20" y="373" width="96" height="19" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>  
+    <custom classname="bagAndInfo.bag.RichesButton" stylename="ddtstore.StoreBagView.GiftButton" x="138" y="373" width="96" height="19" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>  
+    <custom classname="bagAndInfo.bag.RichesButton" stylename="ddtstore.StoreBagView.MoneyButton" x="255" y="373" width="96" height="19" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>  
+    
+    <!-- 装备铸金 -->
+    	<custom classname="flash.geom.Point" stylename="wishBeadMainView.equipCellPos" x="79" y="85"/>
+	<custom classname="flash.geom.Point" stylename="wishBeadMainView.leftDrapSpritePos" x="-4" y="6"/>
+	<custom classname="flash.geom.Point" stylename="wishBeadMainView.rightDrapSpritePos" x="354" y="5"/>
+	<custom classname="flash.geom.Point" stylename="wishBeadMainView.bagListPos" x="369" y="42"/>
+	<custom classname="flash.geom.Point" stylename="wishBeadMainView.itemCellPos" x="254" y="85"/>
+	<custom classname="store.forge.wishBead.WishTips" stylename="store.forge.wishBead.WishTip" x="100" y="150"/>
+	<custom classname="flash.geom.Point" stylename="wishBeadMainView.proBagListPos" x="369" y="216"/>
+    <custom classname="wishBead.WishBeadFrame" backStyle="SimpleFrameBackgoundOne" stylename="wishBead.WishBeadFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="10,10,5" closeInnerRectString="44,6,6,30,14" containerX="10" containerY="36" width="645" height="445"/>  
+    <custom classname="wishBead.view.WishBeadResultCell" stylename="wishBead.view.WishBeadResultCell" x="113" y="88" width="60" height="60" tipGapH="30"/>  
+    <custom classname="flash.geom.Point" stylename="WishBead.namebgPos" x="-3" y="192"/>  
+    <custom classname="wishBead.view.WishBeadItem" stylename="wishBead.WishBeadCell" mouseEnabled="false" x="115" y="247"/>  
+    <custom classname="wishBead.view.LeftView" stylename="wishBead.LeftView" x="18" y="21"/>  
+    <custom classname="wishBead.view.WishBeadBagListView" stylename="wishBead.view.WishBeadBagListView" x="362" y="84" width="60" height="150"/>  
+    <custom classname="wishBead.view.WishTips" stylename="wishBead.view.WishTip" x="100" y="150"/>  
+    
+    	<custom classname="store.ShowSuccessRate" stylename="store.ShowSuccessRate"  x="8" y="281"/>
+    	
+    	<custom classname="flash.geom.Point" stylename="store.showSuccessRateTxtIPos" x="-2" y="19"/>
+    	<custom classname="flash.geom.Point" stylename="store.showSuccessRateTxtIIPos" x="56" y="19"/>
+    	<custom classname="flash.geom.Point" stylename="store.showSuccessRateTxtIIIPos" x="114" y="19"/>
+    	<custom classname="flash.geom.Point" stylename="store.showSuccessRateTxtIVPos" x="247" y="18"/>
+    	
+    	<custom classname="flash.geom.Point" stylename="store.view.showStripIPos" x="0" y="2"/>
+    	<custom classname="flash.geom.Point" stylename="store.view.showStripIIPos" x="60" y="2"/>
+    	<custom classname="flash.geom.Point" stylename="store.view.showStripIIIPos" x="115" y="2"/>
+    	<custom classname="flash.geom.Point" stylename="store.view.showStripIVPos" x="238" y="2"/>
+    	
+    
+    
+        <!--StoreFrame-->
+        <custom classname="ddt.bagStore.BagStoreFrame" backStyle="core.bg006" stylename="store.storeFrame" x="102" y="25" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="10" containerY="31" width="828" height="513" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+        <custom classname="store.StoreTips" stylename="store.storeTip" x="100" y="150"/>
+        <custom classname="store.StoreMainView" stylename="store.MainView" x="10" y="47"/>
+        <custom classname="store.forge.ForgeMainView" stylename="store.forgeview" x="11" y="24"/>
+        
+        <!--strength-->
+        <custom classname="store.view.strength.StoreIIStrengthBG" stylename="store.StoreIIStrengthBG" x="65" y="30"/>
+        <custom classname="store.view.strength.MySmithLevel" stylename="store.MySmithLevel" x="235" y="-10" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,7" width="110" height="50"/>
+        
+        <!--StrengthPoint-->
+        <custom classname="flash.geom.Point" stylename="store.Strengthpoint0" x="106" y="-6"/>
+        <custom classname="flash.geom.Point" stylename="store.Strengthpoint1" x="206" y="95"/>
+        <custom classname="flash.geom.Point" stylename="store.Strengthpoint2" x="106" y="195"/>
+        <custom classname="flash.geom.Point" stylename="store.Strengthpoint3" x="6" y="141"/>
+        <custom classname="flash.geom.Point" stylename="store.Strengthpoint4" x="6" y="49"/>
+        <custom classname="flash.geom.Point" stylename="store.Strengthpoint5" x="123" y="111"/>
+        
+        <!--Compose-->
+        <custom classname="store.view.Compose.StoreIIComposeBG" stylename="store.StoreIICompose" x="65" y="30"/>
+        
+        <!--ComposePoint-->
+        <custom classname="flash.geom.Point" stylename="store.Composepoint0" x="5" y="95"/>
+        <custom classname="flash.geom.Point" stylename="store.Composepoint1" x="123" y="113"/>
+        <custom classname="flash.geom.Point" stylename="store.Composepoint2" x="205" y="95"/>
+        
+        <!--转移-->
+        <custom classname="store.view.transfer.StoreIITransferBG" stylename="store.StoreIITransfer" x="65" y="30"/>
+        <custom classname="store.view.transfer.HoleConfirmAlert" stylename="store.view.transfer.HoleConfirmAlert" 
+            submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12" 
+            textStyle="simpleAlertContentText" titleOuterRectPosString="6,6,5" backStyle="SimpleFrameBackgound" 
+            closestyle="core.closebt" titleStyle="FrameTitleTextStyle" containerX="20" containerY="40" 
+            closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="400" height="200" 
+            moveEnable="false" escEnable="true" enterEnable="true"/>
+        <custom classname="flash.geom.Point" stylename="store.Transferpoint0" x="20" y="90"/>
+        <custom classname="flash.geom.Point" stylename="store.Transferpoint1" x="232" y="90"/>
+        <custom classname="store.data.HoleExpModel" stylename="HoleExpModel" maxLv="4" oprationLv="4" explist="400|600|700|800"/>
+        
+        <!--熔炼-->
+		<custom classname="store.view.fusion.StoreIIFusionBG" stylename="store.StoreIIFusionBG" x="65" y="30"/>
+		<custom classname="flash.geom.Point" stylename="store.Fusionpoint0" x="107" y="139"/>
+		<custom classname="flash.geom.Point" stylename="store.Fusionpoint1" x="29" y="27"/>
+		<custom classname="flash.geom.Point" stylename="store.Fusionpoint2" x="96" y="27"/>
+		<custom classname="flash.geom.Point" stylename="store.Fusionpoint3" x="166" y="27"/>
+		<custom classname="flash.geom.Point" stylename="store.Fusionpoint4" x="237" y="27"/>
+		<custom classname="flash.geom.Point" stylename="store.Fusionpoint5" x="9" y="270"/>
+
+        
+        <!--熔炼预览-->
+        <custom classname="store.view.fusion.PreviewItemCell" stylename="store.PreviewItemCell" x="27" y="28"/>
+        <custom classname="store.view.fusion.PreviewFrameII" backStyle="SimpleFrameBackgound" stylename="store.PreviewFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="15" containerY="36" width="300" height="280" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+        
+        <!--镶嵌-->
+        <custom classname="store.view.embed.HoleExpBar" stylename="store.embed.Hole5ExpBar" x="21" y="260" visible="false" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="2,1,0"/>
+        <custom classname="store.view.embed.HoleExpBar" stylename="store.embed.Hole6ExpBar" x="21" y="138" visible="false" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="2,1,0"/>
+        <custom classname="store.view.embed.StoreEmbedBG" stylename="store.StoreEmbedBG" x="65" y="30"/>
+        <custom classname="store.view.embed.EmbedAlertFrame" stylename="store.EmbedAlertFrame" backStyle="SimpleFrameBackgound" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" closestyle="core.closebt" containerX="30" containerY="45" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="250" height="180"/>
+        <custom classname="store.view.embed.EmbedBackoutButton" stylename="store.EmbedBackoutButton" x="114" y="322"/>
+        
+        <custom classname="store.view.embed.EmbedStoneTip" stylename="store.EmbedStoneTip" tipTextStyle="core.SimpleTipText" tipbackgoundstyle="core.GoodsTipBg" backgoundInnerRectString="9,11,5,8,-1"/>
+        <custom classname="store.view.embed.EmbedStoneCell" stylename="store.EmbedStoneCell" tipStyle="core.GoodsTip" tipDirctions="7,1,2"/>
+        <custom classname="ddt.view.tips.MultipleLineTip" stylename="store.multipleLineTip" tipWidth="146"/>
+        
+        <custom classname="ddt.view.tips.OneLineTip" stylename="store.embedStoneCellCloseTip"/>
+        
+        
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint0" x="140" y="130"/>
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint1" x="142" y="22"/>
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint2" x="254" y="77"/>
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint3" x="254" y="200"/>
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint4" x="142" y="240"/>
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint5" x="28" y="200"/>
+        <custom classname="flash.geom.Point" stylename="store.Embedpoint6" x="28" y="77"/>
+        <custom classname="flash.geom.Point" stylename="ddtstore.StoreIIStrengthBG.StrengthStoneText1Point" x="233" y="105"/>  
+        <!--快速购买-->
+        <custom classname="store.view.shortcutBuy.ShortcutBuyList" stylename="store.ShortcutBuyList" x="17" y="47"/>
+        <custom classname="ddt.command.NumberSelecter" stylename="store.shortNumber" x="110" y="279"/>
+        <custom classname="store.view.shortcutBuy.ShortcutBuyFrame" backStyle="SimpleFrameBackgound" stylename="store.ShortcutBuyFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="10" containerY="40" width="390" height="353" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+        <!--神恩符提示-->
+        <component classname="store.view.strength.SpellAlertFrame" width="360" height="165" stylename="store.view.strength.spellAlertFrame" escEnable="true" x="347" y="210" parentStyle="BaseFrame" moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="store.view.strength.alertText" parentStyle="simpleAlertContentText" width="270" height="100" x="62" y="-10" wordWrap="true"/>
+        <custom classname="flash.geom.Point" stylename="store.view.strength.cellPos" x="5" y="5"/>
+        
+        <!--bag-->
+        <custom classname="store.view.storeBag.StoreBagView" stylename="store.StoreBagView" x="405" y="59"/>
+        <custom classname="store.view.storeBag.StoreBagListView" stylename="store.StoreBagListViewEquip" x="12" y="38"/>
+        <custom classname="store.view.storeBag.StoreBagListView" stylename="store.StoreBagListViewProp" x="12" y="212"/>
+        <custom classname="store.view.storeBag.StoreSingleBagListView" stylename="store.StoreSingleBagListView" x="12" y="31"/>
+        
+        <custom classname="bagAndInfo.bag.RichesButton" stylename="store.StoreBagView.GoldButton" x="18" y="360" width="96" height="19" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>
+        <custom classname="bagAndInfo.bag.RichesButton" stylename="store.StoreBagView.GiftButton" x="128" y="360" width="96" height="19" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>
+        <custom classname="bagAndInfo.bag.RichesButton" stylename="store.StoreBagView.MoneyButton" x="238" y="360" width="96" height="19" tipStyle="ddt.view.tips.OneLineTip" tipGapV="6" tipGapH="6" tipDirctions="0,1,2"/>
+        
+        <!--stripTip-->
+        <custom classname="ddt.command.StripTip" stylename="store.view.StripIocn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,1,2" width="110" height="20" x="231" y="321"/>
+        <custom classname="ddt.command.StripTip" stylename="store.view.embedStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,1,2" width="110" height="20"/>
+        
+        <custom classname="ddt.command.StripTip" stylename="store.view.basallevelStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" width="66" height="40" x="0" y="2" tipWidth="175" tipGapV="10"/>
+        <custom classname="ddt.command.StripTip" stylename="store.view.luckyStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" width="60" height="40" x="66" y="2" tipWidth="175" tipGapV="10"/>
+        <custom classname="ddt.command.StripTip" stylename="store.view.consortiaStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" width="80" height="40" x="127" y="2" tipGapV="10"/>
+        <custom classname="ddt.command.StripTip" stylename="store.view.percentageStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" width="100" height="40" x="207" y="2" tipWidth="175" tipGapV="10"/>
+        <custom classname="ddt.command.StripTip" stylename="store.view.VIPStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" width="65" height="40" x="175" y="2" tipWidth="175" tipGapV="10"/>
+        
+        <custom classname="flash.geom.Point" stylename="ddtstore.BagStoreViewPos" x="11" y="24"/>  
+        <custom classname="asset.ddtstore.exalt.HelpBG" stylename="store.view.exalt.HelpBG" x="8" y="33"/>  
+    <custom classname="asset.ddtstore.exalt.movie1" stylename="asset.ddtstore.exalt.movieI" x="-51" y="-10"/>  
+    <custom classname="asset.ddtstore.exalt.movie2" stylename="asset.ddtstore.exalt.movieII" x="-26" y="47"/>  
+    <custom classname="flash.geom.Point" stylename="store.view.exalt.StoreExaltBG.point0" x="222" y="76"/>  
+    <custom classname="flash.geom.Point" stylename="store.view.exalt.StoreExaltBG.point1" x="39" y="90"/>  
+    <custom classname="store.view.exalt.StoreExaltProgressBar" stylename="store.view.exalt.storeExaltProgressBar" x="0" y="0"/> 
+    <custom classname="flash.geom.Point" stylename="store.newFusion.rightView.materialTipTxtPos" x="17" y="33"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.rightView.materialItemCellPos" x="0" y="0"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.rightView.needMoneyTipTxtPos" x="239" y="304"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.rightView.moneyIconPos" x="343" y="301"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.mainViewPos" x="56" y="14"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.rightView.fusionBgPos" x="62" y="89"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.mainView.vboxPos" x="10" y="13"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.mainView.rightViewPos" x="287" y="1"/>
+	<custom classname="flash.geom.Point" stylename="store.newFusion.rightView.materialBgPos" x="0" y="0"/>
+  	<custom classname="store.view.embed.EmbedStoneCell2" stylename="ddtstore.StoreEmbedBG.EmbedStoneCell2" tipStyle="core.GoodsTip" tipDirctions="7,1,2"/>
+  	<custom classname="flash.geom.Point" stylename="ddtstore.StoreIIStrengthBG.StrengthCellBg1Point" x="225" y="80"/>  
+  	
+  	<custom classname="flash.geom.Point" stylename="asset.ddtstore.strengthNumTxtPos" x="3" y="75"/>  
+	
+	<custom classname="flash.geom.Point" stylename="ddtstore.FineStore.VboxPos" x="10" y="51"/>
+	<custom classname="flash.geom.Point" stylename="ddtstore.FineStore.ItemViewPos" x="10" y="10"/>
+    </customDisplay>
+    
+    <bitmaps>
+        <bitmapData resourceLink="asset.store.StoreBG" x="11" y="51"/>
+        <bitmapData resourceLink="asset.store.Title" x="220" y="0"/>
+        <bitmapData resourceLink="asset.store.consortiaManagerSelect" x="-1" y="-2"/>
+        <bitmapData resourceLink="store.StoreIIFiveFailBitAsset" x="50" y="130"/>
+        
+        
+        <!--强化-->
+        <bitmapData resourceLink="asset.store.GodBG" x="13" y="148"/>
+        <bitmapData resourceLink="asset.store.StartStrengthTip" x="158" y="400"/>
+        <bitmapData resourceLink="store.StoreIIFiveFailBitAsset" x="30" y="132"/>
+        
+        <!--合成-->
+        <bitmapData resourceLink="asset.store.StartComposeTip" x="158" y="400"/>
+        
+        <!--转移-->
+        <bitmapData resourceLink="asset.store.transfPrevBG" x="10" y="80"/>
+        <bitmapData resourceLink="asset.store.transfNextBG" x="221" y="80"/>
+        <bitmapData resourceLink="asset.store.transfArrowBG" x="100" y="86"/>
+        <bitmapData resourceLink="asset.store.transfStartTip" x="88" y="400"/>
+        
+        <!--熔炼-->
+        <bitmapData resourceLink="asset.store.FusionStartTip" x="88" y="400"/>
+        <bitmapData resourceLink="asset.store.FusionGongshiBG" x="215" y="64"/>
+        <bitmapData resourceLink="asset.store.AutoOpen" x="-86" y="5"/>
+        <bitmapData resourceLink="asset.store.SellLeftAlerBg" x="16" y="58"/>
+        
+        <!--镶嵌-->
+        <bitmapData resourceLink="asset.store.EmbedGridClose" x="-1" y="-1"/>
+        <bitmapData resourceLink="asset.store.embedBackoutDownItem" x="-5"/>
+        
+        <!--shortBuy-->
+        <bitmapData resourceLink="asset.store.SelectMoneyBG" x="5" width="356"/>
+        <bitmapData resourceLink="asset.store.SelectMoneyTip" x="15" y="7"/>
+        <bitmapData resourceLink="asset.store.shortCutSelect" x="-4" y="-4"/>
+        <bitmapData resourceLink="asset.store.shortCutPayTip" x="90" y="312"/>
+        
+        <!--bag-->
+        <bitmapData resourceLink="asset.store.bagEquip" x="24" y="0"/>
+        <bitmapData resourceLink="asset.store.bagProp" x="28" y="174"/>
+        <bitmapData resourceLink="asset.store.bagGif" x="128" y="361"/>
+        <bitmapData resourceLink="asset.store.bagGold" x="241" y="363"/>
+        <bitmapData resourceLink="asset.store.bagMoney" x="16" y="361"/>
+        
+        <bitmapData resourceLink="asset.store.bagTransf" x="-4" y="-3"/>
+        <bitmapData resourceLink="asset.store.bagStrengthI" y="-4"/>
+        <bitmapData resourceLink="asset.store.bagStrengthII" y="171"/>
+        <bitmapData resourceLink="asset.store.bagFusionII" y="173"/>
+        <bitmapData resourceLink="asset.store.bagEmbII" y="168"/>
+       	<bitmapData resourceLink="bagFusionI" x="8" y="8"/> 
+        
+        
+        <bitmapData resourceLink="asset.store.embed.HoleExpBack"/>
+        <bitmapData resourceLink="asset.store.embed.HoleExpThumb"/>
+        <bitmapData resourceLink="asset.store.transfer.EquipHole" x="20" y="-4"/>
+        <bitmapData resourceLink="asset.store.transfer.Hole" x="20" y="-4"/>
+        <bitmapData resourceLink="asset.store.EmbedFiveSixGridClose" x="-2" y="-2"/>"
+        <bitmapData resourceLink="asset.store.bagBGII"  y="172"/>
+        
+        <bitmapData resourceLink="asset.store.showSuccessVipBg" x="-2" y="-3"/>
+        <bitmapData resourceLink="asset.store.SellLeftAutoSplitTxt" x="-89" y="3"/>
+        
+        <!--  装备铸金  -->  
+    <bitmapData resourceLink="asset.awardSystem.bagEquip" x="345" y="22"/>  
+    <bitmapData resourceLink="asset.bead.selectNodeI" x="98" y="241"/>  
+    <bitmapData resourceLink="asset.awardSystem.WishAutoOpen" x="-67" y="-1"/>  
+    <bitmapData resourceLink="asset.ddtstore.exalt.ProgressBar" x="77" y="193"/>  
+    <bitmapData resourceLink="asset.ddtstore.exalt.ProgressBarBG" x="72" y="188"/>  
+    <bitmapData resourceLink="asset.ddtstore.exaltTabBtnUnSelected" x="5" y="14"/>  
+    <bitmapData resourceLink="asset.ddtstore.exaltTabBtnSelected" x="0" y="13"/>  
+    <bitmapData resourceLink="asset.ddtstore.exalt.TitleText" x="0" y="0"/> 
+    <bitmapData resourceLink="asset.ddtstore.GoodPanel"/>  
+    <bitmapData resourceLink="asset.wishBead.continuousIcon" x="-76" y="7"/> 
+    <bitmapData resourceLink="asset.wishBead.leftViewBg" x="41" y="46"/> 
+	<bitmapData resourceLink="asset.store.unFineBringUpBtn" x="4" y="0" />
+    <!--bitmapData resourceLink="asset.newStore.tabFine.selectedBtn" x="-16" y="-10" /-->
+    </bitmaps>
+</style>
+
+
+
+
+
+
+
+

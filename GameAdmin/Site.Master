@@ -1,0 +1,412 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AdminGunny.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title>Tank Manager</title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+      <style type="text/css">
+        .style1111
+        {
+            color: #003399;
+        }
+        .style1222
+        {
+            color: #CC0000;
+        }
+        .style1444
+        {
+            color: #006699;
+        }
+        .searchPanel
+        {
+            display:none;
+            position: absolute;
+            padding:5px 5px 5px 5px;
+            border:1px solid #000000; 
+            top: 76px;
+            z-index: 160;
+            left: 866px;
+            background-color:#1d1d1d;
+            width:220px; 
+        }
+        .searchContent
+        {
+            border:2px solid #001020;
+            display:none;
+            padding: 10px 12px 10px 12px;
+            position: absolute;
+            width:220px; 
+            top: 136px;
+            z-index: 170;
+            left: 853px;
+            background-color:#FFFFFF;
+            text-align:center;
+            
+        }
+        
+          .style1445a
+          {
+              display:none;
+              position:absolute;
+              top:40%;
+              left:44%;
+              z-index:150;
+              width: 150px;
+              min-height:75px;
+              background-color:#006699;
+              padding:10px 10px 10px 10px;
+          }
+        #miniPanelContent1
+        {
+            background: url(../Images/bg3.jpg) repeat 0 0;
+            background-position: 0px 0px;
+            display: none;
+            min-height: 15px;
+            width: 215px;
+            padding-top: 10px;
+            padding-left:10px;
+            position:absolute;
+            z-index: 1102;
+            border: none;
+            top: 43%;
+            left: 40%;
+        }
+    </style>
+    <link href="~/Styles/smartpaginator.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/smartpaginator2.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/Stylexxx.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/thickbox.css" rel="stylesheet" type="text/css" />
+    <link href="~/Styles/popup.css" rel="stylesheet" type="text/css" />
+    <link href="~/Scripts/scroll/css/website.css" rel="stylesheet" type="text/css" />
+    <script src="../Scripts/jquery-1.7.min.js" type="text/javascript"></script>
+    <script src="../Scripts/thickbox.js" type="text/javascript"></script>
+    <script src="../Scripts/smartpaginator.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.corner.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.form.js" type="text/javascript"></script>
+    <script src="../Scripts/jquery.bgpos.js" type="text/javascript"></script>
+    <script src="../Scripts/scroll/js/jquery.tinyscrollbar.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            var hideDelay = 500;
+            var currentID;
+            var hideTimer = null;
+
+            // One instance that's reused to show info for the current person
+            var container = $('<div id="personPopupContainer">'
+
+      + '<table width="" border="0" cellspacing="0" cellpadding="0" align="center" class="personPopupPopup">'
+      + '<tr>'
+      + '   <td class="corner topLeft"></td>'
+      + '   <td class="top"></td>'
+      + '   <td class="corner topRight"></td>'
+      + '</tr>'
+      + '<tr>'
+      + '   <td class="left">&nbsp;</td>'
+      + '   <td><div id="personPopupContent"></div></td>'
+      + '   <td class="right">&nbsp;</td>'
+      + '</tr>'
+      + '<tr>'
+      + '   <td class="corner bottomLeft">&nbsp;</td>'
+      + '   <td class="bottom">&nbsp;</td>'
+      + '   <td class="corner bottomRight"></td>'
+      + '</tr>'
+      + '</table>'
+      + '</div>');
+
+            $('body').append(container);
+
+            $('.personPopupTrigger').live('mouseover', function () {
+                // format of 'rel' tag: pageid,personguid
+                var settings = $(this).attr('alt').split(',');
+                var pageID = settings[0];
+                currentID = settings[1];
+                popupType = settings[2];
+                // If no guid in url rel tag, don't popup blank
+                if (currentID == '')
+                    return;
+
+                if (hideTimer)
+                    clearTimeout(hideTimer);
+
+                var pos = $(this).offset();
+                //var width = $(this).width();
+                container.css({
+                    left: (pos.left + 37) + 'px',
+                    top: (pos.top + 47) + 'px'
+                });
+
+                $('#personPopupContent').html('<img src="../Images/uber-loading.gif"/>');
+
+                $.ajax({
+                    type: 'GET',
+                    url: popupType + '.aspx',
+                    data: 'IDs=' + pageID + '&keys=' + currentID,
+                    success: function (data) {
+                        
+                        $('#personPopupContent').html(data);
+                       
+                    }
+                });
+
+                container.css('display', 'block');
+            });
+           
+            $('.personPopupTrigger').live('mouseout', function () {
+                if (hideTimer)
+                    clearTimeout(hideTimer);
+                hideTimer = setTimeout(function () {
+                    container.css('display', 'none');
+                }, hideDelay);
+            });
+
+            // Allow mouse over of details without hiding details
+            $('#personPopupContainer').mouseover(function () {
+                if (hideTimer)
+                    clearTimeout(hideTimer);
+            });
+
+            // Hide after mouseout
+            $('#personPopupContainer').mouseout(function () {
+                if (hideTimer)
+                    clearTimeout(hideTimer);
+                hideTimer = setTimeout(function () {
+                    container.css('display', 'none');
+                }, hideDelay);
+            });
+        });
+
+        //======================
+        function call_SearchItems() {
+            //start function
+            tb_showDivprintResult();
+            var GoodsID = $("#inputTemplateID").val();
+            var msgbox = $("#DivprintResult");
+            //show loading....
+            msgbox.html(loadingIMG);
+            //request data
+            var $j = jQuery;
+            $j.ajax({
+                type: "POST",
+                url: "mainRequest.ashx/Search_Item",
+                data: "{GoodsID:" + parseInt(GoodsID) + "}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (message) {
+                    //show data
+                    msgbox.html(message.d);
+                },
+                error: function (errormessage) {
+                    //show error
+                    msgbox.html(errormessage.responseText);
+                }
+
+            });
+            //end function  
+        }
+        function validate() {
+            if ($("#inputTemplateID").val() != '') {
+                var digits = "-0123456789";
+                var temp;
+                for (var i = 0; i < $("#inputTemplateID").val().length; i++) {
+                    temp = $("#inputTemplateID").val().substring(i, i + 1);
+                    if (digits.indexOf(temp) == -1) {
+                        //alert("Please enter correct zip code");
+                        $("#DivprintResult").html("Bạn phải nhập vào một số! @@ ");
+                        tb_showDivprintResult();
+                        $("#inputTemplateID").focus();
+                        $("#inputTemplateID").val("");
+                        return false;
+                    }
+                }
+                return call_SearchItems();
+            } else { $("#DivprintResult").html("Bạn chưa nhập ID! @@"); tb_showDivprintResult(); return false; }
+        }
+        //=================================
+    </script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    </head>
+<body >
+    <form runat="server" id="mainForm">
+    <script type="text/javascript">
+        function show_printTBCount() {
+            $("#miniPanel_overlay2").css({ display: "block" });
+            $("#printTBCount").css({ display: "block" });
+        }
+        ///.searchPanel
+        function hide_printTBCount() {
+            $("#miniPanel_overlay2").css({ display: "none" });
+            $("#printTBCount").css({ display: "none" });
+            }
+        function tb_showDivprintResult() {
+
+            $("#miniPanel_overlay").css({ display: "block" });
+            $("#searchContent").css({ display: "block" });
+
+        }
+        ///.searchPanel
+        function tb_hideDivprintResult() {
+
+            $("#miniPanel_overlay").css({ display: "none" });
+            $("#searchContent").css({ display: "none" });
+
+        }
+        function tb_showsearchPanel() {
+
+            $("#searchPanel").css({ display: "block" });
+            //$("#searchContent").css({ display: "none" });
+            //inputTemplateID
+
+        }
+        function del_ItemsAtt(slotIDs) {
+            var HiddenItem = $("#HiddenItem" + slotIDs);
+            var msgbox = $("#td_item" + slotIDs);
+            msgbox.html("Item " + slotIDs);
+            HiddenItem.val("");
+        }
+
+        function loading_ItemIcon(CategoryID, page_number, show_smartpaginator) {
+            //start function
+            var msgbox = $("#list_Items");
+            //show loading....
+            msgbox.html('<img style="margin-left: 205px; margin-top: 215px;" src="../Images/uber-loading.gif"/>');
+            //request data
+            var $j = jQuery;
+            $j.ajax({
+                type: "POST",
+                url: "mainRequest.ashx/Load_ItemIcon",
+                data: "{CategoryID:" + CategoryID + ", page_number:" + page_number + ", show_smartpaginator:" + show_smartpaginator + "}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (message) {
+                    //show data
+                    msgbox.html(message.d);
+                    //tb_showsearchPanel();
+                },
+                error: function (errormessage) {
+                    //show error
+                    msgbox.html(errormessage.responseText);
+                }
+
+            });
+            //end function  
+        }
+        function loading_ItemIcon2(Slot, page_number, show_smartpaginator) {
+            //start function
+            var msgbox = $("#list_Items");
+            //show loading....
+            msgbox.html('<img style="margin-left: 205px; margin-top: 215px;" src="../Images/uber-loading.gif"/>');
+            //request data
+            var $j = jQuery;
+            $j.ajax({
+                type: "POST",
+                url: "mainRequest.ashx/Load_ItemIcon2",
+                data: "{Slot:" + Slot + ", page_number:" + page_number + ", show_smartpaginator:" + show_smartpaginator + "}",
+                contentType: "application/json; charset=utf-8",
+                dataType: "json",
+                success: function (message) {
+                    //show data
+                    msgbox.html(message.d);
+                    //tb_showsearchPanel();
+                },
+                error: function (errormessage) {
+                    //show error
+                    msgbox.html(errormessage.responseText);
+                }
+
+            });
+            //end function  
+        }
+        function show_customitem() {
+            $("#miniPanel_overlay2").css({ display: "block" });
+            $("#custom_ItemsContent").css({ display: "block" });
+        }
+        function hide_customitem() {
+            $("#miniPanel_overlay2").css({ display: "none" });
+            $("#custom_ItemsContent").css({ display: "none" });
+        }
+        function show_customDl() {
+            $("#miniPanel_overlay2").css({ display: "block" });
+            $("#miniPanelContent1").css({ display: "block" });
+        }
+        function hide_customDl() {
+            $("#miniPanel_overlay2").css({ display: "none" });
+            $("#miniPanelContent1").css({ display: "none" });
+        }
+        $('#custom_ItemsContent').corner("keep");
+        $('#printTBCount').corner("keep");
+        $('#miniPanel').corner("keep");
+        $('#searchContent').corner("keep");
+        $('#page').corner("sc:#001");
+        //$('#header').corner();
+        $('#iconFusion').corner();
+        $('#miniPanelContent1').corner();
+    </script>
+    <div id ="page" class="page">
+        <div id ="header"  class="header">
+            <div class="title">
+                <h1>
+                    Tank Manager 1.0
+                </h1>
+            </div>
+            <div  class="loginDisplay">
+            </div>
+             <div class="clear hideSkiplink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" 
+                    EnableViewState="false" IncludeStyleBlock="false" Orientation="Horizontal" >
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/Admin/sendMail5Item.aspx" Text="SendMail"/>
+                    </Items>
+                </asp:Menu>
+            </div>
+        </div>
+        <div class="main">
+        <div id="printTBCount" class="style1445a"></div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+        
+    </div>
+    <div class="footer">
+        <span class="style1444">Bạn đang sử dụng</span> <span class="style1111"><strong>Tank 
+        Manager Rev 1.0</strong></span><br />
+        <span class="style1444">Edit by</span> <span class="style1222"><strong>Trminhpc</strong></span></div>
+        
+        <div id="miniPanel" style=" padding:0px 8px 8px 8px; width:150px">
+        <div id="miniPanelContent" style=" padding:8px 8px 8px 8px; color:#FFFFFF; font-size:14px;">
+        <span style="color:#B0D551; font-size: 14px; font-weight: bold;">Chức năng này đang xây dựng! ^^</ span><br />
+            <div >
+            <img alt="" style="width: 89px; height: 89px;"  src="../Images/ga.png" />
+            </div>
+            </div>
+            <a style="font-size: 15px; font-weight: bold;" href="javascript:void(0);" onclick="tb_hideMiniPanel();">[Close]</a>
+            
+        </div>
+        <div id="miniPanel_overlay" onclick="tb_hideMiniPanel();" class="TB_overlayBG">
+        <div id="insertScript"></div>
+        </div>
+        <div id="miniPanel_overlay2" class="TB_overlayBG"></div>
+        <!--- Search panel --->
+        
+        <div id="searchPanel"  class="searchPanel">
+     <input name="inputTemplateID"  type="text" onclick="this.value='';" value="Nhập ID Item ở đây" id="inputTemplateID" />&nbsp;
+    
+    <a href="javascript:void(0);" onclick="validate();"> Search</a>
+    </div>
+    <div id="searchContent" class="searchContent">
+    <div id="DivprintResult">
+    
+    </div>
+    <span><input id="Bt_Close" onclick="tb_hideDivprintResult();" type="button" value="Close" />
+    </span>
+    </div>
+    <div id="miniPanelContent1" style=" padding:8px 8px 8px 8px; color:#FFFFFF; font-size:14px;"></div>
+        
+        <script type="text/javascript">
+            
+            new Sys.WebForms.Menu({ element: 'NavigationMenu2', disappearAfter: 500, orientation: 'vertical', tabIndex: 0, disabled: false });
+    </script>
+    </form>
+    
+</body>
+</html>

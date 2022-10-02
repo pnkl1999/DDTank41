@@ -1,0 +1,93 @@
+<style name="enthrall" version="1.0.0" source="ui/spain/swf/enthrall.swf">
+<sets>
+	<!--TextFormat args:font,size,color,bold,italic,underline,url,target,align,leftMargin,rightMargin, indent:Object = null, leading:Object = null-->
+	<set type="flash.text.TextFormat" stylename="core.enthrall.NormalFormat" args="Arial,14,0xFFFF00,true" align="left"/>
+	<set type="flash.text.TextFormat" stylename="core.enthrall.ValidateInputFormat" args="Arial,15,0x000000,true" align="left"/>
+	<set type="flash.text.TextFormat" stylename="core.enthrall.ValidateErrorFormat" args="Arial,13,0xFF0000,true" align="left"/>
+	<set type="flash.text.TextFormat" stylename="core.enthrall.TipTimeFormat" args="Arial,12,0x00FF00,true" align="center"/>
+
+</sets>
+<components>
+	<component classname="ddt.view.enthrall.EnthrallView"
+		stylename="EnthrallViewSprite"
+		x="110" y="5"
+		width="130" height="30"/>
+	<component classname="ddt.view.enthrall.TimeTip"
+		stylename="EnthrallTip"
+		x="25" y="35"
+		width="230" height="120"/>
+	<component classname="ddt.view.enthrall.ValidateFrame"
+		stylename="EnthrallValidateFrame" backStyle="SimpleFrameBackgound"
+		parentStyle="BaseFrame"
+		moveEnable="false" escEnable ="true"  closestyle="core.closebt"
+		closeInnerRectString="44,6,3,30,14"
+		width ="500" height="320"/>
+	<component classname="ddt.view.enthrall.Validate17173"
+		stylename="EnthrallValidateFrame17173" backStyle="SimpleFrameBackgound"
+		parentStyle="BaseFrame"
+		moveEnable="false" escEnable ="true"  closestyle="core.closebt"
+		closeInnerRectString="44,6,3,30,14"
+		width ="420" height="225"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.view.enthrall.InfoBall" 
+		resourceLink="asset.core.view.enthrall.InfoBall100,asset.core.view.enthrall.InfoBall50,asset.core.view.enthrall.InfoBall0"
+		x="0" y="0"
+		width="30" height="30"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.view.enthrall.InfoNormal" 
+		resourceLink="asset.core.view.enthrall.InfoNormal100,asset.core.view.enthrall.InfoNormal50,asset.core.view.enthrall.InfoNormal0"
+		x="0" y="0"
+		width="130" height="23"/>
+	<component stylename="core.view.enthrall.ValidateBtn"
+		classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		backStyle="asset.core.view.enthrall.ValidateBtnImg" 
+		y="25"
+		width="75" height="20"/>
+	<component stylename="core.view.enthrall.ValidateNameInput"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.enthrall.ValidateInputFormat"
+		type="input" 
+		autoSize="none"
+		border="true"
+		background="true"
+		backgroundColor="0xFFFFFF"
+		x="180" y="176"
+		width="250" height="20"/>
+	<component stylename="core.view.enthrall.ValidateIDInput"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.enthrall.ValidateInputFormat"
+		type="input" 
+		autoSize="none"
+		border="true"
+		background="true"
+		backgroundColor="0xFFFFFF"
+		x="180" y="208"
+		width="250" height="20"/>
+	<component stylename="core.view.enthrall.ValidateErrorText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.enthrall.ValidateErrorFormat"
+		x="180" y="240"
+		width="250" height="20"/>
+	<component stylename="core.view.enthrall.TipTimeText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.enthrall.TipTimeFormat"
+		x="5" y="6"
+		width="90" height="18"/>
+</components>
+<bitmaps>
+	<bitmapData resourceLink="asset.core.view.enthrall.ValidateFrameBG" width="425" height="240" x="15" y="20" />
+	<bitmapData resourceLink="asset.core.view.enthrall.ValidateBtnImg" width="75" height="20" />
+	<bitmapData resourceLink="asset.core.view.enthrall.Alert" width="362" height="124" />
+	
+	<bitmapData resourceLink="asset.core.view.enthrall.InfoBall100" width="30" height="30" x="305" y="10" />
+	<bitmapData resourceLink="asset.core.view.enthrall.InfoBall50" width="30" height="30" x="305" y="10" />
+	<bitmapData resourceLink="asset.core.view.enthrall.InfoBall0" width="30" height="30" x="305" y="10" />
+	<bitmapData resourceLink="asset.core.view.enthrall.NormalInfo100" width="130" height="23" />
+	<bitmapData resourceLink="asset.core.view.enthrall.NormalInfo50" width="130" height="23" />
+	<bitmapData resourceLink="asset.core.view.enthrall.NormalInfo0" width="130" height="23" />
+	<bitmapData resourceLink="asset.core.view.enthrall.TipBG" width="230" height="118" />
+	<bitmapData resourceLink="asset.core.view.enthrall.Alert" x="30" y="40" />
+
+	
+</bitmaps>
+</style>

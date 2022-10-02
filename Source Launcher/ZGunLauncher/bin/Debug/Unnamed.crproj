@@ -1,0 +1,12 @@
+<project outputDir="C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\bin\Debug\Confused" baseDir="C:\Users\Admin\source\repos\ZGunLauncher\ZGunLauncher\bin\Debug" xmlns="http://confuser.codeplex.com">
+  <module path="ZGunLauncher.exe">
+    <rule pattern="true" inherit="false">
+      <protection id="anti debug" />
+      <protection id="anti dump" />
+      <protection id="anti tamper" />
+      <protection id="anti debug" />
+      <protection id="anti ildasm" />
+      <protection id="resources" />
+    </rule>
+  </module>
+</project>

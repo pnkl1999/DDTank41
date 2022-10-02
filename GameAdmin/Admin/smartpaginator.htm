@@ -1,0 +1,504 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Smart Pagination</title>
+    <script src="../Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script src="../Scripts/smartpaginator.js" type="text/javascript"></script>
+    <link href="../Styles/smartpaginator.css" rel="stylesheet" type="text/css" />
+    <link href="../Styles/Stylexxx.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#green-contents').css('display', 'none');
+            $('#black-contents').css('display', 'none');
+            $('ul li').click(function () {
+                $('#red-contents').css('display', 'none');
+                $('#green-contents').css('display', 'none');
+                $('#black-contents').css('display', 'none');
+                if ($(this).attr('id') == '1') $('#red-contents').css('display', '');
+                if ($(this).attr('id') == '2') $('#green-contents').css('display', '');
+                if ($(this).attr('id') == '3') $('#black-contents').css('display', '');
+            });
+            function loading_Data(CategoryID) {
+                //start function
+                var msgbox = $("#loadingdata");
+                //show loading....
+                msgbox.html("<img style='margin: 250px 0px 0px 370px; ' src='../Images/uber-loading.gif'/>");
+                //request data
+                var $j = jQuery;
+                $j.ajax({
+                    type: "POST",
+                    url: "Item.aspx/Show_SingleCategory",
+                    data: "{CategoryID:" + CategoryID + "}",
+                    contentType: "application/json; charset=utf-8",
+                    dataType: "json",
+                    success: function (message) {
+                        //show data
+                        msgbox.html(message.d);
+                    },
+                    error: function (errormessage) {
+                        //show error
+                        msgbox.html(errormessage.responseText);
+                    }
+
+                });
+                //end function  
+            }
+            $('#green').smartpaginator({ totalrecords: 10, recordsperpage: 3, datacontainer: 'mt', dataelement: 'tr', initval: 0, next: 'Next', prev: 'Prev', first: 'First', last: 'Last', theme: 'green' });
+
+            $('#black').smartpaginator({ totalrecords: 5, recordsperpage: 1, datacontainer: 'divs', dataelement: 'div', initval: 0, next: 'Next', prev: 'Prev', first: 'First', last: 'Last', theme: 'black' });
+
+            $('#red').smartpaginator({ totalrecords: 3109, recordsperpage: 16, length: 7, next: 'Next', prev: 'Prev', first: 'First', last: 'Last', theme: 'red', controlsalways: true, onchange: function (newPage) {
+                loading_Data(newPage);
+            }
+            });
+
+        });
+    </script>
+    <style type="text/css">
+        body
+        {
+            padding: 20px;
+        }
+        #wrapper
+        {
+            margin: auto;
+            width: 800px;
+        }
+        .contents
+        {
+            width: 91%; /*height: 150px;*/
+            margin: 0;
+        }
+        .contents > p
+        {
+            padding: 8px;
+        }
+        .table
+        {
+            width: 100%;
+            border-right: solid 1px #5f9000;
+        }
+        .table th, .table td
+        {
+            width: 16%;
+            height: 20px;
+            padding: 4px;
+            text-align: left;
+        }
+        .table th
+        {
+            border-left: solid 1px #5f9000;
+        }
+        .table td
+        {
+            border-left: solid 1px #5f9000;
+            border-bottom: solid 1px #5f9000;
+        }
+        .header
+        {
+            background-color: #4f7305;
+            color: White;
+        }
+        #divs
+        {
+            margin: 0;
+            height: 200px;
+            font: verdana;
+            font-size: 14px;
+            background-color: White;
+        }
+        #divs > div
+        {
+            width: 98%;
+            padding: 8px;
+        }
+        #divs > div p
+        {
+            width: 95%;
+            padding: 8px;
+        }
+        ul.tab
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul.tab li
+        {
+            display: inline;
+            padding: 10px;
+            color: White;
+            cursor: pointer;
+        }
+        #container
+        {
+            width: 100%;
+            border: solid 1px red;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrapper">
+        <div style="height: 30px;">
+            <ul class="tab">
+                <li style="background-color: #E71C18; border: solid 1px #F82723;" id="1">Demo 1</li>
+                <li style="background-color: #588500; border: solid 1px #5f9000;" id="2">Demo 2</li>
+                <li style="background-color: #1d1d1d; border: solid 1px #000;" id="3">Demo 3</li>
+            </ul>
+        </div>
+        <div id="red-contents" class="contents" style="border: solid 1px #F82723;">
+            <pre>
+          $('#red').smartpaginator({ totalrecords: 100, 
+                                      recordsperpage: 10,
+                                      theme: 'red', 
+                                      controlsalways:true,
+                                      onchange: function(newPage) {
+                                            $('#r').html('Page # ' + newPage);
+                                        }
+            });
+
+        </pre>
+            <p>
+                This demo shows the use of onchange callback, on each page click you'll get the
+                new page no. So, you can pull data from your datasource, probably database or some
+                xml file. Smart Pagination can also filter your data automatically, this is usefull
+                if you only want client side pagination. Obvioulsy this will be suitable only for
+                small data. It also keeps first,prev,next, last buttons always visible using the 'controlsalways' property.
+                Click on Demo 2 to see and example.
+            </p>
+            
+            <div id="red" style="margin: auto;">
+
+            </div>
+        </div>
+        <div  id="loadingdata">
+                
+            </div>
+        <div id="green-contents" class="contents" style="border: solid 1px #5f9000;">
+            <pre>
+         $('#green').smartpaginator({ totalrecords: 10,
+                                      recordsperpage: 3, 
+                                      datacontainer: 'mt', 
+                                      dataelement: 'tr',
+                                      theme: 'green' });
+        </pre>
+            <p>
+                This demo shows how Smart Paginator can filter your data automatically. Here we
+                have an HTML table with 10 rows and 6 columns, and we want 3 recods to be displayed
+                on each page. For this you need to pass the id of the HTML table you want Smart
+                Paginator to filter see the datacontainer property, and you also need to set the
+                dataelement tag which is 'tr' for a table. 'datacontainer' and 'dataelement' properties
+                establish parent child relation, you can pass any element other than table as 'datacontainer'
+                and set the 'dataelement', Smart Paginator will filter the 'dataelements' gracefull.
+                See Demo 3 for for an example of this.
+            </p>
+            <table id="mt" cellpadding="0" cellspacing="0" border="0" class="table">
+                <tr class="header">
+                    <th>
+                        Col1
+                    </th>
+                    <th>
+                        Col2
+                    </th>
+                    <th>
+                        Col3
+                    </th>
+                    <th>
+                        Col4
+                    </th>
+                    <th>
+                        Col5
+                    </th>
+                    <th>
+                        Col6
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        01
+                    </td>
+                    <td>
+                        02
+                    </td>
+                    <td>
+                        03
+                    </td>
+                    <td>
+                        04
+                    </td>
+                    <td>
+                        05
+                    </td>
+                    <td>
+                        06
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        11
+                    </td>
+                    <td>
+                        12
+                    </td>
+                    <td>
+                        13
+                    </td>
+                    <td>
+                        14
+                    </td>
+                    <td>
+                        15
+                    </td>
+                    <td>
+                        16
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        21
+                    </td>
+                    <td>
+                        22
+                    </td>
+                    <td>
+                        23
+                    </td>
+                    <td>
+                        24
+                    </td>
+                    <td>
+                        25
+                    </td>
+                    <td>
+                        26
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        31
+                    </td>
+                    <td>
+                        32
+                    </td>
+                    <td>
+                        33
+                    </td>
+                    <td>
+                        34
+                    </td>
+                    <td>
+                        35
+                    </td>
+                    <td>
+                        36
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        41
+                    </td>
+                    <td>
+                        42
+                    </td>
+                    <td>
+                        43
+                    </td>
+                    <td>
+                        44
+                    </td>
+                    <td>
+                        45
+                    </td>
+                    <td>
+                        46
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        51
+                    </td>
+                    <td>
+                        52
+                    </td>
+                    <td>
+                        53
+                    </td>
+                    <td>
+                        54
+                    </td>
+                    <td>
+                        55
+                    </td>
+                    <td>
+                        56
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        61
+                    </td>
+                    <td>
+                        62
+                    </td>
+                    <td>
+                        63
+                    </td>
+                    <td>
+                        64
+                    </td>
+                    <td>
+                        65
+                    </td>
+                    <td>
+                        66
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        71
+                    </td>
+                    <td>
+                        72
+                    </td>
+                    <td>
+                        73
+                    </td>
+                    <td>
+                        74
+                    </td>
+                    <td>
+                        75
+                    </td>
+                    <td>
+                        76
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        81
+                    </td>
+                    <td>
+                        82
+                    </td>
+                    <td>
+                        83
+                    </td>
+                    <td>
+                        84
+                    </td>
+                    <td>
+                        85
+                    </td>
+                    <td>
+                        86
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        91
+                    </td>
+                    <td>
+                        92
+                    </td>
+                    <td>
+                        93
+                    </td>
+                    <td>
+                        94
+                    </td>
+                    <td>
+                        95
+                    </td>
+                    <td>
+                        96
+                    </td>
+                </tr>
+            </table>
+            <div id="green" style="margin: auto;">
+            </div>
+        </div>
+        <div id="black-contents" class="contents" style="border: solid 1px #000;">
+            <pre>
+          $('#black').smartpaginator({ totalrecords: 5,
+                                        recordsperpage: 1,
+                                        datacontainer: 'divs', 
+                                        dataelement: 'div',
+                                        theme: 'black' });
+        </pre>
+            <p>
+                This demo shows the use of Smart Paginator with HTML elements other than table.
+                See how divs are displayed according to current page.
+            </p>
+            <div id="divs">
+                <div>
+                    <h4>
+                        <a href="http://www.egrappler.com/jquery-content-slider-jscarousel/">jQuery Content
+                            Slider: jsCarousel</a></h4>
+                    <p>
+                        jsCarousel is a jquery slider plugin that slides contents in multi direction. jsCarousel
+                        slider can be used as a feature content slider as well. You can put any kind of
+                        contents you want whether images, text, videos, news etc. it's up to you. One interesting
+                        thing about jsCarousel slider is that you can make simple image gallery with thumbnail
+                        support by using it. jsCarousel slider plugin gives you the source of image via
+                        callback function, when you click on some image within slider. See Using jsCarousel
+                        Slider section below to get an idea about using the callback function.
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        <a href="http://www.egrappler.com/jquery-image-preload-plugin-smart-preloader/">jQuery
+                            Image Preload Plugin: Smart Preload</a></h4>
+                    <p>
+                        Smart Preloader is a small jQuery image preloading plugin that helps you preload
+                        all the required images. Smart perloader plugin takes an array of images and notifies
+                        via "oneachimageload" on each image load, and once all the images are loaded "onloadall"
+                        callback functions is called. Both the "oneachimageload" and "onloadall" functions
+                        are passed as parameters to Smart Preloader initializer function.</p>
+                </div>
+                <div>
+                    <h4>
+                        <a href="http://www.egrappler.com/jquery-pagination-plugin-smart-paginator/">jQuery
+                            Pagination Plugin: Smart Paginator</a></h4>
+                    <p>
+                        Smart Paginator is a comprehensive jQuery Pagination plugin that makes adding pagination
+                        very simple task, all the navigation logic is built in and it is also very customizable.
+                        Smart Paginator supports variety of parameters and custom themes, that can be used
+                        to customize the look and feel to your desire.</p>
+                </div>
+                <div>
+                    <h4>
+                        <a href="http://www.egrappler.com/jquery-spin-button-plugin-smart-spin/">jQuery Spin
+                            Button Plugin: Smart Spin</a></h4>
+                    <p>
+                        Smart spin is a jQuery spin button plugin that mimics the very common windows spin
+                        button control. Smart spin allows you to select a value between minimum and maximum
+                        values using either mouse or keyboard. You can also enter a value via keyboard.
+                        Smart spin contains a text box and "up" "down" buttons, it also supports "masking"(text
+                        that appears when the control looses focus). Clicking the "up" button causes the
+                        value to increment by step value (step value is configurable, default is 1), while
+                        clicking the "down" button causes the value to decrement by step value. Clicking
+                        up/down buttons and holding the left mouse button causes the values to change more
+                        rapidly.
+                    </p>
+                </div>
+                <div>
+                    <h4>
+                        <a href="http://www.egrappler.com/jquery-slidertrackbar-smart-slider/">jQuery Slider/Trackbar
+                            Plugin: Smart Slider</a></h4>
+                    <p>
+                        Smart Slider is a jQuery plugin that mimics the very common user interface track
+                        bar component, which consists of a slider bar and tracker/pointer, where tracker
+                        can be moved back and forth along the slider bar to select a value. Smart Slider
+                        comes in three different styles with variety of custom parameters. You can also
+                        use your own custom styles simply by defining your custom CSS classes. Smart Slider
+                        supports different styles and custom themes. Using Smart Slider plugin is also very
+                        simple, you just need a block element, Smart Slider script and CSS file, Smart Slider
+                        automatically generate track bar UI.</p>
+                </div>
+            </div>
+            <div id="black" style="margin: auto;">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

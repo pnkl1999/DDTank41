@@ -1,0 +1,85 @@
+﻿<style name="coreIconAndTip" version="1.0.1" source="ui/spain/swf/coreIconAndTip.swf">
+	<sets>
+		<set stylename="coreIconQQ.qq.titleTF" args="Arial,16,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="coreIconQQ.qq.contentTF" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="coreIconQQ.qq.outTF" args="Arial,14,0xffffff,,,,,,left,,,,5" type="flash.text.TextFormat"/>
+		<set args="0x330000,1,4,4,10,1" stylename="qq_g1" type="flash.filters.GlowFilter"/>
+		<set type="flash.text.TextFormat" stylename="latentEnergy.tipItemTxt.tf" args="Arial,13,0x99ff33,true"/>  
+	    <set type="flash.filters.GlowFilter" stylename="latentEnergy.tipItemTxt.gf" args="0x000000,1,2,2,10"/> 
+	  	<set stylename="bagBuffer.growHelp.openTF" args="Arial,14,0xfff6a8,true,,,,,center" type="flash.text.TextFormat" letterSpacing="5"/>
+		<set stylename="bagBuffer.growHelp.openGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+	</sets>
+	<customDisplay>
+		<custom classname="asset.core.focusTipAsset" x="431" y="231" stylename="tip.StageFocus"/>
+		<custom classname="ddt.view.qqTips.QQTipsView" stylename="coreIconQQ.QQTipsView"  x="735" y="385" moveRect="0,0,205,35"/>
+		<custom classname="flash.text.TextField" stylename="coreIconQQ.QQOutUrlTxt" width="234" x="15" y="40" wordWrap="true" multiline="true"/>
+	</customDisplay>
+		
+	<components>
+		<!--成就点图标-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="effortView.AchievementPointView.numBG"
+			resourceLink="asset.Effort.1,asset.Effort.2,asset.Effort.3,asset.Effort.4,asset.Effort.5,,,,,asset.Effort.0"
+			x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="tipPanel.band" resourceLink="asset.core.tip.Band1,asset.core.tip.Band2" x="247" y="57"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="tipPanel.bubble" resourceLink="core.tip.bubble"  scaleGridString="8,8,148,48"/>
+		
+		<!-- QQTips -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="coreIconQQ.QQContentTxt" textFormatStyle="coreIconQQ.qq.contentTF" x="15" y="40" autoSize="none" width="234" height="88" type="dynamic" wordWrap="true" multiline="true"  mouseEnabled="false"/>		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="coreIconQQ.closebt" parentStyle="core.closebt" x="212" y="5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="coreIconQQ.titleTxt" x="10" y="10" parentStyle="FrameTitleTextStyle" textFormatStyle="coreIconQQ.qq.titleTF" filterString="qq_g1"/>		
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="latentEnergy.tipItemTxt" textFormatStyle="latentEnergy.tipItemTxt.tf" filterString="latentEnergy.tipItemTxt.gf" autoSize="none" width="175" height="18" x="23" y="2"/> 
+	    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bagBuffer.tipView.bg" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40" width="169" height="135"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="bagBuffer.growHelp.openBtn" backStyle="bagBuffer.growHelp.YelloButton" textStyle="bagBuffer.growHelp.TextStyle" backgoundInnerRectString="25,25,8,10,-1" x="61"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bagBuffer.growHelp.YelloButton" parentStyle="core.bg6905"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bagBuffer.growHelp.TextStyle" textFormatStyle="bagBuffer.growHelp.openTF" filterString="bagBuffer.growHelp.openGF" multiline="false" wordWrap="false"/>
+	  	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="labyrinthBuff.scrollPanel" parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="157" height="160" x="10" y="14" vUnitIncrement="10"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="labyrinthBuff.Vbox" x="0" y="0" spacing="6"/>
+		
+	</components>
+
+	<bitmaps>
+		
+		<!-- 续费 -->
+		<bitmapData resourceLink="bagAndInfo.AddPrice.Labe" x="41" y="95"/>
+		
+		<!--buff图标-->
+		<bitmapData resourceLink="asset.core.doubleExpAsset" width="26" height="30"/>
+		<bitmapData resourceLink="asset.core.doubleGesteAsset" width="26" height="30"/>
+		<bitmapData resourceLink="asset.core.pvtKickAsset" width="26" height="30"/>
+		<bitmapData resourceLink="asset.core.freeAsset" width="26" height="30"/>
+		<bitmapData resourceLink="asset.core.payBuffAsset" x="-3"/>
+		
+		<bitmapData resourceLink="asset.core.bufftip.Day" x="26" y="30"/>
+		<bitmapData resourceLink="asset.core.bufftip.Hour" x="40" y="30"/>
+		<bitmapData resourceLink="asset.core.bufftip.Min" x="60" y="30"/>
+		
+		<!--工会等级图片-->
+		<bitmapData resourceLink="asset.core.consortiaTip.LevelPic" x="5" y="13"/>
+		<bitmapData resourceLink="asset.core.consortiaTip.StatePic" x="4" y="44"/>
+		<bitmapData resourceLink="asset.core.consortiaTip.ReputePic" x="5" y="77"/>
+		
+		<!-- 公会图标tip -->
+		<bitmapData resourceLink="asset.core.guildLevelAsset" x="5" y="13"/>
+		<bitmapData resourceLink="asset.core.guildStateAsset" x="5" y="43"/>
+		
+		<!-- ReaponseInvite Start -->
+		<bitmapData resourceLink="invite.response.background_response_title" x="9" y="32" />
+		
+		<!--LevelTipRes-->
+		<bitmapData resourceLink="asset.core.leveltip.WinRateBg"/>
+		<bitmapData resourceLink="asset.core.leveltip.ReputeBg" x="-87" y="1"/>
+		<bitmapData resourceLink="asset.core.leveltip.BattleBg"/>
+		<bitmapData resourceLink="asset.core.leveltip.LevelTipLv" x="4" y="4"/>
+		<bitmapData resourceLink="asset.core.leveltip.ExploitBg" x="2" y="1"/>
+		
+		<!--GoodsTip Res-->
+		<bitmapData resourceLink="asset.core.tip.ColorPiece" x="38" y="-1"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsTipItemRecover" x="2"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsTipItemRecover1" x="2"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsType" y="-1"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsLevel"/>
+	</bitmaps>
+</style>

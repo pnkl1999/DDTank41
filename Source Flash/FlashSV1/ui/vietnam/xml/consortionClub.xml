@@ -1,0 +1,81 @@
+<style name="consortionClub" version="3.1.0" source="ui/spain/swf/consortionClub.swf">
+	<sets>
+		<set stylename="clubView.TF1" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="clubView.GF1" args="1,45,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>
+		<set stylename="clubView.TF2" args="Arial,16,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="clubView.GF2" args="1,45,0xC8A075,1,1,1,10" type="flash.filters.DropShadowFilter"/>
+		<set stylename="clubView.TF3" args="Arial,16,0x013465" type="flash.text.TextFormat"/>
+		<set stylename="clubView.GF3" args="0xffffff,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="clubView.TF4" args="Arial,16,0x013465,true" type="flash.text.TextFormat" />
+		<set stylename="clubView.GF4" args="0xF3EBE2,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="clubView.TF5" args="Arial,15,0xffffff" type="flash.text.TextFormat" />
+		
+	</sets>
+
+	<components>
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="club.wordImage.mutiple" resourceLink="asset.club.clubs,asset.club.consortionLists,asset.club.declarations,asset.club.searchs,asset.club.names,asset.club.chairmans,asset.club.memberNums,asset.club.levels,asset.club.exploits"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.consortionName"  textFormatStyle="clubView.TF1" filterString="clubView.GF1" 	autoSize="none" width="130" height="22" x="32" y="6" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.chairMan"  parentStyle="club.consortionName" x="154" y="6" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.count" 	parentStyle="club.consortionName" autoSize="none"   width="60" x="274" y="6" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.level"  parentStyle="club.consortionName"  autoSize="none"  width="58"  x="335" y="6" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename= "club.exploit" parentStyle="club.consortionName"  autoSize="none"  width="100"  x="378" y="6" />
+			<component classname="consortion.view.club.ConsortionList"  stylename="club.consortionList"  spacing="5" x="15" y="144" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.searchConsortionBtn"  backStyle="asset.club.searchConsortiaBtn" filterString="null,lightFilter,null,grayFilter"  x="653" y="58"/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.searchTxt"  textFormatStyle="clubView.TF2"	filterString="clubView.GF2" multiline="false" wordWrap="false" autoSize="none"/>
+			<component classname="com.pickgliss.ui.controls.TextInput" stylename="club.searchInput"  textStyle="club.searchTxt" x="371" y="63" width="280" height="24"/>
+			<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="club.declareBG"  resourceLink="asset.club.declareBG1,asset.club.declareBG2,asset.club.declareBG3,asset.club.declareBG4,asset.club.declareBG5,asset.club.declareBG6,asset.club.declareBG7,asset.club.declareBG8,asset.club.declareBG9"  width="440"	height="196" x="515" y="121"  />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.declarationText" 	filterString="clubView.GF3" textFormatStyle="clubView.TF3" wordWrap="true" type="dynamic" mouseEnabled="false"/>
+			<component classname="com.pickgliss.ui.text.TextArea" stylename="club.declaration" parentStyle="core.SimpleTextArea"  textStyle="club.declarationText" x="529" y="132" width="418" height="166" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.applyBtn"  backStyle="asset.club.applyBtn" filterString="null,lightFilter,null,grayFilter"  x="28" y="352"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.randomSearchBtn"  backStyle="asset.club.randomSearchBtn" filterString="null,lightFilter,null,grayFilter"  x="317" y="356"/>
+			
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="club.applyRecordBtn"  unSelectedStyle="asset.club.applyRecordBtn1" selectedStyle="asset.club.applyRecordBtn2" x="660" y="323"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="club.inviteRecordBtn"  unSelectedStyle="asset.club.inviteRecord1" selectedStyle="asset.club.inviteRecord2" x="520" y="323"/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.recordItem.name"  	textFormatStyle="clubView.TF4" filterString="clubView.GF4"  mouseEnabled="false"  selectable="false" autoSize="none" width="323" height="22" x="15" y="6" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.cancelApply"  backStyle="asset.club.canelApply" filterString="null,lightFilter,null,grayFilter" x="340" y="5"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.contactChairmanBtn"  backStyle="asset.club.contactChairmanBtn" filterString="null,lightFilter,null,grayFilter"  x="262" y="5"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.copyNameBtn"  backStyle="asset.club.copyNameBtn" filterString="null,lightFilter,null,grayFilter"  x="184" y="5"/>
+			
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.acceptInvent"  backStyle="asset.club.acceptInvite" filterString="null,lightFilter,null,grayFilter"  x="340" y="5"/>
+			<component classname="com.pickgliss.ui.controls.container.VBox" stylename="club.recordList.vbox" spacing="1"/>
+			<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="club.recordList.panel"  parentStyle="core.ScrollPanel" width="439" height="154"  vScrollProxy="0" /> 
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="club.createConsortion"  backStyle="asset.club.createConsortiaBtn" filterString="null,lightFilter,null,grayFilter"  x="768" y="51"/>
+			
+			<component classname="consortion.view.club.CreateConsortionFrame" stylename="createConsortionFrame"  parentStyle="BaseFrame" width="353" height="230" moveEnable="false"/>
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="club.createConsortion.inputBG"  resourceLink="asset.createConsortionFrame.InputBG" scaleGridString="5,10,90,15"  width="140" height="25" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="club.createConsortion.inputText" 	textFormatStyle="clubView.TF5"/>
+			<component classname="com.pickgliss.ui.controls.TextInput" stylename="club.createConsortion.input"  
+				backStyle="club.createConsortion.inputBG"  textStyle="club.createConsortion.inputText" 
+				textInnerRectString="3,3,2,2,0"  autoSize="none" multiline='false'  wordWrap="false"  x='113' y='80' width="140" height="25"  />
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="createConsortionFrame.OKBtn"  parentStyle="core.simplebt" x="67" y="188" />
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="createConsortionFrame.cancelBtn"  parentStyle="core.simplebt" x="217" y="188" />
+			
+	</components>
+	
+	
+	<customDisplay>
+			<custom classname="flash.geom.Point" stylename="consortionClub.BG.pos" x="2" y="37"/>
+			<custom classname="flash.geom.Point" stylename="consortionClubItem.badge.pos" x="14" y="1"/>
+			<custom classname="consortion.view.club.ClubRecordList" stylename="club.recordList" x="515" y="363"/>
+	</customDisplay>
+	
+	<bitmaps>
+			<bitmapData resourceLink="asset.club.BG" x='17' y='48'/>
+			<bitmapData resourceLink="asset.club.clubs" x="22" y="17"/>
+			<bitmapData resourceLink="asset.club.consortionLists" x="25" y="74"/>
+			<bitmapData resourceLink="asset.club.declarations" x="519" y="92"/>
+			<bitmapData resourceLink="asset.club.searchs" x="274" y="54"/>
+			<bitmapData resourceLink="asset.club.names" x="73" y="107"/>
+			<bitmapData resourceLink="asset.club.chairmans" x="211" y="107"/>
+			<bitmapData resourceLink="asset.club.memberNums" x="296" y="107"/>
+			<bitmapData resourceLink="asset.club.levels" x="352" y="107"/>
+			<bitmapData resourceLink="asset.club.exploits" x="409" y="107"/>
+			<bitmapData resourceLink="asset.club.Itemlight" widht="460" height="42" x="3" y="-5" />
+			<bitmapData resourceLink="asset.club.recordBtnLight" x="-3" y="-3" />
+			<bitmapData resourceLink="asset.createConsortionFrame.BG" x="29" y="34" />
+			<bitmapData resourceLink="asset.club.applyRecordBtn2" x="-4" y="-4" />
+			<bitmapData resourceLink="asset.club.inviteRecord2" x="-4" y="-4" />
+	</bitmaps>
+</style>

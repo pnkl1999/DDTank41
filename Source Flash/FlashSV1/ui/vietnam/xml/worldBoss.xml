@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<style name="worldBoss" version="1.0.1" source="ui/vietnam/swf/worldBoss.swf">
+  <sets>
+  <set stylename="worldboss.textFormat1" args="Arial,16,0x5BFF09,true" type="flash.text.TextFormat"  />
+  <set stylename="worldbossAwardRoom.pointTF" args="Arial,12,0xffffff,bold,,,,,center" type="flash.text.TextFormat" />
+  <set stylename="worldbossAwardRoom.pointGF" args="0x000000,1,3,3,2" type="flash.filters.GlowFilter" />
+  <set stylename="worldBossRoom.totalInfo.timeTF" args="Arial,10,0xfff4c6,,,,,,center" type="flash.text.TextFormat" />
+  <set stylename="worldBossRoom.totalInfo.timeTxtTF" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat" />
+  <set stylename="worldBossRoom.buff.tipTxtTF" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat" />
+  <set stylename="worldBossRoom.totalInfo.yourselfTF" args="Arial,13,0xff9933,,,,,,left" type="flash.text.TextFormat" />
+  <set stylename="worldbossAwardRoom.GF1" args="0x613d1d,1,4,4,30" type="flash.filters.GlowFilter"/>
+  <set stylename="worldbossAwardRoom.CurrentPageTF" args="Arial,12,0xfff8d6,,,,,,center" type="flash.text.TextFormat"/>
+  <set args="0x000000,1,2,2,10" stylename="worldBossRoom.ranking.filter" type="flash.filters.GlowFilter"/>
+  <set stylename="worldBossRoom.rankingTxt.No1TF" args="Arial,13,0xfff880,,,,,,left" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.No2TF" args="Arial,13,0x0ec1d6,,,,,,left" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.No3TF" args="Arial,13,0x12b806,,,,,,left" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.NoOtherTFLeft" args="Arial,13,0xffffff,,,,,,left" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.No11TF" args="Arial,13,0xfff880,,,,,,right" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.No12TF" args="Arial,13,0x0ec1d6,,,,,,right" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.No13TF" args="Arial,13,0x12b806,,,,,,right" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.rankingTxt.NoOtherTFRight" args="Arial,13,0xffffff,,,,,,right" type="flash.text.TextFormat"/>
+  <set stylename="worldbossBuffIsBuyTextTF" args="Arial,14,0x0ec1d6,true,,,,,center" type="flash.text.TextFormat"/>
+  <set stylename="worldBossRoom.buyBuff.showAgainTxt" args="Arial,9,0x00f0f0,,,,,,left" type="flash.text.TextFormat" />
+<set stylename="worldBoss.WaitingView.TxtTF" args="Arial Black,64,0xFFFFFF,,,,,,center" type="flash.text.TextFormat" />
+  <set stylename="worldBoss.WaitingView.TxtGF" args="0xFF0000,1,12,12,2" type="flash.filters.GlowFilter"/>
+  <set stylename="worldBoss.BuyBuffFrame.MoneyTipTF" args="Arial,14,0xfff7b1,true" type="flash.text.TextFormat" />
+  <set stylename="worldBoss.BuyBuffFrame.MoneyTipGF" args="0x573208,1,4,4,30" type="flash.filters.GlowFilter" />
+  <set stylename="worldBoss.BuffCartItem.BuffNameTF" args="Arial,16,0xfff7bf,true" type="flash.text.TextFormat" />
+  <set stylename="worldBoss.BuffCartItem.BuffNameGF" args="0x6b1608,1,4,4,30" type="flash.filters.GlowFilter" />
+  <set stylename="worldBoss.BuffCartItem.BuffPriceTF" args="Arial,12,0xfff1bf,true" type="flash.text.TextFormat" />
+  <set stylename="worldBoss.BuffCartItem.BuffPriceGF" args="0x632f00,1,4,4,30" type="flash.filters.GlowFilter" />
+  <set stylename="worldBoss.BuffCartItem.AutoBuyTF" args="Arial,12,0xfff99d,true" type="flash.text.TextFormat" />
+  <set stylename="worldBoss.BuffCartItem.AutoBuyGF" args="0x633f2c,1,4,4,30" type="flash.filters.GlowFilter" />
+  <set stylename="worldBoss.BuffCartItem.notShowAgainTF" args="Arial,12,0xffffff" type="flash.text.TextFormat" />
+  <set stylename="worldBoss.BuffCartItem.notShowAgainGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+  </sets>
+<customDisplay>
+    <custom classname="flash.geom.Point" stylename="worldboss.RoomView.sceneMapVOPosII" x="160" y="1080"/>
+    <custom classname="flash.geom.Point" stylename="worldboss.RoomView.toBossPos" x="1200" y="510"/>
+    <custom classname="flash.geom.Point" stylename="worldbossAwardRoom.goodItemContainer.pos" x="39" y="-4" />
+    <custom classname="ddt.view.common.VipLevelIcon" stylename="asset.worldboss.VipIcon" />
+    <custom classname="flash.geom.Point" stylename="worldRoom.bossHP.pos" x="311" y="63"/>
+    <custom classname="worldboss.view.AwardGoodItem" stylename="worldbossAwardRoom.GoodItem" />
+    <custom classname="flash.geom.Point" stylename="worldRoom.totalContainer.pos" x="760" y="184" />
+    <custom classname="flash.geom.Point" stylename="worldRoom.resurrectView.pos" x="385" y="243" />
+    <custom classname="worldBoss.fighting" stylename="asset.worldBoss.fighting" resourceLink="worldBoss.fighting"  x="3" y="-200"/>
+    <custom classname="worldBoos.tombstone" stylename="asset.worldBoos.tombstone" resourceLink="worldBoos.tombstone" x="-1" y="-5" />
+    <custom classname="asset.worldbossRoom.resurrectTimeCD" stylename="asset.worldboosRoom.timeCD" resourceLink="asset.worldbossRoom.resurrectTimeCD" x="7" y ="38" />
+    <custom classname="worldboss.resurrect" stylename="asset.worldboss.resurrect" resourceLink="worldboss.resurrect"  x="0" y="0"/>
+    <custom classname="flash.geom.Point" stylename="worldBossAwardRightView.pos" x="0" y="0" />
+    <custom classname="flash.geom.Point" stylename="worldBossAwardLeftView.pos"  x="0" y="0" />
+    <custom classname="flash.geom.Point" stylename="worldboss.numMC.pos"  x="-50" y="0" /> 
+    <custom classname="flash.geom.Point" stylename="worldboss.buffCartItem.Iconpos" x="10" y="10" /> 
+    <custom classname="flash.geom.Point" stylename="worldboss.buffCartItem.bugBtn" x="206" y="52" />
+    <custom classname="flash.geom.Point" stylename="worldboss.buffCartItem.moneyBitmapPos" x="207" y="18"/>
+   	<custom classname="flash.geom.Point" stylename="asset.worldbossAwardRoom.previewMap"  x="33" y="41" />
+    <custom classname="worldboss.view.WorldBossAwardListView" stylename="worldbossAwardRoom.awardList" x="510" y="74" />
+    <custom classname="worldboss.view.RoomMenuView" stylename="worldboss.room.menuView" x="909" y="530" />
+    <custom classname="worldboss.view.WorldBossHPScript" stylename="worldboss.room.bossHP" x="311" y="63" />
+    <custom classname="worldboss.view.WorldBossRoomTotalInfoView" stylename="worldboss.room.infoView" x="760" y="184" />
+    <custom classname="worldboss.view.WorldBossBuffIcon" stylename="worldboss.room.buffIcon" x="28" y="148" />
+    <custom classname="worldboss.view.WorldBossBuyBuffFrame" stylename="worldboss.buyBuff.Frame" />
+    <custom classname="flash.geom.Rectangle" stylename="worldbossAward.rankingItemSize" width="450" height="0" />
+    <custom classname="flash.geom.Point" stylename="worldboss.buffCartItem.costItemMoneyTxt" x="208" y="22" />
+    <custom classname="flash.geom.Point" stylename="worldboss.buyBuffFrame.moneyBg" x="35" y="370" />
+    <custom classname="flash.geom.Point" stylename="worldboss.buyBuffFrame.money" x="65" y="373" />
+	<custom classname="flash.geom.Point" stylename="ddtshop.PayPaneBuyBtnPos" x="92" y="55"/>
+</customDisplay>
+<components>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.worldBossRoom.switchBtnIMG" resourceLink="asset.worldBossRoom.menu.switchBtn1,asset.worldBossRoom.menu.switchBtn2,asset.worldBossRoom.menu.switchBtn1" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.worldBossRoom.switchBtn" backStyle="asset.worldBossRoom.switchBtnIMG" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.worldBossRoom.switchIMG" resourceLink="asset.worldBossRoom.menu.close,asset.worldBossRoom.menu.open" x="10" y="10" />
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.worldBossRoom.returnBtnOver" resourceLink="asset.worldBossRoom.menu.selected,asset.worldBossRoom.menu.return" />
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.worldBossRoom.returnBtnIMG" resourceLink="asset.worldBossRoom.menu.return,asset.worldBossRoom.returnBtnOver,asset.worldBossRoom.menu.return" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.worldBossRoom.returnBtn" backStyle="asset.worldBossRoom.returnBtnIMG" x="45" y="6" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.worldbossroom.characterPlayerNameAsset" textFormatStyle="worldboss.textFormat1"/>
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="worldbossAwardRoom.rightViewBgII" resourceLink="worldbossAwardRoom.rightBgII,asset.worldbossAwardRoom.pointTable" x="511" y="54" />
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldbossAwardRoom.rightBgII" resourceLink="asset.worldbossAwardRoom.rightBg" scaleGridString="15,15,20,20" width="462" height="434" y="16" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldbossAwardRoom.pointTxt" textFormatStyle="worldbossAwardRoom.pointTF" filterString="worldbossAwardRoom.pointGF" x="552" y="530" autoSize="none" width="70" height="20" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldbossAwardRoom.CurrentPage" textFormatStyle="worldbossAwardRoom.CurrentPageTF"  filterString="worldbossAwardRoom.GF1" x="268" y="402"  autoSize="none" width="70" height="20" text="1/1"/>
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="worldbossAwardRoom.BtnFirstPage" backStyle="asset.ddtshop.BtnFirstPage" filterString="null,lightFilter,null,grayFilter" x="158" y="397" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="worldbossAwardRoom.BtnPrePage" backStyle="asset.ddtshop.BtnPrePage" filterString="null,lightFilter,null,grayFilter" x="212" y="397" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="worldbossAwardRoom.BtnNextPage" backStyle="asset.ddtshop.BtnNextPage" filterString="null,lightFilter,null,grayFilter" x="340" y="397" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="worldbossAwardRoom.BtnEndPage" backStyle="asset.ddtshop.BtnEndPage" filterString="null,lightFilter,null,grayFilter" x="393" y="397" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.totalInfo.time" textFormatStyle="worldBossRoom.totalInfo.timeTF" x="132" y="6" autoSize="none" width="160" height="24" filterString="worldBossRoom.ranking.filter" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.totalInfo.timeTxt" textFormatStyle="worldBossRoom.totalInfo.timeTxtTF" x="46" y="4" autoSize="none" width="160" height="24"  filterString="worldBossRoom.ranking.filter"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.buff.tipTxt" textFormatStyle="worldBossRoom.buff.tipTxtTF" x="85" y="-1" autoSize="none" width="190" height="50" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldBossRoom.buff.tipTxtBG" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"  x="76" y="-7" width="210" height="60"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.totalInfo.yourself" textFormatStyle="worldBossRoom.totalInfo.yourselfTF" x="118" y="28" autoSize="none" width="100" height="24"  filterString="worldBossRoom.ranking.filter" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.totalInfo.yourselfTxt" parentStyle="worldBossRoom.totalInfo.yourself" x="51" y="28" filterString="worldBossRoom.ranking.filter" width="100" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.No1" textFormatStyle="worldBossRoom.rankingTxt.No1TF" filterString="worldBossRoom.ranking.filter" x="50" y="52" autoSize="none" width="110" height="24" isAutoFitLength="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.No2" textFormatStyle="worldBossRoom.rankingTxt.No2TF" parentStyle="worldBossRoom.rankingTxt.No1" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.No3" textFormatStyle="worldBossRoom.rankingTxt.No3TF" parentStyle="worldBossRoom.rankingTxt.No1" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.No11" textFormatStyle="worldBossRoom.rankingTxt.No11TF" parentStyle="worldBossRoom.rankingTxt.No1"  autoSize="none" width="190" height="24" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.No12" textFormatStyle="worldBossRoom.rankingTxt.No12TF" parentStyle="worldBossRoom.rankingTxt.No1"  autoSize="none" width="190" height="24"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.No13" textFormatStyle="worldBossRoom.rankingTxt.No13TF" parentStyle="worldBossRoom.rankingTxt.No1"  autoSize="none" width="190" height="24"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.NoOtherLeft" textFormatStyle="worldBossRoom.rankingTxt.NoOtherTFLeft"  parentStyle="worldBossRoom.rankingTxt.No1" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.rankingTxt.NoOtherRight" textFormatStyle="worldBossRoom.rankingTxt.NoOtherTFRight"  parentStyle="worldBossRoom.rankingTxt.No1" autoSize="none" width="190" height="24"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBossRoom.resurrect.txtProp" textFormatStyle="worldBossRoom.rankingTxt.No1TF" filterString="worldBossRoom.ranking.filter" x="7" y="14" autoSize="none" width="120" height="24" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldBossRoom.totalInfoBg" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"  x="42" y="-2" width="200" autoSize="none" height="300"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.worldbossAwardRoom.rightBg"  resourceLink="asset.worldbossAwardRoom.rightBg2,asset.worldbossAwardRoom.rightBg3,asset.worldbossAwardRoom.rightBg1" x="-1" y="-21" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="worldbossRoom.resurrect.btn" backStyle="worldbossRoom.resurrect.btnAsser" x="180" y="16" filterString="null,lightFilter,lightFilter,grayFilter"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="worldbossRoom.resurrect.btnAsser" resourceLink="ddtlittlegame.btn,asset.worldbossRoom.resurrect" imageRectString="100|35|0|0|9,83|27|5|-52|9"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldBossRoom.resurrectBg" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"  x="0" y="0" width="240" height="70"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="worldbossRoom.buffBtn" backStyle="worldBoss.buff" x="0" y="0" filterString="null,lightFilter,lightFilter,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="worldBossRoom.showTotalBtn" x="28" y="132" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.worldBossRoom.showTotalBtnIMG" resourceLink="worldbossRoom.totalInfo.show,worldbossRoom.totalInfo.hide"  />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldboss.buffCartItemName" textFormatStyle="shop.ShopPresentFriendNameTF" autoSize="none" x="78" y="12" width="130" height="60" wordWrap="true" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldboss.buff.price" textFormatStyle="ddtshop.GoodItemNameTF2" filterString="ddtshop.GoodItemTextFilter" parentStyle="ddtshop.CartItemText" x="240" y="22" autoSize="none" width="130" height="20"  type="dynamic"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldbossBuyBuffSelected"  parentStyle="core.simpleSelectBtn"  fieldX="18" fieldY="-1" width="103" height="28" x="282" y="60" displacement='false' />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldbossBuyBuffAllSelected"  parentStyle="core.simpleSelectBtn"  fieldX="18" fieldY="-1" width="103" height="28" x="305" y="399" displacement='false' />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldbossBuyBuffAllSelectedText" textFormatStyle="worldBossRoom.totalInfo.timeTxtTF" x="322" y="396" autoSize="none" width="100" height="24" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldbossBuyBuffSelectedText" textFormatStyle="ddtshop.GoodItemNameTF2" x="300" y="60" autoSize="none" width="100" height="24" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldbossBuffIsBuyText" textFormatStyle="worldbossBuffIsBuyTextTF" x="257" y="55" autoSize="none" width="100" height="24" />
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldbossnotAgainBtn" parentStyle="core.simpleSelectBtn" textStyle="worldbossnotAgainBtnText" fieldX="17" fieldY="0" x="236" y="339" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldbossnotAgainBtnText"  textFormatStyle="worldBoss.BuffCartItem.notShowAgainTF" filterString="worldBoss.BuffCartItem.notShowAgainGF" x="285" y="326"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldboss.buffcart.autoBuy"  textFormatStyle="worldBoss.BuffCartItem.AutoBuyTF" filterString="worldBoss.BuffCartItem.AutoBuyGF" x="285" y="326"/>
+	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="worldbossAutoBuySelected"  parentStyle="core.simpleSelectBtn" textStyle="worldboss.buffcart.autoBuy" fieldX="15" fieldY="-1" width="103" height="28" x="279" y="57" displacement='false' />
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="worldBossAward.rankingView.vbox" x="0" y="0" width="400" height="300" />
+	<component classname="worldboss.view.WorldBossRankingView" stylename="worldBossAward.rankingView" x="41" y="49" width="400" height="300" />
+	<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="worldBossAward.rankingItemBg1" parentStyle="core.ScaleleftrightImage.lineBg2" width="450" height="25" />
+	<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="worldBossAward.rankingItemBg2" parentStyle="core.ScaleleftrightImage.lineBg3" width="450" height="25" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="worldBossAward.rankingItemBg" resourceLink="worldBossAward.rankingItemBg1,worldBossAward.rankingItemBg2" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBoss.WaitingView.loadingText" textFormatStyle="worldBoss.WaitingView.TxtTF" filterString="worldBoss.WaitingView.TxtGF" x="322" y="211"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBoss.WaitingView.timeText" textFormatStyle="worldBoss.WaitingView.TxtTF" filterString="worldBoss.WaitingView.TxtGF" x="439" y="317"/>
+	
+	<component classname="com.pickgliss.ui.controls.Frame" stylename="worldBoss.BuyBuffFrame" parentStyle="BaseFrame" backStyle="SimpleFrameBackgoundOne" escEnable='true' width="420" height="430" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldBoss.BuyBuffFrameBg" resourceLink="asset.core.btmc011" x="17" y="44" width="385" height="365" scaleGridString="5,10,80,20"/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="worldBoss.BuffItemList" 
+			parentStyle="core.ScrollPanel" width="374" height="300" x="22" y="50"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBoss.BuyBUffFrame.moneyTip" textFormatStyle="worldBoss.BuyBuffFrame.MoneyTipTF" filterString="worldBoss.BuyBuffFrame.MoneyTipGF" x="40" y="347" />
+<!-- 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldBoss.BuyBUffFrame.money" textFormatStyle="worldBoss.BuyBuffFrame.MoneyTipTF" filterString="worldBoss.BuyBuffFrame.MoneyTipGF" /> -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="worldboss.buffCartDescription" textFormatStyle="shop.PresentViewTextAreaContentTxtTF" x="77" y="34" autoSize="none" width="130" height="60" wordWrap="true" type="dynamic"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="worldBoss.BuyBuffFrame.bottomBg" parentStyle="core.bg6920" width="370" height="45" x="26" y="359" />
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="worldbossAwardRoom.ScoreNote" resourceLink="asset.worldbossAwardRoom.ScoreNote"  x="44" y="350"/>
+	<!-- ShopCartItem -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtshop.CartItemBg" parentStyle="core.goldlinebg" width="351" height="80" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtshop.CartItemCellBg" parentStyle="core.GoodItemCellBg" x="7" y="7" width="68" height="68" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtshop.VerticalLine" resourceLink="asset.ddtcore.line" rotation="90" width="80" x="204" y ="0"></component>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ddtshop.SetsShopItem.SeperatorLine" parentStyle="ddtshop.VerticalLine" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ddtshop.PayPaneBuyBtn" backStyle="asset.ddtshop.PayPaneBuyBtn" x="164" y="55" filterString="null,lightFilter,null,grayFilter"></component>
+</components>
+<bitmaps>
+    <bitmapData resourceLink="asset.worldBossRoom.menu.selected" x="-10" y="-3"/> 
+    <bitmapData resourceLink="asset.worldbossAwardRoom.rightBg1" x="29" y="22" />
+    <bitmapData resourceLink="asset.worldbossAwardRoom.rightBg2" x="612" y="22" />
+    <bitmapData resourceLink="asset.worldbossAwardRoom.rightBg3" x="5" y="31" />
+    <bitmapData resourceLink="asset.worldbossAwardRoom.pointTable" x="-9" y="415" />
+	<bitmapData resourceLink="bagAndInfo.info.PointCoupon" x="18"/>
+    <bitmapData resourceLink="asset.worldbossAwardRoom.ScoreNote" x="31" y="358" />
+ </bitmaps>
+</style>
+									

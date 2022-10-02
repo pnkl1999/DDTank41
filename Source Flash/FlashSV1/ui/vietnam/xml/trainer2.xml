@@ -1,0 +1,14 @@
+<style name="trainer2" version="1.0.1" source="ui/spain/swf/trainer2.swf">
+	<customDisplay>
+		<custom classname="trainer.view.ExplainTen" stylename="trainer.ExplainTen" width="1008" height="608"/>
+	</customDisplay>
+
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtTenExplain" filterString="trainer.explain.glow1" textFormatStyle="trainer.explain.tfOne" x="326" y="356"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.explain.ten" width="91" height="92" x="436" y="186"/>
+		<bitmapData resourceLink="asset.explain.txtTen" width="178" height="38" x="396" y="291"/>
+	</bitmaps>
+</style>

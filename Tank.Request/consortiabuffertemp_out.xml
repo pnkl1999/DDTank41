@@ -1,0 +1,42 @@
+<Result value="true" message="Success!">
+  <Item id="1" name="Tham lam" descript="Tăng exp chiến đấu,số vàng lật bài tăng {0}%" type="1" level="1" value="10" riches="1000" metal="0" pic="1" group="10" />
+  <Item id="2" name="Tham lam" descript="Tăng exp chiến đấu,số vàng lật bài tăng {0}%" type="1" level="2" value="15" riches="3000" metal="0" pic="1" group="10" />
+  <Item id="3" name="Tham lam" descript="Tăng exp chiến đấu,số vàng lật bài tăng {0}%" type="1" level="3" value="20" riches="5000" metal="0" pic="1" group="10" />
+  <Item id="4" name="Tấn công" descript="Tăng sát thương lên {0} điểm" type="1" level="2" value="10" riches="1000" metal="0" pic="2" group="2" />
+  <Item id="5" name="Tấn công" descript="Tăng sát thương lên {0} điểm" type="1" level="3" value="15" riches="3000" metal="0" pic="2" group="2" />
+  <Item id="6" name="Tấn công" descript="Tăng sát thương lên {0} điểm" type="1" level="4" value="20" riches="5000" metal="0" pic="2" group="2" />
+  <Item id="7" name="Bộc phát tiềm năng" descript="Điểm 4 thuộc tính cơ bản tăng  {0} điểm" type="1" level="4" value="20" riches="1000" metal="0" pic="3" group="5" />
+  <Item id="8" name="Bộc phát tiềm năng" descript="Điểm 4 thuộc tính cơ bản tăng  {0} điểm" type="1" level="5" value="30" riches="3000" metal="0" pic="3" group="5" />
+  <Item id="9" name="Bộc phát tiềm năng" descript="Điểm 4 thuộc tính cơ bản tăng  {0} điểm" type="1" level="6" value="50" riches="5000" metal="0" pic="3" group="5" />
+  <Item id="10" name="Thuật cường thân" descript="Máu nhân vật tăng {0}% điểm" type="1" level="5" value="5" riches="1000" metal="0" pic="4" group="4" />
+  <Item id="11" name="Thuật cường thân" descript="Máu nhân vật tăng {0}% điểm" type="1" level="6" value="10" riches="3000" metal="0" pic="4" group="4" />
+  <Item id="12" name="Thuật cường thân" descript="Máu nhân vật tăng {0}% điểm" type="1" level="7" value="15" riches="5000" metal="0" pic="4" group="4" />
+  <Item id="13" name="Thuật cường thể" descript="Điểm thể lực tăng {0} điểm" type="1" level="7" value="10" riches="1000" metal="0" pic="5" group="7" />
+  <Item id="14" name="Thuật cường thể" descript="Điểm thể lực tăng {0} điểm" type="1" level="8" value="20" riches="3000" metal="0" pic="5" group="7" />
+  <Item id="15" name="Thuật cường thể" descript="Điểm thể lực tăng {0} điểm" type="1" level="10" value="30" riches="5000" metal="0" pic="5" group="7" />
+  <Item id="16" name="Tranh đoạt" descript="Chiến đấu nhận được công trạngx{0}" type="1" level="8" value="2" riches="1000" metal="0" pic="6" group="9" />
+  <Item id="17" name="Tranh đoạt" descript="Chiến đấu nhận được công trạngx{0}" type="1" level="9" value="3" riches="3000" metal="0" pic="6" group="9" />
+  <Item id="18" name="Thúc tiến" descript="Đ.kiện n.vụ hằng ngày giảm {0},nhỏ nhất là 1" type="2" level="1" value="1" riches="100" metal="800" pic="7" group="8" />
+  <Item id="19" name="Thúc tiến" descript="Đ.kiện n.vụ hằng ngày giảm {0},nhỏ nhất là 1" type="2" level="5" value="2" riches="300" metal="1400" pic="7" group="8" />
+  <Item id="20" name="Bàn tay của chúa" descript="Hiệu quả trị liệu tăng {0} điểm" type="2" level="2" value="200" riches="100" metal="800" pic="8" group="1" />
+  <Item id="21" name="Bàn tay của chúa" descript="Hiệu quả trị liệu tăng {0} điểm" type="2" level="3" value="300" riches="300" metal="1400" pic="8" group="1" />
+  <Item id="22" name="Bàn tay của chúa" descript="Hiệu quả trị liệu tăng {0} điểm" type="2" level="6" value="500" riches="500" metal="2000" pic="8" group="1" />
+  <Item id="23" name="Đòn trí mạng" descript="Bạo kích sát thương tăng {0} điểm" type="2" level="2" value="100" riches="100" metal="800" pic="9" group="3" />
+  <Item id="24" name="Đòn trí mạng" descript="Bạo kích sát thương tăng {0} điểm" type="2" level="4" value="200" riches="300" metal="1400" pic="9" group="3" />
+  <Item id="25" name="Đòn trí mạng" descript="Bạo kích sát thương tăng {0} điểm" type="2" level="5" value="300" riches="500" metal="2000" pic="9" group="3" />
+  <Item id="26" name="Trị liệu thần thánh" descript="Lúc dùng item bơm máu lượng máu tăng {0}%" type="2" level="3" value="5" riches="100" metal="800" pic="10" group="11" />
+  <Item id="27" name="Trị liệu thần thánh" descript="Lúc dùng item bơm máu lượng máu tăng {0}%" type="2" level="4" value="10" riches="300" metal="1400" pic="10" group="11" />
+  <Item id="28" name="Trị liệu thần thánh" descript="Lúc dùng item bơm máu lượng máu tăng {0}%" type="2" level="6" value="15" riches="500" metal="2000" pic="10" group="11" />
+  <Item id="29" name="Nụ cười thâm hiểm" descript="Công kích làm pow của đối phương giảm {0}%" type="2" level="7" value="5" riches="100" metal="800" pic="11" group="12" />
+  <Item id="30" name="Nụ cười thâm hiểm" descript="Công kích làm pow của đối phương giảm {0}%" type="2" level="8" value="10" riches="300" metal="1400" pic="11" group="12" />
+  <Item id="31" name="Nụ cười thâm hiểm" descript="Công kích làm pow của đối phương giảm {0}%" type="2" level="9" value="15" riches="500" metal="2000" pic="11" group="12" />
+  <Item id="32" name="Thần hành thiên lý" descript="Di chuyển tiêu hao thể lực giảm {0}%" type="2" level="7" value="10" riches="100" metal="800" pic="12" group="6" />
+  <Item id="33" name="Thần hành thiên lý" descript="Di chuyển tiêu hao thể lực giảm {0}%" type="2" level="8" value="20" riches="300" metal="1400" pic="12" group="6" />
+  <Item id="34" name="Thần hành thiên lý" descript="Di chuyển tiêu hao thể lực giảm {0}%" type="2" level="10" value="30" riches="500" metal="2000" pic="12" group="6" />
+  <Item id="35" name="Sâu Sắc" descript="Phu thê +{0} HP" type="0" level="1" value="100" riches="99999" metal="0" pic="13" group="13" />
+  <Item id="36" name="Sâu Sắc" descript="Phu thê +{0} HP" type="0" level="2" value="200" riches="99999" metal="0" pic="13" group="13" />
+  <Item id="37" name="Sâu Sắc" descript="Phu thê +{0} HP" type="0" level="3" value="300" riches="99999" metal="0" pic="13" group="13" />
+  <Item id="38" name="Sâu Sắc" descript="Phu thê +{0} HP" type="0" level="4" value="500" riches="150000" metal="0" pic="13" group="13" />
+  <Item id="39" name="Sâu Sắc" descript="Phu thê +{0} HP" type="0" level="5" value="1000" riches="180000" metal="0" pic="13" group="13" />
+  <Item id="40" name="Sâu Sắc" descript="Phu thê +{0} HP" type="0" level="6" value="2000" riches="200000" metal="0" pic="13" group="13" />
+</Result>

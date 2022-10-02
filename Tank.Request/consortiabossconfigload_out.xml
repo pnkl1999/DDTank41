@@ -1,0 +1,7 @@
+<Result value="true" message="Success!">
+  <item Level="1" NpcID="50001" MaxBlood="7500000" MissionID="1291" AwardID="0" CostRich="50" ProlongRich="75" />
+  <item Level="2" NpcID="50002" MaxBlood="15000000" MissionID="1291" AwardID="0" CostRich="60" ProlongRich="150" />
+  <item Level="3" NpcID="50003" MaxBlood="22500000" MissionID="1291" AwardID="0" CostRich="90" ProlongRich="225" />
+  <item Level="4" NpcID="50004" MaxBlood="27500000" MissionID="1291" AwardID="0" CostRich="120" ProlongRich="275" />
+  <item Level="5" NpcID="50005" MaxBlood="35000000" MissionID="1291" AwardID="0" CostRich="150" ProlongRich="350" />
+</Result>

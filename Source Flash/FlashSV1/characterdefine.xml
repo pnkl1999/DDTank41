@@ -1,0 +1,40 @@
+<character width="230" height="175" label="小游戏人物形象" registerX="115" registerY="162">
+	<actionSet>
+		<action name="stand" next="stand" priority="0" endStop="false">
+			<asset width="120" height="175" resource="head" frames="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1" points="55,0"/>
+			<asset width="120" height="175" resource="body" frames="0" points="55,0"/>
+		</action>
+		<action name="walk" next="walk" priority="0" endStop="false">
+			<asset width="120" height="175" resource="head" frames="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1" points="55,0|55,0|55,0|55,0|55,0|55,0|55,-1|55,-1|55,-1|55,2|55,2|55,2|55,0|55,0|55,0|55,-1|55,-1|55,-1|55,2|55,2|55,2"/>
+			<asset width="120" height="175" resource="body" frames="0,0,0,1,1,1,2,2,2,3,3,3,4,4,4,5,5,5,6,6,6" points="55,0"/>
+		</action>
+		<action name="inhaleSmall" next="inhaleSmall" priority="0" endStop="false" sound="161">
+			<asset width="230" height="175" resource="effect" frames="0,1,2,3" points="0,0"/>
+			<asset width="120" height="175" resource="specialHead" frames="0,0,0,0,0,0" points="55,0|55,0|55,0|53,3|53,3|53,3"/>
+			<asset width="120" height="175" resource="body" frames="7,7,7,8,8,8" points="55,0"/>
+		</action>
+		<action name="inhaleBig" next="inhaleBig" priority="0" endStop="false" sound="161">
+			<asset width="230" height="175" resource="effect" frames="0,1,2,3" points="0,0"/>
+			<asset width="120" height="175" resource="specialHead" frames="0,0,0,0,0,0" points="51,-3|51,-3|51,-3|51,-5|51,-5|51,-5"/>
+			<asset width="120" height="175" resource="body" frames="9,9,9,10,10,10" points="55,0"/>
+		</action>
+		<action name="backStand" next="backStand" priority="0" endStop="false">
+			<asset width="120" height="175" resource="head" frames="2" points="55,0"/>
+			<asset width="120" height="175" resource="body" frames="11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11,11" points="55,0"/>
+		</action>
+		<action name="backWalk" next="backWalk" priority="0" endStop="false">
+			<asset width="120" height="175" resource="head" frames="2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2" points="55,0|55,0|55,0|55,0|55,0|55,0|55,-1|55,-1|55,-1|55,2|55,2|55,2|55,0|55,0|55,0|55,-1|55,-1|55,-1|55,2|55,2|55,2"/>
+			<asset width="120" height="175" resource="body" frames="11,11,11,12,12,12,13,13,13,14,14,14,15,15,15,16,16,16,17,17,17" points="55,0"/>
+		</action>
+		<action name="backInhaleSmall" next="backInhaleSmall" priority="0" endStop="false" sound="161">
+			<asset width="120" height="175" resource="head" frames="2,2,2,2,2,2" points="55,0|55,0|55,0|53,3|53,3|53,3"/>
+			<asset width="120" height="175" resource="body" frames="18,18,18,19,19,19" points="55,0"/>
+			<asset width="230" height="175" resource="effect" frames="0,1,2,3" points="0,0"/>
+		</action>
+		<action name="backInhaleBig" next="backInhaleBig" priority="0" endStop="false" sound="161">
+			<asset width="120" height="175" resource="head" frames="2,2,2,2,2,2" points="51,7|51,7|51,7|51,6|51,6|51,6"/>
+			<asset width="120" height="175" resource="body" frames="20,20,20,21,21,21" points="55,0"/>
+			<asset width="230" height="175" resource="effect" frames="0,1,2,3" points="0,0"/>
+		</action>
+	</actionSet>
+</character>

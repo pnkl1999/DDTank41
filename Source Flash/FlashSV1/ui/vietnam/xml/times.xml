@@ -1,0 +1,119 @@
+<style name="times" version="1.0.1" source="ui/spain/swf/times.swf">
+	<sets>
+		<set stylename="times.LinkBtnsTxtFilter" args="0x996348,1,3,3,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="times.NormalTF" args="Arial,16,0x650202,bold" type="flash.text.TextFormat"/>
+		<set stylename="times.LinkBtnsTF" args="Arial,12,0xffffff" type="flash.text.TextFormat"/>
+		
+		<set stylename="times.ContentTitlePageInfoTF" args="Arial,20,0x650202,bold" type="flash.text.TextFormat"/>
+	</sets>
+	<customDisplay>
+		<!-- Views -->
+		<custom classname="times.view.TimesDateView" stylename="times.DateView" x="15" y="0"/>
+		<custom classname="times.view.TimesSmallPicsView" stylename="times.SmallPicView" x="21" y="90"/>
+		<custom classname="times.view.TimesMenuView" stylename="times.MenuView" x="-7" y="72"/>
+		<custom classname="times.view.TimesBigPicsView" stylename="times.BigPicView" x="251" y="260"/>
+		<custom classname="times.view.TimesContentTitleView" stylename="times.ContentTitleView" x="15" y="40"/>
+		<custom classname="times.view.TimesThumbnailView" stylename="times.TimesThumbnailView" x="278" y="512"/>
+		<custom classname="asset.times.PicLoading" stylename="times.PicLoading"/>
+		<custom classname="asset.times.Egg" stylename="times.Egg" x="675" y="373"/>
+		
+		<custom classname="flash.geom.Point" stylename="times.DateViewCurrentDateTextPos" x="-21" y="46"/>
+		<custom classname="flash.geom.Point" stylename="times.DateViewNextEditionDateTextPos" x="567" y="46"/>
+		<custom classname="flash.geom.Point" stylename="times.DateViewCurrentEditionTextPos" x="140" y="46"/>
+		
+		<custom classname="flash.geom.Point" stylename="times.ContentRightPageTextPos" x="660" y="-10"/>
+		<custom classname="flash.geom.Point" stylename="times.ContentBigPicPos" x="75" y="70"/>
+		<custom classname="flash.geom.Point" stylename="times.maskShapePos" x="88" y="78"/>
+		
+		<custom classname="flash.geom.Point" stylename="times.BigPicLoadingMcPos" x="244" y="75"/>
+		<custom classname="flash.geom.Point" stylename="times.SmallPicLoadingMcPos" x="93" y="34"/>
+		<custom classname="flash.geom.Point" stylename="times.ContentPicLoadingMcPos" x="351" y="177"/>
+		
+		<custom classname="flash.geom.Point" stylename="times.PagePointTipOffset" x="52" y="50"/>
+		
+	</customDisplay>
+	<components>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="times.NormalText" textFormatStyle="times.NormalTF"/>
+		
+		<!-- WeeklyPreviewFrame  -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="times.WeeklyBtn" backStyle="asset.times.WeeklyBtnBg" x="750" y="22"/>
+		<component classname="times.view.TimesPreviewFrame"  stylename="times.PreviewFrame"  parentStyle="BaseFrame" containerX="20" containerY="40" width="570" height="470"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="times.PreviewScroll" parentStyle="core.ScrollPanel" width="530" height="370"/>
+	
+		<!-- WeeklyDailyFrame  -->
+		<component classname="times.view.TimesDailyFrame"  stylename="times.DailyFrame" parentStyle="BaseFrame" containerX="20" containerY="40" width="230" height="180"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="times.DailyFrameGoodsBg" parentStyle="bossbox.scale9GoodsImage" x="-1" y="6" width="183" height="78"/>
+		
+		<!-- WeeklyMagazineView -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="times.CloseBtn" backStyle="asset.times.CloseBtn" x="819" y="21"/>
+		
+		<!-- WeeklySmallPicsView -->
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="times.SmallPicContainer"/>
+		
+		<!-- WeeklyMenuView -->
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="times.MenuContainer"  spacing="2"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.MenuButton_1" selectedStyle="asset.times.MenuButton_1" unSelectedStyle="asset.times.MenuButton_1Un" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.MenuButton_2" selectedStyle="asset.times.MenuButton_2" unSelectedStyle="asset.times.MenuButton_2Un" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.MenuButton_3" selectedStyle="asset.times.MenuButton_3" unSelectedStyle="asset.times.MenuButton_3Un" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.MenuButton_4" selectedStyle="asset.times.MenuButton_4" unSelectedStyle="asset.times.MenuButton_4Un" filterString="null,lightFilter,null,grayFilter"/>
+				
+		<!-- WeeklyBigPicView -->
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="times.BigPicsSwitchBtnContainer" x="360" y="185" spacing="10"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.SwitchBtn_1" selectedStyle="asset.times.SwitchBtn_1b" unSelectedStyle="asset.times.SwitchBtn_1a" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.SwitchBtn_2" selectedStyle="asset.times.SwitchBtn_2b" unSelectedStyle="asset.times.SwitchBtn_2a" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.SwitchBtn_3" selectedStyle="asset.times.SwitchBtn_3b" unSelectedStyle="asset.times.SwitchBtn_3a" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.SwitchBtn_4" selectedStyle="asset.times.SwitchBtn_4b" unSelectedStyle="asset.times.SwitchBtn_4a" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="times.SwitchBtn_5" selectedStyle="asset.times.SwitchBtn_5b" unSelectedStyle="asset.times.SwitchBtn_5a" filterString="null,lightFilter,null,grayFilter"/>
+	
+		<!-- WeeklyContentView -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="times.MainBtn" backStyle="asset.times.MainBtn" x="35" y="22"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="times.PreBtn" backStyle="asset.times.PrePagebtn" x="158" y="498" useLogID="146"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="times.NextBtn" backStyle="asset.times.NextPagebtn" x="657" y="498" useLogID="147"/>
+		
+		<!-- WeeklyContentTitleView -->
+		
+		<!-- WeeklyLinkEditor -->
+		<component classname="times.element.WeeklyLinkEditor"  stylename="times.LinkEditorFrame"  parentStyle="BaseFrame" width="340" height="260"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="times.LinkBtnsText" textFormatStyle="times.LinkBtnsTF" filterString="times.LinkBtnsTxtFilter" type="dynamic"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="times.LinkBtn" textStyle="times.LinkBtnsText" backStyle="asset.times.LinkBtnBg" backgoundInnerRectString="8,8,4,4,-1" filterString="null,lightFilter,null,grayFilter" x="-2"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="times.LinkContainer" x="20" y="40" spacing="30"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="times.LinkBtnContainer" spacing="5"/>
+	</components>
+	
+	<customLanguage>
+		<custom stylename="ok" value="Xác nhận"/>
+		<custom stylename="cancel" value="Hủy bỏ"/>
+		<custom stylename="close" value="Đóng"/>
+		<custom stylename="times.magazineTitle" value="Bouncing tiempos"/>
+		<custom stylename="times.CurrentDateText" value="Năm{0}Tháng{1}Ngày{2}"/>
+		<custom stylename="times.NextEditionDateText" value="Giờ:Năm{0}Tháng{1}Ngày{2}"/>
+		<custom stylename="times.CurrentEditionText" value="Giai đoạn đầu {0}"/>
+		<custom stylename="times.CategoryName_0" value="弹弹新闻"/>
+		<custom stylename="times.CategoryName_1" value="活动速递"/>
+		<custom stylename="times.CategoryName_2" value="奇趣观园"/>
+		<custom stylename="times.CategoryName_3" value="同人漫馆"/>
+		<custom stylename="times.Editor" value="编辑：{0}"/>
+		<custom stylename="times.LinkTo" value="链接至："/>
+		<custom stylename="times.Category" value="第{0}栏目"/>
+		<custom stylename="times.Page" value="第{0}页"/>
+		<custom stylename="times.LoadInfoErrorMsg" value="加载时报信息失败"/>
+		<custom stylename="times.CreateXMLDoc" value="生成XML文件"/>
+		<custom stylename="times.UploadFiles" value="上传文件"/>
+		<custom stylename="times.NoFileCanBeUpload" value="目前没有文件需要上传"/>
+		<custom stylename="times.InfoNotSeyYet" value="信息不全,无法生成xml文件"/>
+		<custom stylename="times.DailyFrameTitle" value="sưu tập ngày" />
+		<custom stylename="times.DailyInstruction1" value="双倍经验卡 × 60分钟"/>
+		<custom stylename="times.DailyInstruction2" value="惊喜宝箱 × 1"/>
+	</customLanguage>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.times.Bg" x="-22" y="-7"/>
+		<bitmapData resourceLink="asset.times.Title" x="300" y="10"/>
+		<bitmapData resourceLink="asset.times.DailyGoodInfo" x="16" y="20"/>
+		<bitmapData resourceLink="asset.times.ThumbnailPointLine" x="5" y="5"/>
+		<bitmapData resourceLink="asset.times.ThumbnailZoomBg"/>
+	</bitmaps>
+</style>

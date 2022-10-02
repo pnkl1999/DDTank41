@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{92724C93-882B-4EDB-9550-A3572F2699F7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Tank.Flash.Single</RootNamespace>
+    <AssemblyName>Tank.Flash</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <Use64BitIISExpress />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="auth\forgotpass.aspx" />
+    <Content Include="auth\register.aspx" />
+    <Content Include="css\animate-custom.css" />
+    <Content Include="css\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="css\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="css\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="css\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="css\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="css\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="css\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="css\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="css\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="css\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="css\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="css\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="css\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="css\base\jquery.ui.accordion.css" />
+    <Content Include="css\base\jquery.ui.all.css" />
+    <Content Include="css\base\jquery.ui.autocomplete.css" />
+    <Content Include="css\base\jquery.ui.base.css" />
+    <Content Include="css\base\jquery.ui.button.css" />
+    <Content Include="css\base\jquery.ui.core.css" />
+    <Content Include="css\base\jquery.ui.datepicker.css" />
+    <Content Include="css\base\jquery.ui.dialog.css" />
+    <Content Include="css\base\jquery.ui.progressbar.css" />
+    <Content Include="css\base\jquery.ui.resizable.css" />
+    <Content Include="css\base\jquery.ui.selectable.css" />
+    <Content Include="css\base\jquery.ui.slider.css" />
+    <Content Include="css\base\jquery.ui.tabs.css" />
+    <Content Include="css\base\jquery.ui.theme.css" />
+    <Content Include="css\demo.css" />
+    <Content Include="css\fonts\Dharma Type Font License.txt" />
+    <Content Include="css\style3.css" />
+    <Content Include="images\footerBg-x.jpg" />
+    <Content Include="images\footerLogo.png" />
+    <Content Include="images\waiting.gif" />
+    <Content Include="index.htm" />
+    <Content Include="loading.htm" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\thickbox.css" />
+    <Content Include="playgame.aspx" />
+    <Content Include="BeginLoad.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="images\bg-loop.gif" />
+    <Content Include="images\bg_all.jpg" />
+    <Content Include="images\close.gif" />
+    <Content Include="images\cursors\default.cur" />
+    <Content Include="images\forgot.png" />
+    <Content Include="images\iconRe.gif" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo7road.png" />
+    <Content Include="images\logogunny.png" />
+    <Content Include="images\noise.png" />
+    <Content Include="images\popup.png" />
+    <Content Include="images\bg.jpg" />
+    <Content Include="images\__utm.gif" />
+    <Content Include="script\jquery-ui-1.8.21.custom.js" />
+    <Content Include="script\jquery.corner.js" />
+    <Content Include="script\jquery.placeholder.min.js" />
+    <Content Include="script\jquery.ui.button.js" />
+    <Content Include="script\modernizr.custom.63321.js" />
+    <Content Include="LoadingCount.aspx" />
+    <Content Include="LoginGame.aspx" />
+    <Content Include="script\dandantang.js" />
+    <Content Include="script\event.js" />
+    <Content Include="script\isSafeFlash.js" />
+    <Content Include="script\jquery-1.7.2.min.js" />
+    <Content Include="script\mainsite.js" />
+    <Content Include="script\rightClick.js" />
+    <Content Include="script\swfobject.js" />
+    <Content Include="script\thickbox.js" />
+    <Content Include="script\webtoolkit.md5.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="auth\forgotpass.ashx.cs">
+      <DependentUpon>forgotpass.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="auth\forgotpass.aspx.cs">
+      <DependentUpon>forgotpass.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="auth\forgotpass.aspx.designer.cs">
+      <DependentUpon>forgotpass.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="auth\register.ashx.cs">
+      <DependentUpon>register.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="auth\register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="auth\register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="auth\validatecode.ashx.cs">
+      <DependentUpon>validatecode.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="BeginLoad.aspx.cs">
+      <DependentUpon>BeginLoad.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="BeginLoad.aspx.designer.cs">
+      <DependentUpon>BeginLoad.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="checkuser.ashx.cs">
+      <DependentUpon>checkuser.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="CreatShortCut.ashx.cs">
+      <DependentUpon>CreatShortCut.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="playgame.aspx.cs">
+      <DependentUpon>playgame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="playgame.aspx.designer.cs">
+      <DependentUpon>playgame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EndLoading.aspx.cs">
+      <DependentUpon>EndLoading.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EndLoading.aspx.designer.cs">
+      <DependentUpon>EndLoading.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingCount.aspx.cs">
+      <DependentUpon>LoadingCount.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoadingCount.aspx.designer.cs">
+      <DependentUpon>LoadingCount.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LoadingManager.cs" />
+    <Compile Include="LoginGame.aspx.cs">
+      <DependentUpon>LoginGame.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LoginGame.aspx.designer.cs">
+      <DependentUpon>LoginGame.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AccessError.htm" />
+    <Content Include="EndLoading.aspx" />
+    <Content Include="Error.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_code\" />
+    <Folder Include="App_Data\" />
+    <Folder Include="bin\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="auth\register.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="auth\forgotpass.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CreatShortCut.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="font\fontawesome-webfont.eot" />
+    <Content Include="font\fontawesome-webfont.svg" />
+    <Content Include="font\fontawesome-webfont.ttf" />
+    <Content Include="font\fontawesome-webfont.woff" />
+    <Content Include="auth\validatecode.ashx" />
+    <Content Include="checkuser.ashx" />
+    <Content Include="css\fonts\BebasNeue-webfont.eot" />
+    <Content Include="css\fonts\BebasNeue-webfont.svg" />
+    <Content Include="css\fonts\BebasNeue-webfont.ttf" />
+    <Content Include="css\fonts\BebasNeue-webfont.woff" />
+    <Content Include="css\fonts\fontomas-webfont.eot" />
+    <Content Include="css\fonts\fontomas-webfont.svg" />
+    <Content Include="css\fonts\fontomas-webfont.ttf" />
+    <Content Include="css\fonts\fontomas-webfont.woff" />
+    <Content Include="css\fonts\franchise-bold-webfont.eot" />
+    <Content Include="css\fonts\franchise-bold-webfont.svg" />
+    <Content Include="css\fonts\franchise-bold-webfont.ttf" />
+    <Content Include="css\fonts\franchise-bold-webfont.woff" />
+    <None Include="Properties\PublishProfiles\Gunny.II.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bussiness\Bussiness.csproj">
+      <Project>{87c66fcb-06bb-42c0-86e1-ed814a77ebe4}</Project>
+      <Name>Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Road.Flash\Road.Flash.csproj">
+      <Project>{310a9027-532a-4009-a903-ab6cb23e487b}</Project>
+      <Name>Road.Flash</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{037f4b7b-b05b-44a9-b83e-32c21d7a7b41}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>12429</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:840/</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:840/</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

@@ -1,0 +1,194 @@
+<style name="avatarcollection" version="2.0.1" source="ui/zh_cn/swf/avatarcollection.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="avatarColl.unitListCell.nameTxt.tf" args="宋体,14,0xfff0b5,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.unitListCell.nameTxt.gf" args="0x663518,2,4,4,30"/>	
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.unitListCell.nameTxt.tf2" args="宋体,14,0xff5400,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.unitListCell.nameTxt.gf2" args="0xFFFFFF,2,4,4,30"/>
+		
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.propertyCell.nameTxt.tf" args="宋体,12,0xfff0c0"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.propertyCell.nameTxt.gf" args="0x4a310b,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.propertyCell.valueTxt.tf" args="宋体,12,0xf2ffff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.propertyCell.valueTxt.gf" args="0x121a31,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.propertyTip.titleTxt.tf" args="宋体,15,0x9727c4,true"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.propertyTip.titleTxt.gf" args="0x070400,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.propertyTip.nameTxt.tf" args="宋体,13,0xfb9732,true"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.propertyTip.nameTxt.gf" args="0x080000,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.propertyTip.valueTxt.tf" args="宋体,13,0xeeff00,true"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.propertyTip.valueTxt.gf" args="0x000100,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.rightView.descTxt.tf" args="宋体,12,0xffeeb8" leading="10" letterSpacing="2"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.rightView.descTxt.gf" args="0x5b430d,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.rightView.honorTxt.tf" args="宋体,14,0x235a4f,true,,,,,right"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.rightView.honorTxt.gf" args="0xfbedb9,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.rightView.goldTxt.tf" args="宋体,14,0x800e00,true,,,,,right"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.rightView.goldTxt.gf" args="0xfbedb9,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.itemTip.typeNameTxt.tf" args="宋体,12,0x000000,true"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.itemTip.typeNameTxt.gf" args="0xffffff,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.itemTip.typeValueTxt.tf" args="宋体,13,0xffffff,true"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.itemTip.typeValueTxt.gf" args="0x000000,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.timeView.txt.tf" args="宋体,16,0xfff1b6"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.timeView.txt.gf" args="0x4d2c04,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.delayConfirmFrame.dayNameTxt.tf" args="宋体,16,0xffeebf,true" letterSpacing="2"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.delayConfirmFrame.dayNameTxt.gf" args="0x442006,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.delayConfirmFrame.promptTxt.tf" args="宋体,12,0xffeebf,true" letterSpacing="2"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.delayConfirmFrame.promptTxt.gf" args="0x442006,1,4,4,30"/>
+		
+		
+		<set type="flash.text.TextFormat" stylename="avatarColl.itemCellTip.notActivityTxt.tf" args="宋体,13,0xaaaaaa,true"/>
+		<set type="flash.filters.GlowFilter" stylename="avatarColl.itemCellTip.notActivityTxt.gf" args="0x000000,1,2,2,10"/> 
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="avatarColl.mainView.vboxPos" x="10" y="13"/>
+		
+		<custom classname="flash.geom.Point" stylename="avatarColl.mainView.rightViewPos" x="287" y="1"/>
+		
+		<custom classname="flash.geom.Point" stylename="avatarColl.propertyView.tipPos" x="283" y="-50"/>
+		
+		<custom classname="flash.geom.Point" stylename="avatarColl.rightView.goldBgPos" x="133" y="0"/>
+		
+		<custom classname="flash.geom.Point" stylename="avatarColl.itemTip.activityStatusTxtPos" x="13" y="61"/>
+		<custom classname="flash.geom.Point" stylename="avatarColl.itemTip.needGoldTxtPos" x="13" y="83"/>
+		<custom classname="flash.geom.Point" stylename="avatarColl.itemTip.placeTxtPos" x="13" y="106"/>
+		
+		<custom classname="flash.geom.Point" stylename="avatarColl.delayConfirmFrame.numberSelecterPos" x="142" y="73" />
+		
+		<custom classname="bagAndInfo.bag.RichesButton" stylename="avatarColl.rightMoneyView.honorButton"
+			x="0" y="0" width="124" height="26" tipStyle="ddt.view.tips.OneLineTip"
+			tipGapV="6" tipGapH="6" tipDirctions="0,1,2" />
+		
+		<custom classname="bagAndInfo.bag.RichesButton" stylename="avatarColl.rightMoneyView.goldButton"
+			x="133" y="0" width="124" height="26" tipStyle="ddt.view.tips.OneLineTip"
+			tipGapV="6" tipGapH="6" tipDirctions="0,1,2" />
+		<custom classname="avatarColl.helpContent" stylename="avatarColl.help.content" x="34" y="75"/>
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="avatarColl.maleBtn" 
+			unSelectedStyle="asset.avatarColl.maleUnSelectBtn" selectedStyle="asset.avatarColl.maleSelectBtn" 
+			x="0" y="0" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="avatarColl.femaleBtn" 
+			unSelectedStyle="asset.avatarColl.femaleUnSelectBtn" selectedStyle="asset.avatarColl.femaleSelectBtn" 
+			x="0" y="0" />
+			
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+			stylename="avatarColl.unitListCell.bg" 
+			resourceLink="core.Scale9CornerImage.scale9CornerImage16,core.Scale9CornerImage.scale9CornerImage16"
+			width="500" height="31"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.unitListCell.nameTxt"
+			textFormatStyle="avatarColl.unitListCell.nameTxt.tf,avatarColl.unitListCell.nameTxt.tf2"
+			filterString="avatarColl.unitListCell.nameTxt.gf,avatarColl.unitListCell.nameTxt.gf2"
+			autoSize="none" x="5" y="7" width="210" height="24"/>
+			
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="avatarColl.unitCellList" 
+			parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="1" hScrollProxy="2" vUnitIncrement="3"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|AvatarCollection.view.AvatarCollectionUnitListCell,37,210" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="236" height="244" x="19" y="52" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.propertyCell.nameTxt"
+			textFormatStyle="avatarColl.propertyCell.nameTxt.tf" filterString="avatarColl.propertyCell.nameTxt.gf"
+			x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.propertyCell.valueTxt"
+			textFormatStyle="avatarColl.propertyCell.valueTxt.tf" filterString="avatarColl.propertyCell.valueTxt.gf"
+			autoSize="none" width="65" height="22" x="33" y="1"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.propertyTip.titleTxt"
+			textFormatStyle="avatarColl.propertyTip.titleTxt.tf" filterString="avatarColl.propertyTip.titleTxt.gf"
+			x="12" y="10"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.propertyTip.nameTxt"
+			textFormatStyle="avatarColl.propertyTip.nameTxt.tf" filterString="avatarColl.propertyTip.nameTxt.gf"
+			x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.propertyTip.valueTxt"
+			textFormatStyle="avatarColl.propertyTip.valueTxt.tf" filterString="avatarColl.propertyTip.valueTxt.gf"
+			x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.rightView.descTxt"
+			textFormatStyle="avatarColl.rightView.descTxt.tf" filterString="avatarColl.rightView.descTxt.gf"
+			x="280" y="252"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.rightView.honorTxt"
+			textFormatStyle="avatarColl.rightView.honorTxt.tf" filterString="avatarColl.rightView.honorTxt.gf"
+			autoSize="none" width="95" height="24" x="24" y="3"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.rightView.goldTxt"
+			textFormatStyle="avatarColl.rightView.goldTxt.tf" filterString="avatarColl.rightView.goldTxt.gf"
+			autoSize="none" width="95" height="24" x="159" y="3"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="avatarColl.itemCell.btn" backStyle="asset.avatarColl.itemCell.btn"
+			x="-1" y="51" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="avatarColl.canActivitySCB" 
+			parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" 
+			backStyle="asset.avatarColl.canActivityIcon" x="19" y="381"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.itemTip.typeNameTxt"
+			textFormatStyle="avatarColl.itemTip.typeNameTxt.tf" filterString="avatarColl.itemTip.typeNameTxt.gf"
+			x="14" y="35"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.itemTip.typeValueTxt"
+			textFormatStyle="avatarColl.itemTip.typeValueTxt.tf" filterString="avatarColl.itemTip.typeValueTxt.gf"
+			x="46" y="34"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.timeView.txt"
+			textFormatStyle="avatarColl.timeView.txt.tf" filterString="avatarColl.timeView.txt.gf"
+			x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="avatarColl.timeView.btn" backStyle="asset.avatarColl.delayTimeBtn"
+			x="147" y="-10" />
+			
+		<component classname="AvatarCollection.view.AvatarCollectionDelayConfirmFrame" 
+			stylename="avatarColl.delayConfirmFrame" parentStyle="BaseFrame" 
+			moveEnable="false" width="400" height="220" containerX="15" containerY="5"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.delayConfirmFrame.dayNameTxt" 
+			textFormatStyle="avatarColl.delayConfirmFrame.dayNameTxt.tf" 
+			filterString="avatarColl.delayConfirmFrame.dayNameTxt.gf" 
+			x="37" y="74"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.delayConfirmFrame.promptTxt" 
+			textFormatStyle="avatarColl.delayConfirmFrame.promptTxt.tf" 
+			filterString="avatarColl.delayConfirmFrame.promptTxt.gf" 
+			x="54" y="126" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="avatarColl.itemCellTip.notActivityTxt"
+			textFormatStyle="avatarColl.itemCellTip.notActivityTxt.tf" filterString="avatarColl.itemCellTip.notActivityTxt.gf"
+			x="83" y="61"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="avatarColl.itemCell.buyBtn" backStyle="asset.avatarColl.itemCell.buyBtn" x="-1" y="51"/>
+<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="avatarColl.canBuySCB" parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="asset.avatarColl.canBuyIcon" x="157" y="381"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.avatarColl.selectUnitBg" x="0" y="44"/>
+		
+		<bitmapData resourceLink="asset.avatarColl.propertyBg" x="31" y="1"/>
+		
+		<bitmapData resourceLink="asset.avatarColl.rightArrows" x="224" y="-23"/>
+		
+		<bitmapData resourceLink="asset.avatarColl.canActivityIcon" x="29" y="6" />
+		
+		<bitmapData resourceLink="asset.avatarColl.unitCell.canActivityIcon" x="163" y="-8" />
+		<bitmapData resourceLink="asset.avatarColl.canBuyIcon" x="29" y="6"/>
+		
+	</bitmaps>
+</style>

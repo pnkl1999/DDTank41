@@ -1,0 +1,16 @@
+﻿public enum GuildMemberWeekPackageType
+{
+    OPEN = 7,
+    PLAYERTOP10 = 8,
+    ADDPOINTBOOK10 = 9,
+    GET_MYRUNKING = 11,
+    ADDPOINTBOOKRECORD = 10,
+    UPADDPOINTBOOK = 12,
+    SHOWACTIVITYEND = 13,
+    ENTER_GAME = 8,
+    CLOSE = 9,
+    SEND_ADDRUNKING = 10,
+    FINISHACTIVITY = 53,
+    SHOWRUNKING = 54,
+
+}

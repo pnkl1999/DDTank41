@@ -1,0 +1,357 @@
+﻿<style name="churchRoom" version="1.0.1" source="ui/spain/swf/churchRoom.swf">
+<sets>
+<set stylename="church.Room.textFormat11" args="Arial,13,0xffff00,true" type="flash.text.TextFormat" align="center" />
+<set stylename="church.textFormat12" args="Arial,14,0xC51C1C,true" type="flash.text.TextFormat" />
+<set stylename="church.textFormat20" args="Arial,14,0xFF0000,true" type="flash.text.TextFormat" />
+<set stylename="church.textFormat50" args="Arial,14,0xFF0000,true,,,,,center" type="flash.text.TextFormat" />
+<set stylename="church.textFormat21" args="Arial,14,0xFF0000,true" type="flash.text.TextFormat" />
+<set stylename="church.textFormat13" args="Arial,14,0x000000" type="flash.text.TextFormat" />
+<set stylename="church.textFormat14" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat" />
+<set stylename="church.textFormat15" args="Arial,12,0x999999" type="flash.text.TextFormat" />
+<set stylename="church.textFormat16" args="Arial,12,0x302B27" type="flash.text.TextFormat" />
+<set stylename="church.textFormat17" args="Arial,16,0x5BFF09,true" type="flash.text.TextFormat" />
+<set stylename="church.textFormat18" args="Arial,16,0xDF0300,true" type="flash.text.TextFormat" />
+<set stylename="church.textFormat19" args="Arial,16,0x000000,true" type="flash.text.TextFormat" />
+<set stylename="church.room.textFormat20" args="Arial,21,0x000000,true" type="flash.text.TextFormat" />
+<set stylename="church.room.textFormat10" args="Arial,14,0x000000" type="flash.text.TextFormat"  kerning="true" letterSpacing="3"/>
+<set stylename="church.room.textFormat21" args="Arial,12,0xFFFF00" type="flash.text.TextFormat"/>
+<set args="0x000000,10,2,2" stylename="church.room.GlowFilter1" type="flash.filters.GlowFilter" align="right"/>
+<set args="0xffffff,1,2,2,100,1" stylename="church.room.GlowFilter2" type="flash.filters.GlowFilter"/>
+</sets>
+<customDisplay>
+	<!--房间内工具菜单-->
+	<custom classname="church.view.weddingRoom.WeddingRoomToolView" stylename="church.weddingRoom.WeddingRoomToolView" x="668" y="474" />
+	
+	<!--礼花列表窗口-->
+	<custom classname="church.view.churchFire.ChurchFireView" stylename="church.churchFire.ChurchFireView" x="855" y="240" />
+	<!--礼花列表礼花物品小图片放置点及高宽-->
+	<custom classname="flash.geom.Rectangle" stylename="asset.church.room.fireIconRectangle" x="3" y="3" width="48" height="48" />
+	
+	<custom classname="flash.geom.Point" stylename="church.ChurchFireCell.bgPos" x="3"
+		y="3"/>
+	
+	<custom classname="flash.geom.Point" stylename="church.MoonSceneMap.saluteFirePos" x="700"
+		y="300"/>
+	
+	<custom classname="flash.geom.Point" stylename="church.WeddingSceneMap.bridePos" x="715"
+		y="1310"/>
+	<custom classname="flash.geom.Point" stylename="church.WeddingSceneMap.groomPos" x="620"
+		y="1308"/>
+	<custom classname="flash.geom.Point" stylename="church.WeddingSceneMap.bridePosII" x="1094"
+		y="743"/>
+	
+	<custom classname="flash.geom.Point" stylename="church.WeddingRoomView.sceneMapVOPos" x="800"
+		y="763"/>
+	<custom classname="flash.geom.Point" stylename="church.WeddingRoomView.sceneMapVOPosII" x="646"
+		y="1241"/>
+	<!--每个礼花所需要金币-->
+	<custom classname="int" stylename="asset.church.room.fireUseGold" args="200" />
+	
+	<!--房间管理-宾客列表-->
+	<custom classname="church.view.weddingRoom.frame.WeddingRoomGuestListView" stylename="church.weddingRoom.frame.WeddingRoomGuestListView" x="770" y="65" />
+	<custom classname="church.view.weddingRoom.frame.WeddingRoomGuestListItemView" stylename="church.weddingRoom.frame.WeddingRoomGuestListItemView" />
+	<custom classname="ddt.view.common.LevelIcon" stylename="church.weddingRoom.frame.WeddingRoomGuestListItemLevelIcon" x="5" y="0"/>
+	<custom classname="ddt.view.common.SexIcon" stylename="church.weddingRoom.frame.WeddingRoomGuestListItemSexIcon" x="153" y="3"/>
+	
+	<!--房间管理-邀请宾客-->
+	<custom classname="ddt.view.common.LevelIcon" stylename="church.weddingRoom.frame.WeddingRoomInviteItemLevelIcon" x="0" y="-2"/>
+	<custom classname="ddt.view.common.SexIcon" stylename="church.weddingRoom.frame.WeddingRoomInviteItemSexIcon" x="28" y="1"/>	
+	
+	<!--房间内进入赏月场景按钮-->
+	<custom classname="asset.church.room.moonBtnAsset" stylename="church.room.moonBtnAsset" x="526" y="516"/>
+	
+	<!--房间内神父泡泡配置-->
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO1" isMask="true" rowNumber="4" rowWitdh="162" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO2" isMask="true" rowNumber="5" rowWitdh="179" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO3" isMask="true" rowNumber="2" rowWitdh="173" rowHeight="23.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO4" isMask="true" rowNumber="4" rowWitdh="173" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO5" isMask="true" rowNumber="2" rowWitdh="173" rowHeight="23.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO6" isMask="false" rowNumber="1" rowWitdh="76" rowHeight="19.5" frameStep="3" sleepSecond="2"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO7" isMask="true" rowNumber="2" rowWitdh="173" rowHeight="23.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO8" isMask="true" rowNumber="5" rowWitdh="173" rowHeight="19" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO9" isMask="true" rowNumber="2" rowWitdh="173" rowHeight="24.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO10" isMask="false" rowNumber="1" rowWitdh="76" rowHeight="19.5" frameStep="3" sleepSecond="2"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO11" isMask="true" rowNumber="5" rowWitdh="179" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO12" isMask="true" rowNumber="4" rowWitdh="152" rowHeight="18" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO13" isMask="true" rowNumber="5" rowWitdh="179" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO14" isMask="true" rowNumber="4" rowWitdh="152" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO15" isMask="true" rowNumber="3" rowWitdh="173" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO16" isMask="false" rowNumber="1" rowWitdh="415" rowHeight="19.5" frameStep="3" sleepSecond="2"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO17" isMask="true" rowNumber="3" rowWitdh="194" rowHeight="20.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO18" isMask="false" rowNumber="1" rowWitdh="415" rowHeight="19.5" frameStep="3" sleepSecond="2"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO19" isMask="true" rowNumber="3" rowWitdh="194" rowHeight="20.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO20" isMask="true" rowNumber="5" rowWitdh="173" rowHeight="19.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO21" isMask="true" rowNumber="2" rowWitdh="173" rowHeight="22" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO22" isMask="true" rowNumber="2" rowWitdh="173" rowHeight="22" frameStep="3" sleepSecond="1"/>
+	<custom classname="church.vo.FatherBallConfigVO" stylename="church.room.FatherBallConfigVO23" isMask="true" rowNumber="4" rowWitdh="190" rowHeight="21.5" frameStep="3" sleepSecond="1"/>
+	<custom classname="ddt.view.common.VipLevelIcon" stylename="asset.church.VipIcon"/>
+</customDisplay>
+<components>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.invite.masterRelationIcon" parentStyle="core.im.masterRelationIcon" x="28" y="1"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.filterFrameText5" textFormatStyle="church.textFormat12" />
+
+	<!--人物形象-人物名称-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.church.weddingRoom.characterPlayerNameAsset" textFormatStyle="church.textFormat17" />
+
+	<!--房间内操作菜单-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.church.weddingRoom.menuShowNameAsset" resourceLink="asset.church.room.menuShowNameAcAsset,asset.church.room.menuShowNameAsset" x="12" y="13"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.church.weddingRoom.menuShowPaoAsset" resourceLink="asset.church.room.menuShowPaoAcAsset,asset.church.room.menuShowPaoAsset" x="12" y="43"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.church.weddingRoom.menuShowFireAsset" resourceLink="asset.church.room.menuShowFireAcAsset,asset.church.room.menuShowFireAsset" x="12" y="73"/>
+
+	<!--房间内工具菜单-->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolSwitchBgAsset" backStyle="asset.church.room.toolSwitchBgAsset" filterString="null,lightFilter,null,grayFilter" x="0" y="66"/>
+	
+	<!--房间内工具菜单-礼堂管理-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnRoomAdminBg1Asset" resourceLink="asset.church.room.toolBtnBg2Asset,asset.church.room.toolBtnRoomAdminAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnRoomAdminBgAsset" resourceLink="asset.church.room.toolBtnRoomAdminAsset,church.room.toolBtnRoomAdminBg1Asset,church.room.toolBtnRoomAdminBg1Asset,asset.church.room.toolBtnRoomAdminAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnRoomAdminBtnAsset" backStyle="church.room.toolBtnRoomAdminBgAsset" x="35" y="71"/>
+	
+	<!--房间内工具菜单-邀请宾客-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnInviteGuestBg1Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.toolBtnInviteGuestAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnInviteGuestBgAsset" resourceLink="asset.church.room.toolBtnInviteGuestAsset,church.room.toolBtnInviteGuestBg1Asset,church.room.toolBtnInviteGuestBg1Asset,asset.church.room.toolBtnInviteGuestAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnInviteGuestBtnAsset" backStyle="church.room.toolBtnInviteGuestBgAsset" x="35" y="71"/>
+	
+	<!--房间内工具菜单-赠送礼金-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnGiftBg1Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.toolBtnGiftAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnGiftBgAsset" resourceLink="asset.church.room.toolBtnGiftAsset,church.room.toolBtnGiftBg1Asset,church.room.toolBtnGiftBg1Asset,asset.church.room.toolBtnGiftAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnGiftBtnAsset" backStyle="church.room.toolBtnGiftBgAsset" x="93" y="71"/>
+	
+	<!--房间内工具菜单-返礼-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnGiftBg2Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.btnAdminToGuest" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.backGiftAsset" resourceLink="asset.church.room.btnAdminToGuest,church.room.toolBtnGiftBg2Asset,church.room.toolBtnGiftBg2Asset,asset.church.room.btnAdminToGuest" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.church.room.adminToGuest" backStyle="church.room.backGiftAsset" x="123" y="9"/>
+	
+	
+	<!--房间内工具菜单-礼花-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnFireBg1Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.toolBtnFireAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnFireBgAsset" resourceLink="asset.church.room.toolBtnFireAsset,church.room.toolBtnFireBg1Asset,church.room.toolBtnFireBg1Asset,asset.church.room.toolBtnFireAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnFireBtnAsset" backStyle="church.room.toolBtnFireBgAsset" useLogID="93" x="152" y="71"/>
+	
+	<!--房间内工具菜单-充值-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnFillBg1Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.toolBtnFillAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnFillBgAsset" resourceLink="asset.church.room.toolBtnFillAsset,church.room.toolBtnFillBg1Asset,church.room.toolBtnFillBg1Asset,asset.church.room.toolBtnFillAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnFillBtnAsset" backStyle="church.room.toolBtnFillBgAsset" useLogID="90" x="211" y="71"/>	
+	
+	<!--房间内工具菜单-退出-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnExitBg1Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.toolBtnExitAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnExitBgAsset" resourceLink="asset.church.room.toolBtnExitAsset,church.room.toolBtnExitBg1Asset,church.room.toolBtnExitBg1Asset,asset.church.room.toolBtnExitAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnExitBtnAsset" backStyle="church.room.toolBtnExitBgAsset" x="270" y="71"/>
+
+	<!--房间内工具菜单-返回-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnBackBg1Asset" resourceLink="asset.church.room.toolBtnBg1Asset,asset.church.room.toolBtnBackAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnBackBgAsset" resourceLink="asset.church.room.toolBtnBackAsset,church.room.toolBtnBackBg1Asset,church.room.toolBtnBackBg1Asset,asset.church.room.toolBtnBackAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnBackBtnAsset" backStyle="church.room.toolBtnBackBgAsset" x="270" y="71"/>
+
+	<!--房间内工具菜单-举行婚礼-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnStartWeddingBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnStartWeddingAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnStartWeddingBgAsset" resourceLink="asset.church.room.toolBtnStartWeddingAsset,church.room.toolBtnStartWeddingBg1Asset,church.room.toolBtnStartWeddingBg1Asset,asset.church.room.toolBtnStartWeddingAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnStartWeddingBtnAsset" backStyle="church.room.toolBtnStartWeddingBgAsset" x="33" y="9"/>
+	
+	<!--房间内工具菜单-房主邀请宾客-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnAdminInviteGuestBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnAdminInviteGuestAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnAdminInviteGuestBgAsset" resourceLink="asset.church.room.toolBtnAdminInviteGuestAsset,church.room.toolBtnAdminInviteGuestBg1Asset,church.room.toolBtnAdminInviteGuestBg1Asset,asset.church.room.toolBtnAdminInviteGuestAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnAdminInviteGuestBtnAsset" backStyle="church.room.toolBtnAdminInviteGuestBgAsset" x="90" y="9"/>
+		
+	<!--房间内工具菜单-宾客列表-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnGuestListBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnGuestListAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnGuestListBgAsset" resourceLink="asset.church.room.toolBtnGuestListAsset,church.room.toolBtnGuestListBg1Asset,church.room.toolBtnGuestListBg1Asset,asset.church.room.toolBtnGuestListAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnGuestListBtnAsset" backStyle="church.room.toolBtnGuestListBgAsset" x="149" y="9"/>	
+	
+	<!--房间内工具菜单-续费-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnContinuationBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnContinuationAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnContinuationBgAsset" resourceLink="asset.church.room.toolBtnContinuationAsset,church.room.toolBtnContinuationBg1Asset,church.room.toolBtnContinuationBg1Asset,asset.church.room.toolBtnContinuationAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnContinuationBtnAsset" backStyle="church.room.toolBtnContinuationBgAsset" useLogID="91" x="208" y="9"/>	
+
+	<!--房间内工具菜单-房间设置-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnModifyBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnModifyAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnModifyBgAsset" resourceLink="asset.church.room.toolBtnModifyAsset,church.room.toolBtnModifyBg1Asset,church.room.toolBtnModifyBg1Asset,asset.church.room.toolBtnModifyAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnModifyBtnAsset" backStyle="church.room.toolBtnModifyBgAsset" x="268" y="9"/>	
+
+	<!--房间内赠送工具菜单-礼品-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnSendGiftBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnSendGiftAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnSendGiftBgAsset" resourceLink="asset.church.room.toolBtnSendGiftAsset,church.room.toolBtnSendGiftBg1Asset,church.room.toolBtnSendGiftBg1Asset,asset.church.room.toolBtnSendGiftAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnSendGiftAsset" backStyle="church.room.toolBtnSendGiftBgAsset" x="63" y="9"/>
+	
+	<!--房间内赠送工具菜单-红包-->
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="church.room.toolBtnSendCashBg1Asset" resourceLink="asset.church.room.toolBtnBg3Asset,asset.church.room.toolBtnSendCashAsset" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.toolBtnSendCashBgAsset" resourceLink="asset.church.room.toolBtnSendCashAsset,church.room.toolBtnSendCashBg1Asset,church.room.toolBtnSendCashBg1Asset,asset.church.room.toolBtnSendCashAsset" filterString="null,null,null,grayFilter" />
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.toolBtnSendCashAsset" backStyle="church.room.toolBtnSendCashBgAsset" x="123" y="9"/>
+	
+	<!--礼花-->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.fireCloseAsset" backStyle="asset.church.room.fireCloseAsset" filterString="null,lightFilter,null,grayFilter" x="127" y="3"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.fireGlodLabelAsset" textFormatStyle="church.room.textFormat21" x="9" y="198" width="36" height="16"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.fireGlodAsset" textFormatStyle="church.room.textFormat21" x="45" y="198" autoSize="none" width="73" height="16"/>
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="church.room.fireListBoxAsset" x="8" y="25" width="135" height="165" spacing="7"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.fireItemGlodAsset" textFormatStyle="church.Room.textFormat11" filterString="church.room.GlowFilter1" x="0" y="32" autoSize="none" width="54" height="20"/>
+	
+	<!--赠送礼金窗口-->
+	<component classname="church.view.weddingRoom.frame.WeddingRoomGiftFrameView" parentStyle="BaseFrame" moveEnable="false" stylename="church.weddingRoom.frame.WeddingRoomGiftFrameView" width="353" height="203" />
+	<component classname="church.view.weddingRoom.frame.WeddingRoomGiftFrameForGuest" parentStyle="BaseFrame" moveEnable="false" stylename="church.weddingRoom.frame.WeddingRoomGiftFrameViewForGuest" width="353" height="203" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" type="input" stylename="church.weddingRoom.frame.WeddingRoomGiftFrameMoneyTextAsset" textFormatStyle="church.textFormat50" autoSize="none" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="5,5,3,2,0" x="203" y="67" width="70" height="21" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" type="input" stylename="church.weddingRoom.frame.WeddingRoomGiftFrameMoneyTextAssetForGuest" textFormatStyle="church.textFormat21" autoSize="none" focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="5,5,3,2,0" x="112" y="87" width="70" height="21" />
+	<!--房间管理-房间设置-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.weddingRoom.frame.WeddingRoomCreateViewInput"
+		textFormatStyle="church.room.textFormat10" wordWrap="true"  multiline='true'
+		type="input" x="2" y="2" />
+	<component classname="church.view.weddingRoom.frame.WeddingRoomConfigView" parentStyle="BaseFrame" moveEnable="false" stylename="church.weddingRoom.frame.WeddingRoomConfigView" width="305" height="475" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.weddingRoom.configRoomFrameTopBg" parentStyle="core.scale9CornerImage1" x="20" y="60" width="266" height="111"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.weddingRoom.configRoomFrameBottomBg" parentStyle="core.scale9CornerImage3" x="12" y="208" width="281" height="214"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.weddingRoom.txtConfigRoomName" type="input" autoSize="none" maxChars="40" multiline="false" textFormatStyle="church.textFormat2" textInnerRectString="10,10,3,2,0" x="40" y="85" width="224" height="21"/>
+	<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="church.weddingRoom.chkConfigRoomPassword" parentStyle="core.simpleSelectBtn" selectedIconStyle="asset.church.room.configRoomModifyPasswordAsset" unselectedIconStyle="asset.church.room.configRoomModifyPasswordAsset" x="69" y="125"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="church.weddingRoom.txtConfigRoomPassword" textStyle="church.filterFrameText1" textInnerRectString="0,0,2,0,0" backStyle="core.textInputBg" x="152" y="123" width="112" height="17" filterString="null,grayFilter"/>
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="church.weddingRoom.txtConfigRoomIntro" textStyle="church.weddingRoom.frame.WeddingRoomCreateViewInput" parentStyle="core.SimpleTextArea" width="271" vScrollProxy='0' height="205" x="17" y="215" vUnitIncrement="10"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.weddingRoom.roomConfigIntroMaxChLabelAsset" textFormatStyle="church.textFormat3" x="100" y="191" width="80" height="16"/>
+
+	<!--房间管理-房间续费-->
+	<component classname="church.view.weddingRoom.frame.WeddingRoomContinuationView" parentStyle="BaseFrame" moveEnable="false" stylename="church.weddingRoom.frame.WeddingRoomContinuationView" width="300" height="215" />
+	
+	<!--房间管理-宾客列表-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.weddingRoom.guestListBg" parentStyle="core.scale9CornerImage5" x="0" y="0" width="236" height="298"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="church.room.guestListCloseAsset" backStyle="asset.church.room.guestListCloseAsset" filterString="null,lightFilter,null,grayFilter" x="188" y="14"/>
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="church.room.listGuestListAsset" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|church.weddingRoom.frame.WeddingRoomGuestListItemView,27,172" listStyle="com.pickgliss.ui.controls.list.List" width="201" height="206" x="15" y="68" hScrollProxy="2" vUnitIncrement="10"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.listGuestListItemInfoAsset" textFormatStyle="church.textFormat13" autoSize="none" x="43" y="2" width="121" height="21" isAutoFitLength="true"/>
+
+	<!--房间管理-宾客列表-弹出菜单-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.weddingRoom.guestListMenuBg" parentStyle="core.scale9CornerImage6" x="0" y="0" width="95" height="55"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.listGuestListMenuItemInfoAsset" textFormatStyle="church.textFormat14" x="0" y="0" width="95" height="18"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.listGuestListMenuItemBgAsset" resourceLink=",asset.church.room.guestListMenuBgAcAsset" />
+	
+	<!--房间管理-邀请宾客-->
+	<component classname="church.view.invite.ChurchInviteView" parentStyle="BaseFrame" stylename="church.invite.ChurchInviteView" containerX="10" containerY="30" width="275" height="373" />
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="church.room.invitePlayerListAsset" hScrollbarStyle="core.HScrollbar" vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|church.view.invite.ChurchInvitePlayerItem,32,224" listStyle="com.pickgliss.ui.controls.list.List" width="250" height="227" x="5" y="60" hScrollProxy="1" vUnitIncrement="10"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.inviteFriendBtnAsset" resourceLink="asset.church.room.guestInviteFriendBtnAcAsset,asset.church.room.guestInviteFriendBtnAsset" x="0" y="5" />	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.inviteConsortiaBtnAsset" resourceLink="asset.church.room.guestInviteConsortiaBtnAcAsset,asset.church.room.guestInviteConsortiaBtnAsset" x="85" y="5" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.inviteItemInfoAsset" textFormatStyle="church.textFormat16" x="46" y="2" width="131" height="19"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.inviteItemInviteBtnAsset" resourceLink="asset.church.room.guestInviteBtnAsset,asset.church.room.guestInviteOkBtnAsset" x="180" y="1" />
+
+	<!--举行婚礼倒计时-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.startWeddingCountDownAsset" x="420" y="180" resourceLink=",asset.church.room.startWeddingCountDown9Asset,asset.church.room.startWeddingCountDown8Asset,asset.church.room.startWeddingCountDown7Asset,asset.church.room.startWeddingCountDown6Asset,asset.church.room.startWeddingCountDown5Asset,asset.church.room.startWeddingCountDown4Asset,asset.church.room.startWeddingCountDown3Asset,asset.church.room.startWeddingCountDown2Asset,asset.church.room.startWeddingCountDown1Asset,asset.church.room.startWeddingCountDown0Asset" />
+
+	<!--房间内房间名称-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="church.weddingRoom.roomNameBg" parentStyle="core.scale9CornerImage7"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.weddingRoom.roomNameGroomBrideName" textFormatStyle="church.textFormat18" filterString="church.room.GlowFilter2"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.weddingRoom.roomNameWedding" textFormatStyle="church.textFormat19" filterString="church.GlowFilter2"/>
+
+	<!--房间内神父泡泡文字-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.FatherPaopao" resourceLink="asset.church.room.FatherPaopao1,asset.church.room.FatherPaopao2,asset.church.room.FatherPaopao3,asset.church.room.FatherPaopao4,asset.church.room.FatherPaopao5,asset.church.room.FatherPaopao6,asset.church.room.FatherPaopao7,asset.church.room.FatherPaopao8,asset.church.room.FatherPaopao9,asset.church.room.FatherPaopao10,asset.church.room.FatherPaopao11,asset.church.room.FatherPaopao12,asset.church.room.FatherPaopao13,asset.church.room.FatherPaopao14,asset.church.room.FatherPaopao15,asset.church.room.FatherPaopao16,asset.church.room.FatherPaopao17,asset.church.room.FatherPaopao18,asset.church.room.FatherPaopao19,asset.church.room.FatherPaopao20,asset.church.room.FatherPaopao21,asset.church.room.FatherPaopao22,asset.church.room.FatherPaopao23" x="1013" y="320" />
+	<!--房间内神父泡泡文字背景框-->
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="church.room.FatherPaopaoBg" resourceLink="asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg5,,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg9,,asset.church.room.FatherPaopaoBg11,asset.church.room.FatherPaopaoBg12,asset.church.room.FatherPaopaoBg13,asset.church.room.FatherPaopaoBg14,asset.church.room.FatherPaopaoBg15,,asset.church.room.FatherPaopaoBg17,,asset.church.room.FatherPaopaoBg19,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg5,asset.church.room.FatherPaopaoBg1,asset.church.room.FatherPaopaoBg1" x="1013" y="320" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.FatherPaopaoBrideName" textFormatStyle="church.room.textFormat20" autoSize="none" width="170" height="30" isAutoFitLength="true" x="1018" y="330" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.FatherPaopaoGroomName" textFormatStyle="church.room.textFormat20" autoSize="none" width="170" height="30" isAutoFitLength="true" x="1018" y="330" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.FatherPaopaoGroomName2" textFormatStyle="church.room.textFormat20" autoSize="none" width="170" height="30" isAutoFitLength="true" x="1018" y="350" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="church.room.FatherPaopaoBrideName2" textFormatStyle="church.room.textFormat20" autoSize="none" width="170" height="30" isAutoFitLength="true" x="1018" y="330" />
+	
+	<custom classname="flash.geom.Point" stylename="church.room.CreateIntroPos" x="15"
+		y="171"/>
+	<custom classname="flash.geom.Point" stylename="church.room.IntroMaxChBgPos" x="95"
+		y="191"/>
+	<custom classname="flash.geom.Point" stylename="church.room.RoomNameTitlePos" x="22"
+		y="40"/>
+</components>
+<bitmaps>
+	<!--房间内操作菜单-->
+	<bitmapData resourceLink="asset.church.room.menuShowNameAcAsset" x="-4" y="-4" />
+	<bitmapData resourceLink="asset.church.room.menuShowPaoAcAsset" x="-4" y="-4" />
+	<bitmapData resourceLink="asset.church.room.menuShowFireAcAsset" x="-4" y="-4" />
+	
+	<!--房间内工具菜单-->
+	<bitmapData resourceLink="asset.church.room.toolBgAsset" x="0" y="66" />
+	<bitmapData resourceLink="asset.church.room.toolSwitchAsset" x="6" y="76" />
+	<bitmapData resourceLink="asset.church.room.toolBtnRoomAdminAsset" x="0" y="5" />
+	<bitmapData resourceLink="asset.church.room.toolBtnInviteGuestAsset" x="0" y="3" />
+	<bitmapData resourceLink="asset.church.room.toolBtnGiftAsset" x="3" y="0" />
+	<bitmapData resourceLink="asset.church.room.toolBtnFireAsset" x="3" y="0" />	
+	<bitmapData resourceLink="asset.church.room.toolBtnFillAsset" x="2" y="0" />
+	<bitmapData resourceLink="asset.church.room.toolBtnExitAsset" x="9" y="3" />
+	<bitmapData resourceLink="asset.church.room.toolBtnBackAsset" x="9" y="3" />	
+	<bitmapData resourceLink="asset.church.room.toolAdminBgAsset" x="32" y="4" />
+	<bitmapData resourceLink="asset.church.room.toolBtnStartWeddingAsset" x="1" y="5" />
+	<bitmapData resourceLink="asset.church.room.toolBtnAdminInviteGuestAsset" x="1" y="5" />
+	<bitmapData resourceLink="asset.church.room.toolBtnGuestListAsset" x="1" y="3" />
+	<bitmapData resourceLink="asset.church.room.toolBtnContinuationAsset" x="1" y="3" />
+	<bitmapData resourceLink="asset.church.room.toolBtnModifyAsset" x="1" y="5" />
+	<bitmapData resourceLink="asset.church.room.startWeddingTipAsset" x="33" y="-75" />
+	<bitmapData resourceLink="asset.church.room.startWeddingTip2Asset" x="47" y="-40" />
+	
+	<!--礼花-->
+	<bitmapData resourceLink="asset.church.room.fireBgAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.fireCloseAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.fireGoldIconAsset" x="122" y="200" />
+	<bitmapData resourceLink="asset.church.room.fireItemBoxAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.fireItemBoxAcAsset" x="3" y="3" />
+	
+	<!--礼花物品小图标-->
+	<bitmapData resourceLink="asset.church.room.fireIcon21002" />
+	<bitmapData resourceLink="asset.church.room.fireIcon21006" />
+	
+	<!--赠送礼金-->
+	<bitmapData resourceLink="asset.church.room.giftFrameBgAsset" x="-13" y="-7"/>
+	
+	<!--房间管理-房间设置-->
+
+	<bitmapData resourceLink="asset.church.room.configRoomModifyPasswordAsset" x="17" y="-8" />
+
+	
+	<!--房间管理-房间续费-->
+	<bitmapData resourceLink="asset.church.room.continuationRoomFrameBgAsset" x="15" y="5" />
+	
+	<!--房间管理-宾客列表-->
+	<bitmapData resourceLink="asset.church.room.guestListCloseAsset" />
+	<bitmapData resourceLink="asset.church.room.guestListBoxAsset" x="10" y="10" />
+	<bitmapData resourceLink="asset.church.room.guestListItemBgAcAsset" x="3" y="1" />
+	
+	<!--房间管理-宾客列表-弹出菜单-->
+	<bitmapData resourceLink="asset.church.room.guestListMenuBgAcAsset" x="0" y="0" />
+	
+	<!--房间管理-邀请宾客-->
+	<bitmapData resourceLink="asset.church.room.guestInviteBgAsset" x="0" y="30" />
+	<bitmapData resourceLink="asset.church.room.guestInviteFriendBtnAcAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.guestInviteFriendBtnAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.guestInviteConsortiaBtnAcAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.guestInviteConsortiaBtnAsset" x="0" y="0" />
+	
+	<bitmapData resourceLink="asset.church.room.guestInviteItemLineAsset" x="0" y="23" />
+	<bitmapData resourceLink="asset.church.room.guestInviteBtnAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.church.room.guestInviteOkBtnAsset" x="0" y="0" />
+	
+	<!--房间内神父泡泡文字背景框-->
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg1"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg5" y="28"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg9" y="28"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg11" x="-89" y="86"/>	
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg12" x="-74" y="103"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg13" x="14" y="83"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg14" x="20" y="103"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg15"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg17" x="-92" y="96"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopaoBg19" x="10" y="97"/>	
+	
+	<!--房间内神父泡泡文字-->
+	<bitmapData resourceLink="asset.church.room.FatherPaopao1" x="7" y="10"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao2" x="3" y="9"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao3" x="3" y="35"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao4" x="3" y="7"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao5" x="3" y="48"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao6" x="68" y="166"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao7" x="3" y="35"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao8" x="3" y="9"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao9" x="3" y="48"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao10" x="-34" y="163"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao11" x="-86" y="95"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao12" x="-71" y="113"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao13" x="17" y="93"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao14" x="23" y="113"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao15" x="3" y="9"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao16" x="-140" y="90"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao17" x="-87" y="109"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao18" x="-140" y="90"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao19" x="15" y="110"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao20" x="3" y="9"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao21" x="3" y="38"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao22" x="3" y="54"/>
+	<bitmapData resourceLink="asset.church.room.FatherPaopao23" x="3" y="9"/>
+	
+</bitmaps>
+</style>

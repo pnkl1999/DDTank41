@@ -1,0 +1,104 @@
+﻿<style name="chickActivation" version="1.0.1" source="ui/vietnam/swf/chickActivation.swf">
+<!--材料-->
+	<sets>
+		<set stylename="chickActivationFrame.helpTxtTF" args="Arial,12,0xe0d085,,,,,,left" type="flash.text.TextFormat" leading="5"/>
+		<set stylename="chickActivationFrame.helpTxtGF" args="0x3d1f02,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="chickActivationFrame.remainingTimeTxtTF" args="Arial,12,0xefff4d4,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="chickActivationFrame.remainingTimeTxtGF" args="0x431501,2,4,4,20"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="chickActivationFrame.seleBtnTxtTF" args="Arial,12,0xf3e494,,,,,,center" letterSpacing="0" type="flash.text.TextFormat"/>
+		<set type="flash.filters.GlowFilter" stylename="chickActivationFrame.seleBtnTxtGF" args="0x674219,1,4,4,30"/>
+		
+		<set stylename="assets.chickActivation.inputTxtTF" args="Arial,14,0x6f6048,true,,,,,center" letterSpacing="0" type="flash.text.TextFormat" underline="true"/>
+		<set type="flash.filters.GlowFilter" stylename="assets.chickActivation.inputTxtGF" args="0x674219,1,4,4,30"/>
+		
+		
+		<set stylename="chickActivationFrame.contentTxtTF"  args="Arial,12,0x654600,true,,,,,center,,,,15" type="flash.text.TextFormat"/>
+		<set stylename="aschickActivationFrame.contentTxtGF" type="flash.filters.GlowFilter" args="0xFFFFFF,1,4,4,30"/>
+		
+	</sets>
+	
+	<components>
+		<component classname="chickActivation.view.ChickActivationViewFrame" backStyle="SimpleFrameBackgound"
+			closestyle="core.closebt" stylename="ChickActivationViewFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="21" containerY="47" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="623" height="533" />
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="chickActivationFrame.helpScroll" 
+			parentStyle="core.ScrollPanel" hScrollProxy='2' vScrollProxy="1" vScrollbarInnerRectString="21,10,0,0,3"
+			width="500" height="100" x="55" y="347"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chickActivationFrame.helpTxt"
+			textFormatStyle="chickActivationFrame.helpTxtTF" filterString="chickActivationFrame.helpTxtGF" x="321" y="59"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chickActivationFrame.remainingTimeTxt"
+			textFormatStyle="chickActivationFrame.remainingTimeTxtTF" filterString="chickActivationFrame.remainingTimeTxtGF" x="375" y="10"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chickActivationFrame.parentSeleBtnTxt" textFormatStyle="chickActivationFrame.seleBtnTxtTF" filterString="chickActivationFrame.seleBtnTxtGF" type="dynamic"/>
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="chickActivationFrame.parentSeleBtn" selectedStyle="core.bg6901" unSelectedStyle="core.bg6913" filterString="null,lightFilter,null,grayFilter" textStyle=",chickActivationFrame.parentSeleBtnTxt"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="chickActivationFrame.selectBtn1" parentStyle="chickActivationFrame.parentSeleBtn" selectedStyle="chickActivation.frameBtnSelected1" backgoundInnerRectString="24|123|12|40|13,11|128|7|35|13" x="8" y="3" displacement="false"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="chickActivation.frameBtnSelected1" resourceLink="assets.chickActivation.frameBtnSelected1" imageRectString="128|39|0|0|9" width="128" height="39" x="0" y="-3" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="chickActivationFrame.selectBtn2" parentStyle="chickActivationFrame.parentSeleBtn" selectedStyle="chickActivation.frameBtnSelected2" backgoundInnerRectString="24|123|12|40|13,14|149|7|35|13" x="135" y="3" displacement="false"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="chickActivation.frameBtnSelected2" resourceLink="assets.chickActivation.frameBtnSelected2" imageRectString="149|39|0|0|9" width="149" height="39" x="0" y="-3" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chickActivationFrame.selectEveryDay" 
+			unSelectedStyle="assets.chickActivation.unSelectEveryDay" selectedStyle="assets.chickActivation.selectEveryDay" x="30" y="45" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chickActivationFrame.selectWeekly" 
+			unSelectedStyle="assets.chickActivation.unSelectWeekly" selectedStyle="assets.chickActivation.selectWeekly" x="140" y="45" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chickActivationFrame.selectAfterThreeDays" 
+			unSelectedStyle="assets.chickActivation.unSelectAfterThreeDays" selectedStyle="assets.chickActivation.selectAfterThreeDays" x="250" y="45" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chickActivationFrame.selectLevelPacks" 
+			unSelectedStyle="assets.chickActivation.unSelectLevelPacks" selectedStyle="assets.chickActivation.selectLevelPacks" x="360" y="45" />
+			
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="chickActivation.CoinsNum" resourceLink="assets.chickActivation.CoinsNum_1,assets.chickActivation.CoinsNum_2,assets.chickActivation.CoinsNum_3,assets.chickActivation.CoinsNum_4,assets.chickActivation.CoinsNum_5,assets.chickActivation.CoinsNum_6,assets.chickActivation.CoinsNum_7,assets.chickActivation.CoinsNum_8,assets.chickActivation.CoinsNum_9,assets.chickActivation.CoinsNum_0" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chickActivation.inputTxt" textFormatStyle="assets.chickActivation.inputTxtTF" type="input" autoSize="none" width="180" height="30" x="202" y="274"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chickActivation.activationBtn" backStyle="assets.chickActivation.activationBtn" filterString="null,lightFilter,null,grayFilter" x="385" y="270"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chickActivation.receiveBtn" backStyle="assets.chickActivation.receiveBtn" filterString="null,lightFilter,null,grayFilter" x="458" y="262"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="chickActivationFrame.itemsScrollPanel" 
+			parentStyle="core.ScrollPanel" hScrollProxy='2' vScrollProxy="1" vScrollbarInnerRectString="21,10,0,0,3"
+			width="530" height="160" x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="chickActivationFrame.buyChickActivationFrame" parentStyle="BaseFrame" width="414" height="200" containerX="13" containerY="45" moveEnable="false"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chickActivationFrame.contentTxt" textFormatStyle="chickActivationFrame.contentTxtTF" filterString="aschickActivationFrame.contentTxtGF" x="90" y="35"  width="280" height="20" wordWrap="true" type="dynamic"/>
+	</components>
+	<customDisplay>
+  		<custom classname="chickActivation.view.ChickActivationCoinsView" stylename="chickActivation.ChickActivationCoinsView" x="50" y="268"/>
+  		<custom classname="chickActivation.view.ChickActivationLevelPacks" stylename="chickActivation.ChickActivationLevelPacks" x="30" y="90"/>
+  		<custom classname="chickActivation.view.ChickActivationItems" stylename="chickActivation.ativationItems" x="30" y="90"/>
+  		
+  		<custom classname="flash.geom.Point" stylename="chickActivation.lineBitmapPos1" x="192" y="253"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.lineBitmapPos2" x="452" y="253"/>
+  		
+  		<custom classname="flash.geom.Point" stylename="chickActivation.progressLinePos1" x="0" y="40"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.progressLinePos2" x="0" y="120"/>
+  		
+  		<custom classname="flash.geom.Point" stylename="chickActivation.packsLevelBitmapPos" x="0" y="66"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.packsMoviePos" x="11" y="0"/>
+  		
+  		<custom classname="flash.geom.Point" stylename="chickActivation.promptMoviePos0" x="30" y="45"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.promptMoviePos1" x="140" y="45"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.promptMoviePos2" x="250" y="45"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.promptMoviePos3" x="360" y="45"/>
+  		
+  		<custom classname="flash.geom.Point" stylename="chickActivation.dropGoodsBeginPos" x="485" y="165"/>
+  		<custom classname="flash.geom.Point" stylename="chickActivation.dropGoodsEndPos" x="677" y="531"/>
+  		
+  		<custom classname="flash.geom.Point" stylename="chickActivationFrame.ShopPlayerCellPos" x="15" y="15"/>
+  		
+  	</customDisplay>
+	<bitmaps>
+		<bitmapData resourceLink="assets.chickActivation.mainBg" x='-4' y='-16'/>
+		<bitmapData resourceLink="assets.chickActivation.mainTitle" x='103' y='-68'/>
+		<bitmapData resourceLink="assets.chickActivation.helpTitle" x='12' y='340'/>
+		<bitmapData resourceLink="assets.chickActivation.priceBitmap" x='20' y='272'/>
+		<bitmapData resourceLink="assets.chickActivation.moneyIcon" x='167' y='272'/>
+		<bitmapData resourceLink="assets.chickActivation.inputBg" x='198' y='268'/>
+		<bitmapData resourceLink="assets.chickActivation.itemBg" x='-1' y='-1'/>
+		
+	</bitmaps>
+</style>

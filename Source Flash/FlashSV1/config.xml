@@ -1,0 +1,103 @@
+<root>
+<config>
+<FLASHSITE value="http://127.0.0.1/flash/"/>
+<BACKUP_FLASHSITE value="http://127.0.0.1/flash/"/>
+<!--  是否使用md5头校验  -->
+<USE_MD5 value="true"/>
+<SITE value="http://gunny.vcdn.vn/"/>
+<FIRSTPAGE value="http://127.0.0.1/"/>
+<REGISTER value="http://127.0.0.1/"/>
+<REQUEST_PATH value="http://127.0.0.1/Request/"/>
+<LOGIN_PATH value="http://127.0.0.1/server_list.html" siteName="风云弹弹堂"/>
+<FILL_PATH value="http://127.0.0.1/pay/"/>
+<WEEKLYSITE value="http://127.0.0.1/flash/"/>
+<POLICY_FILES>
+<file value="http://127.0.0.1/flash/crossdomain.xml"/>
+</POLICY_FILES>
+<FIGHTLIB value="true"/>
+<ALLOW_MULTI value="true"/>
+<SUIT enable="true"/>
+<DUNGEON_OPEN value="0,1,2,3,4,5,6,7,8,9,10,11,12,13,14"/>
+<TRAINER_PATH value="tutorial.swf"/>
+<MUSIC_LIST value="4004,1002,1003,1004,1005,1006,1007,1008,1009,1010,1011,1012,1013,1014,1023,1024,1025,1026,1027,1028,1029,1030,1031,1032,1034,1035,1036,1037,1038,1039,1040,1059,1060,1061,1062,1063,1065,1067,1068,1069,1077"/>
+<LANGUAGE value="vietnam"/>
+<PARTER_ID value="4004212"/>
+<STATISTIC value="true"/>
+<TOTEM enable="true"/>
+<NECKLACE enable="true"/>
+<SUCIDE_TIME value="120"/>
+<!--  战斗中的箱子显示，1箱子，3粽子，4月饼，5南瓜，6铃铛，7灯笼,8新春灯笼 -->
+<GAME_BOXPIC value="8"/>
+<ISTOPDERIICT value="true"/>
+<COUNT_PATH value="http://assayerhandler.7road.com/"/>
+<PHP isShow="false" link="false" site="http://baidu.com/" infoPath="http://stest.ddt.kaixin001.com.cn/test/SnsServer/GetSnsUserPortrait?uid={uid}"/>
+<OFFICIAL_SITE value="http://www.7road.com"/>
+<GAME_FORUM value="http://hi.baidu.com"/>
+<COMMUNITY_FRIeng_PATH isUser="false" value="http://d9.the9.com/webgame/ddt/addfrieng.php"/>
+<COMMUNITY_INVITE_PATH value="http://d9.the9.com/webgame/ddt/invite.php"/>
+<!--  社区开关 -->
+<COMMUNITY_FRIeng_LIST_PATH value="https://quest16.oasgames.com/IMFriengsBbs.ashx" snsPath="http://stest.ddt.kaixin001.com.cn/test/SnsServer/NotifySnsUserUpgrade" isexist="false" isexistBtnVisble="false"/>
+<COMMUNITY_FRIeng_INVITED_SWITCH value="false" invitedOnline="true"/>
+<!--  新浪微博第1代，把社区显示为微博 -->
+<COMMUNITY_MICROBLOG value="true"/>
+<!--  新浪微博第2代 -->
+<COMMUNITY_SINA_SECOND_MICROBLOG value="true"/>
+<ALLOW_POPUP_FAVORITE value="true"/>
+<FILL_JS_COMMAND value="sandaFillHandler" enable="true"/>
+<SHIELD_NOTICE value="true"/>
+<!--  桌面收藏开关节点  -->
+<DAILY enable="true"/>
+<!-- 客服系统开关节点 -->
+<FEEDBACK enable="true"/>
+<!-- 客户端下载开关节点 -->
+<DOWNLOAD value="true"/>
+<!-- 跨区大喇叭开关节点  -->
+<CROSSBUGGlLEBTN enable="true"/>
+<!-- 占卜系统开关节点 -->
+<LOTTERY enable="true"/>
+<!-- 幸运数字的开关节点  -->
+<LUCKY_NUMBER enable="true"/>
+<!-- 单机版新手引导的开关 -->
+<TRAINER_STANDALONE value="true"/>
+<!-- 3.3之前的新版新手引导开关 -->
+<USER_GUILD_ENABLE value="true"/>
+<!-- 远征码头等级限制 -->
+<MINLEVELDUPLICATE value="8"/>
+<!--
+ DISABLE_TASK_ID 为禁用的任务的ID，如有多个，请用逗号隔开 for example : 1002,1003,1004,新浪需要屏蔽的任务378,379,380,381,604
+-->
+<DISABLE_TASK_ID value="545,382,383,384,385"/>
+<CLIENT_DOWNLOAD value=""/>
+<STATISTICS enable="true"/>
+<!--  360游戏统计，包括登陆，进入战斗等 -->
+<EXTERNAL_INTERFACE_360 value="http://s.1360.cn/game_event" enable="true"/>
+<!-- 小游戏等级限制开关 -->
+<LITTLEGAMEMINLV value="20"/>
+<!--  交友中心和结婚的开关 -->
+<SHOW_BACKGROUND value="true"/>
+<FRAME_TIME_OVER_TAG value="67"/>
+<!--  游戏边框背景开关  -->
+<MODULE>
+    <WEEKLY enable="true"/>
+    <CIVIL enable="true"/>
+    <CHURCH enable="true"/>
+</MODULE>
+<CHAT_FACE>
+<DISABLED_LIST list="38"/>
+</CHAT_FACE>
+<!--
+ 每帧执行的毫秒数,正常值应为40毫秒,并允许在35至45毫秒之间波动  (游戏内正常帧速为 25帧/秒)
+-->
+<!--  连续低于上述毫秒的帧数 (游戏内正常帧速为 25帧/秒)  -->
+<GAME_FRAME_CONFIG>
+<FRAME_OVER_COUNT_TAG value="25"/>
+</GAME_FRAME_CONFIG>
+<PETS_EAT enable="true"/>
+</config>
+<update>
+<version from="1" to="17">
+<file value="flash/*"/>
+<file value="*"/>
+</version>
+</update>
+</root>

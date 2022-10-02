@@ -1,0 +1,257 @@
+<style name="consortion" version="3.1.0" source="ui/spain/swf/consortion.swf">
+	<sets>
+			<set stylename="consortia.TF1" args="Arial,16,0xFFE53F,true,,,,,center" type="flash.text.TextFormat" />
+			<set stylename="consortia.GF1" args="0xD8851A,1,3,3,10" type="flash.filters.GlowFilter"/>
+			<set stylename="consortia.TF2" args="Arial,14,0x003366,true" 	type="flash.text.TextFormat" /> 
+			<set stylename="consortia.GF2" args="0xF3EBE2,1,4,4,10" type="flash.filters.GlowFilter"/>
+			<set stylename="consortia.TF3" args="Arial,14,0xFFFFFF"  leading="4"	type="flash.text.TextFormat" /> 
+			<set stylename="consortia.TF4" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat" /> 
+			<set stylename="consortia.GF4" args="1,45,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>
+			<set stylename="consortia.TF5" args="Arial,15,0xFF0000" type="flash.text.TextFormat"/>
+			<set stylename="consortia.GF5" args="0xFCFCFC,1,2,2,10" type="flash.filters.GlowFilter"/>
+			<set stylename="consortia.TF6" args="Arial,12,0xDD9200" type="flash.text.TextFormat"/>
+			<set stylename="consortia.GF6" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+			<set stylename="consortia.TF7" args="Arial,12,0xCCCCCC" type="flash.text.TextFormat"/>
+			<set stylename="consortia.TF8" args="Arial,16,0x013465,,,,,,left"  leading="3" type="flash.text.TextFormat"/>
+			<set stylename="consortia.GF8" args="0xffffff,1,4,4,10" type="flash.filters.GlowFilter"/>
+			<set stylename="consortia.TF9" args="Arial,10,0xFFFFFF" type="flash.text.TextFormat"/>
+			<set stylename="consortia.TF10" args="Arial,14,0xFFFFFF,,,,,,center"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF11" args="Arial,14,0xFF0000"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF12" args="Arial,16,0xffecb9,,,,,,center"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF13" args="Arial,14,0xFFFFFF,,,,,,center"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF14" args="Arial,14,0x000000"  type="flash.text.TextFormat" />
+			
+			<set stylename="consortia.TF15" args="Arial,12,0xffffff"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF16" args="Arial,12,0xff9600"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF17" args="Arial,12,0xffffff,,,,,,center"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF18" args="Arial,12,0xff9600,,,,,,center"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF19" args="Arial,12,0xffecb9,true"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF20" args="Arial,12,0xffe43b,,,,,,center"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF21" args="Arial,12,0xffffff"  type="flash.text.TextFormat" />
+			<set stylename="consortia.TF22" args="Arial,12,0xea3d3d,true,,,,,center"  type="flash.text.TextFormat" />
+			
+			<set stylename="consortia.GF21" args="1,45,0x7b5203,1,5,5,10" type="flash.filters.DropShadowFilter"/>
+			<set stylename="consortia.GF22" args="1,45,0xfffeed,1,2,2,10" type="flash.filters.DropShadowFilter"/>
+			<set stylename="simpleTextButtonTF" args="Arial,12,0xffffff,true" type="flash.text.TextFormat"  letterSpacing="2"/>
+	</sets>
+	
+	<components>
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="DissolveConsortia"  parentStyle="core.simplebt" x="217" y="188" />
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.buildLevel"  textFormatStyle="consortia.TF1" filterString="consortia.GF1"  autoSize="none" width="47" height="24" x="32" y="5" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortia.tipText1"  textFormatStyle="consortia.TF2" filterString="consortia.GF2" x="3" y="5"  /> 
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortia.tipText2"  textFormatStyle="consortia.TF3"  wordWrap="true"  multiline="true"  width='190'  x="90" y="5"  />
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="consortion.wordBG" resourceLink="asset.consortion.level,asset.consortion.name" x="58" y="33"/>
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.level" resourceLink="asset.consortion.level1,asset.consortion.level2,asset.consortion.level3,asset.consortion.level4,asset.consortion.level5,asset.consortion.level6,asset.consortion.level7,asset.consortion.level8,asset.consortion.level9,asset.consortion.level10"  x="302"  y="20"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.name"  textFormatStyle="consortia.TF4" filterString="consortia.GF4" autoSize="none" width="158" height="22" x="460" y="60" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.chairmanName"  parentStyle="consortion.name"  autoSize="none"  width="134" height="22" x="141" y="97" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.count"  parentStyle="consortion.name"  autoSize="none"  width="41" height="22" x="330" y="99" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.riches"  parentStyle="consortion.name"  autoSize="none"  width="115" height="22" x="418" y="99" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.offer"  parentStyle="consortion.name"  autoSize="none"  width="110" height="22" x="581" y="99" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.repute"  parentStyle="consortion.name"  autoSize="none"  width="56" height="22" x="741" y="99" />
+			<component classname="com.pickgliss.ui.text.FilterFrameTextWithTips" stylename="consortion.weekPay"  textFormatStyle="consortia.TF4" filterString="consortia.GF4"  tipStyle="keepPayTip"  tipDirctions="3" autoSize="none"  width="85" height="22" x="867" y="99" />
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="keepPayTip.name"  textFormatStyle="consortia.TF5" filterString="consortia.GF5"  	x="9" y="6" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="keepPayTip.discript"  	textFormatStyle="consortia.TF6" filterString="consortia.GF6"  x="9" y="32" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="keepPayTip.time"  textFormatStyle="consortia.TF7"	x="105" y="32" 	/>
+			
+			<!-- memberList -->
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="memberList.name"  backStyle="asset.memberList.name" 	x="12"  y="6"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="memberList.job"  backStyle="asset.memberList.job"  x="182"  y="6"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="memberList.level"  backStyle="asset.memberList.level"  x="259" y="6"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="memberList.offer"  backStyle="asset.memberList.offer"  x="340" y="6"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="memberList.fightPower"  backStyle="asset.memberList.fightPower"  x="463"  y="6"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="memberList.offLine"  	backStyle="asset.memberList.offline"  x="559" y="6"/>
+			<component classname="com.pickgliss.ui.controls.ListPanel" stylename="memberList.list" hScrollbarStyle="core.HScrollbar"  
+			vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,10,21,0,4" 	vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|memberItem,36,177" listStyle="com.pickgliss.ui.controls.list.List"
+			width="663" height="216" x="0" y="34" hScrollProxy="2" />
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="memberList.searchBtn"  backStyle="asset.consortia.searchBtn" x="127"  y="2"/>
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="SearchMemberFrame.memberList.searchBtn"  backStyle="asset.consortia.search_SimpleBtn" x="231"  y="6"/>
+			<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="SearchMemberFrame.memberList.TextInputBg" parentStyle="core.Scale9CornerImage.scale9CornerImage28" width="255" height="28" x="0" y="0"/>
+			
+			<component classname="consortion.view.selfConsortia.SearchMemberFrame" width="300" height="125"
+			stylename="SearchMemberFrame"  parentStyle="BaseFrame" moveEnable="false"
+			closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			moveInnerRectString="0,30,0,30,1" escEnable = "true" containerX="20" containerY="40"/>
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="SearchMemberFrame.textInput" type="input"  textFormatStyle="consortia.TF14" autoSize="none" width="230" maxChars="14"  height="28" x="3" y="5" />
+			
+			<!-- memberItem -->
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="memberItem.BG"  resourceLink="asset.memberItem.BG1,asset.memberItem.BG2,asset.memberItem.BG3" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memberItem.name"  textFormatStyle="consortia.TF4" 	filterString="consortia.GF4" x="0" y="6" autoSize="none" isAutoFitLength="true" width="148" height="24" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memberItem.job"  textFormatStyle="consortia.TF4" 	filterString="consortia.GF4"  x="155" y="6" autoSize="none"   width="93" height="22"/> 
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memberItem.offer" textFormatStyle="consortia.TF4" 	filterString="consortia.GF4"  x="305"  y="6" autoSize="none"  width="120" height="22"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memberItem.fightPower" textFormatStyle="consortia.TF4" 	filterString="consortia.GF4"  x="447"  y="6" autoSize="none"  width="85" height="22"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="memberItem.offline" textFormatStyle="consortia.TF4" 	filterString="consortia.GF4"  x="549"  y="6" autoSize="none"  width="87" height="22"/>
+			
+			<!-- placardAndEvent -->
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="placardAndEvent.taskBtn"  unSelectedStyle="asset.consortion.taskI" selectedStyle="asset.consortion.taskII" 	x="-6" y="4"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="placardAndEvent.placard"  unSelectedStyle="asset.placardAndEvent.placard2" selectedStyle="asset.placardAndEvent.placard1" 	x="54" y="4"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="placardAndEvent.event"  unSelectedStyle="asset.placardAndEvent.event2" selectedStyle="asset.placardAndEvent.event1"  x="113" y="4"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="placardAndEvent.weekOffer"  unSelectedStyle="asset.placardAndEvent.weekOffer2" selectedStyle="asset.placardAndEvent.weekOffer1"  x="172" y="4"/>
+			<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="placardAndEvent.BG"  parentStyle="club.declareBG"  width="255"  height="219"  x="-9" y="31"  />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="placardAndEvent.placardTextStyle"  	filterString="consortia.GF8" textFormatStyle="consortia.TF8"  wordWrap="true"  type="input"  mouseEnabled="true"/>
+			<component classname="com.pickgliss.ui.text.TextArea" stylename="placardAndEvent.placardText" parentStyle="core.SimpleTextArea" 	textStyle="placardAndEvent.placardTextStyle"  x="2" y="41" width="235" height="170" />
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="placardAndEvent.edit" 	parentStyle="core.simplebt" x="17" y="213" />
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="placardAndEvent.cancel" 	parentStyle="core.simplebt" x="116" y="213" />
+			<component classname="com.pickgliss.ui.controls.container.VBox" stylename="placardAndEvent.eventVbox" spacing="1"/>
+			<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="placardAndEvent.eventPanel"  parentStyle="core.ScrollPanel" width="245" height="203" vUnitIncrement="3" vScrollProxy="0" x="-4" y="40"/>
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="eventItem.type"  resourceLink="asset.eventItem.offer,asset.eventItem.takeIn,asset.eventItem.takeOut,asset.eventItem.quit" x="3" y="14"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eventItem.content"  textFormatStyle="consortia.TF9" filterString="consortia.GF4"  	x="65"	y="-3" wordWrap="true" multiline="true"  width="160" height="47" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="consortion.placardAndEvent.vote"  backStyle="asset.placardAndEvent.vote" 	x="188"  y="181"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eventItem.rank"  textFormatStyle="consortia.TF12" wordWrap="false" multiline="false"  autoSize="none" width="46" height="22"   x="0"	y="3" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eventItem.name"  textFormatStyle="consortia.TF13"  wordWrap="false" multiline="false"  isAutoFitLength="true"  autoSize="none"  width="122" height="22"  x="45"	y="4"  />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eventItem.contribute"  textFormatStyle="consortia.TF13"  wordWrap="false" multiline="false"  autoSize="none"  width="56" height="22"  x="169"	y="4"  />
+			<component classname="com.pickgliss.ui.controls.ListPanel" stylename="weekOfferList.list" hScrollbarStyle="core.HScrollbar"  
+			vScrollbarStyle="core.VScrollbar" hScrollbarInnerRectString="0,10,21,0,4" 	vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|weekOfferListItem,31,225" listStyle="com.pickgliss.ui.controls.list.List"
+			width="248" height="205" x="-5" y="37" hScrollProxy="2" />
+			
+			<!-- buildingManager --> 
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="buildingManager.taxDown" resourceLink="asset.building.tax,asset.building.light2" />
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="buildingManager.taxStyle"  resourceLink="asset.building.tax,buildingManager.taxDown,buildingManager.taxDown" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.tax" backStyle="buildingManager.taxStyle" filterString="null,lightFilter,null,grayFilter" x="7" y="9"/>
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="buildingManager.shopDown" resourceLink="asset.building.shop,asset.building.light1" />
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="buildingManager.shopStyle" resourceLink="asset.building.shop,buildingManager.shopDown,buildingManager.shopDown" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" useLogID="61" stylename="buildingManager.shop" backStyle="buildingManager.shopStyle" filterString="null,lightFilter,null,grayFilter" x="105" y="10"/>
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="buildingManager.storeDown" resourceLink="asset.building.store,asset.building.light1" />
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="buildingManager.storeStyle" resourceLink="asset.building.store,buildingManager.storeDown,buildingManager.storeDown" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.store"  backStyle="buildingManager.storeStyle" useLogID="60" filterString="null,lightFilter,null,grayFilter" x="198" y="10"/>
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="buildingManager.bankDown"  resourceLink="asset.building.bank,asset.building.light1" />
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="buildingManager.bankStyle"  resourceLink="asset.building.bank,buildingManager.bankDown,buildingManager.bankDown" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.bank" backStyle="buildingManager.bankStyle" filterString="null,lightFilter,null,grayFilter" x="290" y="10"/>
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="buildingManager.skillDown"  resourceLink="asset.building.skill,asset.building.light1" />
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="buildingManager.skillStyle"  resourceLink="asset.building.skill,buildingManager.skillDown,buildingManager.skillDown" />
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.skill" backStyle="buildingManager.skillStyle" filterString="null,lightFilter,null,grayFilter" x="379" y="10"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.chairmanChanel"  backStyle="asset.building.chairmanChanel" 	filterString="null,lightFilter,null,grayFilter"  x="15" y="94"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.manager"  backStyle="asset.building.manager" 	filterString="null,lightFilter,null,grayFilter"  x="134" y="94"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.takeIn"  backStyle="asset.building.takeIn" filterString="null,lightFilter,null,grayFilter"  x="245" y="94"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="buildingManager.exit"  backStyle="asset.building.exit"  filterString="null,lightFilter,null,grayFilter"  x="356" y="94"/>
+			
+			<!-- pollFrame -->
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="consortionPollFrame.bg2"  resourceLink="asset.core.bg002" width="314" height="62" scaleGridString="10,10,300,30"/>
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="consortionPollFrame.bgStyle"  resourceLink="core.bg006,consortionPollFrame.bg2" imageRectString=",9|9|62|9|4"/>
+			<component classname="consortion.view.selfConsortia.ConsortionPollFrame" stylename="consortionPollFrame"  parentStyle="BaseFrame"  backStyle="consortionPollFrame.bgStyle"  width="360" height="340"  moveEnable="false"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="consortion.pollFrame.vote"  backStyle="asset.consortion.pollFrame.vote"  filterString="null,lightFilter,null,grayFilter"  x="97" y="275"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="consortion.pollFrame.help"  backStyle="asset.consortion.pollFrame.helpBtn"  filterString="null,lightFilter,null,grayFilter"  x="263" y="308"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.pollFrame.mark"  textFormatStyle="consortia.TF11" filterString="consortia.GF8" autoSize="none" width="250" height="22" x="16" y="247" />
+			<component classname="com.pickgliss.ui.controls.container.VBox" stylename="consortion.pollFrame.vbox" spacing="2"/>
+			<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="consortion.pollFrame.panel"  parentStyle="core.ScrollPanel" width="326" height="167" vUnitIncrement="3" vScrollProxy="0" x="17" y="70"/>
+			
+			<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.pollItem.bg"  resourceLink="asset.consortion.pollFrame.itembg1,asset.consortion.pollFrame.itembg2" />
+			<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="consortion.pollItem.selected" unSelectedStyle="core.checkBtn" selectedStyle="core.selectedCheckBtn" filterString="null,lightFilter,null,grayFilter"  x="7" y="-2"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.pollItem.name"  textFormatStyle="consortia.TF3" filterString="consortia.GF6" autoSize="none" width="180" height="22" x="40" y="5" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.pollItem.count"  textFormatStyle="consortia.TF10" filterString="consortia.GF6" autoSize="none" width="50" height="22" x="223" y="6" />
+			
+			<component classname="com.pickgliss.ui.controls.Frame" stylename="consortion.pollFrame.helpFrame"  parentStyle="BaseFrame"  width="386" 	height="440" moveEnable="false"/>
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="consortion.pollFrame.helpFrame.close"  parentStyle="core.simplebt" x="149" y="398" />
+
+
+			
+			<!-- 公会使命 -->
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="SimpleButtonTextStyle2" textFormatStyle="simpleTextButtonTF" filterString="simpleTextButtonGF"/>
+			<component classname="com.pickgliss.ui.controls.TextButton" stylename="consortion.submitTask.reset1" parentStyle="core.simplebt"  textStyle="SimpleButtonTextStyle2" x="116" y="98" ></component>
+			<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="consortion.task.scrollpanel"  parentStyle="core.ScrollPanel" width="246" height="187" vUnitIncrement="3" vScrollProxy="0" x="0" y="0"/>
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="consortion.task.bg1" x="" y="" resourceLink="asset.conortion.myTaskBG" width="223" height="22" alpha="0.9" />
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="consortion.task.bg2s" x="" y="69" parentStyle="consortion.task.bg1"/>		
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="consortion.task.bgI"  resourceLink="consortion.task.bg2s,asset.conortionTask.FontII"/>
+			<component classname="com.pickgliss.ui.controls.container.VBox" stylename="consortion.task.vboxI" x="0" y="0" spacing="1" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.finishTxt"  x="3" y="3" textFormatStyle="consortia.TF15,consortia.TF16" filterString="consortia.GF4" autoSize="none" width="190" height="22" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.finishNumberTxt" x="188" y="3" textFormatStyle="consortia.TF17,consortia.TF18" parentStyle="consortion.task.finishTxt" width="34"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.MyfinishTxt" x="188" y="73" textFormatStyle="consortia.TF20" parentStyle="consortion.task.finishTxt" width="34"/>
+			<component classname="com.pickgliss.ui.controls.BaseButton" stylename="consortion.task.donateBtn"  backStyle="asset.conortionTask.donateBtn"  filterString="null,lightFilter,null,grayFilter"  x="1" y="1"/>
+			
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="consortion.task.bg2" x="1" y="30" resourceLink="asset.eventItem.BG" width="223" height="22" alpha="0.9" scaleGridString="10,10,205,45"/>	
+			<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="consortion.task.bg3" x="1" y="53" parentStyle="consortion.task.bg2"/>	
+			<component classname="com.pickgliss.ui.image.MutipleImage" stylename="consortion.task.bgII" x="0" y="101" resourceLink="asset.conortionTask.FontIII,consortion.task.bg2,consortion.task.bg3,asset.conortionTask.FontEXP,asset.conortionTask.FontIMoney,asset.conortionTask.FontCai,asset.conortionTask.FontSkill"/>
+
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.EXPTxt"  x="32" y="133" textFormatStyle="consortia.TF19" filterString="consortia.GF4" autoSize="none" width="70" height="22" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.MoneyTxt"  x="124" y="133" parentStyle="consortion.task.EXPTxt" autoSize="none" width="55" height="22" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.caiTxt"  x="180" y="133" parentStyle="consortion.task.EXPTxt" autoSize="none" width="55" height="22" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.SkillTxt"  x="72" y="156" parentStyle="consortion.task.EXPTxt" autoSize="none" width="130" height="22" />
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.contentTxt1"  x="5" y="189" textFormatStyle="consortia.TF21" filterString="consortia.GF21" autoSize="none" width="220" height="22" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.contentTxt2"  y="208" parentStyle="consortion.task.contentTxt1" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.contentTxt3"  y="226" parentStyle="consortion.task.contentTxt1" />
+			
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.task.lastTimeTxt"  y="188" textFormatStyle="consortia.TF22" filterString="consortia.GF22" autoSize="none" width="245" height="22" />
+			
+
+			
+			<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="consortion.shopBadge.bg"  width="532" height="312" x="5" y="47"  resourceLink="asset.consortion.shop.1,asset.consortion.shop.2,asset.consortion.shop.3,asset.consortion.shop.4,asset.consortion.shop.5,asset.consortion.shop.6,asset.consortion.shop.7,asset.consortion.shop.8,asset.consortion.shop.9"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortion.badgeShopItem.name"  textFormatStyle="consortionII.TF5" 	filterString="consortionII.GF5" autoSize="center" width="170" height="24" x="160" y="24" />
+			<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortion.buyBadgeItemBtn"  backStyle="asset.consortion.shopItem.btn" x="322"  y="8"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="consortion.levelBtn1"  selectedStyle="asset.consortiaii.level3BtnSelected" unSelectedStyle="asset.consortiaii.level3Btn" filterString="null,null,null,grayFilter" x="0" y="0"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="consortion.levelBtn2"  selectedStyle="asset.consortiaii.level7BtnSelected" unSelectedStyle="asset.consortiaii.level7Btn" filterString="null,null,null,grayFilter" x="135" y="0"/>
+			<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="consortion.levelBtn3"  selectedStyle="asset.consortiaii.level10BtnSelected" unSelectedStyle="asset.consortiaii.level10Btn" filterString="null,null,null,grayFilter" x="272" y="0"/>
+			<component classname="consortion.view.selfConsortia.BadgeShopFrame" stylename="consortion.badgeShopFrame"  width="569" height="411" moveEnable="false" backStyle="core.bg006" closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" 	closeInnerRectString="44,6,3,30,14"  moveInnerRectString="0,30,0,30,1"/>
+
+	</components>
+	
+	<customDisplay>
+			<custom classname="consortion.view.selfConsortia.ConsortionInfoView" stylename="consortionInfoView" x="0" y="0"/>
+			<custom classname="consortion.view.KeepPayTip" stylename="keepPayTip" />
+			<custom classname="flash.geom.Point" stylename="shopIcon.pos" x="618" y="55"/>
+			<custom classname="flash.geom.Point" stylename="storeIcon.pos" x="706" y="55"/>
+			<custom classname="flash.geom.Point" stylename="bankIcon.pos" x="794" y="55"/>
+			<custom classname="flash.geom.Point" stylename="skillIcon.pos" x="882" y="55"/>
+			<custom classname="flash.geom.Point" stylename="badgeshopItem.pos" x="12" y="9"/>
+			<custom classname="flash.geom.Point" stylename="consortiaBadgeBtn.pos" x="15" y="53"/>
+			<custom classname="flash.geom.Point" stylename="consortiaBadgeBtn.badge.pos" x="7" y="7"/>
+			<custom classname="flash.geom.Point" stylename="consortiaBadgeList.pos" x="18" y="61"/>
+			<custom classname="flash.geom.Point" stylename="consortiaBadgePanel.pos" x="13" y="38"/>
+			<custom classname="consortion.view.selfConsortia.MemberList"  stylename="memberList"  x="24"  y="141"/>
+			<custom classname="consortion.view.selfConsortia.MemberItem" stylename="memberItem" />
+			<custom classname="consortion.view.selfConsortia.WeekOfferListItem" stylename="weekOfferListItem" />
+			<custom classname="ddt.view.common.LevelIcon" stylename="memberItem.level" x="265" y="4"/>
+			<custom classname="consortion.view.selfConsortia.PlacardAndEvent" stylename="placardAndEvent"  x="715" y="138"/>
+			<custom classname="consortion.view.selfConsortia.BuildingManager" stylename="buildingManager"  x="503" y="403"/>
+			<!-- 公会使命 -->
+			<custom classname="consortion.view.selfConsortia.consortiaTask.ConsortiaTaskView" stylename="ConsortiaTaskView"  x="-4" y="38"/>
+			<custom classname="consortion.view.selfConsortia.consortiaTask.ConsortiaMyTaskView" stylename="ConsortiaMyTaskView"  x="0" y="0"/>
+			<custom classname="consortion.view.selfConsortia.consortiaTask.ConsortiaMyTaskFinishItem" stylename="ConsortiaMyTaskFinishItem"  x="0" y="0"/>
+			<custom classname="bagAndInfo.cell.BaseCell" stylename="ConsortiaTask.goodsCell"/>
+			
+	</customDisplay>
+	
+	<bitmaps>
+			<bitmapData resourceLink="asset.consortion.buyBadgeBtnTxt" x="7" y="9"/>
+			<bitmapData resourceLink="asset.consortion.BG2" x='13' y="85"/>
+			<bitmapData resourceLink="asset.consortion.level" x='37' y='-11'/>
+			<bitmapData resourceLink="asset.consortion.name" x='303' y='22'/>
+			<bitmapData resourceLink="asset.consortion.level10" x='-42' />
+			<bitmapData resourceLink="asset.memberItem.light"  x="-5" y="-3" width="653" height="40" />
+			<bitmapData resourceLink="asset.memberItem.BG1"  width="642" height="34"/>
+			<bitmapData resourceLink="asset.memberItem.BG2"  width="642" height="34"/>
+			<bitmapData resourceLink="asset.memberItem.BG3"  width="642" height="34"/>
+			<bitmapData resourceLink="asset.eventItem.BG" height="50"/>
+			<bitmapData resourceLink="asset.building.light2" x="-6" 	y="-6" />
+			<bitmapData resourceLink="asset.building.light1" x="-5" y="-4" 	/>
+			
+			<bitmapData resourceLink="asset.consortion.pollFrame.bg" x="15" y="33" 	/>
+			<bitmapData resourceLink="asset.consortion.pollFrame.explain" x="11" y="36" 	/>
+			
+			<bitmapData resourceLink="asset.building.bg" x="7" y="2" 	/>
+			<bitmapData resourceLink="asset.placardAndEvent.weekOffer1" x="-2" y="-4"/>
+			<bitmapData resourceLink="asset.placardAndEvent.placard1" x="-3" y="-4"/>
+			<bitmapData resourceLink="asset.placardAndEvent.event1" x="-3" y="-4"/>
+			
+			<!-- 公会使命 -->
+			<bitmapData resourceLink="asset.conortionTask.notask" x="17" y="89"/>
+			<bitmapData resourceLink="asset.consortion.taskII" x="-3" y="-4"/>
+			<bitmapData resourceLink="asset.conortionTask.FontI" x="6" y="5"/>
+			<bitmapData resourceLink="asset.conortionTask.FontII" x="5" y="76"/>
+			
+			<bitmapData resourceLink="asset.conortionTask.FontIII" x="3" y="10"/>
+			<bitmapData resourceLink="asset.conortionTask.FontEXP" x="7" y="35"/>
+			<bitmapData resourceLink="asset.conortionTask.FontIMoney" x="86" y="35"/>
+			<bitmapData resourceLink="asset.conortionTask.FontCai" x="154" y="35"/>
+			<bitmapData resourceLink="asset.conortionTask.FontSkill" x="6" y="53"/>
+			
+			<bitmapData resourceLink="asset.conortionTask.FontContent" x="0" y="167"/>
+			<bitmapData resourceLink="asset.conortionTask.timeBG" x="0" y="187"/>
+			
+	</bitmaps>
+</style>

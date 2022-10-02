@@ -1,0 +1,25 @@
+﻿<RootMenu>
+    <List Name="Tất cả" Script="loading_Data(0, 1, true)"/>
+    <List Name="Nón" Script="loading_Data(1, 1, true)"/>
+    <List Name="Kính" Script="loading_Data(2, 1, true)"/>
+    <List Name="Tóc" Script="loading_Data(3, 1, true)"/>
+    <List Name="Mặt" Script="loading_Data(4, 1, true)"/>
+    <List Name="Áo" Script="loading_Data(5, 1, true)"/>
+    <List Name="Mắt" Script="loading_Data(6, 1, true)"/>
+    <List Name="Vũ Khí" Script="loading_Data(7, 1, true)"/>
+    <List Name="Vòng tay" Script="loading_Data(8, 1, true)"/>
+    <List Name="Nhẩn" Script="loading_Data(9, 1, true)"/>
+    <List Name="Set quần áo" Script="loading_Data(13, 1, true)"/>
+	<List Name="Cánh" Script="loading_Data(15, 1, true)"/>
+    <List Name="Vũ khí phụ" Script="loading_Data(17, 1, true)"/>
+    <List Name="Dây chuyền" Script="loading_Data(14, 1, true)"/>
+    <List Name="Bong bóng" Script="loading_Data(16, 1, true)"/>
+    <List Name="Hộp thẻ" Script="loading_Data(18, 1, true)"/>
+    <List Name="Thẻ bài" Script="loading_Data(26, 1, true)"/>
+    <List Name="Quà tặng" Script="loading_Data(25, 1, true)"/>
+    <List Name="Items nhiệm vụ" Script="loading_Data(12, 1, true)"/>
+    <List Name="Đạo cụ" Script="loading_Data(11, 1, true)"/>
+    <List Name="Hỗ trợ" Script="loading_Data(19, 1, true)"/>
+    <List Name="Nước tu luyện" Script="loading_Data(20, 1, true)"/>
+    <List Name="Sách tu Luyện" Script="loading_Data(23, 1, true)"/>
+</RootMenu>

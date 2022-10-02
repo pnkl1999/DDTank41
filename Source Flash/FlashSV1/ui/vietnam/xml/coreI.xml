@@ -1,0 +1,1857 @@
+﻿<style name="coreI" version="1.0.1" source="ui/spain/swf/coreI.swf">
+	<sets>
+		
+		<set stylename="ddtshop.GoodItemNameTFII" args="Arial,11,0xfff2b2,bold,,,,,left" type="flash.text.TextFormat"></set>
+		<set stylename="ddtshop.GoodItemTextFilterII" args="0x6f502a,1,4,4,30" type="flash.filters.GlowFilter"></set>
+		
+		<set stylename="core.messageTip.TipTextFormat" args="Microsoft YaHei,28,0xFFFA78,true" align="center" leading="4" type="flash.text.TextFormat"/>
+		<set args="0x1D1202,1,2,2,6" stylename="core.messageTip.TipTextFilter_0" type="flash.filters.GlowFilter"/>
+		<set args="0x1D1202,1,3,3,5" stylename="core.messageTip.TipTextFilter_1" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="core.goodTip.DescriptionTxtFormat" args="Arial,12,0xffffff" leading="4" type="flash.text.TextFormat"/>
+		
+		<set args="0xffffff,1,2,2,10" stylename="cardsTipPanel.whiteGF" type="flash.filters.GlowFilter"/>
+		<set stylename="cardsTipPanel.setsPropTF" args="Arial,13,0xffffff,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="bagBreakGoodsTipStringTF" args="Arial,12,0x693C0C" type="flash.text.TextFormat"/>
+		<set stylename="Microcobol.InputTextTF" args="Arial,14,0x723d13" leading="5" type="flash.text.TextFormat"/>
+		<set stylename="Microcobol.InfoTextTFI" args="Arial,14,0xf00000,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="Microcobol.InfoTextTFII" args="Arial,14,0xffffff,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="bagMoneyInfoTF" args="Arial,15,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="bagAndInfo.info.NicknameFieldTF" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="bagGoodsNumInfoTF" args="Arial,15,0x13ff04,true,,,,,right"
+			type="flash.text.TextFormat"/>
+			<set stylename="bagGoodsNumInfoTotalTF" args="Arial,15,0xFFF000,true"
+			type="flash.text.TextFormat"/>
+		<set stylename="personalInfoTF" args="Arial,15,0x000000,true,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="personalInfoTFII" args="Tahoma,13,0xFFF4BA,true,,,,,center"
+			type="flash.text.TextFormat"/>
+		
+		<!--<set stylename="personInfoViewNameTextTF"
+			args="Arial,10,0xFFFC00,true,,,,,left" type="flash.text.TextFormat"/>-->
+		<set stylename="personInfoViewNameTextTF" args="Arial,12,0xFFFC00,true,,,,,left"
+			type="flash.text.TextFormat" />
+		
+		<set stylename="personalInfoCheckBoxTextTF" args="Arial,12,0xffffff"
+			type="flash.text.TextFormat"/>
+		<set stylename="exitPromptMissionTF" args="Arial,14,0xffb933,true" type="flash.text.TextFormat"/>
+		<set stylename="exitPromptBtInfoTF" args="Arial,16,0xffe8c7,true" type="flash.text.TextFormat"/>
+		<set stylename="room.timeTextTF" args="Arial,38,0xFFCC66" type="flash.text.TextFormat"/>
+		<set stylename="roomloading.progressTF" args="Arial,28,0x000000"
+			type="flash.text.TextFormat"/>
+		<set stylename="roomloading.timerTF" args="Arial,80,0xFF8804,true"
+			type="flash.text.TextFormat"/>
+		<set args="0x67471a,1,2,2,10" stylename="bagMoneyInfoGF" type="flash.filters.GlowFilter"/>
+		<set args="0x304c17,1,2,2,10" stylename="bagGoodsNumInfoGF" type="flash.filters.GlowFilter"/>
+		<set args="0x87281d,1,2,2,10" stylename="bagGoodsNumInfoTotalGF" type="flash.filters.GlowFilter"/>
+		<set args="0xffffff,0.75,3,3,10" stylename="Microcobol.InfoTextGFI" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,0.75,3,3,10" stylename="Microcobol.InfoTextGFII" type="flash.filters.GlowFilter"/>
+
+		<set args="0xFFFFFF,1,2,2,255" stylename="simpleTextIIGF" type="flash.filters.GlowFilter"/>
+		<set args="0xF9F0BF,1,2,2,1000" stylename="roomListTextGF" type="flash.filters.GlowFilter"/>
+		<set args="0xFFFFFF,1,2,2,1000" stylename="roomListTextIIGF" type="flash.filters.GlowFilter"/>
+		<set args="0x1E0D00,1,5,5,1000" stylename="svrnameTextGF" type="flash.filters.GlowFilter" />
+		
+		<set args="0x000000,1,2,2,10,1" stylename="playerInfoViewCheckBoxGF"
+			type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,3,3,10,1" stylename="roomLoadingNameGF"
+			type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,12,12,6,1" stylename="room.timeTextGF" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,5,5,10,2" stylename="roomLoading.timerGF"
+			type="flash.filters.GlowFilter"/>
+				
+		<set stylename="church.textFormat20" args="Arial,14,0x993300" type="flash.text.TextFormat" />
+		<set stylename="church.textFormat21" args="Arial,14,0x993300,true" type="flash.text.TextFormat" />
+		<set stylename="church.textFormat22" args="Arial,16,0xFF0034,true" type="flash.text.TextFormat" />
+		<set stylename="church.textFormat23" args="Arial,14,0x013465" type="flash.text.TextFormat" />
+		<set stylename="church.textFormat24" args="Arial,16,0xff0034,false,,,,,right" type="flash.text.TextFormat" />
+		<set stylename="church.textFormat25" args="Arial,16,0x000000,false,,,,,left" type="flash.text.TextFormat" leading="8"/>
+		<set stylename="church.common.textFormat25" args="Arial,16,0xFF4D00,true,,,,,left" type="flash.text.TextFormat" />
+		<set stylename="church.GlowFilter2" args="0xffffff,1,4,4,10" type="flash.filters.GlowFilter" />
+		<set stylename="church.common.GlowFilter3" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+
+		<set stylename="core.numberSelecterTxtTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="core.checkCodeInputTF" args="Arial,40,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="core.checkCodeCountDownTF" args="Arial,20,0xFF0000,true" type="flash.text.TextFormat"/>
+		<set stylename="core.checkCodeTipTF" args="Arial,13,0xFF0000,true" type="flash.text.TextFormat"/>
+		<set stylename="core.checkCodeSecTF" args="Arial,20,0xFF0000" type="flash.text.TextFormat"/>
+		<set args="0xFFFFFF,1,5,5,5" stylename="core.checkCodeTipGF" type="flash.filters.GlowFilter"/>
+		<set stylename="trainer.tfTitle" args="Arial,18,0x5FE7FF" type="flash.text.TextFormat"/>
+		<set stylename="trainer.tfTitleII" args="Arial,18,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set args="0x000000,1,2,2,10,1" stylename="trainer.glow1" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,3,3,10,1" stylename="trainer.glow2" type="flash.filters.GlowFilter"/>
+		<set stylename="trainer.tfTip" args="Arial,16,0xFFFFFF,true" leading="2" type="flash.text.TextFormat"/>
+		<set stylename="trainer.tfTipII" args="Arial,12,0xFFFFFF,true" leading="2" type="flash.text.TextFormat"/>
+		<set stylename="trainer.tfTipIII" args="Arial,40,0x0066FF,true" leading="2" type="flash.text.TextFormat"/>
+		<set stylename="trainer.tfContext" args="Arial,16,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set args="1.82968,-0.73128,-0.0984,0,0,-0.37032,1.46872,-0.0984,0,0,-0.37032,-0.73128,2.1016,0,0,0,0,0,1,0" stylename="trainer.question.redFilter"
+			type="flash.filters.ColorMatrixFilter"/>
+		<set stylename="core.ConsortiaAssetManagerFrame.shopLevel_text" args="Arial,14,0x900100,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="core.ConsortiaAssetManagerFrame.shopLevel_filter" args="0xFFFFFF,1,5,5,3" type="flash.filters.GlowFilter"/>
+		<set stylename="core.MyConsortiaTax.totalTicket_text" args="Arial,16,0x013465,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="core.MyConsortiaTax.totalTicket_filter" args="0xFFFFFF,1,2,2,8" type="flash.filters.GlowFilter"/>
+		<set stylename="core.MyConsortiaTax.input_text" args="Arial,12,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="core.MyConsortiaTax.totalMoney_text" args="Arial,18,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="core.MyConsortiaTax.totalMoney_filter" args="0x000000,1,2,2,6" type="flash.filters.GlowFilter"/>
+<set stylename="shop.PresentClearingTextAreaContentTxtTF" args="Arial,12,0x000000" leading="11" type="flash.text.TextFormat" />
+		<set stylename="core.guildStateTF" args="Tahoma,14,0xFF1C0F,true" type="flash.text.TextFormat"/>
+		<set stylename="core.guildReputeTF" args="Arial,14,0xFFCD21,true" type="flash.text.TextFormat"/>
+		<set args="0x000000,1,2,2,10" stylename="core.guildStateGF" type="flash.filters.GlowFilter"/>
+		<set stylename="core.MarriedTipTF" args="Arial,16,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="core.MarriedTipNickNameTF" args="Arial,14,0xFF9933" type="flash.text.TextFormat"/>
+		<set stylename="core.commonTipTF" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="core.ChangeNumToolTipTitleTF" args="Arial,13,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="core.ChangeNumToolTipContentTF" args="Arial,12,0xcccccc" type="flash.text.TextFormat"/>
+		
+		<!-- 续费 Start -->
+		
+		<set stylename="bagAndInof.AddPrice.SelBtnTF" args="Arial,14,0xFF0000" type="flash.text.TextFormat" />
+		<set stylename="bagAndInfo.AddPrice.SelBtnGF" args="0xFFFFFF,1,3,3,6" type="flash.filters.GlowFilter" />
+		<set stylename="bagAndInfo.AddPrice.BlueTF" args="Arial,15,0x00F7F7,bold" type="flash.text.TextFormat"/>
+		<set stylename="bagAndInfo.AddPrice.YellowTF" args="Arial,15,0xFFD324,bold" type="flash.text.TextFormat"/>
+		
+		<!-- VIP -->
+		<set args="0x441300,1,3,3,5" stylename="vipNameGF" type="flash.filters.GlowFilter"/>
+		<set stylename="vipNameFT" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>
+		<!-- 续费 End -->
+		
+		<!--  商城 相关 -->
+		<set stylename="shop.ShopCartItemPriceFilter" args="0x000000,1,5,5,3"  type="flash.filters.GlowFilter"/>
+		<set stylename="shop.ShopCartItemPriceBlueTF" args="Arial,15,0x00F7F7,bold" type="flash.text.TextFormat"/>
+		<set stylename="shop.ShopCartItemPriceYellowTF" args="Arial,15,0xFFD324,bold" type="flash.text.TextFormat"/>
+		<set stylename="shop.ShopCartItemNameTF" args="Arial,14,0x000000,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="shop.GoodItemNameFilter" args="0xffffff,1,3,3,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="shop.DigitTF" args="Arial,13,0x000000,bold,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="shop.DigitTF1" args="Arial,13,0xff0000,bold,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="shop.DigitWarningTF" args="Arial,13,0xff0000,bold,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="shop.CurrentCountTF" args="Arial,13,0x000000,bold,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="shop.BugleViewCountTF" args="Arial,12,0xffffff,bold,,,,,right" type="flash.text.TextFormat"/>
+		<set type="flash.filters.GlowFilter" stylename="shop.BugleViewCountGF" args="0x000000,1,3,3,3"  />
+		<set stylename="shop.BugleViewMoneyTF" args="Arial,10,0x000000,bold,,,,,center" type="flash.text.TextFormat"/>
+		<set type="flash.text.TextFormat" stylename="shop.CommodityNumberTF" args="Arial,14,0xfe0000,,,,,,center" />
+		<set type="flash.filters.GlowFilter" stylename="shop.CommodityNumberGF" args="0xffffff,1,3,3,10"  />
+		
+		<set stylename="shop.ShopCheckButtonTF" args="Arial,13,0xffffff,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="shop.ShopCheckButtonFilter" args="0x000000,1,3,3,10"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="ddtshop.GoodItemNameTF2" args="Arial,12,0xe8ce97,bold,,,,,left" type="flash.text.TextFormat"></set>
+		<set stylename="ddtshop.GoodItemTextFilter" args="0x5c3d11,1,2,2,10" type="flash.filters.GlowFilter"></set>
+		
+		<set type="flash.text.TextFormat" stylename="shop.CommodityPricesTF" args="Arial,14,0x5e2001,bold,,,,,center" />
+		<set type="flash.filters.GlowFilter" stylename="shop.CommodityPricesGF" args="0xffe345,1,6,6,3"  />
+		
+		<!-- ResponseInvite Start -->
+		
+		<set stylename="invite.response.TitleTF" args="Arial,14,0x322B26,true,,,,,center" type="flash.text.TextFormat"/>	
+		<set stylename="invite.response.ModeLabelTF" args="Arial,18,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="invite.response.NormalLabelTF" args="Arial,14,0x2df7fe,true" type="flash.text.TextFormat"/>
+		<set stylename="invite.response.InfomationTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="invite.response.TipTF" args="Arial,12,0xFF0000,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="invite.response.WhiteBorderGF" args="0xFFFFFF,1,2,2,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="invite.response.BlackBorderGF" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter" />
+		
+		<!-- vote -->
+		<set stylename="vote.answerFT" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="vote.questionFT" args="Arial,14,0xa50000,true" leading="3.0" type="flash.text.TextFormat"/>
+		<set stylename="vote.progressFT" args="Arial,14,0x562f0f" type="flash.text.TextFormat"/>
+		<set stylename="vote.progressGT" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+		
+		<!-- ResponseInvite End -->
+		
+		<set type="flash.text.TextFormat" stylename="core.activeEvents.T_10" args="Arial,14,0x933406"  leading="3"/>
+		<set type="flash.text.TextFormat" stylename="core.activeEvents.T_11" args="Arial,13,0xFFFFFF,true"  leading="3"/>
+		
+		<set type="flash.text.TextFormat" stylename="IM.InviteDialogFrame.frameTitleTF" args="Arial,18,0x666666,true" />
+		
+		<set stylename="levelRewardTitle1TF" args="Arial,18,0xaa0000,true" type="flash.text.TextFormat"/>
+		<set stylename="currentLevel.levelRewardItemTitleTF" args="Arial,25,0xaa0000,true" type="flash.text.TextFormat"/>
+		<set args="0x371d00,1,4,4,8" stylename="levelRewardTitle1GF" type="flash.filters.GlowFilter"/>
+		<set stylename="levelRewardTitle2TF" args="Arial,17,0xfff1c6" type="flash.text.TextFormat"/>
+		<set args="0x371d00,1,4,4,8" stylename="levelRewardTitle2GF" type="flash.filters.GlowFilter"/>
+		<set stylename="levelRewardContentTF" args="Arial,17,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="levelRewardContent2TF" args="Arial,22,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="levelRewardContent3TF" args="Arial,22,0xfff1c6" type="flash.text.TextFormat"/>
+		<set stylename="expMovie.TF" args="Arial,16,0xFFFF66,true,,,,,center" type="flash.text.TextFormat"/>
+		<set args="0xFF6600,1,3,3,500" stylename="expMovie.GF" type="flash.filters.GlowFilter"/>
+		<set stylename="ddtshop.CommodityPricesLabelTF" args="Arial,16,0xfff1bf,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtshop.CommodityPricesLabelGF" args="0x632f00,1,4,4,30" type="flash.filters.GlowFilter"/> 
+		<set stylename="core.goodTip.ItemNameNumTxtFormat" args="Arial,14,0x99ff00,true" type="flash.text.TextFormat"/>
+		<set stylename="cityWide.CityWideFrame.nickNameTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="dailyRecord.contentTF" args="Arial,14,0x3b2701"  leading="19" type="flash.text.TextFormat"/>
+		
+		<set stylename="MessageTip.GhostProp.NameField.TF1" args="Arial,16,0x0057FF,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF2" args="Arial,16,0xEA0000,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF3" args="Arial,16,0xFF9900,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF4" args="Arial,16,0x84AF01,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF5" args="Arial,16,0x9662CA,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF6" args="Arial,16,0x996633,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF7" args="Arial,16,0xb96f6f,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.TF8" args="Arial,16,0x2c8585,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.TextFieldTF" args="Arial,16,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.Prop.TextFieldTF" args="Arial,16,0xC18C2C,true" type="flash.text.TextFormat"/>
+		<set stylename="MessageTip.GhostProp.NameField.GF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="ClearingInterface.nameInputTF" args="Arial,14,0x000000" type="flash.text.TextFormat" />
+		<set stylename="Messagebox.titleTF1" args="Arial,14,0xffffff,true" type="flash.text.TextFormat" />
+		<set stylename="cardCell.levelTF.big" args="Arial,18,0xffee30,true" type="flash.text.TextFormat" />
+		<set stylename="cardCell.levelTF.small" args="Arial,14,0xffee30,true" type="flash.text.TextFormat" />
+		<set stylename="cardCell.levelGF" args="0x300000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="core.edictumConFor" args="Arial,16,0x000000,true,,,,,left,,,," type="flash.text.TextFormat"/>
+		<set args="0x36281F,1,2,2,10" stylename="core.edictumFilter2" type="flash.filters.GlowFilter"/>
+		<set args="0xffffff,1,2,2,10" stylename="core.edictumFilter1" type="flash.filters.GlowFilter"/>
+		<set stylename="core.edictumtitleFor" args="Arial,21,0x986501,true,,,,,center" type="flash.text.TextFormat"/>
+		<set args="0xffffff,1,5,5,100" stylename="core.edictumFilter2" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.core.PayBuffTipLabelTF" args="Arial,12,0xFFFFFF,,,,,,left,,,," type="flash.text.TextFormat"/>
+		<set stylename="asset.core.PayBuffTipTimeTF" args="Arial,12,0xFFFFFF,true,,,,,left,,,," type="flash.text.TextFormat"/>
+		<set stylename="asset.core.PayBuffTipCountTF" args="Arial,11,0x00FF00,false,,,,,center,,,," type="flash.text.TextFormat"/>
+		
+		<set stylename="ddtshop.DTextFilter" args="0x8b0000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtshop.VTextTF" args="Arial,14,0xfff2b2,bold,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="ddtshop.VTextFilter" args="0x21554d,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="ddtshop.ZTextTF" args="Arial,14,0xfff2b2,bold,,,,,right" type="flash.text.TextFormat"/>  
+    <set stylename="ddtshop.ZTextFilter" args="0x5d440d,1,2,2,10" type="flash.filters.GlowFilter"/>  
+ 	<set type="flash.text.TextFormat" stylename="bandMoney.tf" args="Arial,14,0xfdf9ed,true,,,,,center"/>  
+    <set type="flash.filters.GlowFilter" stylename="bandMoney.gf" args="0x692706,1,4,4,30"/>  
+		
+		<set stylename="petsBag.PetSkillCellTip.nameTF" args="Arial,14,0x9900ff,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="petsBag.PetSkillCellTip.nameGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="core.petskillTip.ballTypeTxtTF" args="Arial,12,0xffea00,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="core.petskillTip.ballTypeTxtGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <set stylename="petsBag.PetSkillCellTip.lostLblTF" args="Arial,13,0xff9933,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="petsBag.PetSkillCellTip.lostLblGF" args="1,95,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>  
+    <set stylename="petsBag.PetSkillCellTip.lostTxtTF" args="Arial,12,0xffffff,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="petsBag.PetSkillCellTip.lostTxtGF" args="1,95,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>  
+    <set stylename="petsBag.PetSkillCellTip.descLblTF" args="Arial,13,0xff9933,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="petsBag.PetSkillCellTip.descLblGF" args="1,95,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>  
+    <set stylename="petsBag.PetSkillCellTip.descTxtTF" args="Arial,12,0xffffff,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="petsBag.PetSkillCellTip.descTxtGF" args="1,95,0x000000,1,1,1,10" type="flash.filters.DropShadowFilter"/>  
+    <set stylename="petsBag.PetSkillCellTip.coolDownTF" args="Arial,13,0x99ff33,true" leading="1" type="flash.text.TextFormat"/>  
+    <set stylename="petsBag.PetSkillCellTip.coolDownGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>  
+    <!-- 战斗外的宠物精灵 -->  
+	<set stylename="petSprite.MessageTxtTF" args="Arial,12,0x000000,,,,,,center" type="flash.text.TextFormat" leading="1" letterSpacing="0" />	
+    <!-- 战斗内宠物TIP -->  
+    <set stylename="petTip.PetNameTF" args="Arial,12,0xffffff,true" type="flash.text.TextFormat"/>  
+    <set stylename="petTip.PetLevelTF" args="Arial,16,0xffec8c,true" type="flash.text.TextFormat"/>  
+    <set stylename="petTip.PetLevelGF" args="0x4e2f10,1,2,2,10" type="flash.filters.GlowFilter"/>  
+     <set stylename="ddtshop.CommodityPricesTF" args="Arial,14,0xfff6c9,bold,,,,,center" type="flash.text.TextFormat"/>  
+    <set stylename="ddtshop.CommodityPricesGF" args="0x654308,1,4,4,30" type="flash.filters.GlowFilter"/>  
+	</sets>
+	<customDisplay>
+		<custom classname="ddt.view.NameInputDropListTarget" stylename="ClearingInterface.nameInput" x="92" y="49"/>
+		<custom classname="ddt.view.common.LevelIcon" stylename="core.LevelIcon"/>
+		<custom classname="ddt.view.tips.GuildIconTip" stylename="core.guildIconTip"/>
+		<custom classname="ddt.view.tips.BuffTip" stylename="core.buffTip"/>
+		<custom classname="ddt.view.tips.PayBuffTip" stylename="core.PayBuffTip"/>
+		<custom classname="flash.geom.Point" stylename="asset.core.PayBuffIconSize" x="26" y="26"/>
+		<custom classname="flash.geom.Point" stylename="asset.core.guildLevelPos" x="80" y="15"/>
+		<custom classname="flash.geom.Point" stylename="asset.core.guildReputePos" x="0" y="-1"/>
+		<custom classname="flash.geom.Point" stylename="asset.core.badgeTipLinePos1" x="3" y="28"/>
+		<custom classname="flash.geom.Point" stylename="asset.core.badgeTipLinePos2" x="3" y="76"/>
+		<custom classname="flash.geom.Point" stylename="roulette.gun.pos" x="910" y="363"/>
+		<!--快速购买-->
+		<custom classname="ddt.command.NumberSelecter" stylename="core.numberSelecter" x="117"
+			y="35"/>
+		<custom classname="ddt.command.QuickBuyFrame" backStyle="SimpleFrameBackgound"
+			stylename="core.QuickFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="6,6,5" containerX="10" containerY="31" width="300" height="200"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+		<custom classname="ddt.view.CheckCodeFrame" stylename="core.checkCodeFrame" backStyle="CheckCodeFrameBackgound" titleStyle="FrameTitleTextStyle"  titleOuterRectPosString="0,6,1" containerX="8" containerY="-6" width="520" height="334" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+		
+		<!--聊天表情tip-->
+		<custom classname="ddt.view.tips.ChatFaceTip" stylename="core.ChatFaceTips"/>
+		
+		<!--求婚_对方拒绝后好人卡坐标及尺寸-->
+		<custom classname="flash.geom.Rectangle" stylename="common.church.churchDialogueRejectProposeUserNamePoint" x="13" y="13" width="67" height="64" />
+			
+		<custom classname="ddt.view.tips.GuildRepute" stylename="asset.core.guildRepute" x="5" y="76"/>
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortIconView.AchievementPointPos" x="36" y="10"/>
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortIconView.AchievementPointPosII" x="18" y="10"/>
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortIconView.AchievementPointPosIII" x="27" y="10"/>
+		
+		<!--EffortMovieClipView-->
+		<custom classname="flash.geom.Point" stylename="effortView.EffortMovieClipView.AchievementPointView"
+			x="384" y="14"/>
+		<custom classname="flash.geom.Point" stylename="effortView.EffortMovieClipView.EffortMovieClipViewPos"
+			x="289" y="208"/>
+
+		<custom classname="asset.core.bagCellShine" stylename="asset.core.playerInfoCellShine"
+			x="-8" y="-9"/>
+		
+		<!-- 非战斗宠物位置 -->
+		<custom classname="flash.geom.Point" stylename="petSprite.PetSprite.pet1Pos" x="373" y="336"/>
+		<custom classname="flash.geom.Point" stylename="petSprite.PetSprite.pet2Pos" x="373" y="333"/>
+		
+		<!--  商城 相关 -->
+		<custom classname="flash.geom.Point" stylename="shop.RechargeEquipAlertButtonPos" x="109" y="180"/>
+		<custom classname="flash.geom.Point" stylename="shop.RechargeEquipServerButtonPos" x="212" y="180"/>
+		<custom classname="flash.geom.Point" stylename="shop.RechargeViewItemNamePos" x="70" y="16"/>
+		<custom classname="flash.geom.Point" stylename="shop.CartItemCellPos" x="10" y="10"/>
+		<custom classname="flash.geom.Point" stylename="shop.BugleViewItemCellPos" x="8" y="5"/>
+		<custom classname="flash.geom.Point" stylename="shop.ItemCellStartPos" x="8" y="8"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.CartItemCellPoint" x="11" y="16"/>
+		<custom classname="flash.geom.Point" stylename="shop.SetsShopCellPoint" x="52" y="16"/>
+		<custom classname="flash.geom.Point" stylename="ddtshop.commodityPricesText2LabelPos" x="283" y="227"/> 
+		
+		<custom classname="flash.geom.Point" stylename="shop.hiddenControlsBgPos" x="216" y="280" />
+		
+		<custom classname="flash.geom.Point" stylename="shop.LastItemPos" x="40" y="385"/>
+		<custom classname="flash.geom.Point" stylename="shop.CheckOutViewExtraButton" x="216" y="507"/>
+		<custom classname="flash.geom.Point" stylename="shop.CheckOutViewBtnPos" x="216" y="507"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.CheckOutViewBgPos" x="29" y="190"/>
+		<custom classname="flash.geom.Point" stylename="shop.shopCartItemPos" x="28" y="50"/>
+		<custom classname="flash.geom.Point" stylename="shop.ShopBuyManagerTextImgPos" x="124" y="150"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.playerMoneyTxtPos" x="90" y="400"/>
+		<custom classname="flash.geom.Point" stylename="shop.playerGiftTxtPos" x="90" y="426"/>
+		<custom classname="flash.geom.Point" stylename="shop.playerMedalTxtPos" x="90" y="451"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.commodityPricesText1Pos" x="43" y="214"/>
+		<custom classname="flash.geom.Point" stylename="shop.commodityPricesText2Pos" x="184" y="214"/>
+		<custom classname="flash.geom.Point" stylename="shop.commodityPricesText3Pos" x="314" y="214"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.NumberSelecterTextBgPos" x="173" y="50"/>
+		<custom classname="flash.geom.Point" stylename="shop.NumberSelecterTxtPos" x="175" y="52"/>
+		<custom classname="flash.geom.Point" stylename="shop.ChatFriendListPanelPos" x="390" y="52"/>
+		<custom classname="flash.geom.Point" stylename="shop.ShopCartItemPos" x="28" y="78"/>
+		<custom classname="flash.geom.Point" stylename="shop.textImgPos" x="100" y="170"/>
+		<custom classname="flash.geom.Point" stylename="shop.numberSelecterPos" x="175" y="165"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.GoodPayTypeLabelPos" x="83" y="27"/>
+		<custom classname="flash.geom.Point" stylename="shop.PayPaneGivingBtnPos" x="6" y="54"/>
+		<custom classname="flash.geom.Point" stylename="shop.PayPaneBuyBtnPos" x="70" y="54"/>
+		<custom classname="flash.geom.Point" stylename="shop.GoodItemNamePos" x="9" y="2"/>
+		<custom classname="flash.geom.Point" stylename="shop.GoodItemPricePos" x="35" y="27"/>
+		<custom classname="flash.geom.Point" stylename="shop.ShopItemCellBgPos" x="4" y="2"/>
+		<custom classname="flash.geom.Point" stylename="shop.ShopItemCellTypeBgPos" x="-45" y="25"/>
+		
+		<!-- ResponseInvite Start -->
+		<custom classname="flash.geom.Rectangle" stylename="invite.response.DispalyRect" x="60" y="60" right="940" bottom="540" />
+		<custom classname="flash.geom.Point" stylename="invite.response.RightBottom" x="60" y="60" />
+		<custom classname="flash.geom.Point" stylename="invite.response.LeftTop" x="60" y="60" />
+		<custom classname="flash.geom.Point" stylename="invite.response.FrameOffset" x="30" y="30" />
+		<custom classname="flash.geom.Point" stylename="invite.MapLabelI" x="42" y="116" />
+		<custom classname="flash.geom.Point" stylename="invite.MapFieldI" x="118" y="116" />
+		<custom classname="flash.geom.Point" stylename="invite.MapLabelII" x="10" y="116" />
+		<custom classname="flash.geom.Point" stylename="invite.MapFieldII" x="86" y="116" />
+		
+		<custom classname="flash.geom.Point" stylename="invite.TimeLabelI" x="236" y="116" />
+		<custom classname="flash.geom.Point" stylename="invite.TimeFieldI" x="312" y="116" />
+		<custom classname="flash.geom.Point" stylename="invite.TimeLabelII" x="184" y="116" />
+		<custom classname="flash.geom.Point" stylename="invite.TimeFieldII" x="260" y="116" />
+		<custom classname="flash.geom.Point" stylename="CardsTipPanel.starPos0" x="50" y="62" />
+		<custom classname="flash.geom.Point" stylename="CardsTipPanel.starPos1" x="67" y="62" />
+		<custom classname="flash.geom.Point" stylename="CardsTipPanel.starPos2" x="84" y="62" />
+		<custom classname="flash.geom.Point" stylename="CardsTipPanel.starBGPos" x="46" y="58" />
+		<custom classname="flash.geom.Point" stylename="CardsTipPanel.bandPos" x="125" y="43" />
+		<custom classname="flash.geom.Point" stylename="CardBoxTipPanel.rulePos" x="10" y="90" />
+		<custom classname="flash.geom.Point" stylename="CardsTipPanel.typePos" x="8" y="37" />
+		<custom classname="flash.geom.Point" stylename="CardBoxTipPanel.typePos" x="10" y="40"  />
+		<custom classname="flash.geom.Point" stylename="CardBoxTipPanel.setsBitPos" x="10" y="66"  />
+		
+		<custom classname="flash.geom.Point" stylename="invite.TimeLabel.setsPos" x="122" y="113" />
+		<custom classname="flash.geom.Point" stylename="invite.TimeField.setsPos" x="198" y="113"/>
+		<custom classname="flash.geom.Point" stylename="invite.MapLabel.setsPos" x="83" y="97" />
+		<custom classname="flash.geom.Point" stylename="invite.MapField.setsPos" x="201" y="97"/>
+		<custom classname="flash.geom.Point" stylename="invite.LevelLabel.setsPos" x="158" y="128"/>
+		<custom classname="flash.geom.Point" stylename="invite.LevelField.setsPos" x="206" y="128" />
+		
+		<!-- 模糊搜索Item -->
+		<custom classname="flash.geom.Point" stylename="IM.IMLookup.SexPos" x="10" y="1"/>
+		<!-- ResponseInvite End -->
+		
+		<!-- 续费 Start-->
+		
+		<custom classname="ddt.view.goods.AddPricePanel" stylename="ddt.view.goods.AddPricePanel" backStyle="SimpleFrameBackgound" closestyle = "core.closebt"
+			titleStyle = "FrameTitleTextStyle" titleOuterRectPosString = "6,6,5" closeInnerRectString = "346,44,3,30,13" moveInnerRectString = "0,30,0,30,1"
+			moveEnable="true" width="395" height="250" escEnable="true" enterEnable="true"/>
+		
+		<!-- 续费 End -->
+		<!-- 新手等级奖励预告 -->	
+		<custom classname="trainer.view.LevelRewardFrame" stylename="trainer.welcome.levelRewardFrame" backStyle="core.guideBg" submitButtonStyle="core.levelReward.submitBtn" cancelButtonStyle="null" closestyle="null" titleStyle="null" width="503" height="439"/>
+		<custom classname="trainer.view.LevelRewardItem" stylename="core.levelRewardItem1" x="19" y="255"/>
+		
+		<custom classname="flash.geom.Point" stylename="tryonSystem.TryonPanelView.effectPos" x="116" y="183"/>
+		
+		
+		<custom classname="flash.geom.Point" stylename="leagueShowFrame.contentPos" x="11" y="30"/>
+		 <!-- 非战斗宠物位置 -->  
+    <!-- 战斗外宠物精灵 -->  
+    <custom classname="pet.sprite.PetSprite" stylename="petSprite.PetSprite" x="373" y="331"/>  
+    <custom classname="flash.geom.Point" stylename="petSprite.ChatBallPos" x="0" y="0"/>  
+    <custom classname="flash.geom.Point" stylename="petSprite.PetMoviePos" x="45" y="94"/>  
+    <custom classname="asset.petSprite.ChatBall" stylename="petSprite.ChatBall" x="70" y="15"/>  
+	<!-- 草地pos -->
+		<custom classname="flash.geom.Point" stylename="chat.petSprite.landPos" x="356" y="396"/>
+    <!-- 战斗内宠物TIP -->  
+    <custom classname="flash.geom.Point" stylename="petTip.PetIconPos" x="11" y="27"/>  
+    <custom classname="flash.geom.Point" stylename="tofflist.NO1McAssetPos" x="16" y="58"/>  
+    <custom classname="flash.geom.Point" stylename="equipretrieve.trieveCell0.pos" x="384" y="288"/>  
+    
+    <custom classname="flash.geom.Point" stylename="dt.labyrinth.LabyrinthShopFrame.text1" x="111" y="72"/>  
+    
+	</customDisplay>
+		
+	<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petSprite.MessageTxt" textFormatStyle="petSprite.MessageTxtTF" wordWrap="true" width="110" x="5" y="-65"/>
+	<!-- 战斗中宠物TIPS -->  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petTip.PetName" textFormatStyle="petTip.PetNameTF" x="8" y="9"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petTip.PetLevel" textFormatStyle="petTip.PetLevelTF" filterString="petTip.PetLevelGF" x="52" y="36"/> 
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="petTips.line" parentStyle="HRuleAsset" width="173" x="5" y="47"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetSkillCellTip.name" textFormatStyle="petsBag.PetSkillCellTip.nameTF" filterString="petsBag.PetSkillCellTip.nameGF" width="158" wordWrap="true" x="6" y="8"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.petskillTip.ballTypeTxt" textFormatStyle="core.petskillTip.ballTypeTxtTF" filterString="core.petskillTip.ballTypeTxtGF" width="158" wordWrap="true" x="6" y="24"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetSkillCellTip.lostLbl" textFormatStyle="petsBag.PetSkillCellTip.lostLblTF" filterString="petsBag.PetSkillCellTip.lostLblGF" width="158" wordWrap="true" x="6" y="24"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetSkillCellTip.lostTxt" textFormatStyle="petsBag.PetSkillCellTip.lostTxtTF" filterString="petsBag.PetSkillCellTip.lostTxtGF" width="158" wordWrap="true" x="6" y="24"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetSkillCellTip.descLbl" textFormatStyle="petsBag.PetSkillCellTip.descLblTF" filterString="petsBag.PetSkillCellTip.descLblGF" width="158" wordWrap="true" x="6" y="24"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetSkillCellTip.descTxt" textFormatStyle="petsBag.PetSkillCellTip.descTxtTF" filterString="petsBag.PetSkillCellTip.descTxtGF" width="158" wordWrap="true" x="6" y="24"/>  
+	   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petsBag.PetSkillCellTip.coolDownTxt" textFormatStyle="petsBag.PetSkillCellTip.coolDownTF" filterString="petsBag.PetSkillCellTip.coolDownGF" width="158" wordWrap="true" x="6" y="24"/>  
+		
+	
+		<!-- messageBox -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="messageBox.bg"
+			resourceLink="asset.messagebox.bg"  scaleGridString="100,50,150,60" width="236" height="162"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="messageBox.title" 
+			textFormatStyle="Messagebox.titleTF1" wordWrap="false" mouseEnabled="false" x="33" y="13"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="messageBox.cancelFlash" 
+			backStyle="asset.messagebox.cancel" filterString="null,lightFilter,null,grayFilter"  x="165" y="14" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"  stylename="messageboxItem.bg"
+			resourceLink="asset.messagebox.itembg2,asset.messagebox.itembg1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="messageboxItem.name" 
+			textFormatStyle="messageboxItem.nameTF"  filterString="messageboxItem.nameGF" wordWrap="false" isAutoFitLength="true" mouseEnabled="false" x="36" y="4"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="messageboxItem.delete" 
+			backStyle="asset.IM.delete"  x="184" y="4"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="messagebox.vbox" spacing="2" y="50" x="15"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MessageTip.Prop.TextField"
+			 textFormatStyle="MessageTip.Prop.TextFieldTF"
+			 filterString="MessageTip.GhostProp.NameField.GF" y="10" />
+			 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MessageTip.TextField"
+			 textFormatStyle="MessageTip.TextFieldTF"
+			 filterString="MessageTip.GhostProp.NameField.GF" x="48" y="10" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MessageTip.GhostProp.NameField"
+			 textFormatStyle="MessageTip.GhostProp.NameField.TF1,MessageTip.GhostProp.NameField.TF2,MessageTip.GhostProp.NameField.TF3,MessageTip.GhostProp.NameField.TF4,MessageTip.GhostProp.NameField.TF5,MessageTip.GhostProp.NameField.TF6,MessageTip.GhostProp.NameField.TF7,MessageTip.GhostProp.NameField.TF8"
+			 filterString="MessageTip.GhostProp.NameField.GF" x="48" y="10" />
+		
+		<!-- dailyRecord -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="dailyRecord.bg"  resourceLink="asset.core.dailyRecord1,asset.core.dailyRecord2,asset.core.dailyRecord3,asset.core.dailyRecord4,asset.core.dailyRecord5,asset.core.dailyRecord6,asset.core.dailyRecord7,asset.core.dailyRecord8,asset.core.dailyRecord9" width="329" height="301"  x="10"  y="83"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="dailyRecord.contentStyle"  textFormatStyle="dailyRecord.contentTF"  wordWrap="true"  mouseEnabled="true" width="317" x="5" y="6"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="dailyRecord.vbox"  spacing="2"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="dailyRecord.panel"  parentStyle="core.ScrollPanel"  hScrollProxy="2"   vScrollProxy="0"   width="329"  height="297" x="10" y="85"/>
+		<component classname="ddt.dailyRecord.DailyRecordFrame" stylename="dailyRecordFrame"  width="348" 	height="395" moveEnable="false" backStyle="core.bg006" closestyle="core.closebt" 	titleStyle="FrameTitleTextStyle"  titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+	
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="copyFile.btn"  parentStyle="core.simplebt" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img0"  resourceLink="asset.core.auctionBg_1,asset.core.auctionBg_2,asset.core.auctionBg_3,asset.core.auctionBg_4,asset.core.auctionBg_5,asset.core.auctionBg_6,asset.core.auctionBg_7,asset.core.auctionBg_8,asset.core.auctionBg_9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img1"  resourceLink="asset.core.cardResetBG1.1,asset.core.cardResetBG1.2,asset.core.cardResetBG1.3,asset.core.cardResetBG1.4,asset.core.cardResetBG1.5,asset.core.cardResetBG1.6,asset.core.cardResetBG1.7,asset.core.cardResetBG1.8,asset.core.cardResetBG1.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img2"  resourceLink="asset.core.cardResetBG2.1,asset.core.cardResetBG2.2,asset.core.cardResetBG2.3,asset.core.cardResetBG2.4,asset.core.cardResetBG2.5,asset.core.cardResetBG2.6,asset.core.cardResetBG2.7,asset.core.cardResetBG2.8,asset.core.cardResetBG2.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img3"  resourceLink="asset.core.clearInterface.1,asset.core.clearInterface.2,asset.core.clearInterface.3,asset.core.clearInterface.4,asset.core.clearInterface.5,asset.core.clearInterface.6,asset.core.clearInterface.7,asset.core.clearInterface.8,asset.core.clearInterface.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img4"  resourceLink="asset.core.consortionBank.1,asset.core.consortionBank.2,asset.core.consortionBank.3,asset.core.consortionBank.4,asset.core.consortionBank.5,asset.core.consortionBank.6,asset.core.consortionBank.7,asset.core.consortionBank.8,asset.core.consortionBank.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img5"  resourceLink="asset.core.texture_1,asset.core.texture_2,asset.core.texture_3,asset.core.texture_4,asset.core.texture_5,asset.core.texture_6,asset.core.texture_7,asset.core.texture_8,asset.core.texture_9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img6"  resourceLink="asset.core.levelRewardLightBgAsset_leftup,asset.core.levelRewardLightBgAsset_up,asset.core.levelRewardLightBgAsset_rightup,asset.core.levelRewardLightBgAsset_left,asset.core.levelRewardLightBgAsset_center,asset.core.levelRewardLightBgAsset_right,asset.core.levelRewardLightBgAsset_leftdown,asset.core.levelRewardLightBgAsset_down,asset.core.levelRewardLightBgAsset_rightdown" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img7"  resourceLink="asset.core.highColourBgAsset_leftup,asset.core.highColourBgAsset_up,asset.core.highColourBgAsset_rightup,asset.core.highColourBgAsset_left,asset.core.highColourBgAsset_center,asset.core.highColourBgAsset_right,asset.core.highColourBgAsset_leftdown,asset.core.highColourBgAsset_down,asset.core.highColourBgAsset_rightdown" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img8"  resourceLink="asset.core.levelhighColourBgAssetII_leftup,asset.core.levelhighColourBgAssetII_up,asset.core.levelhighColourBgAssetII_rightup,asset.core.levelhighColourBgAssetII_left,asset.core.levelhighColourBgAssetII_center,asset.core.levelhighColourBgAssetII_right,asset.core.levelhighColourBgAssetII_leftdown,asset.core.levelhighColourBgAssetII_down,asset.core.levelhighColourBgAssetII_rightdown" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img9"  resourceLink="asset.core.levelRewardLightBgAssetII_leftup,asset.core.levelRewardLightBgAssetII_up,asset.core.levelRewardLightBgAssetII_rightup,asset.core.levelRewardLightBgAssetII_left,asset.core.levelRewardLightBgAssetII_center,asset.core.levelRewardLightBgAssetII_right,asset.core.levelRewardLightBgAssetII_leftdown,asset.core.levelRewardLightBgAssetII_down,asset.core.levelRewardLightBgAssetII_rightdown" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img10"  resourceLink="asset.core.levelRewardBg_left_up,asset.core.levelRewardBg_up,asset.core.levelRewardBg_right_up,asset.core.levelRewardBg_left,asset.core.levelRewardBg_center,asset.core.levelRewardBg_right,asset.core.levelRewardBg_left_down,asset.core.levelRewardBg_down,asset.core.levelRewardBg_right_down" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img11"  resourceLink="asset.core.Scale9CornerImage.scale9CornerImage1.1,asset.core.Scale9CornerImage.scale9CornerImage1.2,asset.core.Scale9CornerImage.scale9CornerImage1.3,asset.core.Scale9CornerImage.scale9CornerImage1.4,asset.core.Scale9CornerImage.scale9CornerImage1.5,asset.core.Scale9CornerImage.scale9CornerImage1.6,asset.core.Scale9CornerImage.scale9CornerImage1.7,asset.core.Scale9CornerImage.scale9CornerImage1.8,asset.core.Scale9CornerImage.scale9CornerImage1.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img12"  resourceLink="asset.core.ShopBg9Corner01,asset.core.ShopBg9Corner02,asset.core.ShopBg9Corner03,asset.core.ShopBg9Corner04,asset.core.ShopBg9Corner05,asset.core.ShopBg9Corner06,asset.core.ShopBg9Corner07,asset.core.ShopBg9Corner08,asset.core.ShopBg9Corner09" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img13"  resourceLink="asset.core.Scale9CornerImage.scale9CornerImage3.1,asset.core.Scale9CornerImage.scale9CornerImage3.2,asset.core.Scale9CornerImage.scale9CornerImage3.3,asset.core.Scale9CornerImage.scale9CornerImage3.4,asset.core.Scale9CornerImage.scale9CornerImage3.5,asset.core.Scale9CornerImage.scale9CornerImage3.6,asset.core.Scale9CornerImage.scale9CornerImage3.7,asset.core.Scale9CornerImage.scale9CornerImage3.8,asset.core.Scale9CornerImage.scale9CornerImage3.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img14"  resourceLink="asset.core.Scale9CornerImage.scale9CornerImage5.1,asset.core.Scale9CornerImage.scale9CornerImage5.2,asset.core.Scale9CornerImage.scale9CornerImage5.3,asset.core.Scale9CornerImage.scale9CornerImage5.4,asset.core.Scale9CornerImage.scale9CornerImage5.5,asset.core.Scale9CornerImage.scale9CornerImage5.6,asset.core.Scale9CornerImage.scale9CornerImage5.7,asset.core.Scale9CornerImage.scale9CornerImage5.8,asset.core.Scale9CornerImage.scale9CornerImage5.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img15"  resourceLink="asset.core.Scale9CornerImage.scale9CornerImage6.1,asset.core.Scale9CornerImage.scale9CornerImage6.2,asset.core.Scale9CornerImage.scale9CornerImage6.3,asset.core.Scale9CornerImage.scale9CornerImage6.4,asset.core.Scale9CornerImage.scale9CornerImage6.5,asset.core.Scale9CornerImage.scale9CornerImage6.6,asset.core.Scale9CornerImage.scale9CornerImage6.7,asset.core.Scale9CornerImage.scale9CornerImage6.8,asset.core.Scale9CornerImage.scale9CornerImage6.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img16"  resourceLink="asset.core.Scale9CornerImage.scale9CornerImage7.1,asset.core.Scale9CornerImage.scale9CornerImage7.2,asset.core.Scale9CornerImage.scale9CornerImage7.3,asset.core.Scale9CornerImage.scale9CornerImage7.4,asset.core.Scale9CornerImage.scale9CornerImage7.5,asset.core.Scale9CornerImage.scale9CornerImage7.6,asset.core.Scale9CornerImage.scale9CornerImage7.7,asset.core.Scale9CornerImage.scale9CornerImage7.8,asset.core.Scale9CornerImage.scale9CornerImage7.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img17"  resourceLink="asset.core.ChooseMapBg_1,asset.core.ChooseMapBg_2,asset.core.ChooseMapBg_3,asset.core.ChooseMapBg_4,asset.core.ChooseMapBg_5,asset.core.ChooseMapBg_6,asset.core.ChooseMapBg_7,asset.core.ChooseMapBg_8,asset.core.ChooseMapBg_9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img18"  resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img19"  resourceLink="asset.vip.inputBG1,asset.vip.inputBG2,asset.vip.inputBG3,asset.vip.inputBG4,asset.vip.inputBG5,asset.vip.inputBG6,asset.vip.inputBG7,asset.vip.inputBG8,asset.vip.inputBG9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img20"  resourceLink="asset.awardSystem.timeBox.LeftUp,asset.awardSystem.timeBox.UpCentre,asset.awardSystem.timeBox.RightUp,asset.awardSystem.timeBox.LeftCentre,asset.awardSystem.timeBox.Centre,asset.awardSystem.timeBox.RightCentre,asset.awardSystem.timeBox.LeftDown,asset.awardSystem.timeBox.DownCentre,asset.awardSystem.timeBox.RightDown" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img21"  resourceLink="asset.vip.helpFrame.BG1,asset.vip.helpFrame.BG2,asset.vip.helpFrame.BG3,asset.vip.helpFrame.BG4,asset.vip.helpFrame.BG5,asset.vip.helpFrame.BG6,asset.vip.helpFrame.BG7,asset.vip.helpFrame.BG8,asset.vip.helpFrame.BG9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img22"  resourceLink="asset.vipFrame.topBG1,asset.vipFrame.topBG2,asset.vipFrame.topBG3,asset.vipFrame.topBG4,asset.vipFrame.topBG5,asset.vipFrame.topBG6,asset.vipFrame.topBG7,asset.vipFrame.topBG8,asset.vipFrame.topBG9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img23"  resourceLink="asset.core.Scale9CornerImage14.1,asset.core.Scale9CornerImage14.2,asset.core.Scale9CornerImage14.3,asset.core.Scale9CornerImage14.4,asset.core.Scale9CornerImage14.5,asset.core.Scale9CornerImage14.6,asset.core.Scale9CornerImage14.7,asset.core.Scale9CornerImage14.8,asset.core.Scale9CornerImage14.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img24"  resourceLink="asset.core.Scale9CornerImage16.1,asset.core.Scale9CornerImage16.2,asset.core.Scale9CornerImage16.3,asset.core.Scale9CornerImage16.4,asset.core.Scale9CornerImage16.5,asset.core.Scale9CornerImage16.6,asset.core.Scale9CornerImage16.7,asset.core.Scale9CornerImage16.8,asset.core.Scale9CornerImage16.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img25"  resourceLink="asset.core.Scale9CornerImage15.1,asset.core.Scale9CornerImage15.2,asset.core.Scale9CornerImage15.3,asset.core.Scale9CornerImage15.4,asset.core.Scale9CornerImage15.5,asset.core.Scale9CornerImage15.6,asset.core.Scale9CornerImage15.7,asset.core.Scale9CornerImage15.8,asset.core.Scale9CornerImage15.9" width="300" height="300"  x="500"  y="100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="copyFile.img26"  resourceLink="asset.core.ScaleBitmapTree_01,asset.core.ScaleBitmapTree_02,asset.core.ScaleBitmapTree_03,asset.core.ScaleBitmapTree_04,asset.core.ScaleBitmapTree_05,asset.core.ScaleBitmapTree_06,asset.core.ScaleBitmapTree_07,asset.core.ScaleBitmapTree_08,asset.core.ScaleBitmapTree_09" width="300" height="300"  x="500"  y="100"/>
+		
+		
+		<!-- ExpMovie -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='ExpMovie.expText' textFormatStyle="expMovie.TF" filterString="expMovie.GF" autoSize="none" width="67" height="27" />
+		<!-- 商城 相关 -->	
+		<!--   ShopRechargeView   -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.shop.CheckOutViewBg" parentStyle="core.scale9cornerImage4" 
+			x="8" y="35" width="465" height="220"
+		/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="ShopCheckOutViewBg" parentStyle="SimpleFrameBackgound"
+			imageRectString=",9|9|55|9|4"
+		/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="ShopCheckOutViewBgI" parentStyle="SimpleFrameBackgound"
+			imageRectString=",14|14|55|15|4"
+		/>
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="core.shop.CheckOutViewFrame" parentStyle="BaseFrame" 
+			backStyle="ShopCheckOutViewBg" 
+			moveEnable = 'false'
+			escEnable="true"
+			width="480" height="320"
+		/>
+		<!--   ShopCheckOutView   -->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="SetsShopItemCheckBox" 
+			unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" 
+			textStyle="shop.CommodityPricesText1" displacement="false" selected="true" 
+			fieldX="37" fieldY="9" width="28" height="28" x="7" y="22"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="SetsShopCheckBox"
+			parentStyle="SetsShopItemCheckBox" x="32" y="390" /><!--  -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CommodityPricesText1" parentStyle="core.shop.CommodityPricesText"
+			x="47" y='446'
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CommodityPricesText2" parentStyle="shop.CommodityPricesText1"
+			x="183"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CommodityPricesText3" parentStyle="shop.CommodityPricesText1"
+			x="306"
+		/>
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="shop.CheckOutViewFrame"  parentStyle="core.shop.CheckOutViewFrame" 
+			width="495" height="550"
+		/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.SaveImageBtn"
+			backStyle="asset.shop.SaveImageBtn" filterString="null,lightFilter,null,grayFilter"
+			x="134" y="490"
+		/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.GiftsBtn" parentStyle="core.shop.GiftsBtn" 
+			x="134" y="490"
+		/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.PurchaseConfirmation" parentStyle="core.shop.PurchaseConfirmation"
+			x="134" y="490"
+		/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="shop.CheckOutViewBg" parentStyle="core.shop.CheckOutViewBg" 
+			width="480" height="455"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.HideCheckButton" 
+			textFormatStyle="shop.ShopCheckButtonTF" 
+			filterString="shop.ShopCheckButtonFilter" 
+			width="60" height="16"
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.CartItemSelectBtn" 
+			unSelectedStyle="asset.shop.CartItemSelectBtn0" selectedStyle="asset.shop.CartItemSelectBtn1" 
+			textStyle="shop.HideCheckButton" fieldX="20" fieldY="-1" x="-7"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtshop.CartItemTextIII" textFormatStyle="ddtshop.GoodItemNameTF2" filterString="ddtshop.GoodItemTextFilter" />	
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddtshop.CartItemSelectBtn" 
+			unSelectedStyle="core.RadioButton.Red.CheckBtnUnSelect" selectedStyle="core.RadioButton.Red.CheckBtnSelect" 
+			textStyle="ddtshop.CartItemTextIII" fieldX="20" fieldY="0" 
+		/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.CartItemCloseBtn" 
+			backStyle="asset.shop.CartItemCloseBtn" 
+			filterString="null,lightFilter,null,grayFilter" 
+			x="397" y="0"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CommodityNumberText" 
+			textFormatStyle="shop.CommodityNumberTF" filterString="shop.CommodityNumberGF" 
+			autoSize="none" type="dynamic"
+			x="200" y='404'
+			width="25" height="20" 
+		/>
+		<!--   ShopCartItemList   -->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="shop.CartItemList" parentStyle="core.ScrollPanel" width="400" height="282" x="17" y="50"/>
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="shop.CheckOutViewItemList" 
+			parentStyle="core.ScrollPanel" width="450" height="340" x="22" y="50"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.shop.PurchaseConfirmation" 
+			backStyle="asset.shop.PurchaseConfirmation" filterString="null,lightFilter,null,grayFilter"
+			x="134" y="260"
+		/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="shop.CartItemSelectVBox" 
+			spacing="-6"
+			x="210" y="8"
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.shop.NumberSelecterTextBg" 
+			resourceLink="asset.shop.TextBg" scaleGridString="10,10,15,15"
+			width="140" height="24"
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.shop.ShopUpButton" 
+			backStyle="asset.shop.ShopUpButton" pressEnable="true"
+			x='140'
+			y='-7'
+		/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.shop.ShopDownButton" 
+			backStyle="asset.shop.ShopDownButton" pressEnable="true"
+			x='140'
+			y='13'
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.NumberSelecter" stylename="core.shop.NumberSelecter" 
+			backStyle="core.shop.NumberSelecterTextBg"
+			targetFieldStyle='core.NumberSelecterTxt' 
+			upStyle="core.shop.ShopDownButton" 
+			downStyle="core.shop.ShopUpButton" 
+			valueLimit="1,50"
+			x='193' y='147'
+		/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.NumberSelecterTxt"
+			textFormatStyle="core.numberSelecterTxtTF" autoSize="none" type="input"
+			x='2' y='2' width="136" height="22" 
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.shop.CommodityPricesText" 
+			textFormatStyle="shop.CommodityPricesTF" filterString="shop.CommodityPricesGF" 
+			autoSize="none" type="dynamic"
+			width="68" height="20" 
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.shop.GiftsBtn" 
+			backStyle="asset.shop.GiftsBtn" filterString="null,lightFilter,null,grayFilter"
+			x="134" y="260"
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.shop.shopFriendsBtn" 
+			backStyle="asset.shop.shopFriendsBtn" 
+			filterString="null,lightFilter,null,grayFilter" 
+			x="310" y="52"
+		/>
+		
+		<component classname="shop.view.ShopPresentClearingFrame" stylename="core.shop.ShopPresentClearingFrame" 
+			width="442" height="380" moveEnable="false" 
+			backStyle="core.bg006" closestyle="core.closebt" 
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"  	
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"
+		/>
+		
+		<component classname="ddt.view.edictum.EdictumFrame"  stylename="edictum.EdictumFrame" parentStyle="BaseFrame" width="580" height="480"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="edictum.edictumBGI" x="18" y="79" width="545" height="350" resourceLink="asset.core.Scale9CornerImage14.1,asset.core.Scale9CornerImage14.2,asset.core.Scale9CornerImage14.3,asset.core.Scale9CornerImage14.4,asset.core.Scale9CornerImage14.5,asset.core.Scale9CornerImage14.6,asset.core.Scale9CornerImage14.7,asset.core.Scale9CornerImage14.8,asset.core.Scale9CornerImage14.9"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="edictum.edictumPanel" parentStyle="core.ScrollPanel"
+					width="535" height="340" hScrollProxy="2" vScrollProxy="0" x="23" y="83"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="edictum.edictumTitle" textFormatStyle="core.edictumtitleFor" x="187" y="42" autoSize="none" width="210" height="40" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="edictum.edictumContent" textFormatStyle="core.edictumConFor" 
+				   autoSize="left" width="510" multiline="true" wordWrap="true" type="dynamic"/>
+		
+	
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="shop.RechargeViewAlert"  backStyle="core.bg006" submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"  width="390" height="223"/>
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="shop.RechargeViewServer"  backStyle="core.bg006" submitButtonStyle="core.simplebt" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"  width="390" height="223"/>
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="shop.RechargeViewFrame"  parentStyle="BaseFrame" width="442" height="536" backStyle="ShopCheckOutViewBgI" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="shop.RechargeViewItemList" parentStyle="core.ScrollPanel" width="400" height="282" x="23" y="44"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="shop.RechargeViewChargeBtn" backStyle="asset.shop.RechargeViewChargeBtn" x="349" y="489"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.RechargeViewCostMoney" parentStyle="shop.CostMoney" x="111" y ="366"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.RechargeViewCostGift" parentStyle="shop.CostGift" x="111" y ="391" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.RechargeViewPlayerMoney" parentStyle="shop.PlayerMoney" x="301" y ="366"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.RechargeViewPlayerGift" parentStyle="shop.PlayerGift" x="301" y ="391" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.RechargeViewCurrentCount" parentStyle="shop.CurrentCount" x="147" y="424"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.RechargeViewItemMoneyRadioBtn" unSelectedStyle="asset.setting.checkBtnI" selectedStyle="asset.setting.selectedCheckBtn"   textStyle="asset.shop.ShopMoney"  fieldX="30" fieldY="5" filterString="null,lightFilter,null,grayFilter" x="67" y="40" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.RechargeViewItemGiftRadioBtn" unSelectedStyle="asset.setting.checkBtnI" selectedStyle="asset.setting.selectedCheckBtn"  textStyle="asset.shop.ShopGift"  fieldX="30" fieldY="5" filterString="null,lightFilter,null,grayFilter" x="133" y="40"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="shop.CartItemContainer" spacing="2" isReverAdd="true" strictSize="65"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CostMoney" textFormatStyle="shop.DigitTF1" x="64" y="390" autoSize="none" width="90" height="21"  type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CostGift" textFormatStyle="shop.DigitTF" x="64" y="417" autoSize="none" width="90" height="21" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CostMedal" textFormatStyle="shop.DigitTF" x="64" y="442" autoSize="none" width="90" height="21" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PlayerMoney" textFormatStyle="shop.DigitTF" x="212" y="390" autoSize="none" width="90" height="21" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PlayerGift" textFormatStyle="shop.DigitTF" x="212" y="417" autoSize="none" width="90" height="21" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PlayerMedal" textFormatStyle="shop.DigitTF" x="212" y="442" autoSize="none" width="90" height="21" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CurrentCount" textFormatStyle="shop.CurrentCountTF" x="180" y="477" autoSize="none" width="60" height="20" type="dynamic"/>
+        <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="shop.affirmContinuBt" backStyle="asset.AddPricePanel.affirmContinuBt" x="133" y="470"/>
+		<!--   ShopColorPanel   -->
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.ColorBtn"  selectedStyle="asset.shop.ColorBtnUp" unSelectedStyle="asset.shop.ColorBtnDown" filterString="null,lightFilter,null,grayFilter" x="2" y="-1" useLogID="46"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TextureBtn"  selectedStyle="asset.shop.TextureBtnUp" unSelectedStyle="asset.shop.TextureBtnDown" filterString="null,lightFilter,null,grayFilter" x="89" y="-1" useLogID="47"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.ReductiveColorBtn" 
+			backStyle="asset.shop.ReductiveColorBtn" 
+			filterString="null,lightFilter,null,grayFilter" 
+			x="175" y='0'
+		/>
+		<bitmapData resourceLink="asset.shop.ColorChoosePanel" y="20"/>
+		<bitmapData resourceLink="asset.shop.ColorMask" x="7" y="28"/>
+		<component classname="ddt.view.ColorItem" stylename="shop.ColorItem"  selectedStyle="asset.shop.ColorItemSelected" unSelectedStyle="asset.shop.ColorItemNormal"/>
+		<custom classname="flash.geom.Point" stylename="shop.ColorPanelPos" x="7" y="28"/>
+
+		<!--   ShopCartItem   -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.GoodPayTypeLabel" resourceLink="asset.shop.PayTypeLabelFree,asset.shop.PayTypeLabelMoney,asset.shop.PayTypeLabelGift,asset.shop.PayTypeLabelMedal" x="163" y="33"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.CartItemDeleteBtn" backStyle="asset.shop.CartItemDeleteBtn" filterString="null,lightFilter,null,grayFilter" x="360" y="3"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.CartItemLabelIcon" parentStyle="shop.GoodPayTypeLabel" x="300" y="3"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CartItemName" 
+			textFormatStyle="shop.ShopCartItemNameTF" filterString="shop.GoodItemNameFilter" 
+			x="68" y="27"  width="135" height="35" wordWrap="true" type="dynamic" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.SetsShopItemName"
+			parentStyle="shop.CartItemName" x="114" />
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="shop.CartItemComBox" parentStyle="core.Combox1" width="160" height="28" snapItemHeight="true" x="220" y="25" />
+		
+		<!--   ShopBugleView   -->
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="shop.BugleFrame"  parentStyle="BaseFrame" width="330" height="225" containerX="13" containerY="45"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.BugleViewItemContainer" spacing="2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.BugleViewCountText" textFormatStyle="shop.BugleViewCountTF" filterString="shop.BugleViewCountGF" x="10" y="75" autoSize="none"  width="80" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.BugleViewMoneyText" textFormatStyle="shop.BugleViewMoneyTF" x="10" y="97"  autoSize="none" width="80" height="21"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.BugleViewBg" resourceLink="asset.shop.ShopItemUnselectedBg,asset.shop.ShopItemSelectedBg"/>
+		
+		<!--   铁匠铺   -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.unSelectedCheck" x="10" y="10" resourceLink="core.RadioButton.Yellow.CheckBtnUnSelect,core.RadioButton.Yellow.CheckBtnUnSelect,core.RadioButton.Yellow.CheckBtnUnSelect,core.RadioButton.Yellow.CheckBtnUnSelect" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="store.selectedCheck" x="10" y="10" resourceLink="core.RadioButton.Yellow.CheckBtnSelect,core.RadioButton.Yellow.CheckBtnSelect,core.RadioButton.Yellow.CheckBtnSelect,core.RadioButton.Yellow.CheckBtnSelect" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="store.MoneySelectBtn" unSelectedStyle="store.unSelectedCheck" selectedStyle="store.selectedCheck" textStyle="bagAndInfo.AddPrice.CheckBtnMoneyBG" fieldX="30" fieldY="4" displacement="false" x="125"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="store.GiftSelectBtn" unSelectedStyle="store.unSelectedCheck" selectedStyle="store.selectedCheck" textStyle="bagAndInfo.AddPrice.CheckBtnGiftBG" fieldX="30" fieldY="4" displacement="false" x="226"/>
+		
+		<!--血量、体力、怒气槽tips-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ChangeNumToolTip.titleTxt"  
+			textFormatStyle="core.ChangeNumToolTipTitleTF" width="57" height="18" x="6" y="7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ChangeNumToolTip.totalTxt"  
+			parentStyle="ChangeNumToolTip.titleTxt" width="60" height="18" x="93" y="7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ChangeNumToolTip.contentTxt"  
+			textFormatStyle="core.ChangeNumToolTipContentTF" wordWrap="true" multiline="true" width="180" height="77" x="5" y="26" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.MarriedTipText" textFormatStyle="core.MarriedTipTF"/>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.item.name"
+			textFormatStyle="frameNameTF" autoSize="none" width="133" height="23" isAutoFitLength="true" x="0" y="6"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.item.title"
+			textFormatStyle="frameTitleIITF" filterString="simpleTextTitleGF" x="20" y="2"/>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.guildStateTxt" textFormatStyle="core.guildStateTF"
+			 filterString="core.guildStateGF" x="55" y="42"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.guildReputeTxt" textFormatStyle="core.guildReputeTF"
+			filterString="core.guildStateGF" x="50" y="0"/>
+
+			
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.guideBg"
+			resourceLink="asset.core.GuideBg_1,asset.core.GuideBg_2,asset.core.GuideBg_3,asset.core.GuideBg_4,asset.core.GuideBg_5,asset.core.GuideBg_6,asset.core.GuideBg_7,asset.core.GuideBg_8,asset.core.GuideBg_9" width="100" height="100"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.btnGuideSubmit" backStyle="asset.trainer.welcome.guideSubmit" width="111" height="41"/>
+		
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="GuideFrame"
+			backStyle="core.guideBg" submitButtonStyle="core.btnGuideSubmit" cancelButtonStyle="null" closestyle="null" titleStyle="null"/>
+			
+		<!--BlackFrameBackGround-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg004"
+			resourceLink="asset.core.blackframeBG" width="430" height="243" scaleGridString="10,10,30,30"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.MarriedTipBg" resourceLink="asset.core.blackframeB"  scaleGridString="8,8,112,17"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bt001"
+			resourceLink="asset.core.blackframeB" width="314" height="25" scaleGridString="5,5,40,20"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg003"
+			resourceLink="asset.core.blackframeH" width="314" height="34" scaleGridString="5,5,20,15"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="roulette.helpFrameEnter" parentStyle="core.simplebt" x="144" y="406"/>	
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="BlackFrameBackgound"
+			resourceLink="core.bg004,core.bt001,core.bg003"
+			imageRectString=",4|4|34|4|4,4|4|4|25|1"/>
+
+	
+		<!--TipsRes-->
+		<component classname="ddt.view.tips.GoodTip" stylename="core.GoodsTip"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="core.vbox"
+			width="170" height="21" spacing="6" x="5" y="29"/>
+		<!--分割线-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="HRuleAsset"
+			resourceLink="asset.core.tip.HRuleAsset" width="192" height="2" scaleGridString="10,1,182,1"/>
+		<!--背景图片-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.GoodsTipBg"
+			resourceLink="asset.core.tip.GoodsTipBg" scaleGridString="10,10,60,45" width="100" height="126"/>
+			
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" 	stylename="core.VipLevelIcon"
+			resourceLink="asset.vipIcon.levelBig0,asset.vipIcon.levelBig1,asset.vipIcon.levelBig2,asset.vipIcon.levelBig3,asset.vipIcon.levelBig4,asset.vipIcon.levelBig5,asset.vipIcon.levelBig6,asset.vipIcon.levelBig7,asset.vipIcon.levelBig8,asset.vipIcon.levelBig9,asset.vipIcon.levelSmal0,asset.vipIcon.levelSmal1,asset.vipIcon.levelSmal2,asset.vipIcon.levelSmal3,asset.vipIcon.levelSmal4,asset.vipIcon.levelSmal5,asset.vipIcon.levelSmal6,asset.vipIcon.levelSmal7,asset.vipIcon.levelSmal8,asset.vipIcon.levelSmal9"/>
+
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" 	stylename="core.SeniorVipLevelIcon"
+			resourceLink="asset.seniorVipIcon.big_1,asset.seniorVipIcon.big_2,asset.seniorVipIcon.big_3,asset.seniorVipIcon.big_4,asset.seniorVipIcon.big_5,asset.seniorVipIcon.big_6,asset.seniorVipIcon.big_7,asset.seniorVipIcon.big_8,asset.seniorVipIcon.big_9,asset.seniorVipIcon.small_1,asset.seniorVipIcon.small_2,asset.seniorVipIcon.small_3,asset.seniorVipIcon.small_4,asset.seniorVipIcon.small_5,asset.seniorVipIcon.small_6,asset.seniorVipIcon.small_7,asset.seniorVipIcon.small_8,asset.seniorVipIcon.small_9"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.guildIconTipBg"
+			resourceLink="asset.core.tip.GoodsTipBg" width="135" height="110"
+			scaleGridString="10,10,60,45"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.BadgeTipBg"
+			resourceLink="asset.core.tip.GoodsTipBg" width="165" height="135"
+			scaleGridString="10,10,60,45"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.core.tip.buffTipBg"
+			resourceLink="asset.core.tip.GoodsTipBg" width="265"
+			scaleGridString="10,10,60,45"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="effortView.EffortTipBg"
+			resourceLink="asset.core.tip.GoodsTipBg" width="300" height="130"
+			scaleGridString="10,10,60,45"/>
+		<!--强化显示动画-->
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="core.GoodsTipItemNameMc"
+			resourceLink="asset.core.tip.GoodsTipItemNameMc" width="111" height="53" x="155" y="119"/>
+		<!--伤害文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.GoodsTipTxt"
+			filterString="P_g1" textFormatStyle="PFormat_5" x="51" y="-3"/>
+		<!--类型文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipTypeTxt" filterString="P_g1" textFormatStyle="PFormat_5" x="27"
+			y="-4"/>
+		<!--防御文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipDefenceTxt" filterString="P_g1" textFormatStyle="PFormat_5"
+			x="32" y="-5"/>
+		<!--恢复文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipRecoverTxt" filterString="P_g1" textFormatStyle="PFormat_5"
+			x="32" y="-4"/>
+		<!--品质文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipQualityTxt" filterString="P_g1" textFormatStyle="PFormat_5"
+			x="32" y="-4"/>
+			
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" 	stylename="core.goodTip.BoundImage"
+			resourceLink="asset.core.tip.Band1,asset.core.tip.Band2" x="136" y="45"/>
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.QualityItem"
+			foreStyle="core.GoodsTipQualityTxt" backStyle="asset.core.tip.GoodsTipQuality"/>
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.HarmItem"
+			foreStyle="core.GoodsTipTxt" backStyle="asset.core.tip.GoodsTipItemHert"/>
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.armAngleItem"
+			foreStyle="core.GoodsTipTxt" backStyle="asset.core.tip.GoodsTipItemArmAngle"/>
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.otherHp"
+			foreStyle="core.GoodsTipTxt" backStyle="asset.core.tip.hp"/>
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.ArmorItem"
+			foreStyle="core.GoodsTipDefenceTxt" backStyle="asset.core.tip.GoodsTipItemDefence"/>	
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.TypeItem"
+			foreStyle="core.GoodsTipTypeTxt" backStyle="asset.core.tip.GoodsType"/>
+			
+		<component classname="ddt.view.SimpleItem" stylename="core.goodTip.MainPropertyItem"
+			foreStyle="core.GoodsTipTxt" backStyle="core.goodTip.MainPropertyItemBackStyle"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" 	stylename="core.goodTip.MainPropertyItemBackStyle"
+			resourceLink="asset.core.tip.GoodsTipItemHert,asset.core.tip.GoodsTipItemDefence,asset.core.tip.GoodsTipItemRecover,asset.core.tip.GoodsTipItemRecover1"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.goodTip.DescriptionTxt" textFormatStyle="core.goodTip.DescriptionTxtFormat" multiline="true" wordWrap="true" x="4" selectable="false" />
+			
+		<!--饰品等级显示影片-->
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="core.GoodsTipItemTrinketLevelMc"
+			resourceLink="asset.core.tip.GoodsTipItemTrinketLevelMc" width="81" height="52" x="100" y="86"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipNameTxt" filterString="P_g1" textFormatStyle="PFormat_1"/>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipHeadTxt" textFormatStyle="PFormat_1" filterString="P_g1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipItemTxt" filterString="P_g1" textFormatStyle="PFormat_4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipItemDateTxt" filterString="P_g1" textFormatStyle="PFormat_2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipGoldItemDateTxt" filterString="P_g1" textFormatStyle="PFormat_2"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.GoodsTipItemNameTxt" filterString="P_g1" textFormatStyle="PFormat_6"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.badgeTipNameTxt" filterString="P_g1" textFormatStyle="PFormat_6" x="4" y="4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.badgeTipItemDateTxt" filterString="P_g1" textFormatStyle="PFormat_1" x="4" y="108"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.badgeTip.DescriptionTxt" textFormatStyle="core.goodTip.DescriptionTxtFormat" multiline="true" wordWrap="true" x="4" y="36" selectable="false" width="154"/>	
+			
+		<!--创建房间底图-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="core.ScaleBitmap001" resourceLink="asset.core.ScaleBitmapAssets" width="292"
+			height="326" scaleGridString="30,30,230,260"/>
+
+		<!--性别图标-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="sex_icon"
+			resourceLink="asset.core.sex_W,asset.core.sex_M"/>
+		<!--师徒关系图标-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.im.masterRelationIcon"
+			resourceLink="asset.academyCommon.masterIconBoy,asset.academyCommon.masterIconGirl,asset.academyCommon.apprenticeIconBoy,asset.academyCommon.apprenticeIconGirl"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.im.CityIcon"
+			resourceLink="asset.IM.CityB,asset.IM.CityG" x="28" y="-3"/>
+		
+		<!--LevelTip-->
+		<component classname="ddt.view.tips.LevelTip" stylename="core.LevelTips"/>
+		<!--SmallPlayerTip-->
+		<component classname="ddt.view.tips.SmallPlayerTip" stylename="core.SmallPlayerTips"/>
+		<!--胜率文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.WinRateTxt"
+			filterString="P_g3" textFormatStyle="PFormat_7" x="50" y="-1.7"/>
+		<!--排名文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ReputeTxt"
+			filterString="P_g4" textFormatStyle="PFormat_8" x="50"/>
+		<!--战斗力文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.BattleTxt"
+			textFormatStyle="PFormat_9" x="50"/>
+		<!--功勋文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ExploitTxt"
+			textFormatStyle="PFormat_24" x="50"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.SimpleTipText"
+			textFormatStyle="PFormat_10" filterString="P_g1"/>
+		<!--ConsortiaTip-->
+		<component classname="ddt.view.tips.ConsortiaTip" stylename="core.ConsortiaLevelTip"/>
+		<!--状态文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.StatusTxt"
+			filterString="P_g1" textFormatStyle="PFormat_3" x="55" y="44"/>
+		<!--排名文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ReputesTxt"
+			filterString="P_g1" textFormatStyle="PFormat_11" x="55" y="76"/>
+		<!--ToolPropTip-->
+		<component classname="ddt.view.tips.ToolPropTip" stylename="core.ToolPropTips"/>
+		<!--名字文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ToolNameTxt"
+			textFormatStyle="PFormat_12" x="6" y="4"/>
+		<!--thew文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ToolThewTxt"
+			textFormatStyle="PFormat_13" x="6" y="24"/>
+		<!--描述文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.ToolDescribeTxt" textFormatStyle="PFormat_14" x="6" y="38"/>
+		<!--金钱文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ToolGoldTxt"
+			 textFormatStyle="PFormat_15" x="86" y="103"/>
+		<!--属性文字tip-->
+		<component classname="ddt.view.tips.PropTxtTip" stylename="core.PropTxtTips"/>
+		<!--属性文字tip-->
+		<component classname="ddt.view.tips.FightBuffTip" stylename="core.FightBuffTip"/>
+		<!--属性文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.PerpertyTxt"
+			textFormatStyle="PFormat_16" x="14" y="8"/>
+		<!--幸运日文字-->	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.LuckyDayTxt"
+			textFormatStyle="PFormat_29" x="14" y="66"/>
+		<!--幸运属性文字-->	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.LuckyPropertyTxt"
+			parentStyle="core.DetailTxt" x="14" y="86" height="20"/>
+		<!--Buff文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.FightBuffTxt"
+			textFormatStyle="PFormat_25" x="6" y="4" />
+		<!--Buff细节描述文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.FightBuffDetailTxt"
+			textFormatStyle="PFormat_26" x="6" y="20" autoSize="none" width="158" height="52"/>
+		<!--细节描述文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.DetailTxt"
+			textFormatStyle="PFormat_17" x="13" y="31" autoSize="none" width="158" height="56"/>
+		<!--道具装备tip-->
+		<component classname="ddt.view.tips.BuffTip" stylename="core.BuffTips"/>
+		<!--道具名称文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.TNameTxt"
+			textFormatStyle="PFormat_18" filterString="P_g1" x="3" y="5"/>
+		<!--剩余时间文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.CommonTxt"
+			textFormatStyle="PFormat_17" filterString="P_g1" x="0" y="28"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.DesTxt"
+			textFormatStyle="PFormat_17" filterString="P_g1" x="8" y="12" width="171"/>
+		
+		<!--名称文字-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ChatFaceTxt"
+			textFormatStyle="PFormat_20" autoSize="none" width="30" height="18"/>
+
+		<!--AddFriendFrame-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="bg007"
+			resourceLink="asset.core.bg007"  width="98" height="25" scaleGridString="5,10,94,15"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="AddFriendFrameBackgound" resourceLink="core.bg006,core.bg002,bg007"
+			imageRectString=",9|9|39|9|4,110|137|56|27|13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="CheckCodeFrameBackgound" resourceLink="core.bg006,core.bg002"
+			imageRectString=",9|9|39|9|4"/>
+		<component classname="im.AddFriendFrame" backStyle="AddFriendFrameBackgound" width="300"
+			height="165" stylename="AddFriendFrame" escEnable = "true" x="347" y="210" parentStyle="BaseFrame"
+			moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>
+		<component classname="im.AddBlackFrame" backStyle="AddFriendFrameBackgound" width="300"
+			height="165" stylename="AddBlackFrame" escEnable = "true" x="347" y="210" parentStyle="BaseFrame"
+			moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>
+		
+		<component classname="im.InviteDialogFrame" backStyle="SimpleFrameBackgound" width="315"
+			height="180" stylename="InviteDialogFrame" escEnable = "true" x="347" y="210" parentStyle="BaseFrame"
+			moveEnable="true" buttonToBottom="13" containerX="20" containerY="40"/>
+		
+		<!--TextInput-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.textInputBg"
+			resourceLink="asset.core.textInputBgActionAssets,asset.core.textInputBgDisabledAssets"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="SimpleInputTextStyleII" textFormatStyle="frameTitleTF"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="textinput" type="input" autoSize="none" textFormatStyle="frameTitleTF"
+			focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" x="91"
+			y="19" width="130" height="25"/>
+		<!--木纹拉伸九宫格图片-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9cornerImageTree"
+			resourceLink="asset.core.ScaleBitmapTree_01,asset.core.ScaleBitmapTree_02,asset.core.ScaleBitmapTree_03,asset.core.ScaleBitmapTree_04,asset.core.ScaleBitmapTree_05,asset.core.ScaleBitmapTree_06,asset.core.ScaleBitmapTree_07,asset.core.ScaleBitmapTree_08,asset.core.ScaleBitmapTree_09"/>
+		<!--商城 交友中心 底拉伸九宫格图片-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9cornerImage4"
+			resourceLink="asset.core.ShopBg9Corner01,asset.core.ShopBg9Corner02,asset.core.ShopBg9Corner03,asset.core.ShopBg9Corner04,asset.core.ShopBg9Corner05,asset.core.ShopBg9Corner06,asset.core.ShopBg9Corner07,asset.core.ShopBg9Corner08,asset.core.ShopBg9Corner09"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9cornerImage8"
+			resourceLink="asset.core.texture_1,asset.core.texture_2,asset.core.texture_3,asset.core.texture_4,asset.core.texture_5,asset.core.texture_6,asset.core.texture_7,asset.core.texture_8,asset.core.texture_9"/>
+			
+		<!--黑色木纹无边框圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage1"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage1.1,asset.core.Scale9CornerImage.scale9CornerImage1.2,asset.core.Scale9CornerImage.scale9CornerImage1.3,asset.core.Scale9CornerImage.scale9CornerImage1.4,asset.core.Scale9CornerImage.scale9CornerImage1.5,asset.core.Scale9CornerImage.scale9CornerImage1.6,asset.core.Scale9CornerImage.scale9CornerImage1.7,asset.core.Scale9CornerImage.scale9CornerImage1.8,asset.core.Scale9CornerImage.scale9CornerImage1.9"/>
+		<!--黑色边框纯色圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage3"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage3.1,asset.core.Scale9CornerImage.scale9CornerImage3.2,asset.core.Scale9CornerImage.scale9CornerImage3.3,asset.core.Scale9CornerImage.scale9CornerImage3.4,asset.core.Scale9CornerImage.scale9CornerImage3.5,asset.core.Scale9CornerImage.scale9CornerImage3.6,asset.core.Scale9CornerImage.scale9CornerImage3.7,asset.core.Scale9CornerImage.scale9CornerImage3.8,asset.core.Scale9CornerImage.scale9CornerImage3.9"/>
+		<!--带边框花纹底圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage5"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage5.1,asset.core.Scale9CornerImage.scale9CornerImage5.2,asset.core.Scale9CornerImage.scale9CornerImage5.3,asset.core.Scale9CornerImage.scale9CornerImage5.4,asset.core.Scale9CornerImage.scale9CornerImage5.5,asset.core.Scale9CornerImage.scale9CornerImage5.6,asset.core.Scale9CornerImage.scale9CornerImage5.7,asset.core.Scale9CornerImage.scale9CornerImage5.8,asset.core.Scale9CornerImage.scale9CornerImage5.9"/>
+		<!--带边框纯黑色透明底圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage6"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage6.1,asset.core.Scale9CornerImage.scale9CornerImage6.2,asset.core.Scale9CornerImage.scale9CornerImage6.3,asset.core.Scale9CornerImage.scale9CornerImage6.4,asset.core.Scale9CornerImage.scale9CornerImage6.5,asset.core.Scale9CornerImage.scale9CornerImage6.6,asset.core.Scale9CornerImage.scale9CornerImage6.7,asset.core.Scale9CornerImage.scale9CornerImage6.8,asset.core.Scale9CornerImage.scale9CornerImage6.9"/>
+		<!--紫色透明边框灰色底圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage7"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage7.1,asset.core.Scale9CornerImage.scale9CornerImage7.2,asset.core.Scale9CornerImage.scale9CornerImage7.3,asset.core.Scale9CornerImage.scale9CornerImage7.4,asset.core.Scale9CornerImage.scale9CornerImage7.5,asset.core.Scale9CornerImage.scale9CornerImage7.6,asset.core.Scale9CornerImage.scale9CornerImage7.7,asset.core.Scale9CornerImage.scale9CornerImage7.8,asset.core.Scale9CornerImage.scale9CornerImage7.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage18"
+			resourceLink="asset.core.quest.BorderScale9ImageTL,asset.core.quest.BorderScale9ImageT,asset.core.quest.BorderScale9ImageTR,asset.core.quest.BorderScale9ImageL,asset.core.quest.BorderScale9ImageC,asset.core.quest.BorderScale9ImageR,asset.core.quest.BorderScale9ImageBL,asset.core.quest.BorderScale9ImageB,asset.core.quest.BorderScale9ImageBR"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage19"
+			resourceLink="asset.scale9Core2.1,asset.scale9Core2.2,asset.scale9Core2.3,asset.scale9Core2.4,asset.scale9Core2.5,asset.scale9Core2.6,asset.scale9Core2.7,asset.scale9Core2.8,asset.scale9Core2.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage20"
+			resourceLink="asset.core.Scale9CornerImage20.1,asset.core.Scale9CornerImage20.2,asset.core.Scale9CornerImage20.3,asset.core.Scale9CornerImage20.4,asset.core.Scale9CornerImage20.5,asset.core.Scale9CornerImage20.6,asset.core.Scale9CornerImage20.7,asset.core.Scale9CornerImage20.8,asset.core.Scale9CornerImage20.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage21"
+			resourceLink="asset.core.Scale9CornerImage21.1,asset.core.Scale9CornerImage21.2,asset.core.Scale9CornerImage21.3,asset.core.Scale9CornerImage20.4,asset.core.Scale9CornerImage20.5,asset.core.Scale9CornerImage20.6,asset.core.Scale9CornerImage20.7,asset.core.Scale9CornerImage20.8,asset.core.Scale9CornerImage20.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.scale9CornerImage22"
+			resourceLink="asset.core.Scale9CornerImage22.1,asset.core.Scale9CornerImage22.2,asset.core.Scale9CornerImage22.3,asset.core.Scale9CornerImage22.4,asset.core.Scale9CornerImage22.5,asset.core.Scale9CornerImage22.6,asset.core.Scale9CornerImage22.7,asset.core.Scale9CornerImage22.8,asset.core.Scale9CornerImage22.9"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" 
+			stylename="core.Scale9CornerImage23" 
+			resourceLink="asset.core.Scale9CornerImage23" scaleGridString="130,25,200,40" width="350" height="59"
+		/>
+		
+		<!--试穿大背景圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.tryOnBigBg"
+			resourceLink="asset.pickItemBigBg_01,asset.pickItemBigBg_02,asset.pickItemBigBg_03,asset.pickItemBigBg_04,asset.pickItemBigBg_05,asset.pickItemBigBg_06,asset.pickItemBigBg_07,asset.pickItemBigBg_08,asset.pickItemBigBg_09" width="410" height="242" />
+		<!--试穿小背景圆角九宫格-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="core.tryOnSmallBg"
+			resourceLink="asset.pickItemBg_01,asset.pickItemBg_02,asset.pickItemBg_03,asset.pickItemBg_04,asset.pickItemBg_05,asset.pickItemBg_06,asset.pickItemBg_07,asset.pickItemBg_08,asset.pickItemBg_09" width="194" height="223" x="212" y="10" />
+		
+		<!--快速购买-->
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="core.quickNumberLeftBtn" backStyle="asset.core.QuickNumberBtn"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="core.quickNumberRightBtn" backStyle="asset.core.QuickNumberBtn" x="56"
+			backgoundRotation="180" displacement="false"
+			filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="core.quickNumberText" textFormatStyle="PFormat_22" x="44" y="8" autoSize="none" width="56"
+			height="24" type="input"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.quickPriceText"
+			textFormatStyle="PFormat_23" filterString="P_g5" x="151" y="84" width="102" height="24"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.quickEnter"
+			parentStyle="core.simplebt" x="83" y="125"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="core.QuickBuyCellBG" 
+			resourceLink="asset.core.QuickBuyCellBG" x="33" y="11"/>
+
+		<!--验证码-->
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.checkCodeInputTxt"
+			textFormatStyle="core.checkCodeInputTF" x="47" y="171" width="20" height="24" autoSize="center"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.checkCodeCountDownTxt"
+			 textFormatStyle="core.checkCodeCountDownTF" x="385" y="12" width="40" height="29" autoSize="center"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.checkCodeSecTxt"
+			textFormatStyle="core.checkCodeSecTF" x="400" y="10" width="63" height="24"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.checkCodeNOBtn"  x="150" y="56"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="core.checkCodeNOBtnBg"
+			resourceLink="asset.core.checkCodeNOOutAsset,asset.core.checkCodeNOOverAsset,asset.core.checkCodeNOOutAsset,asset.core.checkCodeNOOutAsset"/>
+		<!--被离婚窗口-->
+		<component classname="ddt.view.common.church.ChurchDialogueUnmarried" parentStyle="BaseFrame" moveEnable="false" width="350" height="175" containerX="15" containerY="40" stylename="ddt.common.church.ChurchDialogueUnmarried"/>
+		
+		<!--求婚_输入表白窗口-->
+		<component classname="ddt.view.common.church.ChurchProposeFrame" parentStyle="BaseFrame" moveEnable="false" width="450" height="420" containerX="15" containerY="30" stylename="common.church.ChurchProposeFrame"/>
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="common.church.txtChurchProposeFrameAsset" parentStyle="core.SimpleTextArea" width="386" height="207" x="22" y="85" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="common.church.chkChurchProposeFrameAsset" parentStyle="core.simpleSelectBtn" selectedIconStyle="asset.church.ProposeSysMsgAsset" unselectedIconStyle="asset.church.ProposeSysMsgAsset" x="303" y="314"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.church.churchProposeMaxCharAsset" textFormatStyle="church.textFormat20" x="382" y="45" />
+	
+		<!--求婚_购买戒指-->
+		<component classname="ddt.view.common.church.ChurchBuyRingFrame" parentStyle="BaseFrame" moveEnable="false" width="325" height="165" containerX="0" containerY="0" stylename="common.church.ChurchBuyRingFrame"/>
+	
+		<!--求婚_是否接受-->
+		<component classname="ddt.view.common.church.ChurchProposeResponseFrame" parentStyle="BaseFrame" moveEnable="false" width="450" height="420" containerX="15" containerY="30" stylename="common.church.ChurchProposeResponseFrame"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.church.txtChurchProposeResponseAsset" textFormatStyle="church.textFormat22" filterString="church.GlowFilter2" x="100" y="39" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="common.church.btnLookEquipAsset" backStyle="asset.church.lookEquipAsset" filterString="null,lightFilter,null,grayFilter" x="264" y="7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+		stylename="common.church.txtChurchProposeResponseMsgTextStyle" textFormatStyle="church.textFormat23" wordWrap="true" mouseEnabled="true"/>
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="common.church.txtChurchProposeResponseMsgAsset" parentStyle="core.SimpleTextArea" textStyle="common.church.txtChurchProposeResponseMsgTextStyle" width="386" height="207" x="22" y="85" />
+		
+		<!--求婚_成功提示-->
+		<component classname="ddt.view.common.church.ChurchMarryApplySuccess" parentStyle="BaseFrame" moveEnable="false" width="470" height="184" containerX="15" containerY="30" stylename="common.church.ChurchMarryApplySuccess"/>
+	
+		<!--求婚_对方接受后成功提示-->
+		<component classname="ddt.view.common.church.ChurchDialogueAgreePropose" parentStyle="BaseFrame" moveEnable="false" width="471" height="252" containerX="15" containerY="30" stylename="common.church.ChurchDialogueAgreePropose"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.church.churchDialogueAgreeProposeUserNameAsset" autoSize="none" isAutoFitLength="true" textFormatStyle="church.textFormat24" filterString="church.GlowFilter2" x="63" y="55" width="127" height="26" />
+	
+		<!--求婚_对方拒绝后好人卡提示-->
+		<component classname="ddt.view.common.church.ChurchDialogueRejectPropose" parentStyle="BaseFrame" moveEnable="false" width="388" height="170" containerX="15" containerY="30" stylename="common.church.ChurchDialogueRejectPropose"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.church.churchDialogueRejectProposeUserNameAsset" textFormatStyle="church.textFormat24" autoSize="none" isAutoFitLength="true" filterString="church.GlowFilter2" width="120" height="26" x="65" y="20"/>
+		<!--婚礼邀请-->
+		<component classname="ddt.view.common.church.ChurchInviteFrame" parentStyle="BaseFrame" moveEnable="false" width="440" height="140" containerX="30" containerY="0" stylename="common.church.ChurchInviteFrame"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.church.ChurchInviteFrameInfoAsset" autoSize="left" textFormatStyle="church.common.textFormat25" filterString="church.common.GlowFilter3" x="0" y="51" height="20" />
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.church.roomContinuationTime1Selected" resourceLink="asset.church.roomCreateTime1AcAsset,asset.church.roomCreateTimeAcAsset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.church.roomContinuationTime1SelectedBtn" unSelectedStyle="asset.church.roomCreateTime1Asset" selectedStyle="asset.church.roomContinuationTime1Selected" x="29" y="62"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.church.roomContinuationTime2Selected" resourceLink="asset.church.roomCreateTime2AcAsset,asset.church.roomCreateTimeAcAsset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.church.roomContinuationTime2SelectedBtn" unSelectedStyle="asset.church.roomCreateTime2Asset" selectedStyle="asset.church.roomContinuationTime2Selected" x="116" y="62"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.church.roomContinuationTime3Selected" resourceLink="asset.church.roomCreateTime3AcAsset,asset.church.roomCreateTimeAcAsset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.church.roomContinuationTime3SelectedBtn" unSelectedStyle="asset.church.roomCreateTime3Asset" selectedStyle="asset.church.roomContinuationTime3Selected" x="203" y="62"/>
+		<!-- 离婚窗口 -->
+		<component classname="church.view.weddingRoomList.DivorcePromptFrame" stylename="DivorcePromptFrame"  parentStyle="BaseFrame" moveEnable="false" width="450" height="166" containerX="15" containerY="5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="DivorcePromptFrameText" textFormatStyle="church.textFormat25" filterString="church.GlowFilter2" wordWrap="true" x="14" y="31" width="400"/>
+	    <!-- 装备过期检查 -->
+		<component classname="equipDebt.view.EquipDebtFrame" stylename="EquipDebtFrame"  parentStyle="BaseFrame" moveEnable="false" width="450" height="500" containerX="15" containerY="5"/>
+		<component classname="equipDebt.view.EquipAddMoneyFrame" stylename="EquipAddMoneyFrame"  parentStyle="BaseFrame" moveEnable="false" width="440" height="544"/>
+		<custom classname="equipDebt.view.EquipCell" stylename="equipDebt.view.EquipCell" x="10" y="10"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="EquipDebtItemList" parentStyle="core.ScrollPanel" width="394" height="357" x="17" y="88"/>
+	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="EquipDebtText" textFormatStyle="church.textFormat20" x="100" y="45" />
+	    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="equipDebt.view._nameText" textFormatStyle="church.textFormat20" x="120" y="20" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="EquipDebt.AddMoneyViewBg" parentStyle="core.shop.CheckOutViewBg" width="426" height="455"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="equipDebt.AddMoneyViewText0" textFormatStyle="church.textFormat20" x="200" y="404" width="25" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="equipDebt.AddMoneyViewText1" textFormatStyle="church.textFormat20" x="40" y="444"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="equipDebt.AddMoneyViewText2" textFormatStyle="church.textFormat20" x="160" y="444" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="equipDebt.AddMoneyViewText3" textFormatStyle="church.textFormat20" x="280" y="444"/>
+        <component classname="com.pickgliss.ui.controls.BaseButton" stylename="equipDebt.AddMoneyViewBtn" parentStyle="core.shop.PurchaseConfirmation" x="134" y="490"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="equipDebt.AddMoneyViewScroll" parentStyle="core.ScrollPanel" width="394" height="340" x="22" y="50"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="equipDebt.ItemInfoBtn0" resourceLink="asset.equipDebt.point0,asset.equipDebt.point1" x="100" y="50" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="equipDebt.ItemInfoBtn1" resourceLink="asset.equipDebt.point0,asset.equipDebt.point1" x="130" y="50" />
+
+		
+		<!-- MessageTip Text -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.messageTip.TipText" 
+			textFormatStyle="core.messageTip.TipTextFormat" autoSize="none" multiline="true" 
+			wordWrap = "true" width="890" height="600" y="10" x="55"/>
+		
+		<!-- 退出游戏提示窗口-->
+		<component classname="exitPrompt.ExitPromptFrame" stylename="ExitPromptFrame"  parentStyle="BaseFrame" moveEnable="false" width="386" height="348" containerX="15" containerY="5"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ExitPromptFrame.bg" resourceLink="asset.awardSystem.timeBox.LeftUp,asset.awardSystem.timeBox.UpCentre,asset.awardSystem.timeBox.RightUp,asset.awardSystem.timeBox.LeftCentre,asset.awardSystem.timeBox.Centre,asset.awardSystem.timeBox.RightCentre,asset.awardSystem.timeBox.LeftDown,asset.awardSystem.timeBox.DownCentre,asset.awardSystem.timeBox.RightDown" width="365" height="260" x="-4" y="31"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ExitPromptFrame.emailBt" backStyle="exitPrompt.emailBt" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ExitPromptFrame.MissionBt" backStyle="ExitPromptFrame.BtBg" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="exitPrompt.ExitButtonItem" stylename="ExitPromptFrame.dayMissionFontBt"  fontBgBgUrl="exitPrompt.dayMissionBt" filterString="null,lightFilter,null,grayFilter" coord="8,8,45,6"/>
+		<component classname="exitPrompt.ExitButtonItem" stylename="ExitPromptFrame.actMissionFontBt"  fontBgBgUrl="exitPrompt.actMissionBt" filterString="null,lightFilter,null,grayFilter" coord="8,8,45,6"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ExitPromptFrame.bullet" resourceLink="asset.core.quest.QuestConditionBGHighlight"  filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="exitPrompt.ExitAllButton" stylename="ExitAllButton"  interval="12"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ExitPromptFrame.scrollPanel" parentStyle="core.ScrollPanel" width="350" height="237" x="7" y="41"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ExitPromptFrame.MissionText0" textFormatStyle="exitPromptMissionTF" filterString="playerInfoViewCheckBoxGF" x="45"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ExitPromptFrame.MissionText1" textFormatStyle="exitPromptMissionTF" filterString="playerInfoViewCheckBoxGF" x="240"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ExitPromptFrame.BtInfoText" textFormatStyle="exitPromptBtInfoTF" filterString="playerInfoViewCheckBoxGF" x="183" y="8"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ExitPromptFrame.BtInfoTextII" textFormatStyle="exitPromptBtInfoTF" filterString="playerInfoViewCheckBoxGF" x="198" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ExitPromptFrame.BtInfoTextIII" textFormatStyle="exitPromptBtInfoTF" filterString="playerInfoViewCheckBoxGF" x="123" y="10"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ExitPromptFrame.BtInfoImg" resourceLink="asset.core.quest.QuestCateExpandIcon,ExitPromptFrame.BtInfoCollapse" x="292" y="15"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ExitPromptFrame.BtInfoCollapse" resourceLink="asset.core.quest.QuestCateCollapseIcon"  y="5"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="ExitPromptFrame.MissionBG" parentStyle="core.bg002" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ExitPromptFrame.BtBg" 	resourceLink="asset.core.Scale9CornerImage15.1,asset.core.Scale9CornerImage15.2,asset.core.Scale9CornerImage15.3,asset.core.Scale9CornerImage15.4,asset.core.Scale9CornerImage15.5,asset.core.Scale9CornerImage15.6,asset.core.Scale9CornerImage15.7,asset.core.Scale9CornerImage15.8,asset.core.Scale9CornerImage15.9"  width="322" height="45"/>
+		
+		<!--同城交友-->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="CityWideFrameBG" parentStyle="SimpleFrameBackgound"
+		imageRectString=",9|9|55|9|4"
+		/>
+		<component classname="cityWide.CityWideFrame" stylename="CityWideFrame" parentStyle="BaseFrame" 
+			backStyle="CityWideFrameBG" 
+			moveEnable = 'false'
+			escEnable="true"
+			width="425" height="290"
+		/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="cityWide.CityWideFrame.addFriendBt" backStyle="cityWide.addFriendBt" filterString="null,lightFilter,null,grayFilter" x="138" y="227"/>
+		
+		<custom classname="flash.geom.Point" stylename="playerViewPoint" x="158" y="56"/>
+		<custom classname="flash.geom.Point" stylename="VipNamePoint" x="214" y="67"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CityWideFrameText" textFormatStyle="church.textFormat25" width="200" x="120" y="40" wordWrap="true"/>
+		
+		
+		<!--微博-->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CopyBitmap.copyOkBt" backStyle="copyBitmap.copyOkBt" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="CopyBitmap.copyCanceBt" backStyle="copyBitmap.copyCanceBt" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="MicroBlog.IssueBt" backStyle="microBlog.IssueBt" filterString="null,lightFilter,null,grayFilter" x="350" y="168"/>
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Microcobol.InputTextTX" textFormatStyle="Microcobol.InputTextTF" wordWrap="true" type="input" mouseEnabled="true"/>
+        <component classname="com.pickgliss.ui.text.TextArea" stylename="Microcobol.inputText" parentStyle="core.SimpleTextArea" textStyle="Microcobol.InputTextTX"  x="3" y="66" width="446" height="88" />
+        <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Microcobol.InfoText" textFormatStyle="Microcobol.InfoTextTFI,Microcobol.InfoTextTFII" filterString="Microcobol.InfoTextGFI,Microcobol.InfoTextGFII" autoSize="none" width="120" height="30" x="229" y="173"/>
+		<component classname="socialContact.microcobol.MicrocobolFrame" stylename="MicrocobolFrame"  parentStyle="BaseFrame" moveEnable="false" width="484" height="220" containerX="15" containerY="5"/>
+		<!-- 邀请窗口 -->
+		<component classname="invite.InviteFrame" stylename="InviteFrame"
+			backStyle="SimpleFrameBackgound" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+			x="362" y="122" width="286" height="356" moveEnable="false" escEnable="true" enterEnable="true"/>
+			
+			
+			
+		<!-- 邀请弹窗 -->	
+		<component classname="invite.ResponseInviteFrame" stylename="ResponseInviteFrame"
+			backStyle="SimpleFrameBackgound" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+			x="281" y="189" width="438" height="222" moveEnable="false"/>
+			
+		<!-- 选择角色弹窗 -->
+		<component classname="login.view.ChooseRoleFrame" stylename="ChooseRoleFrame"
+			backStyle="core.bg006"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+			x="319" y="116" width="372" height="378" moveEnable="false"/>
+			
+		<!-- 重名角色改名 -->
+		<component classname="login.view.RoleRenameFrame" stylename="RoleRenameFrame"
+			backStyle="core.bg006"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+			x="319" y="200" width="372" height="200" moveEnable="false"/>
+			
+		<!-- 公会角色改名 -->
+		<component classname="login.view.ConsortiaRenameFrame" stylename="ConsortiaRenameFrame"
+			backStyle="core.bg006"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+			x="319" y="200" width="372" height="200" moveEnable="false"/>	
+			
+		<!-- 续费 Strat -->
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" styelname="bagAndInfo.AddPrice.RadioLabel"
+			textFormat="bagAndInof.AddPrice.SelBtnTF" filterString="bagAndInof.AddPrice.SelBtnGF" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="bagAndInfo.AddPrice.MoneyButton" 
+			unSelectedStyle="core.RadioButton.Yellow.CheckBtnUnSelect" selectedStyle="core.RadioButton.Yellow.CheckBtnSelect" 
+			textStyle="bagAndInfo.AddPrice.CheckBtnMoneyBG" fieldX="30" fieldY="-7" displacement="false"
+			x="140" y="96" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="bagAndInfo.AddPrice.GiftButton"
+			unSelectedStyle="core.RadioButton.Yellow.CheckBtnUnSelect" selectedStyle="core.RadioButton.Yellow.CheckBtnSelect" 
+			textStyle="bagAndInfo.AddPrice.CheckBtnGiftBG" fieldX="30" fieldY="-7" displacement="false"
+			x="268" y="94" />
+				
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="AddPricePanel.RenewalDianJuan"
+			unSelectedStyle="asset.AddPricePanel.RenewalDianJuanUp" selectedStyle="asset.AddPricePanel.RenewalDianJuanDown" 
+			displacement="false"
+			x="36" y="108"
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="AddPricePanel.RenewalGift"
+			unSelectedStyle="asset.AddPricePanel.RenewalGiftUp" selectedStyle="asset.AddPricePanel.RenewalGiftDown" 
+			displacement="false"
+			x="36" y="143"
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="bagAndInfo.AddPrice.PayComBox" 
+			parentStyle="core.Combox1" width="160" height="28" snapItemHeight="true" x="145" y="120" />
+		
+		
+		
+		<!-- 续费 End -->
+			
+	<!-- 公会管理弹窗 -->
+		<component classname="consortion.view.selfConsortia.ManagerFrame" stylename="core.ConsortiaAssetManagerFrame"
+			parentStyle="BaseFrame"	width="390" height="540" moveEnable="false"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.ConsortiaAssetManagerFrame.okBtn"
+			parentStyle="core.simplebt"	x="63" y="497" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.ConsortiaAssetManagerFrame.cancelBtn"
+			parentStyle="core.simplebt" x="265" y="497" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="core.ConsortiaAssetManagerFrame.offerBtnImg"
+			resourceLink="asset.core.ConsortiaAssetManager.offerBtn1,asset.core.ConsortiaAssetManager.offerBtn2,asset.core.ConsortiaAssetManager.offerBtn1"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="core.ConsortiaAssetManagerFrame.offerBtn"
+			backStyle="core.ConsortiaAssetManagerFrame.offerBtnImg" filterString="null,lightFilter,null,grayFilter" x="252"	y="35"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ConsortiaAssetManagerFrame.Txt"
+			textFormatStyle="core.ConsortiaAssetManagerFrame.shopLevel_text"
+			filterString="core.ConsortiaAssetManagerFrame.shopLevel_filter"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.shopLevelTxt1"
+			textStyle="core.ConsortiaAssetManagerFrame.Txt"	textInnerRectString="10,10,3,2,0" x="162" y="93" width="70" height="20"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.shopLevelTxt2"
+			parentStyle="core.ConsortiaAssetManagerFrame.shopLevelTxt1" x="162" y="129"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.shopLevelTxt3"
+			parentStyle="core.ConsortiaAssetManagerFrame.shopLevelTxt1" x="162" y="165"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.shopLevelTxt4"
+			parentStyle="core.ConsortiaAssetManagerFrame.shopLevelTxt1" x="162" y="201"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.shopLevelTxt5"
+			parentStyle="core.ConsortiaAssetManagerFrame.shopLevelTxt1" x="162"	y="237"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.smithTxt"
+			parentStyle="core.ConsortiaAssetManagerFrame.shopLevelTxt1"	x="162"	y="321"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.ConsortiaAssetManagerFrame.skillTxt"
+			parentStyle="core.ConsortiaAssetManagerFrame.shopLevelTxt1"	x="162"	y="412"/>
+			
+		<component classname="consortion.view.selfConsortia.TaxFrame" stylename="taxFrame"
+			parentStyle="BaseFrame" width="415" height="220" moveEnable="false"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.MyConsortiaTax.okBtn"
+			parentStyle="core.simplebt" x="96" y="178" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.MyConsortiaTax.cancelBtn"
+			parentStyle="core.simplebt" x="250" y="178" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.MyConsortiaTax.totalTicketTxt"
+			textFormatStyle="core.MyConsortiaTax.totalTicket_text" filterString="core.MyConsortiaTax.totalTicket_filter"
+			autoSize="none" width="86" height="20" x="72" y="62" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.MyConsortiaTax.inputTxt"
+			textFormatStyle="core.MyConsortiaTax.input_text" wordWrap="false" multiline="false" autoSize="none" />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.MyConsortiaTax.input"
+			textStyle="core.MyConsortiaTax.inputTxt" textInnerRectString="10,10,3,2,0" x="39" y="112" width="116" height="21"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.MyConsortiaTax.totalMoneyTxt"
+			textFormatStyle="core.MyConsortiaTax.totalMoney_text" filterString="core.MyConsortiaTax.totalMoney_filter" 
+			autoSize="none" width="83" height="22" x="246" y="110" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.core.guildIcon" resourceLink="asset.core.guildIconAsset,asset.core.enemyGuildIconAsset" x="0" y="0"/>
+		
+		<component classname="consortion.view.selfConsortia.consortiaTask.DonateFrame" stylename="DonateFrame"
+			parentStyle="BaseFrame" width="415" height="220" moveEnable="false"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.MyConsortiaMEDAL.input"
+			x="135" y="111" parentStyle="core.MyConsortiaTax.input"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.MyConsortiaTax.totalMEDALTxt"
+			textFormatStyle="core.MyConsortiaTax.totalTicket_text" filterString="core.MyConsortiaTax.totalTicket_filter"
+			autoSize="none" width="86" height="20" x="139" y="76" />
+	
+		
+		<!--投票系统-->
+		<component classname="ddt.view.vote.VoteView" stylename="vote.VoteView" width="436" height="380" moveEnable="false" parentStyle="BaseFrame"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="vote.questionStyle" resourceLink="asset.vote.oneAnswer,asset.vote.mulAnswer" x="25" y="36"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vote.questionContent" textFormatStyle="vote.questionFT" wordWrap="true" multiline="true" width="374" x="38" y="158"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="vote.questionBG" 	resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" x="13" y="143" width="406" height="188"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="vote.answerBG" resourceLink="asset.vip.inputBG1,asset.vip.inputBG2,asset.vip.inputBG3,asset.vip.inputBG4,asset.vip.inputBG5,asset.vip.inputBG6,asset.vip.inputBG7,asset.vip.inputBG8,asset.vip.inputBG9" x="24" y="203" width="384" height="97"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vote.progress" filterString="vote.progressGT" textFormatStyle="vote.progressFT" width="50" height="18" x="354" y="305"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="vote.okBtn" parentStyle="core.simplebt" x="180" y="337" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vote.answerTxt" textFormatStyle="vote.answerFT" wordWrap="true" multiline="true" width="320" />
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="vote.itemOver"
+			resourceLink=",asset.vote.itemOverBG,asset.vote.itemOverBG" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="vote.answer.selectedBtn" unSelectedStyle="core.checkBtn" selectedStyle="core.selectedCheckBtn" backStyle="vote.itemOver" textStyle="vote.answerTxt" displacement="false" fieldX="37" fieldY="7" x="10"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="vote.awardBG" resourceLink="asset.awardSystem.timeBox.LeftUp,asset.awardSystem.timeBox.UpCentre,asset.awardSystem.timeBox.RightUp,asset.awardSystem.timeBox.LeftCentre,asset.awardSystem.timeBox.Centre,asset.awardSystem.timeBox.RightCentre,asset.awardSystem.timeBox.LeftDown,asset.awardSystem.timeBox.DownCentre,asset.awardSystem.timeBox.RightDown" width="406" height="85" x="13" y="50"/>
+		
+		<!-- vip -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipNameFFT" textFormatStyle="vipNameFT" autoSize="none" width="100" height="25" isAutoFitLength="true"/>
+		<component classname="com.pickgliss.ui.text.GradientText" stylename="vipName" textFieldStyle="vipNameFFT" colors="0xf3ff32,0xff9600" filterString="vipNameGF" alphas="1,1" ratios="30,255"/>
+		
+		<component classname="com.pickgliss.ui.text.GradientText" stylename="seniorVipName" textFieldStyle="vipNameFFT" colors="0xFFFFFF,0x000000" filterString="vipNameGF" alphas="1,1" ratios="30,255"/>
+	<!--新手答题-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="trainer.question.bg" resourceLink="asset.trainer.question.bg" scaleGridString="50,50,395,341" width="416" height="352" x="-3" y="6"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="trainer.question.txtBg" resourceLink="asset.trainer.question.txtBg" scaleGridString="20,30,410,157" width="410" height="157" x="-1" y="78"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.question.tip" filterString="trainer.glow1" textFormatStyle="trainer.tfTip" wordWrap="true" width="285" height="49" x="14" y="22"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.question.award" filterString="trainer.glow1" textFormatStyle="trainer.tfTip" width="247" height="26" x="30" y="235"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.question.title" filterString="trainer.glow2" textFormatStyle="trainer.tfTitle" width="367" height="28" x="14" y="102"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="trainer.question.vbox" x="15" y="130" spacing="2" />
+	
+		<!--答题礼包-->
+		<component classname="ddt.view.common.QuestionGoogsView" backStyle="core.bg006"
+			closestyle="null" stylename="ddt.view.common.QuestionGoogsFrame"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="430"
+			height="390" moveEnable="false" x="333" y="145"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="common.QuestionGoogsFrame.bg" resourceLink="asset.trainer.question.bg" scaleGridString="50,50,395,341" width="416" height="352" x="9" y="33"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="common.QuestionGoogsFrame.choiceBg" resourceLink="asset.trainer.question.txtBg" scaleGridString="20,30,410,157" width="410" height="235" x="10" y="60"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.QuestionGoogsFrame.explanationText" filterString="trainer.glow1" textFormatStyle="trainer.tfTipII" wordWrap="true" width="285" height="49" x="20" y="310"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.QuestionGoogsFrame.questionTextII" filterString="trainer.glow1" textFormatStyle="trainer.tfTip" width="247" height="26" x="25" y="130"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.QuestionGoogsFrame.questionText" filterString="trainer.glow2" textFormatStyle="trainer.tfTitleII" width="367" height="28" x="25" y="38"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.QuestionGoogsFrame.questionTextIII" textFormatStyle="trainer.tfTipIII" width="35" height="49" x="345" y="62"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="common.QuestionGoogsFrame.progressText" textFormatStyle="trainer.tfTipII" width="35" height="49" x="292" y="347"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="trainer.question.icon" resourceLink="asset.trainer.question.a,asset.trainer.question.b,asset.trainer.question.c,asset.trainer.question.D" x="9" y="9"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.question.context" filterString="trainer.glow1" textFormatStyle="trainer.tfContext" width="326" height="20" x="36" y="11"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="trainer.question.ItemList" x="24" y="100" spacing = "0" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="trainer.question.nextQuestionBtn" backStyle="asset.trainer.nextQuestion" x="163" y="345"/>
+
+		<!-- 模糊搜索item -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"  stylename="IM.IMLookup.IMLookupItemBg" resourceLink="asset.IM.title_0,asset.IM.lookItem_bg"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="IM.IMLookup.IMLookupItemName" textFormatStyle="invite.response.InfomationTF" x="30" y="4"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.LookItem.privateChatBtn" backStyle="asset.IM.privateChat" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="158" y="5"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="IM.LookItem.deleteBtn" backStyle="asset.IM.delete" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5" x="182" y="4"/>
+		
+		
+		<!-- ResponseInvite Start -->
+				
+		<!-- Game Mode -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.response.GameMode"
+			resourceLink="invite.response.response_mode1,invite.response.response_mode2,invite.response.response_mode3,invite.response.response_mode4,invite.response.response_mode5"
+			x="230" y="71"/>
+			
+		<!-- TitleField -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.TitleField" 
+		textFormatStyle="invite.response.TitleTF" filterString="invite.response.WhiteBorderGF" 
+		x="10" y="35" autoSize="none" width="410" height="20"/>
+		
+		<!-- MapLabel -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.MapLabel" 
+		textFormatStyle="invite.response.NormalLabelTF" filterString="invite.response.BlackBorderGF" 
+		x="0" y="116" />
+		
+		<!-- MapField -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.MapField" 
+		textFormatStyle="invite.response.InfomationTF" filterString="invite.response.WhiteBorderGF" 
+		x="136" y="116" />
+		
+		<!-- TimeLabel -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.TimeLabel" 
+		textFormatStyle="invite.response.NormalLabelTF" filterString="invite.response.BlackBorderGF" 
+		x="260" y="109" />
+		
+		<!-- TimeField-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.TimeField" 
+		textFormatStyle="invite.response.InfomationTF" filterString="invite.response.WhiteBorderGF" 
+		x="329" y="116" />
+		
+		<!-- LevelLabel -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.LevelLabel" 
+		textFormatStyle="invite.response.NormalLabelTF" filterString="invite.response.BlackBorderGF" 
+		x="414" y="116" />
+		
+		<!-- LevelField-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.LevelField" 
+		textFormatStyle="invite.response.InfomationTF" filterString="invite.response.WhiteBorderGF" 
+		x="454" y="116" />
+		
+		<!-- ModeLabel -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.ModeLabel" 
+		textFormatStyle="invite.response.ModeLabelTF" filterString="invite.response.WhiteBorderGF" 
+		x="72" y="72" />
+		
+		<!-- TipField -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.response.TipField" 
+		textFormatStyle="invite.response.TipTF" filterString="invite.response.WhiteBorderGF" 
+		x="1" y="141" autoSize="none" width="435" height="35" />
+		
+		<!-- DoButton -->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="invite.response.DoButton" parentStyle="core.simplebt"
+		x="82" y="179" />
+		
+		<!-- CancelButton -->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="invite.response.CancelButton" parentStyle="core.simplebt"
+		x="242" y="179" />
+		<!-- PreviewFrame  -->
+		<component classname="ddt.view.common.PreviewFrame"  stylename="view.common.PreviewFrame"  parentStyle="BaseFrame" containerX="20" containerY="40" width="570" height="470"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="view.common.PreviewFrame.PreviewScroll" parentStyle="core.ScrollPanel" width="530" height="370"/>
+		
+		
+		<!--SNS功能弹框-->
+		<component classname="ddt.view.SNSFrame"  stylename="core.SNSFrameView" parentStyle="BaseFrame"
+			backStyle="SimpleFrameBackgound" moveEnable="true" escEnable = "true" 
+			buttonToBottom="13" containerX="20" containerY="40"
+			x="347" y="210" width="484" height="270"
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.SNSFrameBg"
+			resourceLink="asset.core.baglockedBgAsset" scaleGridString="5,5,110,63"
+			x="-8" y="-4" width="290" height="96"
+		/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.SNSFrameBg1" parentStyle="vote.answerBG"
+			x="-8" y="70" width="290" height="80"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.SNSFrameViewText"
+			textFormatStyle="frameNameTF" multiline='true' wordWrap='true'
+			x="-3" y="122" width="452" height="90"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.SNSFrame.Textinput" 
+			type="input" autoSize="none" textFormatStyle="IM.InviteDialogFrame.frameTitleTF" filterString="bagAndInfo.AddPrice.SelBtnGF"
+			focusBackgoundInnerRectString="2,2,2,2,-1" textInnerRectString="10,10,3,2,0" wordWrap='true' maxChars='45'
+			x="0" y="75" width="280" height="80"
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="core.SNSFrameCheckBox" parentStyle="personanHideHatCheckBox"
+			x="327" y="160"
+		/>
+		<custom classname="flash.geom.Point" stylename="core.SNSFramePoint" x="-1" y="20"/>
+		<!--SNS分享按钮-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.SNS.ShareBtn" parentStyle="core.simplebt"
+			x="70" y="118" 
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="core.switchBtn1" 
+			unSelectedStyle="asset.core.switchImg1" selectedStyle="asset.core.switchImg2" 
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5"
+			displacement="false" x="216" y="304"
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="core.switchBtn2" 
+			unSelectedStyle="asset.core.switchImg3" selectedStyle="asset.core.switchImg4" 
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,4,5"
+			displacement="false" x="236" y="304"
+		/>
+		
+		<!-- 新手白金卡弹框 -->
+		<component classname="ddt.view.NovicePlatinumCard"  stylename="core.NovicePlatinumCard" parentStyle="BaseFrame"
+			backStyle="SimpleFrameBackgound" moveEnable="true" escEnable = "true" 
+			buttonToBottom="13" containerX="20" containerY="40"
+			width="375" height="285"
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.activeEventsBg" 
+			resourceLink="asset.core.activeEvents"  scaleGridString="50,50,100,100"
+			x='-10' y='-5' width="355" height="200"
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.NovicePlatinumCard.InputTextbackAsset" 
+			resourceLink="asset.core.NovicePlatinumCard.blackStrip" scaleGridString="20,5,240,20" 
+			width="257" height="30"
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.NovicePlatinumCard.InputText_txt"  
+			textFormatStyle="core.activeEvents.T_11" mouseEnabled="true" autoSize='none' type='input'
+		/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="core.NovicePlatinumCard.textInput" 
+			backStyle="core.NovicePlatinumCard.InputTextbackAsset" 
+			textStyle="core.NovicePlatinumCard.InputText_txt" textInnerRectString="8,8,5,2,0" multiline='false' 
+			x='82' y='22' width="257" height="30" 
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.NovicePlatinumCard.awardTxt"
+			textFormatStyle="core.activeEvents.T_10" wordWrap="true" 
+			x='30' y='115' width='300' 
+		/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.NovicePlatinumCard.activeGetBtn" parentStyle='core.simplebt'
+			x='50' y='202' 
+		/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="core.NovicePlatinumCard.activeCloseBtn" parentStyle='core.simplebt'
+			x='204' y='202' 
+		/>
+		
+		
+		<!-- NameInputDropListTarget -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="NameInputDropListTarget.nameInputTxt" textFormatStyle="vote.answerFT" multiline="false" wordWrap="false" width="150" height="20" />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="NameInputDropListTarget.nameInput"  textStyle="NameInputDropListTarget.nameInputTxt" multiline="false" wordWrap="false" autoSize="none" width="150" height="20" x="16" y="6"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NameInputDropListTarget.clear" backStyle="asset.core.nameInputDropListTarget.clear" filterString="null,lightFilter,null,grayFilter" x="187" y="4"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NameInputDropListTarget.close" backStyle="asset.core.nameInputDropListTarget.close" filterString="null,lightFilter,null,grayFilter" x="171" y="5"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="NameInputDropListTarget.look" backStyle="asset.core.nameInputDropListTarget.looK" filterString="null,lightFilter,null,grayFilter" x="190" y="6"/>
+		
+		<!-- CardsTipPanel -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cardSystem.level.big" filterString="cardCell.levelGF" textFormatStyle="cardCell.levelTF.big"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="cardSystem.level.small" filterString="cardCell.levelGF" textFormatStyle="cardCell.levelTF.small"/>
+		
+		
+		<component classname="ddt.view.tips.CardsTipPanel" stylename="core.CardsTip"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardsTipPanel.name" filterString="P_g1" textFormatStyle="PFormat_6" x="8" y="8"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardsTipPanel.type" filterString="cardsTipPanel.whiteGF" textFormatStyle="PFormat_5" x="8" y="35"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardsTipPanel.typeDetail" filterString="P_g1" textFormatStyle="PFormat_5" x="33" y="34"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardsTipPanel.basePropTitle" filterString="P_g1" textFormatStyle="PFormat_51" x="8" y="95"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardsTipPanel.setsPropText" filterString="P_g1" textFormatStyle="cardsTipPanel.setsPropTF" multiline="true" wordWrap="true" width="175" x="8" y="95"/>
+		
+		<!-- CardBoxTipPanel -->
+		<component classname="ddt.view.tips.CardBoxTipPanel" stylename="core.CardBoxTipPanel"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBoxTipPanel.name" filterString="P_g1" textFormatStyle="PFormat_6" x="10" y="8" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBoxTipPanel.cardPlace" filterString="P_g1" textFormatStyle="PFormat_5" x="10" y="27" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBoxTipPanel.cardType" filterString="P_g1" textFormatStyle="PFormat_5" x="48" y="37" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBoxTipPanel.cardSets" filterString="P_g1" textFormatStyle="PFormat_5" x="48" y="62" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CardBoxTipPanel.descrip" filterString="P_g1" textFormatStyle="cardsTipPanel.setsPropTF" x="10" y="98" wordWrap="true" multiline="true" width="180" />
+		
+		<!-- 新手等级奖励预告 -->	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.levelReward.submitBtn" backStyle="asset.core.levelRewardSureBtnAsset" width="106" height="37" x="194" y="382"/>
+		
+		<custom classname="flash.geom.Point"
+			stylename="core.cardLevel.pos" x="84" y="55"/>
+		<custom classname="flash.geom.Point"
+			stylename="core.cardLevelBmp.pos" x="8" y="59"/>
+		<custom classname="flash.geom.Point"
+			stylename="core.levelReward.line1Pos" x="15" y="115"/>
+		<custom classname="flash.geom.Point"
+			stylename="core.levelReward.line2Pos" x="15" y="190"/>
+		
+		<custom classname="flash.geom.Point"
+			stylename="core.levelReward.line1PosII" x="15" y="80"/>
+		<custom classname="flash.geom.Point"
+			stylename="core.levelReward.line2PosII" x="15" y="123"/>
+		<custom classname="flash.geom.Point"
+			stylename="core.levelReward.posPlayer" x="188" y="41"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.levelRewardContentTxt1" textFormatStyle="levelRewardContentTF" multiline="false" wordWrap="false" x="155" y="51" filterString="levelRewardTitle2GF"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.levelRewardContentTxt2" textFormatStyle="levelRewardContentTF" multiline="false" wordWrap="false" x="50" y="93" filterString="levelRewardTitle2GF"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.levelRewardContentTxt3" textFormatStyle="levelRewardContentTF" multiline="false" wordWrap="false" x="50" y="139" filterString="levelRewardTitle2GF"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="core.levelRewardItem.itemContainer1" spacing="2" x="210" y="56"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="core.levelRewardItem.itemContainer2" spacing="2" x="210" y="56"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="core.levelRewardItem.itemContainer3" spacing="2" x="273" y="139"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="core.levelRewardItem.itemContainer4" spacing="2" x="180" y="56"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="core.levelRewardItem.itemContainer5" spacing="2" x="210" y="56"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="core.levelRewardItem.itemContainer6" spacing="2" x="210" y="139"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="levelRewardItemTitle1TF" textFormatStyle="levelRewardTitle1TF" />
+		<component classname="com.pickgliss.ui.text.GradientText" stylename="core.levelRewardTitle1" textFieldStyle="levelRewardItemTitle1TF" colors="0xffffff,0xce9d35" filterString="levelRewardTitle1GF" alphas="1,1" ratios="30,255" x="28" y="51"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.levelRewardTitle2" textFormatStyle="levelRewardTitle2TF" multiline="false" wordWrap="false" x="28" y="93" filterString="levelRewardTitle2GF"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.levelRewardTitle3" textFormatStyle="levelRewardTitle2TF" multiline="false" wordWrap="false" x="28" y="139" filterString="levelRewardTitle2GF"/>
+		
+		<component classname="com.pickgliss.ui.text.GradientText" stylename="core.currentLevel.levelRewardTitle" textFieldStyle="currentLevel.levelRewardItemTitle" colors="0xffffff,0xfff963" filterString="levelRewardTitle1GF" alphas="1,1" ratios="30,255" x="28" y="71"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="currentLevel.levelRewardItemTitle" textFormatStyle="currentLevel.levelRewardItemTitleTF" />
+		
+		<custom classname="trainer.view.LevelRewardList" stylename="trainer.currentLevel.levelRewardListII" x="199" y="33" />
+		<custom classname="trainer.view.LevelRewardList" stylename="trainer.currentLevel.levelRewardListIII" x="199" y="93" />
+		
+		<custom classname="trainer.view.LevelRewardList" stylename="trainer.view.levelRewardList" x="210" y="55" />
+		<custom classname="trainer.view.LevelRewardList" stylename="trainer.view.levelRewardListII" x="210" y="103" />
+		<custom classname="trainer.view.LevelRewardList" stylename="trainer.view.levelRewardListIII" x="210" y="150" />
+		
+		<!--装备试穿系统-->
+		<component classname="tryonSystem.TryonPanelFrame" closestyle="core.closebt" stylename="tryonSystem.tryonFrame" parentStyle="BaseFrame"
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20" containerY="40" closeInnerRectString="44,6,3,30,14" 
+		width="436" height = "322"
+		moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tryonNickNameText" textFormatStyle="bagAndInfo.info.NicknameFieldTF" filterString="bagMoneyInfoGF" 
+		x="20" y="21" width="153" height="21"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="tryonCheckBoxText" textFormatStyle="personalInfoCheckBoxTextTF" filterString="playerInfoViewCheckBoxGF" width="104" height="21"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideGlassCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn" fieldX="12" fieldY="-1" width="103" height="28" x="20" y="207" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideHatCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn"  fieldX="18" fieldY="-1" width="103" height="28" x="67" y="207" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideSuitCheckBox" textStyle="tryonCheckBoxText"  parentStyle="core.simpleSelectBtn" fieldX="18" fieldY="-1" width="103" height="28" x="115" y="207" displacement='false' />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="tryon.HideWingCheckBox" textStyle="tryonCheckBoxText" parentStyle="core.simpleSelectBtn" fieldX="18" fieldY="-1" width="103" height="28" x="164" y="207" displacement='false' />
+		<!-- 3.2物品发光效果 -->
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.core.itemShinelight" resourceLink="asset.core.itemShine" x="77" y="12"/>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.core.itemBigShinelight" resourceLink="asset.core.itemBigShine" x="43" y="47"/>
+		</components>
+		<!--奖励选择系统-->
+		<component classname="tryonSystem.ChooseFrame" closestyle="core.closebt" stylename="tryonSystem.ChoosePanelFrame" parentStyle="BaseFrame"
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20" containerY="40" closeInnerRectString="44,6,3,30,14" 
+		width="380" height = "250"
+		moveInnerRectString="0,30,0,30,1"/>
+		<!--同城-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="cityWide.CityWideFrame.nickNameText" textFormatStyle="cityWide.CityWideFrame.nickNameTF" filterString="roomListTextGF" autoSize="none" width="104" height="22" isAutoFitLength="true" x="216" y="77" />
+	
+	
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ClearingInterface.background" resourceLink="asset.core.ShopBg9Corner01,asset.core.ShopBg9Corner02,asset.core.ShopBg9Corner03,asset.core.ShopBg9Corner04,asset.core.ShopBg9Corner05,asset.core.ShopBg9Corner06,asset.core.ShopBg9Corner07,asset.core.ShopBg9Corner08,asset.core.ShopBg9Corner09" width="418" height="332" x="12" y="34"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ClearingInterface.chooseFriend" backStyle="asset.clearingInterface.chooseFriendBtn" filterString="null,lightFilter,null,grayFilter" x="313" y="48"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ClearingInterface.buyMoney" backStyle="asset.clearingInterface.buyMoney" filterString="null,lightFilter,null,grayFilter" x="23" y="298"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="ClearingInterface.present" backStyle="asset.clearingInterface.present" filterString="null,lightFilter,null,grayFilter" x="204" y="298"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.shop.exchangeButton" 
+			backStyle="asset.core.exchangeBtn" pressEnable="true"
+			x='102'
+			y='54'
+		/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.core.PayBuffTipLabel"
+			 textFormatStyle="asset.core.PayBuffTipLabelTF"
+			 autoSize="none" x="30" y="2" width="64" height="24" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.core.PayBuffTipCount"
+			 textFormatStyle="asset.core.PayBuffTipCountTF"
+			 autoSize="none" x="88" y="2" width="36" height="24" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.core.PayBuffTipTime"
+			 textFormatStyle="asset.core.PayBuffTipTimeTF"
+			 autoSize="left" x="124" y="2" width="36" height="24" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.core.PayBuffTipContainer" 
+			spacing="2" y="30" x="18"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.PayBuffTipNameTxt"
+			parentStyle="core.TNameTxt" textFormatStyle="PFormat_30"
+			autoSize="none" x="4" y="8" width="140" height="20" />
+		
+		<!--联赛开始弹框-->
+		<component classname="league.view.LeagueStartNoticeView" stylename="league.leagueStartNoticeView" moveEnable="false" parentStyle="GuideFrame" containerX="0" containerY="0" width="472" height="231"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.league.posBtn" x="219" y="169"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posLeagueStart" x="320" y="186"/>
+		
+		<!-- vip优化之vip礼包start -->
+ 		 <!-- <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="bossbox.TipAssetII" resourceLink="bossbox.BoxTimeTip,bossbox.BoxGradeTip,asset.vip.giftFrameTitle,bossbox.BoxFightLibTip" x="82" /> -->
+		 <component classname="com.pickgliss.ui.image.MutipleImage" stylename="vip.BoxGetButtonAsset" resourceLink="asset.vip.vipAwardsBtn" />
+		 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="vip.BoxGetButtonIII" backStyle="asset.vip.vipLevelUpBtn" x="205" y="297" filterString="null,lightFilter,lightFilter,grayFilter" />
+ 		 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="vip.BoxGetButtonII" backStyle="vip.BoxGetButtonAsset" x="205" y="297" filterString="null,lightFilter,lightFilter,grayFilter" />
+ 		 <custom classname="ddt.view.bossbox.VipBoxAwardsCell" stylename="vip.BoxAwardsCell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15" />
+		 <component classname="ddt.view.bossbox.AwardsViewII" backStyle="bossbox.AwardsViewFrameBackgound" stylename="vip.awardFrame1" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width="550" height="350" /> 
+ 		 <component classname="ddt.view.bossbox.VipLevelUpAwardsView" backStyle="bossbox.AwardsViewFrameBackgound" stylename="vip.vipLevelUpawardFrame" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width="550" height="350" />
+  
+  
+  
+  		<!-- 通用重要按钮-红 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6899" resourceLink="asset.core.btmc003" scaleGridString="20,20,75,27"/>  
+    <!-- 通用重要按钮-红 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6908" resourceLink="asset.core.btmc012" scaleGridString="45,20,65,21"/>  
+    <!-- 通用重要按钮-蓝 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6910" resourceLink="asset.core.btmc013" scaleGridString="39,20,59,22"/>  
+    <!-- 通用重要按钮-橙 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6900" resourceLink="asset.core.btmc004" scaleGridString="10,9,52,22"/>  
+    <!-- 通用一级table-未选中-深棕色 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6922" resourceLink="asset.core.bt022" scaleGridString="14,12,64,26"/>  
+    <!--  -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6923" resourceLink="asset.core.bt023" scaleGridString="14,18,74,38"/>  
+    <!--  -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6901" resourceLink="asset.core.btmc005" scaleGridString="30,25,60,35"/>  
+    <!-- 通用一级table-选中 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6911" resourceLink="asset.core.btmc015" scaleGridString="30,22,62,23"/>  
+    <!-- 通用一级table-选中  绿色-->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6912" resourceLink="asset.core.btmc014" scaleGridString="11,7,28,18"/>  
+    <!-- 通用一级table-未选中 绿色 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6902" resourceLink="asset.core.btmc006" scaleGridString="10,5,54,19"/>  
+    <!-- 通用二级table-未选中 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6903" resourceLink="asset.core.btmc007" scaleGridString="20,13,50,24"/>  
+    <!-- 通用二级table-选中 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6904" resourceLink="asset.core.btmc008" scaleGridString="12,12,48,20"/>  
+    <!-- 通用普通-小按钮-红 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6905" resourceLink="asset.core.btmc009" scaleGridString="12,12,48,20"/>  
+    <!-- 通用普通-小按钮-黄 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6906" resourceLink="asset.core.btmc010" scaleGridString="12,12,48,20"/>  
+    <!-- 通用普通-小按钮-蓝 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6907" resourceLink="asset.core.btmc013" scaleGridString="39,19,58,21"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6913" resourceLink="asset.core.btmc016" scaleGridString="14,10,48,20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6914" resourceLink="asset.core.btmc017" scaleGridString="14,9,28,9"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6915" resourceLink="asset.core.btmc018" scaleGridString="14,10,62,20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6919" resourceLink="asset.core.btmc021" scaleGridString="14,17,94,50"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6920" resourceLink="asset.core.btmc011" scaleGridString="5,10,80,20"/>  
+    <!-- 背包大背景九宫图 -->  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.bg6921" resourceLink="asset.core.redBtn" scaleGridString="10,8,54,20"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.littleGreen" resourceLink="asset.core.littleGreenBtn" scaleGridString="10,8,50,17"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.textAreaBG" resourceLink="asset.core.textAreaBG" scaleGridString="15,16,55,46"/>  
+    
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="vip.core.selectBtn" parentStyle="core.simpleSelectBtn" width="103" height="28" x="49" y="70" unSelectedStyle="asset.core.check2UnSelected" selectedStyle="asset.core.check2Selected" displacement="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vip.core.bandMoney" textFormatStyle="bandMoney.tf" filterString="bandMoney.gf" width="158" wordWrap="true" x="82" y="77"/>  
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="store.helpFrameEnter" parentStyle="core.simplebt" x="168" y="406"/>
+    
+    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.ddtshop.NumberSelecterTextBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="140" height="24"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="core.ddtshop.NumberSelecterTxt" textFormatStyle="ddtshop.CommodityPricesTF" autoSize="none" type="input" x="2" y="2" width="136" height="22"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.ddtshop.ShopUpButton" backStyle="asset.core.numberSelecterUp" pressEnable="true" x="140" y="-15"/>  
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.ddtshop.ShopDownButton" backStyle="asset.core.numberSelecterDown" pressEnable="true" x="140" y="11"/>  
+    <component classname="com.pickgliss.ui.controls.NumberSelecter" stylename="core.ddtshop.NumberSelecter" backStyle="core.ddtshop.NumberSelecterTextBg" targetFieldStyle="core.ddtshop.NumberSelecterTxt" upStyle="core.ddtshop.ShopDownButton" downStyle="core.ddtshop.ShopUpButton" valueLimit="1,50" x="165" y="146"/>  
+    
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtshop.BaseCommodityPricesTextLabel" textFormatStyle="ddtshop.CommodityPricesLabelTF" filterString="ddtshop.CommodityPricesLabelGF" width="44" height="26"/>
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtshop.CommodityPricesText2Label" parentStyle="ddtshop.BaseCommodityPricesTextLabel" autoSize="none" x="285" y="441" width="106" height="20"/>
+	<!-- New ADD -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.GoodItemCellBg" 
+			resourceLink="asset.ddtshop.UnselectedCellBg" scaleGridString="4,4,64,64" />
+			
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.SelectedGoodItemCellBg"
+			resourceLink="asset.ddtshop.SelectedCellBg" scaleGridString="4,4,64,64" />
+	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ddtshop.GoodItemCellBg" resourceLink="core.GoodItemCellBg,core.GoodItemCellBg,core.SelectedGoodItemCellBg" x="18" y="8"/>
+	
+	<component classname="com.pickgliss.ui.image.TiledImage" stylename="ddtshop.GoodItemDotLine" resourceLink="asset.ddtcore.line" x="85" y="52" width="116" height="3" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ddtshop.GoodItemNameII" textFormatStyle="ddtshop.GoodItemNameTFII" filterString="ddtshop.GoodItemTextFilterII" x="88" y="9" autoSize="left" width="140" height="23" type="dynamic"></component>
+	
+	<!-- End Add -->
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PresentClearingTextAreaContentTxt" 
+			textFormatStyle="shop.PresentClearingTextAreaContentTxtTF" 
+			wordWrap="true" type="input" 
+			mouseEnabled="true"
+		/>
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="shop.PresentClearingTextArea" parentStyle="core.SimpleTextArea" 
+			textStyle="shop.PresentClearingTextAreaContentTxt" 
+			viewportInnerRectString="0,22,8,0,0"
+			vScrollProxy='0'
+			x="36" y="94" width="375" height="188"
+		/>
+    
+	<bitmaps>
+		<bitmapData resourceLink="asset.setting.checkBtn" width="24" height="23" x="2" y="5"/>
+		<bitmapData resourceLink="asset.tryOnTxtImage" x="230" y="0"/>
+		
+		<bitmapData resourceLink="asset.core.tip.GoodsTipItemHert" x="1"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsTipItemDefence" x="3"/>
+		<bitmapData resourceLink="asset.core.tip.GoodsTipItemRecover1" x="3"/>
+		
+		<!--剩余时间图片-->
+		<bitmapData resourceLink="asset.core.bufftip.LTime" x="4" y="28"/>
+
+		<!--快速购买-->
+		<bitmapData resourceLink="asset.core.QuickNumberTextBG" x="42" y="7"/>
+		<bitmapData resourceLink="asset.core.shortCutSelect" x="-3" y="-3"/>	
+		<bitmapData resourceLink="asset.core.QuickBuyMoneyTip" x="20" y="88"/>
+		<!--验证码-->
+		<bitmapData resourceLink="asset.core.checkCodeBgAsset" x="3" y="39"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO0Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO1Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO2Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO3Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO4Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO5Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO6Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO7Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO8Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNO9Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNOOutAsset" smoothing="true"/>
+		<bitmapData resourceLink="asset.core.checkCodeNOOverAsset" smoothing="true"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="store.checkCodeScale9BG" resourceLink="asset.core.Scale9CornerImage.scale9CornerImage5.1,asset.core.Scale9CornerImage.scale9CornerImage5.2,asset.core.Scale9CornerImage.scale9CornerImage5.3,asset.core.Scale9CornerImage.scale9CornerImage5.4,asset.core.Scale9CornerImage.scale9CornerImage5.5,asset.core.Scale9CornerImage.scale9CornerImage5.6,asset.core.Scale9CornerImage.scale9CornerImage5.7,asset.core.Scale9CornerImage.scale9CornerImage5.8,asset.core.Scale9CornerImage.scale9CornerImage5.9" width="284.35" height="250" x="214" y="40"/>
+		
+
+		<!--求婚_输入表白背景-->
+		<bitmapData resourceLink="asset.church.ProposeSysMsgAsset" x="15" y="-2" />
+		<bitmapData resourceLink="asset.church.ProposeBuyRingAsset" x="17" y="50" />	
+		<bitmapData resourceLink="asset.church.AgreeProposeAsset" y="-22" />
+		<bitmapData resourceLink="asset.church.RejectProposeAsset" x="-1" y="10" />
+		<!--婚礼邀请-->
+		<bitmapData resourceLink="asset.church.churchInviteTitleAsset" x="10" y="4" />
+		<bitmapData resourceLink="asset.church.churchInviteMsgAsset" y="50" />
+		
+		<bitmapData resourceLink="asset.church.roomCreateTime1AcAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.church.roomCreateTimeAcAsset" x="-3" y="-5" />	
+		<!-- 公会管理弹窗 -->
+		<bitmapData resourceLink="asset.core.ConsortiaAssetManager.buttomWord"	x="20" y="464"/>
+		<bitmapData resourceLink="asset.core.MyConsortiaTax.taxBG"	x="20" y="55"/>
+		<bitmapData resourceLink="asset.core.consortionManager.BG"	x="19" y="31"/>
+		<bitmapData resourceLink="asset.core.MyConsortiaTax.DonateBG"	x="58" y="77"/>
+		
+
+		<!--成就-->
+		<bitmapData resourceLink="asset.Effort.0" smoothing = "true"/>
+		<bitmapData resourceLink="asset.Effort.1" smoothing = "true"/>
+		<bitmapData resourceLink="asset.Effort.2" smoothing = "true"/>
+		<bitmapData resourceLink="asset.Effort.3" smoothing = "true"/>
+		<bitmapData resourceLink="asset.Effort.4" smoothing = "true"/>
+		<bitmapData resourceLink="asset.Effort.5" smoothing = "true"/>
+		
+		<!--  商城 相关 -->
+		<bitmapData resourceLink="asset.shop.HiddenControlsBg" />
+		
+		<bitmapData resourceLink="asset.trainer.welcome.npc" x="140" y="35"/>
+		<bitmapData resourceLink="asset.shop.ShopRechargeEquipDescription" x="150" y="60"/>
+		<bitmapData resourceLink="asset.shop.ShopRechargeServerDescription" x="147" y="60"/>
+		<bitmapData resourceLink="asset.shop.ShopRechargeEquipTitle" x="170" y="33"/>
+		<bitmapData resourceLink="asset.shop.ShopRechargeGoodsBg" x="11" y="33"/>
+		<bitmapData resourceLink="asset.shop.ShopMoney" y="6"/>
+		<bitmapData resourceLink="asset.shop.ShopGift" y="6"/>
+		
+		<bitmapData resourceLink="asset.shop.CartItemSelectBtn1" x="-4" y="-4"/>
+		
+		<bitmapData resourceLink="asset.AddPricePanel.RenewalDianJuanUp" x="4" y="4"/>
+		<bitmapData resourceLink="asset.AddPricePanel.RenewalGiftUp" x="4" y="4"/>
+		
+		
+		<!-- 投票相关 -->
+		<bitmapData resourceLink="core.checkBtn" width="24" height="23" x="2" y="5"/>
+		<bitmapData resourceLink="asset.vote.awardWord" x="23" y="38"/>
+		<bitmapData resourceLink="asset.vote.oneAnswer" x="25" y="36"/>
+		<bitmapData resourceLink="asset.vote.itemOverBG" width="350" x="20" y="5"/>
+		
+		<!-- ReaponseInvite Start -->
+		<bitmapData resourceLink="invite.response.background_response_title" x="9" y="32" />
+		
+		<!-- ResponseInvite End -->
+		<bitmapData resourceLink="asset.core.QuickNumberBtn" smoothing="true" />
+		<!-- sns开心网接口 -->
+		<bitmapData resourceLink="asset.core.switchImg1" smoothing="true" />
+		<bitmapData resourceLink="asset.core.switchImg2" smoothing="true" />
+		<bitmapData resourceLink="asset.core.switchImg3" smoothing="true" />
+		<bitmapData resourceLink="asset.core.switchImg4" smoothing="true" />
+		<!-- NameInputDropListTarget -->
+		<bitmapData resourceLink="asset.core.nameInputDropListTarget.looK" x="190" y="6" />
+
+		<!-- 新手白金卡弹框 -->		
+		<bitmapData resourceLink="asset.core.NovicePlatinumCard.activityCardPSWII" smoothing="true" x='10' y='28' />
+		<bitmapData resourceLink="asset.core.NovicePlatinumCard.divisionLine" smoothing="true" x='40' y='75'  />
+		<bitmapData resourceLink="asset.core.NovicePlatinumCard.iconGive" smoothing="true" x='0' y='85'  />
+		
+		<!-- 新手等级奖励预告 -->		
+		<bitmapData resourceLink="asset.core.levelRewardBg1" x="19" y="20"/>
+		<bitmapData resourceLink="asset.core.levelRewardBg2"/>
+		<bitmapData resourceLink="asset.core.levelRewardTxt" x="-13" y="-36"/>
+		<bitmapData resourceLink="asset.core.levelRewardUp" x="67" y="26"/>
+		<bitmapData resourceLink="asset.core.levelRewardSureBtnAsset"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_0"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_1"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_2"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_3"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_4"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_5"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_6"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_7"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_8"/>
+		<bitmapData resourceLink="asset.core.levelRewardRed_9"/>
+		<bitmapData resourceLink="asset.shop.SetsListBack" x="57" y="386"/>
+		<bitmapData resourceLink="asset.shop.CheckOutViewBg1" x="32" y="400"/>
+		<bitmapData resourceLink="asset.shop.CheckOutViewBg" x="36" y="420"/>
+		<bitmapData resourceLink="asset.expMovie.ExpUPAsset" x="23" y="28" />
+		
+		<!-- 奖励试穿-->
+		<bitmapData resourceLink="asset.core.hideBgAsset" x="17" y="196"/>
+		<bitmapData resourceLink="asset.core.hideTxtAsset" x="20" y="184"/>
+		<bitmapData resourceLink="asset.core.tryonCharaterBgAsset" x="14" y="17"/>
+		<bitmapData resourceLink="asset.tryon.chooseItemBgAsset" x="-6" y="-3"/>
+		
+		
+		<!--微博背景-->
+		<bitmapData resourceLink="microBlog.TextArea" x="-5" y="40"/>
+		<!--动态背景-->
+		<bitmapData resourceLink="ddt.view.SNSFrameBg" x="-8" y="-5"/>
+		<!-- 同城ONS-->
+		<bitmapData resourceLink="cityWide.addFriendBtEff" x="135" y="222" width="205" height="62"/>
+		<bitmapData resourceLink="cityWide.cityWideBg" x="13" y="39"/>
+		<bitmapData resourceLink="cityWide.cityWideTextBg" x="213" y="118"/>
+		<bitmapData resourceLink="asset.core.cellBG" x="3" y="3"/>
+		<bitmapData resourceLink="asset.setting.checkBtnI" x="2" y="4"/>
+		
+		<bitmapData resourceLink="asset.core.dailyRecord.titleImg" x="10" y="30"/>
+		
+		<bitmapData resourceLink="asset.clearingInterface.clearing" x="23" y="195"/>
+		<bitmapData resourceLink="asset.clearingInterface.btnBG" x="22" y="297"/>
+		<bitmapData resourceLink="asset.clearingInterface.giftTitle" x="22" y="46"/>
+		
+		<bitmapData resourceLink="asset.core.dailyRecord.vLine" x="25" y="2"/>
+		<bitmapData resourceLink="asset.core.dailyRecord.HLine" x="5" y="35"/>
+		
+		<bitmapData resourceLink="asset.coreIcon.EdictumTitle" x="143" y="30"/>
+
+       <!-- vip优化之vip礼包start -->
+     <bitmapData resourceLink="asset.vip.cellBG" x="-2" y="-3" height="56" />
+     <bitmapData resourceLink="asset.vip.giftFrameTitle" x="-57" y="42" />
+     <bitmapData resourceLink="asset.vip.goodsBG2" x="23" y="86" width="500" height="208" />
+     <bitmapData resourceLink="asset.vip.vipAwardsBtn" height="50" />
+     <bitmapData resourceLink="asset.vip.vipLevelUpBtn" height="50" />
+     <bitmapData resourceLink="asset.vip.vipLevelUpTile" x="20" y="41" />
+     <!-- vip优化之vip礼包end -->
+     <bitmapData resourceLink="asset.league.leagueNotice" width="279" height="103" x="152" y="50"/>
+     <bitmapData resourceLink="asset.trainer.welcome.girl2" width="274" height="289" x="-111" y="-75" smoothing="true"/>
+     <bitmapData resourceLink="asset.core.LabyrinthBuffAsset" x="-5" y="4" />
+     
+	</bitmaps>
+</style>

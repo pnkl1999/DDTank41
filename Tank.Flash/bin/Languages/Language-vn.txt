@@ -1,0 +1,2156 @@
+﻿#中文包
+Game.Server.Hello: Chào bạn.
+
+AttackEffect.Success:Vòng này chạy hiệu ứng công kích.
+DefenceEffect.Success:Vòng này chạy hiệu ứng phòng thủ.
+AddAgilityEffect.msg:灵敏
+AddAttackEffect.msg:Cường kích
+AddBombEquipEffect.msg:Liên kích
+AddDamageEffect.msg:Thương nặng
+AddDanderEquipEffect.msg:Phẩn nộ
+AddDefenceEffect.msg:Thạch phu
+AddLuckyEffect.msg:Ban phúc
+AddTurnEquipEffect.msg:Thần tốc
+ArmorPiercerEquipEffect.msg:Xuyên giáp
+AssimilateBloodEffect.msg:Hút máu
+AssimilateDamageEffect.msg:Hấp thụ
+AtomBombEquipEffect.msg:Hạt nhân
+AvoidDamageEffect.msg:Giảm thương
+ContinueReduceBaseDamageEquipEffect.msg:Nhược hóa
+ContinueReduceBloodEquipEffect.msg:Bỏng
+FatalEffect.msg:Dẩn dắt
+IceFronzeEquipEffect.msg:Hàn băng
+LockDirectionEquipEffect.msg:Xích
+MakeCriticalEffect.msg:Bạo kích
+NoHoleEquipEffect.msg:Miển kháng
+RecoverBloodEffect.msg:Hổi phục
+ReduceStrengthEquipEffect.msg:Mệt
+ReduceDamageEffect.msg:Kiên cố
+ReflexDamageEquipEffect.msg:反射
+SealEquipEffect.msg:Phong ấn
+
+#协议包中的就不加命名空间前缀
+ConsortiaAllyAddHandler.Add_Success1: Hủy bỏ thành công.
+ConsortiaAllyAddHandler.Add_Success2: Tuyên chiến thành công.
+ConsortiaAllyAddHandler.Add_Failed: Thao tác thất bại.
+ConsortiaApplyAllyAddHandler.Add_Success:Xin phép thành công.
+ConsortiaApplyAllyAddHandler.Add_Failed:Xin phép thất bại.
+ConsortiaApplyAllyDeleteHandler.Success:Xóa thành công.
+ConsortiaApplyAllyDeleteHandler.Failed:Xóa thất bại.
+ConsortiaApplyAllyDeleteHandler.Failed:Từ chối xin phép thất bại.
+ConsortiaApplyAllyDeleteHandler.Success:Từ chối xin phép thành công.
+ConsortiaApplyLoginHandler.ADD_Success:Xin phép thành công.
+ConsortiaApplyLoginHandler.ADD_Failed:Xin phép thất bại.
+ConsortiaApplyLoginHandler.DELETE_Success:Xóa xin phép thành công.
+ConsortiaApplyLoginPassHandler.Failed:Phê chuẩn lời mời thất bại.
+ConsortiaApplyLoginPassHandler.Success:Phe chuẩn lời mời thành công.
+ConsortiaChangeChairmanHandler.Failed:Chuyển nhượng hội trưởng thất bại.
+ConsortiaChangeChairmanHandler.Success1:Nhượng hội trưởng cho <
+ConsortiaChangeChairmanHandler.Success2:>.
+ConsortiaDescriptionUpdateHandler.Success:Cập nhật thành công.
+ConsortiaDescriptionUpdateHandler.Failed:Cập nhật thất bại.
+ConsortiaDisbandHandler.Success1:<
+ConsortiaDisbandHandler.Success2:>Đã giải tán.
+ConsortiaDisbandHandler.Failed:Công hội giải tán thất bại.
+ConsortiaDutyDeleteHandler.Failed:Xóa chức vụ thất bại.
+ConsortiaDutyDeleteHandler.Success:Xóa chức vụ thành công.
+ConsortiaDutyUpdateHandler.Failed:Cập nhật chức vụ thất bại.
+ConsortiaDutyUpdateHandler.Success:Cập nhật chức vụ thành công.
+ConsortiaInviteAddHandler.Failed:Mời thất bại.
+ConsortiaInviteAddHandler.Success:Mời thành công.
+ConsortiaInviteDeleteHandler.Failed:Xóa lời mời thất bại.
+ConsortiaInviteDeleteHandler.Success:Xóa lời mời thành công.
+ConsortiaInvitePassHandler.Failed:Thông qua lời mời thất bại.
+ConsortiaInvitePassHandler.Success:Thông qua lời mời thành công.
+ConsortiaIsBanChatHandler.Failed:Thao tác thất bại.
+ConsortiaIsBanChatHandler.Success:Thao tác thành công.
+ConsortiaPlacardUpdateHandler.Failed:Cập nhật thất bại.
+ConsortiaPlacardUpdateHandler.Success:Cập nhật thành công.
+ConsortiaUserDeleteHandler.ExitFailed:Rời khỏi công hội thất bại.
+ConsortiaUserDeleteHandler.KickFailed:Trục xuất khỏi công hội thất bại.
+ConsortiaUserDeleteHandler.ExitSuccess:Rời khỏi công hội thành công.
+ConsortiaUserDeleteHandler.KickSuccess:Trục xuất khỏi công hội thành công.
+ConsortiaUserGradeUpdateHandler.Failed:Thao tác thất bại.
+ConsortiaUserGradeUpdateHandler.Success:Thao tác thành công.
+ConsortiaUserRemarkHandler.Failed:Thao tác thất bại.
+ConsortiaUserRemarkHandler.Success:Thao tác thành công.
+FriendAddHandler.Falied:Hảo hữu đã tồn tại.
+FriendAddHandler.Success:Không tồn tại, biệt danh lỗi.
+FriendAddHandler.Success2:Thao tác thành công.
+GameTakeTempItemsHandler.Msg:Hành trang đã đầy.
+GameUserCreateHandler.Failed:Phòng đã đầy, hãy thử lại sau.
+GameUserLoginHandler.Capture:Tạm thời chưa có loại phòng phù hợp.
+GameUserLoginHandler.Team:Tạm thời chưa có loại phòng phù hợp.
+GameUserLoginHandler.Failed:Số người phòng này đã đầy.
+GameUserStartHandler.Failed:Đội ngũ không cân bằng hoặc chưa chuẩn bị.
+GameUserStartHandler.Failed2:Có đội ngũ chưa chuẩn bị.
+GoodsPresentHandler.Success:Gửi tặng thành công.
+GoodsPresentHandler.Content:Gửi tặng bạn 1 [
+GoodsPresentHandler.NoMoney:Tiền xu không đủ.
+GoodsPresentHandler.NoUser:Người dùng không tồn tại.
+ItemComposeHandler.NoMoney:Tiền xu không đủ.
+ItemComposeHandler.NoLevel:Thuộc tính vật phẩm cao hơn thuộc tính bảo thạch.
+ItemComposeHandler.NoCondition:Điều kiện hợp thành vật phẩm không đúng.
+ItemFusionHandler.NoMoney:Tiền xu không đủ.
+ItemFusionHandler.NoPlace:Hành trang không đủ chỗ trống.
+ItemFusionHandler.NoCondition:Không thể tiến hành.
+ItemFusionHandler.ItemNotEnough:Vật phẩm không đủ số.
+ItemOverdueHandler.Content:Vật phẩm đã quá hạn.
+ItemOverdueHandler.Title:Vật phẩm đã quá hạn.
+ItemStrengthenHandler.NoMoney:Tiền xu không đủ.
+ItemStrengthenHandler.NoStrength:Vật phẩm này không thể cường hóa.
+ItemStrengthenHandler.Content1:Không đủ điều kiện cường hóa vật phẩm, tối thiểu cần: [
+ItemStrengthenHandler.Content2:] viên đá.
+ItemStrengthenHandler.NoCondition:Điều kiện cường hóa vật phẩm báo lỗi.
+MailGetAttachHandler.Falied:Nhận thư thất bại.
+MailGetAttachHandler.NoMoney:Tiền xu không đủ.
+MailGetAttachHandler.Success:Nhận thư thành công.
+MailGetAttachHandler.NoPlace:Hành trang đã đầy, vật phẩm không thể lưu lại.
+MailGetAttachHandler.ErrorBugReceiveID:Hệ thống bất đồng bộ. Vui lòng thử lại sau.
+OpenUpArkHandler.NoPlace:Hành trang không đủ chỗ trống.
+OpenUpArkHandler.Start:Bạn nhận được 
+OpenUpArkHandler.Money:  Xu.   
+OpenUpArkHandler.Gold:  vàng.
+OpenUpArkHandler.GiftToken:  Xu Khóa.
+OpenUpArkHandler.Medal:  huy chương.
+OpenUpArkHandler.Exp:  kinh nghiệm.
+OpenUpArkHandler.honor:  vinh dự.
+OpenUpArkHandler.hardCurrency:  vàng mê cung.
+OpenUpArkHandler.leagueMoney:  lệnh bài.
+OpenUpArkHandler.useableScore:  tích lũy thuyền rồng.
+OpenUpArkHandler.prestge:  danh vọng.
+PropBuyHandler.NoMoney:Tiền Vàng không đủ.
+UserPresentGoodsHandler.Success:Tặng bạn thành công.
+UserBuyItemHandler.Success:Mua thành công.
+UserBuyItemHandler.Save:Lưu lại thành công.
+UserBuyItemHandler.Title:Mua vật phẩm 
+UserBuyItemHandler.Mail:Hành trang không đủ, vật phẩm lưu thư.
+UserBuyItemHandler.NoMoney:Tiền xu không đủ.
+UserBuyItemHandler.Medal:Huy chương không đủ.
+UserLoginHandler.EditionError:Phiên bản client quá thấp, hãy xóa cache rồi thử lại.
+UserLoginHandler.Forbid:Tài khoản của bạn bị khóa, nếu có thắc mắc hãy liên lạc với bộ phận hỗ trợ khách hàng.
+UserLoginHandler.Register:Hãy đăng ký hình tượng rồi mới đăng nhập vào trò chơi.
+UserLoginHandler.OverTime:Đăng nhập của bạn đã quá hạn, hãy đăng nhập lại.
+UserLoginHandler.LoginError:Tài khoản của bạn đã được đăng nhập tại nơi khác..
+UserLoginHandler.ServerError:Đăng nhập vào server thất bại, hãy thử vào server khác...
+UserPrivateChatHandler.NoUser:Không có người dùng này hoặc người dùng này không trên mạng.
+UserSendMailHandler.Success:Gửi thư thành công.
+UserSendMailHandler.Failed1:Không thể gửi thư cho mình.
+UserSendMailHandler.Failed2:Người dùng không tồn tại.
+ConsortiaApplyAllyPassHandler.Success:Xử lý thành công.
+ConsortiaApplyAllyPassHandler.Failed:Xử lý thất bại.
+UserItemContineueHandler.NoMoney:Tiền không đủ.
+MailGetAttachHandler.Deduct:Khấu trừ thành công,
+ConsortiaUpGradeHandler.Success:Thăng cấp Guild thành công.
+ConsortiaUpGradeHandler.Failed:Do lỗi hệ thống, Thăng cấp Guild thất bại, hãy thử lại sau.
+ConsortiaBufferUpGradeHandler.Success:Thăng cấp kỹ năng Guild thành công.
+ConsortiaBufferUpGradeHandler.Failed:Do lỗi hệ thống, Thăng cấp kỹ năng Guild thất bại, hãy thử lại sau.
+ConsortiaCreateHandler.Failed:Tạo lập thất bại.
+ConsortiaCreateHandler.Success:Tạo lập thành công.
+OpenUpArkHandler.Title:Mở rương vật phẩm nhận được [
+OpenUpArkHandler.Content1:Do khi bạn mở rương vật phẩm hành trang đã đầy, [
+OpenUpArkHandler.Content2: được gửi vào thư của bạn.
+OpenUpArkHandler.Mail:Vật phẩm tạm gửi vào thư, 
+ConsortiaUpGradeHandler.NoUpGrade:Không thể thăng cấp nữa.
+ConsortiaUpGradeHandler.NoItem:Thiếu vật phẩm thăng cấp.
+ConsortiaUpGradeHandler.NoConsortia:Guild không tồn tại.
+ConsortiaUpGradeHandler.NoGold:Tiền xu không đủ.
+ConsortiaChangeChairmanHandler.NoName:Tên người dùng không thể để trống.
+ConsortiaChangeChairmanHandler.Self:Không thể gửi cho mình.
+ConsortiaChatHandler.IsBanChat:Bạn đã bị cấm nói.
+ConsortiaCreateHandler.Long:Tên công hội nhập vào quá dài.
+ConsortiaDescriptionUpdateHandler.Long:Nội dung nhập vào quá dài.
+ConsortiaDutyUpdateHandler.Long:Chức danh thành viên nhập vào quá dài.
+ConsortiaPlacardUpdateHandler.Long:Nội dung nhập vào quá dài.
+ConsortiaUserRemarkHandler.Long:Nội dung nhập vào quá dài.
+ActivePullDownHandler.Fail:GiftCode Không chính xác.
+
+Game.Server.GameObjects.Equip:Trang bị
+Game.Server.GameObjects.Prop:Đạo cụ
+Game.Server.GameObjects.BeadBag:Châu báu
+Game.Server.GameObjects.FightBag:Chiến đấu
+Game.Server.GameObjects.FarmBag:Nông trại
+Game.Server.GameObjects.Task:Nhiệm vụ 
+Game.Server.GameObjects.NoEquip:Vật phẩm không thể trang bị.
+Game.Server.GameObjects.CanEquip:Bạn không thể dùng trang bị này.
+Game.Server.GameObjects.CanLevel:Đẳng cấp quá thấp, không thể sử dụng trang bị này.
+
+
+
+Game.Server.GameUtils.Title:Vật phẩm đã quá hạn.
+Game.Server.GameUtils.Content:Vật phẩm đã quá hạn.
+
+
+Game.Server.Managers.GameStart:Trò chơi đã bắt đầu.
+Game.Server.Managers.PWDError:Mật mã không đúng.
+Game.Server.Managers.ConsortiaError:Không cùng một Công hội .
+
+
+Game.Server.Quests.NoQuest:Nhiệm vụ không tồn tại.
+Game.Server.Quests.QuestFull:Danh sách nhiệm vụ đã đầy.
+Game.Server.Quests.NoTime:Thời gian nhiệm vụ đã đến.
+Game.Server.Quests.TimeOver:Nhiệm vụ đã quá hạn.
+Game.Server.Quests.LevelLow:Đẳng cấp nhân vật không đủ.
+Game.Server.Quests.LevelTop:Đẳng cấp nhân vật quá cao.
+Game.Server.Quests.NoFinish:Nhiệm vụ trước chưa hoàn thành.
+Game.Server.Quests.Have:Đã nhận nhiệm vụ này.
+Game.Server.Quests.NoRepeat:Nhiệm vụ này không được trùng.
+Game.Server.Quests.Rest:Hãy thử lại sau.
+Game.Server.Quests.BagFull:Hành trang đã đầy, không thể hoàn thành nhiệm vụ .
+
+
+
+Game.Server.SceneGames.TankHandle.PropFull:Thanh đạo cụ đã đầy, lấy ra thất bại.
+Game.Server.SceneGames.KickRoom:Bạn bị đẩy ra khỏi phòng.
+Game.Server.SceneGames.NoEquip:Không có trang bị vũ khí.
+Game.Server.SceneGames.NoConsortia:Tất cả mọi người không cùng một Công hội .
+Game.Server.SceneGames.KickMsg1:Mạng của bạn quá chậm, hãy kiểm tra mạng rồi thử lại.
+Game.Server.SceneGames.KickMsg2:Mạng của bạn quá chậm, hãy kiểm tra mạng rồi thử lại..
+Game.Server.SceneGames.KickMsg3:Thời gian chờ đợi đã quá lâu.
+Game.Server.SceneGames.OnStopping.Msg1:Khiêu chiến <
+Game.Server.SceneGames.OnStopping.Msg2:> Thắng lợi.
+Game.Server.SceneGames.OnStopping.Msg3:bị <
+Game.Server.SceneGames.OnStopping.Msg4:>  tấn công.
+Game.Server.SceneGames.KickRoom2:bị đẩy ra khỏi phòng.
+Game.Server.SceneGames.PairUpTimeOut:Tạm chưa có đội ngũ thích hợp, hãy thử lại sau.
+
+Game.Server.LoginNext:Tài khoản của bạn đã được đăng nhập tại nơi khác..
+
+
+Game.Service.actions.ShutDown1:Bảo trì sau 
+Game.Service.actions.ShutDown2: phút, hãy nhanh chóng thoát khỏi.
+
+
+
+ActiveBussiness.Msg0:Nhận lãnh thành công, vật phẩm đã gửi đến thư người dùng.
+ActiveBussiness.Msg1:Lỗi không xác định.
+ActiveBussiness.Msg2:Tên người dùngkhông tồn tại.
+ActiveBussiness.Msg3:Nhận vật phẩm  thất bại.
+ActiveBussiness.Msg4:Số này không tồn tại, hãy kiểm tra lại.
+ActiveBussiness.Msg5:Số này đã nhận thưởng, không thể nhận nữa.
+ActiveBussiness.Msg6:Bạn đã nhận phần thưởng này rồi.
+ActiveBussiness.Msg7:Hoạt động chưa bắt đầu.
+ActiveBussiness.Msg8:Hoạt động đã quá hạn.
+ActiveBussiness.Msg9:Nhận thưởng thất bại.
+
+
+ConsortiaBussiness.AddConsortia.Msg2:Tên này đã được đăng ký.
+ConsortiaBussiness.DeleteConsortia.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpdateConsortiaDescription.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpdateConsortiaPlacard.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpdateConsortiaChairman.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.AddConsortiaApplyUsers.Msg2:Công hội không tồn tại.
+ConsortiaBussiness.AddConsortiaApplyUsers.Msg6:Nhân số công hội đã đầy.
+ConsortiaBussiness.DeleteConsortiaApplyUsers.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.PassConsortiaApplyUsers.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.PassConsortiaApplyUsers.Msg3:Log này không tồn tại.
+ConsortiaBussiness.AddConsortiaInviteUsers.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.AddConsortiaInviteUsers.Msg4:Người dùng này không tồn tại.
+ConsortiaBussiness.AddConsortiaInviteUsers.Msg5:Người chơi đã gia nhập Công hội .
+ConsortiaBussiness.AddConsortiaInviteUsers.Msg6:Nhân số công hội đã đầy.
+ConsortiaBussiness.PassConsortiaInviteUsers.Msg3:Không có lời mời này.
+ConsortiaBussiness.DeleteConsortiaUser.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.DeleteConsortiaUser.Msg3:Hội trưởng không thể rời khỏi công hội .
+ConsortiaBussiness.DeleteConsortiaUser.Msg4:Không thể trục xuất Hội trưởng .
+ConsortiaBussiness.UpdateConsortiaIsBanChat.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpdateConsortiaUserRemark.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpdateConsortiaUserGrade.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.AddConsortiaDuty.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.AddConsortiaDuty.Msg3:Chức vụ đã đầy.
+ConsortiaBussiness.DeleteConsortiaDuty.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.DeleteConsortiaDuty.Msg3:Không thể xóa chức vụ này.
+ConsortiaBussiness.UpdateConsortiaDuty.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpdateConsortiaDuty.Msg3:Không thể di chuyển nữa.
+ConsortiaBussiness.UpdateConsortiaDuty.Msg4:Không thể di chuyển nữa.
+ConsortiaBussiness.DeleteConsortiaDuty.Msg5:Chức vụ đã đầy.
+ConsortiaBussiness.AddConsortiaApplyAlly.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.AddConsortiaApplyAlly.Msg3:Công hội không tồn tại.
+ConsortiaBussiness.AddConsortiaApplyAlly.Msg4:Công hội này đã gia nhập liên minh.
+ConsortiaBussiness.DeleteConsortiaApplyAlly.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.PassConsortiaApplyAlly.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.PassConsortiaApplyAlly.Msg3:Dữ kiện này không tồn tại.
+ConsortiaBussiness.AddConsortiaAlly.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.AddConsortiaAlly.Msg3:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpGradeConsortia.Msg2:Bạn không có quyền hạn này.
+ConsortiaBussiness.UpGradeConsortia.Msg3:Không thể thăng cấp nữa.
+ConsortiaBussiness.UpGradeConsortia.Msg4:Ngân sách công hội không đủ.
+ConsortiaBussiness.PassConsortiaInviteUsers.Msg6:Nhân số công hội đã đầy.
+ConsortiaBussiness.PassConsortiaApplyUsers.Msg6:Nhân số công hội đã đầy.
+ConsortiaBussiness.UpdateConsortiaUserGrade.Msg3:Hội trưởng không thể thăng cấp.
+ConsortiaBussiness.UpdateConsortiaUserGrade.Msg4:Không thể thăng cấp nữa.
+ConsortiaBussiness.UpdateConsortiaUserGrade.Msg5:Không thể hạ cấp nữa.
+ConsortiaBussiness.UpdateConsortiaUserGrade.Msg10:Hội trưởng không thể hạ cấp.
+ConsortiaBussiness.UpdateConsortiaIsBanChat.Msg3:Người dùng này không tồn tại.
+
+
+
+
+ManageBussiness.Forbid:Tài khoản của bạn đã bị khóa, hãy liên lạc với GM để biết thêm thông tin.
+
+
+PlayerBussiness.RegisterPlayer.Msg2:Tên người dùng đã tồn tại.
+PlayerBussiness.RegisterPlayer.Msg3:Tên người dùng đã tồn tại.
+PlayerBussiness.SendMailAndItem.Sender:Quản lý viên hệ thống
+PlayerBussiness.DeleteAuction.Msg1:Hủy bỏ thành công.
+PlayerBussiness.DeleteAuction.Msg2:Bán đấu giá không tồn tại.
+PlayerBussiness.DeleteAuction.Msg3:Vật phẩm này đã tham gia vào bán đấu giá.
+PlayerBussiness.DeleteAuction.Msg4:Hủy bỏ thất bại.
+
+
+
+
+
+
+
+
+
+
+
+Tank.Request.Login.Fail1:Đăng nhập thất bại.
+Tank.Request.Login.Fail2:Đăng nhập thất bại..
+Tank.Request.Login.Success:Đăng nhập thành công.
+Tank.Request.VisualizeRegister.Fail1:Đăng ký hình tượng thất bại.
+Tank.Request.VisualizeRegister.Success:Đăng ký hình tượng thành công.
+Tank.Request.VisualizeRegister.Long:Biệt danh người dùng quá dài.
+
+
+
+
+
+BaseInterface.LoginAndUpdate.Fail:Kích hoạt thất bại.
+BaseInterface.LoginAndUpdate.Try:Thời gian đăng nhập hết hiệu lực, hãy đăng nhập lại.
+
+
+PlayerBussiness.RegisterPlayer.Msg2:Biệt danh người dùng đã tồn tại.
+PlayerBussiness.RegisterPlayer.Msg3:Biệt danh người dùng đã tồn tại.
+
+
+
+
+Center.Server.SendKitoffUser:Tài khoản của bạn đã đăng nhập ở nơi khác...
+
+
+
+
+AuctionAddHandler.Fail:Bán đấu giá thất bại.
+AuctionAddHandler.Msg1:Giá khởi điểm không thể nhỏ hơn 0.
+AuctionAddHandler.Msg2:Giá định đoạt không thể nhỏ hơn giá khởi điểm.
+AuctionAddHandler.Msg3:Phí bảo quản không đủ.
+AuctionAddHandler.Msg4:Vật phẩm không tồn tại.
+AuctionAddHandler.Msg5:Vật phẩm khóa không thể bán đấu giá.
+AuctionAddHandler.Msg6:Vật phẩm này đã thêm vào dòng bán đấu giá.
+AuctionDeleteHandler.Fail:Hủy bán đấu giá thất bại.
+AuctionUpdateHandler.Fail:Đấu giá thất bại.
+AuctionUpdateHandler.Msg1:Vật phẩm này không tồn tại.
+AuctionUpdateHandler.Msg2:Tiền xu không đủ.
+AuctionUpdateHandler.Msg3:Điểm khoán không đủ.
+AuctionUpdateHandler.Msg4:Giá đưa ra không thể thấp hơn giá khởi điểm.
+AuctionUpdateHandler.Msg5:Giá đưa ra không thể thấp hơn giá hiện tại.
+AuctionUpdateHandler.Msg6:Đấu giá thành công.
+AuctionUpdateHandler.Msg7:Thành công, nhận item.
+
+
+
+
+ItemFusionHandler.Succeed1: Thành công! Nhận {0}
+ItemFusionHandler.Failed: Dung luyện thất bại!
+
+
+UserItemContineueHandler.Success:Trả phí thành công
+
+#add time 09-05-21
+ConsortiaRichesOfferHandler.Failed:Giao nạp thất bại 
+ConsortiaRichesOfferHandler.Success:Giao nạp thành công 
+ConsortiaRichesOfferHandler.NoMoney:Không đủ tiền 
+ConsortiaRichesOfferHandler.RichIsNotFound:Tỉ lệ hiện tại là {0}:1. Bạn cần donate ít nhất {0} Xu
+ConsortiaApplyAllyDeleteHandler.Success2:Thao tác thành công.
+LoginServerConnector.HandleSysMess.Msg1:[{0}]Offline.
+
+ItemTransferHandler.NoMoney:Số tiền của bạn không đủ. 	
+ItemTransferHandler.NoGold:Số Xu của bạn không đủ.    
+ItemTransferHandler.NoCondition: Không đủ điều kiện dịch chuyển.  
+ItemTransferHandler.Success:Chuyển dịch thuộc tính vật phẩm thành công.
+
+#add time 09-06-03
+Game.Server.SceneGames.PairUp.Failed:Kết hợp thất bại, hãy thử lại.
+Game.Server.Quests.NoConsortia:Không có Guild , không thể tiếp nhận nhiệm vụ Guild.
+Game.Server.SceneGames.OnStopping.Msg5:Người chơi   
+
+
+
+AbstractPacketLib.SendGamePlayerLeave.Msg1: Người chơi [{0}] đã rời khỏi. 
+AbstractPacketLib.SendGamePlayerLeave.Msg2: Rời khỏi trận chiến không bình thường , trừ {0} điểm công trạng 
+AbstractPacketLib.SendGamePlayerLeave.Msg3: Người chơi [{0}] rời khỏi trận đấu không bình thường trừ {1} điểm công trạng.  
+
+
+
+
+# 09-07-07
+ConsortiaBussiness.UpdateConsotiaApplyState.Msg2: Bạn không có quyền
+CONSORTIA_APPLY_STATE.Failed:Thao tác thất bại
+CONSORTIA_APPLY_STATE.Success: Thao tác thành công
+ConsortiaBussiness.AddConsortiaApplyUsers.Msg7: Guild này tạm thời không nhận gia nhập 
+
+UserSendMailHandler.AnnexRemark:  Đính kèm:
+UserSendMailHandler.Money:Xu
+UserSendMailHandler.PayMoney:Trả xu
+GoodsPresentHandler.AnnexRemark: Đính kèm:
+
+
+
+
+AbstractPacketLib.SendGamePlayerLeave.Msg4: Thoát bất thường, - {0} điểm kinh nghiệm
+AbstractPacketLib.SendGamePlayerLeave.Msg5: [{0}] thoát bất thường, - {1} điểm kinh nghiệm
+
+AbstractPacketLib.SendGamePlayerLeave.Msg6:  Thoát bất thường, - {0} kinh nghiệm, - {1} công trạng 
+
+AbstractPacketLib.SendGamePlayerLeave.Msg7: [{0}] thoát bất thường, - {1} kinh nghiệm, - {2} công trạng 
+
+                                    
+
+
+#2009-7-15
+ASSInfoSetHandle.NoPlace: Kiểm tra xong, túi đầy, nhận thưởng thất bại
+ASSInfoSetHandle.Success: Kiểm tra xong, nhận <{0}>.
+
+CheckCodeHandler.Msg1: Đáp đúng, thưởng {0} điểm kinh nghiệm
+CheckCodeHandler.Msg2: Đáp đúng, túi đầy, nhận thưởng thất bại
+CheckCodeHandler.Msg3: Đáp sai
+
+
+Tank.Request.NickNameCheck.Long:Tối đa nhập 14 ký tự!
+Tank.Request.NickNameCheck.Right:chúc mừng! tên nhân vật có thể sử dụng.
+Tank.Request.NickNameCheck.Exist:Tên đã sử dụng
+Tank.Request.ConsortiaCheck.Right:Chúc mừng! Tên hội đã có thể sử dụng.
+                                                                  
+
+#2009-7-24
+ConsortiaBussiness.UpGradeStoreConsortia.Msg2: Bạn không có quyền
+ConsortiaBussiness.UpGradeStoreConsortia.Msg3: Guild chưa đủ cấp, không thể nâng cấp nữa
+ConsortiaBussiness.UpGradeStoreConsortia.Msg4: Tài sản Guild không đủ
+ConsortiaStoreUpGradeHandler.Success: Két đã nâng cấp 
+ConsortiaStoreUpGradeHandler.Failed: Két nâng cấp thất bại, thử lại sau
+ConsortiaStoreUpGradeHandler.NoConsortia: Guild không tồn tại
+ConsortiaBussiness.UpGradeSmithConsortia.Msg2: Bạn không có quyền
+ConsortiaBussiness.UpGradeSmithConsortia.Msg3: Guild chưa đủ cấp, không thể nâng cấp
+ConsortiaBussiness.UpGradeSmithConsortia.Msg4: Tài sản Guild không đủ
+
+
+Game.Server.GameUtils.CommonBag.AnnexRemark: Đính kèm:
+Game.Server.GameUtils.CommonBag.Title: Tên vật phẩm
+Game.Server.GameUtils.CommonBag.Sender: Két sắt Guild trả lại
+
+#2009-7-28
+ConsortiaSmithUpGradeHandler.Failed: Tiệm rèn nâng cấp thất bại, thử lại sau
+
+ConsortiaSmithUpGradeHandler.NoConsortia: Guild không tồn tại 
+ConsortiaSmithUpGradeHandler.Success: Tiệm rèn nâng cấp thành công.
+
+
+
+ConsortiaShopUpGradeHandler.Failed: Shop nâng cấp thất bại, thử lại sau
+
+ConsortiaShopUpGradeHandler.NoConsortia: Guild không tồn tại 
+
+ConsortiaShopUpGradeHandler.Success: Shop nâng cấp thành công
+ConsortiaBussiness.UpGradeShopConsortia.Msg2: Bạn không có quyền 
+ConsortiaBussiness.UpGradeShopConsortia.Msg3: Guild chưa đủ cấp, không thể nâng cấp
+ConsortiaBussiness.UpGradeShopConsortia.Msg4: Tài sản Guild không đủ 
+
+
+UserChangeItemColorHandler.Success: Đổi màu thành công
+UserChangeItemColorHandler.NoMoney: Xu không đủ
+
+
+
+BuffList.AddBuff.Msg1: Không thể sử dụng
+BuffList.AddBuff.Msg2: Hiệu ứng này đã có 
+
+UpdateSLOT.ResetComplete: Bạn nhận được {0} điểm thẻ bài.
+UpdateSLOT.Complete:Nâng cấp ô thẻ thành công lên cấp  {0}.
+UpdateSLOT.Fail:Điểm tối thiểu là 50.
+Game.Server.SceneGames.Protect: Người này sử dụng card chống đá.
+ItemStrengthenHandler.Fail: Cường hóa thất bại
+ItemStrengthenHandler.congratulation:Chúc mừng! [{0}] cường hóa {1} thành công lên cấp {2}, năng lực vượt trội.
+ItemStrengthenHandler.congratulation2:Chúc mừng! [{0}] thăng cấp {1} thành công lên cấp {2}, năng lực vượt trội.
+OpenHoleHandler.congratulation:Chúc mừng! [{0}] đục lổ khe cắm số {1} [{2}] thành công lên cấp  {3}, năng lực vượt trội.
+OpenBeadHandler.congratulation:Chúc mừng! [{0}] thăng cấp {1} thành công lên cấp {2}, năng lực vượt trội.
+
+OpenHoleHandler.Complete: 
+OpenHoleHandler.GetExp:Bạn nhận được {0} exp.
+ManageBussiness.Forbid1: Tài khoản bị khóa đến {0}năm{1}tháng{2}ngày{3}giờ{4}phút
+
+
+UserLoginHandler.RsaCryptorError: Giải mã lỗi
+UserLoginHandler.LengthError: Sai cách thức
+CardUseHandler.Success:  Thao tác thành công
+CardUseHandler.Fail: Thao tác thất bại
+
+Tank.Request.NickNameCheck.Exist: Tên đã sử dụng
+
+#2009-07-27
+MarryInfoAddHandler.Fail: Thêm thông tin thất bại 
+MarryInfoAddHandler.Msg1: Không đủ phí
+MarryInfoAddHandler.Msg2: Đã thêm thông tin
+
+MarryInfoDeleteHandler.Fail: Xóa thông tin thất bại 
+PlayerBussiness.DeleteAuction.Succeed: Xóa thông tin thành công
+
+MarryInfoUpdateHandler.Fail: Cập nhật  thông tin thành công
+
+MarryInfoUpdateHandler.Msg1: Thông tin đã bị xóa
+MarryInfoUpdateHandler.Succeed: Cập nhật  thông tin thành công
+
+MarryRoomLoginHandler.Failed:  Vào phòng thất bại, phòng không có  
+MarryRoomLoginHandler.Forbid: Bạn bị cấm vào phòng này
+MarryRoomLoginHandler.AlreadyBegin: Đang cử hành hôn lễ, xin chờ
+MarryRoomLoginHandler.RoomExist: Bạn đang có 1 lễ đường, không thể có thêm. Lễ đường của bạn ở tuyến {0} số {1}. Mời vào 
+
+MarryApplyHandler.Msg1: Xu không đủ
+MarryApplyHandler.Msg2: Bạn có quan hệ hôn nhân
+MarryApplyHandler.Msg3: Cầu hôn xong, chờ trả lời. Tình yêu của bạn sẽ cảm động người ấy 
+MarryApplyHandler.Msg4: Đối phương nhận lời người khác
+MarryApplyHandler.Msg5:[{0}] dũng cảm bày tỏ tình cảm và cầu hôn với [{1}]. 
+MarryApplyHandler.Msg6: Mua vật phẩm thất bại
+
+
+DivorceApplyHandler.Msg1: Xu không đủ
+DivorceApplyHandler.Msg2: Hôn lễ chưa xong, không thể ly hôn
+DivorceApplyHandler.Msg3: Ly hôn thành công!
+
+MarryApplyReplyHandler.Msg1: Chúc mừng [{0}]và[{1}] kết lương duyên chính thức thành vợ chồng. 
+MarryApplyReplyHandler.Msg2: Bạn kết hôn rồi, không được thay lòng
+MarryApplyReplyHandler.Msg3:  Đối phương kết hôn với người khác, lần sau nhanh tay hơn nha
+MarryApplyReplyHandler.Content:  Nhìn sao bạn cũng là người tốt
+MarryApplyReplyHandler.Title: Bạn nhận card người tốt
+
+MarryRoom.TimeOver: Lễ đường hết giờ sử dụng
+
+HymenealCommand.Content: Đây là vật chứng cho tình yêu của bạn và {0}. Hãy đeo nó vào tay người ấy để siết chặt trái tim của người ấy nhé 
+HymenealCommand.Title: Nhẫn cưới
+HymenealCommand.NoGroom: Chú rể vắng mặt, không thể hành lễ
+HymenealCommand.NoBride: Cô dâu vắng mặt, không thể hành lễ
+
+HymenealCommand.Sender: Thư hệ thống
+
+
+HymenealCommand.Succeed: Hôn lễ cùa [{0}]và[{1}] bắt đầu 
+
+LargessCommand.Content: {0} tặng bạn {1}lễ kim
+LargessCommand.Title: Lễ kim do {0} tặng
+LargessCommand.Sender: Thư hệ thống
+
+LargessCommand.Succeed:	 Tặng lễ kim thành công
+LargessCommand.Notice: [{0}] tặng đôi bạn trẻ bao lì xì {1} xu
+
+Game.Server.Quests.FinishQuest.RewardGB:  Bạn nhận {0} kinh nghiệm
+
+Game.Server.Quests.FinishQuest.RewardGold:  {0} vàng
+Game.Server.Quests.FinishQuest.RewardOffer: {0} công trạng
+Game.Server.Quests.FinishQuest.RewardRiches: {0} tài sản
+Game.Server.Quests.FinishQuest.RewardProp:{0}x{1}
+
+
+AwardMgr.AddDailyAward.Content: Vì túi đầy,[{0}] được gửi vào hộp thư của bạn
+AwardMgr.AddDailyAward.Title: Mỗi ngày online nhận [{0}].
+
+Bag.Locked: Túi chưa mở khóa
+BagUnlock.success: Mở khóa thành công
+SetPassword.success: Lập mật mã thành công
+SetPassword.Fail: Lập mật mã thất bại
+PasswordTwo.error: Mật mã sai
+UpdatePasswordTwo.Success: Sửa mật mã thành công
+UpdatePasswordTwo.Fail: Sai mật mã ban đầu
+
+
+AwardMgr.AddDailyAward.Start: Bạn nhận được
+AwardMgr.AddDailyAward.Mail: Vật phẩm lưu trong thư
+AwardMgr.AddDailyAward.Gold: Vàng
+AwardMgr.AddDailyAward.Money: Xu
+AwardMgr.AddDailyAward.GP: Kinh nghiệm
+AwardMgr.AddDailyAward.Offer: Công trạng
+AwardMgr.AddDailyAward.Buff: Phút
+
+
+
+ItemStrengthenHandler.FailbyPermission: Điểm cống hiến chưa đủ, nhấn nút quản lý Guild để xem.
+UserBuyItemHandler.FailByPermission: Không đủ điều kiện, thao tác thất bại.
+
+
+
+ConsortiaBussiness.AddAndUpdateConsortiaEuqipControl.Msg2: Bạn không có quyền
+ConsortiaEquipControlHandler.Success: Thành công
+ConsortiaEquipControlHandler.Fail: Thất bại
+
+UserFirecrackersCommand.GoldNotEnough: Vàng không đủ.
+UserFirecrackersCommand.MoneyNotEnough: Xu không đủ.
+UserFirecrackersCommand.Successed1: Đốt pháo hoa xong, trừ {0} vàng
+UserFirecrackersCommand.Successed2: Đốt pháo hoa xong, trừ {0} vàng
+
+
+ConsortiaRichesOfferHandler.Successed: Quyên thành công
+
+ContinuationCommand.Successed: Nạp phí thành công
+
+MarryRoomCreateHandler.Msg1: Bạn đã sở hữu 1 lễ đường, không thể tạo lại. 
+DeletePassword.success: Xóa mật mã thành công
+DeletePassword.Fail: Xóa mật mã thất bại 
+
+MarryRoom.Msg1: Phòng đã đầy
+
+MarryRoomInfoUpdateHandler.Successed: Thông tin cập nhật thành công
+
+MarryRoomCreateHandler.IsCreating: Người ấy của bạn đang tạo phòng, xin chờ. 
+
+OpenUpArkHandler.Notice:Chúc mừng {0}bắt đầu {1} nhận được {2}.
+
+
+Game.Server.Quest.QuestInventory.HaveMarry:Chưa kết hôn.
+GunsaluteCommand.GoldNotEnough:Vàng không đủ.
+GunsaluteCommand.MoneyNotEnough:Xu không đủ.
+GunsaluteCommand.Successed1:[{0}] đã đốt pháo.
+SceneChatHandler.Fast:Bạn nhập nhanh quá.
+
+
+GamePairUpCancelHandler.PlayerCancel:Vì người chơi hủy sẵn sàng, kết hợp thất bại, xin thử lại.
+Game.Server.Quests.FinishQuest.RewardMoney: {0} điểm phiếu giảm giá 
+
+
+Game.Server.Quests.FinishQuest.Reward: Bạn nhận được: 
+Game.Server.Quests.FinishQuest.RewardGB1: {0} kinh nghiệm 
+
+Game.Server.Quests.FinishQuest.RewardBuff: {0} {1} giờ 
+
+
+
+
+# 2009/09/22 
+Game.Server.Quests.FinishQuest.NoCount: không đủ số hạng mục các nhiệm vụ trong ba lô. 
+
+
+# 2009/09/26 
+PlayerBussiness.RenameNick.Msg4: nickname đã tồn tại. 
+Tank.Request.RenameNick.Success: thay đổi biệt danh người sử dụng thành công. 
+Tank.Request.RenameNick.Fail1: thay đổi tên hiệu thất bại. 
+Tank.Request.RenameNick.Fail2: thay đổi tên hiệu thất bại .. 
+
+PlayerBussiness.SP_Users_RenameConsortiaName.Msg4: Hiệp hội các tên đã tồn tại. 
+Tank.Request.RenameConsortiaName.Success: Guild tên thay đổi thành công. 
+Tank.Request.RenameConsortiaName.Fail1: thay đổi tên Guild thất bại. 
+Tank.Request.RenameConsortiaName.Fail2: thay đổi tên Guild thất bại. 
+ItemRefineryHandler.ItemNotEnough: không đủ số lượng các mặt hàng. 
+ItemRefineryHandler.IsBinds: Sau khi tinh chế và vai trò của thiết bị sẽ được ràng buộc, cho dù để tiếp tục. 
+ItemRefineryHandler.NoGold: tình trạng thiếu vàng. 
+ItemRefineryHandler.Success: tinh chế thành công, để có được {0}. 
+ItemRefineryHandler.Failed: không tinh chế. 
+ItemTrendHandle.Success: tài sản và thiết bị có xu hướng thay đổi thành công. 
+ItemTrendHandle.Fail: xu hướng thay đổi thuộc tính trong thiết bị thất bại. 
+ItemStrengthenHandler.StoneMatch: Hãy tăng cường đá vào tiền phạt. 
+ItemRefineryHandler.NoFormula: không có công thức cho các nhà máy lọc dầu này. 
+ItemTrendHandle.Fail: xu hướng thay đổi thuộc tính trong thiết bị thất bại. 
+UserBuyItemHandler.NoEnoughItem: Sản phẩm không đầy đủ. 
+ItemInlayHandle.NoPlace: không vị trí này. 
+ItemInlayHandle.Success: {0} thành công gắn kết. 
+
+friendnotinthesameserver.Fail: Bạn bè không trên cùng một kênh. 
+GPDanUser.Success:  bạn nhận {0} điểm kinh nghiệm. 
+TimerDanUser.Success:  bạn nhận {0} phút. 
+GPDanUser.Fail: Dan kinh nghiệm với sự thất bại {0}. 
+
+ConsortiaUpGradeHandler.Notice: Xin chúc mừng Guild <{0}> nâng cấp thành công Guild lên cấp {1}. 
+ConsortiaShopUpGradeHandler.Notice: Xin chúc mừng Guild <{0}> nâng cấp thành công Shop lên cấp {1}. 
+ConsortiaSmithUpGradeHandler.Notice: Xin chúc mừng Guild <{0}> nâng cấp thành công rèn lên cấp {1}. 
+ConsortiaBufferUpGradeHandler.Notice:Xin chúc mừng Guild <{0}> nâng cấp thành công kỹ năng lên cấp {1}. 
+
+AddTempInventory.Notice: Xin chúc mừng các cầu thủ [{0}] trong cuộc chiến để có được {1}. 
+AddTempInventory.Notice1: [{0}] trong cuộc chiến để có được {1}. 
+ConsortiaBussiness.UpdateConsortiaChairman.Msg3: máy nghe nhạc này đã được dừng lại niêm phong, không được chuyển nhượng. 
+
+# 2009/11/16 
+GameUserDailyAward.Success: Nhận được Thẻ x2 kinh nghiệm 60 phút. 
+GameUserDailyAward.Fail: không nhận được hàng ngày. 
+
+GameUserDailyAward.Fail1: hàng ngày giới hạn để nhận được một khi bạn đã nhận được trước đây. 
+friendnotinthesameserver.Sameroom: bạn bè trong cùng một phòng. 
+GameUserDailyAward.Fail1: hàng ngày giới hạn để nhận được một khi bạn đã nhận được trước đây. 
+
+# 2009/11/19 
+ItemFusionHandler.Notice: Chúc mừng [{0}] dung luyện thành công {1}. 
+
+
+# 2009/11/16 
+GameUserDailyAward.Success: nhận được sự thành công hàng ngày. 
+GameUserDailyAward.Fail: không nhận được hàng ngày. 
+
+GameUserDailyAward.Fail1: hàng ngày giới hạn để nhận được một khi bạn đã nhận được trước đây. 
+friendnotinthesameserver.Sameroom: bạn bè trong cùng một phòng. 
+GameUserDailyAward.Fail1: hàng ngày giới hạn để nhận được một khi bạn đã nhận được trước đây. 
+
+# 2009/12/05 
+UserBuyItemHandler.NoBuyItem: Xu Khóa không đủ. 
+UserBuyItemHandler.NoGold:  thiếu Vàng. 
+UserBuyItemHandler.NoOffer: công trạng không đủ. 
+UserBuyItemHandler.GiftToken: Xu Khóa không đủ. 
+UserBuyItemHandler.Money: thiếu Xu. 
+UserBuyItemHandler.Failed: thiếu tiền để mua không 
+friendnotinthesameserver.Room: cầu thủ trong một phòng khác. 
+
+# 2009/12/07 
+Game.Server.Quests.FinishQuest.RewardGiftToken: {0} Xu khoa
+Game.Server.Quests.FinishQuest.Medal: {0} Huy chương 
+
+# 2010/01/14 
+ConsortiaBussiness.DeleteConsortiaUser.Msg5: đạt đến giới hạn tối đa hàng ngày đá. 
+UpdatePasswordInfo.Success: thiết lập mật khẩu bảo vệ thành công. 
+UpdatePasswordInfo.Fail: thiết lập bảo vệ mật khẩu không thành công. 
+ItemStrengthenHandler.FullStrengthLevel: thiết bị này có mức độ cao nhất. 
+CreateRoomAction.MaxRoom: số phòng đầy, xin vui lòng tham gia các phòng khác. 
+
+# 2010/02/09 
+DropInventory.DropItem.Msg1: Xin chúc mừng các cầu thủ trong trận chiến {0} {1} để có được. 
+DropInventory.ItemBox.Msg1: Xin chúc mừng các cầu thủ [{0}] {1} mở truy cập [{2}]. 
+
+
+# 2010/01/10 
+MarryRoom.Close: phòng hội trường được đóng lại. 
+
+# 2010/02/24 
+Game.Server.GameObjects.AnswerHandler.RewardGB: Bạn nhận được: {0} kinh nghiệm 
+Game.Server.Quests.FinishQuest.RewardGold: {0} vàng 
+Game.Server.Quests.FinishQuest.RewardOffer: {0} Bằng khen 
+Game.Server.Quests.FinishQuest.RewardRiches: {0} sự giàu có 
+
+Game.Server.GameObjects.AnswerHandler.RewardGet: Bạn nhận được: 
+Game.Server.GameObjects.AnswerHandler.RewardPro: {0} x {1} 
+Game.Server.GameObjects.AnswerHandler.RewardGold: {0} vàng 
+Game.Server.GameObjects.AnswerHandler.RewardPoint: {0} điểm phiếu giảm giá 
+Game.Server.GameObjects.AnswerHandler.RewardGiftToken: {0} quà tặng 
+ChargeToUser.Content: cầu thủ thân mến: Bạn có một tài khoản hiện tại {0} điểm phiếu giảm giá nạp tiền. 
+ChargeToUser.Title: Bạn đã nạp tiền thành công. 
+ASSInfoSetHandle.Title: thực tên giải thưởng xác minh. 
+ASSInfoSetHandle.Content: thực tên giải thưởng xác minh. 
+
+
+# 2010/03/22 
+GameInviteHandler.LessThanLevelLimit: Các cầu thủ không đáp ứng trình độ lớp {0} không thể mời được. 
+RoomSetupChangeAction.GradeNotAchieved: bạn chưa đạt đến cấp độ của lớp {0}, không thể tạo ra các bản sao. 
+
+DismountGem.success: Sarah thành công loại bỏ. 
+DismountGem.Fail: Sarah không thể được gỡ bỏ. 
+Game.Server.GameServerScript.AI.Messions.CHM1273.msg1: bộ đệm đội trưởng 
+Game.Server.GameServerScript.AI.Messions.CHM1273.msg2: Bạn có dám đột nhập vào trang web của tôi, sẵn sàng để được đi chết! 
+Game.Server.GameServerScript.AI.Messions.CHM1276.msg1: King Boo đệm 
+Game.Server.GameServerScript.AI.Messions.CHM1276.msg2: tất cả các bạn dân thường thấp hèn, dám tự tin trong cung điện của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1276.msg3: <span class='red'> bạn tức giận tôi, tôi không tha thứ cho bạn! </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg1: ah ~ ~ đầu tôi đau ... ... Tại sao tôi ở đây! ? 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg2: <span class='red'> bom vua Mathias </ span> nó? ... Tôi nhớ ngay bây giờ. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg3: Cảm ơn bạn đã chiến binh cao quý của bạn, tôi <span class='red'> Boo Goo vua Nierluao </ span>. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg4: Nếu không có bạn, tôi không bao giờ có thể thoát khỏi Mathias điều khiển. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg5: Một vài năm trước, một quả bom đã được bộ đệm cho đất nước chiến tranh, trong một trận chiến,. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg6: Tôi không quan tâm trong Mathias bom thủ đoạn vua 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg7: ông bị nguyền rủa với <span class='red'> cùm tinh thần </ span> kiểm soát. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg8: Trong trận đấu chỉ, lời nguyền của ông bị phá hủy, để lấy lại sự tự do của tôi! , 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg9: thời gian không còn nhiều, ông đã biến mất một khi lời nguyền được nhận thức sẽ đến sớm 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg10: Mathias là rất mạnh, yếu, tôi không thể cưỡng lại lâu ... ... 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg11: Trước khi ông đến hỏi bạn để có được ra khỏi đây! 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg12: Bomb vua 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg13: Nierluao đã không nghĩ rằng bạn thực sự có thể phá vỡ xiềng xích của tinh thần của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg14: như thế này ... ... nó thực sự là với một số lực lượng bên ngoài. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg15: Tôi sẽ đưa cho bạn một cơ hội cuối cùng, gửi cho tôi, hoặc, 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg16: được mãi mãi bị trục xuất đến đau vô tận trong khoảng trống không? 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg17: Bạn Go! ! 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg18: Come on! Mathias! ! 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg19: Tôi sẽ không cho phép bạn làm hại người của tôi và những người tốt. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg20: Vâng, fluff. 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg21: Đây là câu trả lời của bạn? 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg22: nên cứng đầu, bạn không có giá trị, và bị mất nó! 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg23: <span class='red'> extradimensional lưu vong! </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg24: chiến binh! Ghi nhớ: <span class='red'> nguồn ngọn lửa giận dữ để giải tán đông lạnh để sử dụng. </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg25: chiến binh! Bạn lưu lại cho tôi một lần nữa, nó lưu lại vương quốc và người dân của tôi, và sau đó 
+Game.Server.GameServerScript.AI.Messions.CHM1277.msg26: hơn lời nói không thể diễn tả lòng biết ơn của tôi đối với bạn, xin hãy chấp nhận lời chúc chân thành của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1278.msg1: thực bom Wang 
+Game.Server.GameServerScript.AI.Messions.CHM1173.msg1: bộ đệm đội trưởng 
+Game.Server.GameServerScript.AI.Messions.CHM1173.msg2: Bạn có dám đột nhập vào trang web của tôi, sẵn sàng để được đi chết! 
+Game.Server.GameServerScript.AI.Messions.CHM1176.msg1: King Boo đệm 
+Game.Server.GameServerScript.AI.Messions.CHM1176.msg2: tất cả các bạn dân thường thấp hèn, dám tự tin trong cung điện của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1176.msg3: <span class='red'> bạn tức giận tôi, tôi không tha thứ cho bạn! </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1177.msg1: Bomb vua 
+Game.Server.GameServerScript.AI.Messions.CHM1177.msg2: Bạn biết quá nhiều, tôi không thể cho phép bạn tiếp tục sống! 
+Game.Server.GameServerScript.AI.Messions.CHM1178.msg1: thực bom Wang 
+Game.Server.GameServerScript.AI.Messions.CHM1073.msg1: bộ đệm đội trưởng 
+Game.Server.GameServerScript.AI.Messions.CHM1073.msg2: Bạn có dám đột nhập vào trang web của tôi, sẵn sàng để được đi chết! 
+Game.Server.GameServerScript.AI.Messions.CHM1076.msg1: King Boo đệm 
+Game.Server.GameServerScript.AI.Messions.CHM1076.msg2: tất cả các bạn dân thường thấp hèn, dám tự tin trong cung điện của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1076.msg3: <span class='red'> Ngươi làm ta giận rồi, không tha thứ cho ngươi! </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1077.msg1: Bomb vua 
+Game.Server.GameServerScript.AI.Messions.CHM1077.msg2: Ngươi đã biết quá nhiều, Ta không thể cho ngươi tiếp tục sống! 
+Game.Server.GameServerScript.AI.Messions.CHM1078.msg1: Ăn boom nà
+Game.Server.GameServerScript.AI.Messions.CHM1373.msg1: bộ đệm đội trưởng 
+Game.Server.GameServerScript.AI.Messions.CHM1373.msg2: Ngươi dám xâm nhập vào lảnh thổ của ta, sẵn sàng chết đi! 
+Game.Server.GameServerScript.AI.Messions.CHM1376.msg1: King Boo đệm 
+Game.Server.GameServerScript.AI.Messions.CHM1376.msg2: tất cả các bạn dân thường thấp hèn, dám tự tin trong cung điện của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1376.msg3: <span class='red'> bạn tức giận tôi, tôi không tha thứ cho bạn! </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg1: Bomb vua 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg2: ah ~ ~ đau mày ... ... Tại sao mày ở đây làm tao đau! ? 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg3: <span class='red'> bom vua Mathias </ span> nó? ... Tôi nhớ ngay bây giờ. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg4: Cảm ơn bạn đã chiến binh cao quý của bạn, tôi <span class='red'> Boo Goo vua Nierluao </ span>. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg5: Nếu không có bạn, tôi không bao giờ có thể thoát khỏi Mathias điều khiển. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg6: Một vài năm trước, một quả bom đã được bộ đệm cho đất nước chiến tranh, trong một trận chiến, 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg7: Tôi không quan tâm trong Mathias bom thủ đoạn vua 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg8: ông bị nguyền rủa với <span class='red'> cùm tinh thần </ span> kiểm soát. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg9: Trong trận đấu chỉ, lời nguyền của ông bị phá hủy, để lấy lại sự tự do của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg10: thời gian không còn nhiều, ông đã biến mất một khi lời nguyền được nhận thức sẽ đến sớm 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg11: Mathias là rất mạnh, yếu, tôi không thể cưỡng lại lâu ... ... 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg12: Trước khi ông đến hỏi bạn để có được ra khỏi đây! 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg13: Nierluao đã không nghĩ rằng bạn thực sự có thể phá vỡ xiềng xích của tinh thần của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg14: như thế này ... ... nó thực sự là với một số lực lượng bên ngoài. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg15: Tôi sẽ đưa cho bạn một cơ hội cuối cùng, gửi cho tôi, hoặc, 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg16: được mãi mãi bị trục xuất đến đau vô tận trong khoảng trống không? 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg17: Bạn Go! ! 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg18: Come on! Mathias! ! 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg19: Tôi sẽ không cho phép bạn làm hại người của tôi và những người tốt. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg20: Vâng, fluff. 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg21: Đây là câu trả lời của bạn? 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg22: nên cứng đầu, bạn không có giá trị, và bị mất nó! 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg23: <span class='red'> extradimensional lưu vong! </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg24: chiến binh! Ghi nhớ: <span class='red'> nguồn ngọn lửa giận dữ để giải tán đông lạnh để sử dụng. </ Span> 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg25: chiến binh! Bạn lưu lại cho tôi một lần nữa, nó lưu lại vương quốc và người dân của tôi, và sau đó 
+Game.Server.GameServerScript.AI.Messions.CHM1377.msg26: hơn lời nói không thể diễn tả lòng biết ơn của tôi đối với bạn, xin hãy chấp nhận lời chúc chân thành của tôi! 
+Game.Server.GameServerScript.AI.Messions.CHM1378.msg1: thực bom Wang 
+
+# 2010/04/19 
+ItemFusionHandler.ItemValidDate: các mục có ngày hết hạn ít hơn so với các ngày còn lại. 
+ItemFusionHandler.Itemvalid: không phải là một mục hợp lệ. 
+
+ItemFusionHandler.full: ba lô là đầy đủ, các mục được gửi đến hộp thư. 
+ItemFusionHandler.mail: tan chảy các bài viết thành công "," tan chảy mặt hàng thành công. 
+MailGetAttachHandler.error: e-mail đã bị xóa, trích xuất file đính kèm không thành công!. 
+UserChangeItemPlaceHandler.full: Túi đã đầy! 
+EnterGameAction.error: phòng mật khẩu. 
+EnterRoomAction.noroom: không có chỗ thích hợp, hãy thử lại sau!. 
+EnterRoomAction.noexist: phòng không tồn tại!. 
+EnterRoomAction.start: phòng đã bắt đầu trò chơi!. 
+EnterRoomAction.full: phòng kích thước là đầy đủ! . 
+EnterRoomAction.level: cấp lớp của bạn và không phù hợp với yêu cầu của phòng! . 
+EnterRoomAction.passworderror: phòng mật khẩu. 
+StartGameAction.noBattleServe: chiến trường máy chủ không có sẵn!. 
+StartGameAction.PveError:Không thể bắt đầu phó bản lúc này. Vui lòng thử lại sau vài phút.
+StartMessage.Consortia: kết hợp thành công! Nhóm của bạn bắt đầu cuộc chiến bang hội. 
+StartMessage.free: kết hợp thành công! Nhóm của bạn bắt đầu một cuộc chiến tự do. 
+
+Game.Server.GameServerScript.AI.Messions.DCNM2102.msg1: hộp là của tôi, con tôi, miễn là tôi có thể thấy là của tôi! 
+Game.Server.GameServerScript.AI.Messions.DCSM2002.msg1: hộp là của tôi, con tôi, miễn là tôi có thể thấy là của tôi! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg1: bạn là nụ hôn của cái chết! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg2: bạn nhận được điên tôi! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg3: Invincible trận động đất ... ... <br/> sốc sốc ... ... ... ... 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg4: hit nhà kính. 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg5: xem chi tiết Kota của hơn tiêu chuẩn của bạn 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg6: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg7: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg8: đội! <br/> bảo vệ! ! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg9: Boo đệm được! ! <br/> cho tôi một số giúp đỡ! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg10: Đối với chiến thắng của bạn, <br/> cháy của tôi! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg11: Tôi lấy bạn nửa bước về phía trước một lần nữa để giết bạn! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg12: High! <br/> thực sự cao! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg13: siêu máy bay ném bom! ! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg14: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg15: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg16: Rất tiếc! Đau ... 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg17: Tôi cũng sống ở trên đầu ... 
+Game.Server.GameServerScript.AI.NPC.HardCaptainAi.msg18: Long sống vua! ! <br/> ah ...... 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg11: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg12: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg13: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg14: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg15: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.HardKingFirst.msg16: Giã từ đất nước tôi ... người của tôi ... Tôi luôn luôn bom Mathias vua nguyền rủa bạn! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg1: tất cả các bụi bạn, tôi muốn bạn biết những gì khủng bố và tuyệt vọng! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg2: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg3: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg4: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg5: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg6: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg7: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg8: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg9: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg10: extradimensional lưu vong! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg11: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg12: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg13: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg14: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg15: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg16: Bạn có nghĩ rằng bạn giành chiến thắng? Vật chất là xa hơn! Tôi sẽ trở lại! 
+Game.Server.GameServerScript.AI.NPC.HardKingLast.msg17: Tôi biến thành bụi theo lực lượng mạnh mẽ nó - <span lớp ='red'> Armageddon! </ Span> 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg2: sốc giảm vũ khí của bạn! Oh 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg11: hương vị này 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg12: cho phép bạn bình tĩnh lại 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg13: Bạn tôi giận dữ 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg14: O Thiên Chúa, xin ban cho con sức mạnh! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg15: tuyệt vọng nó, nhìn vào bức tường bảo vệ của tôi tinh thể! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg16: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg17: Đây là thách thức số phận của tôi!
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg18: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg19: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg20: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg21: Tôi cuối cùng đã thoát khỏi đau đầu kiểm soát Mathias ah! 
+Game.Server.GameServerScript.AI.NPC.HardKingSecond.msg22: nhỏ, họ đã dạy tôi, một bài học tốt đối phương! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg13: extradimensional lưu vong! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg17: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg18: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg19: Ngay cả khi tôi chết, tôi cũng sẽ được đi kèm với mong muốn vô tận thế giới này mãi mãi! 
+Game.Server.GameServerScript.AI.NPC.HardKingZhen.msg20: Haha, tôi đã có đầy đủ quyền lực! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg1: bạn là nụ hôn của cái chết! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg2: bạn nhận được điên tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg3: Invincible trận động đất ... ... <br/> sốc sốc ... ... ... ... 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg4: hit nhà kính. 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg5: xem chi tiết Kota của hơn tiêu chuẩn của bạn 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg6: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg7: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg8: đội! <br/> bảo vệ! ! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg9: Boo đệm được! ! <br/> cho tôi một số giúp đỡ! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg10: Đối với chiến thắng của bạn, <br/> cháy của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg11: Tôi lấy bạn nửa bước về phía trước một lần nữa để giết bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg12: High! <br/> thực sự cao! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg13: siêu máy bay ném bom! ! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg14: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg15: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg16: Rất tiếc! Đau ... 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg17: Tôi cũng sống ở trên đầu ... 
+Game.Server.GameServerScript.AI.NPC.NormalCaptainAi.msg18: Long sống vua! ! <br/> ah ...... 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg11: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg12: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg13: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg14: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg15: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.NormalKingFirst.msg16: Giã từ đất nước tôi ... người của tôi ... Tôi luôn luôn bom Mathias vua nguyền rủa bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg13: extradimensional lưu vong! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg17: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg18: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.NormalKingLast.msg19: Bạn có nghĩ rằng bạn giành chiến thắng? Vật chất là xa hơn! Tôi sẽ trở lại! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg3: bạn có thể đứng nhìn thấy một vài! ! Oh 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg11: hương vị này 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg12: Oh, bạn nhìn mát 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg13: Bạn tôi giận dữ 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg14: O Thiên Chúa, xin ban cho con sức mạnh! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg15: tuyệt vọng nó, nhìn vào bức tường bảo vệ của tôi tinh thể! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg16: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg17: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg18: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg19: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg20: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg21: Giã từ đất nước tôi ... người của tôi ... Tôi luôn luôn bom Mathias vua nguyền rủa bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingSecond.msg22: nhỏ, họ đã dạy tôi, một bài học tốt đối phương! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg13: extradimensional lưu vong! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg17: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg18: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg19: Ngay cả khi tôi chết, tôi cũng sẽ được đi kèm với mong muốn vô tận thế giới này mãi mãi! 
+Game.Server.GameServerScript.AI.NPC.NormalKingZhen.msg20: Haha, tôi đã có đầy đủ quyền lực! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg1: bạn là nụ hôn của cái chết! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg2: bạn nhận được điên tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg3: Invincible trận động đất ... ... <br/> sốc sốc ... ... ... ... 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg4: chụp ảnh với độ chính xác tuyệt vời! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg5: cho bạn biết xấu của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg6: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg7: thế giới một trong ít thằng ngốc. 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg8: công chức - ra để loại bỏ những kẻ xâm lược! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg9: hộ tống! Hộ tống! ! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg10: Đối với chiến thắng của bạn, <br/> cháy của tôi! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg11: Tôi lấy bạn nửa bước về phía trước một lần nữa để giết bạn! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg12: High! <br/> thực sự cao! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg13: Đừng đóng chị em, chị em tôi có bạn nôn ra máu! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg14: Bạn nghĩ như vậy đã chết? ! <br/> vì lợi ích của bạn! ! 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg15: ah, mặt tôi ... ... 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg16: uh, tôi đã đưa ra một áo giáp tuyệt đẹp đã bị trầy xước ... ... 
+Game.Server.GameServerScript.AI.NPC.NormalQueenAntAi.msg17: ah, toàn bộ ... là ... tôi không ... có ... ... 
+Game.Server.GameServerScript.AI.NPC.SimpleBomblingNpc.msg1: Hey hey hey, ở đây tôi đi! 
+Game.Server.GameServerScript.AI.NPC.SimpleBomblingNpc.msg2: và tôi kết thúc nó! 
+Game.Server.GameServerScript.AI.NPC.SimpleBomblingNpc.msg3: không thể để bạn sống! 
+Game.Server.GameServerScript.AI.NPC.SimpleBomblingNpc.msg4: Nhiệm vụ của tôi là để tiêu diệt bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg1: bạn là nụ hôn của cái chết! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg2: bạn nhận được điên tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg3: Invincible trận động đất ... ... <br/> sốc sốc ... ... ... ... 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg4: hit nhà kính. 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg5: xem chi tiết Kota của hơn tiêu chuẩn của bạn 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg6: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg7: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg8: đội! <br/> bảo vệ! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg9: Boo đệm được! ! <br/> cho tôi một số giúp đỡ! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg10: Đối với chiến thắng của bạn, <br/> cháy của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg11: Tôi lấy bạn nửa bước về phía trước một lần nữa để giết bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg12: High! <br/> thực sự cao! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg13: siêu máy bay ném bom! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg14: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg15: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg16: Rất tiếc! Đau ... 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg17: Tôi cũng sống ở trên đầu ... 
+Game.Server.GameServerScript.AI.NPC.SimpleCaptainAi.msg18: Long sống vua! ! <br/> ah ...... 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg11: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg12: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg13: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg14: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg15: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.SimpleKingFirst.msg16: Giã từ đất nước tôi ... người của tôi ... Tôi luôn luôn bom Mathias vua nguyền rủa bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg13: extradimensional lưu vong! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg17: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg18: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.SimpleKingLast.msg19: Bạn có nghĩ rằng bạn giành chiến thắng? Vật chất là xa hơn! Tôi sẽ trở lại! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg11: hương vị này 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg12: cho phép bạn bình tĩnh lại 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg13: Bạn tức giận tôi tốt 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg14: O Thiên Chúa, xin ban cho con sức mạnh! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg15: tuyệt vọng nó, nhìn vào bức tường bảo vệ của tôi tinh thể! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg16: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg17: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg18: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg19: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg20: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg21: Giã từ đất nước tôi ... người của tôi ... Tôi luôn luôn bom Mathias vua nguyền rủa bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingSecond.msg22: nhỏ, họ đã dạy tôi, một bài học tốt đối phương! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg13: extradimensional lưu vong! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg17: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg18: Vâng - một chút có ý nghĩa! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg19: Ngay cả khi tôi chết, tôi cũng sẽ được đi kèm với mong muốn vô tận thế giới này mãi mãi! 
+Game.Server.GameServerScript.AI.NPC.SimpleKingZhen.msg20: Haha, tôi đã có đầy đủ quyền lực! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg1: Để tôn vinh! Để chiến thắng! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg2: giữ lại vũ khí của họ, không rung ah ~ 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg3: Để chống lại vua! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg4: kẻ thù là ở bàn tay, chúng tôi đã sẵn sàng cho trận chiến! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg5: Vua của các cảm giác gần đây ngày càng có nhiều hành vi bất thường ...... 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg6: Để Boo đệm chiến thắng! ! Brothers phí! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg7: nhanh và tiêu diệt kẻ thù! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg8: tất cả mọi người vào sức mạnh với số lượng! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg9: tất cả mọi người nhanh chóng! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg10: bao quanh bởi những kẻ thù, tiêu diệt chúng. 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg11: quân tiếp viện! Tiếp viện! Chúng ta cần tăng viện nhiều hơn nữa! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg12: ngay cả sự hy sinh của họ, cũng có kế hoạch để hoàn thành cuộc chinh phục của nhân loại. 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg13: Đừng đánh giá thấp sức mạnh của đệm Boo, hoặc bạn sẽ phải trả giá. 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg14: chiến đấu ... chiến đấu ... cướp! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg15: loại bỏ những kẻ xâm lược, Nữ hoàng sẽ thưởng cho tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg16: lấy một hòn đá tăng cường, tôi có thể nâng cấp vũ khí! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg17: Freeze tất cả số tiền của Phòng, cuộc sống của riêng mình. 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg18: trả ra tất cả những điều có giá trị! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg19: Đừng đổ lỗi cho tôi, lực lượng cuộc sống - buộc phải! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg20: đầu, đó là đường dây của chúng tôi. 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg21: các chiến binh dữ dội sẽ là nữ hoàng của mái tóc. 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg22: Đừng đánh giá thấp chúng tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleNpcAi.msg23: Tất cả những thứ thuộc về nữ hoàng! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg1: bạn là nụ hôn của cái chết! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg2: bạn nhận được điên tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg3: Invincible trận động đất ... ... <br/> sốc sốc ... ... ... ... 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg4: chụp ảnh với độ chính xác tuyệt vời! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg5: cho bạn biết xấu của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg6: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg7: thế giới một trong ít thằng ngốc. 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg8: công chức - ra để loại bỏ những kẻ xâm lược! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg9: hộ tống! Hộ tống! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg10: Đối với chiến thắng của bạn, <br/> cháy của tôi! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg11: Tôi lấy bạn nửa bước về phía trước một lần nữa để giết bạn! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg12: High! <br/> thực sự cao! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg13: Đừng đóng chị em, chị em tôi có bạn nôn ra máu! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg14: Bạn nghĩ như vậy đã chết? ! <br/> vì lợi ích của bạn! ! 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg15: ah, mặt tôi ... ... 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg16: uh, tôi đã đưa ra một áo giáp tuyệt đẹp đã bị trầy xước ... ... 
+Game.Server.GameServerScript.AI.NPC.SimpleQueenAntAi.msg17: ah, toàn bộ ... là ... tôi không ... có ... ... 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg1: bạn là nụ hôn của cái chết! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg2: bạn nhận được điên tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg3: Invincible trận động đất ... ... <br/> sốc sốc ... ... ... ... 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg4: hit nhà kính. 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg5: xem chi tiết Kota của hơn tiêu chuẩn của bạn 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg6: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg7: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg8: đội! <br/> bảo vệ! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg9: Boo đệm được! ! <br/> cho tôi một số giúp đỡ! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg10: Đối với chiến thắng của bạn, <br/> cháy của tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg11: Tôi lấy bạn nửa bước về phía trước một lần nữa để giết bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg12: High! <br/> thực sự cao! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg13: siêu máy bay ném bom! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg14: để gửi cho bạn trở về nhà! 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg15: ảo tưởng một mình, bạn có thể đánh tôi? 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg16: Rất tiếc! Đau ... 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg17: Tôi cũng sống ở trên đầu ... 
+Game.Server.GameServerScript.AI.NPC.TerrorCaptainAi.msg18: Long sống vua! ! <br/> ah ...... 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg11: Mathias Do không kiểm soát tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg12: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg13: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg14: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg15: Oh - nó đau Tại sao tôi phải chiến đấu!? Tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.TerrorKingFirst.msg16: Giã từ đất nước tôi ... người của tôi ... Tôi luôn luôn bom Mathias vua nguyền rủa bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg13: extradimensional lưu vong! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg17: bạn chỉ có khả năng này? ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg18: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.TerrorKingLast.msg19: Bạn có nghĩ rằng bạn giành chiến thắng? Vật chất là xa hơn! Tôi sẽ trở lại! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg1: bản thân mình để trận động đất! ! <br/> bạn vui lòng giúp đỡ Ay 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg2: sốc giảm vũ khí của bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg3: bạn có thể đứng nhìn thấy một vài! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg4: cho bạn biết những gì nứt shot! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg5: cung cấp cho bạn một quả bóng - bạn phải chọn Vâng 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg6: sự thiếu hiểu biết của bạn trong nhóm thấp hơn của người dân 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg7: ah ah xoắn xoắn xoắn xoắn <br/> ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg8: Hallelujah <br/> Luyaluya ~ ~ ~ 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg9: Yeah yeah yeah, <br/> ah tốt thoải mái! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg10: Thống trị! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg11: hương vị này 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg12: Oh, bạn nhìn mát 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg13: Bạn tôi giận dữ 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg14: O Thiên Chúa, xin ban cho con sức mạnh! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg15: tuyệt vọng nó, nhìn vào bức tường bảo vệ của tôi tinh thể! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg16: Mathias Do không kiểm soát tôi! Oh 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg17: Đây là thách thức số phận của tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg18: Không! ! Đây không phải là ý chí của tôi ... 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg19: Oh ~ Tại sao các bạn tấn công tôi? <br/> tôi đang làm gì? Oh 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg20: Oh - nó đau Tại sao tôi phải chiến đấu!? Ồ, tôi phải chiến đấu ... 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg21: Tôi cuối cùng đã thoát khỏi đau đầu kiểm soát Mathias ah! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingSecond.msg22: nhỏ, họ đã dạy tôi, một bài học tốt đối phương! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg1: nhìn vào kỹ năng của tôi! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg2: Đây là thủ thuật mát nó, <br/> không muốn học? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg3: bị mất nó! ! ! <br/> bụi khiêm tốn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg4: Bạn sẽ trả tiền cho điều đó! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg5: bạn cho tôi cù bạn? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg6: Tôi không thể lãng phí như chỉ là bạn đánh bại đó! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg7: Oh, bạn chơi tốt nó làm tổn thương tôi, <br/> ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg8: Tut tut, vì vậy các cuộc tấn công! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg9: Tôi thấy vinh dự của bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg10: để ah, <br/> bom họ hương vị mạnh mẽ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg11: Tôi dùng đến thủ đoạn này là để buộc bạn phải! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg12: bạn đến chết? 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg13: extradimensional lưu vong! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg14: phá hủy là điểm đến duy nhất của bạn! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg15: quá dễ bị tổn thương nó! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg16: Oh - bạn chơi tốt nó làm tổn thương tôi! <br/> ah ha ha ha ha! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg17: bạn chỉ có khả năng này? ! ! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg18: Vâng - một có nghĩa là ít 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg19: Ngay cả khi tôi chết, tôi cũng sẽ được đi kèm với mong muốn vô tận thế giới này mãi mãi! 
+Game.Server.GameServerScript.AI.NPC.TerrorKingZhen.msg20: Haha, tôi đã có đầy đủ quyền lực! ! 
+ExchangeMoneyToGoldHandler.nomoney: Bạn không đủ phiếu giảm điểm. 
+ExchangeMoneyToGoldHandler.success: {0} bạn sẽ có được vàng. 
+GetGPreward: một thách thức đối phương mạnh mẽ, can đảm! Xin chúc mừng, bạn sẽ có được 200 điểm kinh nghiệm thưởng. 
+#2011/09/15
+ItemReclaimHandler.Success1:Bạn nhận được {0}  Xu khóa
+ItemReclaimHandler.Success2:Bạn nhận được {0}  Vàng
+ItemReclaimHandler.NotSuccess: Bán thất bại.
+PVPGame.SendGameOVer.Msg1:Bạn nhận được {0}  Xu
+PVPGame.SendGameOVer.Msg2:Bạn nhận được {0}  Lệnh bài từ event chiến thần.
+PVPGame.SendGameOVer.Msg3:Kết thúc trận đấu: Chiến thắng, được {0}  danh vọng.
+PVPGame.SendGameOVer.Msg4:Kết thúc trận đấu: Thất bại, được {0}  danh vọng.
+PVPGame.SendGameOVer.Msg5:Dữ liệu server bị lổi.
+PVPGame.SendGameOVer.Msg6:Kết thúc trận đấu: Chiến thắng, được {0}  Lệnh bài.
+PVPGame.SendGameOVer.Msg7:Kết thúc trận đấu: Thất bại, được {0}  Lệnh bài.
+AvatarColection.GoldNotEnough:Vàng không đủ!
+AvatarColection.Msg1:Không có vật phẩm này trong hành trang hoặc đã kích hoạt rồi.
+AvatarColection.Msg2:Trang bị không phù hợp.
+AvatarColection.Msg3:Bộ sưu tập không thể gia hạn.
+AvatarColection.Msg4:Vinh dự không đủ!
+AvatarColection.Msg5:Bộ sưu tập không tìm thấy, thao tác thất bại.
+FastIinviteCall.Msg1:Chỉ thao tác mổi 15s một lần!
+GameRoomCreate.Msg1:Bạn đã hết lượt khiêu chến hôm nay!
+GameRoomCreate.Msg2:Tốc độ client quá nhanh, vui lòng đợi {0}s.
+ExploreMagicStone.Msg1:Lổi ServerConfig ID 402!
+ExploreMagicStone.Msg2:Túi Ma thạch đã đầy!
+MovePlace.Msg1:Không thể trang bị cùng lúc 2 loại đá ma thạch thường cùng thuộc tính.
+ActivityPackageHandler.Msg1:Cấp độ chưa đủ, thao tác thất bại.
+ActivityPackageHandler.Msg2:Nhận quà thất bại.
+ActivityPackageHandler.Msg3:Nhận quà thành công.
+AuctionAddHandler.Msg11:Số lượng không có thực, thao tác thất bại!
+AuctionAddHandler.Msg12:Cấp {0} trở lên mới có thể đấu giá vật phẩm.
+AuctionAddHandler.Msg13:Dữ liệu server lổi.
+AuctionUpdateHandler.Msg:Cấp {0} trở lên mới có thể đấu giá vật phẩm.
+BeadHandle.Msg1:Xảy ra lổi, chuyển kênh và thử lại.
+BeadHandle.Msg2:Cấp {0} mở
+BeadHandle.Msg3:Cấp châu báu và cấp lỗ không khớp.
+BeadHandle.Msg4:Rương đã đầy không thể di chuyển!
+BeadHandle.Msg5:Trang bị không phù hợp.
+BeadHandle.Msg6:Quá nhiều thao tác!
+BeadHandle.Msg7:Điều kiện không đủ!
+BeadHandle.Msg8:Mủi khoan không đủ!
+BeadHandle.Msg9:Rương đã đầy không thể mở thêm!
+BeadHandle.Msg10:Dữ liệu server lổi.
+BeadHandle.Msg11:Bạn nhận được {0} lv{1}.
+BigBugleHandler.Msg:Chỉ thao tác mổi 15s một lần!
+CardResetHandler.Msg1:Xảy ra lổi, chuyển kênh và thử lại.
+CardResetHandler.Msg2:Thẻ hồn không đủ
+CardResetHandler.Msg3:Tẩy điểm thành công!
+CardResetHandler.Msg4:Cập nhật thay đổi thành công!
+CardUseHandler.ManyAction:Quá nhiều thao tác!
+CBugleHandler.Msg:Chỉ thao tác mổi 30s một lần!
+Consortia.Msg1:Dữ liệu server lổi.
+Consortia.Msg2:Skill này chưa hổ trợ.
+Consortia.Msg3:Guild cập nhật kỹ năng Guild, thành công!
+Consortia.Msg4:Thao tác thành công.
+Consortia.Msg5:Level Guild chưa đủ.
+Consortia.Msg6:Điều kiện không đủ, thao tác thất bại.
+Consortia.Msg7:Guild của bạn đã thay đổi huy hiệu mới!
+Consortia.Msg8:Không tìm thấy Guild, thao tác thất bại!
+Consortia.Msg9:Guild cấp 3 trở lên mới có thể triệu hồi boss.
+Consortia.Msg10:Dữ liệu server lổi, thao tác thất bại!
+Consortia.Msg11:Tài sản Guild không đủ, tạo boss thất bại!
+Consortia.Msg12:Tài sản Guild không đủ, thêm thời gian thất bại!
+DailyAwardHandler.Msg1:Nhận được Thẻ x2 kinh nghiệm 60 phút
+DailyAwardHandler.Msg2:Bạn đã nhận 1 lần hôm nay!
+DailyAwardHandler.Msg3:Sảy ra lổi hảy thử lại sau.
+DailyAwardHandler.Msg4:Bạn đã nhận 1 lần hôm nay!
+DailyAwardHandler.Msg5:Điểm danh thành công!
+DefyAfficheHandler.Msg:Xu không đủ!
+DragonBoatHandler.Msg1:Tích lũy không đủ.
+DragonBoatHandler.Msg2:Cấp {0} mới được tham gia đóng thuyền.
+DragonBoatHandler.Msg3:Hoạt động đã kết thúc.
+DragonBoatHandler.Msg4:Điểm tích lũy đã đạt giới hạn. Thao tác thất bại.
+DragonBoatHandler.Msg5:{0} không đủ.
+DragonBoatHandler.Msg6:Thao tác thành công.
+EnterFarmHandler.Msg1:Cấp chưa đủ không thể vào!
+EnterFarmHandler.Msg2:Thu hoạch thất bại!
+EnterFarmHandler.Msg3:Thu hoạch thành công!
+EnterFarmHandler.Msg4:Thao tác thành công.
+EnterFarmHandler.Msg5:Không thể chộm nửa.
+EnterFarmHandler.Msg6:Kích hoạt trợ thủ thất bại!
+EnterFarmHandler.Msg7:Xu không đủ!
+EnterFarmHandler.Msg8:Xu khóa không đủ!
+EnterFarmHandler.Msg9:Hủy trợ thủ thành công!
+EnterFarmHandler.Msg10:Kích hoạt trợ thủ thành công!
+EnterFarmHandler.Msg11:Mở rộng thành công!
+CardDataHander.Msg1:Không tìm thấy thẻ này, thử lại sau.
+CardDataHander.Msg2:Thẻ này đã trang bị!
+CardDataHander.Msg3:Trang bị thành công!
+CardDataHander.Msg4:Hộp thẻ {0} bài lổi!
+CardDataHander.Msg5:Bạn nhận được {0} điểm thẻ hồn, {1} Thẻ bài.
+CardDataHander.Msg6:Bạn nhận được {0} điểm thẻ hồn.
+CardDataHander.Msg7:Số lần sử dụng thẻ hồn hôm nay đã hết.
+CardDataHander.Msg8:Bạc
+CardDataHander.Msg9:Vàng
+CardDataHander.Msg10:Bạch kim
+CardDataHander.Msg11:Đồng
+FigSpiritUpGradeHandler.Msg:Chiến hồn không đủ!
+GoodsExchangeHandler.Msg1:{0} không đủ!
+GoodsExchangeHandler.Msg2:Lổi phần thưởng liên hệ admin!
+FriendAddHandler.Ofline: Người chơi không online.
+ItemAdvanceHandler.Msg1:Đặt đá tăng cấp và trang bị cần tăng cấp vào!
+ItemAdvanceHandler.Msg2:Level đã đạt cấp độ cao nhất, không thể thăng cấp!
+ItemAdvanceHandler.Msg3:Đặt đá tăng cấp vào!
+ItemComposeHandler.Msg:Đặt đá tăng cấp và trang bị cần hợp thành vào!
+ItemStrengthenHandler.Max:Level đã đạt cấp độ cao nhất, không thể cường hóa!
+LatentEnergyHandler.Msg1:Vật phẩm không đúng, thao tác thất bại.
+LatentEnergyHandler.Msg2:Kích hoạt tiềm năng thành công!
+LatentEnergyHandler.Msg3:Vật phẩm không đủ.
+LatentEnergyHandler.Msg4:Cập nhật tiềm năng thành công!
+OpenOneTotemHandler.Msg1:Thao tác thất bại, thử lại sau!
+OpenOneTotemHandler.Msg2:Danh vọng không đủ.
+PetHandler.Msg1:Xu không đủ!
+PetHandler.Msg2:Level chưa đủ, không thể mở.
+PetHandler.Msg3:Số lượng pet đã đạt giới hạn!
+PetHandler.Msg4:Dữ liệu server lổi.
+PetHandler.Msg5:Người chơi [{0}] thật ghê gớm mở trứng được {1} {2} sao.
+PetHandler.Msg6:Bạn nhận được {0} {1} sao
+PetHandler.Msg7:Phục hồi thất bại!
+PetHandler.Msg8:Phục hồi thành công!
+PetHandler.Msg9:Xảy ra lổi, chuyển kênh và thử lại.
+PetHandler.Msg10:Ðộ vui vẻ tang thêm {0}
+PetHandler.Msg11:Ðộ vui vẻ đã đạt mức tối da
+PetHandler.Msg12:Chúc phúc thần gà giúp bạn tiết kiệm {0}xu.
+PetHandler.Msg13:Xu khóa không đủ. Thao tác thất bại.
+PetHandler.Msg14:Xu không đủ. Thao tác thất bại.
+PetHandler.Msg15:Số lượng pet đã đạt giới hạn!
+PetHandler.Msg16:Không tìm thấy pet này!
+PetHandler.Msg17:Người chơi [{0}] may mắn bắt được {1} {2} sao.
+PetHandler.Msg18:Skill này đã trang bị!
+PetHandler.Msg181:Ô skill chưa kích hoạt!
+PetHandler.Msg19:Thả pet thành công!
+PetHandler.Msg20:Đổi tên thành công!
+PetHandler.Msg21:Level pet quá cao, không thể sử dụng!
+PetHandler.Msg22:Độ no bằng không, không thể chiến đấu!
+PetHandler.Msg23:Chức năng chưa mở.
+PetHandler.Msg24:Nhận phúc lợi Bậc thầy luyện thú!
+PetHandler.Msg25:Tiến hóa đã đạt cấp cao nhất.
+LotteryOpenBoxHandler.Msg1:Rương đang hoạt động!
+LotteryOpenBoxHandler.Msg2:Rương đã đầy không thể mở thêm!
+LotteryOpenBoxHandler.Msg3:Sảy ra lổi hảy thử lại sau.
+LotteryOpenBoxHandler.Msg4:{0} không đủ.
+LotteryOpenBoxHandler.Msg5:Bạn nhận được {0}
+PropBuyHandler.SystemNotSell:Hệ thống không bán vật phẩm này!
+QuickBuyGoldBoxHandler.Msg:Bạn nhận được  {0} vàng.
+SmallBugleHandler.Msg:Chỉ thao tác mổi 15s một lần!
+texpSystem.Error:Xảy ra lổi, chuyển kênh và thử lại.
+TreasureHandler.Msg1:Bạn nhận được {0} x{1}
+TreasureHandler.Msg2:Số lần đào hôm nay đã hết.
+UserBuyItemHandler.ActiveMoneyNotEnough:Xu năng động không đủ mua {0}, Hiện tại bạn có {1} Xu năng động. 
+UserBuyItemHandler.NotSell:Hệ thống chưa bán vật phẩm này.
+UserItemContineueHandler.CanNotContineu:Vật phẩm không thể tiếp phí.
+UserItemContineueHandler.StillValidate:Vật phẩm chưa hết hạn!
+GoodsPresentHandler.Msg1:Không thể tặng cho chính mình.
+GoodsPresentHandler.Msg2:Cấp {0} trở lên mới có thể tặng quà.
+GoodsPresentHandler.Msg3:Không thể gửi cho nhân vật nhỏ hơn cấp {0}
+UserSendMailHandler.Msg1:Đặt item cần gửi vào!
+UserSendMailHandler.Msg2:Số lượng không có thực, thao tác thất bại!
+UserSendMailHandler.Msg3:Không thể gửi cho nhân vật nhỏ hơn cấp {0}
+UserSendMailHandler.Msg4:Cấp {0} trở lên mới có thể gởi file đính kèm.
+WishBeadEquipHandler.Msg1:Lổi vật phẩm.
+WishBeadEquipHandler.Msg2:Châu báu chúc phúc không đủ.
+EnterRoomAction.Msg1:Không có phòng game nào!
+EnterRoomAction.Msg2:Phòng đang sử dụng!
+EnterRoomAction.Msg3:Bạn đã tham gia hôm nay!
+EnterRoomAction.Msg4:Phòng đã đầy！
+EnterRoomAction.Msg5:Level chưa đủ！
+EnterRoomAction.Msg6:Mật khẩu không đúng!
+LargessCommand.Msg:Cấp {0} trở lên mới có thể tặng xu.
+GamePlayer.Msg1:Hệ thống vừa thêm vào {0} Xu năng động , nâng Xu năng động lên {1} Xu
+GamePlayer.Msg2:Bạn vừa tiêu hao {0} Xu năng động, còn lại {1} Xu năng động
+GamePlayer.Msg3:Max level kinh nghiệm quy đổi thành {0} công trạng
+GamePlayer.Msg4:Vàng đã đạt gới hạn.
+GamePlayer.Msg5:Xu đã đạt gới hạn.
+GamePlayer.Msg6:Vượt ải thành công, hệ thống trừ {0} điểm hoạt bát.
+GamePlayer.Msg7:Tích luỹ đã đạt gới hạn.
+GamePlayer.Msg8:Xu năng động không đủ. Hiện tại bạn có {0} Xu năng động
+GamePlayer.Msg9:Xu năng động đã đạt gới hạn, không thể nhận thêm.
+GamePlayer.Msg10:Thẻ hồn đã đạt giới hạn cao nhất, không thể nhận thêm.
+GamePlayer.Msg11:Tích lũy đã đạt giới hạn cao nhất, không thể nhận thêm.
+GamePlayer.Msg12:Tích lũy đã đạt giới hạn cao nhất, không thể nhận thêm.
+GamePlayer.Msg13:Số lượng quá lớn hảy nhập lại. Số lượng tối đa là {0}.
+GamePlayer.Msg14:Số lượng Xu quá lớn hảy nhập lại. Tối đa là {0}.
+GamePlayer.Msg15:Số lần tham gia đấu giá hôm nay đã hết. Tối đa là {0}.
+GamePlayer.Msg16:Số lần gửi mail hôm nay đã hết. Tối đa là {0}.
+GamePlayer.Msg17:Xu khóa không đủ, thao tác thất bại.
+GamePlayer.Msg18:Hành trang đã đầy, vật phẩm chuyển vào -Túi ẩn- Vui lòng chờ 15p để nhận lại vật phẩm qua thư.
+GamePlayer.Msg19:Hành trang đã đầy. Gửi vào thư.
+GamePlayer.Msg20:Số lần tặng quà hôm nay đã hết. Tối đa là {0}.
+Living.Msg1:{0} trong lúc nguy nan sử đụng Rơm cứu mạng hồi phục {1} máu.
+Player.Msg1:Ma Pháp không đủ.
+PVEGame.Msg1:Bạn nhận được {0} x{1}, trong lần tấn công này.
+PVPGame.SendGameOVer.Msg8:, {0}  Xu khóa
+PVPGame.SendGameOVer.Msg9:Bạn nhận x{0} exp từ Event thuyền rồng (Đắp tượng).
+GameRoomRoomSetupChange.Msg1:Dữ liệu server lổi.
+GameRoomRoomSetupChange.Msg2:Chúc phúc thần gà giúp bạn tiết kiệm {0}xu.
+GameRoomRoomSetupChange.Msg3:đã tham gia hôm nay.
+GameRoomRoomSetupChange.Msg4:Bạn
+GameRoomRoomSetupChange.Msg5:không có vé tham gia.
+PlayerDice.GetLevelAward:Bạn nhận được {0}
+PlayerExtra.TakeCard:Lượt lật thẻ đã hết!
+UpHorse.Msg:Nhận phúc lợi Bậc thầy luyện thú!
+UpSkill.Msg1:Thăng cấp thành công, nhận {0} exp
+UpSkill.Msg2:Dữ liệu server lổi, code: {0}
+ConverScore.Msg1:Tích lũy không đủ.
+MagicStone.LevelUp:Chưa đặt Ma thạch vào ô năng cấp.
+ActiveSystemHandler.Msg1:Hết thời gian, bạn phải trả phí để tiếp tục.
+ActiveSystemHandler.Msg2:Thao tác thành công!
+ActiveSystemHandler.Msg3:Số lượng ma, thao tác thất bại.
+ActiveSystemHandler.Msg4:Nhận thưởng thành công.
+ActiveSystemHandler.Msg5:Tích lũy 3 người tuyết để nhận quà
+ActiveSystemHandler.Msg6:Số lần nhận thưởng đã hết.
+ActiveSystemHandler.Msg7:Không đủ người tuyết, thao tác thất bại.
+ActiveSystemHandler.Msg8:Không đủ điều kiện, thao tác thất bại.
+ActiveSystemHandler.Msg9:Dữ liệu server lổi.
+ActiveSystemHandler.Msg10:Tải dử liệu thất bại. Vui lòng thử lại sau.
+ActiveSystemHandler.Msg11:Bạn nhận được {0} x{1}.
+ActiveSystemHandler.Msg12:Thật may bạn được lên tầng tiếp theo.
+ActiveSystemHandler.Msg13:Thật may bạn nhận thêm 10 điểm tích lũy.
+ActiveSystemHandler.Msg14:Thật may bạn nhận thêm 30 điểm tích lũy.
+ActiveSystemHandler.Msg15:Thật may bạn nhận thêm 40 điểm tích lũy.
+ActiveSystemHandler.Msg16:Thật may bạn nhận thêm 5% điểm tích lũy.
+ActiveSystemHandler.Msg17:Thật may bạn nhận thêm 10% điểm tích lũy.
+ActiveSystemHandler.Msg18:Kim tự tháp
+ActiveSystemHandler.Msg19:Thật may bạn nhận thêm {0} điểm tích lũy.
+BuyTransnationalGoodsHandler.Msg1:Tích lũy không đủ.
+ChickenBoxHandler.Msg1:Dữ liệu server lổi.
+ChickenBoxHandler.Msg2:Số lần xuyên thấu vòng này đã hết.
+ChickenBoxHandler.Msg3:Tiêu hao Xu, tạo mới thành công.
+ChickenBoxHandler.Msg4:Tạo mới miễn phí thành công.
+ChickenBoxHandler.Msg5:{0} không đủ.
+ChickenBoxHandler.Msg6:Thao tác quá nhanh, vui lòng thử lại sau.
+ChickenBoxHandler.Msg7:Rương gà
+ChickenBoxHandler.Msg8:Bạn nhận được {0}x{1}
+ChickenBoxHandler.Msg9:Số lần lật thẻ vòng này đã hết.
+ChickenBoxHandler.Msg10:Sao may mắn
+Labyrinth.Msg1:Xu khóa không đủ!
+Labyrinth.Msg2:Tự động chưa kích hoạt!
+Labyrinth.Msg3:Chúc phúc thần gà giúp bạn tiết kiệm {0}xu.
+Labyrinth.Msg4:Tái lập thành công!
+Labyrinth.Msg5:Số lần tái lập hôm nay đã hết!
+Labyrinth.Msg6:Thao tác thành công!
+QuestOneKeyFinishHandler.Msg:Số lần hoàn thành nhanh đã dùng hết
+SearchGoods.Msg1:Thao tác thành công! 
+SearchGoods.Msg2:Kho báu đã đạt cấp cao nhất!
+UseConsortiaReworkNameHandler.Msg1:Guild Không tồn tại.
+UseConsortiaReworkNameHandler.Msg2:Chủ Giuld mới có thể đổi tên.
+UseConsortiaReworkNameHandler.Msg3:Tên Guild đã được sử dụng.
+UseReworkNameHandler.Msg:Thay đổi Nickname thất bại
+KingBlessHandler.Msg1:Kích hoạt Bật thầy luyện thú thành công!
+KingBlessHandler.Msg2:Gia hạn Bật thầy luyện thú thành công!
+KingBlessHandler.Msg3:Gói kích hoạt Chúc phúc thần gà không phù hợp!
+KingBlessHandler.Msg4:Bạn bè không tồn tại!
+KingBlessHandler.Msg5:Gia hạn Chúc phúc thần gà cho {0} thàng công!
+KingBlessHandler.Msg6:Kích hoạt Chúc phúc thần gà cho {0} thàng công!
+KingBlessHandler.Msg7:Kích hoạt Chúc phúc thần gà thành công!
+KingBlessHandler.Msg8:Gia hạn Chúc phúc thần gà thành công!
+KingBlessHandler.Msg9:Kích hoạt Chúc phúc thần gà cho {0} thành công!
+KingBlessHandler.Msg10:{0}, Kích hoạt Chúc phúc thần gà cho bạn thàng công!
+KingBlessHandler.Msg11:Gia hạn Chúc phúc thần gà cho {0} thàng công!
+KingBlessHandler.Msg12:{0}, gia hạn Chúc phúc thần gà cho bạn thành công!
+OpenVipHandler.Msg1:Kích hoạt VIP thành công!
+OpenVipHandler.Msg2:Tiếp phí VIP cho {0} thàng công!
+OpenVipHandler.Msg3:Gia hạn VIP thành công!
+OpenVipHandler.Msg4:Kích hoạt VIP cho {0} thàng công!
+OpenVipHandler.Msg5:{0}, tiếp phí VIP cho bạn thành công!
+OpenVipHandler.Msg6:Gia hạn VIP cho {0} thàng công!
+OpenVipHandler.Msg7:{0}, gia hạn VIP cho bạn thành công!
+MissionEnergyHandler.Msg1:Thao tác thành công.
+MissionEnergyHandler.Msg2:Số lần mua trong ngày đã đạt tối đa!
+MissionEnergyHandler.Msg3:Không cần mua thêm điểm hoạt bát.
+DiceHandler.Msg1:Bạn đã nhận hết phần thưởng tích lũy hôm nay.
+DiceHandler.Msg2:Xí ngầu
+DiceHandler.Msg3:Phần thưởng Xí Ngầu.
+WorldBossHandler.Msg:Boss thế giới đã kết thúc
+GetTimeBoxHandler.Msg1:Nhận rương thời gian thành công!
+GetTimeBoxHandler.Msg2:Rương thời gian
+GetTimeBoxHandler.Msg3:Phần thưởng từ rương thời gian.
+GetTimeBoxHandler.Msg4:Mở rương thời gian!
+GetTimeBoxHandler.Msg5:Túi đã đầy, vật phẩm đã được chuyển vào thư!
+BaseRingStationChallenges.Msg1:Khiêu chiến
+BaseRingStationChallenges.Msg2:Ngon thì tới đây…
+Lightriddle.Msg1:5 Chiến Hồn Đơn, 10.000 EXP và 29 điểm tích lũy
+Lightriddle.Msg2:1 Chiến Hồn Đơn và 1.000 EXP.
+Lightriddle.Msg3:Hệ thống Nguyên Tiêu lổi.
+Lightriddle.Msg4:5 Chiến Hồn Đơn, 10.000 EXP và 58 điểm tích lũy
+PicCherishInfo.Msg1:Phụ kiện lổi, thao tác thất bại
+PicCherishInfo.Msg2:Kích hoạt phụ kiện {0} thành công!
+#2014/11/14
+ChangeHorse.Msg1:Thu hồi thành công!
+ChangeHorse.Msg2:Sử dụng thành công!
+BaseRoom.Msg1:Chưa lựa chọn?
+BaseRoom.Msg2:<Mời tham gia Phó bản>
+BaseRoom.Msg3:<Mời tham gia đấu đội>
+BaseRoom.Msg4: (Dể)
+BaseRoom.Msg5: (Thường)
+BaseRoom.Msg6: (Khó)
+BaseRoom.Msg7: (Anh hùng)
+BaseRoom.Msg8: (Huyền thoại)
+BaseRoom.Msg9: (Ác mộng)
+GamePlayer.Msg20:Lần tấn công này nhận {0} danh vọng và {1} điểm vinh dự.
+GamePlayer.Msg21:Lần tấn công này nhận {0} cống hiến và {1} điểm vinh dự.
+GamePlayer.Msg22:Phần thưởng tham gia Đảo hải tặc đợt {0}
+GamePlayer.Msg23:Phần thưởng vượt địa ngục hạng {0} độ khó {1} sao
+CryptBossHandler.NotAvable: Dữ liệu server lổi thao tác thất bại.
+CryptBossHandler.Done: Số lần khiêu chiến hôm nay đã hết.
+CryptBossHandler.NotEnoughLevel: Cấp sao chưa đủ.
+SystermSender.Msg: Hệ thống
+PlayerFarm.Msg1:Kết thúc trợ thủ, bạn nhận được {0} {1}
+PlayerFarm.Msg2:Kết thúc trợ thủ, nhận được thức ăn thú cưng!
+PlayerFarm.Msg3:Túi đầy
+FarmCondenser.Msg1:Đạo cụ không đủ, thao tác thất bại!
+FarmCondenser.Msg2:Tụ quang thành công!
+CallFarmPoultry.Msg1:Triệu hồi thành công!
+WakeFarmPoultry.Msg1:Đánh thức thành công!
+WakeFarmPoultry.Msg2:Không phải tình nhân, thao tác thất bại.
+GameStart.Msg1:Không thể tham gia phó bản này!
+GameStart.Msg2:Cặp đôi mới có thể bắt đầu.
+EnterRoomAction.Msg7:Không phải tình nhân không thể vào.
+FeedFarmPoultry.Msg1:Cho ăn thành công!
+FeedFarmPoultry.Msg2:Thời gian chờ chưa hết.
+FarmWater.Msg1:Điểm tình yêu không đủ.
+FarmWater.Msg2:Tưới cây thành công.
+FarmPoultryAward.Msg1:Phần thưởng chiến thắng {0}
+OpenUpArkHandler.MaxExp:Cấp độ tối đa kinh nghiệm quy đổi thành {0} công trạng
+OpenUpArkHandler.LoveScore: điểm tình yêu.
+OpenUpArkHandler.MagicstoneScore: Ma thạch.
+AccumulAtiveLoginAward.Fail:Nhận quà thất bại!
+AccumulAtiveLoginAward.Success:Quà đăng nhập {0}
+#2014/12/12
+ItemEnchant.NoHaveSoulstone: Chưa đặt Đá linh hồn vào.
+ItemEnchant.NoHaveItem:Trang sức +5 mới có thể phụ ma.
+ItemEnchant.DataError:Dữ liệu server lổi.
+ItemEnchant.AddExpSuccess:Phụ ma thành công, nhận {0} exp.
+MagicHouse.Full:Kho báu đã đầy.
+itemtransferhandler.IsMagic:Trang sức đã phụ ma không thể di chuyển.
+FarmWater.MaxLevel:Cấp độ đã đạt cấp tối đa.
+MagicHouseUpdateMessage.Success:Kích hoạt thành công.
+MagicHouseUpdateMessage.Fail:Kích hoạt thất bại.
+MagicHouseLevelUp.ItemNotFound:Thuốc ma pháp không đủ.
+MagicHouseLevelUp.LevelUpFail:Tăng cấp thất bại.
+MagicHouseLevelUp.MaxLevel:Cấp đã đạt tối đa.
+MagicHouseLevelUp.LevelUp:Thăng cấp thành công.
+MagicHouseLevelUp.AddExp:Thăng hoa thành công, nhận {0} exp.
+MagicHouseOpenDepot.Error:Thao tác thất bại.
+MagicHouseOpenDepot.OpenSuccess:Mở thành công.
+PetHandler.WakeFail:Đạo cụ không đủ, thức tỉnh thất bại.
+PetHandler.WakeSuccess: Thức tỉnh {0} thành công.
+MagicHouseOpenFreeBox.Empty:Số lần mở miễn phí hôm nay đã hết.
+MagicHouseChargeBox.Empty:Số lượt quay hôm nay đã hết.
+ChangeSexHandlerHandler.Success:Đổi giới tính thành công. Đăng nhập lại để cập nhật thông tin.
+ChangeSexHandlerHandler.Fail:Đổi giới tính thất bại.
+RingStation.signMsg:Này này, có giám đấu với ta không...
+RingStation.RankAward:Phần thưởng xếp hạng Lôi đài
+Ringstasion.BattleLost:Thua trận lôi đài nhận {0} lệnh bài.
+Ringstasion.BattleWin:Lôi đài chiến thắng nhận {0} lệnh bài.
+RingStationChallenge.Fail:Số lần khiêu chiến hôm nay đã hết.
+RingStationBuyBattleCountOrTime.ClearTime:Bỏ thời gian chờ thành công.
+RingStationBuyBattleCountOrTime.BuyChallenge:Mua thêm lượt đấu thành công.
+RingStationBuyBattleCountOrTime.Limit:Số lần mua hôm nay đã hết.
+RingStationFightFlag.CdFail:Thời gian chờ chưa hết.
+RingStationChallenge.OnFight: {0} đang chiến đấu.
+FightFootballTime.Msg:Ghép cặp thành công, quyết chiến bắt đầu.
+MagicHouseUpdateMessage.Junior:Chưa kích hoạt Học việc, thao tác thất bại.
+MagicHouseUpdateMessage.Mid:Chưa kích hoạt Tập sự, thao tác thất bại.
+AddGift.RemoveNewbie:Vượt cấp thành công, Tạo phòng thi đấu hoặc phó bản để cập nhật tính năng game.
+CreateRank.Newbie:Bé tập chơi
+LoadFromDb.ErrorItem:Vật phẩm không hổ trợ. Gửi hỗ trợ đổi vật phẩm khác.
+UpdateLabyrinth.Exp:Bạn nhận được {0} kinh nghiệm
+UpdateLabyrinth.GoldLaby:, Vàng mê cung x
+DragonBoatAward.Curr:Phần thưởng Thuyền rồng hạng {0}
+DragonBoatAward.All:Phần thưởng Thuyền rồng liên server hạng {0}
+DragonBoatHandler.MaxDayScore:Đã đạt giới hạn hôm nay.
+
+PVPGame.SendGameOVer.DisibleBonusMoneyHour:Không tặng xu chiến đấu từ {0} giờ đến {1} giờ.
+PVPGame.SendGameOVer.GoldHour: Giờ vàng nhận thêm {0} xu.
+PVPGame.SendGameOVer.SameIp:Bạn chơi quá nhiều tài khoản trên 1 máy, không thể nhận xu, điểm tích lũy.
+PVPGame.SendGameOVer.DragonBoatOpen:, Nhận được {0} tích lũy thường và tích lũy xếp hạng thuyền rồng(Tượng)
+PVPGame.SendGameOVer.Exp:Nhận thêm khinh nghiệm thưởng {0} exp
+CardUseHandler.MaxExp:Max level khinh nghiệm quy đổi thành {0} công trạng
+TreasurePuzzleEnter.LoadDataFail:Tải dữ liệu thất bại
+TreasurepuzzleUsePice.HaveNotPice:Mảnh ghép không đủ.
+TreasurepuzzleUsePice.UseSuccess:Dùng mảnh ghép thành công.
+TreasurepuzzleUsePice.FullSlot:Ô này đã đầy
+TreasurePuzzleEnter.GetAwardFail: Nhận thưởng thất bại.
+TreasurePuzzleEnter.GetAwardFail2:Phần thưởng lổi, nhận thưởng thất bại.
+TreasurePuzzleEnter.GetAwardTrue:Nhận thưởng thành công. Vui lòng, kiểm tra thư.
+TreasurePuzzleEnter.Title:Phần thưởng Ghép hình.
+TreasurePuzzleEnter.PiceNotEnought:Mảnh ghép chưa đủ.
+TreasurePuzzleEnter.GetComplete:Hình này bạn đã nhận thưởng, không thể nhận nữa
+BoguAdventureEnter.LoadDataFail:Tải dữ liệu thất bại
+BoguAdventureUpdateCell.NotHaveMineAround:Xung quanh không có bom chưa mở
+BoguAdventureUpdateCell.MineNotFound:Xung quanh không có bom
+BoguAdventureUpdateCell.GetLuckyAward:Bạn nhận được {0} x{1}
+BoguAdventureReviveGame.EndGame:Đã hoàn tất cuộc hành trình hôm nay.
+BoguAdventureReviveGame.FreeReset:Miễn phí tạo lại thành công.
+BoguAdventureReviveGame.Reset:Tạo lại thành công.
+BoguAdventureReviveGame.Revive:Hồi sinh thành công.
+BoguAdventureAcquireAward.Title:Gà con mạo hiễm gói {0}.
+BoguAdventureAcquireAward.Newbie:Tân thủ
+BoguAdventureAcquireAward.Pro:Chuyên gia
+BoguAdventureAcquireAward.Master:Đại Sư
+BoguAdventureUpdateCell.AwardError:Lổi phần thưởng mã {0}.
+BoguAdventureUpdateCell.GotAward:Chưa đủ điều kiện không thể nhận thưởng.
+BoguAdventureUpdateCell.GetAwardSuccess:Nhận thưởng thành công.
+LuckyStarTopTenAward.GetAward:Phần thưởng hạng {0} hoạt động Sao may mắn
+LightriddleTopEightAward.GetAward:Phần thưởng hạng {0} hoạt động nguyên tiêu
+DDPLayEnter.LoadDataFail:Tải dữ liệu thất bại
+DDPLayStart.NotEnoughtCoin:Xu Vui Vẻ không đủ!
+DDPLayStart.XCoin:Chúc mừng bạn được x{0} Xu từ sự kiện Tìm Hình.
+DDPLayStart.Title:Thưởng event Tìm hình
+DDPLayStart.Notice:Người chơi [{0}] trong sự kiện "Tìm hình" đã may mắn nhận được X{1} Xu!
+DDPLayExchange.NotEnoughtPoint:Điểm tích lũy không đủ.
+DDPLayExchange.Success:Đổi thành công.
+WorshipTheMoonReceiveMoonReward.Success:Nhận thưởng thành công
+WorshipTheMoonReceiveMoonReward.Fail: Tích lũy không đủ
+SendCloudBuyLotteryRandomReward.Success:Phần thưởng may mắn event "Tôm tươi"
+SendCloudBuyLotteryRandomReward.Notice:Chúc mừng! [{0}] trong sự kiện "Tôm tươi" may mắn nhận được {1}.
+CloudBuyLotteryGetAwards.Fail:Số lần tụ bảo đã hết
+CloudBuyLotteryBuyGoods.Fail:Sự kiện đã kết thúc
+CloudBuyLotteryBuyGoods.Success:Mua thành công! Nhận được {0} tụ bảo.
+GameRoomRoomSetupChange.UseKingBless:Chúc phúc vua gà giúp bạn tiếc kiệm được {0} Minh chứng dũng sĩ
+GameRoomRoomSetupChange.ConditionFail:Minh chứng dũng sĩ không đủ.
+
+PetHandler.EatPetNotEnoughtCount:Số lượng không đủ.
+UserBuyItemHandler.SummerScore:Điểm tích lũy hè không đủ.
+CatchInsectGetPrize.HightPacksNumber:Bạn chưa nhận phần thưởng trước đó.
+CatchInsectGetPrize.NotEnoughtSummerScore:Điểm tích lũy hè không đủ.
+OpenUpArkHandler.SummerScore: tích lũy hè
+CatchInsectGetPrize.Success:Nhận thưởng thành công
+Function.OpenSoon:Sẽ ra mắt trong nay mai.
+MagpieBridgeBuyCount.Success:Thao tác thành công.
+MagpieBridgeRollDice.Fail:Lực hành động không đủ.
+CatchInsect.AddScore:Bẳt bọ hung thành công, nhận được {0} điểm hè.
+CatchInsect.AddSmallScore: Bẳt được 
+
+GypsyShopPlayerInfo.LoadDataFail:Tải dữ liệu thất bại.
+GypsyShopRefresh.Success:Tạo mới thành công.
+GypsyShopRefresh.Fail:Vinh dự không đủ. Làm mới lần này cần {0} cinh dự
+GypsyShopBuy.Success:Mua thành công.
+GypsyShopBuy.Fail:Mua thất bại.
+GypsyShopBuy.OutOfDate:Đã mua vật phẩm này.
+GypsyShopBuy.OutHornor:Vinh dự không đủ.
+
+GameServer.HorseGame.NoSelectPlayer:Vui lòng chọn mục tiêu.
+GameServer.HorseGame.NoHavePlayer:Không tồn tại người chơi này
+GameServer.HorseGame.Msg.All:Tất cả
+GameServer.HorseGame.Msg.BuffName1:Chuối
+GameServer.HorseGame.Msg.BuffName2:Đinh
+GameServer.HorseGame.Msg.BuffName3:Nam Châm
+GameServer.HorseGame.Msg.BuffName5:Sao chép Tốc Độ
+GameServer.HorseGame.Msg.BuffName6:Giày tăng tốc
+GameServer.HorseGame.Msg.BuffName7:Đồng Hồ Cát
+GameServer.HorseGame.Msg.BuffName8:Lá Chắn
+GameServer.HorseGame.NoHaveTimes:Lượt tham gia đã hết. Vui lòng mua thêm.
+GameServer.HorseGame.BuyTimesSucess:Mua thêm lượt chơi thành công!
+GameServer.HorseGame.NoHorse:Vui lòng trang bị thú cưỡi.
+GameServer.HorseGame.NoHorseLevel:Thú cưỡi cấp độ 0 không thể tham gia.
+GameServer.HorseGame.CompleteNotice:Hoàn thành Đua Ngựa.
+GameServer.HorseGame.MailAwardTitle:Phần thưởng Đua Ngựa. Hạng {0}
+
+EntertainmentBuyIcon.FightBagFull:Túi đạo cụ đã đầy
+EntertainmentBuyIcon.DDTMoneyNotEnought:Xu khóa không đủ.
+GameServer.TakeEntertamainPoint.Msg:Bạn nhận được {0} điểm võ đài.
+GameServer.TakeMoneyOfEntertamainRoom.Msg:Bạn nhận được 180 Xu cho thách đấu chí tôn chiến thắng.
+PropUseHandler.ChickActivation.Success:Kích hoạt Code Gà hành thành công!
+PropUseHandler.ChickActivation.Fail:Bạn đã kích hoạt Code Gà Hành.
+ActivityPackageHandler.ChickActivation.Success:Kích hoạt Code Gà hành thành công!
+ActivityPackageHandler.ChickActivation.NotExit:Mã bạn nhập không tồn tại hoặc đã sử dụng!
+ActivityPackageHandler.ChickActivation.IsUsed:Bạn đã kích hoạt rồi!
+ActivityPackageHandler.ChickActivation.DaylyAward.Title:Quà hằng ngày Code Gà Hành
+ActivityPackageHandler.ChickActivation.DaylyAward.Msg:Nhận quà hằng ngày thành công
+ActivityPackageHandler.ChickActivation.WeekenAward.Title:Quà cuối tuần Code Gà Hành
+ActivityPackageHandler.ChickActivation.WeekenAward.Msg:Nhận quà cuối tuần thành công
+ActivityPackageHandler.ChickActivation.WeeklyAward.Title:Quà hằng tuần Code Gà Hành
+ActivityPackageHandler.ChickActivation.WeeklyAward.Msg:Nhận quà hằng tuần thành công
+ActivityPackageHandler.ChickActivation.LevelAward.Title:Quà cấp  {0} Code Gà Hành
+ActivityPackageHandler.ChickActivation.LevelAward.Msg:Nhận quà cấp {0} thành công
+ActivityPackageHandler.ChickActivation.NotFoundAward:Không có quà tặng
+ActivityPackageHandler.ChickActivation.NotActive:Chưa kích hoạt. Không thể nhận
+
+MagicHouseExtraction.Empty:Vật phẩm không tồn tại.
+MagicHouseExtraction.Success:Tụy tinh thành công!
+MagicHouseExtraction.WrongItem: Vật phẩm không phù hợp
+MagicHouseFusion.Empty:Vật phẩm không tồn tại.
+MagicHouseFusion.Success:Dung hợp thành công!
+MagicHouseFusion.WrongItem: Vật phẩm không phù hợp
+MagicHouseFusion.DataError: Dữ liệu server lỗi
+MagicHouseFusion.NotEnoughtMaterial: Nguyên liệu không đủ không thể tinh luyện
+MagicHouseFusion.NotEnoughtEssence:Tinh hoa hoặc vàng không đủ.
+ItemFusionHandler.NoEnergy:Năng lượng không đủ
+
+HomeBarInfo.LoadDataFail:Tải dữ liệu thất bại.
+HomeHostInfo.LoadDataFail:Tải dữ liệu thất bại.
+HomeBarTaste.TasteExit:Bạn hữu này đã thử rượu rồi.
+HomeBarTaste.NotEnoughtTaste:Đã hết lượt thử rượu.
+HomeBarDrink.NotEnoughtDrink:Đã hết lượt rót rượu.
+HomeBarDrink.CDTime:Thời gian chờ chưa hết
+UpGradeHouse.MaxLevel:Đã đạt cấp tối đa.
+UpGradeHouse.NotEnoughtItem:Nguyên liệu không đủ
+BuyAndActive.Success:Mua thành công.
+HotSpringRoom.RoomName:Thư giản và tán gẩu!
+HotSpringRoom.RoomIntroduction:Hãy vào thư giản và tán gẩu nào!
+HotSpringEnterConfirmHandler.RoomNotExit:Phòng này không tồn tại
+HotSpringEnterConfirmHandler.RoomFull:Phòng đã đầy
+HotSpringRoomPlayerRemoveHandler.Msg1:Bạn đã rồi phòng số {0}.
+HotSpringRoomPlayerRemoveHandler.Msg2:Chiến hữu [{0}] đã rời phòng.
+HotSpringEnterConfirmHandler.RoomFullAll:Không còn phòng trống.
+HotSpringRoomEnterDataHandler.NotEmoughtGold:Vàng không đủ.
+ClickFlowerEgg.isClicked:Đã hết lượt tặng hoa đập trứng hôm nay.
+ClickFlowerEgg.PlayerNotExit:Người chơi đã rời phòng.
+HotSpringRoom.GetExp:Bạn nhận được {0} exp
+Present.FailByPermission:Tặng quà thất bại.
+
+FishBegin.LoadDbFail:Tải thông tin thất bại.
+FishBegin.EndGame:Lượt chơi hôm nay đã hết.
+FishEnd.FishTip:Đang câu cá.
+FishEnd.LoadDbFail:Dữ liệu server lổi
+FishBroadcast.Notice: Người chơi [{0}] tại Hồ cá câu được {1}, quá dzữ!
+UserBuyItemHandler.FailByFishScore:Vui lòng đổi vật phẩm tại Hồ cá.
+UserBuyItemHandler.FishScore:Tích lũy hồ cá không đủ.
+SpeedUp.GetFail:Dữ liệu lổi, vui lòng thử lại sau.
+SpeedUp.Success:Tăng tốc thành công.
+Pick.Success:Hái trái thành công. Bạn nhận được {0}.
+SendRedPackage.Fail:Lì xì không đủ.
+SendRedPackage.Success:Lì xì cho bằng hữu thành công.
+SendRedPackage.SendGift:Nhận được lì xì từ bạn hữu!
+PropUseHandler.GiftToken:Bạn nhận được {0} xu khóa.
+Pick.TimeFail:Quả chưa chín!
+
+Center.Server.ServerClient.BattleGoundOpen:Đấu trường đã mở. Nhanh chóng tham gia nào các Gunner.
+Center.Server.ServerClient.WorldBossNoticeClose:Boss thế giới {0} đã kết thúc. Phòng sẽ đóng sau {1} phút.
+Center.Server.ServerClient.WorldBossOpen:Boss thế giới {0} đã mở, tham gia ngay!
+Center.Server.ServerClient.FightFootballTimeOpen:Quyết chiến đã mở. Nhanh chóng tham gia nào các Gunner.
+Center.Server.ServerClient.FightFootballTimeClose:Quyết chiến hôm nay kết thúc.
+Center.Server.ServerClient.LeagueOpen:Chiến thần hôm nay kết thúc.
+Center.Server.ServerClient.LeagueOpen:Chiến thần đã mở. Nhanh chóng tham gia nào các Gunner.
+Center.Server.ServerClient.BattleGoundClose:Đấu trường hôm nay kết thúc.
+ConsortiaBossAward.Title:Phần thưởng tham gia Boss Guild
+CardDataHandler.Notice:Chúc mừng người chơi [{0}] thật may mắn mở được {1} {2}
+FastAuctionBugleHandler.Fail: Đấu giá nhanh thất bại.
+FastAuctionBugleHandler.Msg1:Vật phẩm đấu giá không tồn tại.
+
+Picc.Notice:Người chơi [{0}] chịu chơi đầu tư {1} với giá {2}xu thật bá đạo.
+Picc.Msg1:Nhận {0}, thành công
+Picc.Msg2:Thêm phần thưởng thất bại!
+Picc.Msg3:Hoạt động này chưa cập nhật phần thưởng.
+Picc.Msg4:Hoạt động này chưa mở
+
+PVPGame.SendGameOVer.NoDame:Không gây sát thương không có phần thưởng.
+ChatHandler.Msg:Không chat nội dung giống nhau liên tiếp.
+texpSystem.magictexpCountToplimit:Số lần tu luyện ma pháp hôm nay đã hết.
+EquipBringUpHandler.Update.Success1:Bồi dưỡng thành công, nhận {0}exp!
+EquipBringUpHandler.Update.Success2:Bồi dưỡng thành công, {0} tiến cấp lên {1}!
+EquipBringUpHandler.Update.Fail:Bồi dưỡng thất bại.
+EquipBringUpHandler.congratulation:Chúc mừng! [{0}] Bồi dưỡng thành công {1}, năng lực vượt trội.
+PetHandler.ProtectItem.NotEnought: {0} đủ. Tối thiếu cần {1} {0}
+PetHandler.PetBreak.ErrorData:Dữ liệu server lổi, cấp đột phá {0} không khớp.
+PetHandler.BreakItemInfo.ErrorData1:Không tìm thấy nguyên liệu trong túi của bạn.
+PetHandler.BreakItemInfo.ErrorData2:Nguyên liệu không đủ.
+PetHandler.ProtectItem.ErrorData:Không tìm thấy bùa bảo vệ trong túi của bạn.
+
+#2015.12.25
+UseLoveChocolateHandler.ItemNotFound:Vật phẩm không tồn tại.
+UseLoveChocolateHandler.ItemNotEnough:Vật phẩm không đủ.
+UseLoveChocolateHandler.UseSuccess:Sử dụng {0} thành công! Nhận {1} tình ý.
+OpenUpArkHandler.RingScore:Bạn nhận được {0} tình ý
+FigSpiritUpGradeHandler.WrongPlace: Vị trí không khớp.
+UseLoveChocolateHandler.UseFail:Số lần sử dụng đạo cụ hôm nay đã hết.
+NewTitleCardHandler.ItemNotFound:Vật phẩm không tồn tại.
+NewTitleCardHandler.TitleNotFound:Danh hiệu chưa mở.
+NewTitleCardHandler.RemoveItemError:Sử lý dữ liệu lổi. Vui lòng thử lại sau.
+NewTitleCardHandler.Success:Chúc mừng, bạn đã nhận được danh hiệu {0}.
+UseLoveChocolateHandler.UnMerry:Bạn phải kết hôn để dùng chức năng này.
+AddPetEquip.WrongItem:Trang bị không phù hợp
+AddPetEquip.Success:Trang bị thành công!
+AddPetEquip.Fail:Trang bị thất bại!
+FeedPet.Success: {0} thăng cấp {1}!
+PetRisingStar.PetNotFound:Lổi hệ thống vui lòng thử lại sau.
+PetRisingStar.ItemNotFound:Nguyên liệu không phù hợp
+PetRisingStar.UnSupport:Hệ thống chưa hổ trợ pet này.
+ToyGrapple.ErroPrice:Lổi hệ thống, vui lòng liên hệ hổ trợ!
+ToyGrapple.ErroAward:Hệ thống chưa cập nhật phần thưởng, vui lòng quay lại sau!
+BuyBadgeHandler.Success:Mua huy hiệu thành công!
+BuyBadgeHandler.Fail:Mua huy hiệu thất bại!
+ConsortiaBussiness.BuyBadge.Msg2:Quyền hạn không đủ!
+ConsortiaBussiness.Riches.Msg3:Tài sản không đủ!
+BuyBadge.BadgeNotFound:Hệ thống chưa bán danh hiệu này!
+SingleRoomBegin.Survival.Close:Sự kiện bắt đầu từ 10h đến 24h hằng ngày.
+SurvivalMode.Msg:Bắt cặp thành công! Trận chiến sinh tử bắt đầu.
+RingStation.Msg:Thách đấu lôi đài thành công! Bắt đầu chiến đấu.
+CreateInstanceFail:Phó bản bạn chọn chưa cập nhật.
+SurvivalModeClose:Đấu trường 1vs5 đã đóng.
+HomeTemple.Handle.Immolation.ItemNotEnough:Nguyên liệu không đủ.
+HomeTemple.Handle.Immolation.ErrorData:Lổi dữ liệu vui lòng thử lại sau.
+HomeTemple.Handle.Immolation.MaxLevel:Miếu thần đã đạt cấp tối đa.
+EquipBringUpHandler.ItemNotFound: Không tìm thấy vật phẩm. Vui lòng thử lại sau.
+EquipBringUpHandler.DoNotSuport:Hệ thống chưa hổ trợ vật phẩm này
+GuardCore.Handle.Equip.DataError:Lổi dữ liệu. Vui lòng thử lại sau.
+GuardCore.Handle.Equip.PlayerLevelNotEngough:Cấp nhân vật chưa đủ.
+GuardCore.Handle.Equip.GuardGradeNotEnough:Cấp bảo vệ chưa đủ.
+GuardCore.Handle.Equip.Success:Trang bị bảo vệ thành công!
+GuardCore.Handle.LevelUp.GuardItemNotFound:Trong túi của bạn không có Hồn bảo vệ.
+GuardCore.Handle.LevelUp.GoldNotEnough:Vàng không đủ.
+GuardCore.Handle.LevelUp.GPNotEnough:Kinh nghiệm nhân vật không đủ.
+GuardCore.Handle.LevelUp.Success:Tăng cấp bảo vệ thành công.
+GuardCore.Handle.LevelUp.ItemNotEnough:{0} không đủ.
+Systerm.DDTMoney.NotOpen:Hệ thống xu khóa chưa mở. Vui lòng gửi hổ trợ để mở chức năng này.
+CardResetHandler.CardsoulNotEnough:Điểm thẻ bài không đủ.
+IMListLoad.Friend:Bạn bè
+IMListLoad.BadFriend:D.sách đen
+CenterServer.WorldBoss.BossName1:Cuồng long
+CenterServer.WorldBoss.BossName2:Bá tước
+CenterServer.WorldBoss.BossName3:Bá tước
+CenterServer.WorldBoss.BossName4:Đội trưởng
+AddPetEquip.WrongLevel:Cấp pet không đủ, trang bị thất bại.
+HotSpringRoom.EffectiveTimeEnd: Thời gian hiệu lực đã hết. Hãy gia hạn thêm.
+
+#2016.09.22
+Function.OpenSoon:Chức năng sắp mở. Vui lòng quay lại sau.
+UpdateHonor.Fail:Danh hiệu đã hết hạn, không thể trang bị.
+Player.Msg1a:Thời gian chờ chưa hết.
+GuardCore.Handle.LevelUp.MaxLevel:Hồn bảo vệ đã đạt cấp tối đa.
+PetHandler.PetAwaken.NoFound:Bạn chưa đặt trang bị pet vào ô.
+PetHandler.PetAwaken.NoFoundStone:Đá thức tỉnh không đủ.
+PetHandler.PetAwaken.NoFoundTemplate:Lỗi dữ liệu, vui lòng thử lại sau.
+BeadHandle.RuneAdvanceTemplate.notFound:Châu báu bạn đổi không hổ trợ.
+BeadHandle.RuneAdvanceTemplate.notFound2:Không tìm thấy nguyên liệu chính.
+BeadHandle.RuneAdvanceTemplate.notFound3:Nguyên liệu không phù hợp
+BeadHandle.RuneAdvanceTemplate.notFound4:Dữ liệu server lổi.
+BeadHandle.RuneAdvanceTemplate.Success:Tăng cấp thành công.
+
+#2016.11.1
+DDTKingGradeUp.Maxlevel:Cấp vua gà đã đạt cấp tối đa.
+DDTKingGradeUp.DataError:Lổi dữ liệu vui lòng thử lại sau.
+DDTKingGradeUp.CostNotEnought:Điểm không đủ.
+DDTKingGradeUp.NọtHaveProp:Không có thuộc tính để tái tạo lại.
+DDTKingGradeUp.Success:Tái tạo thành công!
+MailGetAttachHandler.LimitAttachMoney:Cấp {0} mới có thể nhận thư đính kèm xu.
+LargessCommand.TankHandle.Msg:Cấp {0} mới có thể tặng xu.
+AddTemplate.Notice:Bạn nhận được {0}x{1}.
+UseReworkNameHandler.HasSpecialCharacters:Nickname mới có chứa ký tự không hợp lệ.
+OpenOneTotemHandler.Maxlevel: Đã đặt cấp tối đa.
+OpenOneTotemHandler.ErrorData:Lổi dữ liệu. Không thể nâng cấp
+GoodsExchangeHandler.ItemsExchangeNotEnought:Nguyên liệu không đủ.
+StartGameAction.WaitingPveRestart:Hệ thống phó bản đang khởi động lại vui lòng chờ trong giây lát.
+BeadHandler.Notice:Người chơi {3}-[{0}] tăng cấp nhận được châu báu: {1} Lv{2}. Năng lực tăng lên một bậc.
+
+BombKing.Msg.IsCancel:Giải đấu chí tôn đã bị hủy.
+BombKing.Msg.IsStarted:Giải đấu chí tôn đã bắt đầu. Nhanh chóng tham gia nào các Gunner.
+BombKing.Msg.Step1Notice:Giải đấu chí tôn: Vòng loại: Các Gunner nhanh chóng chuẩn bị cho lượt {0}/10 sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step2Notice:Giải đấu chí tôn: Vòng tiến cấp: Các Gunner nhanh chóng chuẩn bị cho lượt {0}/10 sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step3Notice:Giải đấu chí tôn: Vòng chung kết đấu loại trực tiếp: Các Gunner nhanh chóng chuẩn bị bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step1Notice2:Giải đấu chí tôn: Vòng loại: Lượt {0}/10 đã kết thúc. Các Gunner nhanh chóng chuẩn bị cho lượt {1}/10 sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step1Completed:Giải đấu chí tôn: Vòng loại đã kết thúc, Vòng tiến cấp sẽ bắt đầu vào 20h:30 chủ nhật tuần sau.
+BombKing.msg.Step1Completed2:Giải đấu chí tôn: Vòng loại hôm nay đã kết thúc, Vòng loại sẽ bắt đầu vào 20h:30 hôm sau.
+BombKing.Msg.Step1Completed3:Giải đấu chí tôn: Vòng loại hôm nay đã kết thúc, Vòng tiến cấp bắt đầu vào 20h:30 hôm sau.
+BombKing.Msg.Step2Completed:Giải đấu chí tôn: Vòng tiến cấp: Lượt {0}/10 đã kết thúc. Các Gunner nhanh chóng chuẩn bị cho lượt {1}/10 sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step2Completed2:Giải đấu chí tôn: Vòng tiến cấp đã kết thúc, Vòng chung kết sẽ bắt đầu vào 20h:30 chủ nhật tuần sau.
+BombKing.Msg.Step2Completed3:Giải đấu chí tôn: Vòng tiến cấp đã kết thúc, Vòng chung kết sẽ bắt đầu vào 20h:30 chủ nhật.
+BombKing.Msg.Step3Completed:Giải đấu chí tôn: Vòng Chung Kết đấu loại trực tiếp: vòng loại đã kết thúc. Các Gunner nhanh chóng chuẩn bị cho vòng tứ kết sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step3Completed2:Giải đấu chí tôn: Vòng Chung Kết đấu loại trực tiếp: vòng tứ kết đã kết thúc. Các Gunner nhanh chóng chuẩn bị cho vòng bán kết sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.Step3Completed3:Giải đấu chí tôn: Vòng Chung Kết đấu loại trực tiếp: vòng bán kết đã kết thúc. Các Gunner nhanh chóng chuẩn bị cho vòng chung kết sẽ bắt đầu sau 1 phút nữa.
+BombKing.Msg.CompletedAll:Giải đấu chí tôn: Vòng chung kết đã kết thúc.
+BombKing.Msg.Battle.NotAllowJoin:Bạn không có tư cách tham gia!
+BombKing.Msg.Battle.NoStart:Giải đâu chí tôn chưa bắt đầu!
+BombKing.Msg.Mail.Title.Award.Step1:Phần thưởng hạng {0} vòng loại
+BombKing.Msg.Mail.Title.Award.Step2:Phần thưởng hạng {0} vòng tiến cấp
+BombKing.Msg.Mail.Title.Award.Step3:Phần thưởng hạng {0} vòng chung kết
+BombKing.Msg.Mail.Title.Notice:Thông báo giải đấu chí tôn
+BombKing.Msg.Mail.Content.Notice:Chúc mừng bạn lọt vào tiến cấp, vòng tiến cấp sẽ được bắt đầu vào ngày {0} lúc 20h:30.
+BombKing.Msg.Mail.Content.Notice2:Chúc mừng bạn lọt vào chung kết, vòng chung kết sẽ được bắt đầu vào ngày {0} lúc 20h:30.
+BombKing.Msg.Game.ReceivedPoint:Bạn nhận được {0} điểm tích lũy chí tôn!
+BombKing.Msg.Game.PassNextState:Chúc mừng bạn được lọt vào trong!
+BombKing.Msg.Game.LostNextState:Bạn đã bị loại!
+
+CampBattle.Msg.Limit.Logout:Bạn vừa mới thoát khỏi doanh trại. Vui lòng đợi {0} giây nữa.
+CampBattle.Msg.Camp.MailTitle:Phần thưởng phe hạng {0} Doanh Trại Chiến
+CampBattle.Msg.Camp.MailContent:Phần thưởng phe hạng {0} Doanh Trại Chiến
+CampBattle.Msg.CampPerson.MailTitle:Phần thưởng hạng {0} cá nhân Doanh Trại Chiến
+CampBattle.Msg.CampPerson.MailContent:Phần thưởng hạng {0} cá nhân Doanh Trại Chiến
+CampBattle.Msg.Monster.Respawn:Thú bảo vệ đợt {0} đã đến đấu trường. Hãy tiêu diệt nhanh nào!
+CampBattle.Msg.Monster.CanNotPassMap:Chưa tiêu diệt hết quái. Không thể qua.
+CampBattle.Msg.CaptureStatue.Success:Thần tượng đã bị người chiếm lĩnh mới {0} chiếm!
+CampBattle.Msg.CaptureStatue.Fail:Không thể chiếm giữ thần tượng vào lúc này.
+CampBattle.Msg.RoomPVEFull.Enter:Doanh chiến đã đạt tối đa, không thể tham chiến nữa!
+CampBattle.Msg.RoomError:Lỗi phòng Doanh Chiến.
+CampBattle.Msg.ScoreReceived:Nhận được {0} điểm tích lũy trong Doanh Chiến
+
+SignBuffFightPower.NoAward:Không có phần thưởng
+SignBuffFightPower.Error:Bạn đã nhận rồi.
+SignBuffFightPower.Mail.Title:Phúc lợi lực chiến mốc {0}
+
+SanXiao.NoEnouchStepRemain.Msg:Lượt đi không đủ.
+SanXiao.Shop.LimitCount.Msg:Đã mua hết số lượng cho phép.
+SanXiao.Shop.NoCrystal.Msg:Không đủ Thủy Tinh.
+MemoryGame.NoEndGame.Msg:Trò chơi chưa kết thúc.
+MemoryGame.NoTurn.Msg:Không còn lượt đi
+BeautyVote.Public.Msg.Fail:Hiện tại bạn đang tham gia rồi.
+BeautyVote.Public.Msg.Success:Tham gia thành công!
+BeautyVote.VoteForYou.Msg.Fail:Bạn không thể bỏ phiếu cho chính bạn.
+BeautyVote.NotOpen.Msg:Hệ thống đang cập nhật giải tuần. Vui lòng tham gia sau.
+BeautyVote.Vote.Msg.Fail:Không thể bỏ phiếu.
+BeautyVote.AwardTop.Title.Msg:Phần thưởng Show Thời Trang
+BeautyVote.AwardTop.Content.Msg:Thưởng TOP {0} Show Thời Trang Tháng {1} tuần thứ {2}
+BeautyVote.Award.Content.Msg:Phần thưởng tham gia Show Thời Trang Tháng {0} tuần thứ {1}
+BeautyVote.VoteEnd.Msg:Hiện tại không thể bỏ phiếu.
+
+AvatarColection.ActiveProp: Đã mở thuộc tính.
+AvatarColection.ActiveFullProp:Đã kích hoạt thuộc tính tối đa cho bộ sưu tập này.
+AvatarColection.SuccessDelay:Thao tác thành công.
+Global.DayOfWeek.Msg.Monday:Thứ hai
+Global.DayOfWeek.Msg.Tuesday:Thứ ba
+Global.DayOfWeek.Msg.Wednesday:Thứ tư
+Global.DayOfWeek.Msg.Thursday:Thứ năm
+Global.DayOfWeek.Msg.Friday:Thứ sáu
+Global.DayOfWeek.Msg.Saturday:Thứ bảy
+Global.DayOfWeek.Msg.Sunday:Chủ nhật
+GameServer.GuildBattle.MailNotice.Title:Thông báo Tranh Bá Guild
+GameServer.GuildBattle.MailNotice.Content:Tranh bá Guild hôm nay diễn ra vào {0} {1}. TOP 8 Guild có lượng người online nhiều nhất trong ngày sẽ có tư cách tham chiến: {2}
+GameServer.GuildBattle.MailAward.Title:Thưởng Tranh Bá Guild
+GameServer.GuildBattle.MailAward.Content:Guild bạn xếp hạng {0} thưởng Tranh Bá Guild
+GameServer.GuildBattle.MailAwardPerson.Title:Thưởng cá nhân Tranh Bá Guild
+GameServer.GuildBattle.MailAwardPerson.Content:Cá nhân nằm trong TOP 20 có điểm cá nhân cao nhất Guild được tặng thêm.
+GameServer.GuildBattle.Error:Lỗi hệ thống Guild Tranh Bá. Liên hệ GM để được hỗ trợ.
+GameServer.GuildBattle.EnterGame.Error:Bạn không đủ tư cách tham gia Guild Tranh Bá
+GameServer.GuildBattle.TieStatusEnding:Không có sát thương không thể nhận điểm.
+GameServer.GuildBattle.RoomStillWaiting:Người chơi đang ở trạng thái chiến đấu.
+
+LotteryTicket.MailAward.Content:Bạn nhận được {0} Xu từ sự kiện Triệu Phú bao gồm {1} Tụ Hạng 1, {2} Tụ Hạng 2, {3} Tụ Hạng 3 và {4} Tụ Hạng 4
+LotteryTicket.MailAward.Title:Xu thưởng Triệu Phú
+LotteryTicket.MailAwardItems.Title:Phần thưởng Triệu Phú
+LotteryTicket.MailAwardItems.Content:Vật phẩm thưởng trong sự kiện Triệu Phú
+LotteryTicket.LimitPoolCount:Giới hạn mỗi ngày chỉ được đặt 8 tụ.
+LotteryTicket.Event.IsClosed:Sự kiện đã đóng lại.
+LotteryTicket.Event.PoolWiner.Notice:Sự kiện Triệu Phú đã có kết quả. Hãy kiểm tra xem bạn có may mắn không nào.
+AvatarColection.SuccessDelay:Thao tác thành công.
+
+PlayerMagicStoneInventory.WrongSlot:Túi ma thạch đầy, trả ma thạch về thư.
+PlayerHorseAmuletInventory.WrongSlot: Túi bùa thú đầy, trả bùa về thư.
+OffHandEvolutionHandler.Materials.Empty:Nguyên liệu không đủ.
+
+LotteryTicket.BuyTicket.Success:Mua thành công {0} Tụ
+LotteryTicket.NotEnouchMoney:Xu không đủ để thanh toán.
+
+OffHandEvolutionHandler.ItemNotFound:Vui lòng đặt vật phẩm cần nâng cấp vào tiệm rèn.
+EquipAmuletBuyStive.NotEnoughtMoney:Xu không đủ!
+EquipAmuletBuyStive.buyStiveCount:Số lần mua trong ngày đã hết!
+EquipAmuletActivate.LoadDataFail:Dữ liệu server lỗi.
+EquipAmuletActivate.StiveFail: Bụi không đủ.
+SanXiao.Handle.GainPrise.Fail:Lỗi phần thưởng. vui lòng liên hệ G.M!
+Charge.DDTMoney.Title:Thông báo nạp thẻ
+Charge.DDTMoney.Content:Bạn vừa chuyển vào {0}Xu khóa. Xu khóa đã được chuyển vào tài khoản. Chúc bạn chơi game vui vẻ.
+Charge.Money.Title:Thông báo nạp thẻ
+Charge.Money.Content:Bạn vừa chuyển vào {0}Xu. Xu đã được chuyển vào tài khoản. Chúc bạn chơi game vui vẻ.
+EquipAmuletActivate.NotFoundAmulet:Chưa trang bị bùa hộ thân.
+EquipAmuletActivate.StiveNotEnough:Bụi không đủ.
+GodCardExchange.Success: Đổi thưởng thành công, bạn nhận được {0}x{1}.
+GodCardOperateCard.Success: Nghiền thành công, bạn nhận được {0}.
+GodCardOperateCard.Success2:Nghép thẻ thành công, bạn nhận được {0}x{1}.
+GodCardOperateCard.Fail:Thẻ không tồn tại.
+GodCardExchange.End:Số lần đổi thưởng đã hết.
+OffHandEvolutionHandler.MaxLevel: Tiến hóa đã đạt cấp tối đa.
+PlayerBeadInventory.FailJudgeLevel:Cấp châu báu và cấp lỗ không khớp
+GodCardExchange.BagFull: Túi đầy không thể đổi thưởng.
+DungeonCount.Limit.Today:Người chơi {0} hôm nay đã hết lượt đi của phó bản này. Không thể vào trận được.
+GameServer.CampBattle.Error:Lỗi hệ thống Doanh Trại Chiến. Liên hệ GM để được hỗ trợ.
+Campbattle.Msg.Capture.Fail:Chiếm giữ thất bại!
+GameServer.CampBattle.EnterGame.Error:Tạo phòng chơi thất bại!
+GameServer.CampBattle.PVEStop.Notice:Quái đã bị tiêu diệt không thể vào
+GameServer.CampBattle.PVEEnding.Notice:Trận đấu chuẩn bị kết thúc không thể vào!
+GameServer.CampBattle.PVE.EnterRoom.Error:Không thể vào trận đấu. Vui lòng liên hệ GM!
+GameServer.CampBattle.PVPFight.Error:Không thể bắt cặp với người chơi.
+HorseAmuletMove.ItemNotFound:Lỗi dữ liệu vui lòng thử lại sau.
+HorseAmuletMove.CanNotEquip:Vật phẫm này không thể trang bị.
+HorseAmuletMove.WrongEquip:Chỉ được trang bị 3 bùa cùng loại.
+HorseAmuletMove.MaxPutInEquip:Đã trang bị số lượng bùa tối đa.
+HorseAmuletSmash.Success:Bạn nhận được {0} bụi.
+HorseAmuletActivate.ErrorData:Lỗi dữ liệu.
+HorseAmuletActivate.ItemNotFound:Bạn chưa đặt bùa thú vào.
+HorseAmuletActivate.StiveNotEnought:Bụi không đủ.
+HorseAmuletActivate.IsCanWash:Bùa bạn chọn không thể tẩy luyện.
+RedPackage.Gain.Fail:Đoạt lì xì thất bại!
+RedPackage.Gain.Success:Đoạt được 1 Lì Xì!
+RedPackage.Gain.MoneyFail:Bạn không đủ {0} Xu để mở lì xì.
+RedPackage.Send.Success:Mở lì xì thành công.
+RedPackage.Send.SysNotice:[{0}] phát {1} lì xì: {2}
+RedPackage.Gain.SysNotice:[{0}] được [{1}] phát lì xì {2}Xu!
+CenterServer.CityBattle.RandomTeam.Award.Title:Quà Ghép
+CenterServer.CityBattle.RandomTeam.Award.Content:Bạn lựa chọn phe ngẫu nhiên trong Thành Phố Đại Chiến được nhận quà Dũng Giả.
+CenterServer.CityBattle.Awarday.Title:Quà Thành Chủ
+CenterServer.CityBattle.Awarday.Content:Chúc mừng bạn đã là thành chủ. Đây là phần thưởng của bạn.
+GameServer.CityBattle.Insire.Success:Cổ vũ thành công {0} lần.
+
+CenterServer.CityBattle.Exchange.Content:Vật phẩm đổi điểm thưởng Thành Phố Đại Chiến
+GameServer.CityBattle.Insire.OutTime:Chỉ có thể cổ vũ trong thời gian hoạt động từ 8:00 tới 22:00 mỗi ngày.
+GameServer.OpenAmuletBox.Success.Msg:Mở thành công. Vật phẩm chuyển vào túi Bùa Thú!
+
+GameServer.TrailElite.PassLevel.Msg:Chúc mừng bạn đã vượt qua Vòng Tiến Cấp! Kiểm tra thư để nhận thưởng.
+GameServer.TrailElite.PassLevel.Fail:Thăng cấp Tinh Anh thất bại. Điểm của bạn sẽ bị reset.
+GameServer.TrailElite.PassLevel.Success:Tiến cấp Tinh Anh thắng {0}/{1} trận. Thắng 3 trận sẽ thăng cấp!
+GameServer.TrailElite.JoinPassLevel.Msg:Thành công vào vòng tiến cấp Giải Đấu Tinh Anh
+GameServer.TrailElite.Score.Lost:Bạn bị trừ {0} điểm Giải Đấu Tinh Anh
+GameServer.TrailElite.Score.Win:Bạn nhận được {0} điểm Giải Đấu Tinh Anh
+GameServer.TrailElite.Mail.Title:Phần thưởng thăng cấp Tinh Anh
+GameServer.TrailElite.Mail.Content:Chúc mừng bạn đã thăng hạng Giải Đấu Tinh Anh, khi hết mùa giải hệ thống sẽ tự thu hồi vật phẩm.
+
+GameServer.LoginDevice.AwardTitleMail:Phần thưởng đăng nhập Launcher
+
+Game.Server.GameObjects.EventOpenOrClose:Sự kiện đã đóng vui lòng quay lại sau.
+
+MailGetAttachHandler.CheatAttack:Thao tác quá nhanh.
+
+MailGetAttachHandler.CheatDetected:Hack xu hả ku. Bỏ đi nha! 
+
+SP_Mail_Update.Title:Thư trả tiền:
+SP_Mail_Update.Content:Bạn gửi cho <{0}> {1} đã được thanh toán, số tiền là {2} xu!
+SP_Mail_Update.AnnexRemark:Đính kèm:1、{0}xu
+
+AuctionUpdateHandler.HackDetected:Bạn đấu giá quá nhiều! Vui lòng thử lại sau.
+AuctionUpdateHandler.HackSpeedDetected:Thao tác quá nhanh.
+
+QiYuan.CenterServer.AreaRankTitle:Phần thưởng xếp hạng {0} Kho Báu Vua Gà
+QiYuan.CenterServer.AllAreaRankTitle:Phần thưởng xếp hạng {0} liên server Kho Báu Vua Gà
+QiYuan.CenterServer.OffterTimesNoMoney:Xu không đủ để thực hiện
+QiYuan.CenterServer.OffterTimesAwardTitle:Phần thưởng dâng {0} lần
+GameServer.Bank.Msg1:Không tồn tại loại kỳ hạn này
+GameServer.Bank.Msg2:Xu của bạn không đủ.
+GameServer.Bank.Msg3:Không tồn tại
+GameServer.Bank.Msg4:Xu gửi không hợp lệ.
+GameServer.Bank.Msg5:Hoàn thành kỳ hạn, nhận {0} Xu và {1} Xu khóa.
+GameServer.EquipGhost.Msg1:Chưa bỏ trang bị hoặc đá tăng sao
+GameServer.EquipGhost.Msg2:Vật phẩm này không thể tăng sao
+GameServer.EquipGhost.Msg3:Vật phẩm đã đạt cấp cao nhất
+GameServer.EquipGhost.Msg4:Bùa không phù hợp
+GameServer.Mines.Msg1:Đào đếu gì nhanh thế.
+GameServer.Mines.Msg2:Không thể thêm vật phẩm
+GameServer.Mines.Msg3:Không đủ năng lượng để đào
+GameServer.Mines.Msg4:Sắp xếp túi thành công
+GameServer.Mines.Msg5:Không thể bán ra
+GameServer.Mines.Msg6:Không thể mua
+GameServer.Mines.Msg7:Thành công!
+GameServer.Team.RoomBorderBox.Open.Success:Bạn nhận được khung {0}
+GameServer.Team.RoomBordenBox.VaildDate.Msg1:Bạn có {0} khung viền đã hết hạn.
+GameServer.Team.RoomBorderBox.Open.FullBag:Túi đầy không thể mở thêm.
+
+GameServer.Team.Name.IsExits:Tên nhóm đã được đăng ký
+GameServer.Team.Tag.IsExits:Ký hiệu đã được đăng ký
+GameServer.ConsortiaDomain.EnterError:Lãnh địa Guild chưa mở hoặc bạn đã bên trong.
+GameServer.ConsortiaDomain.ActiveError:Bạn đã mở Lãnh địa Guild rồi.
+GameServer.ConsortiaDomain.ActiveSuccess:Mở lãnh địa Guild thành công!
+GameServer.ActivityPackage.PvePowerBuff.Msg1:Xu của bạn không đủ.
+GameServer.ActivityPackage.PvePowerBuff.Msg2:Không tồn tại vị trí này.
+GameServer.ActivityPackage.PvePowerBuff.Msg3:Kích hoạt thuộc tính Kế Thừa thành công!
+GameServer.VIPPackageLevel.Mail.Title:Túi quà tăng cấp VIP {0}
+GameServer.VIPPackageLevel.Mail.Content:Chúc mừng bạn đã tăng cấp VIP {0}. Đây là phần thưởng của bạn.
+GameServer.VIPPackageWeek.Mail.Title:Túi quà tuần VIP {0}
+GameServer.VIPPackageWeek.Mail.Content:Bạn nhận được túi quà tuần VIP {0}
+GameServer.VIPRePackageLevel.Mail.Title:Túi quà tăng cấp VIP
+GameServer.VIPRePackageLevel.Mail.Content:Chúc mừng bạn đã đạt cấp VIP {0}, đây là phần thưởng trả lại khi cập nhật bản mới.
+
+GameServer.Mark.NoEnouchFree.Msg:Bạn chưa đủ thời gian hoặc hết lượt mở miễn phí mỗi ngày
+GameServer.Mark.NoEnouchMoney.Msg:Xu của bạn không đủ
+GameServer.Mark.EquipNotFound.Msg:Khắc Ấn không tồn tại
+GameServer.Mark.EquipUnknown.Msg:Lỗi không xác định
+GameServer.Mark.EquipFail.Msg:Trang bị thất bại.
+GameServer.Mark.UnEquipFail.Msg:Gỡ trang bị thất bại.
+GameServer.Mark.TemperMaxLevel.Msg:Luyện đã đạt cấp cao nhất
+GameServer.Mark.NotEnouchSoulCrystal.Msg:Tinh thể không đủ.
+GameServer.Mark.NotEnouchRefineResource.Msg:Tinh thể hoặc nguyên liệu không đủ.
+GameServer.Mark.NotFoundRefineCopy.Msg:Không tìm thấy dữ liệu.
+texpSystem.SecondTexpCountToplimit:Số lần tu luyện thuộc tính cấp 2 hôm nay đã hết.
+TotemUpgradeSystem.MaxLevel:Cấp tối đa không thể nâng.
+TotemUpgradeSystem.MateryNotEnouch:Cấp tối đa không thể nâng.
+TotemUpgradeSystem.Success:Đã tăng cấp

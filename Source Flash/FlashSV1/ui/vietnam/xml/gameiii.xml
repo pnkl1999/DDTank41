@@ -1,0 +1,36 @@
+<style name="gameiii" version="2.0.1" source="ui/vietnam/swf/gameiii.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="game.view.damageView.generalTxt.tf" args="Arial,12,0xffffff,true"/>
+		<set type="flash.filters.GlowFilter" stylename="game.view.damageView.generalTxt.gf" args="0x000000,1,2,2,30"/>
+		<set type="flash.text.TextFormat" stylename="game.view.damageView.titleTxt.tf" args="Arial,12,0x24f2ff,true" letterSpacing="-1"/>
+		<set type="flash.filters.GlowFilter" stylename="game.view.damageView.titleTxt.gf" args="0x000000,1,2,2,30"/>
+		<set type="flash.text.TextFormat" stylename="game.view.damageView.listTxt.tf" args="Arial,12,0xfff32a,true"/>
+		<set type="flash.text.TextFormat" stylename="game.view.damageView.firstTxt.tf" args="Arial,12,0xff0000,true"/>
+		<set type="flash.filters.GlowFilter" stylename="game.view.damageView.listTxt.gf" args="0x360606,1,2,2,30"/>
+		<set type="flash.filters.GlowFilter" stylename="game.view.damageView.firstTxt.gf" args="0x000000,1,2,2,30"/>
+	</sets>
+	<customs>
+				
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.userNamePos3" x="12" y="104"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.damageViewPos" x="776" y="251"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.damageView.SpritePos" x="0" y="25"/>
+		<custom classname="flash.geom.Point" stylename="game.view.activityDungeon.lightningPos" x="153" y="565"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.damageNumPos1" x="107" y="68"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.userNamePos0" x="12" y="50"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.damageNumPos0" x="107" y="50"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.damageNumPos2" x="107" y="86"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.userNamePos1" x="12" y="68"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.damageNumPos3" x="107" y="104"/>
+		<custom classname="flash.geom.Point" stylename="game.view.damageView.userNamePos2" x="12" y="86"/>
+	</customs>
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.damageView.titleTxt" textFormatStyle="game.view.damageView.titleTxt.tf" filterString="game.view.damageView.titleTxt.gf" x="5" y="7"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.damageView.listTxt" textFormatStyle="game.view.damageView.listTxt.tf" filterString="game.view.damageView.listTxt.gf" x="9" y="31"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.damageView.userInfo" textFormatStyle="game.view.damageView.generalTxt.tf" filterString="game.view.damageView.generalTxt.gf" autoSize="none" width="72" height="25" type="dynamic"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="game.view.damageView.viewDamageBtn" backStyle="asset.game.viewDamage" x="94" y="0"/>
+		
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.game.damageView.bg" x="0" y="0"/>
+	</bitmaps>
+</style>

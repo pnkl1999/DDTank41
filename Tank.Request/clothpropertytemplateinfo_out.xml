@@ -1,0 +1,21 @@
+<Result value="true" message="Success!">
+  <Item ID="1" Sex="1" Name="Bộ sưu tập nam 1" Attack="50" Defend="5" Agility="5" Luck="5" Blood="380" Damage="0" Guard="0" Cost="1300" />
+  <Item ID="2" Sex="2" Name="Bộ sưu tập nữ 1" Attack="5" Defend="50" Agility="5" Luck="5" Blood="450" Damage="0" Guard="0" Cost="1300" />
+  <Item ID="3" Sex="1" Name="Bộ sưu tập nam 2" Attack="5" Defend="5" Agility="80" Luck="5" Blood="330" Damage="0" Guard="0" Cost="1900" />
+  <Item ID="4" Sex="2" Name="Bộ sưu tập nữ 2" Attack="5" Defend="5" Agility="5" Luck="65" Blood="350" Damage="0" Guard="0" Cost="1600" />
+  <Item ID="5" Sex="1" Name="Bộ sưu tập nam 3" Attack="75" Defend="5" Agility="5" Luck="5" Blood="440" Damage="0" Guard="0" Cost="1800" />
+  <Item ID="6" Sex="2" Name="Bộ sưu tập nữ 3" Attack="5" Defend="75" Agility="5" Luck="5" Blood="550" Damage="0" Guard="0" Cost="1800" />
+  <Item ID="7" Sex="1" Name="Bộ sưu tập nam 4" Attack="5" Defend="5" Agility="110" Luck="5" Blood="400" Damage="0" Guard="0" Cost="2500" />
+  <Item ID="8" Sex="2" Name="Bộ sưu tập nữ 4" Attack="5" Defend="5" Agility="5" Luck="85" Blood="420" Damage="0" Guard="0" Cost="2000" />
+  <Item ID="9" Sex="1" Name="Bộ sưu tập nam 5" Attack="45" Defend="35" Agility="5" Luck="5" Blood="500" Damage="0" Guard="0" Cost="1800" />
+  <Item ID="10" Sex="2" Name="Bộ sưu tập nữ 5" Attack="5" Defend="50" Agility="40" Luck="0" Blood="600" Damage="0" Guard="0" Cost="1900" />
+  <Item ID="11" Sex="1" Name="Bộ sưu tập nam 6" Attack="5" Defend="5" Agility="60" Luck="45" Blood="550" Damage="0" Guard="0" Cost="2300" />
+  <Item ID="12" Sex="2" Name="Bộ sưu tập nữ 6" Attack="65" Defend="5" Agility="70" Luck="5" Blood="660" Damage="0" Guard="0" Cost="2900" />
+  <Item ID="13" Sex="2" Name="Bộ sưu tập nữ 7" Attack="5" Defend="80" Agility="5" Luck="55" Blood="700" Damage="0" Guard="0" Cost="2900" />
+  <Item ID="14" Sex="2" Name="Bộ sưu tập nữ 8" Attack="85" Defend="5" Agility="5" Luck="75" Blood="720" Damage="0" Guard="0" Cost="3400" />
+  <Item ID="15" Sex="1" Name="Bộ sưu tập nam 7" Attack="55" Defend="55" Agility="55" Luck="55" Blood="980" Damage="0" Guard="0" Cost="4400" />
+  <Item ID="16" Sex="1" Name="Bộ sưu tập nam 8" Attack="20" Defend="20" Agility="20" Luck="0" Blood="340" Damage="0" Guard="0" Cost="1200" />
+  <Item ID="17" Sex="2" Name="Bộ sưu tập nữ 9" Attack="22" Defend="0" Agility="22" Luck="22" Blood="345" Damage="0" Guard="0" Cost="1320" />
+  <Item ID="18" Sex="1" Name="Bộ Thần Ánh Sáng" Attack="5" Defend="5" Agility="5" Luck="65" Blood="980" Damage="5" Guard="0" Cost="4100" />
+  <Item ID="19" Sex="1" Name="Bộ Thần Hắc Ám" Attack="5" Defend="50" Agility="5" Luck="5" Blood="980" Damage="0" Guard="5" Cost="3500" />
+</Result>

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Playgame</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="css3, login, form, custom, input, submit, button, html5, placeholder" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+        <script src="script/modernizr.custom.63321.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/thickbox.css">
+        
+        <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+		html, body	{ height:100%; }
+			body {
+				 margin: 0px auto;
+            padding: 0px;
+            background-image:url(images/bg_all.jpg);
+			background-repeat: no-repeat;
+			background-position: center center;
+			}
+			#errorSummary {
+				text-align: center;
+				font-size: 18px;
+				color:green;
+				padding-top: 300px;
+						}
+		</style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var url = $(location).attr('search');
+                url = url.substring(1);
+                xmlhttpPost(url);
+            });
+
+            function xmlhttpPost(strURL) {
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'LoginGame.aspx',
+                    success: function (data_revert) {
+                        if (data_revert != "0") {
+                            //location.replace(data_revert);
+                            var centerIframe = document.createElement("iframe");
+                            centerIframe.setAttribute("frameBorder", "0");
+                            centerIframe.setAttribute("border", "0");
+                            centerIframe.setAttribute("marginwidth", "0");
+                            centerIframe.setAttribute("marginheight", "0");
+                            centerIframe.setAttribute("scrolling", "no");
+                            centerIframe.setAttribute("allowTransparency", "true");
+                            centerIframe.style.width = "100%";
+                            centerIframe.style.height = "100%";
+                            centerIframe.src = data_revert;
+                            document.getElementById("errorSummary").style.display = "none";
+                            document.body.appendChild(centerIframe);
+                        }
+                        else
+                            location.replace("index.htm?open=self");
+
+                    }
+                });
+
+            }
+
+    </script>
+    </head>
+    <body scroll="no">
+<script>
+    window.onbeforeunload = function () {
+        return 'Bạn có chắc là muốn thoát không?';
+    };
+</script>  
+	<div id="errorSummary" >
+      Đang tải game, vui lòng chờ trong giây lát!
+	  <br/><br/>
+	  <img alt=""  src="images/loading.gif" />
+     </div>    
+    </body>
+</html>

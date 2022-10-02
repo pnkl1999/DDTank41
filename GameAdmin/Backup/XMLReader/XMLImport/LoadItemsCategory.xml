@@ -1,0 +1,27 @@
+<Result value="true" message="Success!">
+  <Item ID="1" Name="Nón" Place="1" Remark="NULL" />
+  <Item ID="2" Name="Kính" Place="2" Remark="NULL" />
+  <Item ID="3" Name="Tóc" Place="3" Remark="NULL" />
+  <Item ID="4" Name="Mặt" Place="4" Remark="NULL" />
+  <Item ID="5" Name="Áo" Place="5" Remark="NULL" />
+  <Item ID="6" Name="Mắt" Place="6" Remark="NULL" />
+  <Item ID="7" Name="Vũ khí" Place="7" Remark="NULL" />
+  <Item ID="8" Name="Vòng tay" Place="8" Remark="NULL" />
+  <Item ID="9" Name="Nhẫn" Place="9" Remark="NULL" />
+  <Item ID="10" Name="Đạo cụ chiến đấu" Place="0" Remark="NULL" />
+  <Item ID="11" Name="Đạo cụ hỗ trợ" Place="0" Remark="NULL" />
+  <Item ID="12" Name="Vật phẩm nhiệm vụ" Place="0" Remark="NULL" />
+  <Item ID="13" Name="Set quần áo" Place="11" Remark="NULL" />
+  <Item ID="14" Name="Dây chuyền" Place="12" Remark="NULL" />
+  <Item ID="15" Name="Set" Place="13" Remark="NULL" />
+  <Item ID="16" Name="Bong bóng" Place="14" Remark="NULL" />
+  <Item ID="17" Name="Vũ khí phụ" Place="15" Remark="NULL" />
+  <Item ID="18" Name="Hộp thẻ" Place="0" Remark="NULL" />
+  <Item ID="19" Name="Hỗ trợ" Place="16" Remark="NULL" />
+  <Item ID="20" Name="nước tu luyện" Place="0" Remark="NULL" />
+  <Item ID="23" Name="Sách nhiệm vụ tu luyện" Place="0" Remark="NULL" />
+  <Item ID="25" Name="Quà tặng" Place="0" Remark="NULL" />
+  <Item ID="27" Name="Vũ khí đặc biệt" Place="27" Remark="NULL" />
+  <Item ID="30" Name="Đạo cụ đặc biệt" Place="0" Remark="NULL" />
+  <Item ID="31" Name="Vũ khí phụ đặc biệt" Place="0" Remark="NULL" />
+</Result>

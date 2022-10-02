@@ -1,0 +1,15 @@
+<style name="LevelIcon" version="1.0.1" source="ui/spain/swf/LevelIcon.swf">
+<sets>
+</sets>
+<customDisplay>
+	<custom classname="asset.LevelIcon.LevelEffect_1" x="5" y="25" stylename="asset.LevelIcon.LevelEffect_1"/>
+	<custom classname="asset.LevelIcon.LevelEffect_2" x="-2" y="20" stylename="asset.LevelIcon.LevelEffect_2"/>
+	<custom classname="asset.LevelIcon.LevelEffect_3" x="-7" y="-2" stylename="asset.LevelIcon.LevelEffect_3"/>
+	<custom classname="asset.LevelIcon.LevelEffect_4" x="0" y="0" stylename="asset.LevelIcon.LevelEffect_4"/>
+	<custom classname="asset.LevelIcon.LevelEffect_5" x="0" y="0" stylename="asset.LevelIcon.LevelEffect_5"/>
+</customDisplay>
+<components>
+</components>
+<bitmaps>
+</bitmaps>
+</style>

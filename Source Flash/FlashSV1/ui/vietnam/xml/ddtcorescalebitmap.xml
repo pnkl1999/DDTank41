@@ -1,0 +1,92 @@
+﻿<style name="ddtcorescalebitmap" version="1.0.1" source="ui/spain/swf/ddtcorescalebitmap.swf">
+	<sets>
+		
+	</sets>
+	<customDisplay>
+
+	</customDisplay>
+		
+	<components>
+		<!-- 纹理 -->
+		<component classname="com.pickgliss.ui.image.TiledImage" stylename="core.Scale9CornerImage.weilifur" resourceLink="asset.vein.fur"/>
+		<component classname="com.pickgliss.ui.image.TiledImage" stylename="core.Scale9CornerImage.weilirock" resourceLink="asset.vein.rock"/>
+		<component classname="com.pickgliss.ui.image.TiledImage" stylename="core.Scale9CornerImage.weilipaper" resourceLink="asset.vein.paper"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.ScaleBitmapImage1" resourceLink="asset.core.ScaleBitmapImage1" scaleGridString="25,25,145,77"/>
+		
+		<!-- tipBg -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.tips.bg" resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.goldlinebg2" resourceLink="asset.core.goldlinebg2" scaleGridString="10,10,60,60"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.goldlinebg" resourceLink="asset.core.goldlinebg" scaleGridString="10,10,70,38"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.ScaleBitmapImage2" resourceLink="asset.core.ScaleBitmapImage2" scaleGridString="70,35,95,70"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.pageSelector.numBG" x="71"  width="64" height="24" resourceLink="asset.core.NewScale9CornerImage6.1,asset.core.NewScale9CornerImage6.2,asset.core.NewScale9CornerImage6.3,asset.core.NewScale9CornerImage6.4,asset.core.NewScale9CornerImage6.5,asset.core.NewScale9CornerImage6.6,asset.core.NewScale9CornerImage6.7,asset.core.NewScale9CornerImage6.8,asset.core.NewScale9CornerImage6.9"/>
+		<!-- 9宫格图 -->
+		<!-- 尖角金边 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage19" resourceLink="asset.core.ddtScale9CornerImage17.1,asset.core.ddtScale9CornerImage17.2,asset.core.ddtScale9CornerImage17.3,asset.core.ddtScale9CornerImage17.4,asset.core.ddtScale9CornerImage17.5,asset.core.ddtScale9CornerImage17.6,asset.core.ddtScale9CornerImage17.7,asset.core.ddtScale9CornerImage17.8,asset.core.ddtScale9CornerImage17.9"/><!-- 物品底 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerImage14" resourceLink="asset.core.NewScale9CornerImage14.1,asset.core.NewScale9CornerImage14.2,asset.core.NewScale9CornerImage14.3,asset.core.NewScale9CornerImage14.4,asset.core.NewScale9CornerImage14.5,asset.core.NewScale9CornerImage14.6,asset.core.NewScale9CornerImage14.7,asset.core.NewScale9CornerImage14.8,asset.core.NewScale9CornerImage14.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.Scale9CornerImage5" resourceLink="asset.core.NewScale9CornerImage5.1,asset.core.NewScale9CornerImage5.2,asset.core.NewScale9CornerImage5.3,asset.core.NewScale9CornerImage5.4,asset.core.NewScale9CornerImage5.5,asset.core.NewScale9CornerImage5.6,asset.core.NewScale9CornerImage5.7,asset.core.NewScale9CornerImage5.8,asset.core.NewScale9CornerImage5.9"></component>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.Scale9CornerImage7" resourceLink="asset.core.NewScale9CornerImage7.1,asset.core.NewScale9CornerImage7.2,asset.core.NewScale9CornerImage7.3,asset.core.NewScale9CornerImage7.4,asset.core.NewScale9CornerImage7.5,asset.core.NewScale9CornerImage7.6,asset.core.NewScale9CornerImage7.7,asset.core.NewScale9CornerImage7.8,asset.core.NewScale9CornerImage7.9"></component>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerSparkBG" resourceLink="asset.core.NewScale9CornerImage8.1,asset.core.NewScale9CornerImage8.2,asset.core.NewScale9CornerImage8.3,asset.core.NewScale9CornerImage8.4,asset.core.NewScale9CornerImage8.5,asset.core.NewScale9CornerImage8.6,asset.core.NewScale9CornerImage8.7,asset.core.NewScale9CornerImage8.8,asset.core.NewScale9CornerImage8.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerBuildingManagerBG1" resourceLink="asset.core.NewScale9CornerImage9.1,asset.core.NewScale9CornerImage9.2,asset.core.NewScale9CornerImage9.3,asset.core.NewScale9CornerImage9.4,asset.core.NewScale9CornerImage9.5,asset.core.NewScale9CornerImage9.6,asset.core.NewScale9CornerImage9.7,asset.core.NewScale9CornerImage9.8,asset.core.NewScale9CornerImage9.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.scale9CornerBuildingManagerBG2" resourceLink="asset.core.NewScale9CornerImage10.1,asset.core.NewScale9CornerImage10.2,asset.core.NewScale9CornerImage10.3,asset.core.NewScale9CornerImage10.4,asset.core.NewScale9CornerImage10.5,asset.core.NewScale9CornerImage10.6,asset.core.NewScale9CornerImage10.7,asset.core.NewScale9CornerImage10.8,asset.core.NewScale9CornerImage10.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.SimpleTableBackgound1" resourceLink="asset.core.NewScale9CornerImage4.1,asset.core.NewScale9CornerImage4.2,asset.core.NewScale9CornerImage4.3,asset.core.NewScale9CornerImage4.4,asset.core.NewScale9CornerImage4.5,asset.core.NewScale9CornerImage4.6,asset.core.NewScale9CornerImage4.7,asset.core.NewScale9CornerImage4.8,asset.core.NewScale9CornerImage4.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.SimpleTableBackgound2" resourceLink="asset.core.NewScale9CornerImage3.1,asset.core.NewScale9CornerImage3.2,asset.core.NewScale9CornerImage3.3,asset.core.NewScale9CornerImage3.4,asset.core.NewScale9CornerImage3.5,asset.core.NewScale9CornerImage3.6,asset.core.NewScale9CornerImage3.7,asset.core.NewScale9CornerImage3.8,asset.core.NewScale9CornerImage3.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.core.ddtScale9CornerImage11" resourceLink="asset.core.ddtScale9CornerImage11.1,asset.core.ddtScale9CornerImage11.2,asset.core.ddtScale9CornerImage11.3,asset.core.ddtScale9CornerImage11.4,asset.core.ddtScale9CornerImage11.5,asset.core.ddtScale9CornerImage11.6,asset.core.ddtScale9CornerImage11.7,asset.core.ddtScale9CornerImage11.8,asset.core.ddtScale9CornerImage11.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.core.ddtScale9CornerImage12" resourceLink="asset.core.ddtScale9CornerImage12.1,asset.core.ddtScale9CornerImage12.2,asset.core.ddtScale9CornerImage12.3,asset.core.ddtScale9CornerImage12.4,asset.core.ddtScale9CornerImage12.5,asset.core.ddtScale9CornerImage12.6,asset.core.ddtScale9CornerImage12.7,asset.core.ddtScale9CornerImage12.8,asset.core.ddtScale9CornerImage12.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.Scale9CornerImage13" resourceLink="asset.core.NewScale9CornerImage13.1,asset.core.NewScale9CornerImage13.2,asset.core.NewScale9CornerImage13.3,asset.core.NewScale9CornerImage13.4,asset.core.NewScale9CornerImage13.5,asset.core.NewScale9CornerImage13.6,asset.core.NewScale9CornerImage13.7,asset.core.NewScale9CornerImage13.8,asset.core.NewScale9CornerImage13.9"/>
+			<!-- 红底金边 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.redBgGoldLine" resourceLink="asset.core.redBgGoldLine15.1,asset.core.redBgGoldLine15.2,asset.core.redBgGoldLine15.3,asset.core.redBgGoldLine15.4,asset.core.redBgGoldLine15.5,asset.core.redBgGoldLine15.6,asset.core.redBgGoldLine15.7,asset.core.redBgGoldLine15.8,asset.core.redBgGoldLine15.9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.Scale9CornerImage18" resourceLink="asset.core.NewScale9CornerImage18.1,asset.core.NewScale9CornerImage18.2,asset.core.NewScale9CornerImage18.3,asset.core.NewScale9CornerImage18.4,asset.core.NewScale9CornerImage18.5,asset.core.NewScale9CornerImage18.6,asset.core.NewScale9CornerImage18.7,asset.core.NewScale9CornerImage18.8,asset.core.NewScale9CornerImage18.9" />
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.leftrightImage.image5" resourceLink="asset.core.ScaleLeftRightImage5.1,asset.core.ScaleLeftRightImage5.2,asset.core.ScaleLeftRightImage5.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.leftrightImage.image6" resourceLink="asset.core.ScaleLeftRightImage6.1,asset.core.ScaleLeftRightImage6.2,asset.core.ScaleLeftRightImage6.3"/>
+			<!-- 通用描边半透明 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.Scale9CornerImage.Scale9CornerImage20" resourceLink="asset.core.NewScale9CornerImage20.1,asset.core.NewScale9CornerImage20.2,asset.core.NewScale9CornerImage20.3,asset.core.NewScale9CornerImage20.4,asset.core.NewScale9CornerImage20.5,asset.core.NewScale9CornerImage20.6,asset.core.NewScale9CornerImage20.7,asset.core.NewScale9CornerImage20.8,asset.core.NewScale9CornerImage20.9" />
+		<!--9宫格和纹理的合成图 -->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset1" resourceLink="core.Scale9CornerImage.SimpleTableBackgound1,core.Scale9CornerImage.weilifur" imageRectString=",4|4|4|4|0"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset2" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|7|5|7|0"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset3" resourceLink="core.Scale9CornerImage.BGAsset1,core.Scale9CornerImage.BGAsset2" imageRectString=",6|6|6|6|0"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset4" resourceLink="core.Scale9CornerImage.scale9CornerBuildingManagerBG2,core.Scale9CornerImage.weilifur" width="396" height="84" imageRectString=",2|2|2|2|0" />
+		<!-- 5，6浅色皮质纹理 -->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset5" resourceLink="asset.core.ddtScale9CornerImage12,core.Scale9CornerImage.weilifur" imageRectString=",2|2|2|2|0" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset6" resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur" imageRectString=",5|7|5|7|0" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.littleFur" resourceLink="core.Scale9CornerImage.BGAsset5,core.Scale9CornerImage.BGAsset6" imageRectString=",2|0|2|2|0"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.littleFur1" resourceLink="core.Scale9CornerImage.BGAsset5,core.Scale9CornerImage.BGAsset6" imageRectString=",2|2|2|2|0"/>
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset7" resourceLink="asset.core.ddtScale9CornerImage11,core.Scale9CornerImage.weilifur" imageRectString=",5|5|5|5|0" />
+		
+		<!-- 8,9深色皮质背景 -->
+		<!--<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset8" resourceLink="core.Scale9CornerImage.scale9CornerBuildingManagerBG1,core.Scale9CornerImage.weilifur" imageRectString=",2|2|2|2|0" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.BGAsset9" resourceLink="core.Scale9CornerImage.scale9CornerBuildingManagerBG2,core.Scale9CornerImage.weilifur" imageRectString=",6|6|6|6|0" />-->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.deepFur" resourceLink="core.Scale9CornerImage.BGAsset8,core.Scale9CornerImage.BGAsset9" imageRectString=",3|3|3|5|0" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="core.Scale9CornerImage.deepFurI" resourceLink="core.Scale9CornerImage.BGAsset8,core.Scale9CornerImage.BGAsset9" imageRectString=",3|82|3|46|0" />
+		
+		<!-- 表格行底 -->
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.ScaleleftrightImage.lineBg1" resourceLink="asset.core.ScaleLeftRightImage1.1,asset.core.ScaleLeftRightImage1.2,asset.core.ScaleLeftRightImage1.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.ScaleleftrightImage.lineBg3" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.ScaleleftrightImage.lineBg2" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3"/>
+		
+		<!-- 打折底框 -->
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.ScaleleftrightImage.discount" resourceLink="asset.core.ScaleLeftRightImage.discount.1,asset.core.ScaleLeftRightImage.discount.2,asset.core.ScaleLeftRightImage.discount.3"/>
+		
+		<!-- 显示底 -->
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.ScaleleftrightImage.lineBg4" resourceLink="asset.core.ScaleLeftRightImage7.1,asset.core.ScaleLeftRightImage7.3,asset.core.ScaleLeftRightImage7.2"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="core.ScaleleftrightImage.RedButton" resourceLink="asset.core.ScaleLeftButton1.1,asset.core.ScaleLeftButton1.2,asset.core.ScaleLeftButton1.3"/>
+		
+		<!-- 绿色条子 -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core.greenLevelPic" resourceLink="asset.core.greenPic" scaleGridString="8,10,33,16"/>
+		
+		<!-- 半透明条 -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="core。translucence.ScaleBitmapImage" resourceLink="asset.core.ScaleBitmapImage3" scaleGridString="10,10,96,26" />
+		
+		<!-- 红色大按钮 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.BigRedButton" resourceLink="asset.core.BigRedButton1,asset.core.BigRedButton2,asset.core.BigRedButton3,asset.core.BigRedButton4,asset.core.BigRedButton5,asset.core.BigRedButton6,asset.core.BigRedButton7,asset.core.BigRedButton8,asset.core.BigRedButton9"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.ddttexpSystem.bg" resourceLink="asset.ddttexpsystem.bg1,asset.ddttexpsystem.bg2,asset.ddttexpsystem.bg3,asset.ddttexpsystem.bg4,asset.ddttexpsystem.bg5,asset.ddttexpsystem.bg6,asset.ddttexpsystem.bg7,asset.ddttexpsystem.bg8,asset.ddttexpsystem.bg9" width="413" height="290" x="8" y="9"/>		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="core.BigInputBg" resourceLink="asset.core.BigInputImage1,asset.core.BigInputImage2,asset.core.BigInputImage3,asset.core.BigInputImage4,asset.core.BigInputImage5,asset.core.BigInputImage6,asset.core.BigInputImage7,asset.core.BigInputImage8,asset.core.BigInputImage9"/>
+	</components>
+	
+
+	<bitmaps>
+		
+	</bitmaps>
+</style>

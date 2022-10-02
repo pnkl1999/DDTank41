@@ -1,0 +1,973 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<style name="farm" version="1.0.1" source="ui/spain/swf/farm.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="totem.leftView.farm.tf" args="Arial,14,0xfdf9ed,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.leftView.farm.gf" args="0x692706,1,4,4,30"/>
+		<set stylename="farm.seedSelect.cropNumTF" args="Arial,12,0,bold,,,,,right" type="flash.text.TextFormat"></set>
+		<set stylename="farm.seedSelect.cropNumGF" args="0xffffff,1,2,2,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="petsBag.refresh.TF" args="Arial,11,0xd6e9b6,,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="petsBag.refresh.GF" args="0x0d5954,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<set stylename="farm.refreshTimer.TF" args="Arial,12,0xffedca,,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.refreshTimer.GF" args="0x372000,1,2,2,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="farm.shopCurrent.TF" args="Arial,14,0xfff8d6,,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.shopCurrent.GF" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter" />
+
+		<set stylename="farm.shopPayAlertTips.TF" args="Arial,14,0xfdf9ed,true,,,,,left" type="flash.text.TextFormat" />		
+		<set stylename="farm.shopPayAlertTips.GF" args="0x692706,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.shopPayAlertTips.TF2" args="Arial,14,0xe20000,true,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.shopPayAlertTips.GF2" args="0xfffdf8,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="asset.farm.helperShowTxt.TF2" args="Arial,14,0xf3eee4,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.farm.helperShowTxt.GF2" args="0x3b2100,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="Farm.FarmBuyExpFrame.buyExpExpNumTextTF.TF" args="Arial,16,0x000000,true,,,,,center"
+			type="flash.text.TextFormat" />
+		<set stylename="Farm.FarmBuyExpFrame.buyExpExpNumTextTF.GF" args="0x742b00,1,2,2,10"
+			type="flash.filters.GlowFilter" />
+		
+		<set stylename="asset.farm.helperShowTime.TF" args="Arial,14,0xffb400,true,,,,,center" type="flash.text.TextFormat" /> 
+  		<set stylename="asset.farm.helperShowTime.GF" args="0xf3b2100,1,2,2,10" type="flash.filters.GlowFilter" /> 
+		
+		<set stylename="farm.shopPayAlertTips.TF" args="Arial,14,0xfdf9ed,true,,,,,left" type="flash.text.TextFormat" />		
+		<set stylename="farm.shopPayAlertTips.GF" args="0x692706,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.refreshPetAlertTips.TF" args="Arial,12,0xfdf9ed,true,,,,,left" type="flash.text.TextFormat" leading="2" />		
+		<set stylename="farm.refreshPetAlertTips.GF" args="0x692706,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<set stylename="farm.refreshPetAlertTips.TF2" args="Arial,12,0xe20000,true,,,,,left" type="flash.text.TextFormat" />		
+		<set stylename="farm.refreshPetAlertTips.GF2" args="0xfffdf8,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farmSimpleAlert.titleStyle.TF" args="Arial,12,0xfff1bf,true,,,,,left" type="flash.text.TextFormat" />		
+		<set stylename="farmSimpleAlert.titleStyle.GF" args="0x571900,1,4,4,30,1" type="flash.filters.GlowFilter" /> 
+		<set stylename="farmSimpleAlert.textStyle.TF" args="Arial,14,0xfdf9ed,true,,,,,left" type="flash.text.TextFormat" />		
+		<set stylename="farmSimpleAlert.textStyle.GF" args="0x692706,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="Farm.FarmMainView.MoneyText.TF" args="Arial,12,0xff0103,true,,,,,center" letterSpacing="2"
+			type="flash.text.TextFormat" />
+		<set stylename="Farm.FarmMainView.buyExpExplainText.TF" args="Arial,12,0x744802,true,,,,,left" letterSpacing="0" leading="7" kerning="true"
+			type="flash.text.TextFormat" />
+		<set stylename="Farm.FarmMainView.buyExpExplainText.GF" args="0xfcf0dc,1,2,2,30,1"
+			type="flash.filters.GlowFilter" />
+		
+		<set stylename="Farm.FarmMainView.buyExpNumText.TF" args="Arial,12,0x000000,true,,,,,center"
+			type="flash.text.TextFormat" />
+		<set stylename="Farm.FarmMainView.buyExpNumText.GF" args="0xffffff,1,2,2,30,1"
+			type="flash.filters.GlowFilter" />
+						
+		<set stylename="farm.shopPayNum.TF" args="Arial,16,0xfff6c9,true,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.shopPayNum.GF" args="0x62320f,1,4,4,30,1" type="flash.filters.GlowFilter" />		
+		<set stylename="farm.composeNum.GF" args="0x62320f,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<set stylename="farm.composeNum.TF" args="Arial,16,0xfff6c9,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="farmHouse.composeSelect.TF" args="Arial,14,0xfff3d7" type="flash.text.TextFormat" />
+		<set args="0x542200,1,2,2,10,1" stylename="farmHouse.composeSelect.GF" type="flash.filters.GlowFilter"/>	
+		
+		<set stylename="farm.farmShopPayPnlTitle.TF" args="Arial,11,0xfff1bf,true,,,,,center" type="flash.text.TextFormat" />	
+		<set stylename="farm.farmShopPayPnlTitle2.TF" args="Arial,10,0xfff1bf,true,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.farmShopPayPnlTitle.GF" args="0x571900,1,4,4,30,1" type="flash.filters.GlowFilter" />	
+		<set stylename="farmHouse.composeCount2.TF" args="Arial,12,0xff0000,true" type="flash.text.TextFormat" />
+		<set args="0xffffff,1,2,2,10" stylename="farmHouse.composeCount2.GF" type="flash.filters.GlowFilter"/>	
+		<set stylename="farmHouse.composeCount1.TF" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+		<set args="0xffffff,1,2,2,10" stylename="farmHouse.composeCount1.GF" type="flash.filters.GlowFilter"/>		
+		<set args="0x542200,1,2,2,10,1" stylename="farmHouse.composeSelect.GF" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="farm.TF1" args="Arial,14,0xffffff" type="flash.text.TextFormat"/>		
+		<set stylename="farm.GF1" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="farm.TF6" args="Arial,12,0x000000,bold,,,,,right" type="flash.text.TextFormat"/>		
+		<set stylename="farm.GF6" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/> 
+		
+		<set stylename="farm.TF2" args="Arial,14,0xfff1bf,true,,,,,center" type="flash.text.TextFormat"/>		
+		<set stylename="farm.GF2" args="0x571900,1,4,4,30" type="flash.filters.GlowFilter"/>
+		<set stylename="farm.TF3" args="Arial,14,0xfdf9ed,true" type="flash.text.TextFormat"/>		
+		<set stylename="farm.GF3" args="0x692706,1,4,4,30" type="flash.filters.GlowFilter"/>
+		<set stylename="farm.TF4" args="Arial,14,0xfff4d4,true" letterSpacing="1" type="flash.text.TextFormat" />
+		<set stylename="farm.GF4" args="0x7c4519,1,4,4,30" type="flash.filters.GlowFilter" />
+		<set stylename="farm.TF5" args="Arial,14,0xff0000,true" letterSpacing="1" type="flash.text.TextFormat" />
+		<set stylename="farm.GF5" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="farm.refreshPet.textTF" args="Arial,12,0x79451c,true,,,,,center" letterSpacing="1" type="flash.text.TextFormat" />		
+		<set stylename="farm.refreshPet.textGF" args="0xf0ead8,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.adoptRefreshVolumeTxt.TF" args="Arial,14,0xffedca,,,,,center" letterSpacing="0" type="flash.text.TextFormat" />		
+		<set stylename="farm.adoptRefreshVolumeTxt.GF" args="0x4d2c00,1,4,4,30,1" type="flash.filters.GlowFilter" />
+
+		<set stylename="farm.killCrop.GF" args="0x62320f,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<set stylename="farm.killCrop.TF" args="Arial,14,0xfff6c9,true,,,,,center" type="flash.text.TextFormat" />
+		
+		<set stylename="farm.helper.tabletitle.TF" args="Arial,14,0xffea9c,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="farm.helper.tabletitle.GF" args="0x4f3700,1,4,4,30" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.helper.tableItem.TF" args="Arial,14,0xffffff,,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="farm.helper.tableItem.GF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="farm.helper.onekeyStartBtnTxt.TF" args="Arial,12,0xfff6a8,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="farm.helper.onekeyStartBtnTxt.GF" args="0x715008,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.farm.onekeyCloseBtnTxt.TF" args="Arial,14,0xfff1b0,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="asset.farm.onekeyCloseBtnTxt.GF" args="0x771c00,1,4,4,30"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.farm.helperShowTxt.TF" args="Arial,14,0xdc0000,true,,,,,left" type="flash.text.TextFormat" leading="-2"/>
+		<set stylename="asset.farm.helperShowTxt.GF" args="0xfffede,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.farm.helperSelSeed.TF" args="Arial,13,0xfffac5,true,,,,,right" type="flash.text.TextFormat" />
+		<set stylename="asset.farm.helperSelSeed.GF" args="0x6c511d,1,4,4,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="asset.farm.comboxListCellTxt.TF" args="Arial,16,0xfff9da,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="asset.farm.comboxListCellTxt.GF" args="0x5f3d11,1,2,2,10" type="flash.filters.GlowFilter"/>
+		
+		
+		<set stylename="asset.farm.myCreditTxt.TF" args="Arial,14,0xffffff,true" type="flash.text.TextFormat" />
+		<set stylename="asset.farm.myCreditTxt.GF" args="0x505050,1,4,4,30,1" type="flash.filters.GlowFilter"/>
+
+		<set stylename="confirmHelperMoneyAlertFrame.nameTF" args="Arial,13,0x4b2810,true" type="flash.text.TextFormat" />
+		
+		<set stylename="farm.helperSeedTxt.TF" args="Arial,14,0xffffff,,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.helperSeedTxt.GF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.helperSeedNumTxt.TF" args="Arial,14,0xc0ed0e,,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="farm.helperSeedNumTxt.GF" args="0x653f19,1,2,2,10" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.adoptdescTitle.TF" args="Arial,14,0xffd162,true" type="flash.text.TextFormat" />		
+		<set stylename="farm.adoptdescTitle.GF" args="0x653f19,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="farm.adoptdesctxt.TF" args="Arial,14,0xfff5a3,true" type="flash.text.TextFormat" />		
+		<set stylename="farm.adoptdesctxt.GF" args="0x4f2f0b,1,4,4,30,1" type="flash.filters.GlowFilter" />
+
+		<set stylename="assets.farm.beginFrame.explainText.TF" args="Arial,12,0xfdf9ed,true,,,,,center" type="flash.text.TextFormat" />		
+		<set stylename="assets.farm.beginFrame.explainText.GF" args="0x692706,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="assets.farm.beginFrame.explainText3.TF" args="Arial,12,0xe71010,true" type="flash.text.TextFormat" />		
+		<set stylename="assets.farm.beginFrame.explainText3.GF" args="0xffffff,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="asset.farm.helperNeedSeed.TF" args="Arial,16,0xffdd30,true" type="flash.text.TextFormat" />		
+		<set stylename="asset.farm.helperNeedSeed.GF" args="0x523005,1,4,4,30,1" type="flash.filters.GlowFilter" />
+		<!-- 新宠展示 -->
+		<set type="flash.text.TextFormat" stylename="farm.pet.newPetSkillTxt.tf"
+			args="Arial,14,0xfff2b0,true,,,,,left" />
+		<set type="flash.filters.GlowFilter" stylename="farm.pet.newPetSkillTxt.gf"
+			args="0x5a390b,2,2,2,30,2" />
+
+		<set type="flash.text.TextFormat" stylename="farm.pet.newPetComeTxt.tf"
+			args="Arial,14,0xff0404,true,,,,,left" />
+		<set type="flash.filters.GlowFilter" stylename="farm.pet.newPetComeTxt.gf"
+			args="0xffffed,2,2,2,30,2" />
+
+		<set type="flash.text.TextFormat" stylename="farm.pet.newPetDescTxt.tf"
+			args="Arial,12,0xff0404,true,,,,,left" leading="2" />
+		<set type="flash.filters.GlowFilter" stylename="farm.pet.newPetDescTxt.gf"
+			args="0xffffed,2,2,2,30,2" />
+
+		<set stylename="asset.farm.newPetComes.TF" args="Arial,12,0xffffff,true"
+			type="flash.text.TextFormat" />
+		<set stylename="asset.farm.newPetComes.GF" args="0x000000,2,4,4,30,2"
+			type="flash.filters.GlowFilter" />
+		<set stylename="farm.pet.newPetLvTxt.TF" args="Arial,12,0xffe375,true"
+			type="flash.text.TextFormat" />
+		<set stylename="farm.pet.newPetLvTxt.GF" args="0x784300,2,4,4,30,2"
+			type="flash.filters.GlowFilter" />
+			
+		<set stylename="farm.countdown.TF" args="Arial,12,0xffffff" type="flash.text.TextFormat"/>
+		<set stylename="farm.countdown.GF" args="0x0,1,4,2,30" type="flash.filters.GlowFilter"/>
+		
+		<set stylename="petsBag.refresh.TF2" args="Arial,12,0xd6e9b6,,,,,,center" type="flash.text.TextFormat"/>
+	</sets> 
+	<components> 
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.housepnl.count" textFormatStyle="farm.TF6" filterString="farm.GF6" autoSize="none" x="27" y="44" width="40" height="22" />
+		<component classname="com.pickgliss.ui.controls.container.HBox"  stylename="farm.componsePnl.hbox" x="43" y="9" spacing = "0"/>
+		
+		<!-- buyFieldView -->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="farm.buyFieldView.bg" resourceLink="farm.baseImage2,farm.baseImage3" imageRectString="15|15|13|19|0,"  width="387" height="230" x="-11" y="-13"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.buyFieldView.titleText" parentStyle="farm.text.farmShopPayPnlTitle" x="150" y="-24"  />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="farm.buyFieldView.cancel" parentStyle="core.simplebt" x="240" y="151"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="farm.buyFieldView.ok" parentStyle="core.simplebt" x="48" y="151"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.buyFieldView.bg2" parentStyle="asset.core.btmBimap"  width="346" height="45" x="11" y="144"/>	
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.mainView.hostName" textFormatStyle="farm.TF2" filterString="farm.GF2" autoSize="none" width="193" height="20" isAutoFitLength="true" x="403" y="24" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperShowTxt2" textFormatStyle="asset.farm.helperShowTxt.TF2" filterString="asset.farm.helperShowTxt.GF2" x="20" y="57"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperShowTime" textFormatStyle="asset.farm.helperShowTime.TF" filterString="asset.farm.helperShowTime.GF" x="172" y="57"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.buyview.timeTitle" textFormatStyle="farm.TF3" filterString="farm.GF3" x="13" y="6" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.buyview.needText" textFormatStyle="farm.TF3" filterString="farm.GF3" x="84" y="110" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.buyview.money" textFormatStyle="farm.TF5" filterString="farm.GF5" x="206" y="110" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.buyview.bg3" parentStyle="farm.baseFrameImagebg3" width="342" height="67" x="13" y="27"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.buyview.selectText" textFormatStyle="farm.TF4" filterString="farm.GF4" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.buyview.week" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" x="45" y="40"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.buyview.month" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" x="45" y="67"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.buyview.all" parentStyle="core.selectedCheck2" textStyle="farm.buyview.selectText" fieldX="30" fieldY="8" x="197" y="50"/>
+				
+		<!-- FriendListItem -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.friendList.item.name" textFormatStyle="farm.TF1" filterString="farm.GF1" autoSize="none" width="100" height="20" isAutoFitLength="true" x="34" y="5" />
+	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farm.closeBtn"
+			backStyle="asset.farm.farmcloseBtn"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.baseImage6" 
+					resourceLink="asset.farm.baseImage6" scaleGridString="14,33,33,60"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.baseImage5" 
+					resourceLink="asset.farm.baseImage5" scaleGridString="20,20,40,20"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.baseImage4" 
+					resourceLink="asset.farm.baseImage4" scaleGridString="14,9,28,9"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.baseImage1" 
+					resourceLink="asset.farm.baseImage1"  scaleGridString="30,8,30,20" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.baseImage3" 
+					resourceLink="asset.farm.baseImage3"  scaleGridString="24,24,114,74" />	
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.baseImage2" resourceLink="asset.farm.baseBG-1" scaleGridString="15,15,20,20"/>
+		<!-- <component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="farm.baseImage2" 
+					resourceLink="asset.farm.base21,asset.farm.base22,asset.farm.base23,asset.farm.base24,asset.farm.base25,asset.farm.base26,asset.farm.base27,asset.farm.base28,asset.farm.base29"/>					
+			 -->		
+		<!--FarmFriendListView  start-->		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.friendListTitleBg" 
+					parentStyle="farm.baseImage1"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.friendListBound" 
+					parentStyle="farm.baseImage3" x="34" y="0" width="210" height="335"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.friendListBg" 
+					parentStyle="farm.baseImage2"  width="180" height="310"  x="49" y="10"/>
+					
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"  stylename="farm.listSwitch"
+			resourceLink="asset.farm.listOpenState,asset.farm.listCloseState" x="7" y="17"/>
+			
+		
+					
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="asset.farm.farmFriendListPanel"
+			vScrollbarStyle="core.VScrollbar"  vScrollbarInnerRectString="21,0,0,0,3"
+			viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|farmFriendListItemStyle,30,235"
+			listStyle="com.pickgliss.ui.controls.list.List" width="180" height="300"
+			 x="51" y="15" vUnitIncrement="10"/>
+		<!--FarmMainView  start-->
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.farmHelperAsset" 
+					resourceLink="core.bg6899,asset.farm.farmShop" imageRectString=",10|88|6|32|13" width="110" height="45"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.gohomeAsset" 
+					resourceLink="core.bg6908,asset.farm.gohome" imageRectString=",10|88|6|32|13" width="110" height="45"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.farmHelperBtn" backStyle="asset.farm.popupHelperBtn"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"  x="1015" y="495"/>
+			
+			
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="Farm.FarmMainView.buyExpNumText" textFormatStyle="Farm.FarmMainView.buyExpNumText.TF"
+			filterString="Farm.FarmMainView.buyExpNumText.GF" autoSize="none" width="30" height="30"
+			x="41" y="42" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="Farm.bandMoney.Text1" textFormatStyle="totem.leftView.farm.tf"
+			filterString="totem.leftView.farm.gf" autoSize="none" width="40" height="30"
+			x="126" y="182" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="Farm.bandMoney.Text2" textFormatStyle="totem.leftView.farm.tf"
+			filterString="totem.leftView.farm.gf" autoSize="none" width="80" height="30"
+			x="217" y="182" />	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Farm.FarmBuyExpFrame.buyExpExpNumTextTF" textFormatStyle="Farm.FarmBuyExpFrame.buyExpExpNumTextTF.TF" autoSize="none" width="30" height="30" x="-8" y="1"/>
+		<component classname="com.pickgliss.ui.text.GradientText" stylename="Farm.FarmBuyExpFrame.buyExpExpNumTextGT" textFieldStyle="Farm.FarmBuyExpFrame.buyExpExpNumTextTF" colors="0xfcb621,0xfff2a2" filterString="Farm.FarmBuyExpFrame.buyExpExpNumTextTF.GF" alphas="1,1" ratios="30,255" x="187" y="258" text="1"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="Farm.FarmMainView.buyExpExplainText" textFormatStyle="Farm.FarmMainView.buyExpExplainText.TF"
+			filterString="Farm.FarmMainView.buyExpExplainText.GF" autoSize="none" width="295" height="51"
+			x="27" y="260" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="Farm.FarmMainView.moneyText" textFormatStyle="Farm.FarmMainView.MoneyText.TF"
+			filterString="Farm.FarmMainView.buyExpExplainText.GF" autoSize="none" width="56" height="27"
+			x="45" y="261" />	
+		
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="Farm.FarmMainView.buyExpBtnEffect" resourceLink="asset.farm.buyExpBtnEffect"
+			x="18" y="12" mouseEnabled="false" mouseChildren="false"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="Farm.FarmMainView.buyExpBtn" backStyle="asset.farm.buyExpBtnBG"
+			x="12" y="15" />	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="Farm.FarmMainView.goTreasureBtn" backStyle="asset.systemOpenPrompt.treasureIcon"
+			x="-9" y="79" />
+		<component classname="farm.viewx.FarmBuyExpFrame" stylename="farm.viewx.farmBuyExpFrame" parentStyle="BaseFrame" width="352" height="372" moveEnable="false"/>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.farmShopBtn" backStyle="asset.farm.popupShopBtn"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"  x="1015" y="355"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.doSeedBtn" backStyle="asset.farm.popupSeedBtn"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"  x="1015" y="390"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.doMatureBtn" backStyle="asset.farm.popupRipenedBtn"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"  x="1015" y="425"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.doKillBtn" backStyle="asset.farm.popupKillBtn"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<!--农场整理按钮-->
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.arrangeBtn" backStyle="asset.farm.arrangeBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="1" tipGapV="0" tipGapH="100"
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"  x="1015" y="455"/>
+			
+		<component classname="com.pickgliss.ui.controls.BaseButton"
+			stylename="farm.gohomeBtn" backStyle="asset.farm.popupGohomeBtn" 
+			displacement="false" filterString="null,lightFilter,lightFilter,grayFilter"  x="1021" y="495"/>
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.farm.cropIconBg" 
+					parentStyle="farm.baseImage5" width="72" height="72"/>		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.shopPayView.gold" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" filterString="null,lightFilter,null,grayFilter" x="51" y="118"/>
+	 	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.shopPayView.gift" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" filterString="null,lightFilter,null,grayFilter" x="51" y="159"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.shopPayView.money" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" filterString="null,lightFilter,null,grayFilter" x="190" y="118"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.HBox"  stylename="farm.cropBox" x="47" y="44" spacing = "0"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.seedselectViewBg" 
+					parentStyle="farm.baseImage6"  width="357" height="112"  x="12" y="9"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.manureselectViewBg" 
+					parentStyle="farm.seedselectViewBg" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.btnPrePage1" backStyle="asset.farm.pre" filterString="null,lightFilter,null,grayFilter" x="17" y="56"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.btnNextPage1" backStyle="asset.farm.next" filterString="null,lightFilter,null,grayFilter" x="337" y="56"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farm.seedselectcloseBtn" parentStyle="farm.closeBtn" x="334" y="9"/>		
+
+ 		<!--shop compose-->	
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.baseFrameBg3" 
+			parentStyle="farm.baseImage3"  width="402" height="153" x="-4" y="-4"/>		 
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.baseFrameBg4" 
+			parentStyle="asset.core.btmBimap"  width="150" height="32"  x="22" y="92"/>		 
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.baseFrameBg5" 
+			parentStyle="asset.core.btmBimap"  width="150" height="42"  x="22" y="92"/>					
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="farm.baseFrameImagebg" resourceLink="asset.farm.baseFrame21,asset.farm.baseFrame22,asset.farm.baseFrame23,asset.farm.baseFrame24,asset.farm.baseFrame25,asset.farm.baseFrame26,asset.farm.baseFrame27,asset.farm.baseFrame28,asset.farm.baseFrame29" />
+ 	
+			
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="assets.farmShop.title" 
+			resourceLink="assets.farmShop.titleBg,assets.farmShop.titleFont" x="135" y="-47" />		 			
+		
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.selectSeed"
+			resourceLink="core.bg6901,assets.farmShop.SelectSeed" imageRectString=",25|74|10|26|13"  width="122" height="44"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.selectPetEgg"
+			resourceLink="core.bg6901,asset.farmShop.SelectPetEgg" imageRectString=",24|76|10|25|13" width="122" height="44"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.unSelectSeed"
+			resourceLink="core.bg6913,assets.farmShop.unSelectSeed" imageRectString=",21|72|8|22|13"  width="112" height="40" x="5" y="2"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.unSelectPetEgg"
+			resourceLink="core.bg6913,assets.farmShop.unSelectPetEgg" imageRectString=",20|72|8|21|13"  width="112" height="40" x="5" y="2"/>
+ 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.selectManure"
+			resourceLink="core.bg6901,assets.farmShop.SelectManure" imageRectString=",32|56|11|24|13" width="122" height="44"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.unSelectManure"
+			resourceLink="core.bg6913,assets.farmShop.unSelectManure" imageRectString=",29|50|8|22|13" width="112" height="40" x="5" y="2"/>
+ 			  
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="farmShop.button.seed" unSelectedStyle="asset.mutipleImg.unSelectSeed" selectedStyle="asset.mutipleImg.selectSeed" filterString="null,lightFilter,null,grayFilter" x="40" y="20"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="farmShop.button.petEgg" unSelectedStyle="asset.mutipleImg.unSelectPetEgg" selectedStyle="asset.mutipleImg.selectPetEgg" filterString="null,lightFilter,null,grayFilter" x="158" y="20"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmshop.btnFirstPage" backStyle="asset.ddtcore.firstBtn" filterString="null,lightFilter,null,grayFilter" x="90" y="270"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmshop.btnPrePage" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter" x="143" y="270"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmshop.btnNextPage" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter" x="272" y="270"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmshop.btnEndPage" backStyle="asset.ddtcore.endBtn" filterString="null,lightFilter,null,grayFilter" x="325" y="270"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmshop.PayPaneBuyBtn" backStyle="asset.ddtshop.PayPaneBuyBtn" filterString="null,lightFilter,null,grayFilter" x="4" y="67"></component>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farm.shop.shopUpButton" 	backStyle="asset.core.numberSelecterUp" pressEnable="true" x='242' y='54'/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farm.shop.shopDownButton" backStyle="asset.core.numberSelecterDown" pressEnable="true" x='108' y='54'/>		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.shop.payPanelInputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  x="170" y="53" width="66" height="28"></component> 		
+		 		
+		
+ 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="farm.mImage.bgadopt"
+			resourceLink="core.bg6910,assets.petsBag.adopt1"  imageRectString=",7|86|8|25|13"  width="101" height="41" />	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="petsBag.button.adopt" backStyle="farm.mImage.bgadopt" x="190" y="263"/> 
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="farm.mImage.adoptItem" resourceLink="core.bg6910,assets.petsBag.adoptItem"
+			imageRectString=",21|57|8|24|13" width="101" height="41" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="petsBag.button.adoptItem" backStyle="farm.mImage.adoptItem"
+			 x="156" y="263"/>
+		
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="petsBag.button.refresh" parentStyle='core.simplebt' backStyle="core.bg6902" height="30" backgoundInnerRectString="7,13,6,12,-1" x="267" y="270" textStyle="farm.text.adoptRefresh"  />	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.adoptRefresh" textFormatStyle="petsBag.refresh.TF" filterString="petsBag.refresh.GF" multiline="false" wordWrap="false"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.adoptdescTitle" textFormatStyle="farm.adoptdescTitle.TF" filterString="farm.adoptdescTitle.GF" x="70" y="150"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.adoptRefreshTimer" textFormatStyle="farm.refreshTimer.TF" filterString="farm.refreshTimer.GF" x="31" y="261"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.shopCurrent" textFormatStyle="farm.shopCurrent.TF" filterString="farm.shopCurrent.GF" x="223" y="273" />			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.shopPayAlertTips" textFormatStyle="farm.shopPayAlertTips.TF" filterString="farm.shopPayAlertTips.GF" x="68" y="193"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.shopPayAlertTips2" textFormatStyle="farm.shopPayAlertTips.TF2" filterString="farm.shopPayAlertTips.GF2" x="176" y="193"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.myCreditTxt" textFormatStyle="asset.farm.myCreditTxt.TF" filterString="asset.farm.myCreditTxt.GF" autoSize="none" width="200" height="25" x="75" y="104"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.myCreditNum" parentStyle="farm.text.shopPayAlertTips2" x="173" y="104" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.shopPayNum" textFormatStyle="farm.shopPayNum.TF" filterString="farm.shopPayNum.GF" autoSize="none" width="60" height="26"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.NumText" textFormatStyle="farm.shopPayNum.TF" filterString="farm.shopPayNum.GF" autoSize="none" width="100" height="26" x="90" y="59"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="farm.text.shopPayNumInput" textStyle="farm.text.shopPayNum" x="174" y="57" width="60" height="26" maxChars="3"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnFirstPage" backStyle="asset.ddtcore.firstBtn" filterString="null,lightFilter,null,grayFilter" x="75" y="268"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnPrePage" backStyle="asset.ddtcore.leftBtn" filterString="null,lightFilter,null,grayFilter" x="128" y="268"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnNextPage" backStyle="asset.ddtcore.rightBtn" filterString="null,lightFilter,null,grayFilter" x="257" y="268"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnEndPage" backStyle="asset.ddtcore.endBtn" filterString="null,lightFilter,null,grayFilter" x="310" y="268"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.HouseCurrent" textFormatStyle="farm.shopCurrent.TF" filterString="farm.shopCurrent.GF" x="214" y="271"  />
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.selectCompose"
+			resourceLink="core.bg6901,assets.farmHouse.SelectCompose" imageRectString=",15|88|11|26|13"  width="122" height="44"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.unSelectCompose"
+			resourceLink="core.bg6913,assets.farmHouse.unSelectCompose" imageRectString=",12|82|8|22|13"  width="112" height="40" x="5" y="2"/>
+ 		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.selectHouse"
+			resourceLink="core.bg6901,assets.farmHouse.SelectHouse" imageRectString=",32|54|11|24|13"  width="122" height="44"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.mutipleImg.unSelectHouse"
+			resourceLink="core.bg6913,assets.farmHouse.unSelectHouse" imageRectString=",26|52|7|22|13" width="112" height="40" x="5" y="2"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.NotesButton" backStyle="farmShop.NotesSelectAsset" x="324" y="17" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farmShop.NotesSelectAsset" resourceLink="asset.farmShop.helpNotes"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="farmShop.button.house" unSelectedStyle="asset.mutipleImg.unSelectHouse" selectedStyle="asset.mutipleImg.selectHouse" filterString="null,lightFilter,null,grayFilter" x="13" y="12"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="farmShop.button.compose" unSelectedStyle="asset.mutipleImg.unSelectCompose" selectedStyle="asset.mutipleImg.selectCompose" filterString="null,lightFilter,null,grayFilter" x="127" y="12"/>
+   		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnSelectHouseCompose" backStyle="assets.farmhouse.selectHouseComposeMC" filterString="null,lightFilter,null,grayFilter" x="185" y="91"/>
+   		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnSelectHouseCompose2" backStyle="assets.farmHouse.selectHouseCompose2" filterString="null,lightFilter,null,grayFilter"/>
+			
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farmHouse.selectCompose.bg"
+			parentStyle="core.bg6910" width="100"/>	
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="farmHouse.SelectCompose.btnBg"
+			resourceLink="farmHouse.selectCompose.bg,assets.farmShop.btnCompose" imageRectString="110|42|0|46|9,59|23|7|-10|9"/>			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farmHouse.btnComposeAction" backStyle="farmHouse.SelectCompose.btnBg" filterString="null,lightFilter,null,grayFilter" x="183" y="185"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farmHouse.confimCompose.inputBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="90" height="25" x="119" y="39"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farmHouse.text.composeNum" textFormatStyle="farm.composeNum.TF" filterString="farm.composeNum.GF" autoSize="none"  type="input" width="87" height="23" x="121" y="42"/>
+	
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.houseCompose.minBtn" backStyle="assets.farmHouse.minNum" filterString="null,lightFilter,null,grayFilter" x="8" y="37"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.houseCompose.maxBtn" backStyle="assets.farmHouse.maxNum" filterString="null,lightFilter,null,grayFilter" x="258" y="37"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.houseCompose.addBtn" backStyle="asset.core.numberSelecterUp" filterString="null,lightFilter,null,grayFilter" x="208" y="38"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.houseCompose.removeBtn" backStyle="asset.core.numberSelecterDown" filterString="null,lightFilter,null,grayFilter" x="65" y="38"/>  		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farmHouse.button.left" backStyle="assets.petsBag.leftPage" width="162" height="46" x="16" y="23"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farmHouse.button.right" backStyle="assets.petsBag.rightPage" width="162" height="46" x="401" y="23"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farmHouse.text.composeSelect" filterString="farmHouse.composeSelect.GF" textFormatStyle="farmHouse.composeSelect.TF" width="40" height="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farmHouse.text.composeCount1" textFormatStyle="farmHouse.composeCount1.TF" filterString="farmHouse.composeCount1.GF" x="44" y="49" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farmHouse.text.composeCount2" textFormatStyle="farmHouse.composeCount2.TF" filterString="farmHouse.composeCount2.GF"  x="44" y="49" />
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farmHouse.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="farmHouse.HelpPrompt" bg9ScalseStyle="farmHouse.HelpFrame.FrameBg" contentStyle="farmHouse.helpFrame.composeText" x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="farm.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		
+		<!-- field -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"  stylename="farm.fieldbg" resourceLink="asset.field.dig,asset.field.unDig" filterString="null,lightFilter,lightFilter,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="farm.flag" backStyle="asset.spread.spreadflg" filterString="null,lightFilter,lightFilter,grayFilter" x="22" y="-41" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.plant" x="21" y="-24" displacement="false" transparentEnable="true" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" tipWidth="130" tipGapV="0"/>
+		
+		<!-- selectedView -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"  stylename="farm.selectedView.title" resourceLink="asset.farm.selectViewTitle,asset.farm.manureselectViewTitle" x="5" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.seedSelect.cropNum" text="100" textFormatStyle="farm.seedSelect.cropNumTF" filterString="farm.seedSelect.cropNumGF" autoSize="none"
+  					mouseWheelEnabled="false" mouseEnabled="false" selectable="false" width="52" height="20" x="13" y="46"/>
+  					
+ 
+		 <!-- house-->
+		 <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="assets.farmShopView.bg" parentStyle="core.bg6920" scaleGridString="5,10,80,20" width="405" height="250" x="35" y="63" />
+		 
+		 <component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.composeView.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,assets.farmShopView.bg" imageRectString="0|455|0|325|13,-14|480|-8|345|13,11|432|55|257|13"/>	 
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="assets.farmCompose.title"  x="152" y="-33"
+			resourceLink="farm.friendListTitleBg,assets.farmHouse.title" />	  		
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="assets.farm.farmHelper.title"  x="130" y="-33"
+			resourceLink="farm.friendListTitleBg,farm.farmHelperTitle" />	
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.farmHelperTitle"  x="41" y="8"
+			resourceLink="assets.farm.farmHelperTitle" />	
+			  
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="assets.farmHouse.BottomBg" parentStyle="asset.core.btmBimap" x="18" y="256" width="420" height="45" />	 
+		 <component classname="farm.view.compose.FarmComposeView" stylename="farm.composeView.compose" parentStyle="BaseFrame" backStyle="farm.composeView.bg" closestyle="farm.closeBtn" closeInnerRectString="34,10,-13,34,14" x="0" y="0" width="480" height="345" />
+		
+		 
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.confirmComposeAlert.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,asset.core.btmBimap" imageRectString="0|330|0|135|13,-14|355|-8|160|13,9|310|83|45|13"/>	  
+ 		 
+		 <component classname="farm.view.compose.ConfirmComposeAlertFrame" stylename="farm.confirmComposeAlert.confirmCompose"  backStyle="farm.confirmComposeAlert.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,5,-12,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="123,-20,5"
+		 width="355" height="160" />
+		 <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.farmHouse.houseBg" parentStyle="farm.baseFrameImagebg3" width="420" height="180" x="16" y="66"/>
+		 
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.farmHouse.composebg2" parentStyle="farm.basebg.bg8"
+	     x="15" y="77" resourceLink="farm.baseFrameImagebg3,asset.farm.bg5"   imageRectString="0|425|0|160|13,5|416|4|154|13"  />	
+	    <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.farmHouse.composebg1" parentStyle="farm.baseFrameImagebg3" width="425" height="82" x="14" y="240"/>
+	    
+   		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farmHouse.farmHouse.pageBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="60" height="22" x="194" y="270"/>
+   		
+   		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="com.frme.fresh.selectBtn" parentStyle="core.simpleSelectBtn"
+			width="103" height="28" x="89" y="174"  unSelectedStyle="asset.core.check2UnSelected" 
+			 selectedStyle="asset.core.check2Selected" 
+			displacement='false' />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="com.frme.fresh.selectbandBtn" parentStyle="core.simpleSelectBtn"
+			 width="103" height="28" x="63" y="91"
+			unSelectedStyle="asset.core.check2UnSelected" 
+			 selectedStyle="asset.core.check2Selected" 
+			displacement='false' />
+   		
+   		<component classname="farm.view.compose.ConfirmComposeFoodAlertFrame" stylename="farm.confirmComposeAlert.confirmComposeFoodAlertFrame"  backStyle="farm.confirmComposeFoodAlertFrame.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,-15,-12,34,14" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="123,-20,5" width="320" height="150" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.confirmComposeFoodAlertFrame.showTxtBG" resourceLink="assets.farmShop.payBg" x="0" y="-85"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.confirmComposeFoodAlertFrame.bg3" parentStyle="farm.baseFrameImagebg3" width="300" height="85" x="10" y="13"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="farm.confirmComposeFoodAlertFrame.promptTxt" textFormatStyle="farm.TF5" filterString="farm.GF5" width="320" x="85" y="105" />
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.confirmComposeFoodAlertFrame.bg" resourceLink="farm.baseFrameBg2,farm.baseFrameBg3" imageRectString="0|320|0|135|13,-14|345|-8|160|13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.confirmComposeFoodAlertFrame.btnPrePage1" backStyle="asset.farm.pre" filterString="null,lightFilter,null,grayFilter" x="20" y="37"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.confirmComposeFoodAlertFrame.btnNextPage1" backStyle="asset.farm.next" filterString="null,lightFilter,null,grayFilter" x="275" y="37"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox"  stylename="farm.confirmComposeFoodAlertFrame.cropBox" x="50" y="20" spacing = "0"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farmHouse.btnSelectHouseCompose3" backStyle="assets.farmHouse.selectHouseCompose3" filterString="null,lightFilter,null,grayFilter"/> 
+		<!-- 领养--> 
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.adoptPetsView.bg" 
+			resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,assets.farmShopView.bg,asset.core.btmBimap" imageRectString="8|475|-2|330|13,-4|498|-10|350|13,18|455|10|305|13,30|430|253|55|13"/>
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.baseFrameBG-3" resourceLink="asset.farm.baseFrameBG-3" scaleGridString="15,15,20,20"/>	  
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.adoptPetsView.bg2"  resourceLink="farm.baseFrameBG-3,farm.baseImage.bg4"
+			 imageRectString="0|422|0|223|13,4|416|3|218|13" x="35" y="25"  />			 
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.adoptPetsView.descBg2" parentStyle="core.goldlinebg" width="375" height="78" x="60" y="155"/>	 
+		
+		<component classname="petsBag.view.AdoptPetsView" stylename="farm.adoptPetsView.adopt" backStyle="farm.adoptPetsView.bg" parentStyle="BaseFrame"  closestyle="farm.closeBtn" width="498" height="350" closeInnerRectString="34,1,-16,34,14"  x="255" y="0"  />
+		<component classname="petsBag.view.AdoptPetsGuideView" stylename="farm.adoptPetsView.adoptGuide" backStyle="farm.adoptPetsView.bg" parentStyle="BaseFrame"  closestyle="farm.closeBtn" width="498" height="350" closeInnerRectString="34,1,-16,34,14"  x="0" y="0"  />
+	 	<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="assets.farm.adoptPets" 
+			resourceLink="farm.friendListTitleBg,assets.petsBag.adoptTitle" x="173" y="-34" />	 	
+			
+ 		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.refreshPetAlertFrame.bg" 
+		resourceLink="farm.baseImage2,farm.baseImage3,asset.core.btmBimap"  imageRectString="0|0|155|0|4,-10|-15|175|-10|4,12|32|38|15|4"/>	 
+ 		 
+		 <component classname="petsBag.view.RefreshPetAlertFrame" stylename="farm.refreshPetAlertFrame.confirmRefresh"  backStyle="farm.refreshPetAlertFrame.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,-15,0,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="122,-2,5"
+		 width="328" height="175" />
+		  <component classname="farm.viewx.helper.HelperBuyAlertFrame" stylename="farm.HelperBuyAlertFrame.confirmBuy"  backStyle="farm.refreshPetAlertFrame.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,-15,5,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="122,-2,5"
+		 width="328" height="175" />
+		 <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.refreshPet.text" textFormatStyle="farm.refreshPet.textTF" filterString="farm.refreshPet.textGF"  />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="farm.refreshPet.selectBtn" parentStyle="core.simpleSelectBtn" textStyle="farm.refreshPet.text" displacement="false" fieldX="17" fieldY="-1" x="68" y="94" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.refreshPetAlertTips" textFormatStyle="farm.refreshPetAlertTips.TF" filterString="farm.refreshPetAlertTips.GF" x="17" y="56" width="305" height="50" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.refreshPetAlertTips2" textFormatStyle="farm.refreshPetAlertTips.TF2" filterString="farm.refreshPetAlertTips.GF2" x="97" y="56"  />
+   		
+   		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farmHouse.adoptRefreshVolumeTxtBG" resourceLink="asset.farm.baseBUTBG-1" scaleGridString="10,10,13,20" width="77" height="22" x="69" y="283"/>
+   		<!-- <component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farmHouse.adoptRefreshVolumeTxtBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="77" height="22" x="69" y="283"/> -->
+   		
+   						   				   					
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.adoptRefreshVolumeTxt" textFormatStyle="farm.adoptRefreshVolumeTxt.TF" filterString="farm.adoptRefreshVolumeTxt.GF" x="106" y="285" width="60" height="20" autoSize="center"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.petCreditNum" textFormatStyle="farm.shopPayAlertTips.TF2" filterString="farm.shopPayAlertTips.GF2" autoSize="none" x="385" y="282" width="60" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.adoptdesctxt" textFormatStyle="farm.adoptdesctxt.TF" filterString="farm.adoptdesctxt.GF" x="70" y="170" width="355" height="40" autoSize="left" wordWrap="true" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="farm.adoptItemTxt" x="72" y="65" />
+		<!--shop city -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="farm.baseFrameImage.shop" 
+			parentStyle="farm.baseFrameImagebg" />		 
+			
+   		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.baseFrameBg2" parentStyle="farm.baseImage2"/>
+   		<!-- <component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="farm.baseFrameBg2" parentStyle="farm.baseImage2" /> -->	
+			
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.farmShopView.bg" 
+			resourceLink="farm.baseFrameBg2,farm.baseFrameImage.shop,assets.farmShopView.bg,asset.core.btmBimap" imageRectString="12|445|9|320|13,-4|480|-10|360|13,28|418|63|250|13,38|400|263|38|13"/>	  
+ 		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="farm.farmNewPet.bg"
+			resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,assets.farmNewPetView.bg,assets.farm.newPetYezi"
+			imageRectString="13|195|5|320|13,-4|230|-10|350|13,16|190|8|310|13,-2|233|-13|358|13" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="assets.farmNewPetView.bg" parentStyle="core.bg6920" scaleGridString="5,10,80,20" width="190" height="250" x="35" y="63" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.farmShopView.fontBG" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="70" height="22" x="200" y="271"/>
+		<component classname="farm.viewx.shop.FarmShopView" stylename="farm.farmShopView.shop" backStyle="farm.farmShopView.bg" parentStyle="BaseFrame"  closestyle="farm.closeBtn" width="480" height="360" closeInnerRectString="34,1,-4,34,14"  x="0" y="0"  />
+ 		<component classname="farm.viewx.newPet.NewPetViewFrame"
+			stylename="farm.newPetViewFrame" backStyle="farm.farmNewPet.bg"
+			parentStyle="BaseFrame" closestyle="farm.NewPetCloseBtn" width="190"
+			height="360" closeInnerRectString="34,-43,-10,34,14" x="486" y="0" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="farm.NewPetCloseBtn" parentStyle="farm.closeBtn" x="187"
+			y="-5" />
+ 		<!-- 农场助手 -->
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="farm.ComboxHelper"
+			listPanelStyle="core.ComboxListpanel2" buttonStyle="farm.ComboxHelperButton" width="140"
+			height="28" textStyle="farm.ComboxHelperListCellTxt" listInnerRectString="5,33,10,100,18"
+			textInnerRectString="5,25,5,0,0"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.ComboxHelperButton" backStyle="farm.ComboxHelperButtonAsset" height="26" width="200" displacement="false" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="farm.ComboxHelperButtonAsset" resourceLink="farm.ComboxHelperTextButton,asset.core.downBtn" imageRectString=",1|3|17|18|12"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.ComboxHelperTextButton" height="26" width="200" backStyle="core.ScaleleftrightImage.lineBg3" alpha="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.ComboxHelperListCellTxt" textFormatStyle="farm.helper.tableItem.TF" filterString="farm.helper.tableItem.GF" autoSize="none"/>
+ 		
+		 <component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.helperView.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3" imageRectString="0|420|0|250|13,-14|450|-8|270|13,11|447|55|0|15"/>	
+		 <component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.helperViewSet.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3" imageRectString="0|350|0|270|13,-14|378|-8|293|13,11|447|55|0|15"/>	
+ 		
+		<component classname="farm.viewx.helper.FarmHelperView" stylename="farm.farmHelperView.helper" parentStyle="BaseFrame" backStyle="farm.helperView.bg" closestyle="farm.closeBtn" closeInnerRectString="34,-15,-15,34,14" x="30" y="0" width="425" height="268" />
+		<component classname="farm.viewx.helper.HelperSetView" stylename="farm.helperSetView.helper" parentStyle="BaseFrame" backStyle="farm.helperViewSet.bg" closestyle="farm.closeBtn" closeInnerRectString="34,10,-13,34,14" x="324" y="154" width="378" height="293" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="137,-17,5"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="farm.farmHelperList.listVbox" spacing="1" width="490" height="400" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="farm.farmHelperList.listScrollPanel" parentStyle="core.ScrollPanel" width="444" height="235" vUnitIncrement="3" vScrollProxy="0" x="0" y="40"/>
+		
+ 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="helperList.fieldIndexText" textFormatStyle="farm.helper.tabletitle.TF" filterString="farm.helper.tabletitle.GF" autoSize="none" height="25" x="0"  y="10" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="helperList.seedIDText" textFormatStyle="farm.helper.tabletitle.TF" filterString="farm.helper.tabletitle.GF" autoSize="none" height="25" x="100"  y="10" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="helperList.fertilizerIDText" textFormatStyle="farm.helper.tabletitle.TF" filterString="farm.helper.tabletitle.GF" autoSize="none" height="25" x="215"  y="10" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="helperList.isAutoText" textFormatStyle="farm.helper.tabletitle.TF" filterString="farm.helper.tabletitle.GF" autoSize="none" height="25" x="325"  y="10" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperList.fieldIndex"  alpha="0" x="38"  y="13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperList.seedID" alpha="0" x="38"  y="13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperList.fertilizerID"  alpha="0" x="38"  y="13"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperList.isAuto"  alpha="0" x="38"  y="13"/>
+ 		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="helperItem.fieldIndex" autoSize="none" isAutoFitLength="true"  textFormatStyle="farm.helper.tableItem.TF" filterString="farm.helper.tableItem.GF"  width="80" height="30" x="10" y="10"/>
+ 		<component stylename="asset.ddtfarm.helper.seedDropListCombo" classname="com.pickgliss.ui.controls.ComboBox" parentStyle="farm.ComboxHelper" selctedPropName="text" listInnerRectString="5,33,10,100,18" x="100" width="110" height="30" y="5"/>
+ 		<component stylename="asset.ddtfarm.helper.filterFrameDropListCombo" classname="com.pickgliss.ui.controls.ComboBox" parentStyle="farm.ComboxHelper" selctedPropName="text" listInnerRectString="5,33,10,100,18" x="215" width="110" height="30" y="5"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperItem.isAutoBtn" backStyle="asset.farmHelper.SetBtn" filterString="null,lightFilter,null,grayFilter" x="347" width="54" height="30" y="10"/>
+		
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.helperList.VlineI" resourceLink="asset.corel.formLineBig" x="-20" y="47"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.helperList.VlineII" parentStyle="farm.helperList.VlineI" x="95" y="47"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.helperList.VlineIII" parentStyle="farm.helperList.VlineI" x="210" y="47"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="farm.helperListVLine" resourceLink="farm.helperList.VlineI,farm.helperList.VlineII,farm.helperList.VlineIII" x="115" y="-42"/>
+		
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.helperItem.VlineI" resourceLink="asset.corel.formLine" x="-20" y="47"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.helperItem.VlineII" resourceLink="asset.corel.formLine" x="95" y="47"/>
+		<component classname="com.pickgliss.ui.image.Image" stylename="farm.helperItem.VlineIII" resourceLink="asset.corel.formLine" x="210" y="47"/>	
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="farm.helperItemVLine" resourceLink="farm.helperItem.VlineI,farm.helperItem.VlineII,farm.helperItem.VlineIII" x="110" y="-43"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="farm.helperItem.ScaleLeftRightImage2" parentStyle="core.ScaleleftrightImage.lineBg2" width="415" height="30" />
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="farm.helperItem.ScaleLeftRightImage3" parentStyle="core.ScaleleftrightImage.lineBg3" width="415" height="30" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.helperItem.BG1" resourceLink="farm.helperItem.ScaleLeftRightImage3,farm.helperItemVLine"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.helperItem.BG2" resourceLink="farm.helperItem.ScaleLeftRightImage2,farm.helperItemVLine" />
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="helperItem.BG"  resourceLink="asset.helperItem.BG1,asset.helperItem.BG2" x="5" y="5"/>
+
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="helperFrame.bg1" parentStyle="core.bg6920" width="400" height="185" x="11" y="48" scaleGridString="5,10,80,20"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="helperFrame.bg2" parentStyle="church.main.createRoomFrameLeftTopBg1" width="388" height="143" x="18" y="80"/>
+
+ 		<component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.farm.onekeyStartBtn" parentStyle="core.simplebt" backStyle="core.bg6905" backgoundInnerRectString="22,21,10,12,-1" textStyle="asset.farm.onekeyStartBtnTxt" width="85" height="30" x="13" y="9"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.onekeyStartBtnTxt" textFormatStyle="farm.helper.onekeyStartBtnTxt.TF" filterString="farm.helper.onekeyStartBtnTxt.GF"/>
+	 
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.farm.onekeyCloseBtn" parentStyle="core.simplebt" backStyle="core.bg6904" textStyle="asset.farm.onekeyCloseBtnTxt" backgoundInnerRectString="23,23,9,13,-1" width="85" height="30" x="13" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.onekeyCloseBtnTxt" textFormatStyle="asset.farm.onekeyCloseBtnTxt.TF" filterString="asset.farm.onekeyCloseBtnTxt.GF"/>
+
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperShowTxt1" textFormatStyle="asset.farm.helperShowTxt.TF" filterString="asset.farm.helperShowTxt.GF" x="100" y="10" wordWrap="true" width="190" height="50"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperSelSeed" textFormatStyle="asset.farm.helperSelSeed.TF" filterString="asset.farm.helperSelSeed.GF" x="30" y="85" width="160" height="24" wordWrap="ture"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperSelTime" textFormatStyle="asset.farm.helperSelSeed.TF" filterString="asset.farm.helperSelSeed.GF" x="59" y="121" width="130" height="24" wordWrap="ture"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperNeedSeedText" textFormatStyle="asset.farm.helperSelSeed.TF" filterString="asset.farm.helperSelSeed.GF" x="46" y="162"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperNeedSeed" textFormatStyle="asset.farm.helperNeedSeed.TF" filterString="asset.farm.helperNeedSeed.GF" x="160" y="162"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperGetSeedText" textFormatStyle="asset.farm.helperSelSeed.TF" filterString="asset.farm.helperSelSeed.GF" x="196" y="163"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperGetSeed" textFormatStyle="asset.farm.helperNeedSeed.TF" filterString="asset.farm.helperNeedSeed.GF" x="337" y="163"/>
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperRemainTime" textFormatStyle="asset.farm.helperSelSeed.TF" filterString="asset.farm.helperSelSeed.GF" x="47" y="191" />	
+	 	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.farm.helperTimerText" textFormatStyle="asset.farm.helperSelSeed.TF" filterString="asset.farm.helperSelSeed.GF" x="223" y="191"/>			
+ 		<component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.farm.helpBtn" parentStyle="core.simplebt" backStyle="core.bg6905" backgoundInnerRectString="18,21,10,12,-1" textStyle="asset.farm.onekeyStartBtnTxt" width="85" height="38" x="318" y="10"/>
+ 		
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="asset.farm.farmChooseListPanel"
+			vScrollbarStyle="core.VScrollbar" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,0,22,0,5"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|core.comboxListCell,24,150"
+			listStyle="com.pickgliss.ui.controls.list.List" backgoundStyle="core.GoodsTipBg"
+			backgoundInnerRectString="2,2,6,3,-1" hScrollProxy="2" vScrollProxy="1"
+			vUnitIncrement="5"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.farm.farmChooseButton"
+			backStyle="asset.farm.farmChooseButtonAsset" height="29" width="190" displacement="false"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="asset.farm.farmChooseButtonAsset"
+			resourceLink="core.comboxInputbg2,asset.core.comboxBtn3" imageRectString="190|29|2|0|9,1|3|20|19|12" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="asset.farm.comboxListCellTxt" filterString="asset.farm.comboxListCellTxt.GF" textFormatStyle="asset.farm.comboxListCellTxt.TF"/>
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="asset.farm.farmChoose" listPanelStyle="asset.farm.farmChooseListPanel" buttonStyle="asset.farm.farmChooseButton" width="193" height="33" 
+			textStyle="asset.farm.comboxListCellTxt" listInnerRectString="5,33,10,75,18" textInnerRectString="13,25,7,0,0" x="195" y="89"/>	
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="asset.farm.timeChoose" listPanelStyle="asset.farm.farmChooseListPanel" buttonStyle="asset.farm.farmChooseButton" width="193" height="33" 
+			textStyle="asset.farm.comboxListCellTxt" listInnerRectString="5,33,10,75,18" textInnerRectString="13,25,7,0,0" x="195" y="124"/>	
+				
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.helperListItem.light" parentStyle="core.Scale9CornerImage.scale9CornerSparkBG" width="425" height="40"  x="0" y="0" />
+		
+		<custom classname="farmHouse.helpFrame.composeText" stylename="farm.helper.helpFrame.composeText" x="-150" y="-153"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.helper.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-18" y="-46" width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="farm.helper.HelpPrompt" bg9ScalseStyle="farm.helper.HelpFrame.FrameBg" contentStyle="assets.farm.helperTxt" x="35" y="90" />
+		<component classname="store.HelpFrame" stylename="farm.helper.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.HelperSet.bg" parentStyle="core.bg6920" scaleGridString="5,10,80,20" width="337" height="204" x="7" y="13" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.HelperSet.bgI" parentStyle="farm.baseFrameImagebg3" width="324" height="93" x="14" y="18"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.HelperSet.bgII" parentStyle="farm.baseFrameImagebg3" width="324" height="93" x="14" y="115"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperSet.NumberAddBtn" backStyle="asset.core.QuickNumberBtn1" filterString="null,lightFilter,null,grayFilter" x="256"  y="42"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperSet.NumberMinuesBtn" backStyle="asset.core.QuickNumberBtn2" filterString="null,lightFilter,null,grayFilter" x="256"  y="69"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.helper.SetInputBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG"  x="165" y="53" width="80" height="28"></component>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="farm.text.SetNumInput" textStyle="farm.text.shopPayNum" x="176" y="57" width="60" height="26" maxChars="3"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperSet.SeedBtn" backStyle="asset.farm.baseImage5" filterString="null,lightFilter,null,grayFilter" x="34"  y="31" width="72" height="74"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="helperSet.FertilizerBtn" backStyle="asset.farm.baseImage5" filterString="null,lightFilter,null,grayFilter" x="34"  y="127" width=""/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.Seed.Bg"
+			resourceLink="asset.farm.baseImage5,asset.farmHelper.SetBg1" imageRectString="0|72|0|74|13,9|54|15|38|13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.Fertilizer.Bg"
+			resourceLink="asset.farm.baseImage5,asset.farmHelper.SetBg" imageRectString="0|72|0|74|13,9|54|15|38|13"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="farm.helper.okBtn" x="48" y="226"  parentStyle='core.simplebt'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="farm.helper.ResetBtn" x='225' y='226'   parentStyle='core.simplebt'/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="asset.farmheler.btmBimap" resourceLink="asset.core.btmBG"
+			scaleGridString="14,13,250,22" x="8" y="221" width="335" height="42"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="farm.SeedListBg" resourceLink="asset.farmHouse.composeBg" scaleGridString="10,10,42,42" width="145" height="110" x="" y=""/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="farm.helper.Seedselect"  parentStyle="core.ScrollPanel"  hScrollProxy="2" vScrollProxy="0" x = "12" y = "4" width="125"  height="100"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="farm.helper.SeedList" spacing="-3" height="120"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.helper.SeedTxt" textFormatStyle="farm.helperSeedTxt.TF" filterString="farm.helperSeedTxt.GF" x="109" y="11"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.helper.SeedNumTxt" textFormatStyle="farm.helperSeedNumTxt.TF" filterString="farm.helperSeedNumTxt.GF" x="174" y="12"  />
+		<!-- 确认开启 -->
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="assets.farm.farmHelper.beginFrame.title"  x="130" y="-33"
+			resourceLink="farm.friendListTitleBg,farm.farmHelperTitle" />
+		<component classname="farm.viewx.helper.HelperBeginFrame" stylename="farm.farmHelperView.beginFrame" backStyle="farm.helperView.beginFrame.bg" closestyle="farm.closeBtn"  
+			closeInnerRectString="34,10,-12,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="130,-20,5"
+		 	escEnable="true" width="355" height="160" />  
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.helperView.beginFrame.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3" imageRectString="0|330|0|148|13,-14|355|-8|173|13,9|310|96|45|13"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.farm.beginFrame.explainText" textFormatStyle="assets.farm.beginFrame.explainText.TF" filterString="assets.farm.beginFrame.explainText.GF" autoSize="none" width="300" x="91" y="33"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.farm.beginFrame.explainText2" textFormatStyle="assets.farm.beginFrame.explainText.TF" filterString="assets.farm.beginFrame.explainText.GF" width="250" x="106" y="46"   />		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.farm.beginFrame.explainText3" textFormatStyle="assets.farm.beginFrame.explainText3.TF" filterString="assets.farm.beginFrame.explainText3.GF" width="250" x="52" y="72"   />	
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="com.farm.selectBtn" parentStyle="core.simpleSelectBtn"
+			width="103" height="28" x="104" y="309"  unSelectedStyle="asset.core.check2UnSelected" 
+			 selectedStyle="asset.core.check2Selected" 
+			displacement='false' />	
+		<!--商店 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.farmShopPayPnlTitle" textFormatStyle="farm.farmShopPayPnlTitle.TF" filterString="farm.farmShopPayPnlTitle.GF" x="50" y="256"  />
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.farmShopPayPnl.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,asset.core.btmBimap,assets.farm.titleSmall" imageRectString="10|16|8|18|0,,19|24|45|27|4,94|154|-24|28|13"/>	  
+		<component classname="farm.viewx.shop.FarmShopPayPnl" stylename="farm.farmShopPayPnl.shopPay" 
+			backStyle="farm.farmShopPayPnl.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,-2,-12,34,14" 
+			parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="137,-15,5" buttonToBottom="44"
+		 	width="345" height="300"    />				
+		 
+ 		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"  stylename="farm.baseImage.bg4" 
+			resourceLink="asset.farm.bg4"  scaleGridString="24,24,114,74" />	 
+			
+		<!--Alert--> 
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farmFrameBackgound" 
+				resourceLink="farm.baseImage2,farm.baseImage3,assets.farm.titleSmall,asset.core.btmBimap"  imageRectString="0|0|140|0|4,-10|-15|160|-10|4,90|100|28|143|4,12|32|38|15|4"/>
+				
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farmFrameBackgoundOne" 
+				resourceLink="farm.baseImage2,farm.baseImage3,assets.farm.titleSmall,asset.core.btmBimap"  imageRectString="10|15|140|0|4,0|0|160|-10|4,90|100|28|143|4,30|30|45|15|4"/>
+				
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farmFrameBackgoundTwo" 
+				resourceLink="farm.baseImage2,farm.baseImage3,assets.farm.titleSmall,asset.core.btmBimap"  imageRectString="-10|-15|140|0|4,-20|-6|160|-10|4,85|95|28|143|4,10|50|48|12|4"/>
+				
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farmSimpleAlert.textStyle" textFormatStyle="farmSimpleAlert.textStyle.TF" filterString="farmSimpleAlert.textStyle.GF" x="26" y="35"  />			   
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farmSimpleAlert.titleStyle" textFormatStyle="farmSimpleAlert.titleStyle.TF" filterString="farmSimpleAlert.titleStyle.GF" x="86" y="57"  />
+		
+		<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="farmSimpleAlertOne"
+			submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12"
+			textStyle="farmSimpleAlert.textStyle" titleOuterRectPosString="140,10,5"
+			backStyle="farmFrameBackgoundOne" closestyle="farm.closeBtn" 
+			titleStyle="farmSimpleAlert.titleStyle" containerX="20" containerY="40"
+			frameInnerRectString="87,60,70,85,-1" moveInnerRectString="0,30,0,30,1"
+			closeInnerRectString="34,-4,20,34,14" frameMiniW="290" frameMiniH="135"/>
+		
+		<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="farmSimpleAlertTwo"
+			submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12"
+			textStyle="farmSimpleAlert.textStyle" titleOuterRectPosString="140,10,5"
+			backStyle="farmFrameBackgoundTwo" closestyle="farm.closeBtn" 
+			titleStyle="farmSimpleAlert.titleStyle" containerX="20" containerY="40"
+			frameInnerRectString="87,60,70,85,-1" moveInnerRectString="0,30,0,30,1"
+			closeInnerRectString="34,-33,20,34,14" frameMiniW="290" frameMiniH="135"/>
+			
+		<component classname="com.pickgliss.ui.controls.alert.SimpleAlert" stylename="farmSimpleAlert"
+			submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12"
+			textStyle="farmSimpleAlert.textStyle" titleOuterRectPosString="121,10,5"
+			backStyle="farmFrameBackgoundOne" closestyle="farm.closeBtn"
+			titleStyle="farmSimpleAlert.titleStyle" containerX="20" containerY="40"
+			frameInnerRectString="100,60,70,85,-1" moveInnerRectString="0,30,0,30,1"
+			closeInnerRectString="34,-19,20,34,14" frameMiniW="290" frameMiniH="135"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.farmShopPayPnlTitle2" textFormatStyle="farm.farmShopPayPnlTitle2.TF" filterString="farm.farmShopPayPnlTitle.GF" x="50" y="256"  />
+		<component classname="farm.viewx.ConfirmKillCropAlertFrame" stylename="farm.confirmKillCropAlertFrame"  backStyle="farm.confirmKillCropAlert.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,5,-12,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle2" titleOuterRectPosString="110,-20,5"
+		 width="355" height="160" />  
+		 <component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.confirmKillCropAlert.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,asset.core.btmBimap" imageRectString="0|330|0|135|13,-14|355|-8|160|13,9|310|83|45|13"/>	 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.killCrop.msgtext" textFormatStyle="farm.killCrop.TF" filterString="farm.killCrop.GF" autoSize="none" width="250" height="50" x="50" y="30"/>
+		
+		<!--停止助手弹框 -->
+		<component classname="farm.viewx.confirmStopHelperFrame" stylename="farm.confirmStopHelperFrame"  backStyle="farm.confirmStopHelperFrame.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,5,-12,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="106,-20,5"
+		 width="355" height="160" />  
+		 <component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.confirmStopHelperFrame.bg" 
+		resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,asset.core.btmBimap" imageRectString="0|330|0|135|13,-14|355|-8|160|13,9|310|83|45|13"/>	 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.stopHelper.msgtext" textFormatStyle="farm.killCrop.TF" filterString="farm.killCrop.GF" autoSize="none" width="250" height="50" x="50" y="30"/>
+		
+		
+		<component classname="farm.viewx.ConfirmHelperMoneyAlertFrame" stylename="farm.confirmHelperMoneyAlertFrame"  backStyle="farm.confirmHelperMoneyAlert.bg" closestyle="farm.closeBtn"  closeInnerRectString="34,-27,-12,34,14" parentStyle="BaseFrame" titleStyle="farm.text.farmShopPayPnlTitle" titleOuterRectPosString="143,-20,5" width="355" height="300" />  
+		<component classname="com.pickgliss.ui.image.MutipleImage"  stylename="farm.confirmHelperMoneyAlert.bg" resourceLink="farm.baseFrameBg2,farm.baseFrameBg3,asset.core.btmBimap" imageRectString="0|365|0|180|13,-14|390|-8|205|13,13|340|128|45|13"/>	 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.helperMoney.timeText" textFormatStyle="farm.TF3" filterString="farm.GF3" width="200" height="23" x="20" y="10"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.helperMoney.payText" textFormatStyle="farm.TF3" filterString="farm.GF3" autoSize="none" width="200" height="23" x="65" y="93"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="confirmHelperMoneyAlertFrame.selectTS" textFormatStyle="confirmHelperMoneyAlertFrame.nameTF" multiline="false" wordWrap="false" height="22" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="confirmHelperMoneyAlertFrame.selectOne" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" x="65" y="40"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="confirmHelperMoneyAlertFrame.selectTwo" parentStyle="ddtshop.CartItemSelectBtn" textStyle="farm.buyview.selectText" x="190" y="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="confirmHelperMoneyAlertFrame.showPayMoneyTxt" textFormatStyle="farm.TF5" filterString="farm.GF5" width="350" height="20" x="185" y="93" />
+		<component classname="com.pickgliss.ui.image.Image" stylename="confirmHelperMoneyAlertFrame.showMoneyBg" resourceLink="assets.farmShop.payBg" x="13" y="-100"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="farm.confirmHelperMoneyAlertFrame.bg3" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="342" height="50" x="13" y="27"/>
+		
+		<!-- 新宠展示 -->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel"
+			stylename="farm.scrollPanel.petSkillPnl" parentStyle="core.ScrollPanel"
+			width="226" height="99" vScrollProxy="0" hScrollProxy="2" y="1" x="1"
+			vUnitIncrement="3" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="farm.pet.newPetSkillTxt" textFormatStyle="farm.pet.newPetSkillTxt.tf"
+			filterString="farm.pet.newPetSkillTxt.gf" autoSize="none" x="25" y="142"
+			width="150" height="27" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="farm.pet.newPetComeTxt" textFormatStyle="farm.pet.newPetComeTxt.tf"
+			filterString="farm.pet.newPetComeTxt.gf" autoSize="none" x="30" y="248"
+			width="165" height="27" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="farm.pet.newPetDescTxt" textFormatStyle="farm.pet.newPetDescTxt.tf"
+			filterString="farm.pet.newPetDescTxt.gf" wordWrap="true" autoSize="none"
+			x="30" y="270" width="165" height="50" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="confirmHelperMoneyAlertFrame.newPetComesTxt"
+			textFormatStyle="asset.farm.newPetComes.TF" filterString="asset.farm.newPetComes.GF"
+			width="100" height="60" x="662" y="54" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="farm.pet.newPetLvTxt"
+			textFormatStyle="farm.pet.newPetLvTxt.TF" filterString="farm.pet.newPetLvTxt.GF"
+			width="50" height="25" x="90" y="130" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="farm.newPetSkill.bg" parentStyle="asset.core.btmBimap" width="178"
+			height="94" x="23" y="152" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.farm.bandMoney" textFormatStyle="totem.leftView.farm.tf" filterString="totem.leftView.farm.gf" autoSize="none" width="130" height="22" x="135" y="317"/>
+		<!-- 4.9.5新增 -->	
+		<component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="farm.nameChooseListCell" backStyle="bag.nameChooseListCellAsset" textStyle="core.comboxListCellTxt" backgoundInnerRectString="3,10,2,5,-1" autoSizeAble="false" width="176" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.countdown" textFormatStyle="farm.countdown.TF" filterString="farm.countdown.GF" x="34" y="10"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.buyview.discountText" textFormatStyle="farm.TF5" filterString="farm.GF5" x="225" y="36"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="farm.text.adoptRefresh2" textFormatStyle="petsBag.refresh.TF2" filterString="petsBag.refresh.GF" multiline="false" wordWrap="false"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="farm.fastForwardBtn" backStyle="asset.farm.clock" x="0" y="0"/>
+	</components>
+	
+	
+	<bitmaps>
+	
+		<bitmapData resourceLink="asset.farm.friendListTitleImge" x="33" y="5"/>
+		<bitmapData resourceLink="asset.farm.itemMouseOverBg" width="165"/>
+		<bitmapData resourceLink="asset.farm.returnTohall" x="8" y="2"/>
+		<bitmapData resourceLink="asset.farm.farmShop" x="5" />
+		<bitmapData resourceLink="asset.farm.doSeed" x="-1" y="3"/>
+		<bitmapData resourceLink="asset.farm.selectViewTitle" x="18" y="12"/>
+		<bitmapData resourceLink="asset.farm.manureselectViewTitle" x="18" y="12"/>
+		<bitmapData resourceLink="asset.spread.showFeeBg" x="39" y="193" width="337" height="33"/>
+		<bitmapData resourceLink="assets.farmShop.exchange" width="69" height="24"/>
+		<!--shop compose-->
+		<bitmapData resourceLink="assets.petsBag.adoptTitle" x="23" y="7"/>
+		<bitmapData resourceLink="assets.farm.petPnlBg2" x="-5" y="-5"/>
+		<bitmapData resourceLink="assets.farmShop.titleFont" x="29" y="19"/> 
+		<!--shop -->
+		<bitmapData resourceLink="assets.farm.titleSmall" x="80" y="-26"/>
+		<bitmapData resourceLink="assets.farmHouse.title" x="35" y="7"/> 
+		<bitmapData resourceLink="asset.farm.isStolenImage" x="138" y="4"/>
+		<bitmapData resourceLink="assets.farmShop.payBg" x="5" y="184"/>
+		<bitmapData resourceLink="assets.farm.petRefreshVolumeImg" x="0" y="0"/>
+		<bitmapData resourceLink="assets.farm.petRecommendImg" x="48" y="30"/>
+		<bitmapData resourceLink="assets.farm.killCropImg" x="138" y="4"/>
+		<bitmapData resourceLink="assets.farm.SelectpetPnlBgFourStar" x="-6" y="-4"/>
+		<bitmapData resourceLink="asset.farmHelper.SetBg" x="9" y="15"/>
+		<bitmapData resourceLink="asset.farmHelper.SetBg1" x="9" y="15"/>
+		<bitmapData resourceLink="assets.farmShop.promptPop" x="704" y="85"/>
+		<bitmapData resourceLink="assets.farmShop.petCreditTxt" x="380" y="263"/>
+		<bitmapData resourceLink="assets.farm.newPetCome" x="67" y="-13"/>
+		<!-- 新宠物 -->
+		<bitmapData resourceLink="assets.farm.newPetPao" x="642" y="29" />
+		<bitmapData resourceLink="assets.farm.newdragon" x="729" y="13" />
+		<bitmapData resourceLink="asset.farm.buyExpFrameGB" x="13" y="39" />
+		
+		<bitmapData resourceLink="asset.farm.buyExpBtnBG" x="-11" y="-1" />
+		
+	</bitmaps>
+	
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="farm.HelperBeginTitlePos" x="90" y="-26"/> 
+		<custom classname="flash.geom.Point" stylename="farm.confirmHelperBeginAlertBtnPos" x="45" y="102"/>
+		<custom classname="flash.geom.Point" stylename="farm.helperBeginExplainPos2" x="16" y="22"/>
+		<custom classname="flash.geom.Point" stylename="farm.helperBeginExplainPos1" x="16" y="36"/>
+		<custom classname="flash.geom.Point" stylename="farm.waterPos" x="17.35" y="469.5"/>
+		<custom classname="flash.geom.Point" stylename="farm.waterPos1" x="65" y="64"/>
+		<custom classname="flash.geom.Point" stylename="farm.waterwheelPos" x="120.25" y="549.1"/>
+		<custom classname="flash.geom.Point" stylename="farm.farmhousebtnPos" x="78" y="25"/>
+		<custom classname="flash.geom.Point" stylename="farm.pasturehousebtnPos" x="680" y="89"/>
+		<custom classname="flash.geom.Point" stylename="farm.friendListViewPos" x="769" y="16"/>
+		<custom classname="flash.geom.Point" stylename="farm.floatPos" x="720" y="52"/>
+		<custom classname="flash.geom.Point" stylename="farm.fireflyPos1" x="68" y="295"/>
+		<custom classname="flash.geom.Point" stylename="farm.fireflyPos2" x="536" y="109"/>
+		<custom classname="flash.geom.Point" stylename="farm.fireflyPos3" x="964" y="126"/>
+		<custom classname="flash.geom.Point" stylename="farm.seedSelectViewPos" x="497" y="413"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmComposeAlertBtnPos" x="45" y="90"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmComposeAlertTitlePos" x="92" y="-29"/>	
+		<custom classname="flash.geom.Point" stylename="farm.refreshPetAlertBtnPos" x="50" y="125"/>
+		<custom classname="flash.geom.Point" stylename="farm.refreshPetAlertTitlePos" x="96" y="-10"/>	 
+		<custom classname="flash.geom.Point" stylename="farm.confirmStopHelperFramePos" x="45" y="90"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmStopHelperFrameTitlePos" x="92" y="-29"/>
+		<custom classname="flash.geom.Point" stylename="farm.treasure.button.pos" x="5" y="92" />
+		<custom classname="flash.geom.Point" stylename="farm.componseItem.cellPos" x="7" y="6"/>
+					
+		<custom classname="farm.viewx.FarmFriendListItem" stylename="farmFriendListItemStyle"/>
+		<!--shop compose-->
+		<custom classname="flash.geom.Point" stylename="farm.shopPayCell.point" x="34" y="29"/>		
+		<custom classname="flash.geom.Point" stylename="farm.composeMoveScroll.point" x="2" y="238"/>		
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="farm.simpleTileList.petAdop" x='55' y='33' hSpace='97' vSpace='106'/>
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="farm.simpleTileList.farmShop"  x='44' y='68' hSpace='-1' vSpace='0'/>
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="farm.simpleTileList.farmHouse" x='28' y='78' hSpace='10' vSpace='13'/>
+		<custom classname="petsBag.view.item.AdoptItem" stylename="farm.petAdoptItem" x="0" y="0" />
+		<custom classname="petsBag.view.item.StarBar" stylename="farm.starBar.petStar" x="9" y="82" />
+		<custom classname="farm.viewx.shop.FarmShopItem" stylename="farmShop.farmShopItem" /> 
+		<custom classname="farm.view.compose.item.ComposeItem" stylename="farmHouse.composeItem" x="0" y="0" />
+		
+		<custom classname="flash.geom.Point" stylename="farm.houseCompose.point0" x="58" y="87"/>
+		<custom classname="flash.geom.Point" stylename="farm.houseCompose.point1" x="329" y="87"/>
+		<custom classname="flash.geom.Point" stylename="farm.houseCompose.point2" x="58" y="160"/>
+		<custom classname="flash.geom.Point" stylename="farm.houseCompose.point3" x="329" y="160"/>
+		<custom classname="flash.geom.Point" stylename="farm.selectComposeFoodPnlPos" x="242" y="132"/>
+		<custom classname="farmHouse.helpFrame.composeText" stylename="farmHouse.helpFrame.composeText" x="-150" y="-153"/>
+		
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos0" x="161" y="0"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos1" x="234" y="37"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos2" x="108" y="38"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos3" x="181" y="74"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos4" x="54" y="76"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos5" x="127" y="111"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos6" x="0" y="113"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos7" x="73" y="148"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos8" x="306" y="73"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos9" x="380" y="108"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos10" x="256" y="109"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos11" x="327" y="145"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos12" x="202" y="146"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos13" x="274" y="182"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos14" x="149" y="183"/>
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView.fieldPos15" x="223" y="219"/>
+		
+		<custom classname="flash.geom.Point" stylename="farm.fieldsView" x="322" y="200"/>
+		<custom classname="flash.geom.Point" stylename="farm.shopItem.pos" x="5" y="3"/>
+		<custom classname="flash.geom.Point" stylename="farm.farmFieldBlock.pos" x="38" y="3"/>
+		<custom classname="flash.geom.Point" stylename="farm.buyView.titlePos" x="111" y="-33"/>
+		<custom classname="flash.geom.Point" stylename="farm.buyView.closePos" x="348" y="-22"/>
+		<custom classname="flash.geom.Point" stylename="farm.buyView.bg4Pos" x="8" y="102"/>
+		<custom classname="flash.geom.Point" stylename="farm.composePnl.cellPos" x="10" y="10"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmComposeFoodAlertFrame.cellPos" x="5" y="5"/>
+		
+		<custom classname="flash.geom.Point" stylename="farm.adoptItem.iconPos" x="16" y="14"/>
+		<custom classname="ddt.command.StripTip" stylename="farm.refreshVolumeStripTip" tipStyle="ddt.view.tips.OneLineTip" width="29" height="26" tipDirctions="0,3,4" x="40" y="280" tipGapH="5"/>
+		<custom classname="ddt.view.common.LevelIcon" stylename="farm.friendListItem.levelIcon" x="6" y="2"/>
+		
+		<custom classname="flash.geom.Point" stylename="farm.selectComposeFoodListPnlPos" x="185" y="181"/>
+		
+		<!-- helper -->
+		<custom classname="farm.viewx.helper.HelperItem" stylename="helperItem" />
+		<custom classname="farm.viewx.helper.HelperList"  stylename="helperList"  x="10"  y="44"/>
+		
+		<custom classname="flash.geom.Point" stylename="farm.farmShovelBtn" x="1015" y="460"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmKillCropAlertBtnPos" x="45" y="90"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmKillCropAlertTitlePos" x="92" y="-29"/>	
+		<custom classname="flash.geom.Point" stylename="farm.confirmHelperMoneyAlertBtnPos" x="40" y="135"/>
+		<custom classname="flash.geom.Point" stylename="farm.confirmHelperMoneyAlertTitlePos" x="102" y="-29"/>	
+		<custom classname="petsBag.view.item.PetBigItem" stylename="petsBag.petMovieItem" x="45" y="60" />
+		<custom classname="flash.geom.Point" stylename="farm.helperSettilte.Pos" x="101" y="-26"/>
+		<custom classname="flash.geom.Point" stylename="farm.helperSettilteTxt.Pos" x="104" y="-17"/>
+		<custom classname="flash.geom.Point" stylename="farm.helperSetAddbtn.Pos" x="256" y="138"/>
+		<custom classname="flash.geom.Point" stylename="farm.helperSetMinues.Pos" x="256" y="166"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.SetInputBg.Pos" x="165" y="149"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.SetInputTxt.Pos" x="176" y="153"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.NumberTxt.Pos" x="90" y="154"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.cellPos" x="3" y="1"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.alertTipPos" x="70" y="68"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.SeedTxtPos" x="223" y="11"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.SeedTxtNumPos" x="289" y="12"/>
+		<custom classname="flash.geom.Point" stylename="farm.helper.startHelper.mc.Pos" x="170" y="29"/>
+		
+		<custom classname="flash.geom.Point" stylename="farmSimpleAlertButtonPos" x="55" y="123"/>
+
+		<custom classname="flash.geom.Point" stylename="assets.farm.itemPos"
+			x="21" y="21" />
+
+		<custom classname="flash.geom.Rectangle" stylename="farm.adoptItem.goodBitmapSize"
+			x="0" y="0" width="50" height="50" />
+		<custom classname="farm.viewx.newPet.NewPetSkillPanel"
+			stylename="farm.petSkillPnl" scaleX="0.8" scaleY="0.8" x="32" y="161" />
+		<custom classname="asset.core.ItemCellUnSelected" stylename="farm.skillItemBG"
+			alpha="0.5" width="46" height="46" x="0" y="0" />
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList"
+			stylename="farm.simpleTileList.petSkill" x='0' y='0' hSpace='5'
+			vSpace='3.9' />
+		<custom classname="flash.geom.Point" stylename="assets.farm.petRefreshPos"
+			x="292" y="267"/>
+		<custom classname="flash.geom.Point" stylename="assets.farm.petFreeRefreshPos"
+			x="260" y="267"/>
+			
+		<custom classname="flash.geom.Point" stylename="assets.farm.adoptBtnPos1"
+			x="155" y="263"/>
+		<custom classname="flash.geom.Point" stylename="assets.farm.adoptBtnPos2"
+			x="190" y="263"/>
+			
+			
+		<custom classname="flash.geom.Point" stylename="assets.farm.countdownPos" x="19" y="-29"/>
+		<custom classname="flash.geom.Point" stylename="assets.farm.filedbolckRect" x="273" y="90"/>
+		
+		<custom classname="flash.geom.Point" stylename="asset.ddtshop.PayPaneBuyBtnPos" x="18" y="69"/>
+		<custom classname="flash.geom.Point" stylename="asset.ddtshop.exchangePos" x="5" y="69"/>
+	</customDisplay>
+</style>

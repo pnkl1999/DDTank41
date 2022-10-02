@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CenterService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="NetTcpBinding_ICenterService_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <msb:BinaryEncoding xmlns:msb="http://schemas.microsoft.com/ws/06/2004/mspolicy/netbinary1" />
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:2008/CenterService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:2008/CenterService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:2008/CenterService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Center.Server" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICenterService_GetServerList_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerList" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_GetServerList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ChargeMoney_InputMessage">
+    <wsdl:part name="parameters" element="tns:ChargeMoney" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ChargeMoney_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ChargeMoneyResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_SystemNotice_InputMessage">
+    <wsdl:part name="parameters" element="tns:SystemNotice" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_SystemNotice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SystemNoticeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_KitoffUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:KitoffUser" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_KitoffUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:KitoffUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ReLoadServerList_InputMessage">
+    <wsdl:part name="parameters" element="tns:ReLoadServerList" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ReLoadServerList_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReLoadServerListResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_MailNotice_InputMessage">
+    <wsdl:part name="parameters" element="tns:MailNotice" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_MailNotice_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MailNoticeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ActivePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:ActivePlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ActivePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ActivePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_CreatePlayer_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePlayer" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_CreatePlayer_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreatePlayerResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ValidateLoginAndGetID_InputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateLoginAndGetID" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ValidateLoginAndGetID_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ValidateLoginAndGetIDResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_AASUpdateState_InputMessage">
+    <wsdl:part name="parameters" element="tns:AASUpdateState" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_AASUpdateState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AASUpdateStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_AASGetState_InputMessage">
+    <wsdl:part name="parameters" element="tns:AASGetState" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_AASGetState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AASGetStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ExperienceRateUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExperienceRateUpdate" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_ExperienceRateUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExperienceRateUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_NoticeServerUpdate_InputMessage">
+    <wsdl:part name="parameters" element="tns:NoticeServerUpdate" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_NoticeServerUpdate_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NoticeServerUpdateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_UpdateConfigState_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateConfigState" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_UpdateConfigState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateConfigStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_GetConfigState_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetConfigState" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_GetConfigState_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetConfigStateResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_Reload_InputMessage">
+    <wsdl:part name="parameters" element="tns:Reload" />
+  </wsdl:message>
+  <wsdl:message name="ICenterService_Reload_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ReloadResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICenterService">
+    <wsdl:operation name="GetServerList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/GetServerList" message="tns:ICenterService_GetServerList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/GetServerListResponse" message="tns:ICenterService_GetServerList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ChargeMoney">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/ChargeMoney" message="tns:ICenterService_ChargeMoney_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/ChargeMoneyResponse" message="tns:ICenterService_ChargeMoney_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SystemNotice">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/SystemNotice" message="tns:ICenterService_SystemNotice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/SystemNoticeResponse" message="tns:ICenterService_SystemNotice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="KitoffUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/KitoffUser" message="tns:ICenterService_KitoffUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/KitoffUserResponse" message="tns:ICenterService_KitoffUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ReLoadServerList">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/ReLoadServerList" message="tns:ICenterService_ReLoadServerList_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/ReLoadServerListResponse" message="tns:ICenterService_ReLoadServerList_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="MailNotice">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/MailNotice" message="tns:ICenterService_MailNotice_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/MailNoticeResponse" message="tns:ICenterService_MailNotice_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ActivePlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/ActivePlayer" message="tns:ICenterService_ActivePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/ActivePlayerResponse" message="tns:ICenterService_ActivePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreatePlayer">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/CreatePlayer" message="tns:ICenterService_CreatePlayer_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/CreatePlayerResponse" message="tns:ICenterService_CreatePlayer_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ValidateLoginAndGetID">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/ValidateLoginAndGetID" message="tns:ICenterService_ValidateLoginAndGetID_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/ValidateLoginAndGetIDResponse" message="tns:ICenterService_ValidateLoginAndGetID_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AASUpdateState">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/AASUpdateState" message="tns:ICenterService_AASUpdateState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/AASUpdateStateResponse" message="tns:ICenterService_AASUpdateState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AASGetState">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/AASGetState" message="tns:ICenterService_AASGetState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/AASGetStateResponse" message="tns:ICenterService_AASGetState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ExperienceRateUpdate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/ExperienceRateUpdate" message="tns:ICenterService_ExperienceRateUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/ExperienceRateUpdateResponse" message="tns:ICenterService_ExperienceRateUpdate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NoticeServerUpdate">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/NoticeServerUpdate" message="tns:ICenterService_NoticeServerUpdate_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/NoticeServerUpdateResponse" message="tns:ICenterService_NoticeServerUpdate_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigState">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/UpdateConfigState" message="tns:ICenterService_UpdateConfigState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/UpdateConfigStateResponse" message="tns:ICenterService_UpdateConfigState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigState">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/GetConfigState" message="tns:ICenterService_GetConfigState_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/GetConfigStateResponse" message="tns:ICenterService_GetConfigState_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Reload">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICenterService/Reload" message="tns:ICenterService_Reload_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICenterService/ReloadResponse" message="tns:ICenterService_Reload_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="NetTcpBinding_ICenterService" type="tns:ICenterService">
+    <wsp:PolicyReference URI="#NetTcpBinding_ICenterService_policy" />
+    <soap12:binding transport="http://schemas.microsoft.com/soap/tcp" />
+    <wsdl:operation name="GetServerList">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/GetServerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChargeMoney">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/ChargeMoney" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SystemNotice">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/SystemNotice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="KitoffUser">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/KitoffUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ReLoadServerList">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/ReLoadServerList" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MailNotice">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/MailNotice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ActivePlayer">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/ActivePlayer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreatePlayer">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/CreatePlayer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValidateLoginAndGetID">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/ValidateLoginAndGetID" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AASUpdateState">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/AASUpdateState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AASGetState">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/AASGetState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExperienceRateUpdate">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/ExperienceRateUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NoticeServerUpdate">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/NoticeServerUpdate" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateConfigState">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/UpdateConfigState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetConfigState">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/GetConfigState" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Reload">
+      <soap12:operation soapAction="http://tempuri.org/ICenterService/Reload" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CenterService">
+    <wsdl:port name="NetTcpBinding_ICenterService" binding="tns:NetTcpBinding_ICenterService">
+      <soap12:address location="net.tcp://localhost:2009/" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>net.tcp://localhost:2009/</wsa10:Address>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

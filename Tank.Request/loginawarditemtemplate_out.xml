@@ -1,0 +1,24 @@
+<Result value="true" message="Success!">
+  <Item ID="1" Count="1" RewardItemID="11025" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="8" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="2" Count="1" RewardItemID="11901" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="2" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="3" Count="2" RewardItemID="11025" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="10" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="4" Count="2" RewardItemID="11035" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="5" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="5" Count="2" RewardItemID="11901" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="3" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="6" Count="3" RewardItemID="11035" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="5" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="7" Count="3" RewardItemID="112108" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="3" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="8" Count="3" RewardItemID="11902" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="2" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="9" Count="3" RewardItemID="11213" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="1" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="10" Count="4" RewardItemID="11917" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="3" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="11" Count="4" RewardItemID="332115" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="8" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="12" Count="4" RewardItemID="11025" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="15" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="13" Count="5" RewardItemID="313999" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="5" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="14" Count="5" RewardItemID="332116" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="4" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="15" Count="5" RewardItemID="11025" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="15" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="16" Count="6" RewardItemID="40001" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="8" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="17" Count="6" RewardItemID="100100" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="30" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="18" Count="6" RewardItemID="11035" IsSelect="false" IsBind="true" RewardItemValid="0" RewardItemCount="8" StrengthenLevel="0" AttackCompose="0" DefendCompose="0" AgilityCompose="0" LuckCompose="0" />
+  <Item ID="19" Count="7" RewardItemID="70266" IsSelect="true" IsBind="true" RewardItemValid="10" RewardItemCount="1" StrengthenLevel="12" AttackCompose="50" DefendCompose="50" AgilityCompose="50" LuckCompose="50" />
+  <Item ID="20" Count="7" RewardItemID="70276" IsSelect="true" IsBind="true" RewardItemValid="10" RewardItemCount="1" StrengthenLevel="12" AttackCompose="50" DefendCompose="50" AgilityCompose="50" LuckCompose="50" />
+  <Item ID="21" Count="7" RewardItemID="70416" IsSelect="true" IsBind="true" RewardItemValid="10" RewardItemCount="1" StrengthenLevel="12" AttackCompose="50" DefendCompose="50" AgilityCompose="50" LuckCompose="50" />
+  <Item ID="22" Count="7" RewardItemID="70246" IsSelect="true" IsBind="true" RewardItemValid="10" RewardItemCount="1" StrengthenLevel="12" AttackCompose="50" DefendCompose="50" AgilityCompose="50" LuckCompose="50" />
+</Result>

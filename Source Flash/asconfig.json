@@ -1,0 +1,13 @@
+{
+	"compilerOptions": {
+		"output": "bin/Source Flash.swc",
+		"source-path": [
+			"src"
+		],
+		"include-sources": [
+			"src"
+		]
+	},
+	"type": "lib",
+	"additionalOptions": "-locale en_US"
+}

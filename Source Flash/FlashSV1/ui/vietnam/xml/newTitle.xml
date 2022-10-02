@@ -1,0 +1,98 @@
+<style name="newTitle" version="1.0.1" source="ui/vietnam/swf/newTitle.swf">
+	<sets>
+		<set stylename="newTitle.titleTF1" args="Arial,14,0xffe0a8,true" type="flash.text.TextFormat"></set>
+		<set stylename="newTitle.titleGF1" args="0x4a2406,2,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="newTitle.titleTF2" args="Arial,14,0xfffbe9,true" type="flash.text.TextFormat"></set>
+		<set stylename="newTitle.titleGF2" args="0x744a16,2,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="newTitle.titleTF3" args="Arial,14,0xefd099,true" type="flash.text.TextFormat"></set>
+		<set stylename="newTitle.titleGF3" args="0x4a310b,2,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="newTitle.titleTF4" args="Arial,12,0xffffff,true" type="flash.text.TextFormat"></set>
+		<set stylename="newTitle.titleGF4" args="0x000000,2,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="newTitle.titleTF5" args="Arial,12,0xfff5cb" type="flash.text.TextFormat" leading="10"></set>
+		<set stylename="newTitle.titleGF5" args="0x5c3405,2,4,4,30" type="flash.filters.GlowFilter"></set>
+		<set stylename="newTitle.titleTF6" args="Arial,14,0xfff5cb,true" type="flash.text.TextFormat" leading="10"></set>
+		<set stylename="newTitle.titleGF6" args="0x5c3405,2,4,4,30" type="flash.filters.GlowFilter"></set>
+	</sets>
+	<customs>
+		<custom classname="flash.geom.Point" stylename="newTitle.listPos" x="19" y="102"/>
+	</customs>
+	<components>
+		<!--Text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newTitle.currentTitleTxt" 
+			textFormatStyle="newTitle.titleTF1" filterString="newTitle.titleGF1" x="12" y="15"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newTitle.selectText" 
+			textFormatStyle="newTitle.titleTF2" filterString="newTitle.titleGF2" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newTitle.unSelectText" 
+			textFormatStyle="newTitle.titleTF3" filterString="newTitle.titleGF3" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newTitle.titleNameItemText" 
+			textFormatStyle="newTitle.titleTF4" filterString="newTitle.titleGF4" x="0" y="9"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newTitle.propertyText" wordWrap="true"
+			textFormatStyle="newTitle.titleTF5" filterString="newTitle.titleGF5" width="180" x="230" y="178"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="newTitle.titleText"
+			textFormatStyle="newTitle.titleTF6" filterString="newTitle.titleGF6"/>
+		
+		<!--Image-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="newTitle.titleBottom" resourceLink="asset.newTitle.bottomBG" 
+			scaleGridString="10,10,157,86" width="419" height="50"  x="4" y="6"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="newTitle.useBtnBG" resourceLink="asset.core.btmBG" 
+			scaleGridString="14,13,250,22" width="419" height="55"  x="4" y="362"/>
+		
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="newTitle.titleBottomBg" 
+			resourceLink="newTitle.BG01,newTitle.BG02" x="1" y="95" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="newTitle.BG01" width="419" height="265"
+			resourceLink="asset.core.ddtScale9CornerImage12,core.Scale9CornerImage.weilifur"
+			imageRectString=",1|1|1|1|0" x="3" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="newTitle.BG02"
+			resourceLink="core.Scale9CornerImage.SimpleTableBackgound2,core.Scale9CornerImage.weilifur"
+			imageRectString=",5|7|5|7|0" width="217" height="263" x="6" y="2" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="newTitle.titleListBg" resourceLink="asset.core.btmBG" 
+			scaleGridString="14,13,250,22" width="181" height="242"  x="15" y="107"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="newTitle.titleNameBg" 
+			resourceLink="newTitle.nameBg01,newTitle.nameBg02" x="-3" y="3"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="newTitle.nameBg01" 
+			width="175" height="31" resourceLink="asset.core.ScaleLeftRightImage2.1,asset.core.ScaleLeftRightImage2.2,asset.core.ScaleLeftRightImage2.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="newTitle.nameBg02" 
+			width="175" height="31" resourceLink="asset.core.ScaleLeftRightImage3.1,asset.core.ScaleLeftRightImage3.2,asset.core.ScaleLeftRightImage3.3"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="newTitle.titlePro" 
+			parentStyle="core.goldlinebg2" width="184" height="253" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="newTitle.titleProBg"
+			resourceLink="newTitle.titlePro,ddtshop.GoodItemDotLine,ddtshop.GoodItemDotLine"
+			imageRectString=",5|176|70|3|13,5|176|196|3|13" width="191" height="251" x="224" y="104" />
+
+		<!--Button-->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="newTitle.useBtn" 
+			backStyle="asset.newTitle.useBtn" x="157" y="367"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="newTitle.hideBtn" 
+			parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" 
+			backStyle="asset.newTitle.hide"	x="334" y="16" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="7,3,6" />
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="newTitle.hasTitleBtn" 
+			textStyle="newTitle.selectText,newTitle.unSelectText" displacement='false' autoSizeAble="true" 
+			selectedStyle="core.bg6923" unSelectedStyle="core.bg6922" x="13" y="57"
+			backgoundInnerRectString="8|91|11|50|13,4|83|1|30|13" unSelectedButtonOuterRectPosString="2,9,5"/>
+		<component classname="com.pickgliss.ui.controls.SelectedTextButton" stylename="newTitle.allTitleBtn" 
+			textStyle="newTitle.selectText,newTitle.unSelectText" displacement='false' autoSizeAble="true" 
+			selectedStyle="core.bg6923" unSelectedStyle="core.bg6922" x="101" y="57"
+			backgoundInnerRectString="7|91|10|50|13,4|83|0|30|13" unSelectedButtonOuterRectPosString="5,9,5"/>
+	
+		
+		<!-- Frame -->
+		<component classname="newTitle.view.NewTitleFrame" stylename="newTitle.newTitleView" backStyle="SimpleFrameBackgoundOne" 
+			parentStyle="BaseFrame" titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,22,6,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="24,10,5" moveInnerRectString="0,30,0,30,1"
+			width="457" height="473" moveEnable="false" escEnable="true" y="80"/>
+
+		
+		<!--scrollPanel-->
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="newTitle.list" parentStyle="core.ScrollPanel" 
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|newTitle.view.NewTitleListCell,35,185" 
+			listStyle="com.pickgliss.ui.controls.list.List" vScrollbarInnerRectString="21,4,0,0,3" 
+			vScrollProxy="1" hScrollProxy="2" vUnitIncrement="35" width="200" height="240" x="2" y="5" />
+		
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.newTitle.titleBg" x="4" y="6"/>
+		<bitmapData resourceLink="asset.newTitle.hide" x="32" y="6"/>
+		<bitmapData resourceLink="asset.newTitle.unselectBtn" y="4" />
+		<bitmapData resourceLink="asset.newTitle.shine" x="-4" y="-1" />
+		</bitmaps>
+</style>

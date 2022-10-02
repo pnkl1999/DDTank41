@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="bank" version="1.0.1" source="ui/spain/swf/bank.swf">
+<sets>
+		
+		
+</sets>
+<customDisplay>
+	<!--<custom classname="flash.geom.Point" stylename="consortion.bank.Pos" x="-481" y="20"/>-->
+	<custom classname="bagAndInfo.bag.BankBagView" stylename="bag.bankBagView"  x="512" y="34"/>
+	<!--<custom classname="consortion.view.selfConsortia.ConsortionBankBagView" stylename="consortionBankBagView"  x="512" y="34"/>-->
+	<!--<custom classname="flash.geom.Point" stylename="consortion.bank.listPos" x="13" y="83"/>-->		
+	<!--<custom classname="flash.geom.Point" stylename="consortion.bank.equipPos"  x="346" 	y="47"/>-->
+	<!--<custom classname="flash.geom.Point" stylename="consortion.bank.propPos"  x="346" 	y="195"/>-->
+	<!--<custom classname="flash.geom.Point" stylename="consortion.bank.cardPos"  x="344" 	y="340"/>-->
+	<!--<custom classname="flash.geom.Point" stylename="consortion.bank.bg2Pos"  x="9" 	y="47"/>-->
+</customDisplay>
+<components>
+	<!-- bank -->
+	<!--<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="consortion.bank.bg"  resourceLink="asset.consortion.bank.9core1,asset.consortion.bank.9core2,asset.consortion.bank.9core3,asset.consortion.bank.9core4,asset.consortion.bank.9core5,asset.consortion.bank.9core6,asset.consortion.bank.9core7,asset.consortion.bank.9core8,asset.consortion.bank.9core9"  width="491" 	height="491" x="18" y="37" />-->
+	<!--<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="consortion.bankBag.bg"  resourceLink="asset.core.consortionBank.1,asset.core.consortionBank.2,asset.core.consortionBank.3,asset.core.consortionBank.4,asset.core.consortionBank.5,asset.core.consortionBank.6,asset.core.consortionBank.7,asset.core.consortionBank.8,asset.core.consortionBank.9"  width="358" 	height="462" x="-5" y="35" />-->
+	<!--<component classname="com.pickgliss.ui.image.MutipleImage" stylename="consortion.bankBag.mutiple" resourceLink="asset.consortion.bank.smallBG,asset.consortion.bank.money,asset.consortion.bank.model,asset.consortion.bank.gold,asset.consortion.bank.cash,asset.consortion.bank.item"  x="11" y="413"/>-->
+	<!--<component classname="com.pickgliss.ui.controls.BaseButton" stylename="consortion.bank.return"  backStyle="asset.consortion.bank.return" filterString="null,lightFilter,null,grayFilter" x="640" y="504"/>-->
+	<!--<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="consortion.bank.tab"  resourceLink="asset.consortion.bankBag.equipTab,asset.consortion.bankBag.propTab" x="345" y="40"/>-->
+	<!--<component classname="consortion.view.selfConsortia.ConsortionBankFrame" stylename="consortionBankFrame"  width="930" 	height="570" moveEnable="false" backStyle="core.bg006" closestyle="core.closebt" 	titleStyle="FrameTitleTextStyle"  titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>-->	
+	<component classname="bagAndInfo.bag.BankFrame" stylename="BankFrame"  width="930" 	height="570" moveEnable="false" backStyle="core.bg006" closestyle="core.closebt" 	titleStyle="FrameTitleTextStyle"  titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>	
+</components>
+
+<bitmaps>
+	
+	<bitmapData resourceLink="asset.consortion.bankFrame.title" x="103" y="6" />
+	<bitmapData resourceLink="asset.consortion.bank.title" x="15" y="55" />
+	<bitmapData resourceLink="asset.consortion.bank.smallBG" x="-1"  y="0" />
+	<bitmapData resourceLink="asset.consortion.bank.money" x="1"  y="6" />
+	<bitmapData resourceLink="asset.consortion.bank.model" x="106"  y="35" />
+	<bitmapData resourceLink="asset.consortion.bank.gold" x="1"  y="35" />
+	<bitmapData resourceLink="asset.consortion.bank.cash" x="106"  y="6" />
+	<bitmapData resourceLink="asset.consortion.bank.item" x="209"  y="2" />
+						
+</bitmaps>
+</style>

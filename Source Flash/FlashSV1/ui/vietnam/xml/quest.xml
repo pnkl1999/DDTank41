@@ -1,0 +1,400 @@
+<style name="quest" version="1.0.0" source="ui/spain/swf/quest.swf">
+<sets>
+	<!--TextFormat args:font,size,color,bold,italic,underline,url,target,align,leftMargin,rightMargin, indent:Object = null, leading:Object = null-->
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestTitleFormat" args="Arial,16,0xFFFF00,true" align="center"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.CateTitleFormat" args="Arial,24,0xFFFFFF,true"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.RewardNumberFormat" args="Arial,10,0xFFFFFF"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestConditionTextFormat" args="Arial,10,0xFFDE00,true"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestConditionStatusFormat" args="Arial,11,0xFFDE00,true"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestPlanStatusFormat" args="Arial,14,0x00FE00,true"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestInfoDescFormat" leading="6" args="Arial,10,0xEEEEEE,true"/>
+	
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestItemRewardNameFormat" args="Arial,9,0xFFFF99,true"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.QuestItemRewardQuantityFormat" args="Arial,10,0xFFFFFF"/>
+
+	<set type="flash.text.TextFormat" stylename="core.quest.NewQuestSubTitleFormat" args="Arial,10,0xFFFF00,true"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.NewQuestTitleFormat" args="Arial,11,0xFFFFFF,true"/>
+	
+	<!--QuestItem:normal,normal selected,highlighted,highlighted selected-->
+	<!--任务列表中的任务名-->
+	<set type="flash.text.TextFormat" args="Arial,11,0xFFFFFF,true" align="center"
+		stylename="core.quest.QuestItemTitleFormatNormal"/>
+	<set type="flash.text.TextFormat" args="Arial,12,0x000000,true" align="center"
+		stylename="core.quest.QuestItemTitleFormatSelected"/>
+	<set type="flash.text.TextFormat" args="Arial,11,0x00B5CA,true" align="center"
+		stylename="core.quest.QuestItemTitleFormatHighlighted"/>
+	<set type="flash.text.TextFormat" args="Arial,12,0x53FDFF,true" align="center"
+		stylename="core.quest.QuestItemTitleFormatHighlightedSelected"/>
+	
+	
+	<set type="flash.filters.GlowFilter" args="0x5A310C,1,5,5,3.00" stylename="core.quest.QuestItemTitleFilterNormal" />
+	<set type="flash.filters.GlowFilter" args="0xFFFFFF,1,5,5,3.00" stylename="core.quest.QuestItemTitleFilterSelected" />
+	<set type="flash.filters.GlowFilter" args="0x1A1A1A,1,5,5,3.00" stylename="core.quest.QuestItemTitleFilterHighlighted" />
+	<set type="flash.filters.GlowFilter" args="0x083E52,1,5,5,3.00" stylename="core.quest.QuestItemTitleFilterHighlightedSelected" />
+
+	<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,10.00" stylename="core.quest.QuestFilterBlack_2_1000" />
+	<set type="flash.filters.GlowFilter" args="0x000000,1,2,2,3.00" stylename="core.quest.QuestFilterBlack_2_300" />
+	<set type="flash.filters.GlowFilter" args="0x000000,1,3,3,10.00" stylename="core.quest.QuestFilterBlack_3_1000" />
+	<set type="flash.filters.GlowFilter" args="0xFF6C00,1,8,8,2.6" stylename="core.quest.QuestFilterBrown_8_200" />
+	
+	<set type="flash.text.TextFormat" stylename="core.quest.infoCollect.InputFormat" args="Arial,14,0xFFFFFF,true" align="left"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.infoCollect.LabelFormat" args="Arial,14,0xFFFFFF,true" align="right"/>
+	<set type="flash.text.TextFormat" stylename="core.quest.infoCollect.AlertFormat" args="Arial,12,0xFF0000,true" align="right"/>
+	
+
+</sets>
+<components>
+
+	<component classname="quest.TaskMainFrame"
+		stylename="QuestFrame" backStyle="core.bg006"
+		titleStyle="FrameTitleTextStyle"
+		titleOuterRectPosString="6,6,5"
+		moveEnable="false" escEnable ="true"  closestyle="core.closebt"
+		closeInnerRectString="44,6,3,30,14"
+		x="140" y="20"
+		width ="734" height="540"/>
+	<component classname="com.pickgliss.ui.image.Image" 
+		stylename="core.quest.ImageQuestOverBtnBorder" 
+		resourceLink="asset.core.quest.QuestOverBtnBorder" 
+		x="0" y="0"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" 
+		stylename="core.quest.BtnQuestOver" 
+		backStyle="asset.core.quest.QuestOverBtn"
+		width="180" height="58"	
+		x="409" y="459"/>
+	<component stylename="core.quest.GoDungeonBtn"
+		classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		backStyle="asset.core.quest.GoDungeonAsset"
+		width="80" height="30"
+		x="413" y="456"/>
+	<component stylename="core.quest.gotoAcademyBtn"
+		classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		backStyle="asset.core.quest.gotoAcademyBtn"
+		width="80" height="30"
+		x="411" y="457"/>
+	<component stylename="core.quest.buySpinelBtn"
+		classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+		backStyle="asset.core.quest.buySpinelBtn" x="545" y="250"/>
+	<!--任务名-->
+	<component stylename="core.quest.QuestTitle"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.QuestTitleFormat"
+		filterString="core.quest.QuestFilterBrown_8_200"
+		autoSize="none"
+		x="316" y="60" width="360" height="22"/>
+	<!--分类标题-->
+	<component stylename="core.quest.CategoryTitle"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.QuestFilterBrown_8_300"/>
+	<!--任务信息-->
+	<component stylename="core.quest.QuestInfoPanel"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="core.ScrollPanel" 
+		hScrollProxy = "2"
+		vScrollProxy = "1"
+		width="390" height="80" x="-2" y="21" />
+	<component stylename="core.quest.QuestDescriptPanel"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="core.ScrollPanel" 
+		hScrollProxy = "2"
+		vScrollProxy = "1"
+		width="395" height="86" />
+	<!--任务文本-->
+	<component stylename="core.quest.QuestConditionText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		filterString="core.quest.QuestFilterBlack_2_300"
+		textFormatStyle="core.quest.QuestConditionTextFormat"
+		x="34" y="0" wordWrap="true" width="260" />
+	<!--任务进度-->
+	<component stylename="core.quest.QuestConditionStatus"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		filterString="core.quest.QuestFilterBlack_2_300"
+		textFormatStyle="core.quest.QuestConditionStatusFormat"
+		y="17"/>
+	<!--日常任务进度-->
+	<component stylename="core.quest.QuestPlanStatus"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		filterString="core.quest.QuestFilterBlack_2_300"
+		textFormatStyle="core.quest.QuestPlanStatusFormat"
+		y="0"/>
+	<!--任务描述-->
+	<component stylename="core.quest.QuestInfoDescription"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.QuestInfoDescFormat"
+		filterString="core.quest.QuestFilterBlack_2_300"
+		autoSize="right" wordWrap="true"
+		multiline = "true"
+		width="360"  y="33"
+	/>
+	<!--Reward-->
+	<component stylename="core.quest.QuestRewardPanel"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="core.ScrollPanel" 
+		hScrollProxy = "2"
+		vScrollProxy = "1"
+		width="390" height="175" />
+	<component stylename="core.quest.QuestItemRewardName"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.QuestItemRewardNameFormat"
+		x="52" y="7" width="90" wordWrap="true"/>
+	<component stylename="core.quest.QuestItemRewardQuantity"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.QuestItemRewardQuantityFormat"
+		filterString="core.quest.QuestFilterBlack_2_1000"
+		x="40" y="48"
+		width="41" height="18"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.MCQuestRewardBuff" 
+		resourceLink="asset.core.quest.RewardText.Buff1,asset.core.quest.RewardText.Buff2,asset.core.quest.RewardText.Buff3,asset.core.quest.RewardText.Buff4"
+		x="0" y="0"
+		width="69" height="21"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.eligiblyWord" 
+		resourceLink="asset.core.quest.eligibly1,asset.core.quest.eligibly2"
+		x="18" y="0"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.MCQuestRewardType" 
+		resourceLink="asset.core.quest.RewardText.Type1,asset.core.quest.RewardText.Type2,asset.core.quest.RewardText.Type3,asset.core.quest.RewardText.Type4,asset.core.quest.RewardText.Type5,asset.core.quest.RewardText.Type6,asset.core.quest.RewardText.Type7,asset.core.quest.RewardText.Type8"
+		x="0" y="0"/>
+		
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 	stylename="quest.QuestCateTitleBG" resourceLink="asset.core.quest.QuestCateTitleBG,asset.core.quest.QuestCateTitleBGStyle2" x="0" y="0" width = "231" height = "45"/>
+	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.MCQuestCateTitle" 
+		resourceLink="asset.core.quest.QuestCateTitle1Expanded,asset.core.quest.QuestCateTitle2Expanded,asset.core.quest.QuestCateTitle3Expanded,asset.core.quest.QuestCateTitle4Expanded,asset.core.quest.QuestCateTitle5Expanded,asset.core.quest.QuestCateTitle6Expanded,asset.core.quest.QuestCateTitle7Expanded,asset.core.quest.QuestCateTitle1Collapsed,asset.core.quest.QuestCateTitle2Collapsed,asset.core.quest.QuestCateTitle3Collapsed,asset.core.quest.QuestCateTitle4Collapsed,asset.core.quest.QuestCateTitle5Collapsed,asset.core.quest.QuestCateTitle6Collapsed,asset.core.quest.QuestCateTitle7Collapsed"
+		x="14" y="6"/>
+		
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.MCQuestItemBG" 
+		resourceLink="asset.core.quest.QuestItemUnselected,asset.core.quest.QuestItemUnselectedStyle2,asset.core.quest.QuestItemSelected"
+		width="214" height="31"/>
+		
+<!--QuestList-->
+	<component stylename="core.quest.QuestItemTitleNormal"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.QuestItemTitleFormatNormal,core.quest.QuestItemTitleFormatSelected,core.quest.QuestItemTitleFormatHighlighted,core.quest.QuestItemTitleFormatHighlightedSelected"
+		filterString="core.quest.QuestItemTitleFilterNormal,core.quest.QuestItemTitleFilterSelected,core.quest.QuestItemTitleFilterHighlighted,core.quest.QuestItemTitleFilterHighlightedSelected"
+		autoSize="none"
+		x="5" y="8" width="210" height="24"/>
+	<component stylename="core.quest.QuestItemList"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="core.ScrollPanel" 
+		x="0" y="45"
+		width="240" height="150" />
+	<component classname="quest.NewQuestView"
+		stylename="NewQuestFrame" backStyle="SimpleFrameBackgound"
+		parentStyle="BaseFrame"
+		moveEnable="false" escEnable ="true"  closestyle="core.closebt"
+		closeInnerRectString="44,6,3,30,14"
+		width ="300" height="315"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.NewQuestFrameBG" 
+		parentStyle="core.scale9CornerImage18" 
+		x="25" y="70"
+		width="245" height="200" />
+	
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.TaskMainFrameBG"  parentStyle="asset.quest.NewQuestFrameBG" x="9" y="34" width="718" height="501" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.leftBGStyle1" 
+		resourceLink="asset.scale9Core3.1,asset.scale9Core3.2,asset.scale9Core3.3,asset.scale9Core3.4,asset.scale9Core3.5,asset.scale9Core3.6,asset.scale9Core3.7,asset.scale9Core3.8,asset.scale9Core3.9" 
+		x="23" y="42" width="256" height="482" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.leftBGStyle2" 
+		resourceLink="asset.scale9Core7.1,asset.scale9Core7.2,asset.scale9Core7.3,asset.scale9Core7.4,asset.scale9Core7.5,asset.scale9Core7.6,asset.scale9Core7.7,asset.scale9Core7.8,asset.scale9Core7.9" 
+		x="23" y="42" width="256" height="482" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.rightBGStyle1" 
+		resourceLink="asset.scale9Core1.1,asset.scale9Core1.2,asset.scale9Core1.3,asset.scale9Core1.4,asset.scale9Core1.5,asset.scale9Core1.6,asset.scale9Core1.7,asset.scale9Core1.8,asset.scale9Core1.9" 
+		x="285" y="42" width="429" height="474" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.rightBGStyle2" 
+		resourceLink="asset.scale9Core8.1,asset.scale9Core8.2,asset.scale9Core8.3,asset.scale9Core8.4,asset.scale9Core8.5,asset.scale9Core8.6,asset.scale9Core8.7,asset.scale9Core8.8,asset.scale9Core8.9" 
+		x="285" y="42" width="429" height="474" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.targetBGStyle1" 
+		resourceLink="asset.scale9Core4.1,asset.scale9Core4.2,asset.scale9Core4.3,asset.scale9Core4.4,asset.scale9Core4.5,asset.scale9Core4.6,asset.scale9Core4.7,asset.scale9Core4.8,asset.scale9Core4.9" 
+		x="-12" y="8" width="408" height="86" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.targetBGStyle2" 
+		resourceLink="asset.scale9Core9.1,asset.scale9Core9.2,asset.scale9Core9.3,asset.scale9Core9.4,asset.scale9Core9.5,asset.scale9Core9.6,asset.scale9Core9.7,asset.scale9Core9.8,asset.scale9Core9.9" 
+		x="-12" y="8" width="408" height="86" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.descriptBGStyle1" parentStyle="asset.quest.targetBGStyle1" 
+		width="385" height="92" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.descriptBGStyle2" parentStyle="asset.quest.targetBGStyle2" 
+		width="385" height="92" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.eligiblyBG" 
+		resourceLink="asset.quest.descriptBGStyle1,asset.quest.descriptBGStyle2"
+		x="23" y="0" width="385" height="80"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.awardBGStyle1" 
+		parentStyle="core.scale9CornerImage19" 
+		x="0" y="0" width="408" height="186" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+		stylename="asset.quest.awardBGStyle2" 
+		resourceLink="asset.scale9Core10.1,asset.scale9Core10.2,asset.scale9Core10.3,asset.scale9Core10.4,asset.scale9Core10.5,asset.scale9Core10.6,asset.scale9Core10.7,asset.scale9Core10.8,asset.scale9Core10.9" 
+		x="0" y="0" width="408" height="186" />
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="core.quest.awardBGStyle" 
+		resourceLink="asset.quest.awardBGStyle1,asset.quest.awardBGStyle2"
+		x="0" y="0"
+		width = "408" height = "186"/>
+		
+	<component stylename="core.quest.NewQuestTitleText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.NewQuestTitleFormat"
+		filterString="core.quest.QuestFilterBlack_3_1000"
+		x="110" y="6"/>
+	<component stylename="core.quest.NewQuestSubTitleText"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.NewQuestSubTitleFormat"
+		filterString="core.quest.QuestFilterBlack_3_1000"
+		x="27" y="45"/>
+	<component stylename="core.quest.NewQuestScrollP"
+		classname="com.pickgliss.ui.controls.ScrollPanel" 
+		parentStyle="core.ScrollPanel" 
+		hScrollProxy = "2"
+		vScrollProxy = "1"
+		x="37" y="80"
+		width="220" height="180" />
+		
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="rewardCell.BGStyle1" 
+		resourceLink="asset.quest.oldRewardCell1,asset.quest.oldRewardCell2"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" 
+		stylename="rewardCell.BGStyle2" 
+		resourceLink="asset.quest.newRewardCell1,asset.quest.newRewardCell2"/>
+	
+	<!-- Info collect -->	
+	<component stylename="core.quest.infoCollect.Label"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.infoCollect.LabelFormat"
+		autoSize="none"
+		background="false"
+		x="20" y="0"
+		width="80" height="20"/>
+	
+	<component stylename="core.quest.infoCollect.InputData"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.infoCollect.InputFormat"
+		type="input" 
+		autoSize="none"
+		border="true"
+		borderColor="0x8d6d44"
+		background="true"
+		backgroundColor="0x312118"
+		x="100" y="0"
+		width="190" height="24"/>	
+	<component stylename="core.quest.infoCollect.InputValidate"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.infoCollect.InputFormat"
+		type="input" 
+		autoSize="none"
+		border="true"
+		borderColor="0x8d6d44"
+		background="true"
+		backgroundColor="0x312118"
+		x="100" y="48"
+		width="190" height="24"/>
+	
+	<component stylename="core.quest.infoCollect.Alert"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.infoCollect.AlertFormat"
+		autoSize="none"
+		x="100" y="24"
+		width="245" height="24"/>
+	<component stylename="core.quest.infoCollect.Result"
+		classname="com.pickgliss.ui.text.FilterFrameText"
+		textFormatStyle="core.quest.infoCollect.AlertFormat"
+		autoSize="none"
+		x="100" y="72"
+		width="245" height="24"/>
+	<component stylename="core.quest.infoCollect.CheckBtn" 
+		classname="com.pickgliss.ui.controls.IconButton" 
+		iconStyle="asset.core.quest.collectInfo.Check" 
+		x="296" y="24"/>	
+	<component stylename="core.quest.infoCollect.SubmitBtn" 
+		classname="com.pickgliss.ui.controls.IconButton" 
+		iconStyle="asset.core.quest.collectInfo.Send" 
+		x="296" y="24"/>
+	<component stylename="core.quest.infoCollect.AlreadyBtn" 
+		classname="com.pickgliss.ui.controls.IconButton" 
+		iconStyle="asset.core.quest.collectInfo.Already" 
+		x="296" y="24"/>
+</components>
+<customs>
+	<custom classname="asset.core.quest.GoToConsortia"
+		stylename = "core.quest.GoToConsortiaBtn"
+		x = "228" y = "0" buttonMode = "true" />
+	<custom classname="asset.core.quest.DownloadClientBtn"
+		stylename = "core.quest.DownloadClientBtn"
+		x = "535" y = "164" buttonMode = "true" />
+	<custom classname="asset.core.quest.NewMovieAsset"
+		stylename = "core.quset.NewMovie"
+		x="160" y="0" buttonMode = "true" />
+	<custom classname="asset.core.quest.GetNewQuestMovieAsset"
+		stylename = "core.quest.GetNewQuestMovie"
+		x="275" y="240" buttonMode = "true" />
+	<custom classname="flash.geom.Point" stylename="quest.cateTitleView.recommendPos" x="185" y="0"/>
+	<custom classname="flash.geom.Point" stylename="quest.bmpNEWPos" x="186" y="4"/>
+	<custom classname="flash.geom.Point" stylename="quest.bmpNEWPosForStrip" x="180" y="0"/>
+	<custom classname="flash.geom.Point" stylename="quest.infoPanelPos" x="310" y="40"/>
+	<custom classname="flash.geom.Point" stylename="quest.DescriptPanelPos" x="310" y="375"/>
+	<custom classname="flash.geom.Point" stylename="quest.rewardPanelPos" x="296" y="181"/> 
+	<custom classname="flash.geom.Point" stylename="quest.rewardCellPos" x="38" y="29"/>
+	<custom classname="flash.geom.Point" stylename="quest.rewardCellPos2" x="-4" y="-4"/>
+	<custom classname="flash.geom.Point" stylename="quest.questBtnPos1" x="425" y="468"/>
+	<custom classname="flash.geom.Point" stylename="quest.questBtnPos2" x="326" y="468"/>
+	<custom classname="flash.geom.Point" stylename="QuestOverBtnShine.Pos" x="414" y="459"/>
+</customs>
+<bitmaps>
+	
+	<bitmapData resourceLink="asset.core.quest.QuestInfoDescTitle" x="0" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.QuestInfoPlanTitle" x="0" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.QuestInfoCondTitle" x="0" y="0" width="90" height="24" />
+
+	<bitmapData resourceLink="asset.core.quest.QuestRewardCellBG" x="0" y="0" width="158" height="55" />
+	<bitmapData resourceLink="asset.core.quest.QuestRewardCellBGShine" x="-5" y="-4" />
+
+	<bitmapData resourceLink="asset.core.quest.RewardText.Buff1" x="0" y="0" width="69" height="21" />
+	<bitmapData resourceLink="asset.core.quest.RewardText.Buff2" x="0" y="0" width="69" height="21" />
+	<bitmapData resourceLink="asset.core.quest.RewardText.Buff3" x="0" y="0" width="69" height="21" />
+	<bitmapData resourceLink="asset.core.quest.RewardText.Buff4" x="0" y="0" width="69" height="21" />
+	
+	<bitmapData resourceLink="asset.core.quest.RewardText.Type1" x="-2" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.RewardText.Type2" x="0" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.RewardText.Type3" x="0" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.RewardText.Type4" x="0" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.RewardText.Type5" x="0" y="0"/>
+	<bitmapData resourceLink="asset.core.quest.RewardText.Type6" x="0" y="0"/>
+
+	<bitmapData resourceLink="asset.core.quest.textImg.NEW" x="160" y="0" width="49" height="40" />
+	<bitmapData resourceLink="asset.core.quest.textImg.OK" x="160" y="0" width="49" height="40" />
+	<bitmapData resourceLink="asset.core.quest.recommend" x="173" y="-4" width="37" height="37"/>
+	<bitmapData resourceLink="asset.core.quest.textImg.TaskFlagGrade40" x="0" y="0" width="40" height="40" />
+	
+	
+	<bitmapData resourceLink="asset.core.quest.QuestCateTitle5Expanded" x="0" y="-1" />
+	<bitmapData resourceLink="asset.core.quest.QuestCateTitle5Collapsed" x="0" y="-2" />
+	<bitmapData resourceLink="asset.core.quest.GoDungeonAsset" />
+	
+	<bitmapData resourceLink="asset.core.quest.titleBG" x="300" y="52"/>
+	<bitmapData resourceLink="asset.core.quest.styleGuideleaf" x="2" y="24"/>
+		
+	<bitmapData resourceLink="asset.core.quest.QuestItemSelected" width="214" height="33" y="-1"/>
+	<bitmapData resourceLink="asset.core.quest.QuestItemUnselectedStyle2" width="214" height="31"/>
+	<bitmapData resourceLink="asset.core.quest.QuestItemUnselected" width="214" height="31"/>
+	<bitmapData resourceLink="asset.core.quest.QuestItemLight" x="-4" y="-4"/>
+	<bitmapData resourceLink="asset.core.quest.leftBGStyle1" x="23" y="42"/>
+	<bitmapData resourceLink="asset.core.quest.RewardText.OptionalTitle" x="13" y="-9"/>
+
+	<bitmapData resourceLink="asset.core.quest.necessary" x="-2"/>
+	<bitmapData resourceLink="asset.core.quest.notNecessary" x="-2"/>
+	
+	<bitmapData resourceLink="asset.core.quest.QuestCateTitle7Expanded" y="3" />
+	<bitmapData resourceLink="asset.core.quest.QuestCateTitle7Collapsed" y="3" />
+</bitmaps>
+</style>

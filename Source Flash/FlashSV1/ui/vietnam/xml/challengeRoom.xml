@@ -1,0 +1,55 @@
+<style name="challengeRoom" version="1.0.1" source="ui/spain/swf/challengeRoom.swf">
+	<sets>
+	</sets>
+	<customDisplay>
+		<!--RoomPrivateView-->
+
+		<custom classname="flash.display.Sprite" stylename="room.ChallengePreviewSprite" x="15" y="137"/>
+		<custom classname="flash.display.Sprite" stylename="room.ChallengeMapSetPanelTitleSprite" x="15" y="25"/>
+		<custom classname="room.view.smallMapInfoPanel.ChallengeRoomSmallMapInfoPanel" stylename="room.challengeRoomSmallMapInfoPanel" x="505" y="417"/>
+		<custom classname="room.view.chooseMap.ChallengeChooseMapView" stylename="room.challengeChooseMapView" x="0" y="0"/>
+		<custom classname="room.view.chooseMap.ChallengeChooseMapFrame" backStyle="core.bg006" stylename="asset.room.challengeChooseMapFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="10" containerY="31" width="610" height="512" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+		<custom classname="flash.geom.Point" stylename="room.ChallengeChooseMapRoomModeBgPos" x="18" y="37"/>
+		<custom classname="flash.geom.Point" stylename="room.ChallengeChooseMapRoundTimeBgPos" x="309" y="38"/>
+		<custom classname="flash.geom.Point" stylename="room.ChallengeChooseMapMapTitlePos" x="320" y="135"/>
+		<custom classname="flash.geom.Point" stylename="room.ChallengeBlueTeamPos" x="32" y="32" />
+		<custom classname="flash.geom.Point" stylename="room.ChallengeRedTeamPos" x="397" y="32"/>
+		<custom classname="flash.geom.Point" stylename="asset.room.playerListPos" x="30" y="24"/>
+		<custom classname="flash.geom.Point" stylename="room.ChallengeChooseMapRoomModeTitlePos" x="20" y="8"/>
+		
+	</customDisplay>
+	<components>
+		<!--Text-->
+		
+		<!--Image-->
+				<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.challengeChooseMapViewBg" parentStyle="asset.room.chooseMapBaseBg"  width="590" height="426" y="5"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.challengeChooseMapViewBgTopLeft" parentStyle="core.scale9CornerImage1"  width="280" height="82" x="10" y="32"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.challengeChooseMapViewBgTopRight" parentStyle="core.scale9CornerImage1"  width="280" height="82" x="300" y="32"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.challengeChooseMapViewBgBottom" parentStyle="core.scale9CornerImage1"  width="570" height="290" x="10" y="130"/>
+		
+		<!--Button-->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.room.switchTeamBtn" backStyle="asset.room.RoomSwitchTeamBtn" useLogID="140" x="828" y="453" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="room.RoundTime5SecBtn" selectedStyle="asset.room.challengeChooseMap.Challenge5SecondSelected" unSelectedStyle="asset.room.challengeChooseMap.Challenge5Second"  x="315" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="room.RoundTime7SecBtn" selectedStyle="asset.room.challengeChooseMap.Challenge7SecondSelected" unSelectedStyle="asset.room.challengeChooseMap.Challenge7Second" x="400" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="room.RoundTime10SecBtn" selectedStyle="asset.room.challengeChooseMap.Challenge10SecondSelected" unSelectedStyle="asset.room.challengeChooseMap.Challenge10Second" x="485" y="43"/>
+		
+		<!-- Frame -->
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="room.ChallengeChooseMapFrame" parentStyle="BaseFrame" containerX="10" containerY="31"  width="610" height="512" titleOuterRectPosString="0,6,1"/>
+		
+		<!--scrollPanel-->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="asset.room.challengeMapSetScrollPanel"  parentStyle="core.ScrollPanel" viewportInnerRectString="50,22,5,0,0"  x="15" y="251" width="557" height="160"/>
+		
+		<!--textArea-->
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="room.ChallengeChooseMapDescription" parentStyle="core.SimpleTextArea" textStyle="assest.room.dungeonChooseMapDesTxt" x="316" y="165" width="254" height="80" />
+		
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.room.challengeChooseMap.RoundTime" x="325" y="8" />
+		<bitmapData resourceLink="asset.room.challengeChooseMap.ChooseMapBitmap" x="25" y="112" />
+		<bitmapData resourceLink="asset.room.challengeChooseMap.RoomModeTypeBig" x="25" y="42" />
+		<bitmapData resourceLink="asset.room.challengeChooseMap.ChallengeMapInfoBg" x="315" y="135" />
+		<bitmapData resourceLink="asset.room.ChallengeRoomBg1" x="5" y="-1" />
+		<bitmapData resourceLink="asset.room.BlueTeam" x="25" y="2" />
+		<bitmapData resourceLink="asset.room.RedTeam" x="390" y="3" />
+	</bitmaps>
+</style>

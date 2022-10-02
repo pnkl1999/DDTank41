@@ -1,0 +1,77 @@
+﻿<rewards>
+	<reward level="2">
+			<rewardItem sort="1" title="游戏大厅功能:" content="创建房间进行战斗的场所" items="|"/>
+			<rewardItem sort="2" title="任务获得道具:" content="" items="10008|10008"/>
+			<rewardItem sort="3" title="任务获得任意款衣服:" content="" items="5229,5242,5243,5247|5106,5103,5163,5180"/>
+	</reward>
+	<reward level="3">
+			<rewardItem sort="1" title="背包功能:" content="用于存放武器、装备和货币" items="|"/>
+			<rewardItem sort="2" title="任务获得道具及武器:" content="" items="7009,10003,10024,10025|7009,10003,10024,10025"/>
+			<rewardItem sort="3" title="任务获得任意款发型:" content="" items="3214,3235,3237,3236|3107,3110,3129,3150"/>
+	</reward>
+	<reward level="4">
+			<rewardItem sort="1" title="任务获得道具:" content="" items="10001,10007,10012,10009|10001,10007,10012,10009"/>
+			<rewardItem sort="2" title="任务获得任意款眼镜:" content="" items="2204,2207,2221,2223|2104,2123,2126,2127"/>
+			<rewardItem sort="3" title="任务获得任意款帽子:" content="" items="1203,1211,1217,1252|1112,1137,1144,1189"/>
+	</reward>
+	<reward level="5">
+			<rewardItem sort="1" title="交友中心功能:" content="在此可以结识很多朋友" items="|"/>
+			<rewardItem sort="2" title="任务获得道具:" content="" items="10006,10005,10004,10017|10006,10005,10004,10017"/>
+			<rewardItem sort="3" title="任务获得任意款戒指和翅膀:" content="" items="9002,9005,15005,15007|9002,9005,15005,15007"/>
+	</reward>
+	<reward level="6">
+			<rewardItem sort="1" title="师徒圣殿功能:" content="拜师可加速升级且奖励极其丰厚" items="|"/>
+			<rewardItem sort="2" title="任务获得道具和任一款手镯:" content="" items="10018,8006,8004|10018,8006,8004"/>
+			<rewardItem sort="3" title="任务获得任意款脸饰:" content="" items="4214,4221,4234,4248|4113,4120,4133,4147"/>
+	</reward>
+	<reward level="7">
+			<rewardItem sort="1" title="公会俱乐部功能:" content="加入公会可以更容易获益，享受庇护与荣誉" items="|"/>
+			<rewardItem sort="2" title="任务获得武器和道具:" content="" items="7011,10010,10011,10016|7011,10010,10011,10016"/>
+			<rewardItem sort="3" title="任务获得任意款眼睛:" content="" items="6208,6213,6225,6232|6112,6122,6114,6118"/>
+	</reward>
+	<reward level="8">
+			<rewardItem sort="1" title="远征码头功能:" content="打怪通关，奖励优厚的神秘之地入口" items="|"/>
+			<rewardItem sort="2" title="铁匠铺功能:" content="大幅加强武器威力的地方，这里没有失败！" items="10015|10015"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="11019|11019"/>
+	</reward>
+	<reward level="9">
+			<rewardItem sort="1" title="商城功能:" content="实现你更漂亮，更强大，更与众不同的愿望的道具商店" items="|"/>
+			<rewardItem sort="2" title="合成功能:" content="" items="11001,11005,11009,11013|11001,11005,11009,11013"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="11021|11021"/>
+	</reward>
+	<reward level="10">
+			<rewardItem sort="1" title="熔炼功能:" content="铁匠铺功能，将4个低级物品熔炼成1个高级物品" items="|"/>
+			<rewardItem sort="2" title="任务获得任意武器:" content="" items="7006,7012|7006,7012"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="11001,11022|11001,11022"/>
+	</reward>
+	<reward level="11">
+			<rewardItem sort="1" title="镶嵌功能:" content="铁匠铺功能，镶嵌宝珠到装备上可以使你实力大增哦！" items="|"/>
+			<rewardItem sort="2" title="任务获得攻击宝珠:" content="" items="311101|311101"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="11021|11021"/>
+	</reward>
+	<reward level="12">
+			<rewardItem sort="1" title="名人堂功能:" content="弹弹堂世界中最有面子的人都在这里哦！" items="|"/>
+			<rewardItem sort="2" title="挑战功能:" content="可以向指定的某人发起挑战哦！" items="13144,13145|13144,13145"/>
+			<rewardItem sort="3" title="一元大礼包:" content="充值1元可获得价值100元人民币的物品哦！" items="13136,13137|13136,13137"/>
+	</reward>
+	<reward level="13">
+			<rewardItem sort="1" title="温泉功能:" content="在这泡澡既可以交朋友又可以得大量经验哦" items="|"/>
+			<rewardItem sort="2" title="任务获得任意武器:" content="" items="7013,7014|7013,7014"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="11022|11022"/>
+	</reward>
+	<reward level="14">
+			<rewardItem sort="1" title="拍卖场功能:" content="这里是淘取宝贝和寄卖物品的地方哦！" items="|"/>
+			<rewardItem sort="2" title="任务获得道具:" content="" items="11014,11010|11014,11010"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="312101|312101"/>
+	</reward>
+	<reward level="15">
+			<rewardItem sort="1" title="作战实验室功能:" content="学会战斗技巧和窍门，晋身高手行列的捷径！" items="|"/>
+			<rewardItem sort="2" title="任务获得任意武器:" content="" items="9106,9106|9106,9106"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="5253,11997|5153,11997"/>
+	</reward>
+	<reward level="16">
+			<rewardItem sort="1" title="礼品盒功能:" content="收取或赠送礼物，看看你的魅力指数" items="|"/>
+			<rewardItem sort="2" title="任务获得道具:" content="" items="11003,11007|11003,11007"/>
+			<rewardItem sort="3" title="任务获得道具:" content="" items="11011,11015|11011,11015"/>
+	</reward>
+</rewards>

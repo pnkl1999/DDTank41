@@ -1,0 +1,185 @@
+<style name="vipView" version="1.0.1" source="ui/spain/swf/vipView.swf">
+	<sets>
+		<!--Filter-->
+		
+		<!--TextFormat-->
+		<set stylename="VIPFrame.dueTimeTF" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+		<set stylename="VIPFrame.dueTimeGF" args="0xfffcd0,1,3,3,5"  type="flash.filters.GlowFilter"/>
+		<set stylename="VIPFrame.LVTF" args="Arial,14,0xfdff60,true" type="flash.text.TextFormat" />
+		<set stylename="VIPFrame.LVGF" args="0x000000,1,3,3,5"  type="flash.filters.GlowFilter"/>
+		<set stylename="openSelf.nameTF" args="Arial,13,0x000000,true" type="flash.text.TextFormat" />
+		<set stylename="GiveYourselfOpenView.selectTxt" args="Arial,14,0x000000,true" type="flash.text.TextFormat" />
+		<set stylename="GiveYourselfOpenView.yearDiscountTF" args="Arial,12,0xFF0000,bold" type="flash.text.TextFormat" />
+		
+		<set stylename="VipStatusView.word" args="Arial,14,0x6d4000,true" type="flash.text.TextFormat" />
+		<set stylename="VipStatusView.word2" args="Arial,16,0xc22424" type="flash.text.TextFormat" />
+		<set stylename="vipFrameHead.namTF" args="Arial,13,0x000000" type="flash.text.TextFormat" />
+		<set stylename="VipRecharge.yearDiscountFilter" args="0xFFFFFF,5,2,4,4"  type="flash.filters.GlowFilter"/>
+		<set stylename="GiveYourselfOpenView.yearDiscountFilter" args="0xFFFFFF,1,3,3,5"  type="flash.filters.GlowFilter"/>
+		<set stylename="VipStatusView.nameTxt" args="Arial,16,0xFFFFD6,true" type="flash.text.TextFormat" />
+		<set stylename="VipStatusView.nameFilter" args="0x582700,1,3,3,5"  type="flash.filters.GlowFilter"/>
+		<set stylename="VipStatusView.levelTxt" args="Arial,14,0x693308,true" type="flash.text.TextFormat" />
+		<set stylename="VipStatusView.levelTF" args="Arial,14,0x693308,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="VipStatusView.ExpTxt" args="Arial,14,0x693308,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="VipStatusView.descriptTF" args="Arial,14,0x000000" leading="1.6"  type="flash.text.TextFormat" />
+		
+		<set stylename="VipRechargeLV.titleTxtFilter" args="0x704D0F,1,4,4,20"  type="flash.filters.GlowFilter"/>
+		<set stylename="VipRechargeLV.titleTxtTF" args="Arial,14,0xFFB400,,,,,,left" type="flash.text.TextFormat" />		
+		<set stylename="VipRechargeLV.contentTxtFilter" args="0x674B2A,1,3.5,3.5,15"  type="flash.filters.GlowFilter"/>
+		<set stylename="VipRechargeLV.contentTxtTF" args="Arial,12,0xFFF8CC,,,,,,left" leading="5" type="flash.text.TextFormat" />
+		
+		
+		
+	</sets>
+	<bitmaps>
+		<bitmapData resourceLink="asset.vip.timeBitmap" x="292" y="50" />
+		<bitmapData resourceLink="asset.vip.figureBG" x="4" y="6" />
+		<bitmapData resourceLink="asset.vip.name" x="45" y="27" />
+		<bitmapData resourceLink="asset.vip.payStyle" x="43" y="47"/>
+		<bitmapData resourceLink="asset.vip.VIPDays" x="10" y="47"/>
+		<bitmapData resourceLink="asset.vip.ownedMoney" x="66" y="186"/>
+		<bitmapData resourceLink="asset.vip.moneyIcon" x="130" y="188"/>
+		<bitmapData resourceLink="asset.vip.repeatName" x="13" y="79" />
+		<bitmapData resourceLink="asset.vip.dueDate" x="342" y="104" />
+		<bitmapData resourceLink="asset.vip.Offer" x="408" y="31" />
+		<bitmapData resourceLink="asset.vip.yearDiscountBitmap" x="41" y="10" />
+		
+		<bitmapData resourceLink="asset.vip.giveYourselfOpenBtn1" x="4" y="4" />
+		<bitmapData resourceLink="asset.vip.giveOthersOpenedBtn1" x="4" y="4" />
+		<bitmapData resourceLink="asset.vip.dueDate2" x="2" y="-2" /> 
+		
+	</bitmaps>
+	<components>
+		<!--窗口-->
+		<component classname="vip.view.VipFrame" stylename="vip.VipFrame" backStyle="core.bg006" parentStyle="BaseFrame"
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="6,6,5" moveInnerRectString="0,30,0,30,1"
+			width="536" height="490" moveEnable="false" escEnable='true' />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="VIPFrame.topBG" resourceLink="asset.vipFrame.topBG1,asset.vipFrame.topBG2,asset.vipFrame.topBG3,asset.vipFrame.topBG4,asset.vipFrame.topBG5,asset.vipFrame.topBG6,asset.vipFrame.topBG7,asset.vipFrame.topBG8,asset.vipFrame.topBG9" width="510" height="90"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VIPFrame.dueTime" textFormatStyle="VIPFrame.dueTimeTF" filterString="VIPFrame.dueTimeGF" width="60" height="18" 	x="315" y="51" />
+		<component classname="bagAndInfo.info.LevelProgress" stylename="VIPFrame.vipLevelProgress" x="141" y="52" width="108" height="17"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.name" textFormatStyle="VipStatusView.nameTxt" filterString="VipStatusView.nameFilter" width="120" height="18" x="103" y="16" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="VipStatusView.vipHelp" backStyle="asset.vip.vipHelp" filterString="null,lightFilter,null,grayFilter" x="363" y="26"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.selfLevel" textFormatStyle="VIPFrame.LVTF" filterString="VIPFrame.LVGF" width="35" height="18" x="103" y="52" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.nextLevel" parentStyle="VipStatusView.selfLevel" x="253" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.dueDate" textFormatStyle="VipStatusView.word" x="422" y="103" width="85" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.dueDate2" textFormatStyle="VipStatusView.word2" filterString="VipRecharge.yearDiscountFilter" x="209" y="0" width="85" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipRechargeLV.titleTxt" textFormatStyle="VipRechargeLV.titleTxtTF" filterString="VipRechargeLV.titleTxtFilter" x="7" y="6" width="85" height="30" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipRechargeLV.contentTxt" textFormatStyle="VipRechargeLV.contentTxtTF" filterString="VipRechargeLV.contentTxtFilter" x="7" y="28" wordWrap="true" width="320" height="320" />
+		
+		<component classname="ddt.view.bossbox.AwardsViewII" backStyle="bossbox.AwardsViewFrameBackgound" stylename="vip.awardFrame" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width="550" height="350"/>
+		<component classname="ddt.view.bossbox.VipInfoTipBox" backStyle="bossbox.AwardsViewFrameBackgound" stylename="vip.VipInfoTipFrame" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width="400" height="249"/>
+		
+	<!--菜单(给自己开通)-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="giveYourselfOpenScaleFrameImag" resourceLink="asset.vip.giveYourselfOpenBtn1,asset.vip.giveYourselfOpenBtn2,asset.vip.giveYourselfOpenBtn2" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="vip.giveYourselfOpenBtn" unSelectedStyle="giveYourselfOpenScaleFrameImag" selectedStyle="asset.vip.giveYourselfOpenBtn2" displacement='false' x='6' y='100' />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiveYourselfOpenView.BG" resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" width="510" height="240"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="GiveYourselfOpenView.buttomBG" parentStyle="core.bg002" width="510" height="67" x="0" y="244"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="VIPRechargeAlert.buttomBG" parentStyle="core.bg002" width="355" height="67" x="0" y="244"/>
+		<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="GiveYourselfOpenView.showMoney" resourceLink="asset.vip.showPayMoneyBG1,asset.vip.showPayMoneyBG2,asset.vip.showPayMoneyBG3" width="360" height="35" x="130" y="140"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiveYourselfOpenView.name" textFormatStyle="openSelf.nameTF" x="129" y="30" width="150" height="19" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiveYourselfOpenView.showPayMoneyTxt" textFormatStyle="GiveYourselfOpenView.selectTxt" width="350" height="20" x="3" y="7" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiveYourselfOpenView.money" textFormatStyle="openSelf.nameTF" width="150" height="20" x="150" y="189"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiveYourselfOpenView.yearDiscountTxt" textFormatStyle="GiveYourselfOpenView.yearDiscountTF" filterString="GiveYourselfOpenView.yearDiscountFilter" height="20" x="54" y="6" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.vip.daysInputBG" resourceLink="asset.vip.inputBG1,asset.vip.inputBG2,asset.vip.inputBG3,asset.vip.inputBG4,asset.vip.inputBG5,asset.vip.inputBG6,asset.vip.inputBG7,asset.vip.inputBG8,asset.vip.inputBG9" width="50" height="23"/>
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="GiveYourselfOpenView.otherText" backStyle="asset.vip.daysInputBG"  textStyle="GiveYourselfOpenView.selectTS" textInnerRectString="6,10,3,0,0"  width="50" height="23" x="205" y="95"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiveYourselfOpenView.monthNum" textFormatStyle="openSelf.nameTF" width="30" height="20" x="255" y="97" />
+		
+		<!--1级按钮-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiveYourselfOpenView.selectTS" textFormatStyle="openSelf.nameTF" multiline="false" wordWrap="false" height="22" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.payForMonth" unSelectedStyle="core.checkBtn" selectedStyle="core.selectedCheckBtn" filterString="null,lightFilter,null,grayFilter"  textStyle="GiveYourselfOpenView.selectTS" fieldX="28" fieldY="7"  width="20" height="28" x="130" y="42"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.payForYear" parentStyle="GiveYourselfOpenView.payForMonth" x="230" y="42"/>
+		
+		<!--2级按钮-->
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.one" parentStyle="GiveYourselfOpenView.payForMonth" x="177" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.two" parentStyle="GiveYourselfOpenView.payForMonth" x="249" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.three" parentStyle="GiveYourselfOpenView.payForMonth" x="337" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.four" parentStyle="GiveYourselfOpenView.payForMonth" x="425" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="GiveYourselfOpenView.other" parentStyle="GiveYourselfOpenView.payForMonth" x="130" y="90"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiveYourselfOpenView.openVipBtn" backStyle="asset.vip.openBtn" filterString="null,lightFilter,null,grayFilter" x="250" y="249"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiveYourselfOpenView.renewalVipBtn" backStyle="asset.vip.RenewalsBtn" filterString="null,lightFilter,null,grayFilter" x="250" y="249"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiveYourselfOpenView.rewardBtn" backStyle="asset.vip.rewardBtn" filterString="null,lightFilter,null,grayFilter" x="51" y="250"/>
+		
+	<!--菜单(给别人开通)-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="giveOthersOpenedScaleFrameImag" resourceLink="asset.vip.giveOthersOpenedBtn1,asset.vip.giveOthersOpenedBtn2,asset.vip.giveOthersOpenedBtn2"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="vip.giveOthersOpenedBtn" unSelectedStyle="giveOthersOpenedScaleFrameImag" selectedStyle="asset.vip.giveOthersOpenedBtn2" displacement='false' x='116' y='100' />
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.vip.friendNameBG" parentStyle="asset.vip.daysInputBG" width="132" height="26" x="130" y="42"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.vip.friendNameBG_2" parentStyle="asset.vip.friendNameBG" x="0" y="0"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipFrameHead.namTS" textFormatStyle="vipFrameHead.namTF" multiline="false" wordWrap="false" height="22" />
+		<component classname="ddt.view.FriendDropListTarget" stylename="GiveOthersOpenedView.friendName" textFormatStyle="vipFrameHead.namTF" autoSize="none" type="input" width="120" height="24" x="136" y="47"/>
+		
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="GiveOthersOpenedView.repeatName" backStyle="asset.vip.friendNameBG_2"  textStyle="vipFrameHead.namTS" textInnerRectString="6,8,3,0,0" autoSize="none" multiline="false" wordWrap="false"  width="131" height="24" x="176" y="76"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiveYourselfOpenView.friendList" backStyle="asset.vip.friendListBtn" filterString="null,lightFilter,null,grayFilter" x="276" y="42"/>
+		
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="GiveOthersOpenedView.searchList" x="130" y="44" spacing="-1"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiveOthersOpenedView.searchListBG" parentStyle="GiveYourselfOpenView.BG" width="131" height="45" x="130" y="44"/>
+		<!--菜单(vip功能)-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="VipStatusView.BG" parentStyle="GiveYourselfOpenView.BG" width="677" height="411" x="-4"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="VipStatusView.areaBG" parentStyle="asset.vip.daysInputBG" width="283" height="390" x="2" y="10"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="VipStatusView.rewardBG" parentStyle="asset.vip.daysInputBG" width="357" height="110" x="300" y="230"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.descriptTxt" textFormatStyle="VipStatusView.descriptTF" wordWrap="true" multiline="true" type="dynamic"  width="250" y="70" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="VipStatusView.descriptPanel" parentStyle="core.ScrollPanel"  vScrollProxy="0" x="6" y="14" width="274" height="384" /> 
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="VipStatusView.descript" parentStyle="core.SimpleTextArea" textStyle="VipStatusView.descriptTxt" x="6" y="8" vScrollProxy="1" width="281" height="392" />
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="VipStatusView.reward" parentStyle="core.SimpleTextArea" textStyle="VipStatusView.descriptTxt" x="304" y="232" vScrollProxy="0" width="351" height="106" />
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="VipStatusView.rewardBtn" backStyle="asset.vip.rewardBtn" filterString="null,lightFilter,null,grayFilter" x="300" y="346"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="VipStatusView.renewalBtn" backStyle="asset.vip.RenewalsBtn" filterString="null,lightFilter,null,grayFilter" x="445" y="346"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.upSpeed" parentStyle="VipStatusView.dueDate"  x="392" y="169" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="VipStatusView.upRule" backStyle="asset.vip.upRule" filterString="null,lightFilter,null,grayFilter" x="500" y="167"/>
+		
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.EXP" textFormatStyle="VipStatusView.ExpTxt" autoSize="none" width="40" height="18" x="2" y="2" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.LevelExp" textFormatStyle="VipStatusView.levelTF" autoSize="none" width="35" height="18" />
+		
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="VipStatusView.upRuleFrame" parentStyle="BaseFrame"  width="500" height="357" moveEnable="true" moveInnerRectString="0,30,0,30,1" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="VipStatusView.upRuleClosebtn" parentStyle="core.simplebt" x="208" y="315" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="VipStatusView.upRuleContent" textFormatStyle="VipStatusView.descriptTF" wordWrap="true" multiline="true" type="dynamic"  width="518" y="37" x="20" />
+		
+		<component classname="ddt.view.bossbox.AwardsView" backStyle="bossbox.AwardsViewFrameBackgound" stylename="VipStatusView.awardFrame"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width="395" height="230"/>
+		
+		
+		<!-- vipFrame -->
+		<component classname="vip.view.VIPHelpFrame" stylename="vip.viphelpFrame" backStyle="core.bg006" parentStyle="BaseFrame"
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			containerX="15" containerY="38" titleOuterRectPosString="6,6,5" moveInnerRectString="0,30,0,30,1"
+			width="540" height="480" moveEnable="false" escEnable='true' />
+			
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="viphelpFrame.scroll" parentStyle="core.ScrollPanel"  width="510" height="360" />
+	 
+			
+		<component classname="com.pickgliss.ui.controls.Scrollbar" stylename="vipRecharge.VScrollbar"
+			thumbStyle="core.scrollVThumb" trackStyle="core.scrollTrackAsset"
+			decreaseButtonStyle="core.scrollUpButton" increaseButtonStyle="core.scrollDownButton"
+			thumbMinSize="-1" decreaseButtonInnerRectString="19,19,0,0,9"
+			increaseButtonInnerRectString="19,19,0,0,10" trackInnerRectString="0,0,0,0,0"
+			orientation="0" thumbAreaInnerRectString="2,2,20,20,0"/>		
+				
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="vipRechargeAlertFrame.scroll"
+			vScrollbarStyle="vipRecharge.VScrollbar" hScrollbarStyle="core.HScrollbar"
+			hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3"
+			viewportInnerRectString="0,22,0,2,0" hScrollProxy='2' vScrollProxy='0'
+			x="1" y="112" width="355" height="249"/>
+				
+	<component classname="vip.view.VIPRechargeAlertFrame" stylename="vip.vipRechargeAlertFrame" backStyle="core.bg006" parentStyle="BaseFrame"
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			containerX="10" containerY="38" titleOuterRectPosString="6,6,5" moveInnerRectString="0,30,0,30,1"
+			width="375" height="480" moveEnable="false" escEnable='true' />		
+	</components>
+	<customs>
+		<custom classname="ddt.view.PlayerPortraitView" stylename="vip.PortraitView" x="12" y="7"/>
+		<custom classname="ddt.view.common.VipLevelIcon" stylename="VipStatusView.vipIcon" y="10"/>
+		
+		<!--坐标-->
+		<custom classname="flash.geom.Point" stylename="Vip.figurePos" x="93" y="-13"/>
+		
+		<custom classname="flash.geom.Point" stylename="Vip.DueTipSpritePos" x="287" y="42"/>
+		<custom classname="flash.geom.Point" stylename="vipHelpFrame.openBtnPos" x="152" y="370"/>
+		<custom classname="flash.geom.Point" stylename="VIPRechargeAlert.renewalVipBtnPos" x="77" y="370"/>
+	</customs>
+</style>

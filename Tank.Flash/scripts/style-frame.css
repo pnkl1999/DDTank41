@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background:url(../images/bg-news.jpg) 0px -4px no-repeat;	
+}
+
+
+#MainContent{
+	padding:20px 0 0 16px;
+	overflow:hidden;
+	height:440px;	
+}
+.News{
+	float:left;	
+	width:310px;
+	height:375px;
+	overflow:hidden;
+}
+
+#News{
+	position:absolute;	
+	width:540px;
+	overflow:hidden;
+	top:40px;
+	left:260px;
+	
+}
+#News h2{
+
+	width:100%;
+	height:0px;
+	overflow:hidden;
+}
+#News h2 a{
+	display:none;
+	width:150px;
+	height:0px;	
+	text-indent:-9999px;
+}
+#News .ListNews{
+	list-style:none;
+	width:540px;
+	overflow:hidden;	
+}
+#News .ListNews li{
+	float:left;
+	clear:both;	
+	width:530px;
+	overflow:hidden;
+}
+#News .ListNews li.Last{
+	background:none;	
+}
+#News .ListNews li a:link,
+#News .ListNews li a:visited{
+	background:url(../images/icon01.png) no-repeat 0px 9px;	
+	padding:2px 0 0 12px;
+	text-decoration:none;
+	color:#4d1900;
+	display:block;
+	font-size:12px;
+}
+#News .ListNews li.First a:link,
+#News .ListNews li.First a:visited{
+	font-weight:bold;
+	padding-left: 125px;
+	background: none;
+}
+#News .ListNews li.New a:link,
+#News .ListNews li.New a:visited{
+	font-weight:bold;	
+}
+#News .ListNews li a:hover{
+	
+	color:#cc0000;
+}
+#News .ListNews li a span{
+	font-weight:normal;
+	float:right;	
+}
+.DetailNews {
+	color: #573700;
+    height: 72px;
+    margin-left: 0px;
+    overflow: hidden;
+    padding-top: 1px;
+    width: 530px;
+	}
+#News .ListNews .DetailNews .Images a:link,
+#News .ListNews .DetailNews .Images a:visited,
+#News .ListNews .DetailNews .Images a:active
+ {
+	background: none;
+	
+	
+	padding: 0 0 0 12px; 
+	
+}
+ul li .DetailNews .Images img {
+	border: #a3906c solid 1px;
+	padding: 1px;
+}
+ul li .DetailNews .Images {
+    float: left;
+    height: 62px;
+    overflow: hidden;
+    width: 125px;
+	padding-left: 0;
+}
+span.Date {
+	color: #000;
+}

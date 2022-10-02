@@ -1,0 +1,369 @@
+<style name="shop" version="1.0.1" source="ui/spain/swf/shop.swf">
+	<sets>
+		<set stylename="shop.PlayerNameFilter" args="0x000000,1,3,3,2"  type="flash.filters.GlowFilter"/>
+		<set stylename="shop.ShopItemCountFilter" args="0x5B0000,1,5,5,1"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="shop.GoodItemNameTF" args="Arial,14,0x000000,,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="shop.GoodItemPriceTF" args="Arial,13,0x000000,bold,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="shop.CurrentPageTF" args="Arial,14,0xffffff,bold,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="shop.PlayerNameTF" args="Tahoma,14,0xffffff,bold" type="flash.text.TextFormat"/>
+		<set stylename="shop.LackWarningTF" args="Arial,12,0xff0000,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="shop.PlayerRankTF" args="Arial,14,0x000000,bold,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="shop.ShopItemCountTF" args="Arial,12,0xffffff,,,,,,center" type="flash.text.TextFormat"/>
+		
+		<set stylename="shop.ShopPresentFriendNameTF" args="Arial,12,0x000000,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="shop.PresentViewTextAreaContentTxtTF" args="Arial,12,0x000000" leading="7" type="flash.text.TextFormat" />
+		
+		
+		<set type="flash.text.TextFormat" stylename="shop.ShopSearchTF" args="Arial,12,0x000000" />
+		
+		<set stylename="labyrinth.view.LabyrinthShopItem.explanationTextTF" args="Arial,12,0xfffdee,true" type="flash.text.TextFormat"/>  
+    <set stylename="labyrinth.view.LabyrinthShopItem.explanationTextGF" args="0x8f0101,1,4,4,10" type="flash.filters.GlowFilter"/> 
+		
+	</sets>
+	<customDisplay>
+		<custom classname="shop.view.ShopLeftView" stylename="shop.LeftView" x="-3" y="10" />
+		<custom classname="shop.view.ShopRightView" stylename="shop.RightView" x="321" y="13" />
+		<custom classname="shop.view.ShopRankingView" stylename="shop.RankingView" x="829" y="13" />
+		<custom classname="shop.view.ShopGoodItem" stylename="shop.GoodItem" />
+		<custom classname="shop.view.ShopCheckOutView" stylename="shop.CheckOutView" />
+		<custom classname="ddt.view.ColorEditor" stylename="shop.ColorEdit" x="40" y="380"/>
+		
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCharacterPos" x="214" y="103"/>
+		<custom classname="flash.geom.Point" stylename="shop.PresentViewFriendListPos" x="154" y="72"/>
+		
+		<custom classname="shop.view.ShopRankingCellItem" stylename="shop.ShopRankingCellItem" />
+		
+		<!--   ShopPlayerCells   -->
+		<!--帽子坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_0" x="30" y="85"/>
+		<!--头发坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_1" x="30" y="135"/>
+		<!--衣服坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_2" x="30" y="182"/>
+		<!--套装坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_3" x="30" y="234"/>
+		<!--银镜坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_4" x="258" y="81"/>
+		<!--脸饰坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_5" x="258" y="133"/>
+		<!--眼睛坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_6" x="258" y="182"/>
+		<!--翅膀坐标-->
+		<custom classname="flash.geom.Point" stylename="shop.PlayerCellPos_7" x="258" y="232"/>
+		
+		<custom classname="asset.shop.RightItemLightMc" stylename="shop.RightItemLightMc" x="154" y="72"/>
+		<custom classname="asset.shop.RankingLightMc" stylename="shop.RankingLightMc" x="154" y="72"/>
+		
+	</customDisplay>
+		
+	<components>
+		<!--   ShopRightView   -->
+		<!--   ShopTopButtons   -->
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.TopBtnContainer" spacing="2" x="11"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TopBtnRecommend"  selectedStyle="asset.shop.TopBtnRecommendDown" unSelectedStyle="asset.shop.TopBtnRecommendUp" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TopBtnEquipment"  selectedStyle="asset.shop.TopBtnEquipmentDown" unSelectedStyle="asset.shop.TopBtnEquipmentUp" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TopBtnBeautyup"  selectedStyle="asset.shop.TopBtnBeautyupDown" unSelectedStyle="asset.shop.TopBtnBeautyupUp" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TopBtnProp"  selectedStyle="asset.shop.TopBtnPropDown" unSelectedStyle="asset.shop.TopBtnPropUp" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TopBtnExchange"  selectedStyle="asset.shop.TopBtnExchangeDown" unSelectedStyle="asset.shop.TopBtnExchangeUp" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.TopBtnFree"  selectedStyle="asset.shop.TopBtnFreeDown" unSelectedStyle="asset.shop.TopBtnFreeUp" filterString="null,lightFilter,null,grayFilter"/>
+		<!--   ShopSubButtons   -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="shop.SubBtnBgDownSpecial" resourceLink="asset.shop.SubBtnBgDown" scaleGridString="10,10,45,15" y="0" width="108" height="27" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="shop.SubBtnBgUpSpecial" resourceLink="asset.shop.SubBtnBgUp" scaleGridString="10,10,45,15" y="-3" width="108" height="32"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.BaseSubButton" selectedStyle="asset.shop.SubBtnBgUp"  unSelectedStyle="asset.shop.SubBtnBgDown"  filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.SubBtnContainerRecommnend" spacing="1" x="22" y="53"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.SubBtnContainerEquipment" spacing="1" x="22" y="53"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.SubBtnContainerBeautyup" spacing="1" x="22" y="53"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.SubBtnContainerProp" spacing="1" x="22" y="56"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.SubBtnContainerExchange" spacing="1" x="22" y="53"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.SubBtnContainerFree" spacing="1" x="22" y="53"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnRecommend" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnRecommendIconUp"  unselectedIconStyle="asset.shop.SubBtnRecommendIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnHotSaleIcon" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnHotSaleIconUp"  unselectedIconStyle="asset.shop.SubBtnHotSaleIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnDiscount" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnDiscountIconUp"  unselectedIconStyle="asset.shop.SubBtnDiscountIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnCloth" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnClothIconUp"  unselectedIconStyle="asset.shop.SubBtnClothIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnHat" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnHatIconUp"  unselectedIconStyle="asset.shop.SubBtnHatIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnGlasses" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnGlassesIconUp"  unselectedIconStyle="asset.shop.SubBtnGlassesIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnRing" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnRingIconUp"  unselectedIconStyle="asset.shop.SubBtnRingIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnSuit" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnSuitIconUp"  unselectedIconStyle="asset.shop.SubBtnSuitIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnHair" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnHairIconUp"  unselectedIconStyle="asset.shop.SubBtnHairIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnWing" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnWingIconUp"  unselectedIconStyle="asset.shop.SubBtnWingIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnEye" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnEyeIconUp"  unselectedIconStyle="asset.shop.SubBtnEyeIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnFace" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnFaceIconUp"  unselectedIconStyle="asset.shop.SubBtnFaceIconDown" />
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnFunc" selectedStyle="shop.SubBtnBgUpSpecial" unSelectedStyle="shop.SubBtnBgDownSpecial" selectedIconStyle="asset.shop.SubBtnFuncIconUp"  unselectedIconStyle="asset.shop.SubBtnFuncIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnSpecial" selectedStyle="shop.SubBtnBgUpSpecial" unSelectedStyle="shop.SubBtnBgDownSpecial" selectedIconStyle="asset.shop.SubBtnSpecialIconUp"  unselectedIconStyle="asset.shop.SubBtnSpecialIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnGiftMedalAll" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnGiftMedalAllIconUp"  unselectedIconStyle="asset.shop.SubBtnGiftMedalAllIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnGiftMedalWeapon" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnGiftMedalWeaponIconUp"  unselectedIconStyle="asset.shop.SubBtnGiftMedalWeaponIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnGiftMedalCloth" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnGiftMedalClothIconUp"  unselectedIconStyle="asset.shop.SubBtnGiftMedalClothIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnGiftMedalBeautyup" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnGiftMedalBeautyupIconUp"  unselectedIconStyle="asset.shop.SubBtnGiftMedalBeautyupIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnGiftMedalProp" parentStyle="shop.BaseSubButton" selectedIconStyle="asset.shop.SubBtnGiftMedalPropIconUp"  unselectedIconStyle="asset.shop.SubBtnGiftMedalPropIconDown"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.SubBtnFreeNyc" selectedStyle="shop.SubBtnBgUpSpecial" unSelectedStyle="shop.SubBtnBgDownSpecial" selectedIconStyle="asset.shop.SubBtnFreeNycIconUp"  unselectedIconStyle="asset.shop.SubBtnFreeNycIconDown"/>
+		
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.RightBtnAll" unSelectedStyle="asset.shop.RightBtnAllDown" selectedStyle="asset.shop.RightBtnAllUp"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.RightBtnCloth" unSelectedStyle="asset.shop.RightBtnClothDown" selectedStyle="asset.shop.RightBtnClothUp" useLogID="42"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.RightBtnWeapon" unSelectedStyle="asset.shop.RightBtnWeaponDown" selectedStyle="asset.shop.RightBtnWeaponUp" useLogID="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.RightBtnBeautyup" unSelectedStyle="asset.shop.RightBtnBeautyupDown" selectedStyle="asset.shop.RightBtnBeautyupUp" useLogID="44"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.RightBtnProp" unSelectedStyle="asset.shop.RightBtnPropDown" selectedStyle="asset.shop.RightBtnPropUp" useLogID="45"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.ShopExchangeGiftBtn" 
+			unSelectedStyle="asset.shop.ShopExchangeGiftUp" selectedStyle="asset.shop.ShopExchangeGiftDown"
+			x='4' y='1' 
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.ShopExchangeMedalBtn" 
+			unSelectedStyle="asset.shop.ShopExchangeMedalUp" selectedStyle="asset.shop.ShopExchangeMedalDown" 
+			x='4' y='20' 
+		/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.ShopSearchColseBtn" 
+			backStyle="asset.shop.ShopSearchColseBtn" filterString="null,lightFilter,null,grayFilter"
+			x="0" y="0"
+		/>
+		
+		<!--   ShopGenderBtn   -->
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.GenderBtnContainer" spacing="6" x="20" y="488"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.GenderBtnMale" unSelectedStyle="asset.shop.MaleIconDown" selectedStyle="asset.shop.MaleIconUp"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.GenderBtnFemale" unSelectedStyle="asset.shop.FemaleIconDown" selectedStyle="asset.shop.FemaleIconUp"/>
+		
+		<!--   ShopPageBtn   -->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnFirstPage" backStyle="asset.shop.BtnFirstPage" filterString="null,lightFilter,null,grayFilter" x="202" y="493"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnPrePage" backStyle="asset.shop.BtnPrePage" filterString="null,lightFilter,null,grayFilter" x="250" y="493"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnNextPage" backStyle="asset.shop.BtnNextPage" filterString="null,lightFilter,null,grayFilter" x="391" y="493"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnEndPage" backStyle="asset.shop.BtnEndPage" filterString="null,lightFilter,null,grayFilter" x="437" y="493"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CurrentPage" textFormatStyle="shop.CurrentPageTF" filterString="shop.PlayerNameFilter" x="312" y="495"  autoSize="none" width="70" height="20" type="dynamic" text="1/1"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="shop.CurrentPageInput" parentStyle="core.scale9CornerImage6" x="316" y="493" width="62" height="23"/>  
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="labyrinth.view.LabyrinthShopItem.explanationText" textFormatStyle="labyrinth.view.LabyrinthShopItem.explanationTextTF" filterString="labyrinth.view.LabyrinthShopItem.explanationTextGF" x="77" y="48" width="135" height="50" wordWrap="true"/>  
+		
+		<!--   ShopGoodItem-->
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="shop.GoodItemContainerAll" spacing="2" x="23" y="98"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="shop.GoodItemContainer" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.GoodItemBg" resourceLink="asset.shop.GoodItemBgMoney,asset.shop.GoodItemBgGift,asset.shop.GoodItemBgSelected,asset.shop.GoodItemBgMoney1"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.GoodLabelIcon" resourceLink="asset.shop.LabelIconNew,asset.shop.LabelIconHot,asset.shop.LabelIconRecommend,asset.shop.LabelIconDiscount,asset.shop.LabelIconLimitTime,asset.shop.LabelIconLimitCount,asset.shop.LabelIconFree2" x="-3" y="-3"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnAddToCart" backStyle="asset.shop.BtnAddToCart" filterString="null,lightFilter,null,grayFilter" x="124" y="56"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="LabyrinthShopItem.GoodItemBg" resourceLink="asset.shop.GoodItemBgMoney1,asset.shop.GoodItemBgGift,asset.shop.GoodItemBgSelected"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.PayPaneFittingBtn" backStyle="asset.shop.PayPaneFittingBtn" filterString="null,lightFilter,null,grayFilter" x="87" y="60" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.PayPaneGivingBtn" backStyle="asset.shop.PayPaneGivingBtn" filterString="null,lightFilter,null,grayFilter" x="87" y="60" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.PayPaneBuyBtn" backStyle="asset.shop.PayPaneBuyBtn" filterString="null,lightFilter,null,grayFilter" x="150" y="60" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.PayPaneGetBtn" backStyle="asset.shop.PayPaneGetBtn" filterString="null,lightFilter,null,grayFilter" x="150" y="60" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.payPaneAddToCartBtn" backStyle="asset.shop.payPaneAddToCartBtn" filterString="null,lightFilter,null,grayFilter" x="189" y="60" />
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.GoodItemName" textFormatStyle="shop.GoodItemNameTF" filterString="shop.GoodItemNameFilter" x="72" y="6" autoSize="none" width="140" height="23" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.GoodItemPrice" textFormatStyle="shop.GoodItemPriceTF" x="115" y="32" autoSize="none" width="50" height="21" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.GoodItemCount" textFormatStyle="shop.ShopItemCountTF"  filterString="shop.ShopItemCountFilter" x="37" y="-2" autoSize="none" width="40" height="16" type="dynamic"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.ShopItemCellTypeBg" 
+			resourceLink="asset.shop.ShopItemCellClickTryBg,asset.shop.ShopItemCellAddToCartBg" 
+			x="3" y="62"
+		/>
+		<!--   ShopLeftView   -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="shop.LeftViewBg" parentStyle="core.scale9cornerImage4" x="0" y="36" width="330" height="541"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.DressBtn"  selectedStyle="asset.shop.DressBtnUp" unSelectedStyle="asset.shop.DressBtnDown" filterString="null,lightFilter,null,grayFilter" x="119" y="3"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.CartBtn"  selectedStyle="asset.shop.CartBtnUp" unSelectedStyle="asset.shop.CartBtnDown" filterString="null,lightFilter,null,grayFilter" x="213" y="3"/>
+				
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"  stylename="shop.LeftMiddlePanelBg"  resourceLink="asset.shop.LeftMoneyPanel,asset.shop.ColorPanelBg" x="12" y="360"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.BtnShopCart" selectedStyle="asset.shop.LeftBtnBgUp" unSelectedStyle="asset.shop.LeftBtnBgDown" selectedIconStyle="asset.shop.BtnShopCart"  unselectedIconStyle="asset.shop.BtnShopCart" filterString="null,lightFilter,null,grayFilter" x="38" y="339"/>
+		<component classname="com.pickgliss.ui.controls.SelectedIconButton" stylename="shop.BtnColorPanel" selectedStyle="asset.shop.LeftBtnBgUp" unSelectedStyle="asset.shop.LeftBtnBgDown"  selectedIconStyle="asset.shop.BtnColorPanel"  unselectedIconStyle="asset.shop.BtnColorPanel" filterString="null,lightFilter,null,grayFilter" x="169" y="339"/>
+
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnSaveFigure" backStyle="asset.shop.BtnSaveFigure" useLogID="25" filterString="null,lightFilter,null,grayFilter" x="18" y="285"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnPresent" backStyle="asset.shop.BtnPresent" useLogID="27" filterString="null,lightFilter,null,grayFilter" x="12" y="506"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnPurchase" backStyle="asset.shop.BtnPurchase" useLogID="26" filterString="null,lightFilter,null,grayFilter" x="89" y="508"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.randomBtn" backStyle="asset.shop.random" filterString="null,lightFilter,null,grayFilter" x="126" y="300"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnClearEquip" backStyle="asset.shop.BtnClearEquip" useLogID="28" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" x="135" y="300"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnClearLastEquip" backStyle="asset.shop.BtnClearLastEquip" useLogID="29" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" x="215" y="255"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.BtnOriginEquip" backStyle="asset.shop.BtnOriginEquip" useLogID="30" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" x="195" y="300"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PlayerName" textFormatStyle="shop.PlayerNameTF" filterString="shop.PlayerNameFilter" x="20" y="55" autoSize="none" width="190"  height="22" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PlayerRank" textFormatStyle="shop.PlayerRankTF" filterString="shop.GoodItemNameFilter" x="252" y="55" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.HideHatCb" parentStyle="core.simpleSelectBtn" textStyle="shop.HideCheckButton" fieldX="13" fieldY="-2" x="219" y="297" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.HideGlassesCb" parentStyle="core.simpleSelectBtn" textStyle="shop.HideCheckButton" fieldX="15" fieldY="-2" x="271" y="297" />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.HideSuitCb" parentStyle="core.simpleSelectBtn" textStyle="shop.HideCheckButton" fieldX="15" fieldY="-2" x="219" y="314"  />
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="shop.HideWingsCb" parentStyle="core.simpleSelectBtn" textStyle="shop.HideCheckButton" fieldX="15" fieldY="-2" x="271" y="314"  />
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.LeftMoneyPanelBuyBtn" 
+			backStyle="asset.shop.LeftMoneyPanelBuyBtn"
+			filterString="null,lightFilter,null,grayFilter" 
+			x="190" y="391"
+		/>
+
+		
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="shop.CheckOutViewBgBlackTop"  parentStyle="core.scale9CornerImage1" x="20" y="406" width="428" height="70"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="shop.CheckOutViewBgBlackBottom"  parentStyle="core.scale9CornerImage1" x="26" y="389" width="414" height="94"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CheckOutViewWealthCost" textFormatStyle="shop.DigitTF" x="46" autoSize="none" width="111" height="20" type="dynamic"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.CheckOutViewWealthLack" textFormatStyle="shop.LackWarningTF" filterString="shop.GoodItemNameFilter" x="187" y="2" autoSize="none" width="150" height="20" type="dynamic"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="shop.CheckOutViewBottomItemBgMoney"  resourceLink="asset.shop.PayPanelItemBg,asset.shop.PayPanelDigitBg,asset.shop.PayPanelMoney,asset.shop.PayPanelMoneyIcon,asset.shop.PayPanelSpaceLineV"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="shop.CheckOutViewBottomItemBgGift"  resourceLink="asset.shop.PayPanelItemBg,asset.shop.PayPanelDigitBg,asset.shop.PayPanelGift,asset.shop.PayPanelGiftIcon,asset.shop.PayPanelSpaceLineV"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="shop.CheckOutViewBottomItemBgMedal"  resourceLink="asset.shop.PayPanelItemBg,asset.shop.PayPanelDigitBg,asset.shop.PayPanelMedal,asset.shop.PayPanelMedalIcon,asset.shop.PayPanelSpaceLineV"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="shop.CheckOutViewBottomItemBgCount"  resourceLink="asset.shop.PayPanelItemBg,asset.shop.PayPanelDigitBg,asset.shop.PayPanelCount,asset.shop.PayPanelPiece,asset.shop.PayPanelSpaceLineV"/>
+		<component classname="ddt.view.SimpleItem" stylename="shop.CheckOutViewBottomItemMoney"  backStyle="shop.CheckOutViewBottomItemBgMoney" foreStyle="shop.CheckOutViewWealthCost,shop.CheckOutViewWealthLack" x="47" y="396"/>
+		<component classname="ddt.view.SimpleItem" stylename="shop.CheckOutViewBottomItemGift"  backStyle="shop.CheckOutViewBottomItemBgGift" foreStyle="shop.CheckOutViewWealthCost,shop.CheckOutViewWealthLack" x="47" y="417"/>
+		<component classname="ddt.view.SimpleItem" stylename="shop.CheckOutViewBottomItemMedal"  backStyle="shop.CheckOutViewBottomItemBgMedal" foreStyle="shop.CheckOutViewWealthCost,shop.CheckOutViewWealthLack" x="47" y="438"/>
+		<component classname="ddt.view.SimpleItem" stylename="shop.CheckOutViewBottomItemCount"  backStyle="shop.CheckOutViewBottomItemBgCount" foreStyle="shop.CheckOutViewWealthCost,shop.CheckOutViewWealthLack" x="47" y="459"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.ContinueToBuy" 
+			backStyle="asset.shop.ContinueToBuy" filterString="null,lightFilter,null,grayFilter"
+			x="255" y="490"
+		/>
+		<!--   ShopPresentView   -->
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="shop.PresentViewFrame"  parentStyle="BaseFrame" width="400" height="436" moveEnable='false' />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.PresentViewCombo" backStyle="asset.shop.PresentFriendBtn" filterString="null,lightFilter,null,grayFilter" x="354" y="53"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PresentViewFriendName" textFormatStyle="shop.ShopPresentFriendNameTF" autoSize="none" x="96" y="55"  width="257" height="26" type="input"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.PresentViewTextAreaContentTxt" textFormatStyle="shop.PresentViewTextAreaContentTxtTF" wordWrap="true" type="input" mouseEnabled="true"/>
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="shop.PresentViewTextArea" parentStyle="core.SimpleTextArea" textStyle="shop.PresentViewTextAreaContentTxt" x="36" y="86" width="328" height="284"/>
+		
+		
+		
+		
+		
+		
+		<!-- 排行视图相关 -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="shop.RankingBackBg" parentStyle="core.shop.RankingBackBg"
+			x='-1' y='33' width="176" height="500" 
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="shop.RankingFrontBg" parentStyle="core.shop.RankingFrontBg"
+			x='8' y='78' width="158" height="445" 
+		/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="shop.ShopSearchBtn" 
+			backStyle="asset.shop.ShopSearchBtn" filterString="null,lightFilter,null,grayFilter"
+			x='121' y='5'
+		/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="shop.ShopSearchText" 
+			textFormatStyle="shop.ShopSearchTF"
+			autoSize="none" type="input"
+			maxChars="30"
+			x='6' y='10' width="120" height="22" 
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.PopularityRankingBtn" 
+			unSelectedStyle="asset.shop.PopularityRankingBtn2" selectedStyle="asset.shop.PopularityRankingBtn1"
+			x='17' y='45'
+		/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="shop.PraiseRankingBtn" 
+			unSelectedStyle="asset.shop.PraiseRankingBtn2" selectedStyle="asset.shop.PraiseRankingBtn1"
+			x='90' y='45'
+		/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="shop.RankingCellItemBg" 
+			resourceLink="asset.shop.RankingCellItemBg,asset.shop.RankingCellItemBg1"
+		/>
+		
+	</components>
+
+	<bitmaps>
+		<bitmapData resourceLink="asset.shop.BgTitle" x="6" y="6"/>
+		<bitmapData resourceLink="asset.shop.RightViewBg" y="33"/>
+
+		<!--   ShopTopBtn-->
+		<bitmapData resourceLink="asset.shop.TopBtnRecommendUp" x="3" y="4"/>
+		<bitmapData resourceLink="asset.shop.TopBtnRecommendDown" x="3" y="5"/>
+		
+		<bitmapData resourceLink="asset.shop.TopBtnEquipmentUp" x="3" y="4"/>
+		<bitmapData resourceLink="asset.shop.TopBtnEquipmentDown" x="3" y="5"/>
+		
+		<bitmapData resourceLink="asset.shop.TopBtnBeautyupUp" x="3" y="4"/>
+		<bitmapData resourceLink="asset.shop.TopBtnBeautyupDown" x="3" y="5"/>
+		
+		<bitmapData resourceLink="asset.shop.TopBtnPropUp" x="3" y="4"/>
+		<bitmapData resourceLink="asset.shop.TopBtnPropDown" x="3" y="5"/>
+		
+		<bitmapData resourceLink="asset.shop.TopBtnExchangeUp" x="3" y="4"/>
+		<bitmapData resourceLink="asset.shop.TopBtnExchangeDown" x="3" y="5"/>
+		
+		<bitmapData resourceLink="asset.shop.TopBtnFreeUp" x="3" y="4"/>
+		<bitmapData resourceLink="asset.shop.TopBtnFreeDown" x="3" y="5"/>
+		
+		<!--   ShopSubBtn-->
+		<bitmapData resourceLink="asset.shop.SubBtnBgDown" y="3" width="70"/>
+		<bitmapData resourceLink="asset.shop.SubBtnBgUp" width="70"/>
+		
+		<bitmapData resourceLink="asset.shop.SubBtnRecommendIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnRecommendIconUp" x="0"  y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnHotSaleIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnHotSaleIconUp" x="0"  y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnDiscountIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnDiscountIconUp" x="0"  y="0"/>
+		
+		<bitmapData resourceLink="asset.shop.SubBtnClothIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnClothIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnHatIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnHatIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGlassesIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGlassesIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnRingIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnRingIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnSuitIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnSuitIconUp" x="0" y="0"/>
+		
+		<bitmapData resourceLink="asset.shop.SubBtnHairIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnHairIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnWingIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnWingIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnEyeIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnEyeIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnFaceIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnFaceIconUp" x="0" y="0"/>
+		
+		<bitmapData resourceLink="asset.shop.SubBtnFuncIconDown" x="7" y="-4"/>
+		<bitmapData resourceLink="asset.shop.SubBtnFuncIconUp" x="7" y="-4"/>
+		<bitmapData resourceLink="asset.shop.SubBtnSpecialIconDown" x="7" y="-3"/>
+		<bitmapData resourceLink="asset.shop.SubBtnSpecialIconUp" x="7" y="-3"/>
+		
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalAllIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalAllIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalWeaponIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalWeaponIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalClothIconUp" x="0" y="5"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalClothIconDown" x="0" y="5"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalBeautyupIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalBeautyupIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalPropIconUp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnGiftMedalPropIconDown" x="0" y="0"/>
+
+		<bitmapData resourceLink="asset.shop.SubBtnFreeNycIconDown" x="0" y="0"/>
+		<bitmapData resourceLink="asset.shop.SubBtnFreeNycIconUp" x="0" y="0"/>
+		
+		<bitmapData resourceLink="asset.shop.ShopExchangeBoxBg"/>
+		
+		<!--   ShopLeftView -->
+		<bitmapData resourceLink="asset.shop. fittingRoomText"  x="15" y="35"/>
+		<bitmapData resourceLink="asset.shop.CartBtnDown"  x="6" y="5"/>
+		<bitmapData resourceLink="asset.shop.DressBtnDown" x="6" y="5"/>
+		<bitmapData resourceLink="asset.shop.BodyInfoBg" x="13" y="50"/>
+		<bitmapData resourceLink="asset.shop.PlayerRank" x="200" y="55"/>
+		<bitmapData resourceLink="asset.shop.fittingRoomText" x="15" y="35"/>
+		<bitmapData resourceLink="asset.shop.BtnShopCart" x="7" y="-6"/>
+
+		<!--   ShopCheckOutView   -->
+		<bitmapData resourceLink="asset.shop.PayPanelDigitBg" x="60" y="1"/>
+		<bitmapData resourceLink="asset.shop.PayPanelSpaceLineV" x="178"/>
+		<bitmapData resourceLink="asset.shop.PayPanelMoney" x="9" y="-2"/>
+		<bitmapData resourceLink="asset.shop.PayPanelMoneyIcon" x="158" y="1"/>
+		<bitmapData resourceLink="asset.shop.PayPanelGift" x="9" y="-2"/>
+		<bitmapData resourceLink="asset.shop.PayPanelGiftIcon" x="154" y="1"/>
+		<bitmapData resourceLink="asset.shop.PayPanelMedal" x="9" y="-2"/>
+		<bitmapData resourceLink="asset.shop.PayPanelMedalIcon" x="157" y="0"/>
+		<bitmapData resourceLink="asset.shop.PayPanelPiece" x="157" y="0"/>
+		<bitmapData resourceLink="asset.shop.PayPanelCount" x="9" y="-2"/>
+		
+		<!--   ShopPresentView   -->
+		<bitmapData resourceLink="asset.shop.PresentBg" x="15" y="38"/>
+		<bitmapData resourceLink="asset.shop.ShopItemCellBg" />
+		
+
+		<!-- 排行视图相关 -->
+		<bitmapData resourceLink="asset.shop.ShopSearchBg" x="-5" />
+		<bitmapData resourceLink="asset.shop.PopularityRankingBtn2" x="1" y="7" />
+		<bitmapData resourceLink="asset.shop.PraiseRankingBtn2" x="1" y="7" />
+		
+		<bitmapData resourceLink="asset.shop.LabelIconLimitCount" y="-5" />
+		<bitmapData resourceLink="asset.shop.LabelIconFree2" y="-3" />
+		
+		<bitmapData resourceLink="asset.shop.BtnColorPanel" x="1" y="-6"/>
+		
+	</bitmaps>
+</style>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="firstrecharge" version="1.0.1" source="ui/spain/swf/firstrecharge.swf">
+
+	<sets>
+		<set type="flash.text.TextFormat" stylename="firstrecharge.mainframe.contentText.tf" args="Arial,16,0xf4f1e2,true,,,,,left" leading="0" letterSpacing="0"/>
+		<set type="flash.filters.GlowFilter" stylename="firstrecharge.mainframe.contentText.gf" args="0x451908,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="firstrecharge.mainframe.contentDetailText.tf" args="Arial,20,0xfe0000,true,,,,,left" leading="0" letterSpacing="0"/>
+		<set type="flash.filters.GlowFilter" stylename="firstrecharge.mainframe.contentDetailText.gf" args="0xffffff,1,4,4,30"/>
+	</sets>
+
+	<customs>
+		<custom classname="flash.geom.Point" stylename="firstrecharge.hall.icon.pos" x="900" y="437" />
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.cell.pos" x="42" y="218" />
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.cellshine.pos" x="29" y="210" />
+		
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.anymoney.pos" x="127" y="36" />
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.scale.pos" x="372" y="36" />
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.money.pos" x="411" y="36" />
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.get.pos" x="122" y="61" />
+		<custom classname="flash.geom.Point" stylename="firstrecharge.mainframe.value.pos" x="358" y="61" />			
+	</customs>
+	
+	<components>
+		<component classname="firstRecharge.FirstRechargeFrame" stylename="firstRecharge.FirstRechargeMainFrame" backStyle="core.bg006"
+			closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,5,5" containerX="8" containerY="35" escEnable="true"
+			closeInnerRectString="44,9,2,30,14" width="592" height="430" />
+	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="firstrecharge.mainframe.getAwardBtn" 
+			backStyle="asset.firstcharge.frame.getawardbtn" x="198" y="320"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.mainframe.contentText" 
+			textFormatStyle="firstrecharge.mainframe.contentText.tf" filterString="firstrecharge.mainframe.contentText.gf" 
+			autoSize="none" wordWrap="true" width="450" height="140" x="16" y="12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="firstrecharge.mainframe.contentDetailText" 
+			textFormatStyle="firstrecharge.mainframe.contentDetailText.tf" filterString="firstrecharge.mainframe.contentDetailText.gf" x="20" y="16"/>
+	    	
+	     <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="firstrecharge.mainframe.bottom" 
+	     	resourceLink="asset.core.bg002" width="560" height="72" scaleGridString="10,10,300,30" x="8" y="310" />
+	</components>
+	
+	<bitmaps>
+		
+	</bitmaps>
+
+</style>

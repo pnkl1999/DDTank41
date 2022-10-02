@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Custom Login Form Styling</title>
+        <meta name="description" content="Custom Login Form Styling with CSS3" />
+        <meta name="keywords" content="gunny, gunny2, Guild tranh bá" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <script src="script/modernizr.custom.63321.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/thickbox.css">
+        <script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>
+        <script type="text/javascript" src="script/thickbox.js"></script>
+        <script type="text/javascript" src="script/webtoolkit.md5.js"></script>
+        <!--[if lte IE 7]><style>.main{display:none;} .support-note .note-ie{display:block;}</style><![endif]-->
+		<style>
+			body {
+				background: #e1c192 url(images/bg.jpg);
+                background-repeat: no-repeat;
+                background-position: top center;
+			}
+		   
+            /*底部*/
+		    .footerWrap
+		    {
+		        text-align: left;
+		        clear: both;
+		        width: 100%;
+		        height: auto;
+		        padding: 20px 0 30px;
+		        /*background: url(images/footerBg-x.jpg) repeat-x;*/
+		        overflow: hidden;
+		        font-size: 12px;
+		        margin: 155px auto 30px;
+		    }
+		    .footer
+		    {
+		        height: auto;
+		        font-family: Microsoft YaHei;
+		        line-height: 20px;
+		        width: 1000px;
+		        margin: 0 auto;
+		    }
+		    .footerLogo
+		    {
+		        float: left;
+		        margin: 15px 15px 0 12px;
+		        width: 180px;
+		        height: 45px;
+		        background: url(images/footerLogo.png) no-repeat;
+		    }
+		    .footerNav
+		    {
+		        float: left;
+		        margin-top: 5px;
+		        padding: 0 0 0 15px;
+		        border-left: 1px solid #ccc;
+		        color: #7c7c7c;
+		        line-height: 24px;
+		        width: 774px;
+		    }
+		        .footerNav a
+		        {
+		            margin: 0 3px;
+		            color: #7c7c7c;
+		        }
+		        .footerNav p em
+		        {
+		            font-family: Verdana;
+		            font-size: 10px;
+		        }
+		</style>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                sectionlive(true);
+                //var url = $(location).attr('search');
+                //if (url == '') {
+                //    $("#error").html("null");
+                //}
+                
+                //$("#username").focus();
+                $("#password").keypress(function (e) {
+                    if (e.keyCode == 13) {                       
+                        checklogin();
+                    }
+                });
+            });
+            function checklogin() {
+                var err = 0;
+                if ($("#username").val() == '') {
+                    $("#titleTag").html('<span style="color:red" id ="error" class="log-in">Vui lòng nhập tên tài khoản!</span>');
+                    err++;
+                }
+                else if ($("#password").val() == '') {
+                    $("#titleTag").html('<span style="color:red" id ="error" class="log-in">Vui lòng nhập mật khẩu!</span>');
+                    err++;
+                }
+
+                if (err == 0)
+                    xmlhttpPost("checkuser.ashx");
+                return false;
+            }
+			function logout(opt) {
+                var getObjId = $("#loginTag");
+                getObjId.css({ display: "block" });
+                getObjId = $("#serverlistTag");
+                getObjId.css({ display: "none" });
+                getObjId.html("");
+                $("#titleTag").html('Đăng nhập');
+                $("#username").val('');
+                $("#password").val('');
+                if (opt == true) {
+                    sectionlive(false);
+                }
+            }
+
+            function xmlhttpPost(strURL) {
+               
+                $("#titleTag").html('<img alt="" id="loading_img" src="images/loading.gif" />');
+
+                $.ajax({
+                    type: 'GET',
+                    url: strURL,
+                    data: getquerystring(),
+                    success: function (data_revert) {
+
+                        if (data_revert == "ok") {
+                            //location.replace("LoginGame.aspx");
+                            showObj();
+                        }
+                        else
+                            $("#titleTag").html('<span style="color:red; font-size: 12px;">' + data_revert + '</span>');
+
+                    }
+                });
+                
+            }
+            function sectionlive(skip) {
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'sectionlive.ashx',
+                    data: 'skiplive=' + skip,
+                    success: function (data_revert) {
+
+                        if (data_revert == "live") {
+                            showObj();
+                        }
+                        else {
+                            logout(false);
+                        }
+
+                    }
+                });
+
+            }
+            function loadgame(url) {
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'sectionlive.ashx',
+                    data: 'skiplive=true',
+                    success: function (data_revert) {
+
+                        if (data_revert == "live") {
+                            location.replace('loading.htm');;
+                        }
+                        else {
+                            logout(false);
+                        }
+
+
+                    }
+                });
+
+            }
+            function showObj() {
+
+                var getObjId = $("#loginTag");
+                getObjId.css({ display: "none" });
+                getObjId = $("#serverlistTag");
+                getObjId.html("");
+                getObjId.css({ display: "block" });
+                var str = '<h1><span class="log-in">Server List</span></h1>';
+                str += '<p class="clearfix">&nbsp; </p>';
+                str += '<p class="clearfix">';
+                str += '<a href="javascript:void" onclick="loadgame(1);" title="Giao diện Việt nam" target="_blank" ';
+                str += 'class="severlist">UI Việt Nam</a>';
+                str += '<a href="javascript:void" onclick="loadgame(2);"  title="Giao diện 7road" target="_blank"';
+                str += 'class="severlist">UI Douwan</a>	';
+                str += '</p>';
+                str += '<p class="clearfix">&nbsp; </p>';
+                str += '<p class="clearfix"> ';
+                str += '<a href="javascript:void" onclick="loadgame(3);"  title="Giao diện 337" target="_blank" ';
+                str += 'class="severlist">UI 337</a>';
+                str += '<a href="javascript:void" onclick="loadgame(4);"  title="xddtank 7road" target="_blank"';
+                str += 'class="severlist">UI 7road</a>';
+                str += '</p>';
+                str += '<p class="clearfix">&nbsp; </p>';
+                str += '<p class="clearfix"> ';
+                str += '<a href="#"  title="Thoát"';
+                str += 'class="logout" onclick="logout(true);">Thoát</a>';
+                str += '</p>';
+                getObjId.html(str);
+
+            }
+            function getquerystring() {
+                //var form = document.forms['frmLogin']; 
+                var username = $("#username").val(); //form.username.value;
+                var password = MD5($("#password").val()); //MD5(form.password.value);
+                qstr = 'username=' + escape(username) + '&password=' + escape(password);
+                return qstr;
+            }
+           
+    </script>
+    </head>
+    <body>
+       <div>
+			<section class="main">
+				<form class="form-2" id="frmLogin" name="frmLogin" >
+				<span id ="loginTag" style="display:block">
+					<h1><span id ="titleTag" class="log-in">Đăng nhập</span></h1>
+					<p class="float">
+						<label for="login"><i class="icon-user"></i>Tài khoản</label>
+						<input id="username" type="text" name="username" placeholder="Username">
+					</p>
+					<p class="float">
+						<label for="password"><i class="icon-lock"></i>Mật khẩu</label>
+						<input type="password" id="password" name="password" placeholder="Password" class="showpassword">
+					    <p class='opt'>
+                        <a href="./auth/forgotpass.aspx?type=154&amp;eventid=63&amp;bannerid=104&amp;pid=49&amp;placeValuesBeforeTB_=savedValues&amp;TB_iframe=true&amp;height=430&amp;width=366" 
+                            title="Đăng ký nhanh" rel="PopupQuick"
+                            target="_blank" class="showpasswordcheckbox">Quên mật khẩu?</a>  
+                        </p>  
+                    </p>
+					<p class="clearfix"> 
+						<a href="./auth/register.aspx?type=154&amp;eventid=63&amp;bannerid=104&amp;pid=49&amp;placeValuesBeforeTB_=savedValues&amp;TB_iframe=true&amp;height=430&amp;width=366" 
+                            title="Đăng ký nhanh" rel="PopupQuick"
+                            target="_blank" class="log-twitter">Đăng ký nhanh</a>    
+						<input type="submit" name="submit" value="Đăng nhập" onclick="return checklogin();">
+					</p>
+				</span>
+				<span id ="serverlistTag" style="display:none">					
+				</span>
+				</form>​​
+			</section>
+			
+        </div>
+        <!-- Footer -->
+    <div id="platformFooter">
+	<div class="footerWrap">
+	<div class="footer screenCenter">
+	<a class="footerLogo" href="./" target="_blank"></a>
+	<div class="footerNav">
+	<a target="_blank" title="Home" href="./">第七大道</a> | 
+	<a target="_blank" title="Link" href="./" rel="external nofollow">合作伙伴</a> |
+	<a target="_blank" title="Welfare" href="./">成员福利</a> | 
+	<a target="_blank" title="Contact" href="./">联系方式</a> | 
+	<a target="_blank" title="View" href="./">意见反馈</a> | 
+	<a target="_blank" title="Legal" href="./" rel="external nofollow">法律声明</a> | 
+	<a target="_blank" title="Sitemap" rel="external nofollow" href="./">网站地图</a>
+	<p>文网文[2010]207号 | 增值电信业务经营许可证：粤B2-20100091 | <a href="./" target="_blank">粤ICP备08006865号-1</a>
+	</p><p>第七大道科技有限公司<em> Copyright© 2009 www.7road.com All rights reserved.</em></p>	
+	</div>
+	</div>
+	</div>
+	</div>    
+    <!-- /Footer -->
+		<!-- jQuery if needed -->
+		
+    </body>
+</html>

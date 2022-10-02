@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>SqlDataProvider</id>
+    <version>1.0.0</version>
+    <authors>SqlDataProvider</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework=".NETFramework4.7.2">
+        <dependency id="log4net" version="2.0.14" exclude="Build,Analyzers" />
+        <dependency id="protobuf-net" version="3.0.101" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\NEWGUN\Source Server\SqlDataProvider\bin\Debug\net472\SqlDataProvider.dll" target="lib\net472\SqlDataProvider.dll" />
+  </files>
+</package>

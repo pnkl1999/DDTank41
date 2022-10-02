@@ -1,0 +1,517 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AdminGunny</RootNamespace>
+    <AssemblyName>AdminGunny</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Admin\Addin.aspx" />
+    <Content Include="Admin\ItemFusionBox.aspx" />
+    <Content Include="Admin\NPCinfo.aspx" />
+    <Content Include="Admin\popupInfo.aspx" />
+    <Content Include="Admin\customItem.aspx" />
+    <Content Include="Admin\data\MiniMenuItems.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Admin\data\LoadItemsCategory.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Admin\data\MenuAddin.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Admin\MapsGunny.aspx" />
+    <Content Include="Admin\popup.aspx" />
+    <Content Include="Admin\Quest.aspx" />
+    <Content Include="Admin\sendMail5Item.aspx" />
+    <Content Include="Admin\ShopItem.aspx" />
+    <Content Include="Admin\Item.aspx" />
+    <Content Include="Admin\smartpaginator.htm" />
+    <Content Include="Admin\test.aspx" />
+    <Content Include="Admin\Weapon.aspx" />
+    <Content Include="Images\7road.png" />
+    <Content Include="Images\balloon_bottom.png" />
+    <Content Include="Images\balloon_bottomLeft.png" />
+    <Content Include="Images\balloon_bottomRight.png" />
+    <Content Include="Images\balloon_left.png" />
+    <Content Include="Images\balloon_right.png" />
+    <Content Include="Images\balloon_tail.png" />
+    <Content Include="Images\balloon_top.png" />
+    <Content Include="Images\balloon_topLeft.png" />
+    <Content Include="Images\balloon_topRight.png" />
+    <Content Include="Images\bg3.jpg" />
+    <Content Include="Images\close.png" />
+    <Content Include="Images\default.png" />
+    <Content Include="Images\ga.png" />
+    <Content Include="Images\gunny\bg-circle\cap1.swf" />
+    <Content Include="Images\gunny\bg-circle\cap2.swf" />
+    <Content Include="Images\gunny\bg-circle\cap3.swf" />
+    <Content Include="Images\gunny\btn-achievement.png" />
+    <Content Include="Images\gunny\character-status\married.png" />
+    <Content Include="Images\gunny\character-status\vip-off.png" />
+    <Content Include="Images\gunny\character\bar.gif" />
+    <Content Include="Images\gunny\character\character-bg.png" />
+    <Content Include="Images\gunny\character\character.css" />
+    <Content Include="Images\gunny\character\level-progress.png" />
+    <Content Include="Images\gunny\formula\other10\icon.png" />
+    <Content Include="Images\gunny\formula\other2\icon.png" />
+    <Content Include="Images\gunny\formula\other3\icon.png" />
+    <Content Include="Images\gunny\formula\other4\icon.png" />
+    <Content Include="Images\gunny\formula\other5\icon.png" />
+    <Content Include="Images\gunny\formula\other6\icon.png" />
+    <Content Include="Images\gunny\formula\other7\icon.png" />
+    <Content Include="Images\gunny\formula\other9\icon.png" />
+    <Content Include="Images\gunny\level-image\1.png" />
+    <Content Include="Images\gunny\level-image\10.png" />
+    <Content Include="Images\gunny\level-image\11.png" />
+    <Content Include="Images\gunny\level-image\12.png" />
+    <Content Include="Images\gunny\level-image\13.png" />
+    <Content Include="Images\gunny\level-image\14.png" />
+    <Content Include="Images\gunny\level-image\15.png" />
+    <Content Include="Images\gunny\level-image\16.png" />
+    <Content Include="Images\gunny\level-image\17.png" />
+    <Content Include="Images\gunny\level-image\18.png" />
+    <Content Include="Images\gunny\level-image\19.png" />
+    <Content Include="Images\gunny\level-image\2.png" />
+    <Content Include="Images\gunny\level-image\20.png" />
+    <Content Include="Images\gunny\level-image\21.png" />
+    <Content Include="Images\gunny\level-image\22.png" />
+    <Content Include="Images\gunny\level-image\23.png" />
+    <Content Include="Images\gunny\level-image\24.png" />
+    <Content Include="Images\gunny\level-image\25.png" />
+    <Content Include="Images\gunny\level-image\26.png" />
+    <Content Include="Images\gunny\level-image\27.png" />
+    <Content Include="Images\gunny\level-image\28.png" />
+    <Content Include="Images\gunny\level-image\29.png" />
+    <Content Include="Images\gunny\level-image\3.png" />
+    <Content Include="Images\gunny\level-image\30.png" />
+    <Content Include="Images\gunny\level-image\31.png" />
+    <Content Include="Images\gunny\level-image\32.png" />
+    <Content Include="Images\gunny\level-image\33.png" />
+    <Content Include="Images\gunny\level-image\34.png" />
+    <Content Include="Images\gunny\level-image\35.png" />
+    <Content Include="Images\gunny\level-image\36.png" />
+    <Content Include="Images\gunny\level-image\37.png" />
+    <Content Include="Images\gunny\level-image\38.png" />
+    <Content Include="Images\gunny\level-image\39.png" />
+    <Content Include="Images\gunny\level-image\4.png" />
+    <Content Include="Images\gunny\level-image\40.png" />
+    <Content Include="Images\gunny\level-image\41.png" />
+    <Content Include="Images\gunny\level-image\42.png" />
+    <Content Include="Images\gunny\level-image\43.png" />
+    <Content Include="Images\gunny\level-image\44.png" />
+    <Content Include="Images\gunny\level-image\45.png" />
+    <Content Include="Images\gunny\level-image\46.png" />
+    <Content Include="Images\gunny\level-image\47.png" />
+    <Content Include="Images\gunny\level-image\48.png" />
+    <Content Include="Images\gunny\level-image\49.png" />
+    <Content Include="Images\gunny\level-image\5.png" />
+    <Content Include="Images\gunny\level-image\50.png" />
+    <Content Include="Images\gunny\level-image\51.png" />
+    <Content Include="Images\gunny\level-image\6.png" />
+    <Content Include="Images\gunny\level-image\7.png" />
+    <Content Include="Images\gunny\level-image\8.png" />
+    <Content Include="Images\gunny\level-image\9.png" />
+    <Content Include="Images\gunny\level-image\effect1.swf" />
+    <Content Include="Images\gunny\level-image\effect2.swf" />
+    <Content Include="Images\gunny\level-image\effect3.swf" />
+    <Content Include="Images\gunny\level-image\effect4.swf" />
+    <Content Include="Images\gunny\level-image\lv.png" />
+    <Content Include="Images\gunny\number\0.png" />
+    <Content Include="Images\gunny\number\1.png" />
+    <Content Include="Images\gunny\number\2.png" />
+    <Content Include="Images\gunny\number\3.png" />
+    <Content Include="Images\gunny\number\4.png" />
+    <Content Include="Images\gunny\number\5.png" />
+    <Content Include="Images\gunny\number\small2\0.png" />
+    <Content Include="Images\gunny\number\small2\2.png" />
+    <Content Include="Images\gunny\number\small2\3.png" />
+    <Content Include="Images\gunny\sinplelight\1.swf" />
+    <Content Include="Images\gunny\sinplelight\2.swf" />
+    <Content Include="Images\gunny\sinplelight\3.swf" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel1.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel10.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel11.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel12.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel13.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel14.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel15.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel2.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel3.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel4.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel5.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel6.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel7.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel8.png" />
+    <Content Include="Images\gunny\strengthenlevel\strengthenlevel9.png" />
+    <Content Include="Images\gunny\tooltip\ao-giap.png" />
+    <Content Include="Images\gunny\tooltip\default.png" />
+    <Content Include="Images\gunny\tooltip\hoi-phuc.png" />
+    <Content Include="Images\gunny\tooltip\hr.png" />
+    <Content Include="Images\gunny\tooltip\loai.png" />
+    <Content Include="Images\gunny\tooltip\pham-chat.png" />
+    <Content Include="Images\gunny\tooltip\sat-thuong.png" />
+    <Content Include="Images\gunny\tooltip\tooltip.png" />
+    <Content Include="Images\icon.png" />
+    <Content Include="Images\icon_1.png" />
+    <Content Include="Images\menulist.jpg" />
+    <Content Include="Images\loadingAnimation.gif" />
+    <Content Include="Images\next.png" />
+    <Content Include="Images\previous.png" />
+    <Content Include="Images\snext.png" />
+    <Content Include="Images\sprevious.png" />
+    <Content Include="Images\tooltip.png" />
+    <Content Include="Images\uber-loading.gif" />
+    <Content Include="Scripts\jquery-1.7-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.7.js" />
+    <Content Include="Scripts\jquery-1.7.min.js" />
+    <Content Include="Scripts\jquery.bgpos.js" />
+    <Content Include="Scripts\jquery.corner.js" />
+    <Content Include="Scripts\jquery.form.js" />
+    <Content Include="Scripts\Js_Callback.js" />
+    <Content Include="Scripts\scroll\css\website.css" />
+    <Content Include="Scripts\scroll\images\bg-scrollbar-thumb-y.png" />
+    <Content Include="Scripts\scroll\images\bg-scrollbar-track-y.png" />
+    <Content Include="Scripts\scroll\images\bg-scrollbar-trackend-y.png" />
+    <Content Include="Scripts\scroll\index.html" />
+    <Content Include="Scripts\scroll\js\jquery.tinyscrollbar.js" />
+    <Content Include="Scripts\smartpaginator.js" />
+    <Content Include="Scripts\thickbox.js" />
+    <Content Include="Styles\smartpaginator2.css" />
+    <Content Include="Styles\PIE.htc" />
+    <Content Include="Styles\popup.css" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Styles\smartpaginator.css" />
+    <Content Include="Styles\Stylexxx.css" />
+    <Content Include="Styles\thickbox.css" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Admin\data\MenuItems.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="XMLReader\importXML.aspx" />
+    <Content Include="XMLReader\printVar.aspx" />
+    <Content Include="XMLReader\XMLImport\AchievementList.xml" />
+    <Content Include="XMLReader\XMLImport\ActiveList.xml" />
+    <Content Include="XMLReader\XMLImport\BallList.xml" />
+    <Content Include="XMLReader\XMLImport\bombconfig.xml" />
+    <Content Include="XMLReader\XMLImport\CardBuffList.xml" />
+    <Content Include="XMLReader\XMLImport\CardInfoList.xml" />
+    <Content Include="XMLReader\XMLImport\CardUpdateCondition.xml" />
+    <Content Include="XMLReader\XMLImport\CardUpdateInfo.xml" />
+    <Content Include="XMLReader\XMLImport\consortiabuffertemp.xml" />
+    <Content Include="XMLReader\XMLImport\ConsortiaLevelList.xml" />
+    <Content Include="XMLReader\XMLImport\DailyAwardList.xml" />
+    <Content Include="XMLReader\XMLImport\dailyleagueaward.xml" />
+    <Content Include="XMLReader\XMLImport\dailyleaguelevel.xml" />
+    <Content Include="XMLReader\XMLImport\DropItemForNewRegister.xml" />
+    <Content Include="XMLReader\XMLImport\exerciseinfolist.xml" />
+    <Content Include="XMLReader\XMLImport\FightLabDropItemList.xml" />
+    <Content Include="XMLReader\XMLImport\ItemStrengthenData.xml" />
+    <Content Include="XMLReader\XMLImport\ItemStrengthenList.xml" />
+    <Content Include="XMLReader\XMLImport\LevelList.xml" />
+    <Content Include="XMLReader\XMLImport\LoadAllQuestions.xml" />
+    <Content Include="XMLReader\XMLImport\LoadBoxTemp.xml" />
+    <Content Include="XMLReader\XMLImport\LoadItemsCategory.xml" />
+    <Content Include="XMLReader\XMLImport\LoadMapsItems.xml" />
+    <Content Include="XMLReader\XMLImport\LoadPVEItems.xml" />
+    <Content Include="XMLReader\XMLImport\LoadUserBox.xml" />
+    <Content Include="XMLReader\XMLImport\MapServerList.xml" />
+    <Content Include="XMLReader\XMLImport\NPCInfoList.xml" />
+    <Content Include="XMLReader\XMLImport\QuestList.xml" />
+    <Content Include="XMLReader\XMLImport\ShopGoodsShowList.xml" />
+    <Content Include="XMLReader\XMLImport\ShopItemList.xml" />
+    <Content Include="XMLReader\XMLImport\TemplateAlllist.xml" />
+    <Content Include="XMLReader\XMLReader.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adminClass.cs" />
+    <Compile Include="Admin\Addin.aspx.cs">
+      <DependentUpon>Addin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Addin.aspx.designer.cs">
+      <DependentUpon>Addin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ItemFusionBox.aspx.cs">
+      <DependentUpon>ItemFusionBox.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ItemFusionBox.aspx.designer.cs">
+      <DependentUpon>ItemFusionBox.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\NPCinfo.aspx.cs">
+      <DependentUpon>NPCinfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\NPCinfo.aspx.designer.cs">
+      <DependentUpon>NPCinfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\popupInfo.aspx.cs">
+      <DependentUpon>popupInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\popupInfo.aspx.designer.cs">
+      <DependentUpon>popupInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\customItem.aspx.cs">
+      <DependentUpon>customItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\customItem.aspx.designer.cs">
+      <DependentUpon>customItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MapsGunny.aspx.cs">
+      <DependentUpon>MapsGunny.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MapsGunny.aspx.designer.cs">
+      <DependentUpon>MapsGunny.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\popup.aspx.cs">
+      <DependentUpon>popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\popup.aspx.designer.cs">
+      <DependentUpon>popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Quest.aspx.cs">
+      <DependentUpon>Quest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Quest.aspx.designer.cs">
+      <DependentUpon>Quest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\RipResource.ashx.cs">
+      <DependentUpon>RipResource.ashx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\sendmail.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sendmail.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\sendMail5Item.aspx.cs">
+      <DependentUpon>sendMail5Item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\sendMail5Item.aspx.designer.cs">
+      <DependentUpon>sendMail5Item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\ShopItem.aspx.cs">
+      <DependentUpon>ShopItem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\ShopItem.aspx.designer.cs">
+      <DependentUpon>ShopItem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Item.aspx.cs">
+      <DependentUpon>Item.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Item.aspx.designer.cs">
+      <DependentUpon>Item.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\mainRequest.ashx.cs">
+      <DependentUpon>mainRequest.ashx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Weapon.aspx.cs">
+      <DependentUpon>Weapon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Weapon.aspx.designer.cs">
+      <DependentUpon>Weapon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="XMLReader\importXML.aspx.cs">
+      <DependentUpon>importXML.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XMLReader\importXML.aspx.designer.cs">
+      <DependentUpon>importXML.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XMLReader\printVar.aspx.cs">
+      <DependentUpon>printVar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XMLReader\printVar.aspx.designer.cs">
+      <DependentUpon>printVar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="XMLReader\XMLReader.aspx.cs">
+      <DependentUpon>XMLReader.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="XMLReader\XMLReader.aspx.designer.cs">
+      <DependentUpon>XMLReader.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Bussiness\Bussiness.csproj">
+      <Project>{87C66FCB-06BB-42C0-86E1-ED814A77EBE4}</Project>
+      <Name>Bussiness</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{037F4B7B-B05B-44A9-B83E-32C21D7A7B41}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\mainRequest.ashx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\RipResource.ashx" />
+    <None Include="Admin\sendmail.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>sendmail.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Admin\sendmail.dbml.layout">
+      <DependentUpon>sendmail.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>18202</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

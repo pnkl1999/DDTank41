@@ -1,0 +1,52 @@
+<style name="ddthallIcon" version="1.0.1" source="ui/spain/swf/ddthallIcon.swf">
+	<sets>
+		<set stylename="hallicon.hallIconPanel.hotNumTF" args="Arial,14,0xff0000,true,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="hallicon.hallIconPanel.hotNumGF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="hallicon.IconTimeTxtTF" args="Arial,12,0xff0000,true,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="hallicon.IconTimeTxtGF" args="0x140000,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set type="flash.filters.GlowFilter" args="0x620000,2,4,4,30" stylename="foodActivity.count.smallGF"/>
+		<set type="flash.text.TextFormat" args="Arial,12,0xffffff,,,,,,center" stylename="foodActivity.count.smallTF"/>	
+	</sets>
+	
+	<components>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="hallIconPanel.iconSpriteBg" resourceLink="hallicon.hallIconPanel.iconSpriteBg" scaleGridString="10,10,13,40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="hallicon.hallIconPanel.hotNum" textFormatStyle="hallicon.hallIconPanel.hotNumTF" autoSize="none" filterString="hallicon.hallIconPanel.hotNumGF" width="30" height="18" x="48" y="-5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="hallicon.IconTimeTxt" textFormatStyle="hallicon.IconTimeTxtTF" filterString="hallicon.IconTimeTxtGF" autoSize="none" width="80" height="18" x="-5" y="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assets.hallIcon.numTxt" textFormatStyle="foodActivity.count.smallTF" filterString="foodActivity.count.smallGF" autoSize="none" width="20" height="16" x="50.5" y="0"/>
+		
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="magicHouse.hallStateView.entryBtn.alpha" 
+			backStyle="asset.hallIcon.magichouseIcon.alpha" x="0" y="0"/>
+	</components>
+	
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallRightIconViewPos" x="850" y="10"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallLeftIconViewPos" x="10" y="110"/>
+		
+		<custom classname="flash.geom.Point" stylename="hallIcon.iconGlowPos1" x="-7" y="-9"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.iconGlowPos2" x="-4" y="-5"/>
+		
+		<custom classname="com.pickgliss.ui.controls.Frame" stylename="hallIcon.commonFrame"
+			backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame"
+			closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14" escEnable="true" />
+			
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperiencePos1" x="-60" y="43"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperiencePos2" x="-60" y="116"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperiencePos3" x="-60" y="190"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperiencePos4" x="-60" y="264"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperiencePos5" x="-60" y="338"/>
+		
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperienceTxt1" x="-270" y="43"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperienceTxt2" x="-270" y="116"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperienceTxt3" x="-270" y="190"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperienceTxt4" x="-270" y="264"/>
+		<custom classname="flash.geom.Point" stylename="hallIcon.hallIconExperienceTxt5" x="-270" y="338"/>
+		
+		<custom classname="flash.geom.Point" stylename="magicHouse.hallIconPos" x="745" y="146"/>
+		
+	</customDisplay>
+	<bitmaps>
+		<bitmapData resourceLink="assets.hallIcon.hotNumBg" x="48" y="-5"/>
+		<bitmapData resourceLink="assets.hallIcon.numIconBg" x="48" y="-5"/>
+	</bitmaps>
+</style>

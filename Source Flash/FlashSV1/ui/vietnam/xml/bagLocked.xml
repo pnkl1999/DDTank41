@@ -1,0 +1,294 @@
+<style name="bagLocked" version="1.0.1" source="ui/spain/swf/bagLocked.swf">
+	<sets>
+		<!--Filter-->
+		<set args="0xC04A00,1,2,2,1000" stylename="baglocked.T_g1" type="flash.filters.GlowFilter"/>
+		<set args="0xFFFFFF,1,4,4,800" stylename="baglocked.T_g2" type="flash.filters.GlowFilter"/>
+		<!--TextFormat-->
+		<set stylename="baglocked.T_1" args="Arial,12,0xFBF202" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_1_1" args="Arial,12,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_2" args="Arial,13,0x7F4100,true" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_2_1" args="Arial,14,0xFBF202" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_3" args="Arial,13,0xFF0000" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_3_1" args="Arial,13,0xFF0000,true" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.Input_1" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_4" args="Arial,13,0xFF0000,true" type="flash.text.TextFormat"/>
+		<set stylename="baglocked.T_5" args="Arial,15,0xEA0B14,true" type="flash.text.TextFormat"/>
+
+	</sets>
+	<customDisplay>
+		<custom classname="asset.baglocked.explainAsset" stylename="baglocked.explainText"  x="5" y="6"/>
+	</customDisplay>
+	<components>
+		<!-- explainMap -->
+		<component classname="com.pickgliss.ui.image.DrawImage" stylename="baglocked.explainMap" imageStyle="rectangle" imageAlpha="1" x="0" y="0" width="200" height="100" color="0x000000"  />
+		<!--Image-->
+		<component classname="com.pickgliss.ui.image.Image" stylename="baglocked.subtitle"
+			resourceLink="asset.baglocked.subtitleAsset" x='-5' />
+	
+		<!--button-->
+		<!-- 提示框button-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.setPassBtn"
+			y='339' parentStyle='core.simplebt'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.delPassBtn" useLogID="108" 
+			parentStyle='baglocked.setPassBtn' />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.removeLockBtn" useLogID="109"
+			parentStyle='baglocked.setPassBtn' x='120' />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.updatePassBtn" useLogID="110"
+			parentStyle='baglocked.setPassBtn' x='242' />
+		<!--设置密码1-3步框button-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.nextBtn1"
+			parentStyle='baglocked.setPassBtn' x='78' y='194' enable='true' />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.backBtn1"
+			parentStyle='baglocked.setPassBtn' x='-10' y='334' enable='true'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.nextBtn2"
+			parentStyle='baglocked.setPassBtn' x='158' y='334' enable='true'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.completeBtn"
+			parentStyle='baglocked.setPassBtn' x='190' y='334' enable='true'/>
+		<!--解锁框button-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.certainBtn"
+			parentStyle='baglocked.setPassBtn' x='24' y='147' enable='true'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.deselectBtn"
+			parentStyle='baglocked.setPassBtn' x='190' y='147' enable='true'/>
+		<!--修改密码框button-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.updateBtn"
+			parentStyle='baglocked.setPassBtn' x='-3' y='265' enable='true'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.deselectBtn5"
+			parentStyle='baglocked.setPassBtn' x='160' y='265' enable='true'/>
+		<!--删除密码框button-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.delBtn"
+			parentStyle='baglocked.setPassBtn' x='-2' y='298' enable='true'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.deselectBtn6"
+			parentStyle='baglocked.setPassBtn' x='158' y='298' enable='true'/>
+		<!--再次设置密码框button-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="baglocked.completeBtn7"
+			parentStyle='baglocked.setPassBtn' x='91' y='194' enable='true'/>
+		<!--Text-->
+		<!--设置密码1步框Tex-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text1_0"
+			textFormatStyle="baglocked.T_1" filterString="baglocked.T_g1" y='3' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text1_1"
+			textFormatStyle="baglocked.T_2" x='-3' y='44' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text1_2"
+			textFormatStyle="baglocked.T_3" x='7' y='26' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text1_3"
+			textFormatStyle="baglocked.T_2" x='-8' y='84' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text1_4"
+			textFormatStyle="baglocked.T_3" x='6' y='97' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text1_5"
+			textFormatStyle="baglocked.T_4" x='-7' y='162' />
+		<!--设置密码2步框Text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_0"
+			parentStyle='baglocked.text1_0' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_1"
+			textFormatStyle="baglocked.T_2" x='10' y='26' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_2"
+			textFormatStyle="baglocked.T_2" x='5' y='76' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_3"
+			textFormatStyle="baglocked.T_3" x='44' y='92' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_4"
+			textFormatStyle="baglocked.T_2" x='10' y='150' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_5"
+			textFormatStyle="baglocked.T_2" x='10' y='199' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_6"
+			textFormatStyle="baglocked.T_3" x='43' y='212' />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text2_7"
+			textFormatStyle="baglocked.T_4" x='0' y='265'  width='300' wordWrap='true'  />
+		<!--设置密码3步框Text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_0"
+			parentStyle='baglocked.text1_0' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_1"
+			textFormatStyle="baglocked.T_2" x='10' y='26' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_2"
+			textFormatStyle="baglocked.T_2" x='10' y='86' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_3"
+			textFormatStyle="baglocked.Input_1" x='50' y='58' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_4"
+			textFormatStyle="baglocked.T_2" x='10' y='150' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_5"
+			textFormatStyle="baglocked.T_2" x='10' y='210' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_6"
+			textFormatStyle="baglocked.Input_1" x='23' y='180' />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text3_7"
+			textFormatStyle="baglocked.T_4" x='0' y='265'  width='300' wordWrap='true'  />
+		<!--解锁密码框Text4-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text4_0"
+			textFormatStyle="baglocked.T_5" filterString="baglocked.T_g2" x='64' y='9'
+			/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text4_1"
+			textFormatStyle="baglocked.T_2" x='18' y='60' />
+		<!--修改密码框Text5-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text5_1"
+			textFormatStyle="baglocked.T_2" x='0' y='10' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text5_2"
+			textFormatStyle="baglocked.T_2" x='0' y='94' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text5_3"
+			textFormatStyle="baglocked.T_3" x='-8' y='110' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text5_4"
+			textFormatStyle="baglocked.T_2" x='0' y='168' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text5_5"
+			textFormatStyle="baglocked.T_3_1" x='12' y='231' />
+		<!--删除密码框Text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_1"
+			textFormatStyle="baglocked.T_2" y='5' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_2"
+			textFormatStyle="baglocked.T_2" y='55' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_3"
+			textFormatStyle="baglocked.Input_1" x='50' y='30' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_4"
+			textFormatStyle="baglocked.T_2" y='120' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_5"
+			textFormatStyle="baglocked.T_2" y='170' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_6"
+			textFormatStyle="baglocked.Input_1" x='3' y='145' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text6_7"
+			textFormatStyle="baglocked.T_3_1" x='17' y='260' />
+		<!--再次设置密码框Tex-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text7_0"
+			y='3' textFormatStyle="baglocked.T_1" filterString="baglocked.T_g1" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text7_1"
+			x='2' y='18' textFormatStyle="baglocked.T_2" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text7_2"
+			x='7' y='32' textFormatStyle="baglocked.T_3" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text7_3"
+			x='-7' y='83' textFormatStyle="baglocked.T_2" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text7_4"
+			x='5' y='99' textFormatStyle="baglocked.T_3" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.text7_5"
+			x='-7' y='162' textFormatStyle="baglocked.T_4" />
+
+		<!--TextInput-->
+		<!--设置密码1-3步框TextInput-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.InputTextStyle"
+			textFormatStyle="baglocked.Input_1" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="baglocked.InputTextbackAsset"
+			resourceLink="asset.baglocked.inputBoxAsset" width="171" height="33" scaleGridString="10,5,161,28"
+			/>
+
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput1"
+			x='85' y='48' width="171" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			displayAsPassword='true' maxChars='14' multiline='false' />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput2"
+			parentStyle='baglocked.textInput1' y='118' />
+
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput2_1"
+			x='50' y='110' width="238" height="33" backStyle="baglocked.InputTextbackAsset" 
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			maxChars='40' multiline='false' autoSize='none'  />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput2_2"
+			y='230' parentStyle="baglocked.textInput2_1"/>
+
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput3_1"
+			x='50' y='110' width="220" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			maxChars='40' multiline='false' autoSize='none'  />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput3_2"
+			y='230' parentStyle="baglocked.textInput3_1" />
+		<!--解锁框密码TextInput-->
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput4"
+			x='125' y='60' width="171" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			displayAsPassword='true' maxChars='14' multiline='false' />
+		<!--修改密码框TextInput-->
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput5_1"
+			x='39' y='32' width="216" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0"
+			displayAsPassword='true' maxChars='14' multiline='false' />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput5_2"
+			x='39' y='130' width="216" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			displayAsPassword='true' maxChars='14' multiline='false' />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput5_3"
+			x='39' y='190' width="216" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			displayAsPassword='true' maxChars='14' multiline='false'/>
+		<!--删除密码框TextInput-->
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput6_1"
+			x='50' y='80' width="220" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0"
+			maxChars='40' multiline='false' autoSize='none'  />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput6_2"
+			y='195' parentStyle="baglocked.textInput6_1" />
+		<!--再次设置密码框TextInput-->
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput7_1"
+			x='66' y='48' width="171" height="33" backStyle="baglocked.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="baglocked.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="10,10,8,2,0" 
+			displayAsPassword='true' maxChars='14' multiline='false' />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="baglocked.textInput7_2"
+			y='118' parentStyle='baglocked.textInput7_1' />
+
+		<!--Frame-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="baglocked.baglockedBg"
+			resourceLink="asset.core.baglockedBgAsset" width="10" height="10" 
+			scaleGridString="5,5,110,63"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="baglocked.SetPassFrameBackgound"
+			resourceLink="core.bg006,core.bg002,baglocked.baglockedBg" imageRectString=",8|8|39|7|4,10|11|35|50|0" 
+			/>
+
+		<!--提示框-->
+		<component classname="baglocked.ExplainFrame" stylename="baglocked.explainFrame"
+			backStyle="baglocked.SetPassFrameBackgound" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20"
+			containerY="40" width="390" height="420" moveInnerRectString="0,30,0,30,1"
+			 escEnable='true' />
+		<!--设置密码1-3步框-->
+		<component classname="baglocked.SetPassFrame1" stylename="baglocked.setPassFrame1"
+			backStyle="baglocked.SetPassFrameBackgound" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20"
+			containerY="40" width="340" height="275" moveInnerRectString="0,30,0,30,1"
+			escEnable='true' />
+		<component classname="baglocked.SetPassFrame2" stylename="baglocked.setPassFrame2"
+			parentStyle='baglocked.setPassFrame1' height="415" />
+		<component classname="baglocked.SetPassFrame3" stylename="baglocked.setPassFrame3"
+			parentStyle='baglocked.setPassFrame1' height="415" />
+		<!--解锁框-->
+		<component classname="baglocked.BagLockedGetFrame" stylename="baglocked.bagLockedGetFrame"
+			parentStyle='baglocked.explainFrame' width="375" height="228" titleOuterRectPosString="140,6,5" moveEnable="false"/>
+		<!--修改密码框-->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="baglocked.UpdateFrameBackgound"
+			resourceLink="core.bg006,core.bg002,baglocked.baglockedBg,baglocked.baglockedBg"
+			imageRectString=",8|8|39|7|4,10|11|35|220|0,10|11|133|50|0" />
+		<component classname="baglocked.UpdatePassFrame" stylename="baglocked.updatePassFrame"
+			parentStyle='baglocked.explainFrame' backStyle="baglocked.UpdateFrameBackgound"
+			width="312" height="346" />
+		<!--删除密码框-->
+		<component classname="baglocked.DelPassFrame" stylename="baglocked.delPassFrame"
+			parentStyle='baglocked.setPassFrame1' width="312" height="378" />
+		<!--再次设置密码框-->
+		<component  classname="baglocked.SetPassFrameNew" stylename="baglocked.setPassFrameNew" parentStyle='baglocked.setPassFrame1'
+			width="340" height="275" />
+
+		<!--ComboBox-->
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="baglocked.bag_Combox1"
+			parentStyle="core.Combox2" textInnerRectString="10,25,5,0,0"  
+			x='50' y='48' width="238"  
+		 />
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="baglocked.bag_Combox2"
+			y='170' parentStyle='baglocked.bag_Combox1' />
+		<!--ListPanel-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="baglocked.bag_TextBgAsset"
+			resourceLink="asset.baglocked.textBgOutAsset,asset.baglocked.textBgOverAsset,asset.baglocked.textBgOverAsset"
+			/>
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="baglocked.bag_ListPanel"
+			viewportInnerRectString="0,0,0,0,5" factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|baglocked.bag_TextListCell,23,150"
+			listStyle="com.pickgliss.ui.controls.list.List" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="baglocked.bag_ListPanelText"
+			textFormatStyle="baglocked.T_2_1" />
+		<component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter"
+			stylename="baglocked.bag_TextListCell" backStyle="baglocked.bag_TextBgAsset"
+			textStyle="baglocked.bag_ListPanelText" autoSizeAble="false" width="238"
+			height="22" backgoundInnerRectString="5,0,3,0,0"/>
+
+	</components>
+</style>

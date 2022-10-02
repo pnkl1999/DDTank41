@@ -1,0 +1,11 @@
+<project outputDir="D:\gun321launcher\GunDaiVietLauncher\bin\Debug" baseDir="D:\gun321launcher\GunDaiVietLauncher\bin" xmlns="http://confuser.codeplex.com">
+  <module path="Debug\GunDaiVietLauncher.exe">
+    <rule pattern="true" inherit="false">
+      <protection id="anti debug" />
+      <protection id="anti dump" />
+      <protection id="anti ildasm" />
+      <protection id="anti tamper" />
+      <protection id="resources" />
+    </rule>
+  </module>
+</project>

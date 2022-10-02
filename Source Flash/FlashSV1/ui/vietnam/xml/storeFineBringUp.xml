@@ -1,0 +1,91 @@
+<style name="storeFineBringUp" version="1.0.1" source="ui/vietnam/swf/storeFineBringUp.swf">
+<sets>
+	
+</sets>
+<customDisplays>
+	<custom classname="flash.geom.Point" stylename="ddtstore.bringUp.GoldPos" x="316" y="376"/>
+	<custom classname="flash.geom.Point" stylename="storeFine.bringup.helpPos" x="688" y="-12"/>
+	<custom classname="flash.geom.Point" stylename="storeBringUp.leftBgPos" x="56" y="49"/>
+	<custom classname="flash.geom.Point" stylename="storeBringUp.itemCellPos" x="175" y="159"/>
+	<custom classname="flash.geom.Point" stylename="storeBringUp.bagListPos" x="431" y="82"/>
+	<custom classname="flash.geom.Point" stylename="storeBringUp.rightBgViewPos" x="414" y="48"/>
+	<custom classname="flash.geom.Point" stylename="storeBringUp.expEatMCPos" x="168" y="151"/>
+	
+<!-- 	指引文字 位置 -->
+	<custom classname="flash.geom.Point" stylename="guide.bringup.btnPos" x="489" y="551"/>
+	
+	<custom classname="flash.geom.Point" stylename="storeBringUp.progressTxtPos" x="143" y="291"/>
+	<custom classname="flash.geom.Point" stylename="storeBringUp.progressPos" x="129" y="284"/>
+</customDisplays>
+<components>
+	<component classname="com.pickgliss.ui.controls.ListPanel" stylename="bringup.scrollPanel" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="0" hScrollProxy="2" vUnitIncrement="3" 
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|store.fineStore.view.pageBringUp.BringupScrollCell,451,451" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="360" height="324" x="431" y="80"/>
+
+<!-- detail -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeBringUp.alertYesLabel" 
+		textFormatStyle="storeBringUp.alertYesLabel.tf" type="dynamic"
+		autoSize="none" wordWrap="true" x="96" y="66" width="230" height="22" />
+<!-- yes -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="storeBringUp.alertYesText" 
+		textFormatStyle="storeBringUp.alertYesText.tf" filterString="storeBringUp.alertYesText.gf"  type="input"
+		autoSize="none" wordWrap="true" x="105" y="105" width="150" height="22" />
+<!-- 输入 -->
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="storeBringUp.alertInput"
+			x="133" y="89" width="130" height="26" backStyle="bringup.InputTextbackAsset"
+			focusBackStyle="baglocked.InputTextbackAsset" textStyle="bringup.InputTextStyle"
+			focusBackgoundInnerRectString="0,0,0,0,-1" textInnerRectString="9,10,5,2,0" 
+			 maxChars='14' multiline='false' />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="bringup.InputTextbackAsset"
+		parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="128" height="29"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="bringup.InputTextStyle"
+			textFormatStyle="bringup.Input_1" filterString="bringup.Input_2" />
+	<component classname="store.fineStore.view.pageBringUp.FineBringUpAlertYESConfirm"
+		submitButtonStyle="core.simplebt" cancelButtonStyle="core.simplebt" buttonToBottom="12"
+			textStyle="simpleAlertContentText" titleOuterRectPosString="12,12,5"
+			backStyle="SimpleFrameBackgoundOneIII" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" containerX="-11" containerY="53"
+			moveInnerRectString="0,30,0,30,1"
+			closeInnerRectString="44,6,6,30,14" 
+			stylename="storeBringUp.confirmYesAlert"
+			 x="-160" y="-140" escEnable="true"
+			width="370" height="230" />
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="bringup.simpleAlertContentText" textFormatStyle="bringup.simpleAlertContentTF"
+			filterString="bringup.simpleAlertContentGF"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="bringup.itemNameText" textFormatStyle="bringup.itemNameTF"
+			filterString="bringup.itemNameGF" x="194" y="-4"/>
+			
+	<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="bringup.lock.checkBoxBtn" 
+			unSelectedStyle="asset.store.bringup.lockBtn" selectedStyle="asset.store.bringup.lockBtn" 
+			 x="269" y="326" />
+
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="storeBringUp.buyExpBtn"
+			backStyle="asset.store.bringup.buyBtn"  x="129" y="326"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="storeBringUp.bringUpEatAllBtn"
+			backStyle="asset.store.bringup.eatAllBtn"  x="100" y="371"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="storeBringUp.bringUpEatBtn"
+			backStyle="asset.store.bringup.eatBtn"  x="260" y="371"/>
+</components>
+<sets>
+	<set args="0x7c4519,2,4,4,30" stylename="bringup.simpleAlertContentGF" type="flash.filters.GlowFilter"/>
+	<set stylename="bringup.simpleAlertContentTF" args="Arial,14,0xfff4d4,true,,,,,left,,,,15" type="flash.text.TextFormat" leading="10"/>
+	
+	<set args="0xffffff,2,4,4,30" stylename="bringup.itemNameGF" type="flash.filters.GlowFilter"/>
+	<set stylename="bringup.itemNameTF" args="Arial,14,ff0000,true,,,,,left,,,,15" type="flash.text.TextFormat" leading="10"/>
+
+	<set stylename="bringup.Input_1" args="Arial,14,0xfff8d6" type="flash.text.TextFormat"/>
+	<set stylename="bringup.Input_2" args="0x4b270d,1,4,4,30" type="flash.filters.GlowFilter"/>
+
+	<set type="flash.text.TextFormat" stylename="storeBringUp.alertYesLabel.tf" args="Arial,14,0x000000,true" leading="5" letterSpacing="0"/>
+	
+	<set type="flash.text.TextFormat" stylename="storeBringUp.alertYesText.tf" args="Arial,14,0xffffff" leading="5" letterSpacing="2"/>
+	<set type="flash.filters.GlowFilter" stylename="storeBringUp.alertYesText.gf" args="0x231010,1,4,4,30"/>
+</sets>
+
+<bitmaps>
+</bitmaps>
+</style>

@@ -1,0 +1,28 @@
+<style name="trainer1" version="1.0.1" source="ui/spain/swf/trainer1.swf">
+	<customDisplay>
+		<custom classname="trainer.view.ExplainOne" stylename="trainer.ExplainOne" width="1008" height="608"/>
+	</customDisplay>
+	
+	<components>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtOneExplain" filterString="trainer.explain.glow1" textFormatStyle="trainer.explain.tfOne" x="398" y="356"/>
+	</components>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="trainer.posLeftKey" x="428" y="269"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posRightKey" x="497" y="269"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posAchieve" x="500" y="300"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer1.posWeapon" x="708" y="535"/>
+		<custom classname="flash.geom.Point" stylename="trainer1.posEquip" x="880" y="535"/>
+		<custom classname="flash.geom.Point" stylename="trainer1.posHeadEffect" x="-5" y="-140"/>
+	</customs>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.trainer.TrainerWeaponIcon" width="62" height="62" smoothing="true"/>
+		<bitmapData resourceLink="asset.trainer.TrainerManEquipIcon" width="62" height="62" smoothing="true"/>
+		<bitmapData resourceLink="asset.trainer.TrainerWomanEquipIcon" width="62" height="62" smoothing="true"/>
+		<bitmapData resourceLink="asset.explain.one" width="91" height="92" x="436" y="186" smoothing="true"/>
+		<bitmapData resourceLink="asset.explain.txtOne" width="124" height="36" x="413" y="291"/>
+		<bitmapData resourceLink="asset.trainer1.power.back" x="36" y="19" smoothing="true"/>
+	</bitmaps>
+</style>

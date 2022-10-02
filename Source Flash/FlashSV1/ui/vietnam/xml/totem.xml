@@ -1,0 +1,402 @@
+<style name="totem" version="2.0.1" source="ui/spain/swf/totem.swf">
+	
+	<sets>
+        <set type="flash.text.TextFormat" stylename="totem.leftView.band.tf" args="Arial,13,0xfdf9ed,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.leftView.band.gf" args="0x692706,1,4,4,30"/>	
+		<set type="flash.text.TextFormat" stylename="totem.leftView.pageTxt.tf" args="Arial,12,0xfff8d6,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.leftView.pageTxt.gf" args="0x5d3a1a,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.iconCell.txt.tf" args="Arial,14,0xfbc157,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.iconCell.txt.gf" args="0x401807,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.txtCell.leftTxt.tf" args="Arial,10,0xff9834,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.txtCell.leftTxt.gf" args="0x321706,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.txtCell.rightTxt.tf" args="Arial,10,0xffedb0,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.txtCell.rightTxt.gf" args="0x3f250d,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.lvTxt.tf" args="Arial,16,0xfff600,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.lvTxt.gf" args="0xff1200,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.titleTxt.tf" args="Arial,14,0xefff00,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.titleTxt.gf" args="0x3b1010,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.tipTxt.tf" args="Arial,12,0xff002a,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.tipTxt.gf" args="0xfffaec,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.infoView.propertyName.txt.tf" args="Arial,11,0xffd74a,,,,,,right" leading="-1"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.infoView.propertyName.txt.gf" args="0x562b05,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.infoView.propertyValue.txt.tf" args="Arial,12,0xfff6c9,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.infoView.propertyValue.txt.gf" args="0x402f00,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.infoView.level.txt.tf" args="Arial,14,0xfcff00,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.infoView.level.txt.gf" args="0x551901,1,4,4,30"/>
+		
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName1.tf" args="Arial,10,0xff1743,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName1.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName2.tf" args="Arial,10,0x51afff,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName2.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName3.tf" args="Arial,10,0x7bc526,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName3.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName4.tf" args="Arial,10,0xfdff35,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName4.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName5.tf" args="Arial,10,0xf000ff,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName5.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName6.tf" args="Arial,10,0xffa800,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName6.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemWindow.propertyName7.tf" args="Arial,10,0xb193fe,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemWindow.propertyName7.gf" args="0x000000,1,4,4,30"/>
+		
+		
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemPointTip.propertyNameTxt.tf" args="Arial,12,0x000000,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemPointTip.propertyNameTxt.gf" args="0xffffff,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemPointTip.possibleValueTxt.tf" args="Arial,12,0xff9f42,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemPointTip.possibleValueTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemPointTip.honor.tf" args="Arial,12,0xffffff,true" letterSpacing="1"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemPointTip.honor.gf" args="0x131421,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemOpenCartoon.moveTxt.tf" args="Arial,16,0xffffff"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemOpenCartoon.moveTxt.gf" args="0xd90000,1,4,4,30"/>
+		
+		
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemChapterTip.titleTxt.tf" args="Arial,14,0xffff00,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemChapterTip.titleTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemChapterTip.nameTxt.tf" args="Arial,13,0xffffff,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemChapterTip.nameTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemChapterTip.valueTxt.tf" args="Arial,13,0xff9933,true" letterSpacing="1"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemChapterTip.valueTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemPointTip.statusValueTxt.tf" args="Arial,13,0xefff00,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemPointTip.statusValueTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.totemPointTip.currentPropertyTxt.tf" args="Arial,13,0xffffff,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.totemPointTip.currentPropertyTxt.gf" args="0x131421,1,4,4,30"/>
+		
+		
+		
+		<set type="flash.text.TextFormat" stylename="totem.honorUpFrame.tip1.tf" args="Arial,12,0x744802,true"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.honorUpFrame.tip1.gf" args="0xfcf0dc,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.honorUpFrame.tip2.tf" args="Arial,12,0xfcb621,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.honorUpFrame.tip2.gf" args="0x472b00,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.honorUpFrame.tip3.tf" args="Arial,12,0xff0103,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.honorUpFrame.tip3.gf" args="0xfcf0dc,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.honorUpFrame.title.tf" args="Arial,16,0xffeebf,true" letterSpacing="2"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.honorUpFrame.title.gf" args="0x442006,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.honorUpIcon.countTxt.tf" args="Arial,12,0xffffff,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.honorUpIcon.countTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.rightView.totemSignTxtTF" args="Arial,12,0xe8da8f" leading="-1"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.rightView.totemSignTxtGF" args="0x3b1010,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="totem.activateProtect.buyConfirmNo.text.tf" args="Arial,12,0x79451c,true,,,,,center" letterSpacing="1"/>
+		<set type="flash.filters.GlowFilter" stylename="totem.activateProtect.buyConfirmNo.text.gf" args="0xf0ead8,1,4,4,30,1"/>
+	</sets>
+	
+	<customs>
+		<custom classname="totem.view.TotemLeftWindowView" stylename="totemLeftWindowView" x="22" y="27"/>
+		
+		<custom classname="totem.view.TotemLeftView" stylename="totemLeftView" x="0" y="0"/>
+		
+		<custom classname="totem.view.TotemRightViewIconTxtCell" stylename="TotemRightViewIconTxtCell.honor1" x="42" y="108"/>
+		<custom classname="totem.view.TotemRightViewIconTxtCell" stylename="TotemRightViewIconTxtCell.exp1" x="42" y="141"/>
+		
+		<custom classname="totem.view.TotemRightViewIconTxtCell" stylename="TotemRightViewIconTxtCell.honor2" x="42" y="234"/>
+		<custom classname="totem.view.TotemRightViewIconTxtCell" stylename="TotemRightViewIconTxtCell.exp2" x="42" y="267"/>
+		
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell1" x="44" y="328"/>
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell2" x="44" y="0"/>
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell3" x="44" y="0"/>
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell4" x="44" y="0"/>
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell5" x="44" y="0"/>
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell6" x="44" y="0"/>
+		<custom classname="totem.view.TotemRightViewTxtTxtCell" stylename="TotemRightViewTxtTxtCell7" x="44" y="0"/>
+		
+		<custom classname="totem.view.TotemRightView" stylename="totemRightView" x="564" y="7"/>
+		
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell1" x="67" y="468"/>
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell2" x="75" y="0"/>
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell3" x="75" y="0"/>
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell4" x="75" y="0"/>
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell5" x="75" y="0"/>
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell6" x="75" y="0"/>
+		<custom classname="totem.view.TotemInfoViewTxtCell" stylename="TotemInfoViewTxtCell7" x="75" y="0"/>
+		
+		<custom classname="totem.view.TotemLeftWindowView" stylename="totemInfoWindowView" x="27" y="98"/>
+		
+		<custom classname="flash.display.Sprite" stylename="totem.totemPointTip.honorExpSprite" x="13" y="71"/>
+		<custom classname="flash.display.Sprite" stylename="totem.totemPointTip.lvAddPropertySprite" x="13" y="121"/>
+		
+		
+		<custom classname="totem.view.TotemLeftWindowChapterIcon" stylename="totem.totemChapterIcon" x="447" y="13"/>
+		
+		<custom classname="flash.geom.Point" stylename="totem.totemPointTip.lvAddPropertySpritePos1" x="13" y="121"/>
+		<custom classname="flash.geom.Point" stylename="totem.totemPointTip.lvAddPropertySpritePos2" x="13" y="92"/>
+		
+		<custom classname="totem.view.HonorUpIcon" stylename="totem.honorUpIcon" x="179" y="102"/>
+		<custom classname="totem.view.TotemRightViewIconTxtDragonBoatCell" stylename="totem.rightView.iconCellDragonBoat" x="42" y="165"/>
+		
+		<custom classname="com.pickgliss.ui.core.Component" stylename="totemSign.cellTipComponent" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+		<custom classname="totem.view.TotemSignTxtCell" stylename="totem.totemSignTxtCell" x="165" y="234"/>
+		
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="totem.leftView.page.firstBtn" 
+			backStyle="asset.totem.leftView.page.first" x="135" y="428"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="totem.leftView.page.forwardBtn" 
+			backStyle="asset.totem.leftView.page.forward" x="197" y="428"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="totem.leftView.page.nextBtn" 
+			backStyle="asset.totem.leftView.page.next" x="331" y="428"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="totem.leftView.page.lastBtn" 
+			backStyle="asset.totem.leftView.page.last" x="394" y="428"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.leftView.pageTxt" 
+			textFormatStyle="totem.leftView.pageTxt.tf" filterString="totem.leftView.pageTxt.gf" 
+			autoSize="none" x="263"  y="434" width="58" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.iconCell.txt" 
+			textFormatStyle="totem.rightView.iconCell.txt.tf" filterString="totem.rightView.iconCell.txt.gf" 
+			autoSize="none" x="43"  y="-1" width="160" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.txtCell.leftTxt" 
+			textFormatStyle="totem.rightView.txtCell.leftTxt.tf" filterString="totem.rightView.txtCell.leftTxt.gf" 
+			autoSize="none" x="0"  y="0" width="70" height="19"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.txtCell.rightTxt" 
+			textFormatStyle="totem.rightView.txtCell.rightTxt.tf" filterString="totem.rightView.txtCell.rightTxt.gf" 
+			autoSize="none" x="65"  y="0" width="160" height="19"/>
+		
+		<component classname="com.pickgliss.ui.core.Component" stylename="totem.rightView.iconComponent" 
+			 tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0"/>
+			
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.lvTxt" 
+			textFormatStyle="totem.rightView.lvTxt.tf" filterString="totem.rightView.lvTxt.gf" 
+			autoSize="none" x="127"  y="37" width="100" height="30"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.titleTxt1" 
+			textFormatStyle="totem.rightView.titleTxt.tf" filterString="totem.rightView.titleTxt.gf" 
+			autoSize="none" x="41"  y="80" width="150" height="30"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.titleTxt2" 
+			parentStyle="totem.rightView.titleTxt1" x="41"  y="208"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.titleTxt3" 
+			parentStyle="totem.rightView.titleTxt1" x="41"  y="300"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.tipTxt" 
+			textFormatStyle="totem.rightView.tipTxt.tf" filterString="totem.rightView.tipTxt.gf" 
+			autoSize="none" x="41"  y="422" width="250" height="22"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.infoView.propertyName.txt" 
+			textFormatStyle="totem.infoView.propertyName.txt.tf" filterString="totem.infoView.propertyName.txt.gf" 
+			autoSize="none" x="-40"  y="-4" width="40" height="50" wordWrap="true"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.infoView.propertyValue.txt" 
+			textFormatStyle="totem.infoView.propertyValue.txt.tf" filterString="totem.infoView.propertyValue.txt.gf" 
+			autoSize="none" x="3"  y="4" width="60" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.infoView.level.txt" 
+			textFormatStyle="totem.infoView.level.txt.tf" filterString="totem.infoView.level.txt.gf" 
+			autoSize="none" x="310"  y="421" width="60" height="22"/>
+		
+		
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName1" 
+			textFormatStyle="totem.totemWindow.propertyName1.tf" filterString="totem.totemWindow.propertyName1.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName2" 
+			textFormatStyle="totem.totemWindow.propertyName2.tf" filterString="totem.totemWindow.propertyName2.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName3" 
+			textFormatStyle="totem.totemWindow.propertyName3.tf" filterString="totem.totemWindow.propertyName3.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName4" 
+			textFormatStyle="totem.totemWindow.propertyName4.tf" filterString="totem.totemWindow.propertyName4.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName5" 
+			textFormatStyle="totem.totemWindow.propertyName5.tf" filterString="totem.totemWindow.propertyName5.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName6" 
+			textFormatStyle="totem.totemWindow.propertyName6.tf" filterString="totem.totemWindow.propertyName6.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemWindow.propertyName7" 
+			textFormatStyle="totem.totemWindow.propertyName7.tf" filterString="totem.totemWindow.propertyName7.gf" 
+			autoSize="none" width="100" height="22"/>
+		
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.propertyNameTxt" 
+			textFormatStyle="totem.totemPointTip.propertyNameTxt.tf" filterString="totem.totemPointTip.propertyNameTxt.gf" 
+			autoSize="none" width="100" height="22" x="13" y="9"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.propertyValueTxt" 
+			autoSize="none" width="100" height="22" x="100" y="9"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.possibleNameTxt" 
+			parentStyle="totem.totemPointTip.propertyNameTxt" x="13" y="37"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.possibleValueTxt" 
+			textFormatStyle="totem.totemPointTip.possibleValueTxt.tf" filterString="totem.totemPointTip.possibleValueTxt.gf" 
+			autoSize="none" width="100" height="22" x="95" y="37"/>
+		
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.honor" 
+			textFormatStyle="totem.totemPointTip.honor.tf" filterString="totem.totemPointTip.honor.gf" 
+			autoSize="none" width="200" height="22" x="0" y="0"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.exp" 
+			parentStyle="totem.totemPointTip.honor" x="0" y="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.lvAddProperty" 
+			autoSize="none" width="100" height="22" x="0" y="0"/>
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemOpenCartoon.moveTxt" 
+			textFormatStyle="totem.totemOpenCartoon.moveTxt.tf" filterString="totem.totemOpenCartoon.moveTxt.gf" 
+			autoSize="none" width="150" height="32" x="0" y="0"/>
+			
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemChapterTip.titleTxt" 
+			textFormatStyle="totem.totemChapterTip.titleTxt.tf" filterString="totem.totemChapterTip.titleTxt.gf" 
+			autoSize="none" width="180" height="22" x="11" y="10"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemChapterTip.nameTxt" 
+			textFormatStyle="totem.totemChapterTip.nameTxt.tf" filterString="totem.totemChapterTip.nameTxt.gf" 
+			autoSize="none" width="150" height="22" x="11" y="37"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemChapterTip.valueTxt" 
+			textFormatStyle="totem.totemChapterTip.valueTxt.tf" filterString="totem.totemChapterTip.valueTxt.gf" 
+			autoSize="none" width="150" height="22" x="11" y="64"/>
+			
+			
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.statusNameTxt" 
+			parentStyle="totem.totemPointTip.possibleNameTxt" x="13" y="37"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.statusValueTxt" 
+			textFormatStyle="totem.totemPointTip.statusValueTxt.tf" filterString="totem.totemPointTip.statusValueTxt.gf" 
+			autoSize="none" width="100" height="22" x="78" y="37"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.totemPointTip.currentPropertyTxt" 
+			textFormatStyle="totem.totemPointTip.currentPropertyTxt.tf" filterString="totem.totemPointTip.currentPropertyTxt.gf" 
+			autoSize="none" width="100" height="22" x="10" y="70"/>
+			
+			
+		<component classname="totem.view.HonorUpFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="totem.honorUpFrame" titleStyle="totem.honorUpFrame.title"
+			titleOuterRectPosString="15,10,5" containerX="20" containerY="40" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="363" height="393" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpFrame.title" 
+			textFormatStyle="totem.honorUpFrame.title.tf" filterString="totem.honorUpFrame.title.gf" 
+			autoSize="none" width="130" height="32"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpFrame.tip1" 
+			textFormatStyle="totem.honorUpFrame.tip1.tf" filterString="totem.honorUpFrame.tip1.gf" 
+			autoSize="none" width="320" height="25" x="20" y="245"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpFrame.tip2" 
+			textFormatStyle="totem.honorUpFrame.tip2.tf" filterString="totem.honorUpFrame.tip2.gf" 
+			autoSize="none" width="40" height="25" x="233" y="246"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpFrame.tip3" 
+			textFormatStyle="totem.honorUpFrame.tip3.tf" filterString="totem.honorUpFrame.tip3.gf" 
+			autoSize="none" width="40" height="25" x="40" y="245"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="totem.honorUpFrame.upBtn" 
+			backStyle="asset.totem.honorUpFrame.btn" x="100" y="284"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="totem.honorUpIcon.btn" 
+			backStyle="asset.totem.honorUpIcon.btn" x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpIcon.countTxt" 
+			textFormatStyle="totem.honorUpIcon.countTxt.tf" filterString="totem.honorUpIcon.countTxt.gf"
+			autoSize="none" width="22" height="22" x="7" y="6"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpIcon.money" 
+			textFormatStyle="totem.leftView.band.tf"   filterString="totem.leftView.band.gf" 
+			autoSize="none" width="80" height="22" x="100" y="284"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.honorUpIcon.bandMoney" 
+			textFormatStyle="totem.leftView.band.tf"   filterString="totem.leftView.band.gf" 
+			autoSize="none" width="120" height="22" x="115" y="284"/>
+			
+			
+				<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="com.totem.selectBtn" parentStyle="core.simpleSelectBtn"
+			width="103" height="28" x="97" y="275"  unSelectedStyle="asset.core.check2UnSelected" 
+			 selectedStyle="asset.core.check2Selected" 
+			displacement='false' />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="com.totem.selectbandBtn" parentStyle="core.simpleSelectBtn"
+			 width="103" height="28" x="81" y="275"
+			unSelectedStyle="asset.core.check2UnSelected" 
+			 selectedStyle="asset.core.check2Selected" 
+			displacement='false' />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.totemSignTxt" 
+			textFormatStyle="totem.rightView.totemSignTxtTF"   filterString="totem.rightView.totemSignTxtGF" 
+			autoSize="none" width="225" height="20" x="42" y="181" wordWrap="true"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.rightView.totemSignTxtCelltotemTxt" 
+			textFormatStyle="totem.rightView.iconCell.txt.tf"   filterString="totem.rightView.iconCell.txt.gf" 
+			autoSize="none" width="80" height="22" x="35" y="6"/>
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="totem.activateProtect.buyConfirmNo.text" textFormatStyle="totem.activateProtect.buyConfirmNo.text.tf" filterString="totem.activateProtect.buyConfirmNo.text.gf"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="totem.activateProtectSCB" parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" backStyle="asset.totem.activateProtect" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="459" y="423"/>
+		<component classname="totem.view.TotemActProConfirmFrame" stylename="TotemActProConfirmFrame" containerX="53" containerY="53" parentStyle="SimpleAlert"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="totem.activateProtect.scb" parentStyle="core.simpleSelectBtn" textStyle="totem.activateProtect.buyConfirmNo.text" displacement="false" fieldX="19" fieldY="-1" x="68" y="49"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.totem.leftView.windowBg" x="9" y="17"/>
+		<bitmapData resourceLink="asset.totem.leftView.windowBorder" x="-4" y="-1"/>
+		<bitmapData resourceLink="asset.totem.leftView.pageBg" x="12" y="423"/>
+		
+		<bitmapData resourceLink="asset.totem.rightView.bg" x="8" y="-3"/>
+		<bitmapData resourceLink="asset.totem.rightView.exp" x="0" y="0"/>
+		<bitmapData resourceLink="asset.totem.rightView.honor" x="0" y="0"/>
+		
+		<bitmapData resourceLink="asset.totem.leftview.pageTxtBg" x="261" y="430"/>
+		
+		<bitmapData resourceLink="asset.totem.infoView.txtCellBg" x="0" y="0" width="64"/>
+		<bitmapData resourceLink="asset.totem.infoView.levelBg" x="35" y="408"/>
+		<bitmapData resourceLink="asset.totem.infoView.txtBg" x="24" y="456" width="435"/>
+		
+		<bitmapData resourceLink="asset.totem.honorUpFrame.mainBg" x="-4" y="1"/>
+		<bitmapData resourceLink="asset.totem.honorUpFrame.btnBg" x="3" y="279"/>
+		
+		<bitmapData resourceLink="asset.totem.activateProtect" x="26" y="7"/>
+	</bitmaps>
+	
+</style>

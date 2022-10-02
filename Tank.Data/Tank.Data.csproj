@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <!--Project was exported from assembly: D:\DDT36\decompiled\bin\Tank.Data.dll-->
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{58555F5A-29A5-40E1-AB1E-3D34C26FF40B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Tank.Data</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <ApplicationVersion>1.0.0.0</ApplicationVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Helpers">
+      <HintPath>lib\Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Tank\Data\AllQuestionsMgr.cs" />
+    <Compile Include="Tank\Data\AppSettings.cs" />
+    <Compile Include="Tank\Data\BaseBussiness.cs" />
+    <Compile Include="Tank\Data\BattleBonusMgr.cs" />
+    <Compile Include="Tank\Data\ButtonConfigMgr.cs" />
+    <Compile Include="Tank\Data\CardAchievementMgr.cs" />
+    <Compile Include="Tank\Data\ChargeSpendRewardTemplateMgr.cs" />
+    <Compile Include="Tank\Data\ClothGroupTemplateMgr.cs" />
+    <Compile Include="Tank\Data\ClothPropertyTemplateMgr.cs" />
+    <Compile Include="Tank\Data\CombineBussiness.cs" />
+    <Compile Include="Tank\Data\ActiveMgr.cs" />
+    <Compile Include="Tank\Data\BallConfigMgr.cs" />
+    <Compile Include="Tank\Data\BallMgr.cs" />
+    <Compile Include="Tank\Data\CardGrooveUpdateMgr.cs" />
+    <Compile Include="Tank\Data\CombineTableMgr.cs" />
+    <Compile Include="Tank\Data\ConsortiaBadgeConfigMgr.cs" />
+    <Compile Include="Tank\Data\ConsortiaBossConfigMgr.cs" />
+    <Compile Include="Tank\Data\ConsortiaBufferTempMgr.cs" />
+    <Compile Include="Tank\Data\DailyAwardMgr.cs" />
+    <Compile Include="Tank\Data\DailyLeagueMgr.cs" />
+    <Compile Include="Tank\Data\DiceGameAwardMgr.cs" />
+    <Compile Include="Tank\Data\DropCondictionMgr.cs" />
+    <Compile Include="Tank\Data\EveryDayActivePointTemplateMgr.cs" />
+    <Compile Include="Tank\Data\EveryDayActiveProgressMgr.cs" />
+    <Compile Include="Tank\Data\EveryDayActiveRewardTemplateMgr.cs" />
+    <Compile Include="Tank\Data\ExerciseMgr.cs" />
+    <Compile Include="Tank\Data\FairBattleRewardMgr.cs" />
+    <Compile Include="Tank\Data\FightSpiritTemplateMgr.cs" />
+    <Compile Include="Tank\Data\FusionMgr.cs" />
+    <Compile Include="Tank\Data\GoldEquipTemplateMgr.cs" />
+    <Compile Include="Tank\Data\GoodsCollectMgr.cs" />
+    <Compile Include="Tank\Data\GuardCoreLevelTemplateMgr.cs" />
+    <Compile Include="Tank\Data\GuardCoreTemplateMgr.cs" />
+    <Compile Include="Tank\Data\HomeTempPracticeMgr.cs" />
+    <Compile Include="Tank\Data\ItemBoxMgr.cs" />
+    <Compile Include="Tank\Data\LevelMgr.cs" />
+    <Compile Include="Tank\Data\LightriddleQuestMgr.cs" />
+    <Compile Include="Tank\Data\LoadUserBoxMgr.cs" />
+    <Compile Include="Tank\Data\LoginAwardItemTemplateMgr.cs" />
+    <Compile Include="Tank\Data\LoveLevelMgr.cs" />
+    <Compile Include="Tank\Data\MagicFusionDataMgr.cs" />
+    <Compile Include="Tank\Data\MagicItemTemplateMgr.cs" />
+    <Compile Include="Tank\Data\MapMgr.cs" />
+    <Compile Include="Tank\Data\MapServerMgr.cs" />
+    <Compile Include="Tank\Data\MaxLevelTemplateMgr.cs" />
+    <Compile Include="Tank\Data\MissionEnergyMgr.cs" />
+    <Compile Include="Tank\Data\MissionMgr.cs" />
+    <Compile Include="Tank\Data\MountDrawTemplateMgr.cs" />
+    <Compile Include="Tank\Data\MountSkillElementTemplateMgr.cs" />
+    <Compile Include="Tank\Data\MountSkillGetTemplateMgr.cs" />
+    <Compile Include="Tank\Data\MountSkillTemplateMgr.cs" />
+    <Compile Include="Tank\Data\MountTemplateMgr.cs" />
+    <Compile Include="Tank\Data\NewTitleMgr.cs" />
+    <Compile Include="Tank\Data\NpcMgr.cs" />
+    <Compile Include="Tank\Data\PetFightPropertyMgr.cs" />
+    <Compile Include="Tank\Data\PetFormDataMgr.cs" />
+    <Compile Include="Tank\Data\PetMoePropertyMgr.cs" />
+    <Compile Include="Tank\Data\PetSkillElementMgr.cs" />
+    <Compile Include="Tank\Data\PetSkillMgr.cs" />
+    <Compile Include="Tank\Data\PetSkillTemplateMgr.cs" />
+    <Compile Include="Tank\Data\PetTemplateMgr.cs" />
+    <Compile Include="Tank\Data\PveMgr.cs" />
+    <Compile Include="Tank\Data\QuestMgr.cs" />
+    <Compile Include="Tank\Data\RankTemplateMgr.cs" />
+    <Compile Include="Tank\Data\RuneAdvanceTemplateMgr.cs" />
+    <Compile Include="Tank\Data\ServerPropertyMgr.cs" />
+    <Compile Include="Tank\Data\SetsBuildTempMgr.cs" />
+    <Compile Include="Tank\Data\ShopGoodsCategorysMgr.cs" />
+    <Compile Include="Tank\Data\ShopGoodsShowListMgr.cs" />
+    <Compile Include="Tank\Data\ShopItemMgr.cs" />
+    <Compile Include="Tank\Data\StrengThenExpMgr.cs" />
+    <Compile Include="Tank\Data\StrengthenGoodsMgr.cs" />
+    <Compile Include="Tank\Data\SuitPartEquipMgr.cs" />
+    <Compile Include="Tank\Data\SuitTemplateMgr.cs" />
+    <Compile Include="Tank\Data\TotemHonorTemplateMgr.cs" />
+    <Compile Include="Tank\Data\TreeTemplateMgr.cs" />
+    <Compile Include="Tank\Data\VipStoreMgr.cs" />
+    <Compile Include="Tank\Data\CategoryMgr.cs" />
+    <Compile Include="Tank\Data\LanguagesMgr.cs" />
+    <Compile Include="Tank\Data\TablesMgr.cs" />
+    <Compile Include="Tank\Data\UrlTankMgr.cs" />
+    <Compile Include="Tank\Data\WebBussiness.cs" />
+    <Compile Include="Tank\Data\GameService.cs" />
+    <Compile Include="Tank\Data\ProduceBussiness.cs" />
+    <Compile Include="Tank\Data\AreaConfigMgr.cs" />
+    <Compile Include="Tank\Data\RuneTemplateMgr.cs" />
+    <Compile Include="Tank\Data\ItemTemplateMgr.cs" />
+    <Compile Include="Tank\Data\ServerBussiness.cs" />
+    <Compile Include="Tank\Data\SendToGames.cs" />
+    <Compile Include="Tank\Data\ConsortiaBussiness.cs" />
+    <Compile Include="Tank\Data\PlayerBussiness.cs" />
+    <Compile Include="Tank\Data\TopMgr.cs" />
+    <Compile Include="Tank\Data\Managers\ActivitySystemItemsMgr.cs" />
+    <Compile Include="Tank\Data\DDTService\ServerData.cs" />
+    <Compile Include="Tank\Data\DDTService\ICenterService.cs" />
+    <Compile Include="Tank\Data\DDTService\ValidateLoginAndGetIDRequest.cs" />
+    <Compile Include="Tank\Data\DDTService\ValidateLoginAndGetIDResponse.cs" />
+    <Compile Include="Tank\Data\DDTService\ICenterServiceChannel.cs" />
+    <Compile Include="Tank\Data\DDTService\CenterServiceClient.cs" />
+    <Compile Include="SqlDataProvider\Data\LanguageInfo.cs" />
+    <Compile Include="SqlDataProvider\Data\TableDesignInfo.cs" />
+    <Compile Include="SqlDataProvider\Data\TableInfo.cs" />
+    <Compile Include="SqlDataProvider\Data\UrlTankInfo.cs" />
+    <Compile Include="SqlDataProvider\Data\TopAwardInfo.cs" />
+    <Compile Include="SqlDataProvider\Data\TopInfo.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SqlDataProvider\SqlDataProvider.csproj">
+      <Project>{20942195-0e57-4087-91c0-d8f7dc594928}</Project>
+      <Name>SqlDataProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>copy /Y "$(TargetDir)$(ProjectName).dll" "$(SolutionDir)output\bin\$(ProjectName).dll"</PostBuildEvent>
+  </PropertyGroup>
+</Project>

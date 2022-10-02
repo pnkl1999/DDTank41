@@ -1,0 +1,88 @@
+<style name="hall" version="1.0.1" source="ui/spain/swf/hall.swf">
+<sets>
+	<set type="flash.text.TextFormat" stylename="serverlist.ServerNameTextFormat" args="Arial,14,0xFE8504" align="center"/>
+	<set type="flash.text.TextFormat" stylename="serverlist.ServerNameTextFormatHover" args="Arial,14,0xFFFFFF" align="center"/>
+	<set type="flash.text.TextFormat" stylename="serverlist.CurrentServerNameTextFormat" args="Arial,12,0xffec4c,true" align="center"/>
+	<set type="flash.text.TextFormat" stylename="serverlist.room.CurrentServerNameTextFormat" args="Arial,12,0x33ccff,true" align="center"/>
+	<set type="flash.filters.GlowFilter" stylename="serverlist.room.ServerNameTextFormatFilter" args="0x091720,1,2,2,2" />
+	<set stylename="petAndHorse.risingStar.toLinkTxtTF" args="Arial,12,0xfff6c9,,,,,,left" type="flash.text.TextFormat"/>
+	<set stylename="petAndHorse.risingStar.toLinkTxtGF" args="0x402f00,1,2,2,10" type="flash.filters.GlowFilter"/>
+	
+</sets>
+<components>
+	<!--作战实验室-->
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="hall.battleSrollPanel"
+		parentStyle="core.ScrollPanel"  
+		width='515' height='370'  vUnitIncrement="5"
+	/>
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="hall.hotSpringAlertPanel"
+		parentStyle="core.ScrollPanel"  
+		width='515' height='370'  vUnitIncrement="5"
+		x="9" y="10"
+	/>
+	<component classname="com.pickgliss.ui.controls.Frame" stylename="hall.battleFrame"
+		backStyle="SimpleFrameBackgound" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" 
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" 
+		containerX="20"	containerY="40" 
+		width="548" height="468" 
+		escEnable='true' 
+	/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="hall.battleBtn"
+		parentStyle='core.simplebt'
+		x='220' y='386' 
+	/>
+	<component classname="com.pickgliss.ui.controls.TextButton" stylename="hall.hotSpringBtn"
+		parentStyle='core.simplebt'
+		x='220' y='394' 
+	/>
+	
+	<!--保存文件-->
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="saveFile.okBtn" backStyle="asset.hallSaveFile.okBtn" x="307" y="374" filterString="null,lightFilter,lightFilter,grayFilter"/>
+	<component classname="hall.SaveFileWidow" backStyle="core.bg006" stylename="hall.SaveFileWidow"  closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" width="702" height="439"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="hall.womenNPC" resourceLink="asset.trainer.welcome.npc" x="400" y="-42"/>
+	<component classname="hotSpring.view.HotSpringAlertFrame" backStyle="SimpleFrameBackgound" stylename="hall.hotSpringAlertFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="10" containerY="31" width="548" height="468" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+	
+	<component stylename="serverlist.hall.DropListBG" 
+		classname="com.pickgliss.ui.image.ScaleBitmapImage" 
+		resourceLink="asset.roomList.tipItemBg"
+		x="-24" y="42" 
+		scaleGridString="14,13,50,37"/>
+		
+	<component stylename="serverlist.hall.DropListCombo"
+		classname="com.pickgliss.ui.controls.ComboBox"
+		parentStyle="core.Combox3" selctedPropName="text" 
+		x="-12" y="17"
+		listInnerRectString="5,33,10,100,18"
+		width="104" height="30" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="petAndHorse.risingStar.toLinkTxt" textFormatStyle="petAndHorse.risingStar.toLinkTxtTF" filterString="petAndHorse.risingStar.toLinkTxtGF" autoSize="none" width="120" height="22"/>
+</components>
+<customs>
+	<custom stylename = "LittleGameNote"
+		classname="asset.hall.LittleGameNote" x="170" y="110" mouseEnabled="false" mouseChildren="false" />
+	<custom stylename = "serverlist.hall.ServerDropListItem"
+		classname="serverlist.view.ServerDropListItem"
+		width ="120" height = "24" buttonMode = "true" />
+	<custom stylename = "serverlist.hall.ServerDropList"
+		classname="serverlist.view.ServerDropList"
+		x="50" y="375"
+		/>
+		
+	<custom classname="flash.geom.Point" stylename="inviteFriends.inviteFriendsBtnMcPos" x="100" y="18"/>
+	<custom classname="flash.geom.Point" stylename="inviteFriends.inviteFriendsBtnMcPos2" x="116" y="41"/>
+	<custom classname="flash.geom.Point" stylename="calendarManager.signBtnMcPos" x="921" y="89"/>
+	<custom classname="flash.geom.Point" stylename="petAndHorse.risingStar.toLinkTxtPos1" x="31" y="444"/>
+	<custom classname="flash.geom.Point" stylename="petAndHorse.risingStar.toLinkTxtPos2" x="320" y="443"/>
+	<custom classname="flash.geom.Point" stylename="petAndHorse.risingStar.toLinkTxtPos3" x="409" y="416"/>
+	<custom classname="flash.geom.Point" stylename="petAndHorse.risingStar.toLinkTxtPos4" x="13" y="248"/>
+</customs>
+<bitmaps>
+	<!--低图背景1~2-->
+	
+	
+	<!--保存文件-->
+	<bitmapData resourceLink="asset.hallSaveFile.noviceBG" x="66" y="52"/>
+
+	<bitmapData resourceLink="asset.serverlist.hallBG" x="-11" y="-2"/>
+	
+</bitmaps>
+</style>

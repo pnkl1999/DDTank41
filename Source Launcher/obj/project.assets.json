@@ -1,0 +1,192 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "CircularProgressBar/2.8.0.16": {
+        "type": "package",
+        "dependencies": {
+          "WinFormAnimation": "1.6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/CircularProgressBar.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CircularProgressBar.dll": {}
+        }
+      },
+      "WinFormAnimation/1.6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WinFormAnimation.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WinFormAnimation.dll": {}
+        }
+      },
+      "zlib.net/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/zlib.net.dll": {}
+        },
+        "runtime": {
+          "lib/zlib.net.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.0/win7-x86": {
+      "CircularProgressBar/2.8.0.16": {
+        "type": "package",
+        "dependencies": {
+          "WinFormAnimation": "1.6.0.4"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "System.Core",
+          "System.Drawing",
+          "System.Windows.Forms"
+        ],
+        "compile": {
+          "lib/net40/CircularProgressBar.dll": {}
+        },
+        "runtime": {
+          "lib/net40/CircularProgressBar.dll": {}
+        }
+      },
+      "WinFormAnimation/1.6.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/net40/WinFormAnimation.dll": {}
+        },
+        "runtime": {
+          "lib/net40/WinFormAnimation.dll": {}
+        }
+      },
+      "zlib.net/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/zlib.net.dll": {}
+        },
+        "runtime": {
+          "lib/zlib.net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CircularProgressBar/2.8.0.16": {
+      "sha512": "P31wJxwTcQ2mA7wB4X+tnc9QlfSNyPzEOyt3qjf2/6cLLi8mERAfEwNcgt3Qv38/Xiyreo/nVYDe2zIVEv4SQw==",
+      "type": "package",
+      "path": "circularprogressbar/2.8.0.16",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "circularprogressbar.2.8.0.16.nupkg.sha512",
+        "circularprogressbar.nuspec",
+        "lib/net40/CircularProgressBar.dll",
+        "lib/net40/CircularProgressBar.xml",
+        "readme.txt"
+      ]
+    },
+    "WinFormAnimation/1.6.0.4": {
+      "sha512": "YSic50luSCgFq+JejHBq5DKwxpNP1VH7uOyBXC+8v6dd+CuUYGlKSOL4EbwT1WeWJQvFBoDMqHnq7HsF95kxrw==",
+      "type": "package",
+      "path": "winformanimation/1.6.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net40/WinFormAnimation.dll",
+        "readme.txt",
+        "winformanimation.1.6.0.4.nupkg.sha512",
+        "winformanimation.nuspec"
+      ]
+    },
+    "zlib.net/1.0.4": {
+      "sha512": "ywKkVY1y20tGQsUnYgKupYm91L8GVrVgoEOFTjfR1Bb5Xiy5tBJu5SV9liIiW2h8/KQUBefE45vSythtNMmahQ==",
+      "type": "package",
+      "path": "zlib.net/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/zlib.net.dll",
+        "zlib.net.1.0.4.nupkg.sha512",
+        "zlib.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "CircularProgressBar >= 2.8.0.16",
+      "zlib.net >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Khanh Duy\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\Backup KhanhLam\\Launcher Gun321\\Zgun\\Gun321.Client.csproj",
+      "projectName": "Gun321.Client",
+      "projectPath": "E:\\Backup KhanhLam\\Launcher Gun321\\Zgun\\Gun321.Client.csproj",
+      "packagesPath": "C:\\Users\\Khanh Duy\\.nuget\\packages\\",
+      "outputPath": "E:\\Backup KhanhLam\\Launcher Gun321\\Zgun\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Khanh Duy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net40": {
+          "targetAlias": "net40",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net40": {
+        "targetAlias": "net40",
+        "dependencies": {
+          "CircularProgressBar": {
+            "target": "Package",
+            "version": "[2.8.0.16, )"
+          },
+          "zlib.net": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

@@ -1,0 +1,257 @@
+C:\Source\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\Source\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\Source\Game.Base\bin\Debug\net472\log4net.dll
+C:\Source\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\Source\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Core.dll
+C:\Source\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\Source\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\Source\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\Source\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\Source\Game.Base\obj\Debug\net472\Game.Base.pdb
+C:\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Core.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Base\obj\Debug\net472\Game.Base.pdb
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\Game.Base.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\Game.Base.pdb
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\log4net.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\protobuf-net.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Buffers.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Memory.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Configuration.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Core.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Xml.dll
+G:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\zlib.net.dll
+G:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+G:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+G:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.dll
+G:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Core.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\obj\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\Game.Base.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\log4net.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\protobuf-net.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Buffers.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Memory.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Configuration.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Core.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\System.Xml.dll
+H:\1.Gunny Project\Source\Game.Base\bin\Debug\net472\zlib.net.dll
+H:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+H:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+H:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.dll
+H:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Core.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Base\obj\Debug\net472\Game.Base.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\Game.Base.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\Game.Base.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\log4net.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\protobuf-net.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Buffers.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Memory.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Configuration.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Core.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Xml.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\zlib.net.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\Game.Base.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\log4net.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\protobuf-net.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Buffers.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Memory.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Configuration.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Core.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\System.Xml.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\bin\Debug\net472\zlib.net.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\log4net.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Core.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\PhamNgocKhanhLam\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\PhamNgocKhanhLam\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\PhamNgocKhanhLam\Source\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\PhamNgocKhanhLam\Source\Game.Base\obj\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\log4net.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Core.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\NEWGUN\Source\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\NEWGUN\Source\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\NEWGUN\Source\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\NEWGUN\Source\Game.Base\obj\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\log4net.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Core.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\NEWGUN\Source Server\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\NEWGUN\Source Server\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN\Source Server\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source Server\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\NEWGUN\Source Server\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\NEWGUN\Source Server\Game.Base\obj\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source Server\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\Game.Base.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\Game.Base.pdb
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\log4net.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\protobuf-net.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Buffers.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Memory.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Configuration.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Core.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\System.Xml.dll
+C:\NEWGUN36\NEWGUN\Game.Base\bin\Debug\net472\zlib.net.dll
+C:\NEWGUN36\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+C:\NEWGUN36\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN36\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+C:\NEWGUN36\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+C:\NEWGUN36\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.dll
+C:\NEWGUN36\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\Game.Base.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\Game.Base.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\log4net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\protobuf-net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Buffers.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Memory.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Configuration.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\System.Xml.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\bin\Debug\net472\zlib.net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.pdb

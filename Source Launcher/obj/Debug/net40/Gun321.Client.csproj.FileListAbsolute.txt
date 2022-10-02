@@ -1,0 +1,157 @@
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.exe.config
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Forms.Login.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Forms.PlayGameInBox.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Forms.ServerList.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Forms.Welcome.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Main.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Popup.HistoryAccount.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Popup.TopUpConfirm.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.UserControls.Exchange.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.UserControls.HistoryTopUp.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.UserControls.Support.LiveChat.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.UserControls.TopUp.resources
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Gun321.Client.exe.config
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Gun321.Client.exe
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Gun321.Client.pdb
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\CircularProgressBar.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\WinFormAnimation.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\zlib.net.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\c___lib.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Microsoft.AspNet.SignalR.Client.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\bin\Debug\net40\Bunifu.Licensing.dll
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.csproj.CopyComplete
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.exe
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Gun321.Client.pdb
+C:\Users\Admin\Desktop\Gun321.Client.3.3.3.47\Source\obj\Debug\net40\Launcher.Properties.Resources.resources
+D:\gun321launcher\bin\Debug\net40\Gun321.Client.exe.config
+D:\gun321launcher\bin\Debug\net40\Gun321.Client.exe
+D:\gun321launcher\bin\Debug\net40\Gun321.Client.pdb
+D:\gun321launcher\bin\Debug\net40\CircularProgressBar.dll
+D:\gun321launcher\bin\Debug\net40\WinFormAnimation.dll
+D:\gun321launcher\bin\Debug\net40\zlib.net.dll
+D:\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuButton.dll
+D:\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\gun321launcher\bin\Debug\net40\c___lib.dll
+D:\gun321launcher\bin\Debug\net40\Microsoft.AspNet.SignalR.Client.dll
+D:\gun321launcher\bin\Debug\net40\Newtonsoft.Json.dll
+D:\gun321launcher\bin\Debug\net40\Bunifu.Licensing.dll
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.exe.config
+D:\gun321launcher\obj\Debug\net40\aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Forms.Login.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Forms.PlayGameInBox.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Forms.ServerList.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Forms.Welcome.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Main.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Popup.HistoryAccount.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Popup.TopUpConfirm.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.UserControls.Exchange.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.UserControls.HistoryTopUp.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.UserControls.Support.LiveChat.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.UserControls.TopUp.resources
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.GenerateResource.cache
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.CoreCompileInputs.cache
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.CopyComplete
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.exe
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.pdb
+D:\gun321launcher\obj\Debug\net40\Properties.Resources.resources
+D:\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Gun321.Client.exe.config
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Gun321.Client.exe
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Gun321.Client.pdb
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\CircularProgressBar.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\WinFormAnimation.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\zlib.net.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\c___lib.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Microsoft.AspNet.SignalR.Client.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Newtonsoft.Json.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\bin\Debug\net40\Bunifu.Licensing.dll
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.exe.config
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Forms.Login.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Forms.Payment.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Forms.PlayGameInBox.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Forms.ServerList.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Forms.Welcome.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Main.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Popup.HistoryAccount.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Popup.TopUpConfirm.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.UserControls.Exchange.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.UserControls.HistoryTopUp.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.UserControls.PaymentMomo.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.UserControls.Support.LiveChat.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.UserControls.TopUp.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Properties.Resources.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.GenerateResource.cache
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.CopyComplete
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.exe
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.pdb
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Popup.AccountInfo.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Popup.ForgotPassword.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Forms.Payment.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Popup.AccountInfo.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Popup.ForgotPassword.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.UserControls.PaymentMomo.resources
+D:\gun321launcher\obj\Debug\net40\Launcher.Popup.MomoConfirm.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Launcher.Popup.MomoConfirm.resources
+E:\Backup KhanhLam\Launcher Gun321\gun321launcher\obj\Debug\net40\Gun321.Client.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Gun321.Client.exe.config
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Gun321.Client.exe
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Gun321.Client.pdb
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\CircularProgressBar.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\WinFormAnimation.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\zlib.net.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Bunifu.UI.WinForms.BunifuButton.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDataGridView.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Bunifu.UI.WinForms.BunifuDropdown.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Bunifu.UI.WinForms.BunifuScrollBar.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Bunifu.UI.WinForms.BunifuTextBox.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\c___lib.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Microsoft.AspNet.SignalR.Client.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Newtonsoft.Json.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\bin\Debug\net40\Bunifu.Licensing.dll
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.exe.config
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\aR3nbf8dQp2feLmk31.lSfgApatkdxsVcGcrktoFd.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Forms.Login.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Forms.Payment.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Forms.PlayGameInBox.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Forms.ServerList.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Forms.Welcome.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Main.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Popup.AccountInfo.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Popup.ForgotPassword.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Popup.HistoryAccount.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Popup.MomoConfirm.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.Popup.TopUpConfirm.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.UserControls.Exchange.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.UserControls.HistoryTopUp.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.UserControls.PaymentMomo.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.UserControls.Support.LiveChat.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Launcher.UserControls.TopUp.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Properties.Resources.resources
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.csproj.GenerateResource.cache
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.csproj.CopyComplete
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.exe
+E:\Backup KhanhLam\Launcher Gun321\Zgun\obj\Debug\net40\Gun321.Client.pdb

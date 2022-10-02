@@ -1,0 +1,84 @@
+<style name="invite" version="1.0.1" source="ui/spain/swf/invite.swf">
+	<sets>
+		<set stylename="invite.playerItemNameTF" args="Arial,14,0x000000" type="flash.text.TextFormat"/>
+		
+		<set stylename="invite.InviteFrame.DisenableGF" args="0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0, 0, 0, 1, 0" type="flash.filters.ColorMatrixFilter" />
+		
+		
+	</sets>
+	
+	<components>
+		<!-- Invite Start -->
+		
+		
+		<!-- ButtonBar -->		
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="invite.RefreshButton" parentStyle="core.simplebt" x="14" y="314"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="invite.CancelButton" parentStyle="core.simplebt" x="180" y="314"/>
+		
+		<!-- Hall Button -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.HallAsset"
+		resourceLink="invite.hall_unselected,invite.hall_selected" />
+		<component classname="invite.view.NavButton" stylename="invite.HallButton" backStyle="invite.HallAsset" x="210" y="36"/>
+		
+		<!-- Frient Button -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.FrientAsset"
+		resourceLink="invite.frient_unselected,invite.frient_selected" />
+		<component classname="invite.view.NavButton" stylename="invite.FrientButton" backStyle="invite.FrientAsset" x="145" y="36"/>
+		
+		<!-- Brotherhood Button -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.BrotherhoodAsset"
+		resourceLink="invite.brotherhood_unselected,invite.brotherhood_selected" />		
+		<component classname="invite.view.NavButton" stylename="invite.BrotherhoodButton" backStyle="invite.BrotherhoodAsset" x="78" y="36"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.masterRelationIcon" parentStyle="core.im.masterRelationIcon" visible = "false" x="31" y="1"/>
+		
+		<!-- recent Button -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.recentAsset"
+		resourceLink="invite.recent_unselected,invite.recent_selected" />		
+		<component classname="invite.view.NavButton" stylename="invite.recentButton" backStyle="invite.recentAsset" x="12" y="36"/>		
+		
+		<!-- ListPanel -->
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="invite.List" hScrollbarStyle="core.HScrollbar" 
+		vScrollbarStyle="core.VScrollbar" 
+		hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" 
+		factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|invite.view.InviteListCell,29,177" 
+		listStyle="com.pickgliss.ui.controls.list.List" width="257" height="240" x="16" y="65" hScrollProxy="2" vUnitIncrement="10" />
+		
+		<!-- ListBackground -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="invite.list.BackgroundList"
+		resourceLink="invite.background_list1" x="12" y="63" />
+		
+		<!-- ListCell -->
+		<!-- Cell Labale -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"  stylename="invite.cell.playerItemName" textFormatStyle="invite.playerItemNameTF" filterString="roomListTextIIGF" autoSize="none" isAutoFitLength="true" width="120" height="20" x="50" y="3" />
+		
+		<!-- Invite Button -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="invite.cell.InviteButton" backStyle="invite.background_invite" x="170" y="2" />
+		
+		<!-- Invite End -->
+		
+		
+	</components>
+	
+	<customDisplay>
+		<custom classname="invite.view.InviteListCell" stylename="invite.view.InviteListCell" x="6" y="60" />	
+		
+		<!-- Sex Icon -->
+		<custom classname="ddt.view.common.SexIcon" stylename="invite.cell.SexIcon" x="31" y="1"/>
+		
+		<!-- Level Icon -->
+		<custom classname="ddt.view.common.LevelIcon" stylename="invite.cell.LevelIcon" x="3"/>
+		
+		<custom classname="flash.geom.Point" stylename="invite.NoConsortiaHallPos" x="145" y="36"/>
+		<custom classname="flash.geom.Point" stylename="invite.NoConsortiaFrientPos" x="78" y="36"/>
+		<custom classname="flash.geom.Point" stylename="invite.NoConsortiaBrotherhoodPos" x="210" y="36"/>
+		
+		
+	</customDisplay>
+	
+	<bitmaps>
+		
+		<bitmapData resourceLink="invite.cell.itembar" y="26" />
+		<bitmapData resourceLink="invite.frient_unselected" x="0" y="0" />
+		
+	</bitmaps>
+</style>

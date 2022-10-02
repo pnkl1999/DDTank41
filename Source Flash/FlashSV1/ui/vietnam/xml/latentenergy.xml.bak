@@ -1,0 +1,81 @@
+<style name="latentenergy" version="2.0.1" source="ui/vietnam/swf/latentenergy.swf">
+
+	<sets>
+		<set type="flash.text.TextFormat" stylename="latentEnergyFrame.itemCell.countTxt.tf" args="Arial,14,0x000000,true,,,,,right"/>
+		<set type="flash.filters.GlowFilter" stylename="latentEnergyFrame.itemCell.countTxt.gf" args="0xFFFFFF,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="latentEnergyFrame.leftProTxt.tf" args="Arial,12,0xc9e378,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="latentEnergyFrame.leftProTxt.gf" args="0x4c3010,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="latentEnergyFrame.rightProTxt.tf" args="Arial,12,0xfff10d"/>
+		<set type="flash.filters.GlowFilter" stylename="latentEnergyFrame.rightProTxt.gf" args="0x4c3010,1,4,4,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="latentEnergy.tipItemTxt.tf" args="宋体,13,0x99ff33,true"/>  
+	    <set type="flash.filters.GlowFilter" stylename="latentEnergy.tipItemTxt.gf" args="0x000000,1,2,2,10"/> 
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.bagListPos" x="369" y="42"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.proBagListPos" x="369" y="216"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.itemCellPos" x="231" y="41"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.equipCellPos" x="59" y="41"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.leftDrapSpritePos" x="-4" y="6"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.rightDrapSpritePos" x="354" y="5"/>
+		
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.leftProTxtPos1" x="69" y="162"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.leftProTxtPos2" x="69" y="187"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.leftProTxtPos3" x="69" y="213"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.leftProTxtPos4" x="69" y="237"/>
+		
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.rightProTxtPos1" x="246" y="161"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.rightProTxtPos2" x="246" y="187"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.rightProTxtPos3" x="246" y="211"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.rightProTxtPos4" x="246" y="236"/>
+		
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.moreLessIconPos1" x="281" y="165"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.moreLessIconPos2" x="281" y="190"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.moreLessIconPos3" x="281" y="214"/>
+		<custom classname="flash.geom.Point" stylename="latentEnergyFrame.moreLessIconPos4" x="281" y="239"/>
+	</customs>
+	
+	<components>
+		<component classname="latentEnergy.LatentEnergyFrame" backStyle="SimpleFrameBackgoundOne"
+			closestyle="core.closebt" stylename="LatentEnergyFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" containerX="20" containerY="40" escEnable="true"
+			closeInnerRectString="44,19,6,30,14" width="639" height="446" />
+	
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="latentEnergyFrame.openBtn" 
+			backStyle="asset.latentEnergyFrame.openBtn" x="90" y="321"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="latentEnergyFrame.replaceBtn" 
+			backStyle="asset.latentEnergyFrame.replaceBtn" x="208" y="284"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="latentEnergyFrame.helpBtn" 
+			backStyle="asset.corei.helpbutton" x="242" y="363"/>
+			
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="latentEnergy.HelpFrame.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="latentEnergy.HelpPrompt" bg9ScalseStyle="latentEnergy.HelpFrame.FrameBg" contentStyle="latentEnergy.helpFrame.text" x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="latentEnergy.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="latentEnergyFrame.itemCell.countTxt" 
+			textFormatStyle="latentEnergyFrame.itemCell.countTxt.tf" filterString="latentEnergyFrame.itemCell.countTxt.gf"
+			wordWrap="true" width="49" height="20" x="8" y="39"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="latentEnergyFrame.leftProTxt" 
+			textFormatStyle="latentEnergyFrame.leftProTxt.tf" filterString="latentEnergyFrame.leftProTxt.gf" 
+			autoSize="none" width="70" height="22"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="latentEnergyFrame.rightProTxt" 
+			textFormatStyle="latentEnergyFrame.rightProTxt.tf" filterString="latentEnergyFrame.rightProTxt.gf" 
+			autoSize="none" width="80" height="22"/>
+			
+		
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="ddtstore.LatentEnergyBagListView.BagScrollPanel" parentStyle="core.ScrollPanel" width="355" height="138" x="369" y="42" viewportInnerRectString="0,27,0,0,0" hScrollProxy="2" vScrollProxy="0" vUnitIncrement="10"/>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="latentEnergy.tipItemTxt" textFormatStyle="latentEnergy.tipItemTxt.tf" filterString="latentEnergy.tipItemTxt.gf" autoSize="none" width="250" height="18" x="23" y="2"/> 
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.latentEnergyFrame.bg" x="0" y="0"/>
+	</bitmaps>
+</style>

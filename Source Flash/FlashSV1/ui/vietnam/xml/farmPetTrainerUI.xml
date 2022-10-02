@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="farmPetTrainerUI" version="1.0.1" source="ui/spain/swf/farmPetTrainerUI.swf">
+	<sets> 
+		
+	</sets> 
+	<components> 
+ 
+		
+	</components>
+	
+	
+	<bitmaps>
+ 
+		
+	</bitmaps>
+	
+	<customDisplay> 
+		<!--farmTrainer guild-->
+		<custom classname="flash.geom.Point" stylename="farmTrainer.infarmArrowPos" x="695" y="365"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.infarmTipPos" x="546" y="520"/>			
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openAdoptPetArrowPos" x="750" y="305"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openAdoptPetTipPos" x="742" y="289"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectPetArrowPos" x="36" y="170"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectPetTipPos" x="13" y="160"/>	 
+		<custom classname="flash.geom.Point" stylename="farmTrainer.adoptPetArrowPos" x="186" y="343"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.adoptPetTipPos" x="173" y="325"/>
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openBagArrowPos" x="812" y="496"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openBagTipPos" x="727" y="330"/>	 
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openPetLabelArrowPos" x="230" y="162"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openPetLabelTipPos" x="211" y="142"/> 				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.fightPetArrowPos" x="379" y="220"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.fightPetTipPos" x="357" y="232"/>			
+		<custom classname="flash.geom.Point" stylename="farmTrainer.feedPetArrowPos" x="280" y="176"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.feedPetTipPos" x="204" y="254"/>
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openTaskArrowPos" x="758" y="480"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openTaskTipPos" x="708" y="205"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.joinGameArrowPos" x="656" y="449"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.joinGameTipPos" x="663" y="278"/> 
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openFarmArrowPos" x="690" y="376"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.grainArrowPos" x="470" y="180"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openFarmTipPos" x="669" y="500"/> 
+		<custom classname="flash.geom.Point" stylename="farmTrainer.grainopenFarmTipPos" x="562" y="295"/>	
+		<custom classname="flash.geom.Point" stylename="farmTrainer.grainopenFarmTipPosout" x="700" y="340"/>	
+		<custom classname="flash.geom.Point" stylename="farmTrainer.seedArrowPos" x="858" y="375"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.seedTipPos" x="800" y="191"/>						
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectSeedArrowPos" x="82" y="-12"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectSeedTipPos" x="103" y="283"/>										
+		<custom classname="flash.geom.Point" stylename="farmTrainer.seedFieldArrowPos" x="500" y="300"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.seedFieldTipPos" x="494" y="297"/>	
+		<custom classname="flash.geom.Point" stylename="farmTrainer.grainFieldTipPos" x="335" y="-30"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.fastGroupArrowPos" x="539" y="209"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.fastGroupTipPos" x="421" y="50"/>								
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectFertilizerArrowPos" x="303" y="-20"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectFertilizerTipPos" x="313" y="-313"/>			
+		<custom classname="flash.geom.Point" stylename="farmTrainer.useFertilizerArrowPos" x="509" y="302"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.useFertilizerTipPos" x="481" y="105"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.getGroupArrowPos" x="509" y="304"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.getGroupTipPos" x="466" y="325"/>
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openComposeArrowPos" x="325" y="306"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openComposeTipPos" x="333" y="234"/>					 
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectPetFoodLabelArrowPos" x="158" y="98"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectPetFoodLabelTipPos" x="140" y="86"/>													
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectPetFoodArrowPos" x="155" y="200"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.selectPetFoodTipPos" x="232" y="112"/>								
+		<custom classname="flash.geom.Point" stylename="farmTrainer.composePetFoodArrowPos" x="202" y="273"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.composePetFoodTipPos" x="185" y="266"/>					 
+		<custom classname="flash.geom.Point" stylename="farmTrainer.composeCountArrowPos" x="348" y="393"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.composeCountTipPos" x="360" y="392"/>								
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openFarmShopArrowPos" x="873" y="341"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openFarmShopTipPos" x="783" y="127"/>
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openFriendsArrowPos" x="915" y="156"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openFriendsTipPos" x="752" y="26"/>					 
+		<custom classname="flash.geom.Point" stylename="farmTrainer.joinFriendFarmArrowPos" x="42" y="83"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.joinFriendFarmTipPos" x="25" y="75"/>						
+		<custom classname="flash.geom.Point" stylename="farmTrainer.stealGroupArrowPos" x="486" y="302"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.stealGroupTipPos" x="493" y="141"/>		
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.petSkillConfigArrowPos" x="65" y="285"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.petSkillConfigTipPos" x="183" y="19"/>							
+		<custom classname="flash.geom.Point" stylename="farmTrainer.petSkillUseArrowPos" x="27" y="-49"/>				
+		<custom classname="flash.geom.Point" stylename="farmTrainer.petSkillUseTipPos" x="34" y="-225"/>		
+		
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openPetBagArrowPos" x="894" y="496"/>
+		<custom classname="flash.geom.Point" stylename="farmTrainer.openPetBagTipPos" x="877" y="330"/>
+		
+	</customDisplay>
+</style>
+ 

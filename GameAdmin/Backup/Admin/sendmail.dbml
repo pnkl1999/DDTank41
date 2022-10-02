@@ -1,0 +1,245 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Db_Tank" Class="sendmailDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=Db_Tank;Persist Security Info=True;User ID=sa" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Db_TankConnectionString" Provider="System.Data.SqlClient" />
+  <Function Name="dbo.SP_Admin_SendAllItem" Method="SP_Admin_SendAllItem">
+    <Parameter Name="Title" Parameter="title" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="Content" Parameter="content" Type="System.String" DbType="NVarChar(2000)" />
+    <Parameter Name="UserID" Parameter="userID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Gold" Parameter="gold" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Money" Parameter="money" Type="System.Int32" DbType="Int" />
+    <Parameter Name="GiftToken" Parameter="giftToken" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Param" Parameter="param" Type="System.String" DbType="NVarChar(2000)" />
+    <ElementType Name="SP_Admin_SendAllItemResult">
+      <Column Name="[identity]" Member="identity" Type="System.Decimal" DbType="Decimal(38,0)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_BallList" Method="SP_Insert_Update_BallList">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Power" Parameter="power" Type="System.Double" DbType="Float" />
+    <Parameter Name="Radii" Parameter="radii" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FlyingPartical" Parameter="flyingPartical" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="BombPartical" Parameter="bombPartical" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Crater" Parameter="crater" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="AttackResponse" Parameter="attackResponse" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsSpin" Parameter="isSpin" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Mass" Parameter="mass" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SpinVA" Parameter="spinVA" Type="System.Double" DbType="Float" />
+    <Parameter Name="SpinV" Parameter="spinV" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Amount" Parameter="amount" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Wind" Parameter="wind" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DragIndex" Parameter="dragIndex" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Weight" Parameter="weight" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Shake" Parameter="shake" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ShootSound" Parameter="shootSound" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="BombSound" Parameter="bombSound" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Delay" Parameter="delay" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ActionType" Parameter="actionType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="HasTunnel" Parameter="hasTunnel" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_bombconfig" Method="SP_Insert_Update_bombconfig">
+    <Parameter Name="TemplateID" Parameter="templateID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Common" Parameter="common" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CommonAddWound" Parameter="commonAddWound" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CommonMultiBall" Parameter="commonMultiBall" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Special" Parameter="special" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SpecialII" Parameter="specialII" Type="System.Int32" DbType="Int" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_Game_Map" Method="SP_Insert_Update_Game_Map">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(2000)" />
+    <Parameter Name="ForegroundWidth" Parameter="foregroundWidth" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ForegroundHeight" Parameter="foregroundHeight" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BackroundWidht" Parameter="backroundWidht" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BackroundHeight" Parameter="backroundHeight" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeadWidth" Parameter="deadWidth" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DeadHeight" Parameter="deadHeight" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Weight" Parameter="weight" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DragIndex" Parameter="dragIndex" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ForePic" Parameter="forePic" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="BackPic" Parameter="backPic" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="DeadPic" Parameter="deadPic" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Pic" Parameter="pic" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Remark" Parameter="remark" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="BackMusic" Parameter="backMusic" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="PosX" Parameter="posX" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Type" Parameter="type" Type="System.Int32" DbType="Int" />
+    <Parameter Name="PosX1" Parameter="posX1" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_NPC_Info" Method="SP_Insert_Update_NPC_Info">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Level" Parameter="level" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Camp" Parameter="camp" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Type" Parameter="type" Type="System.Int32" DbType="Int" />
+    <Parameter Name="X" Parameter="x" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Y" Parameter="y" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Width" Parameter="width" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Height" Parameter="height" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Blood" Parameter="blood" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MoveMin" Parameter="moveMin" Type="System.Int32" DbType="Int" />
+    <Parameter Name="MoveMax" Parameter="moveMax" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BaseDamage" Parameter="baseDamage" Type="System.Int32" DbType="Int" />
+    <Parameter Name="BaseGuard" Parameter="baseGuard" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Defence" Parameter="defence" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Agility" Parameter="agility" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Lucky" Parameter="lucky" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Attack" Parameter="attack" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ModelID" Parameter="modelID" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="ResourcesPath" Parameter="resourcesPath" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="DropRate" Parameter="dropRate" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="Experience" Parameter="experience" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Delay" Parameter="delay" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Immunity" Parameter="immunity" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Alert" Parameter="alert" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Range" Parameter="range" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Preserve" Parameter="preserve" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Script" Parameter="script" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="FireX" Parameter="fireX" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FireY" Parameter="fireY" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DropId" Parameter="dropId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_Pve_Info" Method="SP_Insert_Update_Pve_Info">
+    <Parameter Name="ID" Parameter="iD" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Type" Parameter="type" Type="System.Int32" DbType="Int" />
+    <Parameter Name="LevelLimits" Parameter="levelLimits" Type="System.Int32" DbType="Int" />
+    <Parameter Name="SimpleTemplateIds" Parameter="simpleTemplateIds" Type="System.String" DbType="NVarChar(1024)" />
+    <Parameter Name="NormalTemplateIds" Parameter="normalTemplateIds" Type="System.String" DbType="NVarChar(1024)" />
+    <Parameter Name="HardTemplateIds" Parameter="hardTemplateIds" Type="System.String" DbType="NVarChar(1024)" />
+    <Parameter Name="TerrorTemplateIds" Parameter="terrorTemplateIds" Type="System.String" DbType="NVarChar(1024)" />
+    <Parameter Name="Pic" Parameter="pic" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(1024)" />
+    <Parameter Name="SimpleGameScript" Parameter="simpleGameScript" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="NormalGameScript" Parameter="normalGameScript" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="HardGameScript" Parameter="hardGameScript" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="TerrorGameScript" Parameter="terrorGameScript" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="Ordering" Parameter="ordering" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AdviceTips" Parameter="adviceTips" Type="System.String" DbType="NVarChar(100)" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_Shop_Goods_Box" Method="SP_Insert_Update_Shop_Goods_Box">
+    <Parameter Name="Id" Parameter="id" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DataId" Parameter="dataId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="TemplateId" Parameter="templateId" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsSelect" Parameter="isSelect" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsBind" Parameter="isBind" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="ItemValid" Parameter="itemValid" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ItemCount" Parameter="itemCount" Type="System.Int32" DbType="Int" />
+    <Parameter Name="StrengthenLevel" Parameter="strengthenLevel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AttackCompose" Parameter="attackCompose" Type="System.Int32" DbType="Int" />
+    <Parameter Name="DefendCompose" Parameter="defendCompose" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AgilityCompose" Parameter="agilityCompose" Type="System.Int32" DbType="Int" />
+    <Parameter Name="LuckCompose" Parameter="luckCompose" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Random" Parameter="random" Type="System.Int32" DbType="Int" />
+    <Parameter Name="IsTips" Parameter="isTips" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsLogs" Parameter="isLogs" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_ShopItemList" Method="SP_Insert_Update_ShopItemList">
+    <Parameter Name="ID" Parameter="iD" Type="System.Double" DbType="Float" />
+    <Parameter Name="ShopID" Parameter="shopID" Type="System.Double" DbType="Float" />
+    <Parameter Name="GroupID" Parameter="groupID" Type="System.Double" DbType="Float" />
+    <Parameter Name="TemplateID" Parameter="templateID" Type="System.Double" DbType="Float" />
+    <Parameter Name="BuyType" Parameter="buyType" Type="System.Double" DbType="Float" />
+    <Parameter Name="IsContinue" Parameter="isContinue" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="IsBind" Parameter="isBind" Type="System.Double" DbType="Float" />
+    <Parameter Name="IsVouch" Parameter="isVouch" Type="System.Double" DbType="Float" />
+    <Parameter Name="Label" Parameter="label" Type="System.Double" DbType="Float" />
+    <Parameter Name="Beat" Parameter="beat" Type="System.Double" DbType="Float" />
+    <Parameter Name="AUnit" Parameter="aUnit" Type="System.Double" DbType="Float" />
+    <Parameter Name="APrice1" Parameter="aPrice1" Type="System.Double" DbType="Float" />
+    <Parameter Name="AValue1" Parameter="aValue1" Type="System.Double" DbType="Float" />
+    <Parameter Name="APrice2" Parameter="aPrice2" Type="System.Double" DbType="Float" />
+    <Parameter Name="AValue2" Parameter="aValue2" Type="System.Double" DbType="Float" />
+    <Parameter Name="APrice3" Parameter="aPrice3" Type="System.Double" DbType="Float" />
+    <Parameter Name="AValue3" Parameter="aValue3" Type="System.Double" DbType="Float" />
+    <Parameter Name="BUnit" Parameter="bUnit" Type="System.Double" DbType="Float" />
+    <Parameter Name="BPrice1" Parameter="bPrice1" Type="System.Double" DbType="Float" />
+    <Parameter Name="BValue1" Parameter="bValue1" Type="System.Double" DbType="Float" />
+    <Parameter Name="BPrice2" Parameter="bPrice2" Type="System.Double" DbType="Float" />
+    <Parameter Name="BValue2" Parameter="bValue2" Type="System.Double" DbType="Float" />
+    <Parameter Name="BPrice3" Parameter="bPrice3" Type="System.Double" DbType="Float" />
+    <Parameter Name="BValue3" Parameter="bValue3" Type="System.Double" DbType="Float" />
+    <Parameter Name="CUnit" Parameter="cUnit" Type="System.Double" DbType="Float" />
+    <Parameter Name="CPrice1" Parameter="cPrice1" Type="System.Double" DbType="Float" />
+    <Parameter Name="CValue1" Parameter="cValue1" Type="System.Double" DbType="Float" />
+    <Parameter Name="CPrice2" Parameter="cPrice2" Type="System.Double" DbType="Float" />
+    <Parameter Name="CValue2" Parameter="cValue2" Type="System.Double" DbType="Float" />
+    <Parameter Name="CPrice3" Parameter="cPrice3" Type="System.Double" DbType="Float" />
+    <Parameter Name="Sort" Parameter="sort" Type="System.Double" DbType="Float" />
+    <Parameter Name="CValue3" Parameter="cValue3" Type="System.Double" DbType="Float" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_delete_Item_Fusion" Method="SP_delete_Item_Fusion">
+    <Parameter Name="FusionID" Parameter="fusionID" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_Item_Fusion" Method="SP_Insert_Update_Item_Fusion">
+    <Parameter Name="FusionID" Parameter="fusionID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Item1" Parameter="item1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Item2" Parameter="item2" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Item3" Parameter="item3" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Item4" Parameter="item4" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Formula" Parameter="formula" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Reward" Parameter="reward" Type="System.Int32" DbType="Int" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+  <Function Name="dbo.SP_Insert_Update_TemplateAlllist" Method="SP_Insert_Update_TemplateAlllist">
+    <Parameter Name="TemplateID" Parameter="templateID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Name" Parameter="name" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="CategoryID" Parameter="categoryID" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Description" Parameter="description" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Attack" Parameter="attack" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Defence" Parameter="defence" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Agility" Parameter="agility" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Luck" Parameter="luck" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Level" Parameter="level" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Quality" Parameter="quality" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Pic" Parameter="pic" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="MaxCount" Parameter="maxCount" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NeedSex" Parameter="needSex" Type="System.Int32" DbType="Int" />
+    <Parameter Name="NeedLevel" Parameter="needLevel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CanStrengthen" Parameter="canStrengthen" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanCompose" Parameter="canCompose" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanDrop" Parameter="canDrop" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanEquip" Parameter="canEquip" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanUse" Parameter="canUse" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="CanDelete" Parameter="canDelete" Type="System.Boolean" DbType="Bit" />
+    <Parameter Name="Script" Parameter="script" Type="System.String" DbType="NVarChar(200)" />
+    <Parameter Name="Data" Parameter="data" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="Colors" Parameter="colors" Type="System.String" DbType="NVarChar(1000)" />
+    <Parameter Name="Property1" Parameter="property1" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property2" Parameter="property2" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property3" Parameter="property3" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property4" Parameter="property4" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property5" Parameter="property5" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property6" Parameter="property6" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property7" Parameter="property7" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Property8" Parameter="property8" Type="System.Int32" DbType="Int" />
+    <Parameter Name="AddTime" Parameter="addTime" Type="System.DateTime" DbType="DateTime" />
+    <Parameter Name="BindType" Parameter="bindType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FusionType" Parameter="fusionType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FusionRate" Parameter="fusionRate" Type="System.Int32" DbType="Int" />
+    <Parameter Name="FusionNeedRate" Parameter="fusionNeedRate" Type="System.Int32" DbType="Int" />
+    <Parameter Name="Hole" Parameter="hole" Type="System.String" DbType="NVarChar(50)" />
+    <Parameter Name="RefineryLevel" Parameter="refineryLevel" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ReclaimValue" Parameter="reclaimValue" Type="System.Int32" DbType="Int" />
+    <Parameter Name="ReclaimType" Parameter="reclaimType" Type="System.Int32" DbType="Int" />
+    <Parameter Name="CanRecycle" Parameter="canRecycle" Type="System.Int32" DbType="Int" />
+    <Parameter Name="setUpdate" Type="System.Int32" DbType="Int" />
+    <Return Type="System.Int32" />
+  </Function>
+</Database>

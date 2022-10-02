@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="email" version="1.0.1" source="ui/vietnam/swf/email.swf">
+  <sets>
+    <!--TitleTextSet-->
+    <set stylename="page_txt" args="Arial,16,0x5B3F13,true,,,,,center" type="flash.text.TextFormat" />
+    <set stylename="read_txt" args="Arial,12,0x000000" type="flash.text.TextFormat" />
+    <set stylename="DiamondCell_txt" args="Arial,12,0x000000,true,,,,,center" type="flash.text.TextFormat" />
+    <set stylename="emailStripTopic_filter" args="0xFFFFCC,1,2,2,10" type="flash.filters.GlowFilter" />
+    <set stylename="emailStripTopic_txt" args="Arial,12,0x5C3F13,true" type="flash.text.TextFormat" />
+    <set stylename="emailStripSV_txt" args="Arial,12,0x5C3F13" type="flash.text.TextFormat" />
+    <set stylename="moneyInput_txt" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat" />
+    <set stylename="moneyInput_filter" args="0x5F3D0E,1,2,2,10" type="flash.filters.GlowFilter" />
+    <set stylename="content_txt" args="Arial,12,0x000000" leading="3" type="flash.text.TextFormat" />
+    
+    <set stylename="email.writingView.helpTextGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+    <set stylename="email.writingView.helpTextTF" args="Arial,12,0xff0000" leading="3" type="flash.text.TextFormat" />
+    
+    
+  </sets>
+  <components>
+    <!--ReadingFrame-->
+    <component classname="email.view.ReadingView" backStyle="SimpleFrameBackgound" closestyle="core.closebt" stylename="email.readingView" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="772" height="515" moveEnable="false" />
+    <!--left-->
+    <!--leftTopButton-->
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="emailListBtn" unSelectedStyle="asset.email.emialListButton1" selectedStyle="asset.email.emialListButton2" x="34" y="49" />
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="noReadBtn" unSelectedStyle="asset.email.noReadButton1" selectedStyle="asset.email.noReadButton2" x="107" y="49" />
+    <component classname="com.pickgliss.ui.controls.SelectedButton" stylename="sendedBtn" unSelectedStyle="asset.email.sendedButton1" selectedStyle="asset.email.sendedButton2" x="180" y="49" />
+    <!--leftBottomButton-->
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.selectAllBtnAsset" resourceLink="asset.email.selectAllBtn1,asset.email.selectAllBtn2,asset.email.selectAllBtn2" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.selectAllBtn" backStyle="email.selectAllBtnAsset" x="53" y="423" />
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.deleteBtnAsset" resourceLink="asset.email.deleteSelectbtn1,asset.email.deleteSelectbtn2,asset.email.deleteSelectbtn2" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.deleteBtn" backStyle="email.deleteBtnAsset" x="133" y="423" />
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.reciveMailBtnAsset" resourceLink="asset.email.reciveMailBtn1,asset.email.reciveMailBtn2,asset.email.reciveMailBtn2" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.reciveMailBtn" backStyle="email.reciveMailBtnAsset" x="213" y="423" />
+    <!--page-->
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.leftPageBtn" backStyle="asset.email.leftPageBtn" filterString="null,lightFilter,null,grayFilter" x="260" y="51" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.rightPageBtn" backStyle="asset.email.rightPageBtn" filterString="null,lightFilter,null,grayFilter" x="350" y="51" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.pageTxt" textFormatStyle="page_txt" x="273" y="49" autoSize="none" width="80" height="25" />
+    <!--right-->
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.senderTxt" textFormatStyle="read_txt" x="475" y="49" width="265" height="19" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.topicTxt" textFormatStyle="read_txt" autoSize="none" isAutoFitLength="true" x="475" y="71" width="265" height="19" />
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="emial.personalImgBg" resourceLink="asset.email.personalImageBg" width="126" height="145" x="617" y="234" scaleGridString="15,7,75,20" />
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="emial.diamondHbox" spacing="-6.5" x="403" y="385" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.addFriendBtn" backStyle="asset.email.addFriend" filterString="null,lightFilter,null,grayFilter" width="14" height="14" x="405" y="354" />
+    <!--bottomButton-->
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.replyBtn" parentStyle="core.simplebt" x="145" y="472" />
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.reBackBtn" parentStyle="core.simplebt" x="248" y="472" />
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.writeBtn" parentStyle="core.simplebt" x="32" y="472" />
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.closeBtn" parentStyle="core.simplebt" x="640" y="472" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.helpPageBtn" backStyle="asset.email.helpPage" filterString="null,lightFilter,null,grayFilter" x="400" y="477" />
+    <!--helePage-->
+    <component classname="com.pickgliss.ui.controls.Frame" stylename="email.helpPageFrame" parentStyle="BaseFrame" width="320" height="377" moveEnable="true" moveInnerRectString="0,30,0,30,1" />
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.helpPageCloseBtn" parentStyle="core.simplebt" x="125" y="335" />
+    <!--Diamond-->
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.centerMC" resourceLink="asset.email.centerMC1,asset.email.centerMC2,asset.email.centerMC3,asset.email.centerMC4,asset.email.centerMC5,asset.email.centerMC6,asset.email.centerMC7" x="-3" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.diamondTxt" textFormatStyle="DiamondCell_txt" x="6" y="47" autoSize="none" width="57" height="18" />
+    <!--emailStrip-->
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.emailType" resourceLink="asset.email.userType,asset.email.GMImg" x="13" y="26" />
+    <!--bg-->
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.emailStripMC" resourceLink="asset.email.emailStripImg1,asset.email.emailStripImg2" x="2" width="302" height="48" />
+    <!--closeBtn-->
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.stripDeleteBtn" backStyle="asset.email.emailStripDeleteBtn" filterString="null,lightFilter,null,grayFilter" x="279" y="0" />
+    <!--stripTxt-->
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.strip.topicTxt" textFormatStyle="emailStripTopic_txt" filterString="emailStripTopic_filter" autoSize="none" isAutoFitLength="true" x="43" y="24" width="172" height="18" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.strip.senderTxt" textFormatStyle="emailStripSV_txt" x="43" y="4" width="144" height="17" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.strip.validityTxt" textFormatStyle="emailStripSV_txt" x="210" y="24" width="105" height="17" />
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="email.stripCheckBtn" parentStyle="core.simpleSelectBtn" x="-16" y="14" />
+    <!--emailListView-->
+    <component classname="email.view.EmailListView" stylename="email.emailListView" spacing="1" x="53" y="81" />
+    <!--writeView-->
+    <component classname="email.view.WritingView" stylename="email.writingView" parentStyle="email.readingView" width="439" height="521" x="-250" escEnable="true" moveEnable="false" />
+    <!--payForEmail-->
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="email.oneHouerBtn.select" resourceLink="asset.core.selectCheck.btn,asset.email.oneHouer" />
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="email.oneHouerBtn.unselect" resourceLink="asset.core.selectCheck.unbtn,asset.email.oneHouer" />
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="email.oneHouerBtn" unSelectedStyle="email.oneHouerBtn.unselect" selectedStyle="email.oneHouerBtn.select" displacement="false" x="277" y="430" />
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="email.sixHouerBtn.select" resourceLink="asset.core.selectCheck.btn,asset.email.sixHouer" />
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="email.sixHouerBtn.unselect" resourceLink="asset.core.selectCheck.unbtn,asset.email.sixHouer" />
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="email.sixHouerBtn" unSelectedStyle="email.sixHouerBtn.unselect" selectedStyle="email.sixHouerBtn.select" displacement="false" x="343" y="430" />
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="email.payForBtn.select" resourceLink="asset.setting.selectedCheckBtn,asset.email.payBtn" />
+    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="email.payForBtn.unselect" resourceLink="asset.setting.checkBtnI,asset.email.payBtn" />
+    <component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="email.payForBtn" unSelectedStyle="email.payForBtn.unselect" selectedStyle="email.payForBtn.select" x="280" y="391" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.moneyInputTxt" textFormatStyle="moneyInput_txt" filterString="moneyInput_filter" autoSize="none" multiline="false" wordWrap="false" />
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="email.moneyInput" backStyle="asset.email.moneyBG" textStyle="email.moneyInputTxt" textInnerRectString="64,0,0,0,0" width="151" height="18" x="109" y="399" />
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.sendBtn" parentStyle="core.simplebt" x="33" y="478" />
+    <component classname="com.pickgliss.ui.controls.TextButton" stylename="email.cancelBtn" parentStyle="core.simplebt" x="330" y="478" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.receiverTxt" parentStyle="email.senderTxt" autoSize="none" multiline="false" wordWrap="false" x="98" y="49" />
+    <component classname="ddt.view.FriendDropListTarget" stylename="email.receiverInput" textFormatStyle="read_txt" autoSize="none" type="input" width="265" height="20" x="104" y="49" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.writeTopicTxt" parentStyle="email.topicTxt" x="98" y="72" />
+    <component classname="com.pickgliss.ui.controls.TextInput" stylename="email.writeTopicInput" textStyle="email.writeTopicTxt" textInnerRectString="10,10,3,2,0" x="6" y="-1" width="287" height="20" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.ralationBtn" backStyle="asset.email.ralationBtnImg" filterString="null,lightFilter,null,grayFilter" width="18" height="18" x="357" y="48" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.friendsBtn" backStyle="asset.email.friendBtn" filterString="null,lightFilter,null,grayFilter" displacement="false" x="316" y="49" />
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="email.simpleBG" resourceLink="asset.core.bg006" width="420" height="500" scaleGridString="80,60,100,70" />
+    <component classname="com.pickgliss.ui.controls.Frame" backStyle="email.simpleBG" stylename="email.emialBagFrame" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" moveInnerRectString="0,30,0,30,1" width="420" height="500" x="456" y="" moveEnable="false" />
+    <component classname="bagAndInfo.bag.BagFrame" stylename="email.bagContent" x="-422" y="41" />
+    <!--textArea-->
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.contentTxt" textFormatStyle="content_txt" wordWrap="true" type="dynamic" mouseEnabled="false" />
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="email.content" parentStyle="core.SimpleTextArea" textStyle="email.contentTxt" x="420" y="125" width="320" height="232" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.writeContentTxt" textFormatStyle="content_txt" wordWrap="true" type="input" mouseEnabled="true" />
+    <component classname="com.pickgliss.ui.text.TextArea" stylename="email.writeContent" parentStyle="core.SimpleTextArea" textStyle="email.writeContentTxt" x="43" y="124" width="350" height="216" />
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="email.titleTopAsset" resourceLink="asset.email.titleTop,asset.email.writingTopTip" x="402" y="48" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.rebackGiftBtn" backStyle="asset.rebackGiftBtn" filterString="null,lightFilter,null,grayFilter" width="99" height="36" x="643" y="346" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="email.giveGiftBtn" backStyle="asset.giveGiftBtn" filterString="null,lightFilter,null,grayFilter" width="99" height="36" x="643" y="346" />
+  
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="email.writingView.helpText" textFormatStyle="email.writingView.helpTextTF" filterString="email.writingView.helpTextGF" autoSize="center" width="250" height="22" x="140" y="100" />
+  </components>
+  <customDisplay>
+    <custom classname="email.view.DiamondOfStrip" stylename="email.emailStrip.cell" x="-8" y="-9" />
+    <custom classname="ddt.view.common.LevelIcon" stylename="email.levelIcon" x="708" y="238" />
+    <custom classname="flash.geom.Point" stylename="email.playerviewPos" x="729" y="224" />
+    <custom classname="flash.geom.Point" stylename="email.playerviewMaskPos" x="617" y="233" />
+    <custom classname="flash.geom.Point" stylename="email.cellPos" x="9" y="10" />
+    <custom classname="email.view.EmailView" stylename="emailView" />
+    <custom classname="flash.geom.Point" stylename="EmailView.Pos_0" x="91" y="38" />
+    <custom classname="flash.geom.Point" stylename="EmailView.Pos_1" x="292" y="38" />
+    <custom classname="flash.geom.Point" stylename="EmailView.Pos_2" x="64" y="42" />
+    <custom classname="flash.geom.Point" stylename="writingView.diaPos" x="31" y="389" />
+    <custom classname="flash.geom.Point" stylename="writingView.BGPos" x="17" y="28" />
+    <custom classname="flash.geom.Point" stylename="readingViewBG.pos" x="14" y="37" />
+    <custom classname="flash.geom.Point" stylename="writingTopTip.pos" x="30" y="45" />
+  </customDisplay>
+  <bitmaps>
+    <bitmapData resourceLink="asset.email.prompt" x="411" y="104" />
+    <bitmapData resourceLink="asset.email.helpPageWord" x="9" y="33" />
+    <bitmapData resourceLink="asset.email.DiamondBg" x="-2" y="-2" />
+    <bitmapData resourceLink="asset.email.chargedImg" />
+    <bitmapData resourceLink="asset.email.eggKingAsset" x="19" y="22" />
+    <bitmapData resourceLink="asset.email.payImg" x="215" y="1" />
+    <bitmapData resourceLink="asset.email.unReadImg" x="215" y="1" />
+    <bitmapData resourceLink="asset.email.writingViewTitle" x="183" y="5" />
+    <bitmapData resourceLink="asset.email.diamondTipImg" x="30" y="358" />
+    <bitmapData resourceLink="asset.email.selectAllBtn1" x="2" y="2" />
+    <bitmapData resourceLink="asset.email.deleteSelectbtn1" x="2" y="2" />
+    <bitmapData resourceLink="asset.email.reciveMailBtn1" x="2" y="2" />
+    <bitmapData resourceLink="asset.email.userType" x="9" y="-5" />
+    <bitmapData resourceLink="asset.email.centerMC1" x="19" y="27" />
+    <bitmapData resourceLink="asset.email.centerMC2" x="18" y="15" />
+    <bitmapData resourceLink="asset.email.centerMC3" width="53" x="11" y="14" />
+    <bitmapData resourceLink="asset.email.centerMC4" x="15" y="16" />
+    <bitmapData resourceLink="asset.email.centerMC5" x="16" y="8" />
+    <bitmapData resourceLink="asset.email.centerMC6" x="14" y="12" />
+    <bitmapData resourceLink="asset.email.centerMC7" width="48" height="48" x="14" y="12" />
+    <bitmapData resourceLink="asset.email.personBG" x="645" y="278" />
+    <bitmapData resourceLink="asset.email.emailStripImg1" width="302" />
+    <bitmapData resourceLink="asset.email.emailStripImg2" width="302" />
+    <bitmapData resourceLink="asset.email.payBG" x="269" y="389" />
+    <bitmapData resourceLink="asset.email.factorage" x="113" y="425" />
+    <bitmapData resourceLink="asset.email.oneHouer" x="16" y="-2" />
+    <bitmapData resourceLink="asset.email.sixHouer" x="16" y="-2" />
+    <bitmapData resourceLink="asset.email.payBtn" x="33" y="2" />
+    <bitmapData resourceLink="asset.email.writingTopTip" x="0" y="-2" />
+    <bitmapData resourceLink="asset.email.payImgII" x="156" y="2" />
+  </bitmaps>
+</style>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="hotSpringRoomList" version="1.0.1" source="ui/spain/swf/hotSpringRoomList.swf">
+  <sets>
+    <set stylename="asset.HotSpringMainView.roomCurCount_text" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat" align="right" />
+    <set stylename="asset.HotSpringMainView.roomCount_text" args="Arial,14,0xFFD268" type="flash.text.TextFormat" />
+    <set stylename="asset.HotSpringMainView.lblRoomNumber_text" args="Verdana,18,0x333333,true,true,,,,center" type="flash.text.TextFormat" />
+    <set stylename="asset.HotSpringMainView.lblRoomName_text" args="Arial,14,0x333333" type="flash.text.TextFormat" />
+    <set stylename="asset.HotSpringMainView.lblCount_text" args="Arial,14,0x333333,true" type="flash.text.TextFormat" align="right" />
+  </sets>
+  <customDisplay>
+    <custom classname="flash.geom.Point" stylename="asset.HotSpringMainView.roomListPos" x="567" y="151" />
+  </customDisplay>
+  <components>
+    <component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.HotSpringPlayerBase.headMaskAsset" resourceLink="asset.hotSpring.HeadMaskAsset" width="125" height="132" />
+    <!--button-->
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.quickEnterBtn" backStyle="asset.HotSpringMainView.quickEnterBtnAsset" filterString="null,lightFilter,null,grayFilter" x="536" y="473" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.creatRoomBtn" backStyle="asset.HotSpringMainView.creatRoomBtnAsset" filterString="null,lightFilter,null,grayFilter" x="715" y="475" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.firstPageBtn" backStyle="asset.HotSpringMainView.firstPageBtnAsset" filterString="null,lightFilter,null,grayFilter" x="585" y="402" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.preBtn" backStyle="asset.HotSpringMainView.preBtnAsset" filterString="null,lightFilter,null,grayFilter" x="635" y="402" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.nextBtn" backStyle="asset.HotSpringMainView.nextBtnAsset" filterString="null,lightFilter,null,grayFilter" x="789" y="402" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.HotSpringMainView.lastPagBtn" backStyle="asset.HotSpringMainView.lastPagBtnAsset" filterString="null,lightFilter,null,grayFilter" x="840" y="402" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="asset.HotSpringMainView.roomListItemBtn" filterString="null,lightFilter,null,grayFilter" width="334" height="30" />
+    <!--text-->
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.roomCurCount" textFormatStyle="asset.HotSpringMainView.roomCurCount_text" autoSize="none" width="45" height="20" x="692" y="405" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.roomCount" textFormatStyle="asset.HotSpringMainView.roomCount_text" width="44" height="20" x="733" y="405" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblRoomNumber" textFormatStyle="asset.HotSpringMainView.lblRoomNumber_text" autoSize="none" width="50" height="26" x="4" y="2" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblRoomName" textFormatStyle="asset.HotSpringMainView.lblRoomName_text" width="182" height="18" x="79" y="7" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblCurCount" textFormatStyle="asset.HotSpringMainView.lblCount_text" autoSize="none" width="26" height="20" x="269" y="6" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.percentSinge" textFormatStyle="asset.HotSpringMainView.lblRoomName_text" autoSize="none" width="13" height="18" x="293" y="7" />
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.HotSpringMainView.lblMaxCount" textFormatStyle="asset.HotSpringMainView.lblCount_text" width="26" height="20" x="303" y="6" />
+    <!--Vbox-->
+    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.HotSpringMainView.roomListVBox" spacing="1" />
+    <!--scaleFrameImage-->
+    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.HotSpringMainView.roomItemBG" resourceLink="asset.HotSpringMainView.roomItemBG1Asset,asset.HotSpringMainView.roomItemBG2Asset,asset.HotSpringMainView.roomItemBG3Asset,asset.HotSpringMainView.roomItemBG4Asset" />
+  </components>
+  <bitmaps>
+    <bitmapData resourceLink="asset.HotSpringMainView.titleBGAsset" x="300" y="10" />
+    <bitmapData resourceLink="asset.HotSpringMainView.IMGBGAsset" x="5" y="72" />
+    <bitmapData resourceLink="asset.HotSpringMainView.freeIMGAsset" x="5" y="52" />
+    <bitmapData resourceLink="asset.HotSpringMainView.roomListBGAsset" x="519" y="51" />
+    <bitmapData resourceLink="asset.HotSpringMainView.roomItem.lockAsset" x="60" y="7" />
+  </bitmaps>
+</style>
+

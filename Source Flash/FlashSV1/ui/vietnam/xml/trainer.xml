@@ -1,0 +1,66 @@
+<style name="trainer" version="1.0.1" source="ui/spain/swf/trainer.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="trainer.welcome.tfName" args="Arial,20,0x006699,true"/>
+		
+		<set type="flash.filters.GlowFilter" stylename="trainer.welcome.glow1" args="0xFFFFFF,1,6,6,3.6,1" />
+	</sets>
+	
+	<customDisplay>
+		<custom classname="trainer.view.QuestionItemView" stylename="trainer.question.questionItemView" width="377" height="37"/>
+		<custom classname="asset.trainer.question.Dot" stylename="trainer.question.dot" scaleX="-1" rotation="-20" x="3" y="45"/>
+		
+		<custom classname="asset.trainer.mcTaskTarget" stylename="trainer.mcTaskTarget" x="302" y="77"/>
+	</customDisplay>
+	
+	<customs>
+		<custom classname="asset.trainer.shineGift" stylename="trainer.shineGift" x="745" y="56"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.posWelcome" x="320" y="186"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posPlaneI" x="166" y="458"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.shopGiftArrowPos" x="659" y="101"/>
+		<custom classname="flash.geom.Point" stylename="trainer.shopGiftTipPos" x="380" y="148"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.posBarBag" x="612" y="545"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBarIM" x="772" y="545"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBarShop" x="554" y="545"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBarChannel" x="880" y="545"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBarMail" x="667" y="545"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBarSign" x="828" y="545"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildGameRoom" x="382" y="130"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildCivil" x="655" y="26"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildMasterRoom" x="742" y="171"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildConsortia" x="-31" y="199"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildDungeon" x="742" y="382"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildStore" x="510" y="-3"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildShop" x="437" y="412"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildChurch" x="187" y="231"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildToffList" x="139" y="151"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildHotWell" x="-49" y="138"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildAuction" x="527" y="337"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posBuildCampaignLab" x="364" y="-55"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.welcome.posBtn" x="219" y="169"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.posLockFocus" x="570" y="643"/>
+	</customs>
+	
+	<components>
+		<!--Frame-->
+		<component classname="trainer.view.WelcomeView" stylename="trainer.welcome.mainFrame" moveEnable="false" parentStyle="GuideFrame" containerX="0" containerY="0" width="472" height="231"/>
+		<component classname="quest.QuestRewardCell" stylename="trainer.question.rewardCell" x="112" y="269"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.welcome.name" filterString="trainer.welcome.glow1" textFormatStyle="trainer.welcome.tfName" width="200" height="50" x="210" y="46"/>
+		<component classname="trainer.view.GhostTipFrame" stylename="GhostTip" backStyle="SimpleFrameBackgound" parentStyle="BaseFrame" moveEnable="false" escEnable ="false" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" width ="555" height="200"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.trainer.welcome.txt" width="279" height="103" x="152" y="50"/>
+		<bitmapData resourceLink="asset.trainer.welcome.girl" width="274" height="289" x="-111" y="-75" smoothing="true"/>
+		
+		<bitmapData resourceLink="asset.trainer.question.transparentBg" width="274" height="57" x="-290" y="21"/>
+		<bitmapData resourceLink="asset.trainer.question.answer" width="241" height="55" x="-275" y="23"/>
+		
+		<bitmapData resourceLink="asset.trainer.ghostTip" width="555" height="140" x="5" y="25"/>
+	</bitmaps>
+</style>

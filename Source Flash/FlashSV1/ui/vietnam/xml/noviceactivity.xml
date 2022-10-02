@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="noviceactivity" version="1.0.1" source="ui/spain/swf/noviceactivity.swf">
+
+	<sets>
+		<set stylename="noviceactivity.leftitem.titleTxtUnSelectedTextTF"
+			args="Arial,16,0xffffff" type="flash.text.TextFormat" />
+		<set stylename="wantstrong.ActivityCellTitleUnSelectedTextGF"
+			args="0x000000,1,2,2,10" type="flash.filters.GlowFilter" />
+		<set stylename="noviceactivity.leftitem.titleTxtSelectedTextTF" args="Arial,16,0xf4d96b"
+			type="flash.text.TextFormat" />
+		<set stylename="wantstrong.ActivityCellTitleSelectedTextGF" args="0x541e00,1,4,4,30"
+			type="flash.filters.GlowFilter" />
+		<set stylename="noviceactivity.rightview.titleTxtTF" args="Arial,16,0xffffff,true,,,,,center"
+			type="flash.text.TextFormat" />
+		<set stylename="noviceactivity.rightview.titleTxtGF" args="0xffffff,1,0,0,30"
+			type="flash.filters.GlowFilter" />
+		<set stylename="noviceactivity.rightview.detailTxtTF" args="Arial,12,0xffffff"
+			type="flash.text.TextFormat" />
+		<set stylename="noviceactivity.rightview.detailTxtGF" args="0x000000,1,2,2,2"
+			type="flash.filters.GlowFilter" />
+		<set stylename="noviceactivity.rightview.dateTxtTF" args="Arial,12,0x9e2d0c,true"
+			type="flash.text.TextFormat" />
+		<set stylename="noviceactivity.rightview.dateTxtGF" args="0x000000,1,1,1,1"
+			type="flash.filters.GlowFilter" />
+		<set stylename="noviceactivity.rightview.itemtitleTxtTF" args="Arial,12,0xe3dac1,true,,,,,center"
+			type="flash.text.TextFormat" />
+		<set stylename="noviceactivity.rightview.itemtitleTxtGF" args="0x522901,1,2,2,30"
+			type="flash.filters.GlowFilter" />
+		<set stylename="noviceactiviy.rightawarditem.conditionTxtTF" args="Arial,12,0xffe9ac,,,,,,center"
+			type="flash.text.TextFormat" />
+		<set stylename="noviceactiviy.rightawarditem.conditionTxtGF" args="0x4f2601,1,2,2,30"
+			type="flash.filters.GlowFilter" />
+	</sets>
+
+	<customs>
+		<custom classname="flash.geom.Point" stylename="noviceactivity.hall.icon.pos" x="900" y="270" />
+		
+		<custom classname="flash.geom.Point" stylename="noviceactivity.mainframe.leftview.pos" x="0" y="0" />
+		<custom classname="flash.geom.Point" stylename="noviceactivity.mainframe.rightview.pos" x="274" y="1" />
+		
+		<custom classname="flash.geom.Point" stylename="noviceactivity.rightItem.awardcells.pos" x="91" y="7" />
+		
+		<custom classname="flash.geom.Point" stylename="noviceactivity.rightview.conditiontitle.pos" x="30" y="132" />
+		<custom classname="flash.geom.Point" stylename="noviceactivity.rightview.awardtitle.pos" x="200" y="132" />
+		
+		<custom classname="flash.geom.Point" stylename="noviceactivity.rightItem.getshine.pos" x="322" y="7" />
+	</customs>
+	
+	<components>
+		<component classname="noviceactivity.NoviceActivityFrame" stylename="novicecitivity.NoviceActivity.mainframe" backStyle="core.bg006"
+			closestyle="core.closebt"  titleStyle="FrameTitleTextStyle" titleOuterRectPosString="15,5,5" containerX="13" containerY="36" escEnable="true"
+			closeInnerRectString="44,9,2,30,14" width="776" height="530" />
+			
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="noviceactiviy.leftview.itemlist" 
+			parentStyle="core.ScrollPanel" x="20" y="48" width="233" height="415" />
+	    	
+	    <component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="noviceactivity.leftitem.bg" x="2"
+			resourceLink="asset.novice.leftview.itembg.unselected,asset.novice.leftview.itembg.selected" />	
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="noviceactivity.leftitem.titleTxt"
+			textFormatStyle="noviceactivity.leftitem.titleTxtUnSelectedTextTF,noviceactivity.leftitem.titleTxtSelectedTextTF"
+			filterString="wantstrong.ActivityCellTitleUnSelectedTextGF,wantstrong.ActivityCellTitleSelectedTextGF"
+			x="12" y="1" />			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="noviceactivity.rightview.titleTxt" 
+			textFormatStyle="noviceactivity.rightview.titleTxtTF" filterString="noviceactivity.rightview.titleTxtGF" autoSize="none" width="443" height="25" x="18" y="18" />	    
+	    <component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="noviceactivity.rightview.detailTxt" 
+			textFormatStyle="noviceactivity.rightview.detailTxtTF" filterString="noviceactivity.rightview.detailTxtGF" autoSize="none" wordWrap="true" width="300" height="42" x="171" y="57" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="noviceactivity.rightview.dateTxt" 
+			textFormatStyle="noviceactivity.rightview.dateTxtTF" filterString="noviceactivity.rightview.dateTxtGF" x="155" y="99" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="noviceactivity.rightview.itemtitleTxt" 
+			textFormatStyle="noviceactivity.rightview.itemtitleTxtTF" filterString="noviceactivity.rightview.itemtitleTxtGF" autoSize="none" width="80" height="22" x="50" y="70" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="noviceactiviy.rightview.itemlist" 
+			parentStyle="core.ScrollPanel" x="28" y="162" width="426" height="294" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="noviceactiviy.rightawarditem.conditionTxt" 
+			textFormatStyle="noviceactiviy.rightawarditem.conditionTxtTF" filterString="noviceactiviy.rightawarditem.conditionTxtGF" autoSize="none" width="85" height="50" x="1" y="8" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="noviceactiviy.rightawarditem.getBtn" 
+			backStyle="asset.novice.rightview.awarditem.getbtn" x="330" y="15"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.novice.leftview.bg" x="-3" y="24"/>
+		<bitmapData resourceLink="asset.novice.frame.titlebitmap" x="0" y="0"/>
+		<bitmapData resourceLink="asset.novice.rightview.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.novice.rightview.awarditem.alreadygetbtn" x="326" y="15"/>		
+	</bitmaps>
+
+</style>

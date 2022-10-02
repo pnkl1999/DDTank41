@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="calendar" version="1.0.0" source="ui/spain/swf/calendar.swf">
+	<sets>
+		<set stylename="CalendarGrid.YearFieldTF" args="Impact,24,0xcba880,true,,,,,right" letterSpacing="6" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.YearFieldGF" args="1,45,0x0,0.6,2,2,1,1,true" type="flash.filters.DropShadowFilter"/>
+		<set stylename="CalendarGrid.NumMonthFieldTF" args="Arial,28,0x804d1b,false,false,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.EnMonthFieldTF" args="Eras Bold ITC,15,0xbf9062" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.TodayFieldTF" args="Arial,14,0x804d1b" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.Cell.DayTF" args="Arial,14,0x666666,true" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.Cell.SundayTF" args="Arial,14,0xe54359,true" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.Cell.SaturdayTF" args="Arial,14,0xff7800,true" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.Cell.NoneDayTF" args="Arial,14,0xb0afa9,true" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.Cell.NoneSaturdayTF" args="Arial,14,0xfdb876,true" type="flash.text.TextFormat"/>
+		<set stylename="CalendarGrid.Cell.NoneSundayTF" args="Arial,14,0xf09ea2,true" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Award.CountLabelTF" args="Arial,12,0xf1dfbb" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Award.CountFieldTF" args="Arial,16,0x73492e,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Award.CountFieldGF" args="0xf8efd6,1,2,2,6" type="flash.filters.GlowFilter"/>
+		<set stylename="Calendar.AwardNameFieldTF" args="Arial,12,0xFFDF9F" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.AwardCountFieldTF1" args="Arial,14,0x7B5524,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.AwardCountFieldTF2" args="Arial,14,0x5F6160,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.CellTitleTF1" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.CellTitleTF2" args="Arial,14,0xffcc00" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.CellTitleGF" args="0x0,1,2,2,6" type="flash.filters.GlowFilter"/>
+		<set stylename="Calendar.Activity.ContentFieldTF" args="Arial,14,0x603c0e" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.ContentFieldGF" args="0xfcf7eb,1,2,2,6" type="flash.filters.GlowFilter"/>
+		<set stylename="Calendar.Activity.TitleTF" args="Arial,16,0xc5ff81" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.TitleGF" args="0x744b1e,2,3,3,6" type="flash.filters.GlowFilter"/>
+		<set stylename="Calendar.Activity.TitleFieldTF" args="Arial,14,0xFFFAEF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.DiscriptionFieldTF" args="Arial,14,0x3C332A" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.TimeFieldTF" args="Arial,14,0xc844228,true" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.AwardFieldTF" args="Arial,14,0xc844228" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.StateContentFieldTF" args="Arial,14,0x0B0000" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.Activity.InputFieldTF" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.GoodsExchangeView.TitleTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.GoodsExchangeView.explainTF" args="Arial,12,0x930101" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.LuckyNumFieldTF" args="Arial,12,0x816556,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="Calendar.LuckyNumBoxTF" args="Arial,12,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+	</sets>
+	<customDisplay>
+		<custom classname="Calendar.LuckyNum.Shine" stylename="LuckyShine" x="18" y="40"/>
+		<custom classname="calendar.view.ActivityMenu" stylename="ActivityMenu"/>
+		<custom classname="calendar.view.CalendarState" stylename="CalendarState" x="296" y="35"/>
+		<custom classname="calendar.view.ActivityState" stylename="ActivityState" x="296" y="35"/>
+		<custom classname="calendar.view.CalendarGrid" stylename="CalendarGrid" x="14" y="10"/>
+		<custom classname="calendar.view.SignAwardBar" stylename="SignAwardBar" x="14" y="293"/>
+		<custom classname="calendar.view.SignedAwardHolder" stylename="SignedAwardHolder" x="7" y="100"/>
+		<custom classname="calendar.view.CalendarFrame" stylename="CalendarFrame"
+			backStyle="core.bg006" closestyle="core.closebt"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+			width="762" height="560" moveEnable="false" escEnable="true" enterEnable="false"/>
+		<custom classname="flash.geom.Point" stylename="CalendarGrid.TopLeft" x="18" y="102" />
+		<custom classname="flash.geom.Point" stylename="Calendar.Award.TopLeft" x="15" y="40" />
+		<custom classname="flash.geom.Point" stylename="Calendar.Award.pic.TopLeft" x="6" y="6" />
+		<custom classname="flash.geom.Point" stylename="Calendar.Award.cell.TopLeft" x="12" y="20" />
+		<custom classname="flash.geom.Point" stylename="Calendar.Activity.LinePos0" x="12" y="105" />
+		<custom classname="flash.geom.Point" stylename="Calendar.Activity.LinePos1" x="12" y="162" />
+		<custom classname="flash.geom.Point" stylename="Calendar.Activity.LinePos2" x="12" y="246" />
+		<custom classname="flash.geom.Point" stylename="Calendar.SignAward.TopLeft" x="20" y="46" />
+		<custom classname="calendar.view.SignAwardCell" stylename="SignAwardCell" tipDirctions="7,5,2,6,4,1" tipGapH="10" tipGapV="15"/>
+		<custom classname="calendar.view.ActivityList" stylename="ActivityList" x="10" y="138"/>
+		<custom classname="calendar.view.LuckyNumBar" stylename="LuckyNumBar" x="24" y="82"/>
+		<custom classname="calendar.view.ActivityDetail" stylename="ActivityDetail"/>
+		<custom classname="calendar.view.ActivityContentHolder" stylename="ActivityContentHolder" x="2"/>
+		<custom classname="calendar.view.ActivityDetailButton" stylename="ActivityDetailButton"  
+			backStyle="Calendar.Activity.DetailButtonBack" 
+			x="182" y="6" />
+		<custom classname="ddt.view.tips.MultipleLineTip" stylename="LuckyNumboxTip"  tipWidth="160"	/>
+	</customDisplay>
+	<components>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="SignedAwardCellCount"
+		 	textFormatStyle="frameNameTF" filterString="P_g4" x="38" y="27" autoSize='right'/>
+		<component classname="calendar.view.SignAwardFrame" closestyle="core.closebt" stylename="SignAwardFrame" parentStyle="BaseFrame"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" 
+			width="306" height="226"
+			moveInnerRectString="0,30,0,30,1" moveEnable="false" escEnable="true" enterEnable="false"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="Calendar.ActivityList" 
+			parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="250" height="332" x="16" y="56" vUnitIncrement="10"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="Calendar.ActivityDetailList" 
+			parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="1" width="414" height="368" x="22" y="56" vUnitIncrement="10"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="Calendar.Activity.ContentList" 
+			parentStyle="core.ScrollPanel" hScrollProxy="2" vScrollProxy="0" width="200" height="194" x="12" y="60" vUnitIncrement="10"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.StateBack" 
+			parentStyle="core.scale9CornerImage18" 
+			x="296" y="35" width="458" height="516" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.ActivityBack" 
+			parentStyle="core.scale9CornerImage18" 
+			x="8" y="57" width="290" height="494" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.LuckyNumBack" 
+			parentStyle="core.scale9CornerImage19"
+			width="258" height="100" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.ActivityListBack" 
+			parentStyle="core.scale9CornerImage19"
+			x="14" y="48" width="258" height="350" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.SignedAwardBack" 
+			parentStyle="core.scale9CornerImage19"
+			width="430" height="206" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.AwardHolderBack" 
+			parentStyle="core.scale9CornerImage22" width="418" height="94" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.GridBack" 
+			parentStyle="core.scale9CornerImage20" 
+			width="430" height="270" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.LuckNumBackInner" 
+			parentStyle="core.scale9CornerImage20" 
+			x="7" y="6" width="244" height="88" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.Activity.ContentBack" 
+			parentStyle="core.scale9CornerImage21" 
+			width="221" height="264" />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" 
+			stylename="Calendar.SignAward.Back" 
+			parentStyle="copyFile.img20" 
+			x="13" y="38" width="280" height="134" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="Calendar.Activity.StateBack"
+		 	resourceLink="Calendar.Activity.Back"  width="424" height="486" x="17" y="13" scaleGridString="112,60,141,226"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.YearField"
+			textFormatStyle="CalendarGrid.YearFieldTF"  filterString="CalendarGrid.YearFieldGF"
+			autoSize="none" x="76" y="8" width="100" height="40" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.NumMonthField"
+			textFormatStyle="CalendarGrid.NumMonthFieldTF" 
+			autoSize="none" x="4" y="5" width="50" height="42" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.EnMonthField"
+			textFormatStyle="CalendarGrid.EnMonthFieldTF" 
+			autoSize="none" x="50" y="18" width="100" height="24" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.TodayField"
+			textFormatStyle="CalendarGrid.TodayFieldTF" 
+			autoSize="none" x="11" y="54" width="180" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.SignCountLabel"
+			textFormatStyle="Calendar.Award.CountLabelTF" 
+			autoSize="none" x="286" y="9" width="140" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.SignCountField"
+			textFormatStyle="Calendar.Award.CountFieldTF" filterString="Calendar.Award.CountFieldGF"
+			autoSize="none" x="381" y="11" width="34" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.AwardNameField"
+			textFormatStyle="Calendar.AwardNameFieldTF"
+			autoSize="none" x="56" y="8" width="64" height="40" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.AwardCountField"
+			textFormatStyle="Calendar.AwardCountFieldTF1,Calendar.AwardCountFieldTF2"
+			autoSize="none" x="56" y="36" width="34" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.CellTitle"
+			textFormatStyle="Calendar.Activity.CellTitleTF1,Calendar.Activity.CellTitleTF2" filterString="Calendar.Activity.CellTitleGF"
+			x="6" y="12" height="20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.DayField"
+			textFormatStyle="CalendarGrid.Cell.DayTF,CalendarGrid.Cell.SaturdayTF,CalendarGrid.Cell.SundayTF,CalendarGrid.Cell.NoneDayTF,CalendarGrid.Cell.NoneSaturdayTF,CalendarGrid.Cell.NoneSundayTF"
+			autoSize="left"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="Calendar.Activity.CellBack"
+			resourceLink="Calendar.Activity.CellBack1,Calendar.Activity.CellBack2" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.ContentField"
+			textFormatStyle="Calendar.Activity.ContentFieldTF" filterString="Calendar.Activity.ContentFieldGF"
+			autoSize="left" width="172" height="20" mouseEnabled="false" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.Title"
+			textFormatStyle="Calendar.Activity.TitleTF" filterString="Calendar.Activity.TitleGF"
+			autoSize="none" x="37" y="17" width="168" height="20" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="Calendar.Activity.TitleIcon"
+			resourceLink="Calendar.Activity.iconHot,Calendar.Activity.iconNew" y="3" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.TitleField"
+			textFormatStyle="Calendar.Activity.TitleFieldTF"
+			autoSize="none" x="55" y="24" width="336" height="40" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.DiscriptionField"
+			textFormatStyle="Calendar.Activity.DiscriptionFieldTF"
+			autoSize="none" x="55" width="336" height="40" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.TimeField"
+			textFormatStyle="Calendar.Activity.TimeFieldTF"
+			autoSize="none" x="158" y="117" width="236" height="40" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.MarkField"
+			parentStyle="Calendar.Activity.TimeField" autoSize="left" y="160"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.AwardField"
+			textFormatStyle="Calendar.Activity.AwardFieldTF"
+			autoSize="none" x="55" y="194" width="336" height="40" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.StateContentField"
+			textFormatStyle="Calendar.Activity.StateContentFieldTF"
+			autoSize="none" x="55" y="288" width="336" height="40" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="Calendar.Activity.InputField"
+			 textInnerRectString="8,8,5,2,0" textStyle="Calendar.Activity.TextInputField" backStyle="Calendar.Activity.InputBack"
+			x="115" y="348"  width="257" height="30" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.Activity.TextInputField"
+			textFormatStyle="Calendar.Activity.InputFieldTF" restrict="A-Z a-z 0-9" maxChart="50"
+			autoSize="none" width="257" height="30" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" 
+			stylename="Calendar.Activity.ButtonBack" 
+			parentStyle="core.bg002" 
+			x="22" y="434" width="414" height="60" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" 
+			stylename="Calendar.Activity.GetButton" 
+			backStyle="asset.core.GetButton" 
+			x="139" y="438" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" 
+			stylename="Calendar.Activity.BackButton" 
+			backStyle="Calendar.Activity.BackBack"
+
+			x="365" y="462" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" 
+			stylename="Calendar.Activity.piccBtn" 
+			backStyle="Calendar.Activity.picc"
+
+			x="139" y="438" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" 
+			stylename="Calendar.Grid.GetButton" 
+			backStyle="Calendar.Grid.GetBack" 
+			x="315" y="3" />	
+		<component classname="com.pickgliss.ui.controls.BaseButton" 
+			stylename="Calendar.Activity.DetailButton" />	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="Calendar.Activity.DetailButtonBack"
+			resourceLink="Calendar.Activity.DetailBack,Calendar.Activity.ReturnBack" />		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="Calendar.DayBack"
+			resourceLink="Calendar.Grid.CellBack,Calendar.Grid.OverFlow" />	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="Calendar.NavigBack"
+			resourceLink="Calendar.SignedAward.NewAward,Calendar.SignedAward.Current,Calendar.SignedAward.Received" />
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="Calendar.Activity.ContentArea" 
+			parentStyle="core.SimpleTextArea" textStyle="Calendar.Activity.ContentField" vScrollProxy='1'
+			width="200" height="220" x="12" y="30" vUnitIncrement="10" />
+		<component classname="calendar.view.DailyAwardFrame"  stylename="DailyAwardFrame" 
+			parentStyle="BaseFrame" containerX="43" containerY="40" width="270" height="180"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"  stylename="Calendar.DailyFrameGoodsBg"
+		 parentStyle="bossbox.scale9GoodsImage" x="-1" y="6" width="183" height="78"/>
+		 
+		 <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.GoodsExchangeView.TitleFFT"
+			textFormatStyle="Calendar.GoodsExchangeView.TitleTF" 
+			autoSize="none" x="21" y="3" width="300" height="42" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="CalendarGrid.GoodsExchangeView.explainFFT"
+			textFormatStyle="Calendar.GoodsExchangeView.explainTF" 
+			autoSize="none" x="24" y="104" width="300" height="48" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" 
+			stylename="Calendar.GoodsExchangeView.openBagButton" 
+			backStyle="Calendar.Activity.openBag"
+			x="107" y="67" />
+		<custom classname="calendar.view.goodsExchange.BagCalendarFrame" stylename="CalendarGrid.GoodsExchangeView.GoodsBagFrame" 
+		backStyle="core.bg006" parentStyle="BaseFrame" 
+		titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" 
+		closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" 
+		containerX="-427" containerY="36" width="412" height="490" x="4" y="57"/>
+				
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" 
+				stylename="Calendar.GoodsExchangeView.CellList" x='28' y='28' hSpace='25' vSpace='25'/>
+		<component classname="com.pickgliss.ui.controls.container.VBox"
+			stylename="calendar.view.ActivityState.vbox" x="0" y="0" spacing="-7"/>
+		<custom classname="flash.geom.Point" stylename="CalendarGrid.GoodsExchangeView.Pos" x="25" y="25" />
+		<custom classname="flash.geom.Point" stylename="CalendarGrid.GoodsExchangeView.cellSize" x="63" y="63" />
+		<custom classname="flash.geom.Point" stylename="CalendarGrid.GoodsExchangeView.GoodsExchangeViewPos" x="35" y="443" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.LuckyNumField"
+			textFormatStyle="Calendar.LuckyNumFieldTF" restrict="0-9" maxChart="1"
+			autoSize="none" x="18" y="64" width="70" height="20" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.MyNumField"
+			parentStyle="Calendar.LuckyNumField" x="88" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="Calendar.LuckyNumbar.NumField"
+			parentStyle="Calendar.LuckyNumField" textFormatStyle="Calendar.LuckyNumBoxTF" filterString="P_g1"
+			x="0" width="50" />			
+		
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="Calendar.LuckyNumbar.ComboxList"
+			parentStyle="core.ComboxListpanel1"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|Calendar.LuckyNumbar.ComboxListCell,24,120" />
+			
+		<component classname="com.pickgliss.ui.controls.cell.TextButtonListCellAdapter" stylename="Calendar.LuckyNumbar.ComboxListCell" 
+			parentStyle="core.comboxListCell"
+			textStyle="Calendar.LuckyNumbar.NumField" />
+		
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="LuckyNumbox" 
+			listPanelStyle="Calendar.LuckyNumbar.ComboxList" buttonStyle="core.comboxButton2" 
+			x="154" y="61" width="88" height="24" 
+			textStyle="Calendar.LuckyNumbar.NumField" listInnerRectString="5,33,10,205,18" textInnerRectString="5,25,3,0,0"
+			tipStyle="LuckyNumboxTip" tipDirctions="7,0,1,2" tipGapH="10" />
+		
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="Calendar.Grid.Signed" x="-3" y="-3"/>
+		<bitmapData resourceLink="Calendar.SignedAward.Title" x="8" y="-4"/>
+		<bitmapData resourceLink="Calendar.SignedAward.NewAward" x="8" y="2" />
+		<bitmapData resourceLink="Calendar.SignedAward.Received" x="6" y="-8" />
+		<bitmapData resourceLink="Calendar.SignedAward.CellBack" x="5" y="5" />
+		<bitmapData resourceLink="Calendar.Activity.CellBack2" x="4" y="2" />
+		<bitmapData resourceLink="Calendar.Activity.ContentLine" x="12" y="19" />
+		<bitmapData resourceLink="Calendar.Activity.iconContent" x="20" y="257" />
+		<bitmapData resourceLink="Calendar.Activity.iconGive" x="21" y="171" />
+		<bitmapData resourceLink="Calendar.Activity.iconTime" x="24" y="114" />
+		<bitmapData resourceLink="Calendar.Activity.pwd" x="41" y="353" />
+		<bitmapData resourceLink="Calendar.Activity.iconNew" y="12" />
+		<bitmapData resourceLink="Calendar.Activity.iconHot" y="4" />
+		<bitmapData resourceLink="Calendar.DailyGoodInfo" x="16" y="20"/>
+		<bitmapData resourceLink="Calendar.SignedAward.BigCellBack" x="1" y="1"/>
+		<bitmapData resourceLink="Calendar.Activity.CellBg" x="-1" y="-1"/>
+		<bitmapData resourceLink="Calendar.List.Title" x="10" y="38"/>
+		<bitmapData resourceLink="Calendar.LuckyNum.Title" x="9" y="7"/>
+		<bitmapData resourceLink="Calendar.LuckyNum.Grid" x="17" y="38"/>
+	</bitmaps>
+</style>

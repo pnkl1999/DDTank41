@@ -1,0 +1,19 @@
+{
+    "name": "gun321/launcher",
+    "description": "Launcher API for gun321launcher",
+    "type": "project",
+    "require": {
+        "illuminate/database": "^8.56",
+        "nesbot/carbon": "^2.52",
+        "illuminate/events": "^8.56",
+        "illuminate/validation": "^8.56",
+        "ramsey/uuid": "^4.2"
+    },
+    "license": "vinhkosd",
+    "authors": [
+        {
+            "name": "vinhkosd",
+            "email": "vinh8c059@gmail.com"
+        }
+    ]
+}

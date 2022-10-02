@@ -1,0 +1,12 @@
+<Result value="true" message="Success!">
+  <Item Level="1" Count="100" Deduct="150" NeedGold="50000" NeedItem="0" Reward="0" ShopRiches="5000" SmithRiches="1000" StoreRiches="500" Riches="0" BufferRiches="10000" BossCount="0" />
+  <Item Level="2" Count="110" Deduct="300" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="50000" SmithRiches="5000" StoreRiches="2500" Riches="630" BufferRiches="30000" BossCount="0" />
+  <Item Level="3" Count="120" Deduct="700" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="150000" SmithRiches="17000" StoreRiches="8500" Riches="1500" BufferRiches="70000" BossCount="1" />
+  <Item Level="4" Count="130" Deduct="1200" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="250000" SmithRiches="37000" StoreRiches="18500" Riches="6300" BufferRiches="150000" BossCount="1" />
+  <Item Level="5" Count="140" Deduct="1500" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="700000" SmithRiches="65000" StoreRiches="32500" Riches="18600" BufferRiches="200000" BossCount="1" />
+  <Item Level="6" Count="150" Deduct="1800" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="0" SmithRiches="101000" StoreRiches="50500" Riches="50400" BufferRiches="400000" BossCount="10" />
+  <Item Level="7" Count="160" Deduct="2100" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="0" SmithRiches="145000" StoreRiches="72500" Riches="80700" BufferRiches="600000" BossCount="10" />
+  <Item Level="8" Count="170" Deduct="2400" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="0" SmithRiches="197000" StoreRiches="98500" Riches="126000" BufferRiches="800000" BossCount="10" />
+  <Item Level="9" Count="180" Deduct="2700" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="0" SmithRiches="514000" StoreRiches="128500" Riches="384000" BufferRiches="1000000" BossCount="10" />
+  <Item Level="10" Count="200" Deduct="3000" NeedGold="100000" NeedItem="0" Reward="0" ShopRiches="0" SmithRiches="650000" StoreRiches="162500" Riches="588000" BufferRiches="1500000" BossCount="10" />
+</Result>

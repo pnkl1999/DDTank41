@@ -1,0 +1,356 @@
+<style name="gameOver" version="1.0.1" source="ui/spain/swf/gameOver.swf">
+<sets>
+
+<set stylename="experience.LeftViewNameTF" args="Arial,15,0xF7F1B3,bold" type="flash.text.TextFormat"/>
+<set stylename="experience.LeftViewScoreTF" args="Arial,15,0xFFFFFF,bold,,,,,center" type="flash.text.TextFormat"/>
+
+<set stylename="experience.expCountTF" args="Arial,26,0xFFFFFF,bold,italic,,,,center" type="flash.text.TextFormat"/>
+<set stylename="experience.normalTotalTF" args="Arial,34,0xFFFFFF,bold,italic" type="flash.text.TextFormat"/>
+<set stylename="experience.typeTxtTF" args="FZHei-B01S,23,0xFFFFFF,bold,italic" type="flash.text.TextFormat"/>
+<set stylename="experience.totalExpTxtTF" args="FZHei-B01S,25,0xFFFFFF,bold,italic,,,,center" type="flash.text.TextFormat"/>
+
+<set stylename="experience.expTxtFilter_1" args="0x8A0000,1,2,2,1.5," type="flash.filters.GlowFilter"/>
+<set stylename="experience.expTxtFilter_2" args="0xFF0000,1,4,4,1.8,3" type="flash.filters.GlowFilter"/>
+
+<set stylename="experience.exploitTxtFilter_1" args="0x003300,1,2,2,1.5" type="flash.filters.GlowFilter"/>
+<set stylename="experience.exploitTxtFilter_2" args="0x00FF00,1,4,4,1.8,3" type="flash.filters.GlowFilter"/>
+
+<set stylename="experience.totalExpTxtFilter_1" args="0xFF0000,1,3,3,3,3" type="flash.filters.GlowFilter"/>
+<set stylename="experience.totalExpTxtFilter_2" args="0x790000,1,15,15,1.8" type="flash.filters.GlowFilter"/>
+
+<set stylename="experience.totalExploitTxtFilter_1" args="0x00FF00,1,3,3,3,3" type="flash.filters.GlowFilter"/>
+<set stylename="experience.totalExploitTxtFilter_2" args="0x005700,1,15,15,1.8" type="flash.filters.GlowFilter"/>
+
+<set stylename="experience.expTypeTxtFilter" args="0xFF0000,1,2,2,3" type="flash.filters.GlowFilter"/>
+<set stylename="experience.exploitTypeTxtFilter" args="0x009900,1,2,2,3" type="flash.filters.GlowFilter"/>
+
+<set stylename="takeoutCard.LuckyCardOverFilter" args="0xFFFF00,1,8,8,2.5,3" type="flash.filters.GlowFilter"/>
+
+<set stylename="gameOver.TFormat_12" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_13" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_14" args="Arial,12,0xFFFFFF,,,,,,left" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_15" args="Arial,14,0x000000,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_16" args="Arial,24,0x774513,,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_17" args="Arial,14,0x5B3E00,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_18" args="Arial,16,0x6D3806,true,,,,,center" type="flash.text.TextFormat"/>
+<set stylename="gameOver.TFormat_19" args="Arial,12,0xFF0000,,,,,,left" type="flash.text.TextFormat"/>
+
+<set stylename="takeoutCard.GoldTextFormat" args="Arial,19,0x9C3F09,bold,,,,,center" type="flash.text.TextFormat"/>
+<set args="0xFFFFFF,1,4,4,500" stylename="gameOver.GoldTextFilter" type="flash.filters.GlowFilter"/>
+
+<set stylename="takeoutCard.CardItemNameTxtTF" args="Arial,12,0x000000,blod,,,,,center" type="flash.text.TextFormat"/>
+<set args="0xFFFFFF,1,4,4,500" stylename="gameOver.CardItemNameFilter" type="flash.filters.GlowFilter"/>
+
+<set stylename="vipAdditionFT" args="Arial,15,0x000000,true" type="flash.text.TextFormat"/>
+<set stylename="vipAdditionFT2" args="Arial,15,0x000000,true" type="flash.text.TextFormat"/>
+
+<set args="0x000000,1,4,4,10" stylename="filter.gameover.goodsCountFilter" type="flash.filters.GlowFilter"/>
+<set args="0xFFFFFF,1,3,3,100" stylename="filter.gameover.WhiteFilter" type="flash.filters.GlowFilter"/>
+<set args="0xFFFFCC,1,3,3,100" stylename="filter.gameover.Filter_1" type="flash.filters.GlowFilter"/>
+<set args="0xFEF3D5,1,3,3,100" stylename="filter.gameover.Filter_2" type="flash.filters.GlowFilter"/>
+<set args="1,0,0,0,25,0,1,0,0,25,0,0,1,0,25,0,0,0,1,0" stylename="gameOver.lightFilter" type="flash.filters.ColorMatrixFilter"/>
+</sets>
+
+<components>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.titleAsset" resourceLink="asset.gameOver.titleAsset" x="429" y="21"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.titleAssetII" resourceLink="asset.gameOver.titleAsset" x="38" y="-3"/>
+
+
+	<!--挑战经验信息-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.nameTxt" textFormatStyle="gameOver.TFormat_12" y="7" autoSize="none" width="107" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.damageOrKillTxt" textFormatStyle="gameOver.TFormat_13" x="8"  y="72" autoSize="none" width="88" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.hitRateTxt" parentStyle="gameOver.damageOrKillTxt" y="106"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.offerTxt" parentStyle="gameOver.damageOrKillTxt"  y="139"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.expTxt" textFormatStyle="gameOver.TFormat_14" filterString="filter.gameover.goodsCountFilter" parentStyle="gameOver.damageOrKillTxt"  y="170"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.vipExpTxt" textFormatStyle="gameOver.TFormat_19" filterString="filter.gameover.goodsCountFilter" parentStyle="gameOver.damageOrKillTxt"  y="170"/>
+
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceEXPBG" resourceLink="asset.gameOver.ExperienceEXPBG" x="6" y="168"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceEXPValueBG" resourceLink="asset.gameOver.ExperienceEXPValueBG" x="7" y="170"/>
+	
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="store.ExperienceLevelUP" resourceLink="asset.gameOver.ExperienceLevelUP" x="1" y="174"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="store.StrengthGest200MC" x="54" y="155" resourceLink="asset.gameOver.ExperienceEXP200,asset.gameOver.ExperienceGlit"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.offerHalfMC" x="58" y="126" resourceLink="asset.gameOver.ExperienceOFFERHalf,asset.gameOver.ExperienceGlit"/>
+	
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceServer2" resourceLink="asset.gameOver.ExperienceServer2" x="427"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceServer3" resourceLink="asset.gameOver.ExperienceServer3" x="427"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.ExperienceServer2M" resourceLink="asset.gameOver.ExperienceServer2,gameOver.ExperienceServer2"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.ExperienceServer3M" resourceLink="asset.gameOver.ExperienceServer3,gameOver.ExperienceServer3"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gameOver.ExperienceServer" resourceLink="gameOver.ExperienceServer2M,gameOver.ExperienceServer3M" x="250" y="17"/>
+
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceTeam2" resourceLink="asset.gameOver.ExperienceTeam2" x="427"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceTeam5" resourceLink="asset.gameOver.ExperienceTeam5" x="427"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceTeam8" resourceLink="asset.gameOver.ExperienceTeam8" x="427"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.ExperienceTeam2M" resourceLink="asset.gameOver.ExperienceTeam2,gameOver.ExperienceTeam2"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.ExperienceTeam5M" resourceLink="asset.gameOver.ExperienceTeam5,gameOver.ExperienceTeam5"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.ExperienceTeam8M" resourceLink="asset.gameOver.ExperienceTeam8,gameOver.ExperienceTeam8"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gameOver.ExperienceTeam" resourceLink="gameOver.ExperienceTeam2M,gameOver.ExperienceTeam5M,gameOver.ExperienceTeam8M" x="376" y="17"/>
+
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceWincite1" resourceLink="asset.gameOver.ExperienceWincite" x="61" y="-25"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.ExperienceWincite2" resourceLink="asset.gameOver.ExperienceWincite" x="494" y="-25"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gameOver.ExperienceWincite" resourceLink="gameOver.ExperienceWincite1,gameOver.ExperienceWincite2"/>
+	
+
+	<!--翻牌-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.CardNikeName" textFormatStyle="gameOver.TFormat_15" filterString="filter.gameover.WhiteFilter" x="-6" y="155" autoSize="none" width="130" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.CardGoldTxt" textFormatStyle="gameOver.TFormat_16" filterString="filter.gameover.Filter_1" x="-15" y="36" autoSize="none" width="85" height="30"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.CardGoodsNameTxt" textFormatStyle="gameOver.TFormat_17" filterString="filter.gameover.WhiteFilter" x="-28" y="-60" autoSize="none" width="101" height="41"/>
+
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="gameOver.cardMc" resourceLink="asset.gameOver.cardMcAsset"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.CardGoldM" resourceLink="asset.gameOver.cardGoldTitle,asset.gameOver.cardGold"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="gameOver.CardGoldBG" resourceLink="gameOver.CardGoldM,asset.gameOver.cardMoney,asset.gameOver.cardGift"/>
+
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="gameOver.CardHBox" x="35" y="84" spacing="5"/>
+	
+	<!--拾取-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="gameOver.bagScaleBGAsset" parentStyle="bagScaleBGAssetCore" width="270" height="390" y="60"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.TrophyViewBG" resourceLink="asset.gameOver.TrophyTitle,gameOver.bagScaleBGAsset,asset.gameOver.TrophyViewBg"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="gameOver.selectAllBtn" backStyle="asset.gameOver.TrophyAllGive" filterString="null,lightFilter,lightFilter,grayFilter" x="160" y="157"/>
+
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="gameOver.LostAllBtn" backStyle="asset.gameOver.TrophyAllLose" filterString="null,lightFilter,lightFilter,grayFilter" x="80"  y="410"/>
+
+	<!--关卡信息结算-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpNameTxt" textFormatStyle="gameOver.TFormat_12" y="0" autoSize="none" width="154" height="20"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpAllhertTxt" parentStyle="gameOver.DungeonExpNameTxt" y="60" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpAlltreatment_txt" parentStyle="gameOver.DungeonExpNameTxt" y="91" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpMadeTxt" parentStyle="gameOver.DungeonExpNameTxt" y="119" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpGradedTxt" parentStyle="gameOver.DungeonExpNameTxt" y="181" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonExpTxt" parentStyle="gameOver.expTxt" x="32" y="151" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeontollgatenameTxt" textFormatStyle="gameOver.TFormat_18" filterString="filter.gameover.Filter_2" x="195" y="13" autoSize="none" width="324" height="20"/>
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameOver.DungeonVipExpTxt" textFormatStyle="gameOver.TFormat_19" filterString="filter.gameover.goodsCountFilter" parentStyle="gameOver.damageOrKillTxt"  y="151"/>
+	
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.DungeonEXPBG" resourceLink="asset.gameOver.ExperienceEXPBG" x="27" y="148"/>
+	<component classname="com.pickgliss.ui.image.Image" stylename="gameOver.DungeonEXPValueBG" resourceLink="asset.gameOver.ExperienceEXPValueBG" x="28" y="150"/>
+	
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="gameOver.DungeonLevelUP" resourceLink="asset.gameOver.ExperienceLevelUP" x="31" y="148"/>
+	<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gameOver.DungeonBG" resourceLink="asset.gameOver.DungeonEXPTitleBG,asset.gameOver.DungeonEXPBG"/>
+
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="gameOver.DungeonHBox" x="80" y="72" spacing="0"/>
+	
+	<!-- vip 经验加成 -->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipAdditionFFT" textFormatStyle="vipAdditionFT" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="vipAdditionFFT2" textFormatStyle="vipAdditionFT2" />
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="vipAddition" textFieldStyle="vipAdditionFFT" colors="0xf3ff32,0xff9600" filterString="vipNameGF" alphas="1,1" ratios="30,255"/>
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="vipAddition2" textFieldStyle="vipAdditionFFT2" colors="0xf3ff32,0xff9600" filterString="vipNameGF" alphas="1,1" ratios="30,255"/>
+	
+</components>
+
+<customDisplay>
+	<custom classname="ddt.view.common.LevelIcon" stylename="gameOver.expLevelIcon" x="39" y="34"/>
+	<custom classname="bagAndInfo.bag.BagView" stylename="asset.gameOver.bag" x="285" y="0"/>
+	
+	<!--胜利失败动画-->
+	<custom classname="flash.geom.Point" stylename="gameOver.WinFail0" x="287" y="595"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.WinFail1" x="723" y="595"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.goForPowerPosition" x="98" y="-119"/>
+	
+	<!--挑战经验信息-->
+	<custom classname="gameover.expView.ExperienceView" stylename="gameOver.ExperienceView" x="40" y="70"/>
+	<custom classname="com.pickgliss.ui.controls.container.HBox" stylename="gameOver.experienceIcon" x="6" y="199"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience11" x="83" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience12" x="187" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience13" x="293" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience14" x="398" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience21" x="508" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience22" x="612" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience23" x="718" y="52"/>
+	<custom classname="flash.geom.Point" stylename="gameOver.ecperience24" x="823" y="52"/>
+	
+	<custom classname="flash.geom.Point" stylename="CardDiamondView.cardMcPos" x="59" y="91"/>
+	
+	<!--stripTip-->
+	<custom classname="ddt.command.StripTip" stylename="gameOver.StripIocn" tipStyle="ddt.view.tips.OneLineTip" tipGapV="20" tipDirctions="3" width="33" height="20"/>
+	<custom classname="ddt.view.common.VipLevelIcon" stylename="asset.gameOver.VipIcon" y="2"/>
+	
+	<!--翻牌-->
+	<custom classname="flash.display.Sprite" stylename="gameOver.CardGoldSp" x="29" y="16"/>
+	<custom classname="flash.display.Sprite" stylename="gameOver.CardGoodsSp" x="33" y="86"/>
+	<custom classname="game.view.CountDownView" stylename="gameOver.CountDownViewI" x="452" y="271"/>
+	<custom classname="gameover.cardView.LittleCardView" stylename="gameOver.LittleCardView" x="0" y="0"/>
+	
+	<!--拾取-->
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="gameOver.trophySimpleTileList" x="20" y="100"/>
+	<custom classname="gameover.torphy.TrophyView" stylename="gameOver.TrophyView" x="0" y="0"/>
+	<custom classname="gameover.torphy.TrophyPannelView" backStyle="core.bg006" stylename="gameOver.TrophyPannelView" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="13" containerY="33" width="710" height="500" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+
+	<!--关卡信息结算-->
+	<custom classname="gameover.expView.DungeonExpView" stylename="gameOver.DungeonExpView" x="140" y="70"/>
+	<custom classname="ddt.view.common.LevelIcon" stylename="gameOver.DungeonExpLevelIcon" x="60" y="25"/>
+	
+	<!--大翻牌-->
+	<custom classname="gameover.cardView.LotsCardView" stylename="gameOver.LotsCardView" x="45" y="15"/>
+	<custom classname="game.view.CountDownView" stylename="gameOver.CountDownViewII" x="165" y="-13"/>
+	<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="gameOver.lotsCardContainer" x="38" y="49" vSpace="-12" hSpace="12"/>
+	
+	
+</customDisplay>
+
+<components name="3.0 新增">
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.LeftViewNameTxt" textFormatStyle="experience.LeftViewNameTF" width="107" height="20" x="36" y="9"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.LeftViewScoreTxt" textFormatStyle="experience.LeftViewScoreTF" autoSize="none" width="158" height="20" x="148" y="7"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expCountTxt" textFormatStyle="experience.expCountTF" autoSize="none" width="150" height="35" x="246" y="68"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expCountTxt1" parentStyle="experience.expCountTxt" y="77"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expCountTxt2" parentStyle="experience.expCountTxt" y="63"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.expTypeTxt" textFormatStyle="experience.typeTxtTF" filterString="experience.expTypeTxtFilter" autoSize="none"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.exploitTypeTxt" textFormatStyle="experience.typeTxtTF" filterString="experience.exploitTypeTxtFilter" autoSize="none"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="experience.normalTotalText" textFormatStyle="experience.normalTotalTF"  autoSize="none" width="150"/>
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="experience.totalExpCountTxt" textFieldStyle="experience.normalTotalText" colors="0xFFFFFF,0xF7FF21" alphas="1,1" ratios="0,125" x="303" y="9" />
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="experience.totalExploitCountTxt" textFieldStyle="experience.normalTotalText" colors="0xFFFFFF,0xF7FF21" alphas="1,1" ratios="0,125" x="303" y="43" />
+
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="takeoutCard.PlayerItemNameTxt" textFormatStyle="gameOver.TFormat_15" filterString="filter.gameover.WhiteFilter"  autoSize="none" width="90" height="20" x="9" y="127" isAutoFitLength="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="takeoutCard.CardItemNameTxt" textFormatStyle="takeoutCard.CardItemNameTxtTF"  filterString="gameOver.CardItemNameFilter" width="90" height="20" x="9" y="30" multiline="true" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="takeoutCard.GoldTxt" textFormatStyle="takeoutCard.GoldTextFormat" filterString="gameOver.GoldTextFilter"  autoSize="none" width="90" height="24" x="9" y="50" isAutoFitLength="true"/>
+</components>
+
+<customDisplay name="3.0 新增">
+
+	<custom classname="flash.geom.Point" stylename="experience.LeftViewCharacterLightPos" x="256" y="271"/>
+	<custom classname="flash.geom.Point" stylename="experience.LeftViewCharacterWinPos" x="392" y="-28"/>
+	<custom classname="flash.geom.Point" stylename="experience.LeftViewCharacterLosePos" x="389" y="-28"/>
+
+	<custom classname="flash.geom.Point" stylename="experience.FriendItemHeadPos" x="5" y="2"/>
+	<custom classname="flash.geom.Point" stylename="experience.FriendItemTxtPos_3" x="307" y="7"/>
+	
+	<custom classname="flash.geom.Point" stylename="experience.FriendItemPos_1" x="20" y="488"/>
+	<custom classname="flash.geom.Point" stylename="experience.FriendItemPos_2" x="20" y="518"/>
+	<custom classname="flash.geom.Point" stylename="experience.FriendItemPos_3" x="20" y="548"/>
+	
+	<custom classname="flash.geom.Point" stylename="experience.ItemBgPos" x="-35" y="0"/>
+	<custom classname="flash.geom.Point" stylename="experience.ResultSealLuckyLeft" x="-360" y="0"/>
+	<custom classname="flash.geom.Point" stylename="experience.ResultSealPos" x="262" y="-17"/>
+	<custom classname="flash.geom.Point" stylename="experience.RightViewPos" x="553" y="15"/>
+	<custom classname="flash.geom.Point" stylename="experience.FightingExpItemPos" x="0" y="67"/>
+	<custom classname="flash.geom.Point" stylename="experience.AttatchExpItemPos" x="0" y="176"/>
+	<custom classname="flash.geom.Point" stylename="experience.ExploitExpItemPos" x="0" y="350"/>
+	
+	<custom classname="flash.geom.Point" stylename="experience.RightViewResultTxtPos" x="500" y="42"/>
+	<custom classname="flash.geom.Point" stylename="experience.TotalItemNumTxtPos" x="300" y="10"/>
+	<custom classname="flash.geom.Point" stylename="experience.RightViewTotalPos" x="0" y="488"/>
+	
+	<custom classname="flash.geom.Point" stylename="experience.TextEaseFromPos" x="500" y="42"/>
+	<custom classname="flash.geom.Point" stylename="experience.txtStartPos" x="41" y="13"/>
+	<custom classname="flash.geom.Point" stylename="experience.txtOffset" x="103" y="30"/>
+	
+	<custom classname="flash.geom.Point" stylename="experience.TotalTextLightPos" x="-24" y="11"/>
+	
+	<custom classname="flash.geom.Point" stylename="takeoutCard.SmallCardViewPos" x="500" y="50"/>
+	<custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardViewPos" x="50" y="75"/>
+	<custom classname="flash.geom.Point" stylename="takeoutCard.SmallCardViewCountDownPos" x="126" y="-39"/>
+	<custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardViewCountDownPos" x="-8" y="-77"/>
+	<custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardViewTitlePos" x="110" y="-58"/>
+	<custom classname="flash.geom.Point" stylename="takeoutCard.LargeCardView.CardGetNotePos" x="354" y="-60"/>
+	
+</customDisplay>
+
+	
+<bitmaps>
+	<bitmapData resourceLink="asset.gameOver.PVPExpViewBgAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.gameAsset.ExpItemBgAsset" x="0" y="0" />
+	<bitmapData resourceLink="asset.game.expTxtBgAsset" x="54" y="179" />
+	
+	<!--挑战经验信息条目-->
+	<bitmapData resourceLink="asset.gameOver.ExperienceOFFER200" x="58" y="127" />
+	<bitmapData resourceLink="asset.gameOver.ExperienceIconMarry" y="3" />
+	
+	<!--翻牌-->
+	<bitmapData resourceLink="asset.gameOver.cardGold" x="7" y="87" />
+	<bitmapData resourceLink="asset.gameOver.cardMoney" x="9" y="78" />
+	<bitmapData resourceLink="asset.gameOver.cardGift" x="9" y="78" />
+	
+	<!--拾取-->
+	<bitmapData resourceLink="asset.gameOver.TrophyTitle" x="2" y="5" />
+	<bitmapData resourceLink="asset.gameOver.TrophyViewBg" x="7" y="75" />
+	
+	<!--关卡信息结算-->
+	<bitmapData resourceLink="asset.gameOver.ExperienceExp2" x="109" y="136" />
+	<bitmapData resourceLink="asset.gameOver.DungeonEXPTitleBG" x="153" />
+	<bitmapData resourceLink="asset.gameOver.DungeonEXPBG" y="54" />
+	
+	<!--大翻牌-->
+	<bitmapData resourceLink="asset.game.PVEpeopleTip" x="303" y="-10" />
+	
+	
+	<!-- 新版经验结算_3.0 -->
+	<bitmapData resourceLink="asset.experience.friendViewTitleBg" x="13" y="424" />
+	<bitmapData resourceLink="asset.experience.friendViewTitle" x="205" y="430" />
+	<bitmapData resourceLink="asset.experience.characterLightBg" x="24" y="34" />
+	<bitmapData resourceLink="asset.experience.friendViewBodyBg" x="13" y="460" />
+	<bitmapData resourceLink="asset.experience.tabName" x="68" y="470" />
+	<bitmapData resourceLink="asset.experience.tabExp" x="219" y="470" />
+	<bitmapData resourceLink="asset.experience.tabExploit" x="377" y="470" />
+	<bitmapData resourceLink="asset.experience.rightViewTitleBg2" x="70" y="7" />
+	<bitmapData resourceLink="asset.experience.rightViewTitleMyResult" x="150" y="17" />
+	<bitmapData resourceLink="asset.experience.rightViewResultTxt" x="50" y="43" />
+	<bitmapData resourceLink="asset.experience.rightViewTotalTxt" x="0" y="27" />
+	<bitmapData resourceLink="asset.experience.fightExpItemTitle" x="141" y="6" />
+	<bitmapData resourceLink="asset.experience.attachExpItemTitle" x="141" y="7" />
+	<bitmapData resourceLink="asset.experience.attachExploitItemTitle" x="141" y="7" />
+	<bitmapData resourceLink="asset.gameOver.cardBack" x="-3" y="-11" />
+	<bitmapData resourceLink="asset.experience.TotalExpTxt" x="153" y="12" />
+	<bitmapData resourceLink="asset.experience.TotalExploitTxt" x="153" y="46" />
+	<bitmapData resourceLink="asset.takeoutCard.GoldTxt" x="17" y="21" />
+	<bitmapData resourceLink="asset.takeoutCard.GoldBitmap" x="27" y="77" />
+	<bitmapData resourceLink="asset.takeoutCard.TitleBitmap" x="250" y="-20" />
+	<bitmapData resourceLink="asset.core.payBuffAsset73.note" x="410" y="-22" />
+	<bitmapData resourceLink="asset.takeoutCard.InstructionBitmap" x="572" y="-61" />
+	<bitmapData resourceLink="asset.core.payBuffAsset73.note" x="204" y="270" />
+	
+	<!-- 通过ComponentFactory.Instance.creatBitmapData 创建 bitmapData 时需要在这里添加节点 -->
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_0" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_1" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_2" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_3" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_4" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_5" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_6" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_7" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_8" />
+	<bitmapData resourceLink="asset.takeoutCard.CountDownNum_9" />
+	
+	<bitmapData resourceLink="asset.experience.TotalExpNum_0" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_1" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_2" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_3" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_4" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_5" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_6" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_7" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_8" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_9" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_+" />
+	<bitmapData resourceLink="asset.experience.TotalExpNum_-" />
+	
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_0" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_1" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_2" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_3" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_4" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_5" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_6" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_7" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_8" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_9" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_+" />
+	<bitmapData resourceLink="asset.experience.TotalExploitNum_-" />
+	
+	
+	<bitmapData resourceLink="asset.core.EnthrallIcon" x="-70" y="-5" />
+</bitmaps>
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

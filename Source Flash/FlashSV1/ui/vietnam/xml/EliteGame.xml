@@ -1,0 +1,200 @@
+<style name="EliteGame" version="1.0.1" source="ui/spain/swf/EliteGame.swf">
+	<sets>
+		<set stylename="eliteGame.TF1" args="Arial,18,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.GF1" args="0x000000,1,5,5,1000" type="flash.filters.GlowFilter"/>
+		<set stylename="eliteGame.TF2" args="Arial,15,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.GF2" args="0x000000,1,2,2,1000" type="flash.filters.GlowFilter"/>
+		<set stylename="eliteGame.TF3" args="Arial,14,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.TF4" args="Arial,14,0xffb400,true" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.GF4" args="0x613f12,1,2,2,1000" type="flash.filters.GlowFilter"/>
+		<set stylename="eliteGame.TF5" args="Arial,14,0xff0000,true" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.GF5" args="0xffffff,1,2,2,1000" type="flash.filters.GlowFilter"/>
+		<set stylename="eliteGame.TF6" args="Arial,16,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.GF6" args="0xffffff,1,5,5,1000" type="flash.filters.GlowFilter"/>
+		<set stylename="eliteGame.TF7" args="Arial,14,0xf5e3c0,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.GF7" args="0x2c1802,1,2,2,500" type="flash.filters.GlowFilter"/>
+		<set stylename="eliteGame.TF8" args="Arial,14,0xf5aa51,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.TF9" args="Arial,14,0xffe555,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.TF10" args="Arial,14,0xfff8ac,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="eliteGame.TF11" args="Arial,14,0xffd800,,,,,,center" type="flash.text.TextFormat"/>
+		<set args="1,45,0x000000,1,1,1,1000" stylename="eliteGame.DF1" type="flash.filters.DropShadowFilter"/>
+	</sets>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="eliteGame.scoreRankBtn"  
+			unSelectedStyle="EliteGame.scoreRank.unselected" selectedStyle="EliteGame.scoreRank.selected"  x="33" y="35" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="eliteGame.ruleBtn"  
+			unSelectedStyle="EliteGame.rule.unselected" selectedStyle="EliteGame.rule.selected"  x="148" y="35" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="eliteGame.between30_40Btn"
+			unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" backStyle="EliteGame.between30_40" x="-9" y="-39" displacement="false"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="eliteGame.between41_50Btn"
+			unSelectedStyle="asset.setting.checkBtn" selectedStyle="asset.setting.selectedCheckBtn" backStyle="EliteGame.between41_50" x="184" y="-39" displacement="false"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="eliteGame.previewBg" width="530" height="450" x="11" y="64"
+			resourceLink='asset.Toffilist.ToffilistBgGrid1Asset,asset.Toffilist.ToffilistBgGrid2Asset,asset.Toffilist.ToffilistBgGrid3Asset,asset.Toffilist.ToffilistBgGrid4Asset,asset.Toffilist.ToffilistBgGrid5Asset,asset.Toffilist.ToffilistBgGrid6Asset,asset.Toffilist.ToffilistBgGrid7Asset,asset.Toffilist.ToffilistBgGrid8Asset,asset.Toffilist.ToffilistBgGrid9Asset' />
+		<component classname="eliteGame.view.EliteGamePreview" stylename="eliteGamePreview" width="557" height="528" 
+			moveEnable="false" escEnable="true" backStyle="core.bg006" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" 
+			titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='eliteGame.scoreRankView.bg1' 
+			resourceLink='asset.Toffilist.bgImg2Asset' scaleGridString="40,40,125,85" width="529" height="375" x="-20" y="-14" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='eliteGame.scoreRankView.bg2' 
+			resourceLink='asset.Toffilist.bgImg3Asset' width="500" height="280" x="-6" y="69" />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="eliteGame.scoreRankView.bg3"
+			parentStyle="core.bg002" width="492" height="31" x="-2" y="2"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='eliteGame.scoreRankView.bg4' 
+			resourceLink='asset.Toffilist.bgImg4Asset' scaleGridString="30,5,100,20" width="504" height="30" x="-8" y="37" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="eliteGame.scoreRankView.nextBtn" 
+			backStyle="EliteGame.scoreRank.nextPage" x="405" y="355"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="eliteGame.scoreRankView.preBtn" 
+			backStyle="EliteGame.scoreRank.prePage" x="246" y="355"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreRankView.pageText" 
+			textFormatStyle="eliteGame.TF1" filterString="eliteGame.GF1" autoSize='none' x='335' y='358' width='65'  height='32'/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename='eliteGame.scoreRankView.pageTextBG' 
+			resourceLink='EliteGame.scoreRank.pageBG' x="334" y="353" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreRankView.updateTimeTxt" 
+			textFormatStyle="eliteGame.TF2" filterString="eliteGame.GF2" autoSize='center' x='0' y='359' width='220'  height='20'/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreRankView.rankAndScoreTxt" 
+			textFormatStyle="eliteGame.TF1" filterString="eliteGame.GF2" autoSize='none' x='0' y='0' width='90'  height='20'/>
+		<component classname="com.pickgliss.ui.image.CloneImage" stylename="eliteGame.scoreRankView.GridBG" 
+			resourceLink="EliteGame.scoreRank.GridBgAsset" width="490" height="279" direction="1" gape="1" x="-2" y="71" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="eliteGame.scoreRankView.topThree" 
+			resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset" x="7" y="0" />
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="eliteGame.ruleview.btnBG"
+			parentStyle="core.bg002" width="492" height="45" x="3" y="372"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="eliteGame.ruleview.joinRoom" 
+			backStyle="EliteGame.ruleView.joinScoreRoom" x="60" y="380"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="eliteGame.ruleview.showRank" 
+			backStyle="EliteGame.ruleView.showRank" x="320" y="380"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.firstLine" 
+			textFormatStyle="eliteGame.TF3" filterString="eliteGame.GF2" autoSize='none' x='95' y='44' width="170" height='20'/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.mapNameTitle" 
+			parentStyle="eliteGame.readyFrame.firstLine" x="30" y="80" width="170"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.timeTitle" 
+			parentStyle="eliteGame.readyFrame.firstLine" x="197" y="80" width="170"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.mapName" 
+			textFormatStyle="eliteGame.TF4" filterString="eliteGame.GF4" autoSize='none' x='109' y='80' width="170" height='20'/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.time" 
+			textFormatStyle="eliteGame.TF4" filterString="eliteGame.GF4" autoSize='none' x='276' y='80' width="170" height='20'/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.readyTip" 
+			textFormatStyle="eliteGame.TF5" filterString="eliteGame.GF5" autoSize='none' x='75' y='114' width="220" height='20'/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.readyFrame.readyOther" 
+			textFormatStyle="eliteGame.TF6" filterString="eliteGame.GF6" autoSize='none' x='110' y='81' width="170" height='20'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="eliteGame.readyFrame.readyBtn" 
+			parentStyle="core.simplebt" x="127" y="151" />
+		<component classname="eliteGame.view.EliteGameReadyFrame" stylename="eliteGameReadyFrame"  
+			parentStyle="BaseFrame" width="372" height="194" moveEnable="false" escEnable="true"/>
+			
+		<component classname="eliteGame.view.EliteGamePaarungFrame" stylename="eliteGamePaarungFrame" width="980" height="540" 
+			moveEnable="false" escEnable="true" backStyle="core.bg006" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" 
+			titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+			
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.1" 
+			textFormatStyle="eliteGame.TF7" filterString="eliteGame.GF7" acceptRank="1" isAutoFitLength="true" autoSize='none' x='37' y='189' width="108" height='22'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.2" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="2" x='835' y='428'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.3" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="3" x='835' y='267'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.4" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="4" x='37' y='349'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.5" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="5" x='37' y='427'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.6" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="6" x='835' y='190'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.7" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="7" x='835' y='349'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.8" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="8" x='37' y='267'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.9" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="9" x='37' y='295'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.10" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="10" x='835' y='378'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.11" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="11" x='835' y='216'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.12" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="12" x='37' y='455'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.13" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="13" x='37' y='377'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.14" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="14" x='835' y='297'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.15" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="15" x='835' y='456'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.1.16" 
+			parentStyle="eliteGame.paarungView.1.1" acceptRank="16" x='37' y='219'/>
+		
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.1" 
+			textFormatStyle="eliteGame.TF8" filterString="eliteGame.GF7" acceptRank="1,16" isAutoFitLength="true" autoSize='none' x='175' y='200' width="108" height='22'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.8" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="8,9" x='175' y='282'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.4" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="4,13" x='175' y='362'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.5" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="5,12" x='175' y='443'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.6" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="6,11" x='694' y='200'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.3" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="3,14" x='694' y='282'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.7" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="7,10" x='694' y='362'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.2.2" 
+			parentStyle="eliteGame.paarungView.2.1" acceptRank="2,15" x='694' y='443'/>
+		
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.3.1" 
+			textFormatStyle="eliteGame.TF9" filterString="eliteGame.GF7" acceptRank="1,8,9,16" isAutoFitLength="true" autoSize='none' x='239' y='243' width="108" height='22'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.3.4" 
+			parentStyle="eliteGame.paarungView.3.1" acceptRank="4,5,12,13" x='239' y='402'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.3.3" 
+			parentStyle="eliteGame.paarungView.3.1" acceptRank="3,6,11,14" x='630' y='243'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.3.2" 
+			parentStyle="eliteGame.paarungView.3.1" acceptRank="2,7,10,15" x='630' y='402'/>
+			
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.4.1" 
+			textFormatStyle="eliteGame.TF10" filterString="eliteGame.GF7" acceptRank="1,8,9,16,4,5,12,13" isAutoFitLength="true" autoSize='none' x='307' y='324' width="108" height='22'/>
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.4.2" 
+			parentStyle="eliteGame.paarungView.4.1" acceptRank="3,6,11,14,2,7,10,15" x='566' y='324'/>
+		
+		<component classname="eliteGame.view.EliteGamePaarungText" stylename="eliteGame.paarungView.5.1" 
+			textFormatStyle="eliteGame.TF11" filterString="eliteGame.GF7" isAutoFitLength="true" autoSize='none' x='436' y='362' width="108" height='22'/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreItem.rank" 
+			textFormatStyle="eliteGame.TF1" filterString="eliteGame.DF1" autoSize='none' width="64" height="29" x="0" y="0" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreItem.name" 
+			textFormatStyle="eliteGame.TF1" filterString="eliteGame.DF1" autoSize='none' width="180" height="29" x="64" y="0" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="eliteGame.scoreItem.score" 
+			textFormatStyle="eliteGame.TF1" filterString="eliteGame.DF1" autoSize='none' width="250" height="29" x="244" y="0" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="eliteGame.scoreItem.vbox" 
+			spacing="6" x="0" y="75"/>
+	</components>
+	
+	<customDisplay>
+		<custom classname="eliteGame.view.EliteGameScoreRankView" stylename="eliteGameScoreRankView"  x="35" y="118" />
+		<custom classname="eliteGame.view.EliteGameRuleView" stylename="eliteGameRuleView"  x="29" y="81" />
+		<custom classname="flash.geom.Point" stylename="eliteGame.scoreRank.myRankbg.pos" x="84" y="6"/>
+		<custom classname="flash.geom.Point" stylename="eliteGame.scoreRank.myscroebg.pos" x="315" y="6"/>
+		<custom classname="flash.geom.Point" stylename="eliteGame.scoreRank.myRankText.pos" x="84" y="6"/>
+		<custom classname="flash.geom.Point" stylename="eliteGame.scoreRank.myScoreText.pos" x="315" y="6"/>
+		
+		<custom classname="flash.geom.Point" stylename="eliteGame.paarungView.select1" x="52" y="131"/>
+		<custom classname="flash.geom.Point" stylename="eliteGame.paarungView.select2" x="178" y="131"/>
+		
+		<custom classname="ddt.view.PlayerPortraitView" stylename="eliteGame.GiftBannerPortrait" x="455" y="269"/>
+	</customDisplay>
+	
+	<bitmaps>
+		<bitmapData resourceLink="EliteGame.between30_40" x="27" y="6"/>
+		<bitmapData resourceLink="EliteGame.between41_50" x="27" y="5"/>
+		<bitmapData resourceLink="EliteGame.scoreRank.rankBmp" x="12" y="43"/>
+		<bitmapData resourceLink="EliteGame.scoreRank.nameBmp" x="128" y="43"/>
+		<bitmapData resourceLink="EliteGame.scoreRank.scorebmp" x="343" y="43"/>
+		<bitmapData resourceLink="EliteGame.scoreRank.myRank" x="6" y="7"/>
+		<bitmapData resourceLink="EliteGame.scoreRank.scoretitle" x="269" y="7"/>
+		<bitmapData resourceLink="EliteGame.pauungview.BG" x="16" y="98"/>
+		<bitmapData resourceLink="EliteGame.pauungview.title" x="285" y="43"/>
+		<bitmapData resourceLink="EliteGame.pauungview.championBG" x="354" y="198"/>
+		<bitmapData resourceLink="EliteGame.pauungview.16" x="296" y="127"/>
+		<bitmapData resourceLink="EliteGame.pauungview.8" x="400" y="127"/>
+		<bitmapData resourceLink="EliteGame.pauungview.4" x="504" y="127"/>
+		<bitmapData resourceLink="EliteGame.pauungview.2" x="608" y="127"/>
+	</bitmaps>
+</style>

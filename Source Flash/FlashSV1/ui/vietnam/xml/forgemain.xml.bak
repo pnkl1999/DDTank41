@@ -1,0 +1,46 @@
+<style name="forgemain" version="5.2.0" source="ui/spain/swf/forgemain.swf">
+
+	<sets>
+		
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="forgeMainView.leftBgPos" x="66" y="59"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.rightBgViewPos" x="394" y="35"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.wishBeadViewPos" x="36" y="29"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.exaltPanelPos" x="73" y="44"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.gemstoneFramePos" x="47" y="8"/>
+		
+		<custom classname="flash.geom.Point" stylename="forgeMainView.latentEnergyViewPos" x="66" y="29"/>
+	</customs>
+	
+	<components>
+		
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="forgeMainView.tabVBox" 
+			spacing="1" x="12" y="47" />
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton0" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton0" 
+			unSelectedStyle="asset.forgeMainView.tabUnSelectedButton0" displacement="false"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton1" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton1" 
+			unSelectedStyle="asset.forgeMainView.tabUnSelectedButton1" displacement="false"/>
+			
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="forgeMainView.tabSelectedButton2" 
+			selectedStyle="asset.forgeMainView.tabSelectedButton2" 
+			unSelectedStyle="asset.forgeMainView.tabUnSelectedButton2" displacement="false"/>
+		
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton0" x="2" y="0"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton1" x="2" y="0"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton2" x="2" y="0"/>
+		<bitmapData resourceLink="asset.forgeMainView.tabUnSelectedButton3" x="2" y="0"/>
+	</bitmaps>
+</style>

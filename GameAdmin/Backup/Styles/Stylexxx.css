@@ -1,0 +1,160 @@
+﻿.uber_loading
+{
+    position: fixed;
+    top:50%;
+	left:50%;
+}
+ #miniPanel 
+        {
+            display:none;
+            min-height: 50px;
+            min-width: 250px;
+            text-align: center;
+            padding-top: 7px;
+            background: url(../Images/bg3.jpg) repeat 0 0;
+            background-position: 0px 0px;
+            position: fixed;
+	z-index: 1102;
+	border:none;
+	text-align:center;
+	top:43%;
+	left:40%;
+        }
+        
+.bottomMenu
+{
+    height: 45px;
+}
+.bottomMenuList
+{
+    width: 200px;
+    
+}
+.showAllItems
+{
+width:895px;
+
+}
+
+.totalItems
+{
+    
+    padding: 0px 0px 0px 0px;
+}
+.style1
+        {
+            width: 210px;
+            height: 125px;
+            border:1px solid #000000;
+            background-color:#003366;
+            
+            
+        }
+        .style2
+        {
+            width: 100px;
+            text-align: center;
+            padding-top:5px;
+            background: url('../Images/default.png') ;
+            background-repeat:no-repeat;
+            background-position: center;
+           
+        }
+        .style6
+        {
+            text-align: center;
+            height: 20px;
+            border:1px solid #000000;
+            font-size: 18px;
+            font-family: "Times New Roman", Times, serif;
+            color:#FFFFFF;
+            background-color:#1d1d1d;
+        }
+        .style6a
+        {
+            text-align: center;
+            height: 30px;
+            border:1px solid #000000;
+            background-color: #1d1d1d;          
+            
+        }
+        .style7
+        {
+           
+            width: 230px;
+            
+        }
+         .style8
+        {
+            width: 75px;
+            text-align: center;
+        }
+        .style11
+        {
+            width:135px;
+            padding: 0px 0px 0px 0px;
+            
+        }
+        .style12
+        {
+            width: 900;
+            text-align: left;
+            
+        }
+        .style13
+        {
+            text-align: center;
+            width: 120;
+            height: 30px;
+        }
+        .style14
+        {
+            text-align: left;
+            width:80px;
+            height: 30px;
+        }
+        
+        .style15a
+        {
+            text-align: center;
+            height: 30px;
+            border:1px solid #000000;
+            
+        }
+         .style15
+    {
+        text-align: center;
+    }
+     .style16
+    {
+        width: 450px;
+        text-align: center;
+    }
+    .style17
+    {
+        width: 250px;
+        text-align: center;
+    }
+    .style18
+    {
+        width: 105px;
+        text-align: center;
+    }
+        a.menuloaddata:link,
+        a.menuloaddata:visited 
+        {
+	        
+	        text-decoration:none;
+	        color:#003366;
+	
+	
+        }
+        a.menuloaddata:hover 
+            {
+            
+	        text-decoration:none;
+	        color:#0000FF;
+	        
+	
+        }
+           

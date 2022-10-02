@@ -1,0 +1,34 @@
+D:\DDT36\GM\GM.Service\Tank.Data\bin\Debug\Tank.Data.dll
+D:\DDT36\GM\GM.Service\Tank.Data\bin\Debug\Tank.Data.pdb
+D:\DDT36\GM\GM.Service\Tank.Data\bin\Debug\Helpers.dll
+D:\DDT36\GM\GM.Service\Tank.Data\bin\Debug\SqlDataProvider.dll
+D:\DDT36\GM\GM.Service\Tank.Data\bin\Debug\Newtonsoft.Json.dll
+D:\DDT36\GM\GM.Service\Tank.Data\obj\Debug\Tank.Data.csproj.AssemblyReference.cache
+D:\DDT36\GM\GM.Service\Tank.Data\obj\Debug\Tank.Data.csproj.CoreCompileInputs.cache
+D:\DDT36\GM\GM.Service\Tank.Data\obj\Debug\Tank.Data.csproj.CopyComplete
+D:\DDT36\GM\GM.Service\Tank.Data\obj\Debug\Tank.Data.dll
+D:\DDT36\GM\GM.Service\Tank.Data\obj\Debug\Tank.Data.pdb
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\bin\Debug\Tank.Data.dll
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\bin\Debug\Tank.Data.pdb
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\bin\Debug\Helpers.dll
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\bin\Debug\SqlDataProvider.dll
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\bin\Debug\Newtonsoft.Json.dll
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\obj\Debug\Tank.Data.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\obj\Debug\Tank.Data.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\obj\Debug\Tank.Data.csproj.CopyComplete
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\obj\Debug\Tank.Data.dll
+E:\Backup KhanhLam\SourceTeam\GM\Tank.Data\obj\Debug\Tank.Data.pdb
+G:\1.Gunny Project\GM\Tank.Data\bin\Debug\Tank.Data.dll
+G:\1.Gunny Project\GM\Tank.Data\bin\Debug\Tank.Data.pdb
+G:\1.Gunny Project\GM\Tank.Data\bin\Debug\Helpers.dll
+G:\1.Gunny Project\GM\Tank.Data\bin\Debug\SqlDataProvider.dll
+G:\1.Gunny Project\GM\Tank.Data\bin\Debug\Newtonsoft.Json.dll
+G:\1.Gunny Project\GM\Tank.Data\obj\Debug\Tank.Data.csproj.AssemblyReference.cache
+G:\1.Gunny Project\GM\Tank.Data\obj\Debug\Tank.Data.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\GM\Tank.Data\obj\Debug\Tank.Data.csproj.CopyComplete
+G:\1.Gunny Project\GM\Tank.Data\obj\Debug\Tank.Data.dll
+G:\1.Gunny Project\GM\Tank.Data\obj\Debug\Tank.Data.pdb
+G:\1.Gunny Project\Source\Tank.Data\obj\Debug\Tank.Data.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source\Tank.Data\obj\Debug\Tank.Data.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Tank.Data\obj\Debug\Tank.Data.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Tank.Data\obj\Debug\Tank.Data.csproj.CoreCompileInputs.cache

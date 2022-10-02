@@ -1,0 +1,171 @@
+<style name="giftSystem" version="1.0.1" source="ui/spain/swf/giftSystem.swf">
+	<sets>
+		<set stylename="gift.TF" args="Arial,12,0x000000,true" type="flash.text.TextFormat" />
+		<set stylename="giftName.TF" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat" /> 
+		
+		<set stylename="GiftBannerView.nameTF" args="Arial,14,0xffff66,true" type="flash.text.TextFormat" />
+		<set stylename="GiftBannerView.nameGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="GiftBannerView.totalGiftShowTF" args="Arial,12,0xffffd6,true" type="flash.text.TextFormat" />
+		<set stylename="GiftBannerView.totalGiftShowGF" args="0x271100,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="GiftBannerView.totalGiftShowNumTF" args="Arial,14,0xff0000,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="GiftBannerView.totalGiftShowNumGF" args="0xffffff,1,3,3,5" type="flash.filters.GlowFilter"/>
+		<set stylename="MyGiftItem.nameTF" args="Arial,12,0x000000,,,,,,center" type="flash.text.TextFormat" /> 
+		<set stylename="RecordParent.countTF" args="Arial,12,0x000000" type="flash.text.TextFormat" /> 
+		<set stylename="RecordParent.countGF" args="0xffffff,1,3,3,5" type="flash.filters.GlowFilter"/>
+		<set stylename="RecordItem.TF" args="Arial,12,0x000000" type="flash.text.TextFormat" /> 
+		<set stylename="RecordItem.receiverTF" args="Arial,14,0x017009" underline="true" type="flash.text.TextFormat" /> 
+		<set stylename="RecordItem.senderTF" args="Arial,14,0x6502ec" type="flash.text.TextFormat" /> 
+		<set stylename="RebackMenu.TF" args="Arial,14,0x000000,true" type="flash.text.TextFormat" /> 
+		<set stylename="TurnPage.TF" args="Arial,18,0xffffd6,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="GiftGoodItem.moneyValueTF" args="Arial,14,0xffc000,true" type="flash.text.TextFormat" />
+		<set stylename="GiftGoodItem.moneyValueGF" args="0x000000,1,3,3,5" type="flash.filters.GlowFilter"/>
+		<set stylename="GiftGoodItem.charmValueTF" args="Arial,12,0x10f7ff,true" type="flash.text.TextFormat" />
+		<set stylename="ClearingInterface.MoneyTF" args="Arial,14,0xd10000,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="ClearingInterface.numTF" args="Arial,14,0x000000,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="ChooseNum.numShowTF" args="Arial,14,0x10f7ff,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="GiftGoodItem.freeValueTF" args="Arial,14,0xff0000,true" type="flash.text.TextFormat" />
+		<set stylename="GiftGoodItem.freeValueGF" args="0xffffff,1,3,3,5" type="flash.filters.GlowFilter"/>
+	</sets>
+	<customDisplay>
+		<custom classname="flash.geom.Point" stylename="giftSystem.ProtraitFramePos" x="100" y="100"/>
+		<custom classname="flash.geom.Point" stylename="giftSystem.ProtraitPos" x="190" y="82"/>
+		<custom classname="flash.geom.Point" stylename="giftSystem.ProtraitScale" x="-0.9" y="0.9"/>
+		<custom classname="flash.geom.Point" stylename="giftSystem.ProtraitViewPos" x="100" y="100"/>
+		
+		
+		<custom classname="flash.geom.Point" stylename="giftSystem.Protra2.itViewPos" x="-95" y="-97"/>
+		<custom classname="flash.geom.Point" stylename="giftGoodItem.itemCellPos" x="2" y="26"/>
+		<custom classname="flash.geom.Point" stylename="MyGiftItem.cellPos" x="18" y="2"/>
+		<custom classname="flash.geom.Point" stylename="GiftCartItem.cellPos" x="2" y="2"/>
+		
+		<custom classname="ddt.view.PlayerPortraitView" stylename="gift.GiftBannerPortrait" x="9" y="4"/>
+		<custom classname="giftSystem.view.GiftBannerView" stylename="giftBannerView" />
+		<custom classname="giftSystem.view.GiftInfoView" stylename="giftInfoView" x="0" y="11"/>
+		<custom classname="giftSystem.view.GiftShopView" stylename="giftShopView" x="404" y="10"/>
+		<custom classname="giftSystem.view.giftAndRecord.GiftAndRecord" stylename="giftAndRecord" x="0" y="96"/>
+		<custom classname="giftSystem.view.giftAndRecord.MyGiftView" stylename="myGiftView" x="3" y="33"/>
+		<custom classname="giftSystem.view.giftAndRecord.GiftRecord" stylename="giftRecord" x="3" y="33"/>
+		<custom classname="giftSystem.view.giftAndRecord.RecordParent" stylename="recordParent" x="0" y="27"/>
+		<custom classname="giftSystem.element.TurnPage" stylename="turnPage" x="154" y="400"/>
+		<custom classname="giftSystem.view.GiftGoodsListView" stylename="giftGoodListView" x="22" y="83"/>
+		<custom classname="giftSystem.element.GiftCartItem" stylename="giftCartItem" x="31" y="106"/>
+		<custom classname="giftSystem.element.ChooseNum" stylename="chooseNum" x="216" y="13"/>
+		
+	</customDisplay>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiftView.helpBtn" backStyle="asset.giftSystem.help" filterString="null,lightFilter,null,grayFilter" x="710" y="-34"/>
+		<component classname="com.pickgliss.ui.controls.Frame" stylename="GiftView.helpFrame" parentStyle="BaseFrame"  width="434" height="454" moveEnable="true" escEnable="true" moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="GiftView.helpFrame.OK" parentStyle="core.simplebt" x="177" y="411" />
+		<!--GiftBannerView-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiftBannerView.BG" resourceLink="asset.vipFrame.topBG1,asset.vipFrame.topBG2,asset.vipFrame.topBG3,asset.vipFrame.topBG4,asset.vipFrame.topBG5,asset.vipFrame.topBG6,asset.vipFrame.topBG7,asset.vipFrame.topBG8,asset.vipFrame.topBG9" width="396" height="84"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftBannerView.name" textFormatStyle="GiftBannerView.nameTF" filterString="GiftBannerView.nameGF" width="100" height="20" x="95" y="16" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftBannerView.level" parentStyle="GiftBannerView.name" width="80" height="20" x="95" y="47" />
+		<component classname="bagAndInfo.info.LevelProgress" stylename="GiftBannerView.levelProgress" x="177" y="48" width="108" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftBannerView.totalGiftShow" textFormatStyle="GiftBannerView.totalGiftShowTF" filterString="GiftBannerView.totalGiftShowGF" width="150" height="20" x="298" y="52" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftBannerView.totalGiftShowNum" textFormatStyle="GiftBannerView.totalGiftShowNumTF" filterString="GiftBannerView.totalGiftShowNumGF" autoSize="none" width="43" height="20" x="342" y="60" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiftBannerView.goEmail" backStyle="asset.giftBannerView.present" filterString="null,lightFilter,null,null" x="316" y="9" displacement="false"/>
+		
+		<!--GiftGoodItem-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.giftGoodItem.background" resourceLink="asset.giftGoodItem.blue,asset.giftGoodItem.greed"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="GiftGoodItem.GoodItemIcon" resourceLink="asset.shop.LabelIconNew,asset.shop.LabelIconHot,asset.shop.LabelIconRecommend,asset.shop.LabelIconDiscount,asset.shop.LabelIconLimitTime,asset.shop.LabelIconLimitCount,asset.shop.LabelIconFree"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.giftName" textFormatStyle="giftName.TF" autoSize="none" width="180" height="20" x="10" y="4" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.charmValue" textFormatStyle="GiftGoodItem.charmValueTF" filterString="GiftGoodItem.moneyValueGF"  width="50" height="16" x="114" y="27" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.charmName" textFormatStyle="RecordParent.countTF" width="50" height="16" x="60" y="26" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.moneyName" textFormatStyle="RecordParent.countTF" width="50" height="16" x="60" y="44" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.moneyValue" textFormatStyle="GiftGoodItem.moneyValueTF" filterString="GiftGoodItem.moneyValueGF" width="50" height="16" x="123" y="43" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.freeName" textFormatStyle="RecordParent.countTF" width="50" height="16" x="60" y="62" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftGoodItem.freeValue" textFormatStyle="GiftGoodItem.freeValueTF" filterString="GiftGoodItem.freeValueGF"  width="50" height="16" x="93" y="63" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="GiftGoodItem.presentBtn" backStyle="asset.giftGoodItem.present" filterString="null,lightFilter,null,grayFilter" x="128" y="62"/>
+		
+		<!-- GiftAndRecord -->
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftAndRecord.myGiftBtn" unSelectedStyle="asset.giftAndRecord.myGift1" selectedStyle="asset.giftAndRecord.myGift2" filterString="null,lightFilter,null,grayFilter" x="10" y="0"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftAndRecord.recordBtn" unSelectedStyle="asset.giftAndRecord.record1" selectedStyle="asset.giftAndRecord.record2" filterString="null,lightFilter,null,grayFilter" x="125" y="0"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiftAndRecord.BG" resourceLink="asset.vip.BG1,asset.vip.BG2,asset.vip.BG3,asset.vip.BG4,asset.vip.BG5,asset.vip.BG6,asset.vip.BG7,asset.vip.BG8,asset.vip.BG9" width="397" height="315" y="30"/>
+		
+		<!-- myGiftView -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="MyGiftView.BG" resourceLink="asset.core.Scale9CornerImage14.1,asset.core.Scale9CornerImage14.2,asset.core.Scale9CornerImage14.3,asset.core.Scale9CornerImage14.4,asset.core.Scale9CornerImage14.5,asset.core.Scale9CornerImage14.6,asset.core.Scale9CornerImage14.7,asset.core.Scale9CornerImage14.8,asset.core.Scale9CornerImage14.9" width="390" height="308"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="MyGiftView.myGiftItemContainerAll" spacing="0"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="MyGiftView.myGiftItemContainer" spacing="15" height="98" />
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="MyGiftView.myGiftItemPanel" parentStyle="core.ScrollPanel" x="17" y="3" width="370" height="300" vScrollProxy="0" vScrollbarInnerRectString="21,14,0,0,3" viewportInnerRectString="0,22,6,0,0" /> 
+		
+		<!-- myGiftItem -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MyGiftItem.name" textFormatStyle="MyGiftItem.nameTF" autoSize="none" width="60" height="20" x="21" y="60" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="MyGiftItem.ownCount" textFormatStyle="giftName.TF" autoSize="none" width="92" height="20" x="4" y="79" />
+		
+		<!-- giftRecord -->
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftRecord.receivedBtn" unSelectedStyle="asset.GiftRecord.received1" selectedStyle="asset.GiftRecord.received2" filterString="null,lightFilter,null,grayFilter" x="6" y="0"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftRecord.sendedBtn" unSelectedStyle="asset.GiftRecord.sended1" selectedStyle="asset.GiftRecord.sended2" filterString="null,lightFilter,null,grayFilter" x="100" y="0"/>
+		
+		<!-- RecordParent -->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="RecordParent.Panel" parentStyle="core.ScrollPanel" vScrollProxy="0" x="1" y="6" width="388" height="268"  />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="RecordParent.container" spacing="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecordParent.showCount" textFormatStyle="RecordParent.countTF" filterString="RecordParent.countGF" width="150" height="18" x="14" y="8" />
+		
+		<!--RecordItem -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecordItem.headTxt" textFormatStyle="RecordItem.TF" filterString="RecordParent.countGF" width="60" height="18" x="4" y="19" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecordItem.giftNameTxt" parentStyle="RecordItem.headTxt" width="100" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecordItem.giftCountTxt" parentStyle="RecordItem.headTxt" width="50" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecordItem.receiverTxt" textFormatStyle="RecordItem.receiverTF" filterString="RecordParent.countGF" width="120" height="18" y="19"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="RecordItem.senderTxt" textFormatStyle="RecordItem.senderTF" filterString="RecordParent.countGF" width="120" height="18" y="19"/>
+		
+		<!-- RebackMenu -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="RebackMenu.rebackAsset" resourceLink="asset.rebackMenu.rebackOut,asset.rebackMenu.rebackOver,asset.rebackMenu.rebackOver" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="RebackMenu.rebackBtn" backStyle="RebackMenu.rebackAsset" x="4" y="3"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="RebackMenu.checkAsset" resourceLink="asset.rebackMenu.checkOut,asset.rebackMenu.checkOver,asset.rebackMenu.checkOver" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="RebackMenu.checkBtn" backStyle="RebackMenu.checkAsset" x="4" y="32"/>
+		
+		<!-- GiftShopView -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiftShopView.BG1" resourceLink="asset.core.ScaleBitmapTree_01,asset.core.ScaleBitmapTree_02,asset.core.ScaleBitmapTree_03,asset.core.ScaleBitmapTree_04,asset.core.ScaleBitmapTree_05,asset.core.ScaleBitmapTree_06,asset.core.ScaleBitmapTree_07,asset.core.ScaleBitmapTree_08,asset.core.ScaleBitmapTree_09" width="419" height="430" x="0" y="15"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiftShopView.BG2" parentStyle="GiftAndRecord.BG" width="405" height="410" x="9" y="25"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="GiftShopView.BG3" parentStyle="MyGiftView.BG" width="388" height="342" x="17" y="52"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.hotGoods" unSelectedStyle="asset.giftShop.hotGoods1" selectedStyle="asset.giftShop.hotGoods2" filterString="null,lightFilter,null,grayFilter" x="17" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.flower" unSelectedStyle="asset.giftShop.flower1" selectedStyle="asset.giftShop.flower2" filterString="null,lightFilter,null,grayFilter" x="73" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.dessert" unSelectedStyle="asset.giftShop.dessert1" selectedStyle="asset.giftShop.dessert2" filterString="null,lightFilter,null,grayFilter" x="129" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.toy" unSelectedStyle="asset.giftShop.joy1" selectedStyle="asset.giftShop.joy2" filterString="null,lightFilter,null,grayFilter" x="185" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.rare" unSelectedStyle="asset.giftShop.rare1" selectedStyle="asset.giftShop.rare2" filterString="null,lightFilter,null,grayFilter" x="241" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.festival" unSelectedStyle="asset.giftShop.festival1" selectedStyle="asset.giftShop.festival2" filterString="null,lightFilter,null,grayFilter" x="297" y="31"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="GiftShopView.wedding" unSelectedStyle="asset.giftShop.Wedding1" selectedStyle="asset.giftShop.Wedding2" filterString="null,lightFilter,null,grayFilter" x="353" y="31"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftShopView.prompt" textFormatStyle="RecordParent.countTF" filterString="RecordParent.countGF" width="220" height="18" x="27" y="60"/>
+		
+		<!--TurnPage -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="TurnPage.numShow" textFormatStyle="TurnPage.TF" filterString="GiftBannerView.totalGiftShowGF" autoSize="none"	width="64" height="22" x="28" y="4"/>
+		
+		<!-- GiftGoodsListView -->
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="GiftGoodsListView.containerAll" spacing="15"/>
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="GiftGoodsListView.container" spacing="2" />
+		
+		<!-- clearingInterface -->
+		<component classname="giftSystem.view.ClearingInterface" stylename="ClearingInterface" width="442" height="379" moveEnable="false" 
+			backStyle="core.bg006" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"  	
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="ClearingInterface.background2" resourceLink="asset.core.clearInterface.1,asset.core.clearInterface.2,asset.core.clearInterface.3,asset.core.clearInterface.4,asset.core.clearInterface.5,asset.core.clearInterface.6,asset.core.clearInterface.7,asset.core.clearInterface.8,asset.core.clearInterface.9" width="396" height="113" x="22" y="80"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="ClearingInterface.isEnoughImage" resourceLink="asset.clearingInterface.remain,asset.clearingInterface.enough" x="232" y="234"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ClearingInterface.totalMoney" textFormatStyle="ClearingInterface.MoneyTF" autoSize="none"  width="100" height="18" x="100" y="234" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ClearingInterface.poorMoney" textFormatStyle="ClearingInterface.MoneyTF" autoSize="none"  width="100" height="18" x="305" y="234" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ClearingInterface.giftNum" textFormatStyle="ClearingInterface.numTF" autoSize="none"  width="53" height="18" x="210" y="264" />
+		
+		<!-- GiftCartItem -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GiftCartItem.name" textFormatStyle="RebackMenu.TF" filterString="RecordParent.countGF" width="120" height="18" x="90" y="25" />
+		
+		<!-- ChooseNum -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ChooseNum.numShowTxt" textFormatStyle="ChooseNum.numShowTF" filterString="GiftGoodItem.moneyValueGF" autoSize="none"  width="55" height="20" />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="ChooseNum.numShow"  textStyle="ChooseNum.numShowTxt" autoSize="none" multiline="false" wordWrap="false"  width="55" height="20" x="49" y="11"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="ChooseNum.ge" textFormatStyle="GiftGoodItem.moneyValueTF" filterString="GiftGoodItem.moneyValueGF" width="28" height="16" x="74" y="12" />
+	</components>
+	 
+	<customLanguage>
+	</customLanguage>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.giftBannerView.levelBG" x="90" y="37"/>
+		<bitmapData resourceLink="asset.giftBannerView.presentBG" x="285" y="-1"/>
+		<bitmapData resourceLink="asset.myGiftItem.nameBG" x="18" y="60"/>
+		<bitmapData resourceLink="asset.GiftRecord.BG" x="0" y="26" width="390" height="282"/>
+		<bitmapData resourceLink="asset.GiftRecord.noGift" x="85" y="46"/>
+		<bitmapData resourceLink="asset.giftShop.title" x="15" y="-2"/>
+		<bitmapData resourceLink="asset.rebackMenu.checkOver" width="90" height="28"/>
+		<bitmapData resourceLink="asset.rebackMenu.checkOut" width="90" height="28"/>
+		<bitmapData resourceLink="asset.giftSystem.helpContent" x="12" y="37"/>
+	</bitmaps>
+</style>

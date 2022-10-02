@@ -1,0 +1,502 @@
+<style name="game" version="1.0.1" source="ui/spain/swf/game.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="gameView.countDownView.txt.tf" args="Arial,20,0xFFFF00"/>
+		<set type="flash.filters.GlowFilter" stylename="gameView.countDownView.txt.gf" args="0x000000,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="gameView.losingStreakCountTxt.tf" args="Arial,12,0xFFFFFF,true,,,,,right"/>
+		<set type="flash.filters.GlowFilter" stylename="gameView.losingStreakCountTxt.gf" args="0xd53700,1,2,2,10"/>
+		
+		<set stylename="game.T_g1" args="0xC04A00,1,2,2,1000"  type="flash.filters.GlowFilter"/>	
+		<set stylename="game.T_1" args="Arial,12,0xFBF202" type="flash.text.TextFormat"/>
+		<set stylename="game.Input_1" args="Arial,14,0x000000" type="flash.text.TextFormat" leading='5'/>
+		<set stylename="game.T_2" args="Arial,12,0xFF0000,true" type="flash.text.TextFormat"/>
+		<set stylename="game.missionInfoTitle_Text2" args="Arial,16,0xaeff00" type="flash.text.TextFormat"/> 
+		<set stylename="game.rotationCountField_Text" args="Arial,18,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="game.rotationCountField_Filter" args="0x000000,1,4,4,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.arrowOffHandedNum_text" args="Arial,16,0xFFF600,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="game.arrowOffHandedNum_Filter1" args="0x000000,1,4,4,5"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.arrowOffHandedNum_Filter2" args="0,0,0xFF0000,1,4,4,4,2"  type="flash.filters.DropShadowFilter"/>
+		<set stylename="game.arrowOffHandedNum_text2" args="Arial,16,0xc1c1c1,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="game.arrowOffHandedNum_Filter22" args="0,0,0x3b3b3b,1,4,4,4,2"  type="flash.filters.DropShadowFilter"/>
+		<set stylename="game.missionInfoTitle_Text" args="Arial,14,0xFCF60A" type="flash.text.TextFormat"  leading='-2'/>
+		<set stylename="game.missionInfo_Text1" args="Arial,16,0xFCF60A" type="flash.text.TextFormat"/>
+		<set stylename="game.missionInfo_Text2" args="Arial,14,0x6DB821,true" type="flash.text.TextFormat"/>
+		<set stylename="game.missionHelpInfo_Text" args="Arial,15,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="game.leftPlayerViewNKN_text" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="game.leftPlayerViewZN_text" args="Arial,12,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="game.leftPlayerViewZN_text2" args="Arial,12,0xffd200" type="flash.text.TextFormat"/>
+		<set stylename="game.leftPlayerViewZN_Filter" args="0x61210B,1,3,3,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.leftPlayerViewHNN_text" args="Arial,12,0xFFFC00,true" type="flash.text.TextFormat"/>
+		<set stylename="game.smallMap_text" args="Arial,13,0xFCF60A" type="flash.text.TextFormat"/>
+		<set stylename="game.bossHPStripRateTF" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="game.bossHPStripRateGF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.bossThumbnailNameTF" args="Arial,12,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="game.bossThumbnailNameGF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.smallBloodNameText" args="Arial,12,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="game.vaneGradientTextTF" args="Arial,18,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="game.vanePreviousGradientTextTF" args="Tahoma,11,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="game.vaneZeroTextTF" args="Tahoma,20,0xFF0000" type="flash.text.TextFormat"/>
+		<set stylename="game.MissionOverInfoPanelTextTF" args="Arial,18,0x000000,true" type="flash.text.TextFormat"/>	
+		<set stylename="game.MissionOverInfoPanelTextGF" args="0xFFFFFF,1,5,5,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.MissionOverInfoPanelInfoTextTF" args="Arial,18,0xFFFFFF,true,,,,,right" type="flash.text.TextFormat"/>	
+		<set stylename="game.MissionOverInfoPanelInfoTextGF" args="0x000000,1,2,2,4"  type="flash.filters.GlowFilter"/>	
+		<set stylename="game.missionOverInfoStateTextTF" args="Arial,90,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="game.toolStringTF" args="Arial,13,0xff0000,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="game.toolStringGF" args="0xffffff,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.danderStripTipTF" args="Arial,13,0xffcc00,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="game.danderStripTipGF" args="0xff1e00,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+		<set stylename="game.PowerStripTF" args="Arial,13,0xd2ff00,true,,,,,right" type="flash.text.TextFormat"/>
+		<set stylename="game.PowerStripGF" args="0x009904,1,2,2,10"  type="flash.filters.GlowFilter"/>	
+		
+		<set stylename="game.webStateTF" args="Arial,12,0x00FF33,true" type="flash.text.TextFormat"/>
+		<set stylename="game.webDelayTF" args="Arial,12,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="game.webExplainTF" args="Arial,12,0xFFCC99" type="flash.text.TextFormat"/>
+		
+		<set stylename="game.NickNameView.TF1" args="Arial,12,0x0057FF" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF2" args="Arial,12,0xEA0000" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF3" args="Arial,12,0xFF9900" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF4" args="Arial,12,0x84AF01" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF5" args="Arial,12,0x9662CA" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF6" args="Arial,12,0x996633" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF7" args="Arial,12,0xb96f6f" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.TF8" args="Arial,12,0x2c8585" type="flash.text.TextFormat"/>
+		<set stylename="game.NickNameView.GF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="game.ConsortiaNameView.TF1" args="Arial,12,0x00FF00" type="flash.text.TextFormat"/>
+		<set stylename="game.ConsortiaNameView.TF2" args="Arial,12,0xAD00FF" type="flash.text.TextFormat"/>
+		<set stylename="game.ConsortiaNameView.TF3" args="Arial,12,0x00FF00" type="flash.text.TextFormat"/>
+		<set stylename="game.ConsortiaNameView.GF" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.PropCell.CountFieldTF" args="Arial,14,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="game.PropCell.CountFieldGF" args="0x930154,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.smallplayer.NameFieldGF" args="0x333333,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.SmallMap.TurnFieldTF" args="Arial,12,0x00FFFB,true,,,,,center"  type="flash.text.TextFormat"/>
+		<set stylename="game.SmallMap.TurnFieldGF" args="0x0,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="PsychicFieldTF" args="Arial,20,0xFFFFFF,true,,,,,center"  type="flash.text.TextFormat"/>
+		<set stylename="PsychicFieldGF" args="0x0,1,6,6,10"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="game.tryagain.border" args="0x0,1,1,1,3"  type="flash.filters.GlowFilter"/>
+		<set stylename="game.tryagain.titleTF" args="Arial,16,0xffffff,true,,,,,center"  type="flash.text.TextFormat"/>
+		<set stylename="game.tryagain.valueTF" args="Arial,14,0xFFFEBD,true"  type="flash.text.TextFormat"/>
+		<set stylename="game.PlayerThumbnailTipItemTxtFormat" args="Arial,14,0xfff3d7,,,,,,center"  type="flash.text.TextFormat"/>
+		<set stylename="game.PlayerThumbnailTipItemTxtFormat" args="Arial,14,0xfff3d7,,,,,,center"  type="flash.text.TextFormat"/>
+		<set stylename="game.PlayerThumbnailTipItemTxtFilter" args="0x542200,1,1,1,3"  type="flash.filters.GlowFilter"/>
+		
+		<set stylename="game.PowerStrip.PowerTxtTF" args="Arial,11,0xffffff,true,,,,,center"  type="flash.text.TextFormat"/>
+		<set stylename="game.PowerStrip.PowerTxtGF" args="0x002700,1,4,4,10"  type="flash.filters.GlowFilter"/>
+		
+		<set type="flash.text.TextFormat" stylename="game.view.propertyWaterBuffTip.nameTxt.tf" args="Arial,14,0xffe32a,true"/>  
+	    <set type="flash.filters.GlowFilter" stylename="game.view.propertyWaterBuffTip.nameTxt.gf" args="0x000000,1,2,2,30"/>  
+	    <set type="flash.text.TextFormat" stylename="game.view.propertyWaterBuffTip.explicationTxt.tf" args="Arial,12,0x40ff27"/>  
+	    <set type="flash.text.TextFormat" stylename="game.view.propertyWaterBuffTip.timerTxt.tf" args="Arial,12,0xffffff"/> 
+		
+		<set type="flash.text.TextFormat" stylename="game.view.thumbnail.hpPercentTxt.tf" args="Arial,15,0xfcf60a,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="game.view.thumbnail.hpPercentTxt.gf" args="0x000000,1,2,2,30"/>
+	</sets>
+	
+	<customDisplay>
+		<!--gamePrivateView-->
+		<custom classname="game.view.arrow.ArrowSub" stylename="asset.game.arrowSub" x="78" y="75"/>
+		<custom classname="game.view.arrow.ArrowBg" stylename="game.view.arrowBg" x="0" y="0"/>
+		<custom classname="asset.game.LeftPlayerCiteAssetII" stylename="game.view.leftPlayerView" x="0" y="0"/>
+		<custom classname="game.crazyTank.view.HandHotAsset" stylename="asset.game.handHotAsset" x="0" y="0"/>
+		<custom classname="ddt.view.common.GuildIcon" stylename="asset.game.guildIcon" x="129" y="63"/>
+		
+		
+		<custom classname="game.view.buff.SelfBuffBar" stylename="SelfBuffBar" x="200" y="462"/>
+		<custom classname="game.view.SkipButton" stylename="SkipButton"/>
+		
+		<custom classname="game.objects.GhostBoxModel" stylename="GhostBoxModel" psychics="10,20" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.game.smallplayer.vipPos1" x="-2"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.smallplayer.vipPos2" x="27"/>
+		<!--point-->
+		
+		<custom classname="flash.geom.Point" stylename="asset.game.chatmoviePos" y="11"/>
+		
+		<custom classname="flash.geom.Point" stylename="asset.soulState.facebtnPos" x="903" y="66"/>
+		<custom classname="flash.geom.Point" stylename="asset.soulState.fastbtnPos" x="947" y="66"/>
+		<custom classname="flash.geom.Point" stylename="asset.soulState.facePanelPos" x="686" y="-116"/>
+		
+		<custom classname="flash.geom.Point" stylename="asset.game.ArrowViewPos" x="-28" y="-26"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.energyPos" x="67" y="36"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.rotationCountPos" x="56" y="80"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.rightPropItemPos" x="950" y="117"/>
+		<!-- <custom classname="flash.geom.Point" stylename="asset.game.DungeonHelpViewPos" x="-312" y="100"/> -->
+		<custom classname="flash.geom.Point" stylename="asset.game.DungeonHelpViewPos" x="508" y="250"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.barrierPos" x="780" y="150"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.selfPropBarPos" x="661" y="504"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.facePanelView" x="-188" y="-146"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.selfUsedProp" x="200" y="454"/>
+		<!--  <custom classname="flash.geom.Point" stylename="asset.game.toolPos" x="806" y="488"/>-->
+		<custom classname="flash.geom.Point" stylename="asset.game.toolPos" x="780" y="-1"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.webSpeedPos" x="910" y="541"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.ThumbnailLPos" x="200" y="5"/>
+		<!-- <custom classname="flash.geom.Point" stylename="asset.game.bloodStripPos" x="129" y="12"/> -->
+		<custom classname="flash.geom.Point" stylename="asset.game.bloodStripPos" x="6" y="78"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.danderStripPos" x="151" y="1"/>
+		<!-- <custom classname="flash.geom.Point" stylename="asset.game.powerStripPos" x="85" y="98"/>-->
+		<custom classname="flash.geom.Point" stylename="asset.game.powerStripPos" x="6" y="61"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.itemContainerPos" x="3" y="50"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.gridPos" x="210" y="460"/>
+		<custom classname="flash.geom.Point" stylename="asset.game.cutDownPos" x="95" y="36"/>
+		
+	
+		<!--风力方向动画坐标左向-->
+		<custom classname="flash.geom.Point" stylename="asset.game.vaneAssetPos" x="70" y="21" />
+		<!--风力方向动画坐标右向-->
+		<custom classname="flash.geom.Point" stylename="asset.game.vaneAssetPos2" x="37" y="21" />
+		<!--风力标题坐标左向-->
+		<custom classname="flash.geom.Point" stylename="asset.game.vaneTitleAssetPos" x="45" y="0" />
+		<!--风力标题坐标右向-->
+		<custom classname="flash.geom.Point" stylename="asset.game.vaneTitleAssetPos2" x="27" y="21" />
+		<!--风力风力值坐标左向-->
+		<custom classname="flash.geom.Point" stylename="asset.game.vaneValueAssetPos" x="30" y="19" />
+		<!--风力风力值坐标右向-->
+		<custom classname="flash.geom.Point" stylename="asset.game.vaneValueAssetPos2" x="33" y="19" />
+		
+		<custom classname="ddt.view.common.VipLevelIcon" stylename="asset.game.VipIcon" x="2" y="28"/>
+		
+		<custom classname="game.view.AchieveAnimation" stylename="AchieveAnimation" mouseChildren="false" mouseEnabled="false" numCenter="50,32" alpha="0" time="0.4,2.6,0.3,0.4"/>
+		<custom classname="game.view.AchievShineShape" stylename="AchievShineShape" x="84" y="17" alpha="0" scaleY="0.3" radius="220" alphas="1,0" ratios="0,255" />
+		<custom classname="ddt.data.FightAchievModel" stylename="FightAchievModel" colors="0xFF0000,0xFF3F3F,0x7525AA,0x0020D1,0xE337E5,0xA41778,0x408244" />
+		<custom classname="game.view.FightAchievBar" stylename="FightAchievBar" x="680" y="400" />
+		
+		<custom classname="asset.game.OnHurted" stylename="asset.game.OnHurtedFrame" />
+		<custom classname="game.view.prop.SoulPropBar" stylename="SoulPropBar" x="310" y="4"
+			props="10008,10007,10006,10005,10004,10002,10001,10003,10020,10022,10013,10009,10010,10012,10011,10016,10017,10021,10018,10015" />
+		<custom classname="game.view.control.PsychicBar" stylename="PsychicBar" x="142" />
+		<custom classname="flash.geom.Point" stylename="PsychicBar.MoviePos" x="-24" y="-65"/>
+		<custom classname="flash.geom.Point" stylename="leftPlayerCartoon.BadgePos" x="2" y="65"/>
+		
+		<custom classname="game.view.prop.RightPropBar" stylename="RightPropBar" />
+		<custom classname="game.view.prop.CustomPropBar" stylename="LiveCustomPropBar" backStyle="asset.game.prop.CustomBack" x="654" y="57" />
+		<custom classname="game.view.prop.CustomPropBar" stylename="SoulCustomPropBar" backStyle="asset.game.prop.SoulCustomBack" x="748" y="30" />
+		<custom classname="game.view.prop.WeaponPropBar" stylename="WeaponPropBar" x="110" y="14" />
+		<custom classname="flash.geom.Point" stylename="RightPropPos1" x="330" y="510" />
+		<custom classname="flash.geom.Point" stylename="RightPropPos2" x="950" y="125" />
+		<custom classname="flash.geom.Point" stylename="CustomPropPos1" x="200" y="510" />
+		<custom classname="flash.geom.Point" stylename="CustomPropPos2" x="654" y="57" />
+		<custom classname="flash.geom.Point" stylename="SoulCustomPropPos" y="0" />
+		<custom classname="flash.geom.Point" stylename="CustomPropCellPosz" x="6" y="5" />
+		<custom classname="flash.geom.Point" stylename="CustomPropCellPosx" x="46" y="5" />
+		<custom classname="flash.geom.Point" stylename="CustomPropCellPosc" x="86" y="5" />
+		<custom classname="flash.geom.Point" stylename="WeaponPropCellPosf" x="6" y="5" />
+		<custom classname="flash.geom.Point" stylename="WeaponPropCellPosr" x="46" y="5" />
+		<custom classname="flash.geom.Point" stylename="game.gamePlayer.leagueRankPos" x="-58" y="20" />
+		<custom classname="game.view.prop.PropLayerButton" stylename="PropLayerButton" tipStyle="ddt.view.tips.OneLineTip" tipDirctions ="5,0" tipGapV ="5" x="88" y="35"/>
+		<custom classname="game.view.smallMap.GameTurnButton" stylename="GameTurnButton" textStyle="TurnButton.TextField" backStyle="asset.game.smallmap.TurnBack" y="4"/>
+		
+		<custom classname="flash.geom.Point" stylename="game.PlayerThumbnailTipItemPos" x="0" y="2" />
+		<custom classname="fightLib.AngleStyle" stylename="game.fightLib.AngleStyle" x="72" y="33" />
+		
+		<custom classname="flash.geom.Point" stylename="assets.leftPlayerCartoonView.roomPlayerItemPetHeadFramePos" x="132" y="105"/>
+		<custom classname="flash.geom.Point" stylename="assets.leftPlayerCartoonView.roomPlayerItemPetPos" x="129" y="105"/>
+		<custom classname="flash.geom.Point" stylename="game.petSikllBar.BGPos" x="-18" y="-18" />
+		<custom classname="flash.geom.Point" stylename="CustomPetPropCellPos" x="-13" y="-12" />
+		<custom classname="flash.geom.Point" stylename="CustomPetPropPicPos" x="-59" y="-10" />
+		
+		<custom classname="flash.geom.Point" stylename="gameView.countDownView.tensTxtPos" x="22" y="22"/>
+		<custom classname="flash.geom.Point" stylename="gameView.countDownView.unitTxtPos" x="40" y="22"/>
+		
+		<custom classname="game.view.propertyWaterBuff.PropertyWaterBuffIcon" stylename="game.view.propertyWaterBuff.propertyWaterBuffIcon" tipStyle="game.view.propertyWaterBuff.PropertyWaterBuffTip" tipDirctions="1,2,3,4,6" tipGapV="5" tipGapH="5" x="0" y="0"/>
+		<custom classname="flash.geom.Point" stylename="game.view.propertyWaterBuff.PropertyWaterBuffBarPos" x="0" y="6"/> 
+		<custom classname="flash.geom.Point" stylename="asset.game.mpStripPos" x="11" y="25"/>  
+		<custom classname="flash.geom.Point" stylename="asset.game.petskillBarPos" x="733" y="-10"/>  
+	</customDisplay>
+	
+	<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.petEnergyStrip.PowerTxtII" textFormatStyle="game.PowerStrip.PowerTxtTF" filterString="game.PowerStrip.PowerTxtGF" autoSize="none" x="35" y="0" width="113" height="18" mouseEnabled="false"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.petskillBuff.numTxt" parentStyle="core.CommonTxt" x="16" y="15"/>  
+	
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="RightPropBack" resourceLink="asset.game.prop.RightBack1,asset.game.prop.RightBack2" /> 
+		<!--Text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.PropCell.CountField" textFormatStyle="game.PropCell.CountFieldTF" filterString="game.PropCell.CountFieldGF" visible="false" mouseEnabled="false" autoSize="left"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.smallplayer.NameField" 
+			textFormatStyle="game.PropCell.CountFieldTF" filterString="game.smallplayer.NameFieldGF" 
+			autoSize="none" x="4" y="4" width="112" height="20" isAutoFitLength="true" mouseEnabled="false"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.webSpeed.stateTxt" textFormatStyle="game.webStateTF" x="6" y="7" width="52" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.webSpeed.delayTxt" textFormatStyle="game.webDelayTF" x="6" y="31" width="94" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.webSpeed.fpsTxt" textFormatStyle="game.webDelayTF" x="6" y="110" width="77" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.webSpeed.explain1Txt" textFormatStyle="game.webExplainTF" x="6" y="55" multiline="true" wordWrap="true" width="202" height="51"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.webSpeed.explain2Txt" textFormatStyle="game.webExplainTF" x="6" y="132" multiline="true" wordWrap="true" width="203" height="44"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.BloodString.currentTxt" textFormatStyle="game.toolStringTF" filterString="game.toolStringGF" x="49" y="7" autoSize="none" width="46" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.DanderStrip.currentTxt" textFormatStyle="game.danderStripTipTF" filterString="game.danderStripTipGF" x="49" y="7" autoSize="none" width="46" height="18"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.PowerStrip.currentTxt" textFormatStyle="game.PowerStripTF" filterString="game.PowerStripGF" x="49" y="7" autoSize="none" width="46" height="18"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.smallBloodNameTxt" textFormatStyle="game.smallBloodNameText" filterString="game.bossThumbnailNameGF" autoSize="none" isAutoFitLength="true" x="38" y="9" width="63" height="21"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.bossHPStripRateTxt" textFormatStyle="game.bossHPStripRateTF" filterString="game.bossHPStripRateGF" autoSize="center" x="12" y="10" width="117" height="20"/>
+		<!--component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.toolHPStripTxt" textFormatStyle="personInfoViewNameTextTF" filterString="bagMoneyInfoGF" x="73" y="3" width="20" height="20"-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.bossThumbnailNameTxt" textFormatStyle="game.bossThumbnailNameTF" filterString="game.bossThumbnailNameGF" autoSize="none" width="90" height="18" x="68" y="11" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.leftPlayerViewNKNTxt" textFormatStyle="game.leftPlayerViewNKN_text" filterString="game.rotationCountField_Filter" x="56" y="2" width="125" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.leftPlayerViewZNTxt" textFormatStyle="game.leftPlayerViewZN_text2" filterString="game.leftPlayerViewZN_Filter" x="115" y="130" width="56" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.leftPlayerViewHNNTxt" textFormatStyle="game.leftPlayerViewHNN_text" filterString="game.rotationCountField_Filter" x="1" y="2" width="90" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.smallMapHardTxt" textFormatStyle="game.smallMap_text" filterString="game.rotationCountField_Filter" x="2" y="3" width="81" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfoTitle1Txt" textFormatStyle="game.missionInfoTitle_Text" filterString="game.rotationCountField_Filter" x="27" y="7" width="107" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfoTitle2Txt" parentStyle="asset.game.missionInfoTitle1Txt" autoSize="none" width="110" height="40" wordWrap="true" x="23" y="24" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfoTitle3Txt" parentStyle="asset.game.missionInfoTitle1Txt" y="54" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfoTitle4Txt" parentStyle="asset.game.missionInfoTitle1Txt" y="77" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfo1Txt" textFormatStyle="game.missionInfo_Text1" filterString="game.rotationCountField_Filter" x="80" y="6" autoSize="right" width="84" height="24"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfo2Txt" textFormatStyle="game.missionInfo_Text1" filterString="game.rotationCountField_Filter" x="120" y="31" autoSize="right" width="45" height="22"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfo3Txt" textFormatStyle="game.missionInfo_Text1" filterString="game.rotationCountField_Filter" x="125" y="55" autoSize="right" width="39" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionInfo4Txt" textFormatStyle="game.missionInfo_Text1" filterString="game.rotationCountField_Filter" x="122" y="77" autoSize="right" width="41" height="20"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfoTitle1Txt" textFormatStyle="game.MissionOverInfoPanelTextTF" filterString="game.MissionOverInfoPanelTextGF" width="55" height="28" x="-111" y="-54"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfoTitle2Txt" parentStyle="asset.game.missionOverInfoTitle1Txt" y="-15" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfoTitle3Txt" parentStyle="asset.game.missionOverInfoTitle1Txt" y="25" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfo1Txt" textFormatStyle="game.MissionOverInfoPanelInfoTextTF" filterString="game.MissionOverInfoPanelInfoTextGF" autoSize="none" width="57" height="24" x="-48" y="-51" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfo2Txt" parentStyle="asset.game.missionOverInfo1Txt" y="-12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfo3Txt" parentStyle="asset.game.missionOverInfo1Txt" y="28"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.missionOverInfoStateTxt" textFormatStyle="game.missionOverInfoStateTextTF" filterString="game.MissionOverInfoPanelInfoTextGF" autoSize="none" width="103" height="104" x="26" y="-53"/>
+		
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.arrowRotationTxt" textFormatStyle="personInfoViewNameTextTF" filterString="bagMoneyInfoGF" x="176" y="7" width="105" height="105"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.arrowOffHandedNumTxt" textFormatStyle="game.arrowOffHandedNum_text,game.arrowOffHandedNum_text2" filterString="game.arrowOffHandedNum_Filter1|game.arrowOffHandedNum_Filter2,game.arrowOffHandedNum_Filter1|game.arrowOffHandedNum_Filter22" x="166" y="65" autoSize="none" width="27" height="22"/>
+		<!-- <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.toolHPStripTxt" textFormatStyle="game.leftPlayerViewZN_text" filterString="game.rotationCountField_Filter" x="8" y="31" autoSize="none" width="52" height="19"/> -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.toolHPStripTxt" textFormatStyle="game.leftPlayerViewZN_text" filterString="game.rotationCountField_Filter" x="0" y="2" autoSize="none" width="126" height="19"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.rotationCountFieldText" textFormatStyle="game.rotationCountField_Text" autoSize="none" width="44" height="26"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.DungeonHelpView.winTxt1" textFormatStyle="game.missionHelpInfo_Text" filterString="game.arrowOffHandedNum_Filter1" autoSize="none" x="-187" y="-34" width="185" height="40" multiline="true" wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.DungeonHelpView.winTxt2" parentStyle="asset.DungeonHelpView.winTxt1" x="-187" y="25"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.DungeonHelpView.lostTxt1" parentStyle="asset.DungeonHelpView.winTxt1" x="19" y="-34"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.DungeonHelpView.lostTxt2" parentStyle="asset.DungeonHelpView.winTxt1" x="19" y="25"/>
+		
+		<!--Image-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.leftPlayerViewTitle" resourceLink="asset.game.blueTitleAsset,asset.game.redTitleAsset"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.HPStrip" resourceLink="asset.game.smallHPStripBlueAsset,asset.game.smallHPStripRedAsset,asset.game.smallHPStripYellowAsset,asset.game.smallHPStripGreenAsset,asset.game.smallHPStripGreenAsset" width="40" height="6" x="1" y="1"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.countDownAsset" resourceLink="asset.game.countDown0Asset,asset.game.countDown1Asset,asset.game.countDown2Asset,asset.game.countDown3Asset,asset.game.countDown4Asset,asset.game.countDown5Asset,asset.game.countDown6Asset,asset.game.countDown7Asset,asset.game.countDown8Asset,asset.game.countDown9Asset,asset.game.countDown10Asset,asset.game.countDown11Asset,asset.game.countDown12Asset,asset.game.countDown13Asset,asset.game.countDown14Asset,asset.game.countDown15Asset,asset.game.countDown16Asset,asset.game.countDown17Asset,asset.game.countDown18Asset,asset.game.countDown19Asset,asset.game.countDown20Asset,asset.game.countDown21Asset,asset.game.countDown22Asset,asset.game.countDown23Asset,asset.game.countDown24Asset,asset.game.countDown25Asset,asset.game.countDown26Asset,asset.game.countDown27Asset,asset.game.countDown28Asset,asset.game.countDown29Asset,asset.game.countDown30Asset" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.webSpdIcon" resourceLink="asset.game.webSpdGreenAsset,asset.game.webSpdYellowAsset,asset.game.webSpdRedAsset" tipStyle="game.view.WebSpeedTip" tipDirctions="4"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.bloodRedNum" resourceLink="asset.game.bloodNUm0Asset,asset.game.bloodNUm1Asset,asset.game.bloodNUm2Asset,asset.game.bloodNUm3Asset,asset.game.bloodNUm4Asset,asset.game.bloodNUm5Asset,asset.game.bloodNUm6Asset,asset.game.bloodNUm7Asset,asset.game.bloodNUm8Asset,asset.game.bloodNUm9Asset" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.bloodGreenNum" resourceLink="asset.game.bloodNUma0Asset,asset.game.bloodNUma1Asset,asset.game.bloodNUma2Asset,asset.game.bloodNUma3Asset,asset.game.bloodNUma4Asset,asset.game.bloodNUma5Asset,asset.game.bloodNUma6Asset,asset.game.bloodNUma7Asset,asset.game.bloodNUma8Asset,asset.game.bloodNUma9Asset" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.AchievImage" resourceLink="asset.game.achiev1,asset.game.achiev2,asset.game.achiev3,asset.game.achiev4,asset.game.achiev5,asset.game.achiev6,asset.game.achiev7,"/>
+		
+		<!--Button-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.offHandedBtnStyle" resourceLink="asset.game.offHandedBtnAsset,asset.game.offHandedBtnAsset,asset.game.offHandedDownBtnAsset,asset.game.offHandedFalseBtnAsset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.game.offHandedButton" unSelectedStyle="asset.game.offHandedBtnStyle" selectedStyle="asset.game.offHandedFalseBtnAsset" autoSelect="false" x="150" y="56"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.planeBtnStyle" resourceLink="asset.game.planeBtnAsset,asset.game.planeOverBtnAsset,asset.game.planeDownBtnAsset,asset.game.planeFalseBtnAsset" />
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.game.planeButton" unSelectedStyle="asset.game.planeBtnStyle" selectedStyle="asset.game.planeFalseBtnAsset" autoSelect="false" x="111" y="20"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.trasparentBtnStyle" resourceLink="asset.game.trasparentBtnAsset,asset.game.trasparentLightBtnAsset,asset.game.trasparentLightBtnAsset" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.trasparentButton" backStyle="asset.game.trasparentBtnStyle" x="11" y="5"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.skipButton" backStyle="asset.game.skipBtnAsset" x="113" y="99"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.smallButton" backStyle="asset.game.smallBtnAsset" x="-10" y="10"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.largeButton" backStyle="asset.game.largeBtnAsset" x="-22" y="10"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="PsychicField" textFormatStyle="PsychicFieldTF" filterString="PsychicFieldGF" text="1234" autoSize="none" width="58" height="24" x="11" y="35"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="TurnButton.TextField" textFormatStyle="game.SmallMap.TurnFieldTF" filterString="game.SmallMap.TurnFieldGF" autoSize="none" width="58" height="16" y="-2"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="GameTurnButton.Background" resourceLink=",asset.game.smallmap.TurnBack,asset.game.smallmap.TurnBack,asset.game.smallmap.TurnBack" />
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.imButton" backStyle="asset.game.friendBtnAsset" useLogID="125" x="66" y="46"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.faceButton" backStyle="asset.game.state.face" useLogID="128" x="28" y="35"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.TransparentButton" backStyle="asset.game.state.transparent" x="-2" y="35"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.chatButton" useLogID="129" x="72" y="35"/><!--  backStyle="asset.game.prop.chatMoive" -->
+		<!-- <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.settingButton" backStyle="asset.game.settingBtnAsset" useLogID="130" x="131" y="-20"/>-->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.settingButton" backStyle="asset.game.smallmap.SetBack" useLogID="130" y="3"/>
+		<!-- <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.exitButton" backStyle="asset.game.exitBtnAsset" useLogID="131" x="162" y="-22"/>-->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.exitButton" backStyle="asset.game.smallmap.CloseBack" useLogID="131" y="3" tipDirctions="3,6,1"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.DungeonHelpView.closeBtn" backStyle="asset.game.missionHelpCloseBtn" filterString="null,lightFilter,null,grayFilter" x="172" y="-63"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.game.missionInfoViewOverBtn" resourceLink="asset.game.missionInfoBtnAsset,asset.game.missionInfoBtnLightAsset" />
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.missionInfoViewBtn" resourceLink="asset.game.missionInfoBtnAsset,asset.game.missionInfoViewOverBtn,asset.game.missionInfoViewOverBtn" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.missionInfoViewButton" backStyle="asset.game.missionInfoViewBtn" x="1" y="2"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.deletePropBtn1" backStyle="asset.game.deletePropBtnAsset" x="27" y="35"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.deletePropBtn2" backStyle="asset.game.deletePropBtnAsset" x="72" y="35"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.deletePropBtn3" backStyle="asset.game.deletePropBtnAsset" x="112" y="35"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.deletePropBtn" scaleX="0.7" scaleY="0.7" backStyle="asset.game.deletePropBtnAsset" x="20" y="-5"/>
+		<!-- <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.game.ModeBtn" backStyle="asset.game.prop.ModeBack1" x="46" y="28"/> -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.game.prop.ModeBack" resourceLink="asset.game.prop.ModeBack1,asset.game.prop.ModeBack2" />
+		
+		<!--movieImage-->
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.game.rulingBg" resourceLink="asset.game.power.back" x="34" y="27"/>
+	
+		<!--风力数值-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.vaneGradientTextAsset" textFormatStyle="game.vaneGradientTextTF" x="0" y="0" witdh="45" height="30"/>
+		<!--上一次风力数值-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.vanePreviousGradientTextAsset" textFormatStyle="game.vanePreviousGradientTextTF" x="100" y="54" witdh="53" height="18"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.game.vaneZeroTextAsset" textFormatStyle="game.vaneZeroTextTF" witdh="53" height="22" text="0.0"/>
+		
+		<!--战报公告Frame-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="game.view.baglockedBg"
+			resourceLink="asset.core.baglockedBgAsset" width="10" height="10" scaleGridString="5,5,110,63"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="game.view.frameBackgound"
+			resourceLink="core.bg006,core.bg002,game.view.baglockedBg" imageRectString=",8|8|39|7|4,10|11|35|50|0"/>
+		
+		<component classname="game.view.DefyAfficheViewFrame" stylename='game.view.defyAfficheViewFrame'
+			backStyle="game.view.frameBackgound" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"  
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20"
+			moveInnerRectString="0,30,0,30,1" containerY="40"  moveEnable="false"  escEnable='true'
+			width='285' height='245' />
+		<!--战报公告小标题-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.titleText" textFormatStyle="game.T_1" filterString="game.T_g1" y='-8' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.titleInfoText" textFormatStyle="game.T_2" x='-6' y='130' 	/>
+		<!--战报公告输入框-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="game.view.textBgImg_style" 	resourceLink="asset.game.defyAfficheTextBg" width='51' height='42' scaleGridString="8,10,46,36" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename='game.defyAfficheText' textFormatStyle="game.Input_1"  autoSize='none' maxChars='30' multiline='false' />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="game.defyAfficheTextInput"
+			backStyle="game.view.textBgImg_style"  	textStyle="game.defyAfficheText" textInnerRectString="5,5,5,4,0"  
+			y='25'	width='235'  height='95'  />
+		<!--战报公告按钮确定-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="game.defyAffichebtn" parentStyle="core.simplebt" x='-10' y='164' />
+		<!--战报公告按钮取消-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="game.defyAffichebtn1" 	parentStyle="game.defyAffichebtn" x='138' />
+		
+		<!-- GameLiving -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GameLiving.nickName" textFormatStyle="game.NickNameView.TF1,game.NickNameView.TF2,game.NickNameView.TF3,game.NickNameView.TF4,game.NickNameView.TF5,game.NickNameView.TF6,game.NickNameView.TF7,game.NickNameView.TF8" filterString="game.NickNameView.GF" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GameLiving.ConsortiaName" textFormatStyle="game.ConsortiaNameView.TF1,game.ConsortiaNameView.TF2,game.ConsortiaNameView.TF3" filterString="game.ConsortiaNameView.GF" />
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.thumbnail.hpPercentTxt" textFormatStyle="game.view.thumbnail.hpPercentTxt.tf" filterString="game.view.thumbnail.hpPercentTxt.gf" autoSize="none" x="0" y="50" width="45" height="22"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.PlayerThumbnailTipItemTxt" textFormatStyle="game.PlayerThumbnailTipItemTxtFormat" filterString="game.PlayerThumbnailTipItemTxtFilter" x="8" y="2"/>
+		<component classname="ddt.view.SimpleItem" stylename="game.PlayerThumbnailTipItem" backStyle="asset.game.smallplayer.TipItemBg" foreStyle="game.PlayerThumbnailTipItemTxt"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="game.playerThumbnailTipBg" parentStyle="core.GoodsTipBg" width="78" height="78"/>
+		
+		<!-- 续关 -->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="GameTryAgain" backStyle="asset.game.tryagain.done" 
+			x="300" y="210"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="GameGiveUp" backStyle="asset.game.tryagain.giveup" 
+			x="130" y="210"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GameTryAgainTitle"  
+			textFormatStyle="game.tryagain.titleTF" filterString="game.tryagain.border" 
+			autoSize="none"
+			x="70" y="29" width="380" height="24"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="GameTryAgainValue" 
+			textFormatStyle="game.tryagain.valueTF" filterString="game.tryagain.border" 
+			autoSize="none"
+			width="200" height="22" x="196" y="169" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.PowerStrip.PowerTxt" 
+			textFormatStyle="game.PowerStrip.PowerTxtTF" filterString="game.PowerStrip.PowerTxtGF" 
+			autoSize="none" y="-3" width="106" height="18" mouseEnabled="false"/>
+			
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.propertyWaterBuffTip.explicationTxt" textFormatStyle="game.view.propertyWaterBuffTip.explicationTxt.tf" width="125" height="52" autoSize="none" wordWrap="true" multiline="true" x="10" y="32"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.propertyWaterBuffTip.nameTxt" textFormatStyle="game.view.propertyWaterBuffTip.nameTxt.tf" filterString="game.view.propertyWaterBuffTip.nameTxt.gf" x="10" y="10"/>  
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="game.view.propertyWaterBuffTip.timerTxt" textFormatStyle="game.view.propertyWaterBuffTip.timerTxt.tf" x="10" y="84"/>  
+    <component classname="com.pickgliss.ui.controls.container.HBox" stylename="game.view.propertyWaterBuffBer" spacing="4" x="0" y="0"/>  
+    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="game.view.propertyWaterBuffTip.bg" parentStyle="core.GoodsTipBg" x="0" y="0" width="170" height="110"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="game.petSkillBarIsShowBtn" backStyle="asset.game.petSkillBarIsShowBtn" filterString="null,lightFilter,null,grayFilter" x="869" y="-40"/>	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameView.countDownView.txt" textFormatStyle="gameView.countDownView.txt.tf" filterString="gameView.countDownView.txt.gf" x="4" y="22"/>
+	<component classname="consortionBattle.view.ConsBatLosingStreakBuff" stylename="gameView.ConsBatLosingStreakBuff" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,5,4" x="45" y="5"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gameView.losingStreakCountTxt" textFormatStyle="gameView.losingStreakCountTxt.tf" filterString="gameView.losingStreakCountTxt.gf" x="27" y="22"/>
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.game.defyAfficheTextBg" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.defyAfficheTitBg" x="-3" y="0" width='240'  />
+		<bitmapData resourceLink="asset.room.view.RoomRightPropViewBGAsset" x="-5" y="0" />
+		<bitmapData resourceLink="asset.game.bossHpStripAsset"/>
+		<bitmapData resourceLink="asset.game.toolHPStripAsset" x="7" y="3"/>
+		<bitmapData resourceLink="asset.game.toolHPStripBgAsset"/>
+		<bitmapData resourceLink="asset.game.bossThumbnailBgAsset"/>
+		<bitmapData resourceLink="asset.game.blueTitleAsset"/>
+		<bitmapData resourceLink="asset.game.redTitleAsset"/>
+		<bitmapData resourceLink="asset.game.lineAsset"/>
+		<bitmapData resourceLink="asset.game.mapBorderAsset" x="-165" y="0" />
+		<bitmapData resourceLink="asset.game.powerStripAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.smallHPStripBgAsset" x="0" y="0" width="42" height="8"/>
+		<bitmapData resourceLink="asset.game.toolBgAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.vaneTitleAsset" x="30" y="0" />
+		<bitmapData resourceLink="asset.game.vanePreviousAsset" x="0" y="54" />
+		<bitmapData resourceLink="asset.game.vanePreviousDirectionAsset" x="98" y="56" />
+		<bitmapData resourceLink="asset.game.countDown0Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown1Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown2Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown3Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown4Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown5Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown6Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown7Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown8Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown9Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown10Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown11Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown12Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown13Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown14Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown15Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown16Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown17Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown18Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown19Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown20Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown21Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown22Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown23Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown24Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown25Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown26Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown27Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown28Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown29Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.countDown30Asset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.missionInfoBgAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.missionOverInfoPanelAsset" x="-150" y="-60" />
+		<bitmapData resourceLink="asset.game.tombAsset" x="0" y="-3" smoothing="true" />
+		<bitmapData resourceLink="asset.game.rulingGrayStripAsset" x="84" y="39" />
+		<bitmapData resourceLink="asset.game.rulingLightStripAsset" x="84" y="39" />
+		<bitmapData resourceLink="asset.game.rulingAsset" x="84" y="37" />
+		<bitmapData resourceLink="asset.game.springArrowAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.propBackAsset" x="-2" y="42" />
+		<bitmapData resourceLink="asset.game.moveStripAsset" height="3" x="-19" y="-1" />
+		<bitmapData resourceLink="asset.game.moveStripBgAsset" x="-20" y="-2" />
+		<bitmapData resourceLink="asset.game.getPropBgAsset" x="0" y="2" />
+		<bitmapData resourceLink="asset.game.getPropCiteAsset" x="9" y="-16" />
+		<bitmapData resourceLink="asset.game.arrowCenterAsset" x="-5" y="-5" smoothing="true" />
+		<bitmapData resourceLink="asset.game.chonghexianAsset" width="44" height="3" x="0" y="1" smoothing="true" />
+		<bitmapData resourceLink="asset.game.handAsset" width="44" height="2" x="0" y="0" smoothing="true" />
+		<bitmapData resourceLink="asset.game.arrowCloneAsset" width="44" height="2" x="0" y="0" smoothing="true" />
+		<bitmapData resourceLink="asset.game.halfRoundAsset" x="-48" y="-48" smoothing="true" />
+		<bitmapData resourceLink="asset.game.angle.halfround" x="-49" y="-48" smoothing="true" />
+		<bitmapData resourceLink="asset.game.greenAsset" x="-46" y="-46" smoothing="true" />
+		<bitmapData resourceLink="asset.game.circleAsset" x="-46" y="-46" smoothing="true" />
+		<bitmapData resourceLink="asset.game.arrowBgAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.game.dailAsset" x="31" y="28" />
+		<bitmapData resourceLink="asset.game.rulingBtnAsset" x="-12" y="-12"/>
+		<bitmapData resourceLink="asset.game.danderStripAsset" x="28" y="4"/>
+		<bitmapData resourceLink="asset.game.rightPropBgAsset" x="25" y="0"/>
+		<bitmapData resourceLink="asset.game.missionInfoBtnLightAsset" x="-2" y="-1"/>
+		<bitmapData resourceLink="asset.game.missionInfoBG2Asset" x="-211" y="-65" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.missionHelpCloseBtn" width="32" height="22" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.redNumberBackgoundAsset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm0Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm1Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm2Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm3Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm4Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm5Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm6Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm7Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm8Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUm9Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma0Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma1Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma2Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma3Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma4Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma5Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma6Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma7Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma8Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.bloodNUma9Asset" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.angle.back" x="27" y="24" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.angle.dail" x="34" y="32" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.health.back" x="1" y="57" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.energy.back" x="0" y="0" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.power.back" x="36" y="19" smoothing="true"/>
+		<bitmapData resourceLink="asset.game.dander.bg" x="-2" y="-2"/>
+		<bitmapData resourceLink="asset.game.dander.blue" x="32" y="10"/>
+		<bitmapData resourceLink="asset.game.dander.center" x="262" y="26"/>
+		<bitmapData resourceLink="asset.game.dander.animate" x="10" y="22"/>
+		<bitmapData resourceLink="asset.game.dander.animate.back" x="29" y="35"/>
+		<bitmapData resourceLink="asset.game.PsychicBar.fore" x="62" y="53" />
+		<bitmapData resourceLink="asset.game.power.ShootMsg" x="228" y="39" />
+		<bitmapData resourceLink="asset.game.SoulState.Back" y="13" />
+		<bitmapData resourceLink="asset.game.prop.SoulCustomBack" x="1" />
+		<bitmapData resourceLink="asset.game.ghost.msg2" x="-100" />
+		<bitmapData resourceLink="asset.game.PsychicBar.LockScreen" x="38" y="-19" />
+		<bitmapData resourceLink="asset.game.tryagain.text" x="170" y="164" />		
+		
+		<bitmapData resourceLink="asset.game.onlyLockIcon" x="6" y="7"/>
+		<bitmapData resourceLink="asset.game.losingStreakIcon" x="0" y="0"/>
+	</bitmaps>
+</style>

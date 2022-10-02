@@ -1,0 +1,11 @@
+﻿<RootMenu>
+    <List Name="Convert Map" Script="tb_showMiniPanel();"/>
+    <List Name="Convert Bomb" Script="tb_showMiniPanel();"/>   
+    <List Name="NPC Info" Script="tb_showMiniPanel();"/>
+    <List Name="Phó bản" Script="tb_showMiniPanel();"/>
+    <List Name="Nhiệm vụ" Script="tb_showMiniPanel();"/>
+    <List Name="Resource" Script="tb_showMiniPanel();"/>
+	<List Name="XML Tool" Script="tb_showMiniPanel();"/>
+    <List Name="Server Maps" Script="tb_showMiniPanel();"/>
+
+</RootMenu>

@@ -1,0 +1,391 @@
+<style name="room" version="1.0.1" source="ui/spain/swf/room.swf">
+	<sets>
+		<set stylename="asset.room.goldGF" args="0x5F3D0E,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.goldTF" args="Arial,14,0xFFFF00,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomIDGF" args="0xFFDEA2,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.timeTextGF" args="0xFFEC91,1,5,5,1000" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.roomIDTF" args="Arial,38,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.chanelGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.chanelTF" args="Arial,14,0xFFFFFF,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomNameGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.roomNameTF" args="Arial,14,0xFFFF00,true" type="flash.text.TextFormat"/>
+		<set stylename="room.MapDescriptionTF" args="Arial,12,0x0000" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomDesTF" args="Arial,12,0xF9ECA2" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomPlayerItemNameTF" args="Arial,14,0xFFFFFF" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomPlayerItemNameGF" args="0x000000,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.roomPlayerItemGNameTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomPlayerItemGNameGF" args="0xFFFFFF,1,2,2,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.mapLevelRangeTF" args="Arial,16,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.mapLevelRangeGF" args="0xFFFFFF,1,4,4,5" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.room.timeTextTF" args="Arial,38,0xFFCC66,true" letterSpacing='6' type="flash.text.TextFormat"/>
+		
+		<set stylename="asset.room.roomDesTF01" args="Arial,18,0xFE982C,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomDesTF02" args="Arial,16,0xFE4E00,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomDesTF03" args="Arial,16,0x0074BD,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomDesTF04" args="Arial,16,0x4E2D00,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.roomDesTF05" args="Arial,24,0xFFFF00,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.room.GlowFilter01" args="0x441F0B,1,2,2,100" type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	<sets name="3.0 新增">
+		<set stylename="roomLoading.CharacterItemNameTF" args="Arial,16,0xFFFFFF,bold" type="flash.text.TextFormat"/>
+		<set stylename="roomLoading.CountDownNumTF" args="Arial Black,64,0xFFFFFF,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="roomLoading.CharacterItemLoadingRedTF" args="Arial,22,0xFF0000" type="flash.text.TextFormat"/>
+		<set stylename="roomLoading.CharacterItemLoadingBlueTF" args="Arial,22,0x0000FF" type="flash.text.TextFormat"/>
+		<set stylename="roomLoading.CharacterItemPercentageRedTF" args="Arial,22,0xFF0000" align="right" type="flash.text.TextFormat"/>
+		<set stylename="roomLoading.CharacterItemPercentageBlueTF" args="Arial,22,0x0000FF" align="right" type="flash.text.TextFormat"/>
+		<set stylename="roomLoading.TipsItemContentTF" args="Arial,14,0xFFFFFF,,,,,,center" leading="8" type="flash.text.TextFormat"/>
+		
+		<set stylename="roomLoading.CharacterItemNameFilter" args="0x000000,1,3,3,4" type="flash.filters.GlowFilter"/>
+		<set stylename="roomLoading.CountDownNumFilter" args="0xFF0000,1,12,12,2" type="flash.filters.GlowFilter"/>
+		<set stylename="roomLoading.CharacterItemLoadingFilter" args="0xFFFFFF,1,4,4,5" type="flash.filters.GlowFilter"/>
+		<set stylename="roomLoading.TipsItemContentFilter" args="0x000000,1,5,5,3.5" type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	<sets>
+		<set stylename="room.ViewerItemNameTxtTF" args="Arial,12,0xFFFFFF,blod" type="flash.text.TextFormat" />
+		<set stylename="room.ViewerItemNameTxtFilter" args="0x000000,1,3,3,4" type="flash.filters.GlowFilter"/>
+		 <set stylename="room.view.roomView.SingleRoomView.nickNameText.tf" args="Arial,14,0xffecb9,true" type="flash.text.TextFormat"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.nickNameText.gf" args="0x281800,1,2,2,10" type="flash.filters.GlowFilter"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.guildTitle.tf" args="微软雅黑,14,0x000000,true" type="flash.text.TextFormat"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.guildTitle.gf" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.guildName.tf" args="Arial,14,0xffffff,true" type="flash.text.TextFormat"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.guildName.gf" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.explainText.tf" args="Arial,12,0xf4f3e3,true,,,,,left" leading="8" type="flash.text.TextFormat"/>  
+	    <set stylename="room.view.roomView.SingleRoomView.explainText.gf" args="0x987f43,1,2,2,10,1" type="flash.filters.GlowFilter"/>  
+		<set stylename="asset.ddtroom.playerItem.petLevelTxtTF" args="Arial,12,0xfee691,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="asset.ddtroom.playerItem.petLevelTxtGF" args="0x5e3f19,1,4,4,30" type="flash.filters.GlowFilter"/>
+		<!-- Hung ADD -->
+		<set type="flash.text.TextFormat" stylename="room.mapItem.recommendTF" args="Arial,12,0xfff000"/>
+		<set type="flash.filters.GlowFilter" stylename="room.mapItem.recommendGF" args="0x752100,1,4,4,30"/>
+		<set stylename="asset.ddtroom.TF11" args="Arial,14,0xebff97,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.ddtroom.GF10" args="0x273700,1,4,4,10" type="flash.filters.GlowFilter"/>
+		<set stylename="asset.ddtroom.TF14" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>
+		<set stylename="asset.ddtroom.GF3" args="0xffffff,1,4,4,30" type="flash.filters.GlowFilter"/>
+	</sets>
+	
+	<customDisplay>
+		<!--RoomPrivateView-->
+		<custom classname="ddt.view.common.LevelIcon" stylename="roomPlayerItemLevelIcon" x="132" y="21"/>
+		<custom classname="ddt.view.common.VipLevelIcon" stylename="asset.room.VipIcon"/>
+		<custom classname="room.view.RoomRightPropView" stylename="asset.room.roomPropView" x="762" y="15"/>
+		<custom classname="flash.display.Sprite" stylename="asset.room.view.smallMapInfoPanel.smallMapContainer" x="10" y="17"/>
+		<custom classname="flash.display.Sprite" stylename="room.characterContainer" x="6" y="26"/>
+		<custom classname="flash.display.Sprite" stylename="asset.room.chooseDungeonTitle" x="313" y="127"/>
+		<custom classname="flash.display.Sprite" stylename="asset.room.chooseDungeonPreView" x="13" y="129"/>
+		<custom classname="flash.display.Sprite" stylename="asset.room.playerItemClickArea" x="4" y="24" alpha="0"/>
+		<custom classname="flash.display.Sprite" stylename="asset.room.bigMapIconContainer" x="11" y="16"/>
+		<custom classname="flash.display.Sprite" stylename="asset.room.smallMapTitleContainer" x="12" y="18"/>
+		<custom classname="room.view.roomView.startBtnAsset" scaleX="0.95" scaleY="0.95" stylename="room.startButton" x="901" y="426"/>
+		<custom classname="room.view.roomView.prepBtnAsset" stylename="room.prepButton" x="899" y="416"/>
+		<custom classname="room.view.bigMapInfoPanel.MatchRoomBigMapInfoPanel" stylename="room.matchRoomBigMapInfoPanel" x="418" y="5"/>
+		<custom classname="room.view.bigMapInfoPanel.DungeonBigMapInfoPanel" stylename="room.dungeonBigMapInfoPanel" x="418" y="5"/>
+		<custom classname="room.view.bigMapInfoPanel.MissionRoomBigMapInfoPanel" stylename="room.missionBigMapInfoPanel" x="418" y="5"/>
+		<custom classname="room.view.smallMapInfoPanel.MatchRoomSmallMapInfoPanel" stylename="room.matchRoomSmallMapInfoPanel" x="505" y="425"/>
+		<custom classname="room.view.smallMapInfoPanel.DungeonSmallMapInfoPanel" stylename="room.dungeonSmallMapInfoPanel" x="505" y="425"/>
+		<custom classname="room.view.smallMapInfoPanel.MissionRoomSmallMapInfoPanel" stylename="room.missionSmallMapInfoPanel" x="505" y="425"/>
+		<custom classname="room.view.chooseMap.DungeonChooseMapView" stylename="room.dungeonChooseMapView" x="0" y="5"/>
+		<custom classname="ddt.view.SelectStateButton" stylename="asset.room.view.bigMapInfoPanel.freeModeButton" x="6" y="295"/>
+		<custom classname="ddt.view.SelectStateButton" stylename="asset.room.view.bigMapInfoPanel.guildModeButton" x="166" y="301"/>
+		<custom classname="ddt.view.FaceContainer" stylename="asset.room.playerItemFace" x="0" y="100"/>
+		
+		<custom classname="ddt.view.ShineSelectButton" stylename="asset.room.easyButton" selectedStyle="asset.room.easyBtnSelectedAsset" unSelectedStyle="asset.room.easyBtnAsset" filterString="null,null,null,grayFilter" x="0" y="434"/>
+		<custom classname="ddt.view.ShineSelectButton" stylename="asset.room.normalButton" selectedStyle="asset.room.normalBtnSelectedAsset" unSelectedStyle="asset.rrom.normalBtnAsset"  filterString="null,null,null,grayFilter" x="0" y="434"/>
+		<custom classname="ddt.view.ShineSelectButton" stylename="asset.room.diffButton" selectedStyle="asset.room.diffBtnSelectedAsset" unSelectedStyle="asset.room.diffBtnAsset" filterString="null,null,null,grayFilter" x="0" y="434"/>
+		<custom classname="ddt.view.ShineSelectButton" stylename="asset.room.heroButton" selectedStyle="asset.room.heroBtnSelectedAsset" unSelectedStyle="asset.room.heroBtnAsset" x="0"  filterString="null,null,null,grayFilter" y="434"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="ddt.dungeonRoom.bossBtn" parentStyle="core.selectedCheck2" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" tipGapV="4" tipGapH="6" width="180" height="30" x="546" y="101" />
+		<custom classname="ddt.command.StripTip" stylename="ddt.dungeonRoom.bossBtnStrip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" width="180" height="30" x="0" y="2" tipWidth="175" tipGapV="5" />
+		<custom classname="flash.geom.Point" stylename="ddt.dungeonRoom.bossBtnStripPos" x="403" y="104" />
+		
+		
+		<custom classname="room.view.chooseMap.DungeonChooseMapFrame" backStyle="SimpleFrameBackgound" stylename="asset.room.dungeonChooseMapFrame" closestyle="core.closebt" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="0,6,1" containerX="10" containerY="31" width="610" height="582" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1"/>
+		<custom classname="ddt.view.common.MarriedIcon" stylename="asset.room.MarriedIcon" tipStyle="ddt.view.tips.MarriedTip" 	tipDirctions="7" tipGapV="5" tipGapH="5" x="0" y="0" />
+
+		
+		<custom classname="flash.geom.Rectangle" stylename="asset.roomLoading.figureRect" x="0" y="0" width="78" height="78"/>
+		<custom classname="flash.geom.Rectangle" stylename="asset.dropList.cellRect" x="3" y="3" width="43" height="43"/>
+		<custom classname="flash.geom.Rectangle" stylename="asset.dropList.scrollPanelRect" x="204" y="97" width="58" height="165"/>
+		<custom classname="flash.geom.Rectangle" stylename="asset.chooseMapView.rect" x="0" y="0" width="192" height="71"/>
+		<custom classname="flash.geom.Rectangle" stylename="asset.chooseMapView.rect1" x="0" y="0" width="260" height="70"/>
+		<custom classname="flash.geom.Rectangle" stylename="asset.smallInfoPanel.imageRect" x="0" y="0" width="223" height="90"/>
+		<custom classname="flash.geom.Rectangle" stylename="asset.roomPlayerItem.hitRect" x="0" y="0" width="156" height="158"/>
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.figurePos1" x="-30" y="5"/>
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.figurePos2" x="-30" y="-25"/>
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.listPos" x="16" y="47"/>
+		<custom classname="flash.geom.Point" stylename="room.dropListPos1" x="12" y="309"/>
+		<custom classname="flash.geom.Point" stylename="room.dropListPos2" x="12" y="202"/>
+		<custom classname="flash.geom.Point" stylename="room.bossThumbnailHPPos" x="64" y="25"/>
+		<custom classname="flash.geom.Point" stylename="room.PlayerItemChatBallPos" x="110" y="100"/>
+		<custom classname="flash.geom.Point" stylename="room.chooseMap.mapListStartPos" x="4" y="4" />
+		<custom classname="flash.geom.Point" stylename="room.roomLoading.loadingPos" x="91" y="50" />
+		<custom classname="flash.geom.Point" stylename="room.dungeonRoom.listSpace" x="15" y="5" />
+		<custom classname="flash.geom.Point" stylename="room.matchRoom.listSpace" x="15" y="1" />
+		<custom classname="flash.geom.Point" stylename="room.roomPlayerItem.facePos" x="80" y="91" />
+		
+		<custom classname="flash.geom.Rectangle" stylename="room.levelBtnPos1" x="19" y="153" width="283" height="419"/>
+		<custom classname="flash.geom.Rectangle" stylename="room.levelBtnPos2" x="112" y="352" width="0" height="0"/>
+		<custom classname="flash.geom.Rectangle" stylename="room.levelBtnPos3" x="47" y="227" width="407" height="0"/>
+		<custom classname="flash.geom.Rectangle" stylename="room.roomDescriptionTxtBg" x="285" y="27" width="285" height="60"/>
+		
+		<!--道具商店的TIP-->
+		<custom classname="ddt.command.StripTip" stylename="room.upRightPropTip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,2,7,3,4" width="200" height="23" x="16" y="73"/>
+		<custom classname="ddt.command.StripTip" stylename="room.downRightPropTip" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,2,7,3,4" width="200" height="23" x="16" y="170"/>
+
+		<!--upCellsContainer-->
+		<custom classname="com.pickgliss.ui.controls.container.HBox" stylename="room.upCellsContainer" x='27' y='105' spacing='32'/>
+		<!--downCellsContainer-->
+		<custom classname="com.pickgliss.ui.controls.container.SimpleTileList" stylename="room.downCellsContainer" x='21' y='195' hSpace='12' vSpace='16'/>
+		
+		<custom classname="ddt.view.academyCommon.academyIcon.AcademyIcon" stylename="room.roomPlayerItem.AcademyIcon" tipStyle="ddt.view.academyCommon.academyIcon.AcademyIconTip" tipDirctions="7,6" tipGapV="5" tipGapH="5" x="-4" y="0" />
+		<custom classname="flash.geom.Point" stylename="asset.ddtroom.playerItem.petHeadFramePos" x="120" y="135"/>
+		<custom classname="flash.geom.Point" stylename="assets.ddtroom.roomPlayerItemPetPos" x="120" y="135"/>
+	</customDisplay>
+	<customDisplay name="3.0新增">
+		<custom classname="roomLoading.view.RoomLoadingVersusItem" stylename="roomLoading.VersusItem" x="473" y="205"/>
+		<custom classname="roomLoading.view.RoomLoadingCountDownNum" stylename="roomLoading.CountDownItem" x="469" y="351"/>
+		<custom classname="roomLoading.view.RoomLoadingBattleFieldItem" stylename="roomLoading.BattleFieldItem" x="486" y="438"/>
+		<custom classname="roomLoading.view.RoomLoadingTipsItem" stylename="roomLoading.TipsItem" x="797" y="438"/>
+		<custom classname="roomLoading.view.RoomLoadingViewerItem" stylename="roomLoading.ViewerItem" x="797" y="438"/>
+		<custom classname="roomLoading.view.RoomLoadingDungeonMapItem" stylename="roomLoading.DungeonMapItem" x="646" y="19"/>
+		
+		<custom classname="ddt.view.common.MarriedIcon" stylename="roomLoading.CharacterMarriedIcon" tipStyle="ddt.view.tips.MarriedTip" 	tipDirctions="7,6" tipGapV="5" tipGapH="5"/>
+		<custom classname="ddt.view.academyCommon.academyIcon.AcademyIcon" stylename="roomLoading.CharacterAcademyIcon" tipStyle="ddt.view.academyCommon.academyIcon.AcademyIconTip" tipDirctions="7,6" tipGapV="5" tipGapH="5" x="-4"/>
+		
+		<custom classname="flash.geom.Point" stylename="roomLoading.CharacterItemIconStartPos" x="127" y="35" />
+		<custom classname="flash.geom.Point" stylename="roomLoading.BattleFieldItemMapPos" x="6" y="34" />
+		<custom classname="flash.geom.Point" stylename="roomLoading.BattleFieldItemNamePos" x="10" y="111" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.LoadingOKStartPos" x="270" y="100" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.DungeonMapLoaderPos" x="4" y="3" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.HexagramPos" x="19" y="49" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.VersusAnimationPos" x="16" y="-31" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_1_1" x="105" y="122" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_2_1" x="10" y="122" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_2_2" x="186" y="122" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_3_1" x="10" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_3_2" x="186" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_3_3" x="105" y="225" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_4_1" x="10" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_4_2" x="186" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_4_3" x="10" y="225" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBluePos_4_4" x="186" y="225" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_1_1" x="738" y="122" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_2_1" x="643" y="122" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_2_2" x="819" y="122" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_3_1" x="643" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_3_2" x="819" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_3_3" x="738" y="225" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_4_1" x="643" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_4_2" x="819" y="12" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_4_3" x="643" y="225" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedPos_4_4" x="819" y="225" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBlueFromPos_1" x="-400" y="-150" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBlueFromPos_2" x="-220" y="-150" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBlueFromPos_3" x="-400" y="370" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemBlueFromPos_4" x="-2200" y="370" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedFromPos_1" x="1220" y="-150" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedFromPos_2" x="1400" y="-150" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedFromPos_3" x="1220" y="370" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.CharacterItemRedFromPos_4" x="1400" y="370" />
+	</customDisplay>
+	
+	<customDisplay name="3.1新增">
+		<custom classname="flash.geom.Point" stylename="asset.room.ViewerItemPortraitPos" x="8" y="2" />
+		<custom classname="flash.geom.Point" stylename="asset.matchroom.ViewerItemPos" x="798" y="367" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.ViewerItemPos_0" x="16" y="38" />
+		<custom classname="flash.geom.Point" stylename="asset.roomLoading.ViewerItemPos_1" x="16" y="92" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.challengeroom.ViewerItemPos_0" x="773" y="367" />
+		<custom classname="flash.geom.Point" stylename="asset.challengeroom.ViewerItemPos_1" x="885" y="367" />
+		
+		<custom classname="flash.geom.Point" stylename="asset.DungeonRoom.OkbtnPos" x="255" y="508"/>
+	</customDisplay>
+	
+	<components>
+	<!-- Hung Add -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.mapItem.recommend.text" 
+			textFormatStyle="room.mapItem.recommendTF" filterString="room.mapItem.recommendGF" x="1" y="32"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtroom.smallMap.fightTxt" textFormatStyle="asset.ddtroom.TF11" filterString="asset.ddtroom.GF10" x="23" y="59"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtroom.smallMap.fightNumTxt" textFormatStyle="asset.ddtroom.TF14" filterString="asset.ddtroom.GF3" x="97" y="59"/>
+	
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.ddtroom.playerItem.petLevelTxt" textFormatStyle="asset.ddtroom.playerItem.petLevelTxtTF" filterString="asset.ddtroom.playerItem.petLevelTxtGF"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.roomLoadingPlayerItem.iconContainer" x="127" y="75" spacing="4"/>
+		
+		<!--Text-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomIDText" textFormatStyle="asset.room.roomIDTF" filterString="asset.room.roomIDGF" x="77" y="-10" width="72" height="46"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomChanelNameText" textFormatStyle="asset.room.chanelTF" filterString="asset.room.chanelGF" x="154" y="19" width="70" height="20"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomNameText" textFormatStyle="asset.room.roomNameTF" filterString="asset.room.roomNameGF" x="118" y="43" width="225" height="20" autoSize="center"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomGoldText" textFormatStyle="asset.room.goldTF" filterString="asset.room.goldGF" x="190" y="361" width="104" height="20" autoSize="right"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.timeTxt" textFormatStyle="asset.room.timeTextTF" filterString="room.timeTextGF" x="178" y="330" width="173" height="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.playerItemNameTxt" textFormatStyle="asset.room.roomPlayerItemNameTF" filterString="asset.room.roomPlayerItemNameGF" autoSize="none" width="106" height="20" x="5" y="4" isAutoFitLength="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.playerItemGuildNamtTxt" textFormatStyle="asset.room.roomPlayerItemGNameTF" filterString="asset.room.roomPlayerItemGNameGF" width="101" height="20" x="45" y="26"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomloading.nameTxt" textFormatStyle="frameTitleIITF" filterString="roomLoadingNameGF" width="101" height="20" x="93" y="11"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomloading.progressTxt" textFormatStyle="roomloading.progressTF" filterString="P_g5" width="66" height="35" x="190" y="40"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomloading.timerTxt" textFormatStyle="roomloading.timerTF" filterString="asset.room.timeTextGF" width="150" height="101" x="795" y="460"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="asset.room.dungeonRoomModeDesTxt" textFormatStyle="asset.room.roomDesTF"  width="285" height="34" x="285" y="36"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assest.room.dungeonChooseMapDesTxt" textFormatStyle="room.MapDescriptionTF" wordWrap="true" type="dynamic" mouseEnabled="false"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="assest.room.levelRangeTxt" textFormatStyle="asset.room.mapLevelRangeTF" filterString="asset.room.mapLevelRangeGF" wordWrap="false" type="dynamic" mouseEnabled="false" x="202" y="21" width="45" height="22" autoSize="center"/>
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="asset.roomPlayerItem.iconContainer" x="134" y="52" spacing="4"/>
+		
+		<!--Image-->
+		<component classname="com.pickgliss.ui.controls.alert.BaseAlerFrame" stylename="room.MatchRoomSetView" parentStyle="BaseFrame" containerX="10" containerY="31"  width="320" height="228" titleOuterRectPosString="0,6,1"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.MatchRoomSetViewBg" parentStyle="asset.room.chooseMapBaseBg"  width="297" height="100" x="1" y="42"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.chooseMapBaseBg" resourceLink="asset.core.ChooseMapBg_1,asset.core.ChooseMapBg_2,asset.core.ChooseMapBg_3,asset.core.ChooseMapBg_4,asset.core.ChooseMapBg_5,asset.core.ChooseMapBg_6,asset.core.ChooseMapBg_7,asset.core.ChooseMapBg_8,asset.core.ChooseMapBg_9" />
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.room.view.RoomPlayerItemRedBG" resourceLink="asset.room.view.roomPlayerItemRedBGAsset" width="170" height="190" imageRectString=",7|31|25|18|13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.room.view.RoomPlayerItemYellowBG" resourceLink="asset.room.view.roomPlayerItemYellowBGAsset" width="170" height="190" imageRectString=",7|31|25|18|13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.room.view.RoomPlayerItemBlueBG" resourceLink="asset.room.view.roomPlayerItemBlueBGAsset" width="170" height="190" imageRectString=",7|31|25|18|13"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.roomLoading.timerBg" resourceLink="asset.roomLoading.rightDownBg,asset.roomLoading.roomLoadingTimerAsset" width="456" height="160" imageRectString=",150|100|57|38|13" x="510" y="434"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.room.view.RoomPlayerItemGBAsset" resourceLink="asset.room.view.roomPlayerItemWaitBGAsset,asset.room.view.roomPlayerItemCloseBGAsset,asset.room.view.RoomPlayerItemBlueBG,asset.room.view.RoomPlayerItemRedBG,asset.room.view.RoomPlayerItemYellowBG" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.room.view.RoomPlayerSignalAsset" resourceLink="asset.room.view.roomSignalGreenAsset,asset.room.view.roomSignalYellowAsset,asset.room.view.roomSignalRedAsset" x="150" y="167"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.room.view.RoomPlayerSignalExplainAsset" resourceLink="asset.room.view.roomSignalGoodAsset,asset.room.view.roomSignalCommonAsset,asset.room.view.roomSignalBadAsset" x="121" y="139"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.room.view.smallMapInfoPanel.secondsAsset" resourceLink="asset.room.view.smallMapInfoPanel.5secondsAsset,asset.room.view.smallMapInfoPanel.7secondsAsset,asset.room.view.smallMapInfoPanel.10secondsAsset,asset.room.view.smallMapInfoPanel.15secondsAsset" x="43" y="85"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.room.view.bigMapInfoPanel.gameModeIcon" resourceLink="asset.room.view.bigMapInfoPanel.freeModeIconAsset,asset.room.view.bigMapInfoPanel.guildModeIconAsset,asset.room.view.bigMapInfoPanel.eliteGameIconAsset" x="39" y="339"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="asset.room.diffAsset" resourceLink="asset.room.easyTxtAsset,asset.room.normalTxtAsset,asset.room.hardTxtAsset,asset.room.heroTxtAsset" x="79" y="85"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.roomBg" resourceLink="room.leftTopAsset,room.topCenterAsset,room.rightTopAsset,room.leftCenterAsset,room.centerAsset,room.rightCenterAsset,room.leftBottomAsset,room.bottomCenterAsset,room.rightBottomAsset"  width="408" height="425" x="8" y="5"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.dungeonChooseMapViewBg" parentStyle="asset.room.chooseMapBaseBg" width ="588" height="497" y="-2"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.dungeonChooseMapBgTop" parentStyle="core.scale9CornerImage1"  width="570" height="80" x="8" y="18"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.dungeonChooseMapBgCenter" parentStyle="core.scale9CornerImage1"  width="570" height="290" x="8" y="118"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.dungeonChooseMapBgBottom" parentStyle="core.scale9CornerImage1"  width="570" height="60" x="8" y="425"/>
+		<component classname="com.pickgliss.ui.image.ScaleUpDownImage" stylename="asset.room.dropListBg" resourceLink="asset.room.dropListBgTopAsset,asset.room.dropListBgCenterAsset,asset.room.dropListBgBottomAsset" x="0" y="0" width="311" height="97"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.room.mapBg" resourceLink="asset.Dungeon.MapBg_01,asset.Dungeon.MapBg_02,asset.Dungeon.MapBg_03,asset.Dungeon.MapBg_04,asset.Dungeon.MapBg_05,asset.Dungeon.MapBg_06,asset.Dungeon.MapBg_07,asset.Dungeon.MapBg_08,asset.Dungeon.MapBg_09"  width="570" height="138" x="10" y="275"/>
+		
+		<!--Button-->
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.view.RoomPlayerItem.ViewInfoButton" backStyle="asset.room.view.roomViewInfoButtonAsset" useLogID="56" x="131" y="5" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.view.RoomPlayerItem.addFriendButton" backStyle="asset.room.view.roomAddFriendAsset" useLogID="55" x="110" y="3" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.view.RoomPlayerItem.kickOutButton" backStyle="asset.room.view.roomKickOutButtonAsset" useLogID="57" x="150" y="5" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.view.smallMapInfoPanel.roomSmallMapInfoPanelButtton" backStyle="asset.room.view.smallMapInfoPanel.roomSmallMapInfoPanelBtnAsset" x="183" y="59"  tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.cancelButton" scaleX="0.75" scaleY="0.75" backStyle="asset.room.cancelBtnAsset" x="901" y="420"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.inviteButton" backStyle="asset.room.inviteBtnAsset" useLogID="58"  x="761" y="453"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="asset.room.selectDungeonButton" backStyle="asset.room.selectDungeonAsset" x="36" y="43" filterString="null,null,null,null"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.room.crossZoneButton" selectedStyle="asset.room.crossZoneBtnAsset" unSelectedStyle="asset.room.localZoneBtnAsset" useLogID="59" filterString="null,lightFilter,null,grayFilter" x="825" y="451"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.room.dungeonModeButton" selectedStyle="asset.room.dungeonModeSelectedAsset" unSelectedStyle="asset.room.dungeonModeAsset" filterString="null,null,null,null" x="12" y="26"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="asset.room.bossModeButton" selectedStyle="asset.room.boosModeAsset" unSelectedStyle="asset.room.boosModeAsset" filterString="null,null,null,grayFilter" x="123" y="26"/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="asset.room.dungeonChooseMapButton" backStyle="core.simplebtbg" textStyle="SimpleButtonTextStyle" backgoundInnerRectString="18,18,4,4,-1" filterString="null,lightFilter,null,grayFilter" x="443" y="508"/>
+		
+		<!-- Frame -->
+		
+		<!--scrollPanel-->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="asset.room.dungeonMapSetScrollPanel"  parentStyle="core.ScrollPanel" x="10" y="283" width="563" height="118"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="asset.room.dropListPanel"  parentStyle="core.ScrollPanel" x="16" y="36" width="280" height="54"/>
+		
+		<!--textArea-->
+		<component classname="com.pickgliss.ui.text.TextArea" stylename="asset.room.dungeonChooseMapDes" parentStyle="core.SimpleTextArea" textStyle="assest.room.dungeonChooseMapDesTxt" x="313" y="156" width="254" height="80" />
+		
+		<!--简单波谷通关提示-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuTip" textFormatStyle="asset.room.roomDesTF01" filterString="asset.room.GlowFilter01" x="6" y="2" width="374" height="28"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuNewEnemy" textFormatStyle="asset.room.roomDesTF02" filterString="asset.room.roomPlayerItemGNameGF" x="6" y="39" width="104" height="26"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuBoss" textFormatStyle="asset.room.roomDesTF05" filterString="asset.room.roomNameGF" x="122" y="177" autoSize="center" width="148" height="36"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuMoreGoods" textFormatStyle="asset.room.roomDesTF03" filterString="asset.room.roomPlayerItemGNameGF" x="6" y="219" width="104" height="26"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuGoodsI" textFormatStyle="asset.room.roomDesTF04" x="9" y="318" autoSize="center" width="104" height="26"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuGoodsII" parentStyle="room.BoGuGoodsI" x="104"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuGoodsIII" parentStyle="room.BoGuGoodsI"  x="198"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.BoGuGoodsIV" parentStyle="room.BoGuGoodsI"  x="288"/>
+		<component classname="room.view.RoomDupSimpleTipFram" stylename="room.RoomDupSimpleTipFram"  backStyle="SimpleFrameBackgound" parentStyle="BaseFrame" containerX="10" containerY="35" width="420" height="430"/>
+		<!--副本预热-->
+	<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="room.PreviewScrollPanel"
+		parentStyle="core.ScrollPanel"  
+		width='500' height='376'  vUnitIncrement="5" x="9" y="32"/>
+		<component classname="room.view.chooseMap.PreviewAlertFrame" stylename="room.FifthPreview"  backStyle="SimpleFrameBackgound" parentStyle="BaseFrame" width="520" height="460" y="50" x="240" />
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="room.PreviewBtn" parentStyle='core.simplebt'
+		x='220' y='418'/>
+	</components>
+	
+		<components name="3.0新增">
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.CharacterItemNameTxt" textFormatStyle="roomLoading.CharacterItemNameTF" filterString="roomLoading.CharacterItemNameFilter" autoSize="none" isAutoFitLength="true" width="150" x="13" y="10"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.CharacterItemLoadingRedTxt" textFormatStyle="roomLoading.CharacterItemLoadingRedTF" filterString="roomLoading.CharacterItemLoadingFilter" x="11" y="169"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.CharacterItemLoadingBlueTxt" textFormatStyle="roomLoading.CharacterItemLoadingBlueTF" filterString="roomLoading.CharacterItemLoadingFilter" x="11" y="169"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.CharacterItemPercentageRedTxt" textFormatStyle="roomLoading.CharacterItemPercentageRedTF" filterString="roomLoading.CharacterItemLoadingFilter" autoSize="none" width="60" x="100" y="169"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.CharacterItemPercentageBlueTxt" textFormatStyle="roomLoading.CharacterItemPercentageBlueTF" filterString="roomLoading.CharacterItemLoadingFilter" autoSize="none" width="60" x="100" y="169"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.CountDownNumTxt" textFormatStyle="roomLoading.CountDownNumTF" autoSize="none" width="100" height="94" filterString="roomLoading.CountDownNumFilter"/>
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="roomLoading.TipsItemContentTxt" textFormatStyle="roomLoading.TipsItemContentTF" filterString="roomLoading.TipsItemContentFilter" autoSize="none" width="167" multiline="true" wordWrap="true" x="12" y="47"/>
+			
+			<!-- 勇士竞技副本优化 -->  
+		    <custom classname="room.view.RoomTicketView" stylename="asset.warriorsArena.ticketView" visible="false" x="110" y="261"/>  
+		    <component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="asset.warriorsArena.Bg" parentStyle="core.GoodsTipBg" width="201" height="51"/>  
+		    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.warriorsArena.buyButton.MutipleImage" resourceLink="asset.warriorsArena.buyButton.Bg,asset.warriorsArena.buyButton.Text" imageRectString="0|93|0|39|13,0|93|0|39|13"/>  
+		    <component classname="com.pickgliss.ui.image.MutipleImage" stylename="asset.warriorsArena.giftButton.MutipleImage" resourceLink="asset.warriorsArena.giftButton.Bg,asset.warriorsArena.giftButton.Text" imageRectString="0|93|0|39|13,0|93|0|39|13"/>  
+		    <component classname="com.pickgliss.ui.controls.IconButton" stylename="asset.warriorsArena.buyButton" backStyle="asset.warriorsArena.buyButton.MutipleImage" x="8" y="7"/>  
+		    <component classname="com.pickgliss.ui.controls.IconButton" stylename="asset.warriorsArena.giftButton" backStyle="asset.warriorsArena.giftButton.MutipleImage" x="102" y="7" filterString="null,lightFilter,null,grayFilter"/>  
+		    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.view.roomView.SingleRoomView.guildTitle" textFormatStyle="room.view.roomView.SingleRoomView.guildTitle.tf" filterString="room.view.roomView.SingleRoomView.guildTitle.gf" autoSize="none" width="60" height="22" x="41" y="85"/>  
+		    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.view.roomView.SingleRoomView.guildName" textFormatStyle="room.view.roomView.SingleRoomView.guildName.tf" filterString="room.view.roomView.SingleRoomView.guildName.gf" x="84" y="86" width="110" height="20"/>  
+		    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="room.view.roomView.SingleRoomView.modelTitle1" resourceLink="asset.room.singleRoom.txt1" x="37" y="374"/>  
+		    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="room.view.roomView.SingleRoomView.cancelBtn" backStyle="asset.room.view.roomView.SingleRoomView.cancelBtn" useLogID="57" x="286" y="386"/>  
+		    <!--component classname="com.pickgliss.ui.text.FilterFrameText" stylename="league.restCount.tipTxt" textFormatStyle="league.restCount.tipTxt.tf" filterString="league.restCount.tipTxt.gf" autoSize="none" width="190" height="35" x="782" y="414" multiline="true" wordWrap="true"/-->  
+		    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="room.view.roomView.SingleRoomView.modelTitle2" resourceLink="asset.room.singleRoom.txt2" x="296" y="299"/>  
+		    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="room.view.roomView.SingleRoomView.cancelBtn2" backStyle="asset.room.view.roomView.SingleRoomView.cancelBtn2" useLogID="57" x="296" y="389"/>  
+		    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.view.roomView.SingleRoomView.explainText" textFormatStyle="room.view.roomView.SingleRoomView.explainText.tf" filterString="room.view.roomView.SingleRoomView.explainText.gf" autoSize="none" width="231" height="54" wordWrap="true" x="40" y="409"/>  
+		    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.view.roomView.SingleRoomView.timeTxt" textFormatStyle="asset.ddtroom.TF4" filterString="asset.ddtroom.GF4" x="380" y="314" width="173" height="40"/>  
+		    <component classname="com.pickgliss.ui.controls.container.VBox" stylename="room.view.roomView.SingleRoomView.iconContainer" x="241" y="145" spacing="4"/>  
+		    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomLoading.encounter.EncounterLoadingCharacterItem.sexIcon" x="40" y="227" resourceLink="asset.EncounterLoadingView.sex1,asset.EncounterLoadingView.sex2"/>  
+		    <component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="roomLoading.EncounterLoadingView.arrow" x="225" y="160" resourceLink="asset.EncounterLoadingView.arrow1,asset.EncounterLoadingView.arrow2"/>  
+		    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.view.roomView.SingleRoomView.nickNameText" textFormatStyle="room.view.roomView.SingleRoomView.nickNameText.tf" filterString="room.view.roomView.SingleRoomView.nickNameText.gf" autoSize="none" width="104" height="22" isAutoFitLength="true" x="40" y="58"/>
+					
+		</components>
+		
+		<components name="3.1 新增">
+			<component classname="com.pickgliss.ui.image.ScaleLeftRightImage" stylename="room.ViewerItemBg" resourceLink="asset.room.ViewerBgLeft,asset.room.ViewerBgMiddle,asset.room.ViewerBgRight" width="100" height="50" />
+			<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="room.ViewerItemNameTxt" textFormatStyle="room.ViewerItemNameTxtTF" filterString="room.ViewerItemNameTxtFilter" autoSize="none" isAutoFitLength="true" x="56" y="23" width="110" height="20" />
+		</components>
+		
+	<bitmaps>
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemBlueBGAsset" x="0" y="0" width="170" height="190"/>
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemCloseBGAsset" x="0" y="0" width="170" height="190" />
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemRedBGAsset" x="0" y="0" width="170" height="190" />
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemWaitBGAsset" x="0" y="0" width="170" height="190" />
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemYellowBGAsset" x="0" y="0" width="170" height="190" />
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemHostAsset" x="10" y="158" />
+		<bitmapData resourceLink="asset.room.view.roomPlayerItemGuildTxtAsset" x="7" y="25" />
+		<bitmapData resourceLink="asset.room.view.smallMapInfoPanel.roomSmallMapInfoPanelTeamIconAsset" x="11" y="76" />
+		<bitmapData resourceLink="asset.room.view.bigMapInfoPanel.freeModeBtnAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.room.view.bigMapInfoPanel.guildModeBtnAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.room.view.bigMapInfoPanel.matchingTxtAsset" x="117" y="373" />
+		<bitmapData resourceLink="asset.roomLoading.roomLoadingMsgBdTitleAsset" x="585" y="44" />
+		<bitmapData resourceLink="asset.roomLoading.roomLoadingTimerAsset" x="0" y="0" />
+		<bitmapData resourceLink="asset.roomLoading.roomLodingTitleAsset" x="10" y="0" />
+		<bitmapData resourceLink="asset.roomLoading.OKIconAsset" x="163" y="24" />
+		<bitmapData resourceLink="asset.room.roomTypeAsset" x="20" y="2" />
+		<bitmapData resourceLink="asset.room.chooseDungeonAsset" x="20" y="100" />
+		<bitmapData resourceLink="asset.room.roomHardLevelAsset" x="20" y="410" />
+		<bitmapData resourceLink="asset.room.descriptionBgAsset" x="313" y="127" />
+		<bitmapData resourceLink="asset.room.mapItemSelectedAsset" x="-8" y="-8" />
+		<bitmapData resourceLink="asset.room.dropCellBgAsset" x="0" y="0" width="47" height="47"/>
+		<bitmapData resourceLink="asset.room.dropCellOverBgAsset" x="0" y="0"  width="47" height="47"/>
+		<bitmapData resourceLink="asset.room.dungeonModeSelectedAsset" x="-2" y="-6" />
+		<bitmapData resourceLink="asset.room.dungeonTxtAsset" x="58" y="64" />
+		<bitmapData resourceLink="asset.room.levelAsset" x="15" y="86" />
+		<bitmapData resourceLink="asset.room.levelRangeAsset" x="162" y="24" />
+		<bitmapData resourceLink="asset.room.modeAsset" x="15" y="64" />
+		<bitmapData resourceLink="asset.room.smallMapShineBgAsset" x="5" y="12" />
+		<bitmapData resourceLink="asset.roomLoading.blueBgAsset" x="-2" y="-2" />
+	</bitmaps>
+	
+	<bitmaps name="3.0改版新增">
+		<bitmapData resourceLink="asset.ddtroom.dungeonChoose.boss" x="-109" y="-1" />
+		<bitmapData resourceLink="asset.roomLoading.FieldNameBg" x="5" y="109" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_0" x="-131" y="70" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_1" x="-131" y="70" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_2" x="-131" y="70" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_7" x="-131" y="70" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_8" x="-182" y="54" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_12" x="-131" y="70" />
+		<bitmapData resourceLink="asset.roomLoading.GameMode_14" x="-131" y="70" />
+		<bitmapData resourceLink="asset.roomLoading.LoadingOK" x="92" y="161" /> 
+		<bitmapData resourceLink="asset.roomList.mode_04" x="290" y="25" /> 
+		
+	</bitmaps>
+		<bitmapData resourceLink="asset.room.ViewerHeadFigureFrame" x="3" y="3" /> 
+		
+	<bitmaps>
+		<bitmapData resourceLink="asset.roomList.mode_01" x="117" y="6" />
+		<bitmapData resourceLink="asset.room.view.bigMapInfoPanel.eliteGameBtnAsset" x="21" y="302" />
+	</bitmaps>
+</style>

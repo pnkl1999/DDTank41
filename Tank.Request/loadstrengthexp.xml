@@ -1,0 +1,18 @@
+<Result value="true" message="Success!">
+  <item Level="0" Exp="0" NecklaceStrengthExp="0" NecklaceStrengthPlus="0" />
+  <item Level="1" Exp="10" NecklaceStrengthExp="4500" NecklaceStrengthPlus="1" />
+  <item Level="2" Exp="50" NecklaceStrengthExp="15000" NecklaceStrengthPlus="3" />
+  <item Level="3" Exp="150" NecklaceStrengthExp="28000" NecklaceStrengthPlus="5" />
+  <item Level="4" Exp="350" NecklaceStrengthExp="48000" NecklaceStrengthPlus="8" />
+  <item Level="5" Exp="700" NecklaceStrengthExp="62000" NecklaceStrengthPlus="11" />
+  <item Level="6" Exp="1500" NecklaceStrengthExp="100000" NecklaceStrengthPlus="15" />
+  <item Level="7" Exp="2300" NecklaceStrengthExp="140000" NecklaceStrengthPlus="19" />
+  <item Level="8" Exp="3300" NecklaceStrengthExp="210000" NecklaceStrengthPlus="23" />
+  <item Level="9" Exp="4500" NecklaceStrengthExp="300000" NecklaceStrengthPlus="27" />
+  <item Level="10" Exp="6000" NecklaceStrengthExp="400000" NecklaceStrengthPlus="31" />
+  <item Level="11" Exp="7500" NecklaceStrengthExp="510000" NecklaceStrengthPlus="35" />
+  <item Level="12" Exp="9000" NecklaceStrengthExp="630000" NecklaceStrengthPlus="39" />
+  <item Level="13" Exp="15000" NecklaceStrengthExp="0" NecklaceStrengthPlus="0" />
+  <item Level="14" Exp="35000" NecklaceStrengthExp="0" NecklaceStrengthPlus="0" />
+  <item Level="15" Exp="75000" NecklaceStrengthExp="0" NecklaceStrengthPlus="0" />
+</Result>

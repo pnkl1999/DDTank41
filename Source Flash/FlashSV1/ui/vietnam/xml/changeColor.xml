@@ -1,0 +1,116 @@
+<style name="changeColor" version="1.0.1" source="ui/spain/swf/changeColor.swf">
+	<sets>
+	</sets>
+	<bitmaps>
+		<!--变色卡_左.png-->
+		<bitmapData resourceLink="asset.changeColor.leftViewBgImg"/>
+		<!--变色按钮.png-->
+		<bitmapData resourceLink="asset.changeColor.changeColorBtnImg"/>
+		<!--装备.png-->
+		<bitmapData resourceLink="asset.changeColor.text1Img"/>
+		<!--变色的装备Text.png-->
+		<bitmapData resourceLink="asset.changeColor.textImg"/>
+		<!--变色卡_发光框.png-->
+		<bitmapData resourceLink="asset.changeColor.textGlowImg"/>
+		
+	</bitmaps>
+	<components>	
+		<!--窗口-->
+		<component classname="changeColor.view.ChangeColorFrame" stylename="changeColor.ChangeColorFrame"
+			backStyle="core.bg006" width="820" height="500" parentStyle="BaseFrame"
+			titleStyle="FrameTitleTextStyle" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			containerX="20" containerY="40" titleOuterRectPosString="6,6,5" moveInnerRectString="0,30,0,30,1"
+			moveEnable="true" escEnable='true'  
+		/>
+		<!--右边背景-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename='changeColor.rightViewBg'
+			parentStyle="core.scale9cornerImageTree" 
+		/>
+		<!--右边变色按钮-->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="changeColor.changeColorBtn" 
+			backStyle="asset.changeColor.changeColorBtnImg"  
+			filterString="null,lightFilter,null,grayFilter" 
+		/>
+		<!-- 左边 -->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="LeftBack"
+		 parentStyle="core.scale9cornerImage4" width="408" height="372" x="10" y="68"/>
+		 
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="CharacterBack"
+			resourceLink="asset.changeColor.CharacterBack" width="374" height="213" x="26" y="85"
+			scaleGridString="6,27,23,141"/> 
+			
+			
+			
+		<custom classname="ddt.view.ColorEditor" stylename="changeColor.ColorEdit"/>
+	</components>
+	<!--提交问题坐标-->
+	<customs>
+		<!--左边背景坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.leftViewBgImgRec"
+			x="0"	 y="0"
+		/>
+		<!--左边人物坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.charaterRec"
+			x="10" y="115" 
+		/>
+		<!--左边改变物体颜色对象坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.colorEditCellRec"
+			x="39" y="312" 
+		/>
+		<!--左边颜色编辑器坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.colorEditorRec"
+			x="146" y="305" 
+		/>
+		<!--左边隐藏帽子按钮坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.hideHatRec"
+			x="300" y="255" 
+		/>
+		<!--左边隐藏眼镜按钮坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.hideGlassRec"
+			x="350" y="255"  
+		/>
+		<!--左边隐藏套装按钮坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.hideSuitRec"
+			x="300" y="275" 
+		/>
+		<!--左边隐藏翅膀按钮坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.hideWingRec"
+			x="350" y="275" 
+		/>
+		
+		<!--右边容器坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.rightViewRec"
+			x="430"	 y="0" 
+		/>
+		<!--右边背景坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.rightViewBgRec"
+			x="0"	 y="30"  width='345' height='410'  
+		/>
+		<!--右边装备文字坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.text1ImgRec" 
+			x="13" y="6"  
+		/>
+		<!--右边变色的装备文字坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.textImgRec"
+			x="72" y="14"  
+		/>
+		<!--右边变色的装备文字发光坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.textImgGlowRec"
+			x="65" y="11" width='185'
+		/>
+		<!--右边背包格子坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.bagListViewRec" 
+			x="12" y="50"  
+		/>
+		<!--右边变色按钮坐标-->
+		<custom classname="flash.geom.Rectangle" stylename="changeColor.changeColorBtnRec"
+			x="100"	 y="385" 
+		/>
+		
+	</customs>
+	<bitmaps>
+		<bitmapData resourceLink="asset.changeColor.ControlBack" x="25" y="302"/>
+		<bitmapData resourceLink="asset.changeColor.title" x="93" y="9"/>
+	</bitmaps>
+	
+</style>

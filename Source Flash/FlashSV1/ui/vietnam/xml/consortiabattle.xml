@@ -1,0 +1,195 @@
+<style name="consortiabattle" version="2.0.1" source="ui/spain/swf/consortiabattle.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.consortiaNameTxt.tf" args="Arial,12,0x00ff00,,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.consortiaNameTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.resurrect.txtProp.tf" args="Arial,13,0xfff880,,,,,,left"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.resurrect.txtProp.gf" args="0x000000,1,2,2,10"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.inTimerView.promptTxt.tf" args="Arial,14,0xfff554,true"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.inTimerView.promptTxt.gf" args="0x363636,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.infoView.nameTxt.tf" args="Arial,14,0xfffd37,true"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.infoView.nameTxt.gf" args="0x000000,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.infoView.hpTxt.tf" args="Arial,12,0xfffed1,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.infoView.hpTxt.gf" args="0x4c190f,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.infoView.infoTxt.tf" args="Arial,12,0xff4e3c,true"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.infoView.infoTxt.gf" args="0x2a1111,1,4,4,30"/>
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.infoView.infoTxt2.tf" args="Arial,12,0xff4e3c,true,,,,,center"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.hideView.scbTxt.tf" args="Arial,12,0xffffff"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.hideView.scbTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.scoreView.cellTxt.tf" args="Arial,12,0xffffff"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.scoreView.cellTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.scoreView.selfTxt.tf" args="Arial,12,0xfb2828"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.scoreView.selfTxt.gf" args="0x000000,1,2,2,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.chatView.cellTxt.tf" args="Arial,24,0x00f0ff,true,,,,,center"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.chatView.cellTxt.gf" args="0x191616,1,4,4,30"/>
+		
+		<set type="flash.text.TextFormat" stylename="consortiaBattle.buyConfirmNo.text.tf" args="Arial,12,0x79451c,true,,,,,center" letterSpacing="1"/>
+		<set type="flash.filters.GlowFilter" stylename="consortiaBattle.buyConfirmNo.text.gf" args="0xf0ead8,1,4,4,30,1"/>
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.tombstonePos" x="-1" y="-5"/>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.fightingPos" x="0" y="-183"/>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.timeCDPos" x="9" y="44"/>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.timeCDPos2" x="40" y="-1"/>
+		
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.winningStreakTxtPos" x="250" y="57"/>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.socreTxtPos" x="161" y="78"/>
+		
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.portraitPos" x="11" y="5"/>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.portraitMaskPos" x="47" y="48"/>
+		
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.hideTombScbPos" x="15" y="34"/>
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.hideFightingScbPos" x="15" y="55"/>
+		
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.hideTipPos" x="37" y="31"/>
+		
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.scoreView.cellScoreTxtPos" x="105" y="0"/>
+		
+		<custom classname="flash.geom.Point" stylename="consortiaBattle.winningStreakMcPos" x="-42" y="-184"/>
+		
+		<custom classname="flash.geom.Point" stylename="campBattle.resurrect.Pos" x="127" y="31"/>
+	</customs>
+	
+	<components>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.moveOutBtn" 
+			backStyle="asset.consortiaBattle.moveOutBtn" x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.moveInBtn" 
+			backStyle="asset.consortiaBattle.moveInBtn" x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.returnBtn" 
+			backStyle="asset.consortiaBattle.returnBtn" x="35" y="4"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.consortiaNameTxt" 
+			textFormatStyle="consortiaBattle.consortiaNameTxt.tf" filterString="consortiaBattle.consortiaNameTxt.gf" 
+			autoSize="none" x="-99"  y="-160" width="200" height="22"/>
+			
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="consortiaBattle.resurrectBg" 
+			resourceLink="asset.core.ddtScale9CornerImage21" scaleGridString="16,12,100,40"  
+			x="0" y="0" width="240" height="85"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.resurrect.txtProp" 
+			textFormatStyle="consortiaBattle.resurrect.txtProp.tf" filterString="consortiaBattle.resurrect.txtProp.gf" 
+			autoSize="none" x="10" y="19" width="110" height="24" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.resurrect.btn" 
+			backStyle="asset.consortiaBattle.resurrect" x="127" y="5"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.inTimerView.promptTxt" 
+			textFormatStyle="consortiaBattle.inTimerView.promptTxt.tf" filterString="consortiaBattle.inTimerView.promptTxt.gf" 
+			autoSize="none" x="0" y="0" width="150" height="24" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.powerFull" 
+			backStyle="asset.consortiaBattle.powerFullBtn" x="40" y="10"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.doubleScoreBtn" 
+			backStyle="asset.consortiaBattle.doubleScoreBtn" x="140" y="10"
+			tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.infoView.nameTxt" 
+			textFormatStyle="consortiaBattle.infoView.nameTxt.tf" filterString="consortiaBattle.infoView.nameTxt.gf" 
+			autoSize="none" x="90" y="9" width="120" height="24" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.infoView.hpTxt" 
+			textFormatStyle="consortiaBattle.infoView.hpTxt.tf" filterString="consortiaBattle.infoView.hpTxt.gf" 
+			autoSize="none" x="100" y="31.5" width="240" height="24" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.infoView.infoTxt" 
+			textFormatStyle="consortiaBattle.infoView.infoTxt.tf" filterString="consortiaBattle.infoView.infoTxt.gf" 
+			autoSize="none" x="179" y="57" width="100" height="24" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="consortiaBattle.stripCheckBtn" 
+			parentStyle="core.simpleSelectBtn" textStyle="consortiaBattle.hideView.scbTxt" fieldX="19" fieldY="0"
+			x="15" y="13"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.hideView.scbTxt" 
+			textFormatStyle="consortiaBattle.hideView.scbTxt.tf" 
+			filterString="consortiaBattle.hideView.scbTxt.gf"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.hideBtn.btn" 
+			backStyle="asset.consortiaBattle.hideBtn" x="0" y="0"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.HelpButton" 
+			backStyle="asset.ddtcore.helpbutton" x="877" y="15"/>
+		
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="consortiaBattle.HelpFrame.FrameBg" 
+			parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" 
+			width="370" height="376" />
+		<component classname="store.HelpPrompt" stylename="consortiaBattle.HelpPrompt" 
+			bg9ScalseStyle="consortiaBattle.HelpFrame.FrameBg" contentStyle="asset.consortiaBattle.helpPromptTxt" 
+			x="180" y="213" />
+		<component classname="store.HelpFrame" stylename="consortiaBattle.HelpFrame" parentStyle="BaseFrame" 
+			width="404" height="484" />
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.scoreView.moveOutBtn" 
+			backStyle="asset.consortiaBattle.scoreView.moveOutBtn" x="-15" y="127"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.scoreView.moveInBtn" 
+			backStyle="asset.consortiaBattle.scoreView.moveInBtn" x="-15" y="127"/>
+			
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="consortiaBattle.scoreView.playerBtn" 
+			unSelectedStyle="asset.consortiaBattle.scoreView.player.unSelected" 
+			selectedStyle="asset.consortiaBattle.scoreView.player.selected" 
+			x="85" y="-31" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="consortiaBattle.scoreView.consortiaBtn" 
+			unSelectedStyle="asset.consortiaBattle.scoreView.consortia.unSelected" 
+			selectedStyle="asset.consortiaBattle.scoreView.consortia.selected" 
+			x="8" y="-32" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.scoreView.cellTxt" 
+			textFormatStyle="consortiaBattle.scoreView.cellTxt.tf" filterString="consortiaBattle.scoreView.cellTxt.gf" 
+			autoSize="none" x="0" y="0" width="100" height="18" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.scoreView.selfTxt" 
+			textFormatStyle="consortiaBattle.scoreView.selfTxt.tf" filterString="consortiaBattle.scoreView.selfTxt.gf" 
+			autoSize="none" x="15" y="13" width="180" height="18" />
+			
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="consortiaBattle.scoreView.list" parentStyle="core.ScrollPanel" 
+			vScrollbarInnerRectString="21,4,0,0,3" vScrollProxy="1" hScrollProxy="2" vUnitIncrement="3"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|consortionBattle.view.ConsBatScoreViewListCell,21,160" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="185" height="253" x="15" y="37" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.chatView.cellTxt" 
+			textFormatStyle="consortiaBattle.chatView.cellTxt.tf" filterString="consortiaBattle.chatView.cellTxt.gf"
+			autoSize="none" width="1000"/>
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="consortiaBattle.buyConfirmNo.text" 
+			textFormatStyle="consortiaBattle.buyConfirmNo.text.tf" filterString="consortiaBattle.buyConfirmNo.text.gf" />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="consortiaBattle.buyConfirmNo.scb" 
+			parentStyle="core.simpleSelectBtn" textStyle="consortiaBattle.buyConfirmNo.text" displacement="false" 
+			fieldX="19" fieldY="-1" x="68" y="55" />
+			
+		<component classname="consortionBattle.view.ConsBatBuyConfirmView" stylename="ConsBatBuyConfirmView"
+			parentStyle="SimpleAlert"/>
+			
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="consortiaBattle.stayRes.btn" backStyle="asset.consortiaBattle.stayRes" x="127" y="43"/>
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="consortiaBattle.autoBuyPowerFull" parentStyle="core.selectedCheck2" filterString="null,lightFilter,null,grayFilter" displacement="true" autoSelect="false" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="3" x="8" y="9"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.consortiaBattle.infoView.hp" x="98" y="33"/>
+		
+		<bitmapData resourceLink="asset.consortiaBattle.scoreView.player.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.consortiaBattle.scoreView.consortia.bg" x="0" y="0"/>
+		<bitmapData resourceLink="asset.consortiaBattle.scoreView.consortia.selected" x="0" y="1"/>
+		<bitmapData resourceLink="asset.consortiaBattle.scoreView.player.selected" x="0" y="1"/>
+		<bitmapData resourceLink="asset.consortiaBattle.scoreView.consortia.unSelected" x="0" y="1"/>
+		<bitmapData resourceLink="asset.consortiaBattle.scoreView.player.unSelected" x="0" y="1"/>
+		
+		<bitmapData resourceLink="asset.consortiaBattle.twoBtnBg" x="0" y="0" width="248"/>
+		
+		<bitmapData resourceLink="asset.consortiaBattle.twoBtnBg2" x="155" y="0"/>
+	</bitmaps>
+</style>

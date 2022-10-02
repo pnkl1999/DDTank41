@@ -1,0 +1,705 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile>2012-07-14T12:47:11.6609991+07:00</TimeStampOfAssociatedLegacyPublishXmlFile>
+    <_PublishTargetUrl>H:\dandantang\publish.web\Send</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>05/31/2012 13:59:15</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>05/31/2012 14:00:47</publishTime>
+    </File>
+    <File Include="Admin/Addin.aspx">
+      <publishTime>06/06/2012 04:41:15</publishTime>
+    </File>
+    <File Include="Admin/customItem.aspx">
+      <publishTime>06/09/2012 23:12:35</publishTime>
+    </File>
+    <File Include="Admin/data/LoadItemsCategory.xml">
+      <publishTime>06/01/2012 12:02:36</publishTime>
+    </File>
+    <File Include="Admin/data/MenuAddin.xml">
+      <publishTime>06/09/2012 10:22:08</publishTime>
+    </File>
+    <File Include="Admin/data/MenuItems.xml">
+      <publishTime>06/01/2012 23:48:19</publishTime>
+    </File>
+    <File Include="Admin/data/MiniMenuItems.xml">
+      <publishTime>04/11/2014 04:11:59</publishTime>
+    </File>
+    <File Include="Admin/Item.aspx">
+      <publishTime>05/26/2012 06:44:06</publishTime>
+    </File>
+    <File Include="Admin/ItemFusionBox.aspx">
+      <publishTime>06/12/2012 10:59:10</publishTime>
+    </File>
+    <File Include="Admin/mainRequest.ashx">
+      <publishTime>05/26/2012 05:51:31</publishTime>
+    </File>
+    <File Include="Admin/MapsGunny.aspx">
+      <publishTime>05/27/2012 00:01:39</publishTime>
+    </File>
+    <File Include="Admin/NPCinfo.aspx">
+      <publishTime>06/02/2012 13:11:58</publishTime>
+    </File>
+    <File Include="Admin/popup.aspx">
+      <publishTime>05/27/2012 07:28:14</publishTime>
+    </File>
+    <File Include="Admin/popupInfo.aspx">
+      <publishTime>05/30/2012 11:27:48</publishTime>
+    </File>
+    <File Include="Admin/Quest.aspx">
+      <publishTime>06/02/2012 13:12:12</publishTime>
+    </File>
+    <File Include="Admin/RipResource.ashx">
+      <publishTime>06/12/2012 11:27:40</publishTime>
+    </File>
+    <File Include="Admin/sendMail5Item.aspx">
+      <publishTime>09/09/2013 16:14:41</publishTime>
+    </File>
+    <File Include="Admin/ShopItem.aspx">
+      <publishTime>05/22/2012 06:25:17</publishTime>
+    </File>
+    <File Include="Admin/smartpaginator.htm">
+      <publishTime>05/21/2012 18:19:43</publishTime>
+    </File>
+    <File Include="Admin/test.aspx">
+      <publishTime>06/13/2012 01:39:23</publishTime>
+    </File>
+    <File Include="Admin/Weapon.aspx">
+      <publishTime>06/10/2012 03:44:29</publishTime>
+    </File>
+    <File Include="bin/AdminGunny.dll">
+      <publishTime>05/05/2016 19:54:43</publishTime>
+    </File>
+    <File Include="bin/AdminGunny.pdb">
+      <publishTime>07/13/2012 22:47:06</publishTime>
+    </File>
+    <File Include="bin/Bussiness.dll">
+      <publishTime>04/26/2016 18:05:00</publishTime>
+    </File>
+    <File Include="bin/Bussiness.pdb">
+      <publishTime>07/13/2012 22:46:12</publishTime>
+    </File>
+    <File Include="bin/Game.Base.dll">
+      <publishTime>03/27/2016 09:56:04</publishTime>
+    </File>
+    <File Include="bin/Game.Base.pdb">
+      <publishTime>07/13/2012 22:25:07</publishTime>
+    </File>
+    <File Include="bin/Languages/Language-vn.txt">
+      <publishTime>02/07/2016 13:58:48</publishTime>
+    </File>
+    <File Include="bin/log4net.dll">
+      <publishTime>08/08/2010 06:02:36</publishTime>
+    </File>
+    <File Include="bin/log4net.xml">
+      <publishTime>08/07/2010 16:03:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.QualityTools.Testing.Fakes.dll">
+      <publishTime>10/05/2013 16:38:22</publishTime>
+    </File>
+    <File Include="bin/RestSharp.dll">
+      <publishTime>07/21/2015 14:50:44</publishTime>
+    </File>
+    <File Include="bin/SqlDataProvider.dll">
+      <publishTime>04/26/2016 18:04:59</publishTime>
+    </File>
+    <File Include="bin/SqlDataProvider.pdb">
+      <publishTime>07/13/2012 22:46:11</publishTime>
+    </File>
+    <File Include="bin/zlib.net.dll">
+      <publishTime>08/08/2010 06:03:24</publishTime>
+    </File>
+    <File Include="Default.aspx">
+      <publishTime>06/12/2012 10:54:50</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>05/17/2012 12:45:03</publishTime>
+    </File>
+    <File Include="Images/7road.png">
+      <publishTime>05/25/2012 14:10:57</publishTime>
+    </File>
+    <File Include="Images/balloon_bottom.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_bottomLeft.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_bottomRight.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_left.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_right.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_tail.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_top.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_topLeft.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/balloon_topRight.png">
+      <publishTime>05/24/2012 09:27:18</publishTime>
+    </File>
+    <File Include="Images/bg3.jpg">
+      <publishTime>05/22/2012 15:43:21</publishTime>
+    </File>
+    <File Include="Images/close.png">
+      <publishTime>05/23/2012 06:26:00</publishTime>
+    </File>
+    <File Include="Images/default.png">
+      <publishTime>05/25/2012 13:41:24</publishTime>
+    </File>
+    <File Include="Images/ga.png">
+      <publishTime>05/23/2012 13:35:11</publishTime>
+    </File>
+    <File Include="Images/gunny/bg-circle/cap1.swf">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/bg-circle/cap2.swf">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/bg-circle/cap3.swf">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/btn-achievement.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/character-status/married.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/character-status/vip-off.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/character/bar.gif">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/character/character-bg.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/character/character.css">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/character/level-progress.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other10/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other2/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other3/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other4/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other5/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other6/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other7/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/formula/other9/icon.png">
+      <publishTime>06/11/2012 00:14:06</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/1.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/10.png">
+      <publishTime>05/25/2012 14:37:41</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/11.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/12.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/13.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/14.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/15.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/16.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/17.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/18.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/19.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/2.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/20.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/21.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/22.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/23.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/24.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/25.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/26.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/27.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/28.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/29.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/3.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/30.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/31.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/32.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/33.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/34.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/35.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/36.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/37.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/38.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/39.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/4.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/40.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/41.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/42.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/43.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/44.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/45.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/46.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/47.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/48.png">
+      <publishTime>05/25/2012 14:37:42</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/49.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/5.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/50.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/51.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/6.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/7.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/8.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/9.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/effect1.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/effect2.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/effect3.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/effect4.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/level-image/lv.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/0.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/1.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/2.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/3.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/4.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/5.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/small2/0.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/small2/2.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/number/small2/3.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/sinplelight/1.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/sinplelight/2.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/sinplelight/3.swf">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel1.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel10.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel11.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel12.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel13.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel14.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel15.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel2.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel3.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel4.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel5.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel6.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel7.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel8.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/strengthenlevel/strengthenlevel9.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/ao-giap.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/default.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/hoi-phuc.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/hr.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/loai.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/pham-chat.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/sat-thuong.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/gunny/tooltip/tooltip.png">
+      <publishTime>05/25/2012 14:37:43</publishTime>
+    </File>
+    <File Include="Images/icon.png">
+      <publishTime>05/22/2012 13:38:40</publishTime>
+    </File>
+    <File Include="Images/icon_1.png">
+      <publishTime>05/23/2012 01:06:01</publishTime>
+    </File>
+    <File Include="Images/loadingAnimation.gif">
+      <publishTime>05/20/2012 09:57:49</publishTime>
+    </File>
+    <File Include="Images/menulist.jpg">
+      <publishTime>05/20/2012 10:10:24</publishTime>
+    </File>
+    <File Include="Images/next.png">
+      <publishTime>05/21/2012 16:09:26</publishTime>
+    </File>
+    <File Include="Images/previous.png">
+      <publishTime>05/21/2012 16:09:26</publishTime>
+    </File>
+    <File Include="Images/snext.png">
+      <publishTime>05/21/2012 16:09:26</publishTime>
+    </File>
+    <File Include="Images/sprevious.png">
+      <publishTime>05/21/2012 16:09:26</publishTime>
+    </File>
+    <File Include="Images/tooltip.png">
+      <publishTime>05/25/2012 01:29:16</publishTime>
+    </File>
+    <File Include="Images/uber-loading.gif">
+      <publishTime>05/19/2012 23:45:44</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7-vsdoc.js">
+      <publishTime>06/10/2012 00:24:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.js">
+      <publishTime>06/10/2012 00:24:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.7.min.js">
+      <publishTime>06/10/2012 00:24:11</publishTime>
+    </File>
+    <File Include="Scripts/jquery.bgpos.js">
+      <publishTime>05/22/2012 15:03:47</publishTime>
+    </File>
+    <File Include="Scripts/jquery.corner.js">
+      <publishTime>05/21/2012 17:33:40</publishTime>
+    </File>
+    <File Include="Scripts/jquery.form.js">
+      <publishTime>05/31/2012 13:28:06</publishTime>
+    </File>
+    <File Include="Scripts/Js_Callback.js">
+      <publishTime>05/20/2012 15:58:52</publishTime>
+    </File>
+    <File Include="Scripts/scroll/css/website.css">
+      <publishTime>06/10/2012 09:56:44</publishTime>
+    </File>
+    <File Include="Scripts/scroll/images/bg-scrollbar-thumb-y.png">
+      <publishTime>06/10/2012 00:01:05</publishTime>
+    </File>
+    <File Include="Scripts/scroll/images/bg-scrollbar-track-y.png">
+      <publishTime>06/10/2012 00:01:05</publishTime>
+    </File>
+    <File Include="Scripts/scroll/images/bg-scrollbar-trackend-y.png">
+      <publishTime>06/10/2012 00:01:05</publishTime>
+    </File>
+    <File Include="Scripts/scroll/index.html">
+      <publishTime>06/10/2012 00:24:30</publishTime>
+    </File>
+    <File Include="Scripts/scroll/js/jquery.tinyscrollbar.js">
+      <publishTime>06/10/2012 00:17:29</publishTime>
+    </File>
+    <File Include="Scripts/smartpaginator.js">
+      <publishTime>05/27/2012 05:52:27</publishTime>
+    </File>
+    <File Include="Scripts/thickbox.js">
+      <publishTime>05/27/2012 12:32:32</publishTime>
+    </File>
+    <File Include="Scripts/Web.config">
+      <publishTime>05/22/2012 06:02:07</publishTime>
+    </File>
+    <File Include="Site.Master">
+      <publishTime>08/22/2013 00:58:37</publishTime>
+    </File>
+    <File Include="Styles/PIE.htc">
+      <publishTime>05/23/2012 06:40:50</publishTime>
+    </File>
+    <File Include="Styles/popup.css">
+      <publishTime>05/27/2012 07:27:27</publishTime>
+    </File>
+    <File Include="Styles/Site.css">
+      <publishTime>08/22/2013 00:57:32</publishTime>
+    </File>
+    <File Include="Styles/smartpaginator.css">
+      <publishTime>05/27/2012 05:56:45</publishTime>
+    </File>
+    <File Include="Styles/smartpaginator2.css">
+      <publishTime>05/27/2012 06:15:19</publishTime>
+    </File>
+    <File Include="Styles/Stylexxx.css">
+      <publishTime>06/11/2012 22:30:59</publishTime>
+    </File>
+    <File Include="Styles/thickbox.css">
+      <publishTime>05/27/2012 12:16:41</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/05/2016 19:54:44</publishTime>
+    </File>
+    <File Include="XMLReader/importXML.aspx">
+      <publishTime>06/06/2012 10:36:23</publishTime>
+    </File>
+    <File Include="XMLReader/printVar.aspx">
+      <publishTime>08/01/2012 05:26:24</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/AchievementList.xml">
+      <publishTime>07/31/2012 04:25:12</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/ActiveList.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/BallList.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/bombconfig.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/CardBuffList.xml">
+      <publishTime>07/31/2012 04:25:08</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/CardInfoList.xml">
+      <publishTime>07/31/2012 04:25:08</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/CardUpdateCondition.xml">
+      <publishTime>07/31/2012 04:25:08</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/CardUpdateInfo.xml">
+      <publishTime>07/31/2012 04:25:08</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/consortiabuffertemp.xml">
+      <publishTime>07/31/2012 04:25:08</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/ConsortiaLevelList.xml">
+      <publishTime>07/31/2012 04:42:39</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/DailyAwardList.xml">
+      <publishTime>07/31/2012 04:42:39</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/dailyleagueaward.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/dailyleaguelevel.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/DropItemForNewRegister.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/exerciseinfolist.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/FightLabDropItemList.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/ItemStrengthenData.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/ItemStrengthenList.xml">
+      <publishTime>07/31/2012 04:42:39</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LevelList.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LoadAllQuestions.xml">
+      <publishTime>07/31/2012 04:25:11</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LoadBoxTemp.xml">
+      <publishTime>07/31/2012 04:42:39</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LoadItemsCategory.xml">
+      <publishTime>07/31/2012 04:42:35</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LoadMapsItems.xml">
+      <publishTime>07/31/2012 04:42:36</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LoadPVEItems.xml">
+      <publishTime>07/31/2012 04:42:37</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/LoadUserBox.xml">
+      <publishTime>07/31/2012 04:25:12</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/MapServerList.xml">
+      <publishTime>07/31/2012 04:42:37</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/NPCInfoList.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/QuestList.xml">
+      <publishTime>07/31/2012 05:25:54</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/ShopGoodsShowList.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/ShopItemList.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLImport/TemplateAlllist.xml">
+      <publishTime>07/31/2012 04:42:38</publishTime>
+    </File>
+    <File Include="XMLReader/XMLReader.aspx">
+      <publishTime>05/17/2012 12:37:23</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

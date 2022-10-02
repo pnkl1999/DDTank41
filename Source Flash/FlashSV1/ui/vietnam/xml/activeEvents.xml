@@ -1,0 +1,94 @@
+<style name="activeEvents" version="1.0.1" source="ui/spain/swf/activeEvents.swf">
+<!--材料-->
+	<sets>
+		<!--Filter-->
+		<set stylename="activeEvents.T_g1" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="activeEvents.T_g2" args="0x000000,1,2,2,10"  type="flash.filters.GlowFilter"/>		
+		<set stylename="activeEvents.T_5" args="Arial,14,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="activeEvents.T_8" args="Arial,14,0x000000" type="flash.text.TextFormat" leading="3"/>
+		<set stylename="activeEvents.T_9" args="Arial,14,0xA0290F" type="flash.text.TextFormat"/>
+		<set stylename="activeEvents.T_10" args="Arial,14,0x933406" type="flash.text.TextFormat" leading="3"/>
+		
+		<set stylename="activeEvents.T_11" args="Arial,13,0xFFFFFF,true" type="flash.text.TextFormat" leading="3"/>
+		<set stylename="activeEvents.T_12" args="Arial,15,0xFFFFFF,true" type="flash.text.TextFormat" />
+		<set stylename="activeEvents.T_13" args="Arial,14,0xFFFFFF"   bold="false" type="flash.text.TextFormat" />
+		<set stylename="activeEvents.T_13_1" args="Arial,14,0xFEA700"   bold="true" type="flash.text.TextFormat" />
+	</sets>
+	
+	<components>
+		<!--左边框活动标题-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.activeTitleText"    width="200" x= '15' y='15'  wordWrap="false"  textFormatStyle="activeEvents.T_13,activeEvents.T_13_1"  filterString="activeEvents.T_g1,activeEvents.T_g2"  />
+	
+		<!--滚动条-->
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="activeEvents.leftSrollPanel" parentStyle="core.ScrollPanel" width="290" height="360" hScrollProxy="2"  y="-6" x="-7" vUnitIncrement="3"/>
+		<component classname="com.pickgliss.ui.controls.ScrollPanel" stylename="activeEvents.rightSrollPanel" parentStyle="core.ScrollPanel" width="348" height="315" hScrollProxy="2"  y="35" x="-5" vUnitIncrement="5"/>
+		
+		<!--主框背景-->
+		<component classname="com.pickgliss.ui.image.MutipleImage" stylename="activeEvents.activeFrameBackgound" resourceLink="core.bg006,core.bg002" imageRectString=",8|8|39|7|4" />
+		<component classname="activeEvents.view.ActiveMainFrame" stylename="activeEvents.activeMainFrame" width="310" height="442" x="200" y="90" backStyle="activeEvents.activeFrameBackgound" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20" containerY="40"   moveInnerRectString="0,30,0,30,1" moveEnable="true" escEnable='true' />
+		<component classname="activeEvents.view.ActiveSubFrame" stylename="activeEvents.activeSubFrame" width="373" height="442" backStyle="activeEvents.activeFrameBackgound" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" containerX="20" containerY="40"   moveInnerRectString="0,30,0,30,1" moveEnable="true"  />
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="activeEvents.woodBackground1" width="295" height="410" parentStyle='core.scale9CornerImage1'/>
+		
+		
+		
+		<!--右边框活动标题-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.titleTxt" autoSize='none'  x='0' y='5' width='300' textFormatStyle="activeEvents.T_5"  filterString='activeEvents.T_g1'/>
+
+		<!--按钮-->
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="activeEvents.activeCloseBtn" y='362' x='95'   parentStyle='core.simplebt'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="activeEvents.activeCloseBtnII" y='362' x='190'    parentStyle='core.simplebt'/>
+		<component classname="com.pickgliss.ui.controls.TextButton" stylename="activeEvents.activeGetBtn" y='327' x='60'    parentStyle='core.simplebt'/>
+		
+		<!--右边框item-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.availabilityTime_txt" x='100' y='5'     wordWrap='true' width='300' textFormatStyle="activeEvents.T_9" parentStyle='activeEvents.title_txt' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.content_txt" x='31' y='31' width='300' textFormatStyle="activeEvents.T_8" parentStyle='activeEvents.title_txt' wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.award_txt" x='31' y='27'  width='300' textFormatStyle="activeEvents.T_10" parentStyle='activeEvents.title_txt' wordWrap="true" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.description_txt" x='0' y='0' width='330' textFormatStyle="activeEvents.T_8" parentStyle='activeEvents.title_txt' wordWrap="true" />
+		<component classname="com.pickgliss.ui.controls.TextInput" stylename="activeEvents.textInput" x='80' y='0' width="257" height="30" backStyle="activeEvents.InputTextbackAsset" textStyle="activeEvents.InputText_txt" textInnerRectString="8,8,5,2,0" multiline='false'  />
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="activeEvents.InputTextbackAsset" width="257" height="30" resourceLink="asset.activeEvents.blackStrip" scaleGridString="20,5,240,20" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="activeEvents.InputText_txt"  textFormatStyle="activeEvents.T_11"   mouseEnabled="true" autoSize='none' type='input'/>
+	</components>
+	<bitmaps>
+		<!--背景_背景图-->
+		<bitmapData resourceLink="asset.activeEvents.mainBg" x='-11' y='-5' width='291' height='360'/>
+		<!--左边背景_活动分割线-->
+		<bitmapData resourceLink="asset.activeEvents.leftLine"/>
+		<!--左边背景_白色横条-->
+		<bitmapData resourceLink="asset.activeEvents.white"/>
+		<!--左边背景_按钮按下后背景-->
+		<bitmapData resourceLink="asset.activeEvents.btnBg" x='2' y='2'/>
+		<!--左边背景图标_NEW-->
+		<bitmapData resourceLink="asset.activeEvents.iconNew" x='0' y='150'/>
+		<!--左边背景图标_HOT-->
+		<bitmapData resourceLink="asset.activeEvents.iconHot"/>
+		<!--左边背景文字_活动-->
+		<bitmapData resourceLink="asset.activeEvents." x='0' y='170'/>
+
+		<!--右边背景_右边框背景图-->
+		<bitmapData resourceLink="asset.activeEvents.bgPanel" x='-7' y='0'  height='365'/>
+		<!--右边背景_黑色横条-->
+		<bitmapData resourceLink="asset.activeEvents.blackStrip"/>
+		<!--右边背景_褐色横条-->
+		<bitmapData resourceLink="asset.activeEvents.brownStrip"/>
+		<!--右边背景_分割线-->
+		<bitmapData resourceLink="asset.activeEvents.divisionLine" x="40"/>
+		<!--右边背景文字_活动时间-->
+		<bitmapData resourceLink="asset.activeEvents.activityTime" y='-15'/>
+		<!--右边背景文字_活动内容-->
+		<bitmapData resourceLink="asset.activeEvents.activityContent" y='-15'/>
+		<!--右边背景文字_活动奖励-->
+		<bitmapData resourceLink="asset.activeEvents.activityAward" y='-15'/>
+		<!--右边背景文字_活动卡密-->
+		<bitmapData resourceLink="asset.activeEvents.activityCardPSW"/>
+		<!--右边背景文字_活动内容2-->
+		<bitmapData resourceLink="asset.activeEvents.activityContentII"/>
+		<!--右边背景文字_活动卡密2-->
+		<bitmapData resourceLink="asset.activeEvents.activityCardPSWII" x='10' y='5'/>
+		<!--右边背景图标_活动奖励-->
+		<bitmapData resourceLink="asset.activeEvents.iconGive"/>
+		<!--右边背景图标_活动信息-->
+		<bitmapData resourceLink="asset.activeEvents.iconContent"/>
+		
+		
+	</bitmaps>
+</style>

@@ -1,0 +1,129 @@
+<style name="trainerUI" version="1.0.1" source="ui/spain/swf/trainerUI.swf">
+	<sets>
+		<set type="flash.text.TextFormat" stylename="trainer.explain.tfOne" args="Arial,27,0xffffff"/>
+		<set type="flash.text.TextFormat" stylename="trainer.explain.tfThree" args="Arial,24,0xffffff"/>
+		<set type="flash.text.TextFormat" stylename="trainer.explain.tfPs" args="Arial,18,0xff0000,true"/>
+		
+		<set type="flash.filters.GlowFilter" stylename="trainer.explain.glow1" args="0x2a1900,1,10,10,10,1" />
+		<set type="flash.filters.GlowFilter" stylename="trainer.explain.glow2" args="0xffffff,1,4,4,10,1" />
+	</sets>
+	
+	<customs>
+		<custom classname="flash.geom.Point" stylename="trainer.second.posGirl" x="-91" y="-15"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.explain.posGlow" x="411" y="494"/>
+		<custom classname="flash.geom.Point" stylename="trainer.explain.posThreeBg" x="269" y="273"/>
+		<custom classname="flash.geom.Point" stylename="trainer.explain.posPowerBg" x="514" y="273"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.posClickTask" x="753" y="490"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posClickTaskTxt" x="491" y="393"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posClickBag" x="647" y="490"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posClickBagTxt" x="530" y="394"/>
+		<custom classname="flash.geom.Point" stylename="trainer.clickBeatArrowPos" x="501" y="409"/>
+		<custom classname="flash.geom.Point" stylename="trainer.clickBeatTipPos" x="159" y="315"/>
+		<custom classname="flash.geom.Point" stylename="trainer.creatRoomArrowPos" x="715" y="400"/>
+		<custom classname="flash.geom.Point" stylename="trainer.creatRoomTipPos" x="492" y="300"/>
+		<custom classname="flash.geom.Point" stylename="trainer.creatRoomSureArrowPos" x="315" y="420"/>
+		<custom classname="flash.geom.Point" stylename="trainer.creatRoomSureTipPos" x="118" y="320"/>
+		<custom classname="flash.geom.Point" stylename="trainer.getTaskRewardArrowPos" x="520" y="420"/>
+		<custom classname="flash.geom.Point" stylename="trainer.getTaskRewardTipPos" x="314" y="320"/>
+		<custom classname="flash.geom.Point" stylename="trainer.getCardArrowPos" x="486" y="145"/>
+		<custom classname="flash.geom.Point" stylename="trainer.getCardTipPos" x="160" y="32"/>
+		<custom classname="flash.geom.Point" stylename="trainer.gameRoomArrowPos" x="627" y="347"/>
+		<custom classname="flash.geom.Point" stylename="trainer.gameRoomTipPos" x="440" y="402"/>
+		<custom classname="flash.geom.Point" stylename="trainer.startGameArrowPos" x="861" y="402"/>
+		<custom classname="flash.geom.Point" stylename="trainer.startGameTipPos" x="580" y="307"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posTipOne" x="889" y="224"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posTipTenPercent" x="889" y="425"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posTipThree" x="893" y="186"/>
+		<custom classname="flash.geom.Point" stylename="trainer.posTipPower" x="901" y="449"/>
+		<custom classname="flash.geom.Point" stylename="trainer.getZxcItemArrowPos" x="752" y="170"/>
+		<custom classname="flash.geom.Point" stylename="trainer.getZxcItemTipPos" x="420" y="215"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.civilArrowPos" x="722" y="242"/>
+		<custom classname="flash.geom.Point" stylename="trainer.civilTipPos" x="530" y="300"/>
+		<custom classname="flash.geom.Point" stylename="trainer.masterRoomArrowPos" x="807" y="378"/>
+		<custom classname="flash.geom.Point" stylename="trainer.masterRoomTipPos" x="580" y="434"/>
+		<custom classname="flash.geom.Point" stylename="trainer.consortiaArrowPos" x="214" y="213"/>
+		<custom classname="flash.geom.Point" stylename="trainer.consortiaTipPos" x="46" y="117"/>
+		<custom classname="flash.geom.Point" stylename="trainer.dungeonArrowPos" x="783" y="404"/>
+		<custom classname="flash.geom.Point" stylename="trainer.dungeonTipPos" x="565" y="308"/>
+		<custom classname="flash.geom.Point" stylename="trainer.storeArrowPos" x="582" y="187"/>
+		<custom classname="flash.geom.Point" stylename="trainer.storeTipPos" x="367" y="246"/>
+		<custom classname="flash.geom.Point" stylename="trainer.shopArrowPos" x="529" y="326"/>
+		<custom classname="flash.geom.Point" stylename="trainer.shopTipPos" x="311" y="229"/>
+		<custom classname="flash.geom.Point" stylename="trainer.churchArrowPos" x="335" y="223"/>
+		<custom classname="flash.geom.Point" stylename="trainer.churchTipPos" x="157" y="123"/>
+		<custom classname="flash.geom.Point" stylename="trainer.toffListArrowPos" x="341" y="223"/>
+		<custom classname="flash.geom.Point" stylename="trainer.toffListTipPos" x="160" y="277"/>
+		<custom classname="flash.geom.Point" stylename="trainer.hotWellArrowPos" x="206" y="228"/>
+		<custom classname="flash.geom.Point" stylename="trainer.hotWellTipPos" x="18" y="281"/>
+		<custom classname="flash.geom.Point" stylename="trainer.auctionArrowPos" x="638" y="184"/>
+		<custom classname="flash.geom.Point" stylename="trainer.auctionTipPos" x="417" y="89"/>
+		<custom classname="flash.geom.Point" stylename="trainer.campaignLabArrowPos" x="498" y="169"/>
+		<custom classname="flash.geom.Point" stylename="trainer.campaignLabTipPos" x="308" y="223"/>
+		<custom classname="flash.geom.Point" stylename="trainer.powerStripArrowPos" x="773" y="492"/>
+		<custom classname="flash.geom.Point" stylename="trainer.powerStripTipPos" x="714" y="422"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.strWeaponArrowPos" x="340" y="179"/>
+		<custom classname="flash.geom.Point" stylename="trainer.strWeaponTipPos" x="134" y="81"/>
+		<custom classname="flash.geom.Point" stylename="trainer.strStoneArrowPos" x="430" y="194"/>
+		<custom classname="flash.geom.Point" stylename="trainer.strStoneTipPos" x="381" y="106"/>
+		<custom classname="flash.geom.Point" stylename="trainer.comWeaponArrowPos" x="340" y="179"/>
+		<custom classname="flash.geom.Point" stylename="trainer.comWeaponTipPos" x="134" y="81"/>
+		<custom classname="flash.geom.Point" stylename="trainer.comStoneArrowPos" x="481" y="194"/>
+		<custom classname="flash.geom.Point" stylename="trainer.comStoneTipPos" x="381" y="106"/>
+		<custom classname="flash.geom.Point" stylename="trainer.fusItemArrowPos" x="345" y="106"/>
+		<custom classname="flash.geom.Point" stylename="trainer.fusItemTipPos" x="160" y="10"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.posSecondTile" x="190" y="83"/>
+		<custom classname="flash.geom.Point" stylename="trainer.second.posBtn" x="247" y="236"/>
+		<custom classname="flash.geom.Point" stylename="trainer.giftTip" x="600" y="91"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.BagViewWeaponArrowPos" x="581" y="259"/>
+		<custom classname="flash.geom.Point" stylename="trainer.BagViewWeaponArrowBackPos" x="825" y="44"/>
+		
+		
+		<custom classname="flash.geom.Point" stylename="trainer.BagViewWeaponTipPos" x="336" y="316"/>
+		<custom classname="flash.geom.Point" stylename="trainer.RoomListBGViewArrowPos" x="716" y="399"/>
+		<custom classname="flash.geom.Point" stylename="trainer.RoomListViewArrowPos" x="948" y="388"/>
+		
+		<custom classname="flash.geom.Point" stylename="trainer.clickTaskBackArrowPos" x="599" y="15"/>
+		
+		
+	</customs>
+	
+	<components>
+		<!--Frame-->
+		<component classname="trainer.view.SecondOnlineView" stylename="trainer.second.mainFrame" moveEnable="false" parentStyle="GuideFrame" containerX="0" containerY="0" width="480" height="290"/>
+		<component classname="trainer.view.VaneTipView" stylename="trainer.vane.mainFrame" moveEnable="false" parentStyle="BaseFrame" containerX="10" containerY="30" width="430" height="180"/>
+	
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="trainer.explain.bg1" parentStyle="core.scale9cornerImageTree" width="552" height="444" x="207" y="111"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="trainer.explain.bg2" width="536" height="367" x="217" y="126"
+			resourceLink="asset.explain.bgScale01,asset.explain.bgScale02,asset.explain.bgScale03,asset.explain.bgScale04,asset.explain.bgScale05,asset.explain.bgScale06,asset.explain.bgScale07,asset.explain.bgScale08,asset.explain.bgScale09"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="trainer.explain.bg3" parentStyle="core.bg002" width="518" height="49" x="226" y="491"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="trainer.explain.btnEnter" backStyle="asset.core.levelRewardSureBtnAsset" width="139" height="44" x="411" y="496"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="trainer.iKnow" backStyle="asset.trainer.iKnow" width="158" height="58"/>
+		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtThree" filterString="trainer.explain.glow1" textFormatStyle="trainer.explain.tfThree" x="294" y="347"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtPower" filterString="trainer.explain.glow1" textFormatStyle="trainer.explain.tfThree" x="528" y="347"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="trainer.explain.txtPsPowerThree" filterString="trainer.explain.glow2" textFormatStyle="trainer.explain.tfPs" x="261" y="428"/>
+		
+		<component classname="ddt.view.common.PreviewFrame" stylename="trainer.hall.buildPreviewFrame" parentStyle="BaseFrame" backStyle="view.common.masterAcademyPreviewFrameBg"
+		 containerX="10" containerY="40" width="530" height="485" submitButtonStyle="trainer.iKnow"/>
+	</components>
+	
+	<bitmaps>
+		<bitmapData resourceLink="asset.explain.title" width="565" height="67" x="201" y="31"/>
+		<bitmapData resourceLink="asset.explain.nameBg" width="253" height="44" x="369" y="286"/>
+		<bitmapData resourceLink="asset.explain.nameBgSmall" width="184" height="43"/>
+		<bitmapData resourceLink="asset.explain.line" width="4" height="287" x="483" y="155"/>
+		
+		<bitmapData resourceLink="asset.trainer.secondBg" width="308" height="210" x="145" y="25"/>
+		<bitmapData resourceLink="asset.trainer.secondOutBg" width="72" height="71"/>
+		<bitmapData resourceLink="asset.trainer.secondOverBg" width="72" height="71"/>
+		
+		<bitmapData resourceLink="asset.trainer.vane" width="346" height="77" x="31" y="7"/>
+	</bitmaps>
+</style>

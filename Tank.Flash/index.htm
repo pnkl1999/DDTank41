@@ -1,0 +1,405 @@
+﻿<!DOCTYPE html>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="UTF-8" />        
+        <title>Login and Registration</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Login and Registration Form with HTML5 and CSS3" />
+        <meta name="keywords" content="html5, css3, form, switch, animation, :target, pseudo-class" />
+        <meta name="author" content="Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style3.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />
+        <link href="css/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+        <style>
+
+#DynamicContent
+{    
+    z-index: 2000011;
+	background-color:#ffd800;
+	min-height:50px;
+	width:366px;
+	display:none;
+}
+#TB_overlayBG,#Div1 
+{
+	display:none;
+    position: fixed;
+	z-index:2001;
+	top: 0px;
+	left: 0px;
+	height:100%;
+	width:100%;
+	background-color:#000;
+	filter:alpha(opacity=75);
+	-moz-opacity: 0.75;
+	opacity: 0.75;
+	
+}
+
+#loading {
+				text-align: center;
+				font-size: 14px;
+				color:green;
+				padding-top: 19px;
+}
+
+#ErrorContent
+{    
+    z-index: 2000011;
+	background-color:#ffd800;
+	min-height:50px;
+	width:366px;
+	display:none;
+}
+
+#content {
+				text-align: center;
+				font-size: 14px;
+				color:green;
+				padding-top: 19px;
+}
+#codeContent
+{    
+    z-index: 200001;
+    padding-top: 10px;
+	background-color:#fff;
+	min-height:70px;
+	width:345px;
+	display:none;
+}
+#ReLoad{height:23px;width:25px;background:url(images/iconRe.gif) no-repeat;text-indent:-9999px;display:block;overflow:hidden;}
+
+            .auto-style1
+            {
+                width: 130px;
+            }
+
+        </style>
+         <script type="text/javascript" src="script/jquery-1.7.2.min.js"></script>        
+        <script type="text/javascript" src="script/webtoolkit.md5.js"></script>
+        <script type="text/javascript" src="script/jquery.corner.js"></script>
+        <script src="script/jquery-ui-1.8.21.custom.js" type="text/javascript"></script>
+        <script src="script/jquery.ui.button.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $("#password").keypress(function (e) {
+                    if (e.keyCode == 13) {                       
+                        checklogin();
+                    }
+                });
+            });
+
+            function xmlhttpPost(strURL, type) {
+                showObj();
+                var dataStr = getquerystring();
+                if (type == 2)
+                {
+                    dataStr = getquerydonereg();
+                }
+                $.ajax({
+                    type: 'GET',
+                    url: strURL,
+                    data: dataStr,
+                    success: function (data_revert) {
+
+                        if (data_revert == "ok") {
+                            location.replace("loading.htm");
+                            //showObj();
+                        }
+                        else{
+                            hideObj();
+                            $("#loading").html('<span style="color:red; font-size: 14px;">' + data_revert + '</span>');
+                        }
+
+                    }
+                });
+
+            }
+            function getquerystring() {
+                var username = $("#username").val();
+                var password = MD5($("#password").val());
+                qstr = 'username=' + escape(username) + '&password=' + escape(password);
+                return qstr;
+            }
+            function checklogin() {                
+                if ($("#username").val() == '') {                    
+                    //return true;
+                    showError('Bạn chưa nhập Tài khoản');
+                    return false;
+                }
+                else if ($("#password").val() == '') {                   
+                    //return true;
+                    showError('Bạn chưa nhập Mật khẩu');
+                    return false;
+                }
+                else {
+                    xmlhttpPost("checkuser.ashx", 1); 
+                    return false;
+                }
+                
+            }
+
+            function hideObj() {
+
+                $("#TB_overlayBG").delay(2000).fadeOut('slow');
+                $("#DynamicContent").delay(2000).fadeOut('slow');//.css({ display: "none" });
+            }
+            function showObj() {
+                $('#DynamicContent').corner("keep");
+                $("#TB_overlayBG").fadeIn();//.css({ display: "block" });
+                $("#DynamicContent").fadeIn();
+                $("#loading").html("Hệ thống đang sử lý!<br/><br/><img alt=\"\"  src=\"images/loading.gif\" />");
+                var top = Math.max($(window).height() / 2 - $("#DynamicContent")[0].offsetHeight / 2, 0);
+                var left = Math.max($(window).width() / 2 - $("#DynamicContent")[0].offsetWidth / 2, 0);
+                $("#DynamicContent").css('top', top + "px");
+                $("#DynamicContent").css('left', left + "px");
+                $("#DynamicContent").css('position', 'fixed');
+            }
+            //$("#DynamicContent").live("click", function () {
+                //$(this).hide();
+                //$("#TB_overlayBG").hide();
+            //});
+            function showError(content) {
+                $('#ErrorContent').corner("keep");
+                $("#TB_overlayBG").fadeIn().delay(2000).fadeOut('slow');
+                $("#ErrorContent").fadeIn().delay(2000).fadeOut('slow');
+                $("#content").html('<span style="color:red; font-size: 14px;">' + content + '</span>');
+                var top = Math.max($(window).height() / 2 - $("#ErrorContent")[0].offsetHeight / 2, 0);
+                var left = Math.max($(window).width() / 2 - $("#ErrorContent")[0].offsetWidth / 2, 0);
+                $("#ErrorContent").css('top', top + "px");
+                $("#ErrorContent").css('left', left + "px");
+                $("#ErrorContent").css('position', 'fixed');
+            }
+             </script>
+    </head>
+    <body>
+        <div class="container">
+
+            <!-- Codrops top bar -->
+            <div class="codrops-top">                
+                <div class="clr"></div>
+            </div>
+            <!--/ Codrops top bar -->
+            <header>
+                <h1>Chào mừng bạn đến với <span>Private DDTank II ver5.1</span></h1>
+				<nav class="codrops-demos">
+					<span>Click <strong>"Đăng ký nhanh"</strong> để tham gia cùng chúng tôi.</span>					
+				</nav>
+            </header>
+
+            <section>				
+                <div id="container_demo" >
+                    <!-- hidden anchor to stop jump-->
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  autocomplete="on"> 
+                                <h1>Đăng nhập</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Tài khoàn </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="vd. account"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> Mật khẩu </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="vd. X8df!90EO" /> 
+                                </p>
+                               
+                                <p class="login button"> 
+                                    <input type="submit" value="Đăng nhập" onclick="return checklogin();"/> 
+								</p>
+                                <p class="change_link">
+									Bạn chưa có tài khoản ?
+									<a href="#toregister" class="to_register">Đăng ký nhanh</a>
+								</p>
+                            </form>
+                        </div>
+                        <script>
+                            function xmlhttpPostReg() {
+                                //showObj();
+                                $.ajax({
+                                    type: 'GET',
+                                    url: 'auth/register.ashx',
+                                    data: getregquerystring(),
+                                    success: function (data_revert) {
+                                        if (data_revert == "ok") {
+                                            xmlhttpPost("checkuser.ashx", 2);
+                                            hideCode();
+                                        }
+                                        if (data_revert == "exit") {
+                                            showError('Tài khoản đã được sử dụng！');
+                                            hideCode();
+                                        }
+                                        else {                                            
+                                            showError(data_revert);
+                                        }
+                                    }
+                                });
+                            }
+                            
+                            function getquerydonereg() {
+                                var username = $("#usernamesignup").val();
+                                var password = MD5($("#passwordsignup").val());
+                                qstr = 'username=' + escape(username) + '&password=' + escape(password);
+                                return qstr;
+                            }
+                            function getregquerystring() {
+                                var username = $("#usernamesignup").val();
+                                var password = $("#passwordsignup").val();
+                                var repassword = $("#passwordsignup_confirm").val();
+                                var email = $("#emailsignup").val();
+                                var code = $("#code").val();
+                                qstr = 'username=' + escape(username) + '&password=' + escape(password)
+                                + '&repassword=' + escape(repassword) + '&email=' + escape(email)
+                                + '&code=' + escape(code);
+                                return qstr;
+                            }
+                            function href() {
+                                var randomnum = Math.random();
+                                var getimagecode = document.getElementById("ImageCode");
+                                getimagecode.src = "auth/validatecode.ashx? " + randomnum;
+                                $("#code").val("");
+                            }
+                            function IsEmail(email) {
+                                var regex = /^([a-zA-Z0-9_\.\-\+])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+                                if (!regex.test(email)) {
+                                    return false;
+                                } else {
+                                    return true;
+                                }
+                            }
+                            function checkCode() {
+                                if ($("#code").val() == '') {
+                                    showError('Vui lòng nhập mã bảo mật!');
+                                    return false;
+                                }
+                                else{
+                                    xmlhttpPostReg();
+                                }                                
+                                return false;
+                            }
+                            function checkForm() {
+                                var err = 0;
+                                if ($("#usernamesignup").val() == '') {
+                                    showError('Vui lòng nhập tên tài khoản!');
+                                    err++;
+                                }
+                                else if ($("#passwordsignup").val() == '') {
+                                    showError('Vui lòng nhập mật khẩu!');
+                                    err++;
+                                }
+                                else if ($("#passwordsignup_confirm").val() == '') {
+                                    showError('Vui lòng nhập xác nhận mật khẩu!');
+                                    err++;
+                                }
+                                else if ($("#emailsignup").val() == '') {
+                                    showError('Vui lòng nhập Email!');
+                                    err++;
+                                }
+                                else if ($("#passwordsignup_confirm").val() != $("#passwordsignup").val()) {
+                                    showError('Mật khuẩu không trùng nhau!');
+                                    err++;
+                                }                                
+                                else if (!IsEmail($("#emailsignup").val())) {
+                                    showError('Email không hợp lệ!');
+                                    err++;
+                                }
+                                //else if ($("#code").val() == '') {
+                                //    showError('Vui lòng nhập mã bảo mật!');
+                                //    err++;
+                                //}
+                                if (err == 0) {
+                                    $('#codeContent').corner("keep");
+                                    $("#checkCode").button();
+                                    $("#Div1").fadeIn();
+                                    $("#codeContent").fadeIn();
+                                    var top = Math.max($(window).height() / 2 - $("#codeContent")[0].offsetHeight / 2, 0);
+                                    var left = Math.max($(window).width() / 2 - $("#codeContent")[0].offsetWidth / 2, 0);
+                                    $("#codeContent").css('top', top + "px");
+                                    $("#codeContent").css('left', left + "px");
+                                    $("#codeContent").css('position', 'fixed');
+                                    //xmlhttpPostReg();
+                                }
+                                return false;
+                            }
+                            function hideCode() {
+                                href();
+                                $("#Div1").fadeOut('slow');
+                                $("#codeContent").fadeOut('slow');//.css({ display: "none" });
+                            }
+                            
+                        </script>
+                        <div id="register" class="animate form">
+                            <form  autocomplete="on"> 
+                                <h1> Đăng ký nhanh </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u">Tài khoản</label>
+                                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="vd. myaccount" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" > Email</label>
+                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="vd. mymail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p">Mật khẩu </label>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="vd. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p">Xác nhận mật khẩu </label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="vd. X8df!90EO"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" value="Đăng ký"  onclick="return checkForm();"/> 
+								</p>
+                                <p class="change_link">  
+									Đã có tài khoản.
+									<a href="#tologin" class="to_register">  Về trang đăng nhập</a>
+								</p>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+
+    <div id="DynamicContent">
+	<div id="loading" >
+      Ðang sử lý, xin chờ trong giây lát!
+	  <img alt=""  src="images/loading.gif" />
+     </div>               		
+	</div>
+
+    <div id="ErrorContent">
+	    <div id="content" >
+        </div>               		
+	</div>
+
+    <div id="codeContent">
+         <table style="width:100%;">
+        <tr>
+            <td class="auto-style1">
+                <img id="ImageCode" src="auth/validatecode.ashx" height="32" width ="127" alt="" />  
+            </td>
+            <td style="text-align: center" >
+                 <input type="text"  style="font-size: 14px;width: 120px" name="code" placeholder="Nhập mã bảo vệ" id="code"/>
+            </td>
+            <td>
+                <a id="ReLoad" title="" href="javascript:href()" style="font-size: 12px; color: blue">Tải lại</a>  
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" style="text-align: center;">
+                <input id="checkCode"  style="font-size: 14px;" type="submit" value="Xác nhận"  onclick="return checkCode();"/>
+            </td>
+        </tr>
+    </table>     		
+	</div>
+<div id="TB_overlayBG">
+</div>
+<div id="Div1">
+</div>
+    </body>
+</html>

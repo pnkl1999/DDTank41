@@ -1,0 +1,33 @@
+<Result value="true" message="Success!">
+  <Item Level="1" Exp="50" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="2" Exp="100" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="3" Exp="150" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="4" Exp="200" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="5" Exp="250" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="6" Exp="300" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="7" Exp="350" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="8" Exp="400" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="9" Exp="450" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="10" Exp="500" MinExp="2" MaxExp="5" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="11" Exp="650" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="12" Exp="800" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="13" Exp="950" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="14" Exp="1100" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="15" Exp="1250" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="16" Exp="1400" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="17" Exp="1550" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="18" Exp="1700" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="19" Exp="1850" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="20" Exp="2000" MinExp="3" MaxExp="6" UpdateCardCount="3" ResetCardCount="0" ResetMoney="0" />
+  <Item Level="21" Exp="2500" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="22" Exp="3000" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="23" Exp="3500" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="24" Exp="4000" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="25" Exp="4500" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="26" Exp="5000" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="27" Exp="5500" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="28" Exp="6000" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="29" Exp="6500" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="30" Exp="7000" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+  <Item Level="31" Exp="8000" MinExp="5" MaxExp="8" UpdateCardCount="3" ResetCardCount="3" ResetMoney="300" />
+</Result>

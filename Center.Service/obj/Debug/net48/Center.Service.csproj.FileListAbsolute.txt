@@ -1,0 +1,374 @@
+C:\Source\Center.Service\bin\Debug\net48\App.config
+C:\Source\Center.Service\bin\Debug\net48\logconfig.xml
+C:\Source\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\Source\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\Source\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\Source\Center.Service\bin\Debug\net48\log4net.dll
+C:\Source\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\Source\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\Source\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\Source\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\Source\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\Source\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\Source\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Source\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\Source\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\Source\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\Source\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\Source\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\Source\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\Source\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\Source\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\Source\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\Source\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\Source\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\Source\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\App.config
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\logconfig.xml
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\log4net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.csproj.SuggestedBindingRedirects.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Center.Service\obj\Debug\net48\Center.Service.pdb
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\App.config
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\logconfig.xml
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Service.exe.config
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Service.exe
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Service.pdb
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\log4net.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\protobuf-net.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Buffers.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Memory.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Bussiness.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Server.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Game.Base.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\zlib.net.dll
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Bussiness.pdb
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Server.pdb
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Game.Base.pdb
+G:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+G:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+G:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+G:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.exe
+G:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\App.config
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\logconfig.xml
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\log4net.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source8-12\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\App.config
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\logconfig.xml
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Service.exe.config
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Service.exe
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Service.pdb
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\log4net.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\protobuf-net.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Buffers.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Memory.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Bussiness.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Server.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Game.Base.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\zlib.net.dll
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Bussiness.pdb
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Center.Server.pdb
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\Game.Base.pdb
+H:\1.Gunny Project\Source\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+H:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+H:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+H:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.exe
+H:\1.Gunny Project\Source\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\App.config
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\logconfig.xml
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\log4net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\Users\Administrator\Desktop\Source 26-12\Center.Service\obj\Debug\net48\Center.Service.pdb
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\App.config
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\logconfig.xml
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Service.exe.config
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Service.exe
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Service.pdb
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\log4net.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\protobuf-net.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Buffers.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Memory.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Bussiness.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Server.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Game.Base.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\zlib.net.dll
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Bussiness.pdb
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Server.pdb
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Game.Base.pdb
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.exe
+G:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.pdb
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\App.config
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\logconfig.xml
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Service.exe.config
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Service.exe
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Service.pdb
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\log4net.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\protobuf-net.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Buffers.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Memory.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Bussiness.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Server.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Game.Base.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\zlib.net.dll
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Bussiness.pdb
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Center.Server.pdb
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\Game.Base.pdb
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.exe
+H:\1.Gunny Project\Source ManhQuynh\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\App.config
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\logconfig.xml
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\log4net.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\PhamNgocKhanhLam\Source\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\PhamNgocKhanhLam\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\PhamNgocKhanhLam\Source\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\PhamNgocKhanhLam\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\PhamNgocKhanhLam\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+C:\PhamNgocKhanhLam\Source\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\PhamNgocKhanhLam\Source\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\App.config
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\logconfig.xml
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\log4net.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Newtonsoft.Json.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Newtonsoft.Json.pdb
+C:\NEWGUN\Source\Center.Service\bin\Debug\net48\Newtonsoft.Json.xml
+C:\NEWGUN\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\NEWGUN\Source\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+C:\NEWGUN\Source\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\NEWGUN\Source\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\App.config
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\logconfig.xml
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\log4net.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Newtonsoft.Json.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Newtonsoft.Json.pdb
+C:\NEWGUN\Source Server\Center.Service\bin\Debug\net48\Newtonsoft.Json.xml
+C:\NEWGUN\Source Server\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\NEWGUN\Source Server\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN\Source Server\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source Server\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+C:\NEWGUN\Source Server\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\NEWGUN\Source Server\Center.Service\obj\Debug\net48\Center.Service.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\App.config
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\logconfig.xml
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Center.Service.exe.config
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Center.Service.exe
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Center.Service.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\log4net.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\protobuf-net.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\System.Buffers.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\System.Memory.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Bussiness.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Center.Server.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Game.Base.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Newtonsoft.Json.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\zlib.net.dll
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Bussiness.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Center.Server.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Game.Base.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Newtonsoft.Json.pdb
+C:\NEWGUN36\NEWGUN\Center.Service\bin\Debug\net48\Newtonsoft.Json.xml
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.SuggestedBindingRedirects.cache
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.exe
+C:\NEWGUN36\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\App.config
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\logconfig.xml
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Center.Service.exe.config
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Center.Service.exe
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Center.Service.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\log4net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Newtonsoft.Json.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\protobuf-net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\protobuf-net.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\System.Buffers.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\System.Collections.Immutable.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\System.Memory.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Bussiness.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Center.Server.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Game.Base.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\SqlDataProvider.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\zlib.net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Bussiness.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Center.Server.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\Game.Base.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\bin\Debug\net48\SqlDataProvider.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.csproj.CopyComplete
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.exe
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Service\obj\Debug\net48\Center.Service.pdb

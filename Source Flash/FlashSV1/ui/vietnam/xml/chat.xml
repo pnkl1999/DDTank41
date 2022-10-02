@@ -1,0 +1,217 @@
+<style name="chat" version="1.0.1" source="ui/spain/swf/chat.swf">
+	<sets>
+		<set stylename="chat.BugleViewTF" size="14" type="flash.text.TextFormat"/>
+		<set stylename="chat.BugleViewAnimationTF" size="14" align="left" type="flash.text.TextFormat"/>
+		<set stylename="chat.PrivateFrameTF" args="Arial,16,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="chat.PrivateFrameComboTF" args="Arial,15,0x000000,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="chat.FastReplyInputTF" args="Arial,13,0x000000,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="chat.BugleInputFrameRemainTF" args="Arial,14,0x925B2C" type="flash.text.TextFormat"/>
+		<set stylename="chat.BugleInputFrameInputTF" args="Arial,16,0x000000,,,,,,left" type="flash.text.TextFormat"/>
+	</sets>
+
+	<customDisplay>
+		<custom classname="ddt.view.chat.ChatView" stylename="chat.View" x="0" y="0"/>
+		<custom classname="ddt.view.chat.ChatOutputView" stylename="chat.OutputView" y="440"/>
+		<custom classname="ddt.view.chat.ChatOutputField" stylename="chat.OutputField" x="32" y="10"/>
+		<custom classname="ddt.view.chat.ChatInputView" stylename="chat.InputView" x="6" y="130"/>
+		<custom classname="ddt.view.chat.ChatInputField" stylename="chat.InputField"/>
+		<custom classname="ddt.view.chat.ChatChannelPanel" stylename="chat.ChannelPanel"/>
+		<custom classname="ddt.view.chat.ChatFacePanel" stylename="chat.FacePanel"/>
+		<custom classname="ddt.view.chat.ChatFastReplyPanel" stylename="chat.FastReplyPanel" x="302"/>
+		<custom classname="ddt.view.chat.ChatFriendListPanel" stylename="chat.FriendListPanel"/>
+		<custom classname="ddt.view.chat.ChatNamePanel" stylename="chat.NamePanel"/>
+		
+		<custom classname="flash.text.TextField" stylename="chat.PrivateFrameComboText" textFormatStyle="chat.PrivateFrameComboTF" filterString="P_g1" type="input" width="100" height="21" x="143" y="62"/>
+		
+		<custom classname="flash.display.Sprite" stylename="chat.OutputViewLeftBtnContainer" x="6" y="7"/>
+		<custom classname="flash.display.Sprite" stylename="chat.OutputViewLeftBtnContainerInGame" x="6" y="11"/>
+		<custom classname="flash.display.Sprite" stylename="chat.OutputViewRightBtnContainer" x="456" y="10"/>
+		
+		<custom classname="flash.geom.Point" stylename="chat.BugleViewPos" x="0" y="12"/>
+		
+		<custom classname="flash.geom.Point" stylename="chat.OriginPos" x="0" y="0"/>
+		<custom classname="flash.geom.Point" stylename="chat.PrivateBtnEffectPos" x="-4" y="-4"/>
+		<custom classname="flash.geom.Point" stylename="chat.FriendListPanelPos" x="402" y="-202"/>
+		<custom classname="flash.geom.Point" stylename="chat.FastReplyPanelPos" x="302" y="-142"/>
+		<custom classname="flash.geom.Point" stylename="chat.FacePanelPos" x="226" y="-175"/>
+		<custom classname="flash.geom.Point" stylename="chat.ChannelPanelPos" y="-136"/>
+		
+		<custom classname="flash.geom.Point" stylename="chat.FacePanelFacePos" x="18" y="41"/>
+		<custom classname="flash.geom.Point" stylename="chat.InputFieldTextFieldStartPos" x="70" y="8"/>
+		<custom classname="flash.geom.Point" stylename="chat.FriendListContentTxtPos" x="3" y="1"/>
+		
+		<custom classname="flash.geom.Point" stylename="chat.BugleAnimationPos_0" x="210" y="38"/>
+		<custom classname="flash.geom.Point" stylename="chat.BugleAnimationPos_1" x="195" y="51"/>
+		<custom classname="flash.geom.Point" stylename="chat.BugleAnimationPos_2" x="229" y="56"/>
+		<custom classname="flash.geom.Point" stylename="chat.BugleAnimationPos_3" x="175" y="54"/>
+		<custom classname="flash.geom.Point" stylename="chat.BugleAnimationPos_4" x="193" y="52"/>
+		<custom classname="flash.geom.Point" stylename="chat.BugleAnimationPos_5" x="225" y="54"/>
+		
+		<custom classname="flash.geom.Point" stylename="chat.PetSprite.lessen" x="373" y="335"/>
+		<custom classname="flash.geom.Point" stylename="chat.PetSprite.more" x="373" y="113"/>
+		
+	</customDisplay>
+		
+	<components>	
+		<!--ChatOutputView-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="chat.OutputBg" resourceLink="asset.chat.OutputBg_01,asset.chat.OutputBg_02,asset.chat.OutputBg_03,asset.chat.OutputBg_04,asset.chat.OutputBg_05" />
+
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.LockBtn" selectedStyle="asset.chat.LockBtn_02" unSelectedStyle="asset.chat.LockBtn_01" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ClearBtn" backStyle="asset.chat.ClearBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" y="25"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ScrollUpBtn" backStyle="asset.chat.ScrollUpBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" y="50"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ScrollDownBtn" backStyle="asset.chat.ScrollDownBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" y="75"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.GoBottomBtn" backStyle="asset.chat.GoBottomBtn" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" y="100"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.FunctionBtnInGame" selectedStyle="asset.chat.FunctionOpenBtnInGame_02" unSelectedStyle="asset.chat.FunctionOpenBtnInGame_01" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" x="-7" y="9"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.LockBtnInGame" selectedStyle="asset.chat.LockBtnInGame_02" unSelectedStyle="asset.chat.LockBtnInGame_01" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" filterString="null,lightFilter,null,grayFilter" x="-7" y="30"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.ClearBtnInGame" backStyle="asset.chat.ClearBtnInGame" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="32" y="9"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.ScrollUpBtnInGame" backStyle="asset.chat.ScrollUpBtnInGame" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="-7" y="56"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.ScrollDownBtnInGame" backStyle="asset.chat.ScrollDownBtnInGame" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="-7" y="82"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.GoBottomBtnInGame" backStyle="asset.chat.GoBottomBtnInGame" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="-7" y="108"/>
+		
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.CurrentBtn" selectedStyle="asset.chat.CurrentBtn_02" unSelectedStyle="asset.chat.CurrentBtn_01"  filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.ConsortiaBtn" selectedStyle="asset.chat.ConsortiaBtn_02" unSelectedStyle="asset.chat.ConsortiaBtn_01" filterString="null,lightFilter,null,grayFilter" y="40"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.PrivateBtn" selectedStyle="asset.chat.PrivateBtn_02" unSelectedStyle="asset.chat.PrivateBtn_01" filterString="null,lightFilter,null,grayFilter" y="80"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.MoreSwitcher" unSelectedStyle="asset.chat.more" selectedStyle="asset.chat.lessen" filterString="null,lightFilter,null,grayFilter" x="-999" y="-999"/> <!-- (-147) (-31)-->
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.PetSpriteSwitcher" unSelectedStyle="asset.chat.petSprite.close" selectedStyle="asset.chat.petSprite.open" filterString="null,lightFilter,null,grayFilter" x="-101" y="-31" />
+		
+		
+		<!--ChatInputView-->
+		
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="chat.ChannelState" resourceLink="asset.chat.ChannelState_BigBuggle,asset.chat.ChannelState_SmallBuggle,asset.chat.ChannelState_Private,asset.chat.ChannelState_Consortia,asset.chat.ChannelState_Team,asset.chat.ChannelState_Current,,,,asset.chat.ChannelState_Current,,,asset.chat.ChannelState_CrossBuggle,asset.chat.ChannelState_Current,asset.chat.ChannelState_CrossBuggle,asset.chat.ChannelState_CrossBuggle"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.InputEnterBtn" backStyle="asset.chat.InputEnterBtnBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="372" y="9" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.InputFriendListBtn" backStyle="asset.chat.InputFriendListBtnBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="406" y="8" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.InputFastReplyBtn" backStyle="asset.chat.InputFastReplyBtnBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="424" y="8" filterString="null,lightFilter,null,grayFilter"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.InputFaceBtn" backStyle="asset.chat.InputFaceBtnBg" x="448" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" y="8" filterString="null,lightFilter,null,grayFilter"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.InputFaceInGameBtn" backStyle="asset.chat.InputFaceBtnInGameBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="425" y="7" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.InputFastReplyInGameBtn" backStyle="asset.chat.InputFastReplyBtnInGameBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="399" y="5" />
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.InputIMBtn" backStyle="asset.chat.InputIMBtnBg" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0" x="448" y="7" />
+		
+		<!--ChatFastReply-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chat.FastReplyBg" resourceLink="asset.chat.FastReplyBg" scaleGridString="10,10,165,255" />
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="chat.FastReplyList" spacing="1" x="3" y="7"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.FastReplyDeleteBtn" backStyle="asset.chat.FastReplyDeleteBtn" x="152" y="1"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.FastReplyEnterBtn" backStyle="asset.chat.FastReplyEnterBtn" x="147"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chat.FastReplyInputTxt" textFormatStyle="chat.FastReplyInputTF" autoSize="none" x="5" width="145" height="20" type="input"/> 
+		
+		<!-- ChatFriendList -->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="chat.FriendListBg" resourceLink="asset.chat.FriendListBg" scaleGridString="10,10,42,42" width="220" height="175" x="" y=""/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.FriendListFriendBtn" selectedStyle="asset.chat.FriendListFriendBtnUp" unSelectedStyle="asset.chat.FriendListFriendBtnDown" x="5" y ="177"/>
+		<component classname="com.pickgliss.ui.controls.SelectedButton" stylename="chat.FriendListConsortiaBtn" selectedStyle="asset.chat.FriendListConsortiaBtnUp" unSelectedStyle="asset.chat.FriendListConsortiaBtnDown" x="100" y ="177"/>
+		
+
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="chat.FriendList"
+			vScrollbarStyle="core.VScrollbar" hScrollbarStyle="core.HScrollbar"
+			hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3"
+			viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|chat.ChatFriendListItem,23,235,true"
+			listStyle="com.pickgliss.ui.controls.list.List" width="206" height="160"
+			hScrollProxy="2" vScrollProxy="1" x="8" y="7" vUnitIncrement="10"/>
+		<custom classname="ddt.view.chat.ChatFriendListItem" stylename="chat.ChatFriendListItem"/>
+		
+		<!--  ChatChannelState  -->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_CrossBuggleBtn" backStyle="asset.chat.ChannelState_CrossBuggleBtn" x="4" y ="5"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_BigBuggleBtn" backStyle="asset.chat.ChannelState_BigBuggleBtn" x="4" y ="23"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_SmallBuggleBtn" backStyle="asset.chat.ChannelState_SmallBuggleBtn" x="4" y="41"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_PrivateBtn" backStyle="asset.chat.ChannelState_PrivateBtn" x="4" y ="59"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_ConsortiaBtn" backStyle="asset.chat.ChannelState_ConsortiaBtn" x="4" y ="77"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_TeamBtn" backStyle="asset.chat.ChannelState_TeamBtn" x="4" y ="95"/>
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="chat.ChannelState_CurrentBtn" backStyle="asset.chat.ChannelState_CurrentBtn" x="4" y ="113"/>
+
+		<!--ChatPrivateFrame-->
+		<component classname="ddt.view.chat.ChatPrivateFrame"  stylename="chat.PrivateFrame"  parentStyle="BaseFrame" width="320" height="155"/>
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="chat.FriendListCombo" parentStyle="core.Combox1" x='135' y='55' />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chat.PrivateFrameText" textFormatStyle="chat.PrivateFrameTF" x="30" y="60" /> 
+		
+		<!--ChatBugleView-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="chat.BugleViewType" resourceLink="asset.chat.BugleViewBigBugle,asset.chat.BugleViewSmallBugle,asset.chat.BugleViewBugle,asset.chat.BugleViewCrossBugle,asset.chat.BugleViewBugle" x="12"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chat.BugleViewText" textFormatStyle="chat.BugleViewTF" x="125" y="6" /> 
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chat.BugleAnimationText" textFormatStyle="chat.BugleViewAnimationTF" multiline="false" wordWrap="false" x="101" y="56" /> 
+		
+		
+		<!-- ChatNamePanel -->
+		<component classname="com.pickgliss.ui.controls.container.VBox" stylename="chat.NamePanelList" spacing="2" x="6" y="4"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="chat.ItemBg" resourceLink=",asset.chat.NamePanelItemBg,asset.chat.NamePanelItemBg"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="chat.ItemMakeFriend" parentStyle="playerTip.ItemMakeFriend" backStyle="chat.ItemBg"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="chat.ItemPrivateChat" parentStyle="playerTip.ItemPrivateChat" backStyle="chat.ItemBg"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="chat.ItemInfo" parentStyle="playerTip.ItemInfo" backStyle="chat.ItemBg"/>
+		<component classname="com.pickgliss.ui.controls.IconButton" stylename="chat.ItemBlackList" parentStyle="playerTip.ItemBlackList" backStyle="chat.ItemBg"/>
+		
+		<!-- ChatBugleInputFrame -->
+		<component classname="ddt.view.chat.ChatBugleInputFrame"  stylename="chat.BugleInputFrame" backStyle="SimpleFrameBackgound" closestyle="core.closebt" submitButtonStyle="chat.BugleInputFrameSummitBtn" titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5" closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" escEnable="true" width="356" height="276"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="chat.BugleInputFrameBg" parentStyle="core.scale9CornerImage20" width="318" height="192" x="19" y="38"/>
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="chat.BugleInputFrameTextBg" parentStyle="copyFile.img18" width="296" height="136" x="30" y="82"/>
+		
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="chat.BugleInputFrameSummitBtn" backStyle="asset.chat.BugleInputSummitBtn" cancelButtonStyle="" x="128" y="235"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chat.BugleInputFrameRemainText" textFormatStyle="chat.BugleInputFrameRemainTF" height="22" x="254" y="57" />
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="chat.BugleInputFrameInputText" textFormatStyle="chat.BugleInputFrameInputTF" autoSize="none" type="input" maxChars="35" multiline="true" wordWrap="true" width="274" height="106" x="38" y="89" />
+		
+	</components>
+	
+	<viewInfo>
+		<custom stylename="chatViewInfo.state_0" name="大厅" inputX="6" inputY="570" outputLockEnabled="true" outputBackground="1" outputX="0" outputY="435" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_1" name="游戏" inputVisible="false" inputFaceEnabled="true" inputVisibleSwitchEnabled="true" inputX="280" inputY="453" outputLockEnabled="true" outputIsLock="true" outputBackground="3" outputContentFieldStyle="GAME_STYLE" outputChannel="0" outputX="3" outputY="117"/>
+		<custom stylename="chatViewInfo.state_2" name="工会"  inputX="18" inputY="541" outputBackground="2" outputX="12" outputY="408" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_3" name="婚礼房间列表" inputX="11" inputY="560" outputBackground="2" outputX="5" outputY="425"/>
+		<custom stylename="chatViewInfo.state_4" name="婚礼房间" inputFaceEnabled="true" inputX="11" inputY="560" outputLockEnabled="true" outputBackground="1" outputX="5" outputY="425"/>
+		<custom stylename="chatViewInfo.state_5" name="战斗房间" inputFaceEnabled="true" inputX="12" inputY="565"  outputBackground="2"  outputX="6" outputY="430" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_6" name="竞技房间列表"  inputX="12" inputY="565"  outputBackground="2" outputX="6" outputY="430" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_7" name="副本房间列表"   inputX="12" inputY="562" outputBackground="4"  outputX="6" outputY="427" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_8" name="战斗结束"  inputVisibleSwitchEnabled="true" inputX="280" inputY="480" outputLockEnabled="true" outputBackground="3" outputContentFieldStyle="GAME_STYLE" outputChannel="0" outputX="0" outputY="380"/>
+		<custom stylename="chatViewInfo.state_9" name="战斗加载"  inputX="4" inputY="571" outputBackground="5" outputX="-1" outputY="439"/>
+		<custom stylename="chatViewInfo.state_10" name="副本房间"  inputFaceEnabled="true" inputX="12" inputY="565"  outputBackground="2"  outputX="6" outputY="430"  outputContentFieldStyle="NORMAL_STYLE"/>
+		<!-- 缺少11 -->
+		<custom stylename="chatViewInfo.state_12" name="我的公会"  inputX="13" inputY="537"  outputBackground="2" outputX="7" outputY="405" outputContentFieldStyle="NORMAL_STYLE"/>
+		<!-- 缺少13 -->
+		<custom stylename="chatViewInfo.state_14" name="交友中心"  inputX="6" inputY="560" outputBackground="2" outputX="0" outputY="425"/>
+		<custom stylename="chatViewInfo.state_15" name="名人堂"  inputX="15" inputY="560" outputBackground="2" outputX="9" outputY="425"/>
+		<!-- 缺少16 -->
+		<custom stylename="chatViewInfo.state_17" name="大厅" inputX="6" inputY="570" outputLockEnabled="true" outputBackground="1" outputX="0" outputY="435" outputContentFieldStyle="NORMAL_STYLE"/>
+		<!-- 目前没有温泉点券房 -->
+		<custom stylename="chatViewInfo.state_18" name="温泉点券房" inputFaceEnabled="true" inputX="6" inputY="569" outputBackground="1" outputX="0" outputY="434"/>
+		<custom stylename="chatViewInfo.state_19" name="温泉金币房"  inputFaceEnabled="true" inputX="6" inputY="569" outputLockEnabled="true" outputBackground="1" outputX="0" outputY="434"/>
+		<custom stylename="chatViewInfo.state_20" name="新手战斗"/>
+		<!-- 缺少21 -->
+		<custom stylename="chatViewInfo.state_22" name="新手房间加载"  inputX="12" inputY="565" outputBackground="5" outputX="6" outputY="430" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_23" name="作战实验室"  inputX="12" inputY="548" outputBackground="2"  outputX="10" outputY="414" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_25" name="师徒神殿"  inputX="6" inputY="566" outputBackground="2" outputX="0" outputY="431" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_24" name="小游戏内"  inputFaceEnabled="564" inputX="8" inputY="567" outputLockEnabled="true" outputBackground="1" outputX="0" outputY="435"/>
+		<!--<custom stylename="chatViewInfo.state_26" name="小游戏大厅"  inputX="6" inputY="570" outputBackground="1" outputX="0" outputY="435"/>-->
+		<custom stylename="chatViewInfo.state_26" name="小游戏大厅" inputX="10" inputY="568" outputBackground="2" outputX="4" outputY="436" />
+		<custom stylename="chatViewInfo.state_27" name="大厅" inputX="6" inputY="570" outputLockEnabled="true" outputBackground="1" outputX="0" outputY="435" outputContentFieldStyle="NORMAL_STYLE"/>
+    	<custom stylename="chatViewInfo.state_28" name="世界boss房间" inputFaceEnabled="true" inputX="11" inputY="560" outputLockEnabled="true" outputBackground="1" outputX="5" outputY="425" />
+		<custom stylename="chatViewInfo.state_29" name="公会战场景" inputX="8" inputY="562" outputLockEnabled="true" outputBackground="1" outputX="0" outputY="435" outputContentFieldStyle="NORMAL_STYLE"/>    	
+    	<custom stylename="chatViewInfo.state_30" name="农场探宝"  inputX="8" inputY="562" outputBackground="2" outputX="0" outputY="435"/>
+    	<custom stylename="chatViewInfo.state_31" name="超级大赢家" inputX="8" inputY="562" outputBackground="2" outputX="0" outputY="435"/>
+    	<custom stylename="chatViewInfo.state_32" name="捉虫大作战房间" inputFaceEnabled="true" inputX="8" inputY="562" outputBackground="4" outputX="0" outputY="435" outputContentFieldStyle="NORMAL_STYLE"/>
+    	<custom stylename="chatViewInfo.state_33" name="家园"  inputX="8" inputY="562" outputLockEnabled="true" outputBackground="2" outputX="0" outputY="435" outputContentFieldStyle="NORMAL_STYLE"/>
+		<custom stylename="chatViewInfo.state_34" name="房屋" inputVisible="false" inputFaceEnabled="true" inputVisibleSwitchEnabled="true" inputX="280" outputBackgroundVisible="false" inputY="453" outputLockEnabled="true" outputIsLock="true" outputBackground="3" outputContentFieldStyle="GAME_STYLE" outputChannel="0" outputX="3" outputY="117"/>
+	</viewInfo>
+
+	<bitmaps>
+		<bitmapData resourceLink="asset.chat.OutputBg_01"  y="1"/>
+		<bitmapData resourceLink="asset.chat.OutputBg_03" x="-3" y="21"/>
+		<bitmapData resourceLink="asset.chat.OutputBg_04" x="-8" y="-6"/>
+		<bitmapData resourceLink="asset.chat.OutputBg_05" x="2" y="0"/>
+		<bitmapData resourceLink="asset.chat.FriendListItemSpaceLine" y="20"/>
+		<bitmapData resourceLink="asset.chat.ChannelPannelBg" height="140"/>
+		<bitmapData resourceLink="asset.chat.ChannelState_CrossBuggle" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.ChannelState_BigBuggle" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.ChannelState_SmallBuggle" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.ChannelState_Private" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.ChannelState_Consortia" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.ChannelState_Team" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.ChannelState_Current" x="5" y="5" />
+		<bitmapData resourceLink="asset.chat.BugleViewBigBugle" y="-2" />
+		<bitmapData resourceLink="asset.chat.BugleViewSmallBugle" y="-4" />
+		<bitmapData resourceLink="asset.chat.BugleViewBugle" x="-17" y="-8" />
+		<bitmapData resourceLink="asset.chat.FriendListConsortiaBtnDown" y="3" />
+		<bitmapData resourceLink="asset.chat.FriendListFriendBtnDown" y="3" />
+		<bitmapData resourceLink="asset.chat.FastReplyInputBg" x="3" />
+		<bitmapData resourceLink="asset.chat.NamePanelItemBg"  y="4"/>
+		<bitmapData resourceLink="asset.chat.BugleViewBg" x="33" />
+		<bitmapData resourceLink="asset.chat.BugleInputTitleBitmap" x="31" y="54" />
+		<bitmapData resourceLink="asset.chat.petSprite.open" x="0" y="-7" /><!-- 宠物开  牌子 -->
+	</bitmaps>
+</style>

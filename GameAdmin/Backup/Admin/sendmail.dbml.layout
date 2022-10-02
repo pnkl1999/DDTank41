@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="sendmail">
+  <DataContextMoniker Name="/sendmailDataContext" />
+</ordesignerObjectsDiagram>

@@ -1,0 +1,109 @@
+<style name="login" version="1.0.1" source="ui/spain/swf/login.swf">
+	<sets>
+		<set stylename="login.TitleFT" args="Arial,14,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="login.ChooseRole.NicknameFT" args="Arial,14,0x5f3014,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="login.Rename.NicknameLabelFT" args="Arial,16,0x563202,true" type="flash.text.TextFormat" />
+		<set stylename="login.Rename.NicknameInputFT" args="Arial,14,0x000000" type="flash.text.TextFormat" />
+		<set stylename="login.ChooseRole.DisenableGF" args="0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0.3, 0.59, 0.11, 0, 0, 0, 0, 0, 1, 0" type="flash.filters.ColorMatrixFilter" />
+		<set stylename="login.Rename.ResultDefaultTF" args="Arial,16,0xFFFFFF,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="login.Rename.BlackBorderGF" args="0x000000,1,2,2,10,1" type="flash.filters.GlowFilter" />
+		
+		<set stylename="login.Rename.ResultUnAvailableTF" args="Arial,16,0xff0000,true,,,,,center" type="flash.text.TextFormat" />
+		<set stylename="login.Rename.ResultAvailableTF" args="Arial,16,0x339900,true,,,,,center" type="flash.text.TextFormat" />
+	</sets>
+	
+	<components>
+		
+		<!-- Frame Title -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="login.Title"
+			textFormatStyle="login.TitleFT"
+			autoSize="none" width="372" height="20" />		
+		
+		<!-- ChooseRole Start -->
+		
+		
+		
+		<!-- Enter Button-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="login.ChooseRole.EnterButtonAsset"
+			resourceLink="login.ChooseRole.btnEnterGame_up,login.ChooseRole.btnEnterGame_over,login.ChooseRole.btnEnterGame_down,login.ChooseRole.btnEnterGame_up" />
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="login.ChooseRole.EnterButton" backStyle="login.ChooseRole.EnterButtonAsset"
+			x="100" y="323"/>
+		
+		<!-- Role List -->
+		<!--<component classname="com.pickgliss.ui.controls.container.VBox" stylename="login.ChooseRole.RoleList" x="18" y="66" />-->
+		
+		<!-- Role Cell -->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="login.ChooseRole.RoleBackground"
+			resourceLink="login.chooserole.cell.unselected,login.chooserole.cell.selected"/>
+			
+		<!-- Nickname -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="login.ChooseRole.Nickname" 
+			textFormatStyle="login.ChooseRole.NicknameFT" x="88" y="20" autoSize="none" width="194" height="30" />
+			
+		<!-- RoleList Start -->
+		
+		<component classname="com.pickgliss.ui.controls.ListPanel" stylename="login.ChooseRole.RoleList" hScrollbarStyle="core.HScrollbar" 
+			vScrollbarStyle="core.VScrollbar" vScrollProxy='1'
+			hScrollbarInnerRectString="0,22,21,0,4" vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0" 
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|login.view.RoleItem,66,313" 
+			listStyle="com.pickgliss.ui.controls.list.List" width="330" height="244" x="19" y="64" hScrollProxy="2" vUnitIncrement="10" />
+		
+		<!-- RoleList End -->
+		
+		<!-- ChooseRole End -->
+		
+		
+		<!-- RoleRename Start -->
+		
+		<!-- Nickname Lable -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="login.Rename.NicknameLabel" 
+			textFormatStyle="login.Rename.NicknameLabelFT" x="20" y="83" />	
+		
+		<!-- Nickname Input -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="login.Rename.NicknameInput" maxChars="14"
+			textFormatStyle="login.Rename.NicknameInputFT" x="162" y="82" autoSize="none" width="160" height="26" type="input" />
+
+		<!-- Consortianame Input -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="login.Rename.ConsortianameInput" maxChars="12"
+			textFormatStyle="login.Rename.NicknameInputFT" x="162" y="82" autoSize="none" width="160" height="26" type="input" />			
+		
+		<!-- Modify Button -->
+		<component classname="com.pickgliss.ui.controls.BaseButton" stylename="login.Rename.ModifyButton" backStyle="login.Rename.ModifyButtonbackgound"
+			x="130" y="150"/>
+			
+		<!-- Rename CheckResult -->		
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="login.Rename.RenameResult"  filterString="login.Rename.BlackBorderGF" 
+			x="10" y="116" autoSize="none" width="350" height="27" />
+			
+		<!-- RoleRename End -->
+	</components>
+	
+	<customDisplay>
+		<!-- ChooseRole Start -->
+		
+		<!-- Role Cell -->
+		<custom classname="login.view.RoleItem" stylename="login.view.RoleItem" x="12" />
+		
+		<!-- Level Icon -->
+		<custom classname="ddt.view.common.LevelIcon" stylename="login.ChooseRole.cell.LevelIcon" x="26" y="20"/>
+		
+		
+		<!-- ChooseRole End -->
+	</customDisplay>
+	
+	<bitmaps>
+		
+		<!-- Rename Start -->
+		
+		<bitmapData resourceLink="login.Rename.NicknameBackground" x="162" y="82" />
+		
+		<!-- Rename End -->
+		
+		<!-- ChooseRole Start -->
+		
+		<bitmapData resourceLink="login.chooserole.listbackground" x="11" y="32" />
+		
+		<bitmapData resourceLink="login.chooserole.cell.unselected" x="3" y="4" />
+		<!-- ChooseRole End -->
+	</bitmaps>
+</style>

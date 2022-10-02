@@ -1,0 +1,103 @@
+﻿<html>
+<head>
+<title>弹弹堂</title>
+<style>
+body{
+	margin:0px auto;
+	padding:0px;
+	background-image:url(images/bg.jpg);
+}
+.top{
+	margin-top:262px;
+	font-size:24px;
+	font-weight:bold;
+	margin-left:390px;
+}
+.top_text{
+	background-image:url(images/tag_01.jpg);
+	width:250px;
+	height:135px;
+	line-height:128px;
+	text-align:center;
+	color:#FFF;
+}
+.top_time{
+	width:250px;
+	height:85px;
+	line-height:78px;
+	text-align:center;
+	color:#000;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+.text_font{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+}
+.dro{
+	width:100px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	color:#333;
+	line-height:32px;
+	height:34px;
+	background-color:#FC6;
+}
+</style>
+<SCRIPT language="JavaScript">
+<!--
+var limit="0:19"
+if (document.images){
+var parselimit=limit.split(":")
+parselimit=parselimit[0]*60+parselimit[1]*1
+}
+function begintimer(){
+if (!document.images)
+return
+if (parselimit==1)
+//下面是限制时间到了后去的连接页面,自己修改。
+window.location="link.htm"
+else{ 
+parselimit-=1
+curmin=Math.floor(parselimit/60)
+cursec=parselimit
+if (curmin!=0)
+curtime=curmin+"分"+cursec
+else
+curtime=cursec
+setTimeout("begintimer()",1000)
+//下一句告诉访问者剩余的时间，在文本框中显示，不想要去掉即可。
+document.lefttime.left.value=curtime
+//下一句告诉访问者剩余的时间，在状态栏中显示。
+window.status=curtime
+}
+}
+//-->
+</SCRIPT>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></head>
+<body background="images/bg_1.jpg" scroll="no" onload="begintimer()">
+<table width="100%" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="608" valign="middle"><table width="1008" border="0" align="center" cellpadding="0" cellspacing="0">
+      <tr>
+        <td height="608" valign="top" background="images/bg_1.jpg">
+        	<div class="top">
+				<div class="top_text">err!出错啦！</div>
+                <div class="top_time">
+                	<form name="lefttime">
+                    	<p>
+                        	<input name="left" type="text" class="dro" size="25">
+                       </p>
+                    </form>
+                </div>
+            </div>
+        </td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+</body>
+</html>

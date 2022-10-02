@@ -1,0 +1,35 @@
+<style name="ToolBar" version="1.0.1" source="ui/spain/swf/ToolBar.swf">
+<sets>
+</sets>
+<components>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gobackbtn" backStyle="asset.toolbar.returnBtnAsset" useLogID="21" x="946" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.turntobtn" backStyle="asset.toolbar.turntoBtnAsset" useLogID="16" x="898" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gosettingbtn" backStyle="asset.toolbar.setBtnAsset" useLogID="20" x="850" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goimbtn" backStyle="asset.toolbar.imBtnAsset" useLogID="19" x="801" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gotaskbtn" backStyle="asset.toolbar.taskBtnAsset" useLogID="17" x="753" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goemailbtn" backStyle="asset.toolbar.emailBtnAsset" useLogID="18" x="705" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gobagbtn" backStyle="asset.toolbar.bagBtnAsset" useLogID="15" x="656" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goshopbtn" backStyle="asset.toolbar.shopBtnAsset" useLogID="14" x="608" y="547" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,1,2"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gochargebtn" backStyle="asset.toolbar.supplyBtnAsset" useLogID="13" x="494" y="547" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.guidebtn" backStyle="asset.toolbar.guideBtnAsset" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.shoucangbtn" backStyle="asset.toolbar.collectBtnAsset" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.daily" backStyle="asset.toolbar.dailyBtnAsset" x="842"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.gotaskbtn2" backStyle="asset.toolbar.tasklBtnAsset2" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.goemailbtn2" backStyle="asset.toolbar.emailBtnAsset2" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.complainbtn" backStyle="asset.toolbar.complainBtnAsset" useLogID="22" x="872" y="67"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="toolbar.ShortCutBtn" backStyle="asset.toolbar.ShortCutBtn" useLogID="23" x="868" y="0" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="6"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="core.hall.clientDownloadBtn" backStyle="asset.hall.clientDownloadBtnAsset" tipStyle="ddt.view.tips.OneLineTip" tipGapV="-27" tipGapH="4" tipDirctions="6" pressEnable="true" x='872' y='67'/>
+	
+</components>
+	<customDisplay>
+		<custom classname="flash.geom.Rectangle" stylename="feedback.btnGlowRec"
+			x="0"	 y="12"  />
+		
+		<custom classname="flash.geom.Point" stylename="toolbar.emailShineIconPos" x="-3" y="-3"/>
+		<custom classname="flash.geom.Point" stylename="toolbar.taskShineIconPos" x="-3" y="-3"/>
+		<custom classname="flash.geom.Point" stylename="toolbar.bagShineIconPos" x="0" y="0"/>
+		<custom classname="flash.geom.Point" stylename="toolbar.ShineAssetPos" x="24" y="24"/>
+	</customDisplay>
+<bitmaps>
+</bitmaps>
+</style>

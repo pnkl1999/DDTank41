@@ -1,0 +1,11 @@
+<style name="cursor" version="1.0.1" source="ui/spain/swf/cursor.swf">
+<sets>
+</sets>
+<components>
+</components>
+<bitmaps>
+</bitmaps>
+<customDisplay>
+	<custom classname="flash.display.MovieClip" stylename="asset.cursor.Cursor" x="0" y="0"/>
+</customDisplay>
+</style>

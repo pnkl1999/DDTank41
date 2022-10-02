@@ -1,0 +1,352 @@
+<style name="gemstone" version="1.0.1" source="ui/vietnam/swf/gemstone.swf">
+<sets>
+    <!-- 商城文字样式 -->
+   <set stylename="gemstone.info.TF1" args="Arial,14,0xffead9,true,,,,,center"
+			type="flash.text.TextFormat" letterSpacing="5" />
+	<set stylename="gemstone.info.GF1" args="0x76251e,1,4,4,30" type="flash.filters.GlowFilter" />
+	 <!--其他途径样式 -->
+   <set stylename="gemstone.info.TF2" args="Arial,14,0xffead9,true,,,,,center"
+			type="flash.text.TextFormat" letterSpacing="5" />
+	<set stylename="gemstone.info.GF2" args="0x76251e,1,4,4,30" type="flash.filters.GlowFilter" />
+	<!--输入文本样式 -->
+	<set stylename="gemstone.TFormat_21" args="Arial,14,0xfff6c9,true,,,,,left" type="flash.text.TextFormat"/>
+	<!--输入文本滤镜 -->
+	<set stylename="gemstone.GF12" args="0x654308,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="gemstone.info.title1" args="Arial,12,0xffead9,true,,,,,center"
+			type="flash.text.TextFormat" letterSpacing="2" />
+			
+	<set stylename="gemstone.info.title2" args="Arial,12,0xfad680,true,,,,,center"
+			type="flash.text.TextFormat" letterSpacing="1" />
+	<set stylename="gemstone.info.title1GF1" args="0x552E07,1,4,4,30"
+			type="flash.filters.GlowFilter" />
+	<!--文本样式1 -->
+	<set stylename="gemstone.TF1" args="Arial,11,0xfdd95b,true,,,,,left" type="flash.text.TextFormat"/>
+	<!--滤镜样式1 -->
+	<set stylename="gemstone.GF1" args="0x7c481b,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<!--文本样式2 -->
+	<set stylename="gemstone.TF2" args="Arial,14,0xfff2b2,true,,,,,left" type="flash.text.TextFormat"/>
+	<!--滤镜样式2 -->
+	<set stylename="gemstone.GF2" args="0x6f3c01,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<!--文本样式3 -->
+	<set stylename="gemstone.TF3" args="Arial,14,0xf1e09e,true,,,,,left"  type="flash.text.TextFormat"/>
+	<!--滤镜样式3 -->
+	<set stylename="gemstone.GF3" args="0x5d3200,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<!--文本样式4 -->
+	<set stylename="gemstone.TF4" args="Arial,12,0xfff5cb,,,,,,left" type="flash.text.TextFormat" leading="0" />
+	<!--滤镜样式4 -->
+	<set stylename="gemstone.GF4" args="0x805421,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<!--文本样式5 -->
+	<set stylename="gemstone.TF5" args="Arial,11,0xffd200,true,,,,,left" type="flash.text.TextFormat"  leading="5" />
+	<!--滤镜样式5 -->
+	<set stylename="gemstone.GF5" args="0x542801,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<!--滤镜样式51 -->
+	<set stylename="gemstone.GF51" args="0x321706,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<!--文本样式6 -->
+	<set stylename="gemstone.TF6" args="Arial,12,0xffffff,,,,,,left" type="flash.text.TextFormat" leading="5" />
+	<!--滤镜样式6 -->
+	<set stylename="gemstone.GF6" args="0x542801,1,4,4,30" type="flash.filters.GlowFilter"/>
+	
+	<set stylename="gemstone.TF7" args="Arial,10,0xfff6a8,,,,,,center" type="flash.text.TextFormat"   />
+	<set stylename="gemstone.GF7" args="0x715008,1,4,4,30"  type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF8" args="Arial,12,0xff9834,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF8" args="0x321706,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF9" args="Arial,12,0xffedb0,true,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF9" args="0x3f250b,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF10" args="Arial,13,0xff0000,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF10" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF11" args="Arial,13,0x33c3ff,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF11" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF12" args="Arial,13,0x99ff33,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF12" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF13" args="Arial,13,0xefff00,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF13" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter" />
+
+	<set stylename="gemstone.TF14" args="Arial,14,0xffd200,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF14" args="0x542801,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF15" args="Arial,14,0xfff6c9,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF15" args="0x402f00,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF16" args="Arial,14,0xf09ff00,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF16" args="0x062c04,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF17" args="Arial,14,0xfdff35,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF17" args="0x371801,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF18" args="Arial,14,0xff313b,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF18" args="0x250101,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF19" args="Arial,14,0x51b3ff,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF19" args="0x01053f,1,4,4,30" type="flash.filters.GlowFilter" />
+	<set stylename="gemstone.TF20" args="Arial,12,0xfff6c9,,,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF20" args="0x402f00,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF21" args="Arial,12,0xf1e09e,true,,,,center" type="flash.text.TextFormat" />
+	<set stylename="gemstone.GF21" args="0x744309,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.TF22" args="Arial,12,0xf1e09e,true,,,,center" type="flash.text.TextFormat"   leading="5" />
+	<set stylename="gemstone.GF22" args="0x5d3200,1,4,4,30" type="flash.filters.GlowFilter" />
+	
+	<set stylename="gemstone.Tip.GF3" args="0x000000,,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="gemstone.Tip.GF4" args="0x000000,,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="gemstone.Tip.TF1" args="Arial,14,0xff0000,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF2" args="Arial,14,0x33c3ff,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF3" args="Arial,14,0x99ff33,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.GF1" args="0x000000,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="gemstone.Tip.TF4" args="Arial,14,0xefff00,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF4_1" args="Arial,14,0xAD1193,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF5" args="Arial,12,0xff0000,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF6" args="Arial,12,0x33c3ff,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF7" args="Arial,12,0x99ff33,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF8" args="Arial,12,0xefff00,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.TF8_1" args="Arial,12,0xAD1193,true,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="gemstone.Tip.GF2" args="0x000000,,1,4,4,30" type="flash.filters.GlowFilter"/>
+	<set stylename="gemstone.Next.GF" args="0xffffff,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="gemstone.Next.TF" args="Arial,12,0x000000,true,,,,,center" type="flash.text.TextFormat"/>
+</sets>
+<components>
+<!-- 装备容器的坐标 -->
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos1" x="23" y="80" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos2" x="23" y="100" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos3" x="23" y="120" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos4" x="23" y="140" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos5" x="223" y="80" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos6" x="223" y="100" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos7" x="223" y="120" />
+<custom classname="flash.geom.Point" stylename="gemstone.info.equip.pos8" x="223" y="140" ></custom>
+
+<!-- 黄色背景按钮 -->
+<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstoneBtnTxt" textFormatStyle="gemstone.TF7"
+			filterString="gemstone.GF7"  x="19" y="5.5"/>
+			
+<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstoneBtnTxt2" textFormatStyle="gemstone.TF7"
+			filterString="gemstone.GF7"  x="8" y="5.5"/>
+
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="gemstone.yellow" backStyle="gemstone.angle"/>
+			
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="gemstone.yellow2" backStyle="gemstone.angleBg"/>
+			
+<component classname="com.pickgliss.ui.image.MutipleImage" stylename="gemstone.angleBg" resourceLink="gemstone.angle" width="80" height="27"/>
+
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="upgradeButton" 
+			tipDirctions="0,1,2" backStyle="gemstone.upGradeBtn" x="141"
+			y="374" /><!-- 升级按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="buyButton" 
+			tipDirctions="0,1,2" backStyle="gemstone.buy" x="95"
+			y="157" /><!-- 购买按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="supplyButton" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,1,2" backStyle="gemstone.supplyBtnAsset" x="100"
+			y="100" /><!-- 充值按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="stonePicBtn" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,1,2" backStyle="gemstone.stonepic" x="18"
+			y="88" /><!-- 宝石精华图标按钮 -->
+<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="gemstone.buy.btn" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,1,2" backStyle="gemstone.buy" x="0"
+			y="0" /><!-- 宝石精华图标按钮 -->
+			
+<component classname="gemstone.items.ExpBar"
+			stylename="expBar" tipStyle="ddt.view.tips.OneLineTip"
+			tipDirctions="0,1,2" backStyle="gemstone.stonepic" x="97"  y="348" />
+
+			
+<!-- 宝石经验条 -->
+<!-- textStyle -->
+ <!-- 请选择需要提升的装备 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="selectUpGrade" textFormatStyle="gemstone.TF14"
+			filterString="gemstone.GF14" multiline="false" wordWrap="false"  x="100" y="333"/>
+			<!-- 鼠标点击 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="mouseClick" textFormatStyle="gemstone.TF15"
+			filterString="gemstone.GF15" multiline="false" wordWrap="false"  x="102" y="368" />
+        <!-- 战魂说明文字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunDescript" textFormatStyle="gemstone.TF5"
+			filterString="gemstone.GF5" multiline="false" wordWrap="true" height="50" width="70"/>
+        <!-- 战魂说明文字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="writhTxt" textFormatStyle="gemstone.TF6"
+			multiline="false" wordWrap="false" />
+
+        <!-- 战魂丹获取 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunTxt" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.GF1" multiline="false" wordWrap="false" x="110" y="19" />
+			 <!-- 商城购买 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstoneShopTxt" textFormatStyle="gemstone.info.TF1"
+			filterString="gemstone.info.GF1" multiline="false" wordWrap="false" x="15" y="52" />
+		
+		 <!--上部分作用描述 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="descriptTxt" textFormatStyle="gemstone.TF22"
+			filterString="gemstone.GF22" multiline="true" wordWrap="true" x="15" y="52" />
+		
+		<!--当前战魂属性描述 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="pdescriptTxt" textFormatStyle="gemstone.TF5"
+			filterString="gemstone.GF5" multiline="false" wordWrap="false" x="15" y="52" />
+			
+		<!--当前战魂装备描述 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="pZbdescriptTxt" textFormatStyle="gemstone.TF8"
+			filterString="gemstone.GF22" multiline="false" wordWrap="false" x="15" y="52" />
+		
+		<!--当前战魂等级值描述 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="pZbZhidescriptTxt" textFormatStyle="gemstone.TF9"
+			filterString="gemstone.GF22" multiline="false" wordWrap="false" x="15" y="52" />
+			
+			 <!-- 经验值文本框 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="expBarTxt" textFormatStyle="gemstone.TF20"
+			filterString="gemstone.GF20" multiline="false" wordWrap="false"  autoSize="none" x="16" y="2"  width="173"  height="20"/>
+			
+		<!--其他途径 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="othersTxt" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.GF1" multiline="false" wordWrap="false" x="8" y="375"/>
+		<!--战魂丹的作用 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunUsed" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.info.GF1" multiline="false" wordWrap="false" x="8" y="220"/>
+			
+		<!--战魂种类 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunKind" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.GF1" multiline="false" wordWrap="false" x="20" y="15"/>
+			
+			<!--当前战魂属性 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="curZhanhun" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.GF1" multiline="false" wordWrap="false" x="5" y="6"/>
+			
+			<!--当前部位战魂属性 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="curZhanhunzb" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.GF1" multiline="false" wordWrap="false"  x="5" y="6"/>
+		
+		<!--战魂作用 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunUseded" textFormatStyle="gemstone.TF1"
+			filterString="gemstone.GF1" multiline="false" wordWrap="false" x="7" y="282"/>
+		<!--战魂说明 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunshuoming" textFormatStyle="gemstone.TF4"
+			filterString="gemstone.GF4" multiline="true" wordWrap="true" x="7" y="305" width="285"/>
+		<!--战魂名字 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="zhanhunName" textFormatStyle="gemstone.TF21"
+			filterString="gemstone.GF21" multiline="false" wordWrap="false" x="42" y="12" />
+			
+		<!--输入数量 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstone.num" textFormatStyle="gemstone.TF2"
+			filterString="gemstone.GF2" multiline="false" wordWrap="false" x="100" y="90"  autoSize="none" width="143" height="20"  />
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstone.numinput" textFormatStyle="gemstone.TF2"
+			filterString="gemstone.GF2" multiline="false" wordWrap="false" x="140" y="90"  autoSize="none" width="143" height="20"  type="input" />
+		<!--输入礼券 -->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstone.liquan" textFormatStyle="gemstone.TFormat_21"
+			filterString="gemstone.GF12" multiline="false" wordWrap="false" x="100" y="122"  autoSize="none" width="143" height="20"  /> 
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstone.liquanNum" textFormatStyle="gemstone.TFormat_21"
+			filterString="gemstone.GF12" multiline="false" wordWrap="false" x="140" y="122"  autoSize="none" width="143" height="20"  /> 
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="redFig" textFormatStyle="gemstone.TF10"
+			filterString="gemstone.GF10" multiline="false" wordWrap="false" /> 
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="bluFig" textFormatStyle="gemstone.TF11"
+			filterString="gemstone.GF11" multiline="false" wordWrap="false"  /> 
+				<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="greFig" textFormatStyle="gemstone.TF12"
+			filterString="gemstone.GF12" multiline="false" wordWrap="false"  /> 
+				<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="yelFig" textFormatStyle="gemstone.TF13"
+			filterString="gemstone.GF13" multiline="false" wordWrap="false" /> 
+	
+			<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="gemstoneTxt" textFormatStyle="gemstone.TF17"
+			filterString="gemstone.GF17" multiline="false" wordWrap="false" /> 
+      
+        <component classname="com.pickgliss.ui.controls.SelectedCheckButton"
+			stylename="selectBtn" parentStyle="core.simpleSelectBtn"
+			fieldX="18" fieldY="-1" width="103" height="28" x="324" y="333"
+			displacement='false' />
+			
+		<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="gemstone.selectedBtn"
+		 textStyle="asset.Toffilist.theServerAsset" fieldX="-500" fieldY="1500" 
+		 unSelectedStyle="asset.core.check2UnSelected" backStyle="gemstone.alluse"
+		 selectedStyle="asset.core.check2Selected"  x="324" y="307"
+		 displacement="true"/>
+		
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gemstone.tipBG" parentStyle="core.GoodsTipBg" width="150" height="110"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gemstone.tipTxt1" filterString="gemstone.Tip.GF1" multiline="false" wordWrap="false" x="5" y="5"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gemstone.line1" parentStyle="HRuleAsset" width="120" height="20" x="5" y="33"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gemstone.tipTxt2" filterString="gemstone.Tip.GF1" multiline="false" wordWrap="false" x="5" y="35"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gemstone.nextTxt" textFormatStyle="gemstone.Next.TF" filterString="gemstone.Next.GF" multiline="false" wordWrap="false" x="5" y="68"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="gemstone.line2" parentStyle="HRuleAsset" width="120" height="20" x="5" y="65"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="gemstone.tipTxt3" filterString="gemstone.Tip.GF1" multiline="false" wordWrap="false" x="5" y="88"/>
+
+</components>
+<bitmaps>
+     <!--经验条背景 -->
+    <bitmapData resourceLink="gemstone.expBack" x="0" y="0"/>
+    <!--经验条 -->
+    <bitmapData resourceLink="gemstone.expFrome" x="-208" y="4.5"/>
+    <!--大背景 -->
+    <bitmapData resourceLink="gemstone.bigBg" x="8" y="16"/>
+    <!--右边背景 -->
+    <bitmapData resourceLink="gemstone.rightr" x="0" y="0"/>
+    <!--右边线 -->
+    <bitmapData resourceLink="gemstone.line" x="6" y="370"/>
+    <!--物品框 -->
+    <bitmapData resourceLink="gemstone.goodscontent" x="11" y="79"/>
+    <!--数量框 -->
+    <bitmapData resourceLink="gemstone.num" x="0" y="0"/>
+    <!--攻击战魂图标 -->
+    <bitmapData resourceLink="gemstone.attck" x="0" y="0"/>
+    <!--防御战魂图标 -->
+    <bitmapData resourceLink="gemstone.defense" x="0" y="0"/>
+    <!--敏捷战魂图标 -->
+    <bitmapData resourceLink="gemstone.agile" x="0" y="0"/>
+    <!--幸运战魂图标 -->
+    <bitmapData resourceLink="gemstone.lucky" x="0" y="0"/>
+    <!--幸运战魂图标 -->
+    <bitmapData resourceLink="gemstone.tiao" x="0" y="0"/>
+     <!--战魂容器 -->
+    <bitmapData resourceLink="gemstone.smallCil" x="0" y="0"/>
+    <!--战魂装备容器 -->
+    <bitmapData resourceLink="gemstone.bigCil" x="-5" y="-6"/>
+    <!--选中发光效果 -->
+    <bitmapData resourceLink="gemstone.seleted" x="0" y="0"/>
+     <!--选中发光效果 -->
+    <bitmapData resourceLink="gemstone.rigth.view" x="0" y="0"/>
+       <!--选中发光效果 -->
+    <bitmapData resourceLink="gemstone.alluse" x="-75" y="7"/>
+    
+</bitmaps>
+</style>

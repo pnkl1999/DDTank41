@@ -1,0 +1,18 @@
+<Result value="true" message="Success!">
+  <item Score="0" Name="Tân binh" Level="1" />
+  <item Score="2000" Name="Hạ sĩ" Level="2" />
+  <item Score="8000" Name="Trung sĩ" Level="3" />
+  <item Score="20000" Name="Thượng sĩ" Level="4" />
+  <item Score="35000" Name="Thiếu úy" Level="5" />
+  <item Score="51000" Name="Trung úy" Level="6" />
+  <item Score="67000" Name="Thượng úy" Level="7" />
+  <item Score="87000" Name="Thiếu tá" Level="8" />
+  <item Score="108000" Name="Trung tá" Level="9" />
+  <item Score="129000" Name="Thượng tá" Level="10" />
+  <item Score="155000" Name="Thiếu tướng" Level="11" />
+  <item Score="181000" Name="Trung tướng" Level="12" />
+  <item Score="201000" Name="Thượng tướng" Level="13" />
+  <item Score="251000" Name="Thứ soái" Level="14" />
+  <item Score="301000" Name="Nguyên soái" Level="15" />
+  <item Score="391000" Name="Đại nguyên soái" Level="16" />
+</Result>

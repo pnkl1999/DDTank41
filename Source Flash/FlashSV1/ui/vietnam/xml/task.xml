@@ -1,0 +1,9 @@
+<style name="task" version="1.0.1" source="ui/spain/swf/task.swf">
+<sets>
+</sets>
+<components>
+<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.task.mainScale9CornerImage" resourceLink="asset.task.mainScale9CornerImageLT,asset.task.mainScale9CornerImageTC,asset.task.mainScale9CornerImageRT,asset.task.mainScale9CornerImageLC,asset.task.mainScale9CornerImageCC,asset.task.mainScale9CornerImageRC,asset.task.mainScale9CornerImageLB,asset.task.mainScale9CornerImageBC,asset.task.mainScale9CornerImageRB" parentStyle="BaseFrame" width="728" height="510" />
+</components>
+<bitmaps>
+</bitmaps>
+</style>

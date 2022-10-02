@@ -1,0 +1,139 @@
+<style name="luckstar" version="1.0.1" source="ui/vietnam/swf/luckstar.swf">
+  <sets>
+  
+  	<set stylename="luckyStar.view.starTF" args="Arial,11,0xffffff" type="flash.text.TextFormat" leading="-1"/>
+  	<set stylename="luckyStar.view.starGF" args="0x390606,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="luckyStar.view.pageTF" args="Arial,12,0xfff1cd,,,,,,center" type="flash.text.TextFormat"/>	
+	<set stylename="luckyStar.view.pageGF" args="0x703d24,1,4,4,30"  type="flash.filters.GlowFilter"/>	
+	<set stylename="luckyStar.view.timeTF" args="Arial,12,0xEEE952,true" type="flash.text.TextFormat"/>	
+	<set stylename="luckyStar.view.timeGF" args="0x3B0B11,1,4,4,30"  type="flash.filters.GlowFilter"/>	
+	<set stylename="luckyStar.view.textTF" args="Arial,14,0xffffff,,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.textRankTF" args="Arial,16,0xffffff,,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.textGF" args="0x000000,1,2,2,8,1" type="flash.filters.GlowFilter" />	
+	<set stylename="luckyStar.view.newRankAwardTF" args="Arial,12,0xffffff,,,,,,center" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.cellCountTF" args="Arial,12,0x000000,,,,,,right" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.cellCountGF" args="0xFFFFFF,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="luckyStar.view.explainTF" args="Arial,12,0xBE8198" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.explainGF" args="0x3D0119,1,2,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="luckyStar.view.coinsTF" args="Arial,12,0xF2F0E3" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.coinsGF" args="0x960808,3,4,2,10" type="flash.filters.GlowFilter"/>
+	<set stylename="luckyStar.view.rankTitleTF" args="Arial,12,0xffea9c,true" type="flash.text.TextFormat"/>	
+	<set stylename="luckyStar.view.rankTitleGF" args="0x4f3700,1,4,4,30"  type="flash.filters.GlowFilter"/>	
+	<set stylename="luckyStar.view.gradueteNumTF" args="Arial,14,0x000000,true" type="flash.text.TextFormat"/>
+	<set stylename="luckyStar.view.helpNumTextTF" args="Arial,14,0xff0000,true" type="flash.text.TextFormat"/>
+	
+  </sets>
+  <components>
+  	<!--背景 -->
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="luckyStar.view.scale9ImageBg" width="810" height="484" x="19" y="44" parentStyle="core.bg6920"/>
+  	
+  	<component classname="com.pickgliss.ui.controls.SelectedCheckButton" stylename="luckyStar.view.AutoOpenButton" unSelectedStyle="luckyStar.view.UnSelectedCheck" selectedStyle="luckyStar.view.SelectedCheck" displacement="true" x="255" y="285"/> 
+  	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.starNumText" textFormatStyle="luckyStar.view.textTF" x="165" y="288" autoSize="none" width="47" height="20" filterString="luckyStar.view.starGF"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="luckyStar.view.BoxBtn" backStyle="luckyStar.view.BuyStarBG" x="111" y="282" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4"/>
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="luckyStar.view.AwardBtn" backStyle="luckyStar.view.AwardBtnBG" x="285" y="8" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="luckyStar.view.HelpBtn" backStyle="luckyStar.view.HelpBtnBG" x="748" y="6" />
+    <component classname="com.pickgliss.ui.controls.BaseButton" stylename="luckyStar.view.RankBtn" backStyle="luckyStar.view.RankBtnBG" x="270" y="13" />
+    <component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="luckyStar.view.preBtn" backStyle="asset.ddtcore.leftBtn" x="205" y="268" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="luckyStar.view.nextBtn" backStyle="asset.ddtcore.rightBtn" x="321" y="268" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="luckyStar.view.pageLastBg" parentStyle="core.Scale9CornerImage.scale9CornerImageInputBG" width="60" height="20" x="260" y="270"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.pageText" textFormatStyle="luckyStar.view.pageTF" filterString="luckyStar.view.pageGF" x="262" y="271" autoSize="none" width="60"  height="22"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.updateTimeText" textFormatStyle="luckyStar.view.textTF" filterString="luckyStar.view.textGF" x="8" y="271" autoSize="none" width="200" height="22"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.myRankText" textFormatStyle="luckyStar.view.textTF" filterString="luckyStar.view.textGF" x="89" y="302" autoSize="none" width="67" height="22" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.luckyStarNumText" textFormatStyle="luckyStar.view.textTF" filterString="luckyStar.view.textGF" x="286" y="302" autoSize="none" width="90" height="22"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.timeText" textFormatStyle="luckyStar.view.timeTF" filterString="luckyStar.view.timeGF" x="9" y="14" autoSize="none" width="280" height="22" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.rankItem.rankText" textFormatStyle="luckyStar.view.textRankTF" filterString="luckyStar.view.textGF" x="-14" y="5" autoSize="none" width="74" height="22" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.rankItem.rankScore" textFormatStyle="luckyStar.view.textTF" filterString="luckyStar.view.textGF" x="196" y="5" autoSize="none" width="155" height="22"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.rankItem.gradueteNumFFT" textFormatStyle="luckyStar.view.gradueteNumTF"/>
+	<component classname="com.pickgliss.ui.text.GradientText" stylename="luckyStar.rankItem.gradueteNumText" textFieldStyle="luckyStar.rankItem.gradueteNumFFT" colors="0xffdc38,0xd51a1a" filterString="gradueteNumGF" alphas="1,1" ratios="75,255" x="31" y="4"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="luckyStar.rankItem.topThreeRink" resourceLink="asset.coreIcon.orderNo1Asset,asset.coreIcon.orderNo2Asset,asset.coreIcon.orderNo3Asset"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.rankItem.rankNmaeText" textFormatStyle="luckyStar.view.textTF" filterString="luckyStar.view.textGF" x="60" y="4" autoSize="none" width="137" height="22" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.rankItem.newRankNmaeText" textFormatStyle="luckyStar.view.newRankAwardTF" filterString="luckyStar.view.pageGF" x="0" y="0" autoSize="none" width="125" height="24" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.rankItem.newRankAwardText" textFormatStyle="luckyStar.view.newRankAwardTF" filterString="luckyStar.view.pageGF" x="130" y="0" autoSize="none" width="235" height="24" />
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="luckyStar.view.awardcellBg" height="46" width="46" x="-1" y="-1" resourceLink="asset.ddtcore.goods.cellBg" scaleGridString="8,8,55,55"/>
+	<component classname="com.pickgliss.ui.image.ScaleBitmapImage" stylename="luckyStar.view.cellBg" height="60" width="60" x="-1" y="-1" resourceLink="luckyStar.view.CellBg" scaleGridString="8,8,55,55"/>
+	
+    <!--Frame-->
+	<component classname="luckStar.view.LuckStarFrame" stylename="luckyStar.view.LuckStarFrame"
+			backStyle="SimpleFrameBackgoundOne" parentStyle="BaseFrame"
+			closestyle="core.closebt" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="24,10,5" closeInnerRectString="44,22,6,30,14"
+			moveInnerRectString="0,30,0,30,1" width="848" height="546" escEnable="true" />
+  	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="luckyStar.view.CoinsNum" resourceLink="luckyStar.view.CoinsNum_1,luckyStar.view.CoinsNum_2,luckyStar.view.CoinsNum_3,luckyStar.view.CoinsNum_4,luckyStar.view.CoinsNum_5,luckyStar.view.CoinsNum_6,luckyStar.view.CoinsNum_7,luckyStar.view.CoinsNum_8,luckyStar.view.CoinsNum_9,luckyStar.view.CoinsNum_0" />  
+    <component classname="store.HelpFrame" stylename="luckyStar.view.HelpFrame" parentStyle="BaseFrame" width="404" height="484" />
+	<component classname="store.HelpPrompt" stylename="luckyStar.view.HelpPrompt" bg9ScalseStyle="luckyStar.view.FrameBg" contentStyle="luckyStar.view.HelpText" x="180" y="213" />
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="luckyStar.view.FrameBg" parentStyle="core.Scale9CornerImage.scale9CornerImagereleaseContentTextBG" x="-163" y="-170" width="370" height="376" />
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.cellCount" filterString="luckyStar.view.cellCountGF" textFormatStyle="luckyStar.view.cellCountTF" text="99" autoSize="none" width="55" height="22" x="0" y="38"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.explainText" filterString="luckyStar.view.explainGF" textFormatStyle="luckyStar.view.explainTF" autoSize="none" wordWrap="true" width="160" height="100" x="250" y="420"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.coinsText" filterString="luckyStar.view.coinsGF" textFormatStyle="luckyStar.view.coinsTF" autoSize="none" width="60" height="22" x="297" y="435"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.coinsAwardText" filterString="luckyStar.view.coinsGF" textFormatStyle="luckyStar.view.coinsTF" autoSize="none" width="80" height="22" x="325" y="451"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.rankTitle" textFormatStyle="luckyStar.view.rankTitleTF" filterString="luckyStar.view.rankTitleGF" autoSize="none" isAutoFitLength="true" x="20" y="47" width="60"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.rankName" textFormatStyle="luckyStar.view.rankTitleTF" filterString="luckyStar.view.rankTitleGF" autoSize="none" isAutoFitLength="true" x="139" y="47" width="80"  height="22" type="dynamic"/>		
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.rankNum" textFormatStyle="luckyStar.view.rankTitleTF" filterString="luckyStar.view.rankTitleGF" autoSize="none" isAutoFitLength="true" x="227" y="47" width="150"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.awardNum" textFormatStyle="luckyStar.view.rankTitleTF" filterString="luckyStar.view.rankTitleGF" autoSize="none" isAutoFitLength="true" x="56" y="369" width="130"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.awardListText" textFormatStyle="luckyStar.view.rankTitleTF" filterString="luckyStar.view.rankTitleGF" autoSize="none" isAutoFitLength="true" x="198" y="369" width="200"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.helpTextText"  textFormatStyle="luckyStar.view.starTF" filterString="luckyStar.view.textGF" autoSize="none" x="145" y="333" width="240" height="35" wordWrap="true"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="luckyStar.view.HelpNumText"  textFormatStyle="luckyStar.view.helpNumTextTF" filterString="luckyStar.view.textGF" autoSize="none" x="300" y="264" width="50"  height="22"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="luckyStar.view.TurnStartBtn" backStyle="luckyStar.view.BtnStartBg" x="182" y="186" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4" filterString="null,lightFilter,null,grayFilter"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="luckyStar.view.TurnStopBtn" backStyle="luckyStar.view.BtnStopBg" x="182" y="186" tipStyle="ddt.view.tips.OneLineTip" tipDirctions="0,3,7,1,2" tipGapV="4" filterString="null,lightFilter,null,grayFilter"/>
+	
+    
+  </components>
+  <customDisplay>
+  	<custom classname="luckStar.view.LuckStarCoinsView" stylename="luckyStar.view.luckyStarCoinsView" x="48" y="443"/>
+  	<custom classname="flash.geom.Point" stylename="luckyStar.view.rankViewPos" x="438" y="49"/>
+  	<custom classname="luckStar.view.LuckStarNewAwardView" stylename="luckyStar.view.luckyStarNewAwardView" x="12" y="400" width="360" height="66" />
+ 	<custom classname="flash.geom.Rectangle" stylename="luckyStar.view.newAwardViewRec" x="0" y="0" width="360" height="66" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.newAwardPos" x="12" y="400" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos110" x="192" y="63" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos111" x="245" y="63" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos112" x="298" y="63" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos120" x="192" y="126" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos121" x="245" y="126" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos122" x="298" y="126" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos130" x="192" y="189" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos131" x="245" y="189" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos132" x="298" y="189" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos140" x="192" y="252" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos141" x="245" y="252" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos142" x="298" y="252" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos150" x="192" y="315" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos151" x="245" y="315" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos152" x="298" y="315" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos160" x="192" y="377" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos161" x="245" y="377" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardPos162" x="298" y="377" />
+ 	
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos0" x="50" y="119" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos1" x="123" y="119" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos2" x="199" y="119" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos3" x="276" y="119" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos4" x="350" y="119" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos5" x="350" y="189" />
+	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos6" x="350" y="259" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos7" x="350" y="327" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos8" x="274" y="327" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos9" x="199" y="327" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos10" x="123" y="327" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos11" x="50" y="327" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos12" x="50" y="259" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.cellPos13" x="50" y="189" />
+ 	<custom classname="flash.geom.Rectangle" stylename="luckyStar.view.AwardLightRec" width="60" height="60" x="-4" y="-7" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.helpRewardPricePos" x="110" y="168" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.awardActionPos" x="35" y="115" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.maxAwardActionPos" x="98" y="142" />
+ 	<custom classname="flash.geom.Point" stylename="luckyStar.view.goalPos" x="292" y="240" />
+  </customDisplay>
+  <bitmaps>
+    <bitmapData resourceLink="luckyStar.view.SuperLuckyStarBg" x="23" y="48" />
+    <bitmapData resourceLink="luckyStar.view.NewAwardListBG" x="0" y="343"/>
+    <bitmapData resourceLink="luckyStar.view.RankBG" x="0" y="0"/>
+    <bitmapData resourceLink="luckyStar.view.AwardListBG" x="0" y="0"/>
+    <bitmapData resourceLink="luckyStar.view.CellFrame" x="-5" y="-5"/>
+    <bitmapData resourceLink="luckyStar.view.CellLight" x="-8" y="-8"/>
+    <bitmapData resourceLink="luckyStar.view.MaxAward" x="-5" y="-8"/>
+    <bitmapData resourceLink="luckyStar.view.line" x="0" y="0" />
+  </bitmaps>
+
+</style>

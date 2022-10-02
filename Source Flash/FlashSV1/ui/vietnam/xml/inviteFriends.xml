@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style name="inviteFriends" version="1.0.1" source="ui/spain/swf/inviteFriends.swf">
+  <sets>
+   <set args="0x462103,1,4,4,500" stylename="inviteFriends.inviteFriendsMainView.myInviteTxtGF" type="flash.filters.GlowFilter"/>
+	<set stylename="inviteFriends.inviteFriendsMainView.myInviteTxtTF" args="Arial,16,0xffba00,true,,,,,center" type="flash.text.TextFormat" />
+	
+	 <set args="0x532100,1,4,4,500" stylename="inviteFriends.inviteFriendsMainFrame.nowInviteGF" type="flash.filters.GlowFilter"/>
+	<set stylename="inviteFriends.inviteFriendsMainFrame.nowInviteTF" args="Arial,12,0xfffaad,true,,,,,center" type="flash.text.TextFormat" />
+	
+	<set args="0x471822,1,4,4,500" stylename="inviteFriends.inviteFriendsMainView.rewardTitleTxtGF" type="flash.filters.GlowFilter"/>
+	<set stylename="inviteFriends.inviteFriendsMainView.rewardTitleTxtTF" args="Arial,14,0xe8ce97,true,,,,,left" type="flash.text.TextFormat" />
+	
+	 <set args="0x5a2c00,1,4,4,500" stylename="inviteFriends.inviteFriendsMainView.friendRewardTitleGF" type="flash.filters.GlowFilter"/>
+	<set stylename="inviteFriends.inviteFriendsMainView.friendRewardTitleTF" args="Arial,12,0xebb352,null,,,,,center" type="flash.text.TextFormat" />
+	
+	<set args="0x411f08,1,4,4,500" stylename="inviteFriends.inviteFriendHereTextGF" type="flash.filters.GlowFilter"/>
+	<set stylename="inviteFriends.inviteFriendHereTextTF" args="Arial,12,0xb28a6a,true,,true,,,center" type="flash.text.TextFormat" />
+  </sets>
+  <customDisplay>
+   	<custom classname="flash.geom.Point" stylename="inviteFriends.rewardItemPos1" x="23" y="151"/>
+   	<custom classname="flash.geom.Point" stylename="inviteFriends.rewardItemPos2" x="23" y="209"/>
+   	<custom classname="flash.geom.Point" stylename="inviteFriends.rewardItemPos3" x="23" y="268"/>
+   	<custom classname="flash.geom.Point" stylename="inviteFriends.rewardItemPos4" x="23" y="327"/>
+	<custom classname="flash.geom.Point" stylename="inviteFriendsMainView.rewardBntMcPos" x="420" y="20"/>
+	
+   
+  </customDisplay>
+  <components>
+  	  <component classname="inviteFriends.view.InviteFriendsMainView" backStyle="SimpleFrameBackgound"
+			stylename="inviteFriends.inviteFriendsFrame" titleStyle="FrameTitleTextStyle"
+			titleOuterRectPosString="15,10,5" closestyle="core.closebt" closeInnerRectString="44,6,3,30,14"
+			 width="560" height="567" moveEnable="false" escEnable="true" enterEnable="true"/>
+			 
+		 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="inviteFriends.inviteFriendsMainView.clipBnt" backStyle="inviteFriends.inviteFriendsMainView.clip" x="347" y="58" filterString="null,lightFilter,lightFilter,grayFilter" />
+   	 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="inviteFriends.inviteFriendsMainView.fbBnt" backStyle="inviteFriends.inviteFriendsMainView.fb" x="404" y="58" filterString="null,lightFilter,lightFilter,grayFilter" />
+  
+  
+   <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="inviteFriends.inviteFriendsMainView.myInviteTxt" textFormatStyle="inviteFriends.inviteFriendsMainView.myInviteTxtTF" filterString="inviteFriends.inviteFriendsMainView.myInviteTxtGF" autoSize="none" x="60" y="61" width="400" height="40" type="dynamic" wordWrap="true"/>
+	
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="inviteFriends.inviteFriendsMainFrame.nowInvite" textFormatStyle="inviteFriends.inviteFriendsMainFrame.nowInviteTF" filterString="inviteFriends.inviteFriendsMainFrame.nowInviteGF" autoSize="none" x="77" y="126" width="400" height="40" type="dynamic" wordWrap="true"/>
+	
+    <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="inviteFriends.inviteFriendsMainView.rewardTitleTxt" textFormatStyle="inviteFriends.inviteFriendsMainView.rewardTitleTxtTF" filterString="inviteFriends.inviteFriendsMainView.rewardTitleTxtGF" autoSize="none" x="8" y="25" width="300" height="50" type="dynamic" wordWrap="true"/>
+	
+	 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="inviteFriends.inviteFriendsMainView.rewardBnt" backStyle="inviteFriendsMainView.rewardBnt" x="418" y="19" filterString="null,lightFilter,lightFilter,grayFilter" />
+  
+   	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="inviteFriends.inviteFriendsMainView.rewardBntOk" backStyle="inviteFriendsMainView.rewardBntOk" x="418" y="19" filterString="null,lightFilter,lightFilter,grayFilter" />
+  
+  
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="inviteFriends.inviteFriendsMainView.rewardHBox"  spacing="4" x="131" y="11"/>
+	
+	
+	 <component classname="com.pickgliss.ui.controls.BaseButton" stylename="inviteFriends.MainView.okBnt" backStyle="inviteFriendsMainView.okBnt" x="423" y="417" filterString="null,lightFilter,lightFilter,grayFilter" />
+  	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="inviteFriends.MainView.okBnt2" backStyle="inviteFriendsMainView.okBnt2" x="423" y="417" filterString="null,lightFilter,lightFilter,grayFilter" />
+  	
+  	
+  	
+  	 <component classname="com.pickgliss.ui.text.FilterFrameText" stylename="inviteFriends.inviteFriendsMainFrame.friendRewardTitle" textFormatStyle="inviteFriends.inviteFriendsMainView.friendRewardTitleTF" filterString="inviteFriends.inviteFriendsMainView.friendRewardTitleGF" autoSize="none" x="121" y="456" width="310" height="50" type="dynamic" wordWrap="true"/>
+	
+  	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="inviteFriends.inviteFriendsMainView.friendRewardHBox"  spacing="8" x="92" y="476"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="inviteFriends.inviteFriendHereText"  textFormatStyle="inviteFriends.inviteFriendHereTextTF" filterString="inviteFriends.inviteFriendHereTextGF" autoSize="none" type="input" width="230" height="24" x="136" y="425" />
+	
+		
+	
+  </components>
+  <bitmaps>
+    <bitmapData resourceLink="inviteFriends.inviteFriendsMainBg" x="10" y="33"/>
+    
+  </bitmaps>
+</style>
+

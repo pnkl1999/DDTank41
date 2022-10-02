@@ -1,0 +1,95 @@
+/* General HTML elements */
+body {
+    font: 13px Tahoma, Arial, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    line-height: 19px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+ul,
+ul li,
+ol,
+ol li,
+dl,
+dl dt,
+dl dd,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+ul,
+ul li,
+ol,
+ol li {
+    list-style: none;
+}
+img {
+    border: none;
+}
+a {
+    outline: none;
+}
+a:link,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+fieldset {
+    border: none;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+}
+fieldset legend {
+    display: none;
+}
+input,
+select,
+textarea {
+    font: 13px Tahoma, Arial, Verdana, sans-serif;
+}
+/* for modern browser */
+input[type="image"],
+input[type="submit"] {
+    outline: none;
+}
+/* input[checkbox] & input[radio] */
+input {
+    vertical-align: baseline;
+    margin: -1px -2px;
+}
+/* Firefox */
+html>/**/body input {
+    vertical-align: text-bottom;
+    margin: 0px;
+}
+
+object,
+embed {
+    outline: none;
+}
+
+/* Helper Class */
+.Hidden {
+    display: none;
+}
+
+.Wrapper {
+    overflow: visible;
+    height: 1%;
+}
+html>body .Wrapper {
+    overflow: hidden;
+    height: auto;
+}
+.Clear{ clear:both}

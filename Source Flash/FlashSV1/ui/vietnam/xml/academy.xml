@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style name="academy" version="1.0.1" source="ui/spain/swf/academy.swf">
+<sets>
+		<set stylename="academy.AcademyPlayerPanel.PlayerNameTFII" args="Arial,16,0x000000,ture" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyPlayerPanel.guildNameTF" args="Arial,16,0xfff71f,true" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyPlayerPanel.offerTF" args="Arial,12,0x000000" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyMemberListView.pageTF" args="Arial,14,0xfef5dc,,,,,,center" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyMemberItem.NameTF" args="Arial,14,0x000000,,,,,,left" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyMemberItem.fightPowerTxtTF" args="Arial,14,0x000000,,,,,,center" type="flash.text.TextFormat"/>
+		
+		<set stylename="academy.register.MatrimonyFieldGF" args="0x0066ff,1,3,3,10,1" type="flash.filters.GlowFilter" />
+		<set stylename="academy.AcademyPlayerPanel.PlayerNameFilterII" args="0xffffff,1,3,3,2"  type="flash.filters.GlowFilter"/>
+		<set stylename="academy.AcademyPlayerPanel.guildNameFilter" args="0x5e431b,1,4,4,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="academy.AcademyPlayerPanel.searchTF" args="Arial,14,0xfffdd3,true" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyPlayerPanel.TextAreaInputTF" args="Arial,14,0x512e1a" type="flash.text.TextFormat"/>
+		<set stylename="academy.AcademyMemberItem.NameGF" args="0xffffff,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="academy.AcademyMemberItem.fightPowerTxtGF" args="0xffffff,1,2,2,10"  type="flash.filters.GlowFilter"/>
+		<set stylename="academy.AcademyMemberListView.pageGF" args="0x200e00,1,2,2,10"  type="flash.filters.GlowFilter"/>
+</sets>
+<customDisplay>
+	<custom classname="ddt.view.common.LevelIcon" stylename="academy.AcademyPlayerPanel.levelIcon" x="212" y="185"/>
+	<custom classname="ddt.view.common.LevelIcon" stylename="academy.AcademyMemberItem.levelIcon" x="185" y="3"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyPlayerPanel.playerPos" x="198" y="149"/>
+	
+	<custom classname="ddt.view.common.SexIcon" stylename="academy.AcademyMemberItem.SexIcon" x="5" y="4"/>
+	<custom classname="ddt.view.common.VipLevelIcon" stylename="academy.playerPanel.VipIcon" x="214" y="218"/>
+	<custom classname="ddt.view.common.MarriedIcon" stylename="academy.playerPanel.MarriedIcon" tipStyle="ddt.view.tips.MarriedTip" tipDirctions="7" tipGapV="5" tipGapH="5" x="214" y="254" />
+	<custom classname="flash.geom.Point" stylename="academy.AcademyMemberListView"  x="202" y="202"/>
+	<custom classname="flash.geom.Point" stylename="academy.AcademyMemberListViewII" x="170" y="170"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyMemberListViewPos" x="-7" y="0"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.flowerPatternBgPOS" x="3" y="51"/>
+	
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text1pos" x="333" y="127"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text2pos" x="357" y="173"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text3pos" x="366" y="227"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text4pos" x="366" y="115"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text5pos" x="366" y="146"/>
+	<custom classname="flash.geom.Point" stylename="academy.view.AcademyView.text6pos" x="366" y="181"/>
+	
+</customDisplay>
+<components>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.register.MatrimonyField"
+		textFormatStyle="civil.register.MatrimonyFieldTF" filterString="academy.register.MatrimonyFieldGF"
+		x="320" y="102"/>
+	<!--AcademyPlayerPanel-->
+	
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.academy.requestApprenticeBtn" resourceLink="asset.academy.requestApprenticeBtnMovieImage"/>
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.academy.requestMasterBtn" resourceLink="asset.academy.requestMasterBtnMovieImage"/>
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.academy.takeMasterBtnAsset" resourceLink="asset.academy.takeMasterBtnAssetMovieImage"/>
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.academy.takeStudentBtnAsset" resourceLink="asset.academy.takeStudentBtnAssetMovieImage"/>
+	
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.AcademyPlayerPanel.AcademyPlayerPanelBg" parentStyle="core.scale9cornerImage4" x="15" y="66" width="484" height="349"/>
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.AcademyPlayerPanel.leftBg" parentStyle="core.scale9cornerImage8" x="15" y="69" width="484" height="349"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.AcademyPlayerPanel.textLableBg"
+			resourceLink="asset.academy.textLableBg,asset.academy.textLableBgII" x="279" y="115" />
+			
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyPlayerPanel.courtshipBtn" backStyle="asset.academy.courtshipBtnAsset" enable="false" x="275" y="354" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyPlayerPanel.talkBtn" backStyle="asset.academy.talkBtnAsset" 		    enable="false" x="275" y="308"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyPlayerPanel.equipBtn" backStyle="asset.academy.equipBtnAsset" 	    enable="false" x="377" y="308"/>
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyPlayerPanel.addBtn" backStyle="asset.academy.addBtnAsset" 		    enable="false" x="377" y="354" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyPlayerPanel.requestMasterBtn" backStyle="asset.academy.requestMasterBtn" enable="false" x="65" y="371" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyPlayerPanel.requestApprenticeBtn" backStyle="asset.academy.requestApprenticeBtn" enable="false" x="65" y="371" />
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.PlayerNameII" textFormatStyle="academy.AcademyPlayerPanel.PlayerNameTFII" filterString="academy.AcademyPlayerPanel.PlayerNameFilterII" autoSize="none" isAutoFitLength="true" x="112" y="100" width="137"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.guildName" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="366" y="181" width="135"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.repute" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="366" y="248" width="70"  height="17" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.offer" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="421" y="129" width="63"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.married" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="343" y="156" width="135"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.winProbabilityTxt" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="366" y="146" width="63"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.fightPowerTxt" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="339" y="127" width="63"  height="22" type="dynamic"/>
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.honourOfMasterTxt" textFormatStyle="academy.AcademyPlayerPanel.guildNameTF" filterString="academy.AcademyPlayerPanel.guildNameFilter" x="366" y="215" width="63"  height="22" type="dynamic"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyPlayerPanel.TextAreaDy"
+		textFormatStyle="academy.AcademyPlayerPanel.TextAreaInputTF" multiline="true" wordWrap="true" />
+	<component classname="com.pickgliss.ui.text.TextArea" stylename="academy.AcademyPlayerPanel.IntroductionText" 
+		parentStyle="core.SimpleTextArea" textStyle="academy.AcademyPlayerPanel.TextAreaDy" vScrollProxy='1'
+		x="276" y="260" width="192" height="55" vUnitIncrement="10" />
+	<!--AcademyMemberListView-->
+	<component classname="com.pickgliss.ui.image.Scale9CornerImage" stylename="asset.AcademyPlayerPanel.rightBg" parentStyle="core.scale9cornerImage8" x="515" y="100" width="470" height="430"/>
+	
+	<component classname="com.pickgliss.ui.image.MovieImage" stylename="academy.AcademyMemberListView.ListBg" resourceLink="asset.academy.listBGAsset" x="751" y ="311"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberListView.page" textFormatStyle="academy.AcademyMemberListView.pageTF" filterString="academy.AcademyMemberListView.pageGF" x="604" y="473" autoSize="none" width="96"  height="22" type="dynamic" text="1/1" aotuSize="none"/>
+	
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyMemberListView.searchBtn" backStyle="asset.academy.searchBtnAsset" x="910" y="69" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyMemberListView.firstBtn" backStyle="asset.academy.firstBtnAsset" x="535" y="488" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyMemberListView.preBtn" backStyle="asset.academy.preBtnAsset" x="545	" y="468" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyMemberListView.nextBtn" backStyle="asset.academy.nextBtnAsset" x="702" y="468" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyMemberListView.takeMasterBtn" backStyle="asset.academy.takeMasterBtnAsset" tipDirctions="0,4,5" x="893" y="493" />
+	<component classname="com.pickgliss.ui.controls.SimpleBitmapButton" stylename="academy.AcademyMemberListView.takeStudentBtn" backStyle="asset.academy.takeStudentBtnAsset" tipDirctions="0,4,5" x="893" y="493" />
+	
+	<component classname="com.pickgliss.ui.controls.container.HBox" stylename="academy.AcademyMemberListView.GenderBtnContainer" spacing="9" x="540" y="89"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberListView.searchTextStyle" textFormatStyle="academy.AcademyPlayerPanel.searchTF"  multiline="false" wordwrap="false" autoSize="none"/>
+	<component classname="com.pickgliss.ui.controls.TextInput" stylename="academy.AcademyMemberListView.searchText" textStyle="academy.AcademyMemberListView.searchTextStyle" x="778" y="75" autoSize="none" width="124" height="20" maxChars="14" multiline="false" wordwrap="false" />
+	
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.AcademyMemberListView.itemBg" resourceLink="asset.academy.selectBgAsset,asset.academy.selectAsset"/>
+	<component classname="com.pickgliss.ui.image.ScaleFrameImage" stylename="academy.AcademyMemberListView.state_icon"
+			resourceLink="asset.academy.online_Asset,asset.academy.offlineAsset" x="319" y="6" />
+	
+	<component classname="com.pickgliss.ui.controls.container.VBox" stylename="academy.AcademyMemberListView.List" spacing="4" x="542" y="155"/>
+	<component classname="com.pickgliss.ui.controls.BaseButton" stylename="academy.AcademyMemberListView.freeBtn" backStyle="asset.academy.freeBtn" x="760" y="460" />
+	
+	
+	<!--AcademyMemberItem-->
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberItem.nameTxt" 
+	textFormatStyle="academy.AcademyMemberItem.NameTF" filterString="academy.AcademyMemberItem.NameGF" autoSize="none" isAutoFitLength="true" type="dynamic" x="35" y="5" width="145"  height="22"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberItem.fightPowerTxt" 
+	textFormatStyle="academy.AcademyMemberItem.fightPowerTxtTF" filterString="academy.AcademyMemberItem.fightPowerTxtGF" autoSize="none" type="dynamic" x="230" y="5" width="113" height="22"/>
+	
+	<component classname="com.pickgliss.ui.text.FilterFrameText" stylename="academy.AcademyMemberItem.wixTxt" 
+	textFormatStyle="academy.AcademyMemberItem.NameTF" filterString="academy.AcademyMemberItem.NameGF" autoSize="none" type="dynamic" x="343" y="5" width="75"  height="22"/>
+	
+</components>
+
+<bitmaps>
+	<!--AcademyPlayerPanelView-->
+	<bitmapData resourceLink="asset.civil.titleAseet" x="309" y="13"/>
+	<bitmapData resourceLink="asset.academy.leftViewBgIIAsset" x="30" y="84"/>
+	<bitmapData resourceLink="asset.academy.nameTitle" x="40" y="85"/>
+	<bitmapData resourceLink="asset.academy.online" x="426" y="94" visible="false"/>
+	
+	<!--AcademyMemberListView-->
+	<bitmapData resourceLink="asset.academy.rightViewBgAsset" x="509" y="65"/>
+	<bitmapData resourceLink="asset.academy.name2Title" x="537" y="135"/>
+	<bitmapData resourceLink="asset.academy.search_bgAsset" x="773" y="70"/>
+	
+	<bitmapData resourceLink="asset.academy.MasterTitleAsset" x="540" y="75"/>
+	<bitmapData resourceLink="asset.academy.ApprenticeTitleAsset" x="540" y="75"/>
+	
+	<bitmapData resourceLink="asset.academy.academyTitleAsset" x="305" y="5"/>
+	
+</bitmaps>
+</style>

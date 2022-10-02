@@ -1,0 +1,331 @@
+<style name="effort" version="1.0.1" source="ui/spain/swf/Effort.swf">
+	<sets>
+		<set stylename="EffortCategoryTitleTF_01" args="Arial,15,0xFFC11A,true"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortCategoryTitleTF_02" args="Arial,15,0xFFFFFF,true"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortScaleStripTitleTF_01" args="Arial,13,0xFFD460,true"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortScaleStripTitleTF_02" args="Arial,13,0xFFFFFF,true"
+			type="flash.text.TextFormat"/>
+
+		<set stylename="EffortFullItemTextTF_01" args="Arial,15,0xFFE292,true"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortFullItemTextTF_02" args="Arial,13,0x9E7123" type="flash.text.TextFormat"/>
+		<set stylename="EffortFullItemTextTF_03" args="Arial,13,0xFFC11A" type="flash.text.TextFormat"/>
+
+		<set stylename="EffortRightItemTextTF_01" args="Arial,12,0xFFE292,true,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_02" args="Arial,15,0x7E6931,true,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_03" args="Arial,13,0x9E7123,,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_04" args="Arial,13,0x7C4F01,,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_05" args="Arial,12,0xFFA300,,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_06" args="Arial,15,0x000000,true,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_07" args="Arial,15,0xFF0000,true,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortRightItemTextTF_08" args="Arial,15,0xFFE292,true,,,,,left"
+			type="flash.text.TextFormat"/>
+			
+		<set stylename="EffortTipsTextTF_01" args="Arial,12,0xFFA300,,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortTipsTextTF_02" args="Arial,12,0xFFA300,,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortTipsTextTF_03" args="Arial,12,0xFFA300,,,,,,center"
+			type="flash.text.TextFormat"/>
+		<set stylename="EffortTipsTextTF_04" args="Arial,12,0xFFA300,,,,,,center"
+			type="flash.text.TextFormat"/>
+			
+		<set stylename="EffortPullDodnMenuTextTF_01" args="Arial,13,0xF9E79F,true" type="flash.text.TextFormat"/>
+		<set stylename="EffortTaskTextTF_01" args="Arial,14,0xFFFF99" type="flash.text.TextFormat"/>
+		<set stylename="AchievementPointTF_01" args="Arial,20,0xFDF200,true,,,,,center" type="flash.text.TextFormat"/>
+		
+
+		<set args="0x4A1700,1,4,4,1000,1" stylename="GF_1" type="flash.filters.GlowFilter"/>
+		<set args="0x0B2E00,1,3,3,1000,1" stylename="GF_2" type="flash.filters.GlowFilter"/>
+		<set args="0x000000,1,3,3,1000,1" stylename="GF_3" type="flash.filters.GlowFilter"/>
+
+		<set args="0x251200,1,3,3,1000,1" stylename="GF_4" type="flash.filters.GlowFilter"/>
+		<set args="0x150B00,1,2,2,1000,1" stylename="GF_5" type="flash.filters.GlowFilter"/>
+		<set args="0x160B00,1,2,2,1000,1" stylename="GF_6" type="flash.filters.GlowFilter"/>
+
+		<set args="0x251200,1,5,5,1000,1" stylename="GF_7" type="flash.filters.GlowFilter"/>
+		<set args="0x251200,1,3,3,1000,1" stylename="GF_8" type="flash.filters.GlowFilter"/>
+		<set args="0x251200,1,2,2,1000,1" stylename="GF_9" type="flash.filters.GlowFilter"/>
+		
+		<set args="0xD60F00,1,3,3,500,1" stylename="GF_10" type="flash.filters.GlowFilter"/>
+		
+		<set args="0xD60F00,1,3,3,500,1" stylename="GF_11" type="flash.filters.GlowFilter"/>
+		<set args="0xD60F00,1,3,3,500,1" stylename="GF_12" type="flash.filters.GlowFilter"/>
+		<set args="0xD60F00,1,3,3,500,1" stylename="GF_13" type="flash.filters.GlowFilter"/>
+		<set args="0xD60F00,1,3,3,500,1" stylename="GF_14" type="flash.filters.GlowFilter"/>
+		<set args="0xFFFF99,1,10,10,3,1" stylename="GF_15" type="flash.filters.GlowFilter"/>
+		<set args="0xFFFFFF,1,2,2,20,1" stylename="GF_16" type="flash.filters.GlowFilter"/>
+	</sets>
+
+	<components>
+		<component classname="com.pickgliss.ui.image.MovieImage" stylename="asset.Effort.effortTaskBg" resourceLink="asset.Effort.effortTaskBgMovieImage" x="0" y="0"/>
+		<!--Frame-->
+		<component classname="effortView.EffortMainFrame" backStyle="core.bg006"
+			closestyle="core.closebt" stylename="effortView.effortMainFrame"
+			titleStyle="FrameTitleTextStyle" titleOuterRectPosString="6,6,5"
+			closeInnerRectString="44,6,3,30,14" moveInnerRectString="0,30,0,30,1" width="860"
+			height="570" moveEnable="false" escEnable = "true"/>
+
+		<!--bg-->
+		<component classname="com.pickgliss.ui.image.Scale9CornerImage"
+			stylename="effortView.EffortMainFrame.bg0" width="817" height="512" x="20" y="48"
+			resourceLink="asset.core.Scale9CornerImage.scale9CornerImage1.1,asset.core.Scale9CornerImage.scale9CornerImage1.2,asset.core.Scale9CornerImage.scale9CornerImage1.3,asset.core.Scale9CornerImage.scale9CornerImage1.4,asset.core.Scale9CornerImage.scale9CornerImage1.5,asset.core.Scale9CornerImage.scale9CornerImage1.6,asset.core.Scale9CornerImage.scale9CornerImage1.7,asset.core.Scale9CornerImage.scale9CornerImage1.8,asset.core.Scale9CornerImage.scale9CornerImage1.9"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortMainFrame.bg_01" resourceLink="asset.Effort.bg_01"
+			width="255" height="463" scaleGridString="25,25,205,205" x="32" y="72"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortMainFrame.bg_02" resourceLink="asset.Effort.bg_01"
+			width="521" height="463" scaleGridString="25,25,205,205" x="302" y="72"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortMainFrame.AchievementPointText"
+			textFormatStyle="AchievementPointTF_01" filterString="GF_10" autoSize="none"
+			x="355" y="43" width="137" height="45"/>
+		<!--EffortCategoryTitleItem-->
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="effortView.EffortMainFrame.EffortCategoryTitleItemBG"
+			resourceLink="asset.Effort.effortCategoryTitle_01,asset.Effort.effortCategoryTitle_02,asset.Effort.effortCategoryTitle_03"
+			x="8" y="4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortMainFrame.EffortCategoryTitleText_1"
+			textFormatStyle="EffortCategoryTitleTF_01" filterString="GF_1" x="295" y="15"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortMainFrame.EffortCategoryTitleText_2"
+			textFormatStyle="EffortCategoryTitleTF_02" filterString="GF_1" x="295" y="15" />
+
+		<custom classname="flash.geom.Point" stylename="effortView.EffortLeftView.EffortLeftViewPos"
+			x="-228" y="68"/>
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortLeftView.EffortRightViewPos" x="-7" y="8"/>
+
+		<custom classname="flash.geom.Point" stylename="effortView.EffortLeftView.EffortFullViewPos"
+			x="0" y="-4"/>
+
+		<!--EffortScaleStrip-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortScaleStrip.ScaleStripBG_01"
+			resourceLink="asset.Effort.ScaleStripBG_01" width="521" height="463"
+			scaleGridString="20,8,280,8" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortScaleStrip.ScaleStripBG_02"
+			resourceLink="asset.Effort.ScaleStripBG_02" width="521" height="463"
+			scaleGridString="20,5,270,7" x="5" y="5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortScaleStrip.ScaleStripTitleText"
+			textFormatStyle="EffortScaleStripTitleTF_01" filterString="GF_2" x="10" y="5"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortScaleStrip.ScaleStripScaleText"
+			textFormatStyle="EffortScaleStripTitleTF_02" filterString="GF_3" x="0" y="5"/>
+		<!--EffortFullItemView-->
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortScaleStrip.EffortFullItemText_01"
+			textFormatStyle="EffortFullItemTextTF_01" filterString="GF_4" x="0" y="4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortScaleStrip.EffortFullItemText_02"
+			textFormatStyle="EffortFullItemTextTF_02" filterString="GF_5" x="0" y="32"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortScaleStrip.EffortFullItemText_03"
+			textFormatStyle="EffortFullItemTextTF_03" filterString="GF_6" x="358" y="4"/>
+
+		<custom classname="flash.geom.Point" stylename="effortView.EffortIconView.iconPos" x="20"
+			y="6"/>
+		<custom classname="flash.geom.Point" stylename="effortView.EffortIconView.EffortIconLoadingassetPos" x="20"
+			y="6"/>
+		<!--AchievementPointView-->
+
+
+		<component classname="com.pickgliss.ui.controls.container.VBox"
+			stylename="effortView.EffortFullView.ItemList" x="0" y="0" spacing="-7"/>
+		<custom classname="flash.geom.Point" stylename="effortView.EffortFullView.ItemListPos"
+			x="314" y="108"/>
+
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortFullView.EffortFullViewBG"
+			resourceLink="asset.Effort.EffortFullViewBG_01" width="513" height="273"
+			scaleGridString="50,50,400,100" x="304" y="78"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortFullView.EffortFullViewBGII"
+			resourceLink="asset.Effort.EffortFullViewBG_01" width="513" height="175"
+			scaleGridString="50,50,400,100" x="304" y="356"/>
+		<custom classname="flash.geom.Point" stylename="effortView.EffortFullView.ScaleStripPos"
+			x="310" y="392"/>
+
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortFullView.EffortIconViewPos_0" x="430" y="8"/>
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortFullView.EffortIconViewPos_1" x="80" y="16"/>
+		<!--RightItem-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortRigthItemView.rightItemBg_01"
+			resourceLink="asset.Effort.rightItemBg_01" width="491" height="88"
+			scaleGridString="30,30,450,60" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortRigthItemView.rightItemBg_02"
+			resourceLink="asset.Effort.rightItemBg_02" width="491" height="88"
+			scaleGridString="30,30,450,60" x="0" y="0"/>
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortRigthItemView.rightItemBg_03"
+			resourceLink="asset.Effort.rightItemBg_03" width="491" height="88"
+			scaleGridString="30,30,450,60" x="0" y="0"/>
+
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_01"
+			textFormatStyle="EffortRightItemTextTF_01" filterString="GF_7" autoSize="none"
+			width="203" height="19" x="144" y="6"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_02"
+			textFormatStyle="EffortRightItemTextTF_02" filterString="GF_7" autoSize="none"
+			width="270" height="19" x="117" y="6"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_03"
+			textFormatStyle="EffortRightItemTextTF_03" filterString="GF_7" autoSize="none"
+			width="343" height="17" x="75" y="38"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_04"
+			textFormatStyle="EffortRightItemTextTF_04" filterString="GF_7" autoSize="none"
+			width="300" height="40" x="101" y="22" wordWrap="true"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_05"
+			textFormatStyle="EffortRightItemTextTF_01" filterString="GF_7" autoSize="none"
+			width="203" height="19" x="143" y="61"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_06"
+			textFormatStyle="EffortRightItemTextTF_02" filterString="GF_7" autoSize="none"
+			width="203" height="19" x="143" y="61"/>
+			
+		<custom classname="flash.text.TextField" stylename="EffortRigthItemView.EffortRigthItemText_05I" width="320" height="25" x="100" y="61" />
+		<custom classname="flash.text.TextField" stylename="EffortRigthItemView.EffortRigthItemText_06I" width="320" height="25" x="100" y="61" />		
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortRigthItemView.EffortRigthItemText_07"
+			textFormatStyle="EffortRightItemTextTF_05" filterString="GF_7" autoSize="none"
+			width="76" height="17" x="411" y="69"/>
+
+		<custom classname="flash.geom.Point"
+			stylename="effortView.EffortRigthItemView.achievementPointViewPos" x="408" y="8"/>
+		<component classname="com.pickgliss.ui.controls.ListPanel"
+			stylename="effortView.effortlistPanel" vScrollbarStyle="core.VScrollbar"
+			hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4"
+			vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|effortView.rightView.EffortRigthItemView,90,491,false"
+			listStyle="com.pickgliss.ui.controls.list.List" width="510" height="450"
+			hScrollProxy="2" x="314" y="69" vUnitIncrement="10"/>
+		
+		<component classname="com.pickgliss.ui.controls.ListPanel"
+			stylename="effortView.effortHonorlistPanel" vScrollbarStyle="core.VScrollbar"
+			hScrollbarStyle="core.HScrollbar" hScrollbarInnerRectString="0,22,21,0,4"
+			vScrollbarInnerRectString="21,0,0,0,3" viewportInnerRectString="0,22,0,0,0"
+			factoryStyle="com.pickgliss.ui.controls.cell.SimpleListCellFactory|effortView.rightView.EffortRigthHonorItemView,90,491,false"
+			listStyle="com.pickgliss.ui.controls.list.List" width="510" height="450"
+			hScrollProxy="2" x="314" y="69" vUnitIncrement="10"/>
+		<!--EffortPullDodnMenu-->
+		<component classname="com.pickgliss.ui.image.ScaleBitmapImage"
+			stylename="effortView.EffortPullDodnMenu.bg_01" resourceLink="asset.Effort.bg_01"
+			width="95" height="70" scaleGridString="25,25,205,205" x="9" y="27"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="effortView.EffortPullDodnMenu.itemOverBG_01"
+			resourceLink="asset.Effort.item_01,asset.Effort.itemBg"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="effortView.EffortPullDodnMenu.itemOverBG_02"
+			resourceLink="asset.Effort.item_02,asset.Effort.itemBg"/>
+		<component classname="com.pickgliss.ui.image.MutipleImage"
+			stylename="effortView.EffortPullDodnMenu.itemOverBG_03"
+			resourceLink="asset.Effort.item_03,asset.Effort.itemBg"/>
+
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="effortView.EffortPullDodnMenu.itemBG_01"
+			resourceLink="asset.Effort.item_01,effortView.EffortPullDodnMenu.itemOverBG_01" x="9"
+			y="30"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="effortView.EffortPullDodnMenu.itemBG_02"
+			resourceLink="asset.Effort.item_02,effortView.EffortPullDodnMenu.itemOverBG_02" x="9"
+			y="50"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="effortView.EffortPullDodnMenu.itemBG_03"
+			resourceLink="asset.Effort.item_03,effortView.EffortPullDodnMenu.itemOverBG_03" x="9"
+			y="70"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="effortView.EffortPullDodnMenu.EffortPullDodnMenu_upBtn"
+			backStyle="asset.Effort.EffortPullDodnMenu_upBtn" x="77" y="4"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortPullDodnMenu.TitleText"
+			textFormatStyle="EffortPullDodnMenuTextTF_01" x="0" y="0" width="70" height="17" autoSize="none"/>
+		<component classname="com.pickgliss.ui.controls.ComboBox" stylename="effortView.EffortPullDodnMenu.PullDodnMenu"
+			listPanelStyle="core.ComboxListpanel1" buttonStyle="core.comboxButton2" width="106"
+			height="30" textStyle="core.comboxListCellTxt" listInnerRectString="5,33,10,75,18"
+			textInnerRectString="5,25,7,0,0" x="620" y="40"/>
+		<!--EffortTaskView-->
+		<custom classname="flash.geom.Point" stylename="effortView.EffortTaskView.EffortTaskViewPos"
+			x="43" y="313"/>
+		<custom classname="flash.geom.Point" stylename="effortView.EffortMainFrame.EffortHonorViewPos"
+			x="579" y="7"/>
+		<component classname="com.pickgliss.ui.controls.SimpleBitmapButton"
+			stylename="effortView.EffortTaskView.EffortTaskViewRewardBtn"
+			backStyle="asset.Effort.RewardBtn" x="75" y="180"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortTaskView.EffortTaskText_01"
+			textFormatStyle="EffortTaskTextTF_01" width="76" height="17" x="63" y="51"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortTaskView.EffortTaskText_02"
+			textFormatStyle="EffortTaskTextTF_01" width="76" height="17" x="179" y="51"/>
+		<custom classname="flash.geom.Point" stylename="effortView.EffortTaskView.CellPos" x="28" y="107"/>
+		
+		<custom classname="flash.geom.Point" stylename="effortView.EffortView.EffortViewPos"
+			x="69" y="18"/>
+			
+		<custom classname="effortView.completeIcon.EffortCompleteIconTipsView" stylename="effortView.effortCompleteIconTipsView"/>
+		<component classname="com.pickgliss.ui.image.ScaleFrameImage"
+			stylename="effortView.EffortCompleteIconView.EffortCompleteIconBg"
+			resourceLink="asset.Effort.icon_max,asset.Effort.icon_min"/>
+			
+		<component classname="com.pickgliss.ui.controls.container.HBox" stylename="effortView.EffortCompleteIconView.iconHBox" x="137" y="49" spacing = "10" />
+			
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_01"
+			textFormatStyle="EffortRightItemTextTF_01" filterString="GF_7" x="10" y="11"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_02"
+			textFormatStyle="EffortRightItemTextTF_03" filterString="GF_7" x="8" y="50"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_03"
+			textFormatStyle="EffortRightItemTextTF_01" filterString="GF_7" x="10" y="85"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_04"
+			textFormatStyle="EffortRightItemTextTF_05" filterString="GF_7"  x="0" y="0"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_05"
+			textFormatStyle="EffortRightItemTextTF_06" filterString="GF_16"  x="8" y="60"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_06"
+			textFormatStyle="EffortRightItemTextTF_07"  x="8" y="80"/>
+		<component classname="com.pickgliss.ui.text.FilterFrameText"
+			stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_07"
+			textFormatStyle="EffortRightItemTextTF_01" filterString="GF_7" x="10" y="11"/>
+		<custom classname="flash.text.TextField" stylename="effortView.EffortCompleteIconTipsView.EffortCompleteIconTipsText_07I" width="170" height="25" />
+
+		<custom classname="flash.geom.Point" stylename="effortView.EffortCompleteIconTipsView.achievementPointViewPos" x="310" y="20"/>
+	</components>
+	<bitmaps>
+		<bitmapData resourceLink="asset.Effort.bg_02" x="18" y="47"/>
+		<bitmapData resourceLink="asset.Effort.titleBg_01" x="260" y="6"/>
+
+		<bitmapData resourceLink="asset.Effort.effortCategoryTitle_01" x="260" y="6"/>
+		<bitmapData resourceLink="asset.Effort.effortCategoryTitle_02" x="260" y="6"/>
+		<bitmapData resourceLink="asset.Effort.effortCategoryTitle_03" x="260" y="6"/>
+		<bitmapData resourceLink="asset.Effort.ScaleStripBG_light" x="4" y="2" smoothing = "true" width="235"/>
+		<bitmapData resourceLink="asset.Effort.title_01" x="504" y="78"/>
+		<bitmapData resourceLink="asset.Effort.title_02" x="504" y="358"/>
+		<bitmapData resourceLink="asset.Effort.comboBoxBg" x="615" y="39"/>
+		<bitmapData resourceLink="asset.Effort.icon_min" x="0" y="3"/>
+		
+	</bitmaps>
+</style>

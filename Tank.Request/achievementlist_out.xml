@@ -1,0 +1,913 @@
+<Result value="true" message="Success!">
+  <Item ID="5094" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng vật phẩm đạn nguyên tử 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="67" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Đạn nguyên tử">
+    <Item_Condiction AchievementID="5094" CondictionID="1" CondictionType="35" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5093" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng vật phẩm xuyên giáp 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="66" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Xuyên giáp">
+    <Item_Condiction AchievementID="5093" CondictionID="1" CondictionType="34" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5092" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Trong tình trạng còn 1 máu chiến thắng 50 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="65" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Chiến đấu đến cùng ">
+    <Item_Condiction AchievementID="5092" CondictionID="1" CondictionType="41" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="5091" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Vợ chồng cùng chiến thắng 3000 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="64" PlaceID="4" PreAchievementID="5090," StartDate="2000-01-01 00:00:00" Title="Thuận vợ thuận chồng">
+    <Item_Condiction AchievementID="5091" CondictionID="1" CondictionType="51" Condiction_Para1="0" Condiction_Para2="3000" />
+    <Item_Reward AchievementID="5091" RewardValueId="58" RewardCount="1" RewardType="1" RewardPara="Thiên hạ vô song" />
+  </Item>
+  <Item ID="5090" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Vợ chồng cùng chiến thắng 2000 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="64" PlaceID="4" PreAchievementID="5089," StartDate="2000-01-01 00:00:00" Title="Thuận vợ thuận chồng">
+    <Item_Condiction AchievementID="5090" CondictionID="1" CondictionType="51" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="5089" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Vợ chồng cùng chiến thắng 1314 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="64" PlaceID="4" PreAchievementID="5088," StartDate="2000-01-01 00:00:00" Title="Thuận vợ thuận chồng">
+    <Item_Condiction AchievementID="5089" CondictionID="1" CondictionType="51" Condiction_Para1="0" Condiction_Para2="1314" />
+  </Item>
+  <Item ID="5088" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Vợ chồng cùng chiến thắng 520 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="64" PlaceID="4" PreAchievementID="5087," StartDate="2000-01-01 00:00:00" Title="Thuận vợ thuận chồng">
+    <Item_Condiction AchievementID="5088" CondictionID="1" CondictionType="51" Condiction_Para1="0" Condiction_Para2="520" />
+  </Item>
+  <Item ID="5087" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Vợ chồng cùng chiến thắng 52 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="64" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thuận vợ thuận chồng">
+    <Item_Condiction AchievementID="5087" CondictionID="1" CondictionType="51" Condiction_Para1="0" Condiction_Para2="52" />
+  </Item>
+  <Item ID="5086" AchievementPoint="25" AchievementType="1" CanHide="true" Detail="Trong chiến đấu tích lũy 50000 công trạng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="63" PlaceID="4" PreAchievementID="5085," StartDate="2000-01-01 00:00:00" Title="Tích lũy công trạng ">
+    <Item_Condiction AchievementID="5086" CondictionID="1" CondictionType="50" Condiction_Para1="0" Condiction_Para2="50000" />
+    <Item_Reward AchievementID="5086" RewardValueId="57" RewardCount="1" RewardType="1" RewardPara="Vua công trạng" />
+  </Item>
+  <Item ID="5085" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Trong chiến đấu tích lũy 30000 công trạng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="63" PlaceID="4" PreAchievementID="5084," StartDate="2000-01-01 00:00:00" Title="Tích lũy công trạng ">
+    <Item_Condiction AchievementID="5085" CondictionID="1" CondictionType="50" Condiction_Para1="0" Condiction_Para2="30000" />
+  </Item>
+  <Item ID="5084" AchievementPoint="15" AchievementType="0" CanHide="true" Detail="Trong chiến đấu tích lũy 20000 công trạng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="63" PlaceID="4" PreAchievementID="5083," StartDate="2000-01-01 00:00:00" Title="Tích lũy công trạng ">
+    <Item_Condiction AchievementID="5084" CondictionID="1" CondictionType="50" Condiction_Para1="0" Condiction_Para2="20000" />
+  </Item>
+  <Item ID="5083" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Trong chiến đấu tích lũy 10000 công trạng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="63" PlaceID="4" PreAchievementID="5082," StartDate="2000-01-01 00:00:00" Title="Tích lũy công trạng ">
+    <Item_Condiction AchievementID="5083" CondictionID="1" CondictionType="50" Condiction_Para1="0" Condiction_Para2="10000" />
+  </Item>
+  <Item ID="5082" AchievementPoint="5" AchievementType="0" CanHide="true" Detail="Trong chiến đấu tích lũy 5000 công trạng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="63" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tích lũy công trạng ">
+    <Item_Condiction AchievementID="5082" CondictionID="1" CondictionType="50" Condiction_Para1="0" Condiction_Para2="5000" />
+  </Item>
+  <Item ID="5081" AchievementPoint="50" AchievementType="0" CanHide="false" Detail="Nhận được tất cả danh hiệu sử dụng vụ khí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="62" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Sưu tập danh hiệu vũ khí">
+    <Item_Condiction AchievementID="5081" CondictionID="1" CondictionType="65" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="2" CondictionType="66" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="3" CondictionType="67" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="4" CondictionType="68" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="5" CondictionType="69" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="6" CondictionType="70" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="7" CondictionType="71" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="8" CondictionType="72" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Condiction AchievementID="5081" CondictionID="9" CondictionType="64" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Reward AchievementID="5081" RewardValueId="46" RewardCount="1" RewardType="1" RewardPara="Trùm vũ khí" />
+  </Item>
+  <Item ID="5075" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng sấm sét chiến thắng 700 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="60" PlaceID="4" PreAchievementID="5074," StartDate="2000-01-01 00:00:00" Title="Vũ khí sấm sét">
+    <Item_Condiction AchievementID="5075" CondictionID="1" CondictionType="72" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Reward AchievementID="5075" RewardValueId="44" RewardCount="1" RewardType="1" RewardPara="Đệ nhất sấm sét" />
+  </Item>
+  <Item ID="5074" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng sấm sét chiến thắng 500 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="60" PlaceID="4" PreAchievementID="5073," StartDate="2000-01-01 00:00:00" Title="Vũ khí sấm sét">
+    <Item_Condiction AchievementID="5074" CondictionID="1" CondictionType="72" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5073" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng sấm sét chiến thắng 400 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="60" PlaceID="4" PreAchievementID="5072," StartDate="2000-01-01 00:00:00" Title="Vũ khí sấm sét">
+    <Item_Condiction AchievementID="5073" CondictionID="1" CondictionType="72" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="5072" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng sấm sét chiến thắng 300 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="60" PlaceID="4" PreAchievementID="5071," StartDate="2000-01-01 00:00:00" Title="Vũ khí sấm sét">
+    <Item_Condiction AchievementID="5072" CondictionID="1" CondictionType="72" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="5071" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng sấm sét chiến thắng 200 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="60" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vũ khí sấm sét">
+    <Item_Condiction AchievementID="5071" CondictionID="1" CondictionType="72" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5055" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng lu gạch chiến thắng 700 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="56" PlaceID="4" PreAchievementID="5054," StartDate="2000-01-01 00:00:00" Title="Vũ khí lu gạch ">
+    <Item_Condiction AchievementID="5055" CondictionID="1" CondictionType="68" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Reward AchievementID="5055" RewardValueId="40" RewardCount="1" RewardType="1" RewardPara="Đệ nhất lu gạch" />
+  </Item>
+  <Item ID="5054" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng lu gạch chiến thắng 500 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="56" PlaceID="4" PreAchievementID="5053," StartDate="2000-01-01 00:00:00" Title="Vũ khí lu gạch ">
+    <Item_Condiction AchievementID="5054" CondictionID="1" CondictionType="68" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5053" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng lu gạch chiến thắng 400 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="56" PlaceID="4" PreAchievementID="5052," StartDate="2000-01-01 00:00:00" Title="Vũ khí lu gạch ">
+    <Item_Condiction AchievementID="5053" CondictionID="1" CondictionType="68" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="5052" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng lu gạch chiến thắng 300 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="56" PlaceID="4" PreAchievementID="5051," StartDate="2000-01-01 00:00:00" Title="Vũ khí lu gạch ">
+    <Item_Condiction AchievementID="5052" CondictionID="1" CondictionType="68" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="5051" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng lu gạch chiến thắng 200 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="56" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vũ khí lu gạch ">
+    <Item_Condiction AchievementID="5051" CondictionID="1" CondictionType="68" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5050" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng pháo chiến thắng 700 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="55" PlaceID="4" PreAchievementID="5049," StartDate="2000-01-01 00:00:00" Title="Vũ khí pháo ">
+    <Item_Condiction AchievementID="5050" CondictionID="1" CondictionType="67" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Reward AchievementID="5050" RewardValueId="39" RewardCount="1" RewardType="1" RewardPara="Đệ nhất pháo" />
+  </Item>
+  <Item ID="5049" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng pháo chiến thắng 500 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="55" PlaceID="4" PreAchievementID="5048," StartDate="2000-01-01 00:00:00" Title="Vũ khí pháo ">
+    <Item_Condiction AchievementID="5049" CondictionID="1" CondictionType="67" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5048" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng pháo chiến thắng 400 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="55" PlaceID="4" PreAchievementID="5047," StartDate="2000-01-01 00:00:00" Title="Vũ khí pháo ">
+    <Item_Condiction AchievementID="5048" CondictionID="1" CondictionType="67" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="5047" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng pháo chiến thắng 300 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="55" PlaceID="4" PreAchievementID="5046," StartDate="2000-01-01 00:00:00" Title="Vũ khí pháo ">
+    <Item_Condiction AchievementID="5047" CondictionID="1" CondictionType="67" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="5046" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng pháo chiến thắng 200 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="55" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vũ khí pháo ">
+    <Item_Condiction AchievementID="5046" CondictionID="1" CondictionType="67" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5045" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng phi tiêu chiến thắng 700 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="54" PlaceID="4" PreAchievementID="5044," StartDate="2000-01-01 00:00:00" Title="Vũ khí phi tiêu">
+    <Item_Condiction AchievementID="5045" CondictionID="1" CondictionType="66" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Reward AchievementID="5045" RewardValueId="38" RewardCount="1" RewardType="1" RewardPara="Đệ nhất phi tiêu" />
+  </Item>
+  <Item ID="5044" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng phi tiêu chiến thắng 500 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="54" PlaceID="4" PreAchievementID="5043," StartDate="2000-01-01 00:00:00" Title="Vũ khí phi tiêu">
+    <Item_Condiction AchievementID="5044" CondictionID="1" CondictionType="66" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5043" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng phi tiêu chiến thắng 400 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="54" PlaceID="4" PreAchievementID="5042," StartDate="2000-01-01 00:00:00" Title="Vũ khí phi tiêu">
+    <Item_Condiction AchievementID="5043" CondictionID="1" CondictionType="66" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="5042" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng phi tiêu chiến thắng 300 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="54" PlaceID="4" PreAchievementID="5041," StartDate="2000-01-01 00:00:00" Title="Vũ khí phi tiêu">
+    <Item_Condiction AchievementID="5042" CondictionID="1" CondictionType="66" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="5041" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng phi tiêu chiến thắng 200 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="54" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vũ khí phi tiêu">
+    <Item_Condiction AchievementID="5041" CondictionID="1" CondictionType="66" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5040" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng lựu đạn chiến thắng 700 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="53" PlaceID="4" PreAchievementID="5039," StartDate="2000-01-01 00:00:00" Title="Vũ khí lựu đạn">
+    <Item_Condiction AchievementID="5040" CondictionID="1" CondictionType="65" Condiction_Para1="0" Condiction_Para2="700" />
+    <Item_Reward AchievementID="5040" RewardValueId="37" RewardCount="1" RewardType="1" RewardPara="Đệ nhất lựu đạn" />
+  </Item>
+  <Item ID="5039" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng lựu đạn chiến thắng 500 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="53" PlaceID="4" PreAchievementID="5038," StartDate="2000-01-01 00:00:00" Title="Vũ khí lựu đạn">
+    <Item_Condiction AchievementID="5039" CondictionID="1" CondictionType="65" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5038" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng lựu đạn chiến thắng 400 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="53" PlaceID="4" PreAchievementID="5037," StartDate="2000-01-01 00:00:00" Title="Vũ khí lựu đạn">
+    <Item_Condiction AchievementID="5038" CondictionID="1" CondictionType="65" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="5037" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng lựu đạn chiến thắng 300 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="53" PlaceID="4" PreAchievementID="5036," StartDate="2000-01-01 00:00:00" Title="Vũ khí lựu đạn">
+    <Item_Condiction AchievementID="5037" CondictionID="1" CondictionType="65" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="5036" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng lựu đạn chiến thắng 200 trận" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="53" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vũ khí lựu đạn">
+    <Item_Condiction AchievementID="5036" CondictionID="1" CondictionType="65" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5035" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Hoàn thành 10000 trận chiến liên server" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="38" PlaceID="4" PreAchievementID="5034," StartDate="2000-01-01 00:00:00" Title="Bình thiên hạ">
+    <Item_Condiction AchievementID="5035" CondictionID="1" CondictionType="73" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="5035" RewardValueId="35" RewardCount="1" RewardType="1" RewardPara="Mĩm cười" />
+  </Item>
+  <Item ID="5034" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Hoàn thành 5000 trận chiến liên server" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="38" PlaceID="4" PreAchievementID="5033," StartDate="2000-01-01 00:00:00" Title="Chiến đầu vì màu cờ sắc áo">
+    <Item_Condiction AchievementID="5034" CondictionID="1" CondictionType="73" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="5033" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Hoàn thành 2000 trận chiến liên server" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="38" PlaceID="4" PreAchievementID="5032," StartDate="2000-01-01 00:00:00" Title="Vượt cao nguyên lộng gió">
+    <Item_Condiction AchievementID="5033" CondictionID="1" CondictionType="73" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5032" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Hoàn thành 1000 trận chiến liên server" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="38" PlaceID="4" PreAchievementID="5031," StartDate="2000-01-01 00:00:00" Title="Vượt long môn">
+    <Item_Condiction AchievementID="5032" CondictionID="1" CondictionType="73" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="5031" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Hoàn thành 500 trận chiến liên server" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="38" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vuợt vũ môn">
+    <Item_Condiction AchievementID="5031" CondictionID="1" CondictionType="73" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="5030" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Hoàn thành 10000 trận chiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="37" PlaceID="4" PreAchievementID="5029," StartDate="2000-01-01 00:00:00" Title="Chiến đấu ngoan cường">
+    <Item_Condiction AchievementID="5030" CondictionID="1" CondictionType="11" Condiction_Para1="0" Condiction_Para2="10000" />
+    <Item_Reward AchievementID="5030" RewardValueId="34" RewardCount="1" RewardType="1" RewardPara="Chiến đấu ngoan cường" />
+  </Item>
+  <Item ID="5029" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Hoàn thành 5000 trận chiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="37" PlaceID="4" PreAchievementID="5028," StartDate="2000-01-01 00:00:00" Title="Chiến đấu ngoan cường">
+    <Item_Condiction AchievementID="5029" CondictionID="1" CondictionType="11" Condiction_Para1="0" Condiction_Para2="5000" />
+  </Item>
+  <Item ID="5028" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Hoàn thành 2000 trận chiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="37" PlaceID="4" PreAchievementID="5027," StartDate="2000-01-01 00:00:00" Title="Chiến đấu ngoan cường">
+    <Item_Condiction AchievementID="5028" CondictionID="1" CondictionType="11" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="5027" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Hoàn thành 1000 trận chiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="37" PlaceID="4" PreAchievementID="5026," StartDate="2000-01-01 00:00:00" Title="Chiến đấu ngoan cường">
+    <Item_Condiction AchievementID="5027" CondictionID="1" CondictionType="11" Condiction_Para1="0" Condiction_Para2="1000" />
+    <Item_Reward AchievementID="5027" RewardValueId="33" RewardCount="1" RewardType="1" RewardPara="Cửu kinh sa trường" />
+  </Item>
+  <Item ID="5026" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Hoàn thành 500 trận chiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="37" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Chiến đấu ngoan cường">
+    <Item_Condiction AchievementID="5026" CondictionID="1" CondictionType="11" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5025" AchievementPoint="25" AchievementType="1" CanHide="true" Detail="Thông qua Guild chiến đoạt 10000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="36" PlaceID="4" PreAchievementID="5024," StartDate="2000-01-01 00:00:00" Title="Thấy kho vàng là đoạt">
+    <Item_Condiction AchievementID="5025" CondictionID="1" CondictionType="25" Condiction_Para1="0" Condiction_Para2="10000" />
+    <Item_Reward AchievementID="5025" RewardValueId="54" RewardCount="1" RewardType="1" RewardPara="Hảo hán Lương Sơn" />
+  </Item>
+  <Item ID="5024" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Thông qua Guild chiến đoạt 5000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="36" PlaceID="4" PreAchievementID="5023," StartDate="2000-01-01 00:00:00" Title="Thấy xe là đoạt">
+    <Item_Condiction AchievementID="5024" CondictionID="1" CondictionType="25" Condiction_Para1="0" Condiction_Para2="5000" />
+  </Item>
+  <Item ID="5023" AchievementPoint="15" AchievementType="0" CanHide="true" Detail="Thông qua Guild chiến đoạt 2000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="36" PlaceID="4" PreAchievementID="5022," StartDate="2000-01-01 00:00:00" Title="Thấy dây thừng cũng đoạt">
+    <Item_Condiction AchievementID="5023" CondictionID="1" CondictionType="25" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="5022" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Thông qua Guild chiến đoạt 1000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="36" PlaceID="4" PreAchievementID="5021," StartDate="2000-01-01 00:00:00" Title="Thấy đồ chơi cũng đoạt">
+    <Item_Condiction AchievementID="5022" CondictionID="1" CondictionType="25" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="5021" AchievementPoint="5" AchievementType="0" CanHide="true" Detail="Thông qua Guild chiến đoạt 500 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="36" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thấy là đoạt">
+    <Item_Condiction AchievementID="5021" CondictionID="1" CondictionType="25" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5015" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="trong trận Guild chiến, chiến thắng 5000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="34" PlaceID="4" PreAchievementID="5014," StartDate="2000-01-01 00:00:00" Title="Tinh thần đồng đội">
+    <Item_Condiction AchievementID="5015" CondictionID="1" CondictionType="15" Condiction_Para1="0" Condiction_Para2="5000" />
+    <Item_Reward AchievementID="5015" RewardValueId="17" RewardCount="1" RewardType="1" RewardPara="Công hội tinh anh" />
+  </Item>
+  <Item ID="5014" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="trong trận Guild chiến, chiến thắng 2000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="34" PlaceID="4" PreAchievementID="5013," StartDate="2000-01-01 00:00:00" Title="Tinh thần đồng đội">
+    <Item_Condiction AchievementID="5014" CondictionID="1" CondictionType="15" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="5013" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="trong trận Guild chiến, chiến thắng 1000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="34" PlaceID="4" PreAchievementID="5012," StartDate="2000-01-01 00:00:00" Title="Tinh thần đồng đội">
+    <Item_Condiction AchievementID="5013" CondictionID="1" CondictionType="15" Condiction_Para1="0" Condiction_Para2="1000" />
+    <Item_Reward AchievementID="5013" RewardValueId="32" RewardCount="1" RewardType="1" RewardPara="Dũng sĩ công hội" />
+  </Item>
+  <Item ID="5012" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="trong trận Guild chiến, chiến thắng 500 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="34" PlaceID="4" PreAchievementID="5011," StartDate="2000-01-01 00:00:00" Title="Tinh thần đồng đội">
+    <Item_Condiction AchievementID="5012" CondictionID="1" CondictionType="15" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5011" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="trong trận Guild chiến, chiến thắng 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="34" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tinh thần đồng đội">
+    <Item_Condiction AchievementID="5011" CondictionID="1" CondictionType="15" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="5010" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Trong trận chiến tự do chiến thắng 10000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="33" PlaceID="4" PreAchievementID="5009," StartDate="2000-01-01 00:00:00" Title="Đánh bại tất cả">
+    <Item_Condiction AchievementID="5010" CondictionID="1" CondictionType="14" Condiction_Para1="0" Condiction_Para2="10000" />
+    <Item_Reward AchievementID="5010" RewardValueId="16" RewardCount="1" RewardType="1" RewardPara="Chiến sĩ cuối cùng" />
+  </Item>
+  <Item ID="5009" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Trong trận chiến tự do chiến thắng 5000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="33" PlaceID="4" PreAchievementID="5008," StartDate="2000-01-01 00:00:00" Title="Không lối thoát">
+    <Item_Condiction AchievementID="5009" CondictionID="1" CondictionType="14" Condiction_Para1="0" Condiction_Para2="5000" />
+  </Item>
+  <Item ID="5008" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Trong trận chiến tự do chiến thắng 2000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="33" PlaceID="4" PreAchievementID="5007," StartDate="2000-01-01 00:00:00" Title="Ngàn quân vạn mã không lối thoát">
+    <Item_Condiction AchievementID="5008" CondictionID="1" CondictionType="14" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="5007" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Trong trận chiến tự do chiến thắng 1000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="33" PlaceID="4" PreAchievementID="5006," StartDate="2000-01-01 00:00:00" Title="Anh hùng đột phá vòng vây">
+    <Item_Condiction AchievementID="5007" CondictionID="1" CondictionType="14" Condiction_Para1="0" Condiction_Para2="1000" />
+    <Item_Reward AchievementID="5007" RewardValueId="31" RewardCount="1" RewardType="1" RewardPara="Chiến sĩ siêu cấp" />
+  </Item>
+  <Item ID="5006" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Trong trận chiến tự do chiến thắng 500 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="33" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tả xung hửu đột">
+    <Item_Condiction AchievementID="5006" CondictionID="1" CondictionType="14" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="5005" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đánh bại 10000 người chơi" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="32" PlaceID="4" PreAchievementID="5004," StartDate="2000-01-01 00:00:00" Title="Truyền nhân">
+    <Item_Condiction AchievementID="5005" CondictionID="1" CondictionType="19" Condiction_Para1="0" Condiction_Para2="10000" />
+    <Item_Reward AchievementID="5005" RewardValueId="15" RewardCount="1" RewardType="1" RewardPara="Vạn Phu Mạc Địch" />
+  </Item>
+  <Item ID="5004" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đánh bại 5000 người chơi" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="32" PlaceID="4" PreAchievementID="5003," StartDate="2000-01-01 00:00:00" Title="Tung hoàn ngang dọc">
+    <Item_Condiction AchievementID="5004" CondictionID="1" CondictionType="19" Condiction_Para1="0" Condiction_Para2="5000" />
+  </Item>
+  <Item ID="5003" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đánh bại 2000 người chơi" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="32" PlaceID="4" PreAchievementID="5002," StartDate="2000-01-01 00:00:00" Title="Giải phá vòng vây">
+    <Item_Condiction AchievementID="5003" CondictionID="1" CondictionType="19" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="5003" RewardValueId="30" RewardCount="1" RewardType="1" RewardPara="Bản sắc anh hùng" />
+  </Item>
+  <Item ID="5002" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đánh bại 1000 người chơi" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="32" PlaceID="4" PreAchievementID="5001," StartDate="2000-01-01 00:00:00" Title="Tiến đánh ngàn quân">
+    <Item_Condiction AchievementID="5002" CondictionID="1" CondictionType="19" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="5001" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đánh bại 500 người chơi" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="32" PlaceID="4" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tân thủ">
+    <Item_Condiction AchievementID="5001" CondictionID="1" CondictionType="19" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="4076" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Qua ải Đại chiến rồng 500 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="85" PlaceID="3" PreAchievementID="4075," StartDate="2000-01-01 00:00:00" Title="Đại chiến rồng ">
+    <Item_Condiction AchievementID="4076" CondictionID="1" CondictionType="90" Condiction_Para1="0" Condiction_Para2="500" />
+    <Item_Reward AchievementID="4076" RewardValueId="69" RewardCount="1" RewardType="1" RewardPara="Dũng sĩ" />
+  </Item>
+  <Item ID="4075" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Qua ải Đại chiến rồng 400 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="85" PlaceID="3" PreAchievementID="4074," StartDate="2000-01-01 00:00:00" Title="Đại chiến rồng ">
+    <Item_Condiction AchievementID="4075" CondictionID="1" CondictionType="90" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4074" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Qua ải Đại chiến rồng 300 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="85" PlaceID="3" PreAchievementID="4073," StartDate="2000-01-01 00:00:00" Title="Đại chiến rồng ">
+    <Item_Condiction AchievementID="4074" CondictionID="1" CondictionType="90" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4073" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Qua ải Đại chiến rồng 200 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="85" PlaceID="3" PreAchievementID="4072," StartDate="2000-01-01 00:00:00" Title="Đại chiến rồng ">
+    <Item_Condiction AchievementID="4073" CondictionID="1" CondictionType="90" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4072" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Qua ải Đại chiến rồng 100 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="85" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Đại chiến rồng ">
+    <Item_Condiction AchievementID="4072" CondictionID="1" CondictionType="90" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4071" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân hạ 400 lần Tà Diệm Long" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="84" PlaceID="3" PreAchievementID="4070," StartDate="2000-01-01 00:00:00" Title="Tà Diệm Long">
+    <Item_Condiction AchievementID="4071" CondictionID="1" CondictionType="89" Condiction_Para1="0" Condiction_Para2="400" />
+    <Item_Reward AchievementID="4071" RewardValueId="68" RewardCount="1" RewardType="1" RewardPara="Sát thủ rồng" />
+  </Item>
+  <Item ID="4070" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân hạ 300 lần Tà Diệm Long" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="84" PlaceID="3" PreAchievementID="4069," StartDate="2000-01-01 00:00:00" Title="Tà Diệm Long">
+    <Item_Condiction AchievementID="4070" CondictionID="1" CondictionType="89" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4069" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân hạ 200 lần Tà Diệm Long" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="84" PlaceID="3" PreAchievementID="4068," StartDate="2000-01-01 00:00:00" Title="Tà Diệm Long">
+    <Item_Condiction AchievementID="4069" CondictionID="1" CondictionType="89" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4068" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân hạ 100 lần Tà Diệm Long" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="84" PlaceID="3" PreAchievementID="4067," StartDate="2000-01-01 00:00:00" Title="Tà Diệm Long">
+    <Item_Condiction AchievementID="4068" CondictionID="1" CondictionType="89" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4067" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân hạ 50 lần Tà Diệm Long" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="84" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tà Diệm Long">
+    <Item_Condiction AchievementID="4067" CondictionID="1" CondictionType="89" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="4066" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Qua ải Đấu trường gà 500 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="77" PlaceID="3" PreAchievementID="4065," StartDate="2000-01-01 00:00:00" Title="Đấu trường gà ">
+    <Item_Condiction AchievementID="4066" CondictionID="1" CondictionType="82" Condiction_Para1="0" Condiction_Para2="500" />
+    <Item_Reward AchievementID="4066" RewardValueId="67" RewardCount="1" RewardType="1" RewardPara="Quán quân" />
+  </Item>
+  <Item ID="4065" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Qua ải Đấu trường gà 400 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="77" PlaceID="3" PreAchievementID="4064," StartDate="2000-01-01 00:00:00" Title="Đấu trường gà ">
+    <Item_Condiction AchievementID="4065" CondictionID="1" CondictionType="82" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4064" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Qua ải Đấu trường gà 300 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="77" PlaceID="3" PreAchievementID="4063," StartDate="2000-01-01 00:00:00" Title="Đấu trường gà ">
+    <Item_Condiction AchievementID="4064" CondictionID="1" CondictionType="82" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4063" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Qua ải Đấu trường gà 200 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="77" PlaceID="3" PreAchievementID="4062," StartDate="2000-01-01 00:00:00" Title="Đấu trường gà ">
+    <Item_Condiction AchievementID="4063" CondictionID="1" CondictionType="82" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4062" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Qua ải Đấu trường gà 100 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="77" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Đấu trường gà ">
+    <Item_Condiction AchievementID="4062" CondictionID="1" CondictionType="82" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4061" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân hạ 400 lần trọng tài còi đen" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="76" PlaceID="3" PreAchievementID="4060," StartDate="2000-01-01 00:00:00" Title="Trọng tài còi đen">
+    <Item_Condiction AchievementID="4061" CondictionID="1" CondictionType="81" Condiction_Para1="0" Condiction_Para2="400" />
+    <Item_Reward AchievementID="4061" RewardValueId="66" RewardCount="1" RewardType="1" RewardPara="Quyền vương" />
+  </Item>
+  <Item ID="4060" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân hạ 300 lần trọng tài còi đen" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="76" PlaceID="3" PreAchievementID="4059," StartDate="2000-01-01 00:00:00" Title="Trọng tài còi đen">
+    <Item_Condiction AchievementID="4060" CondictionID="1" CondictionType="81" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4059" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân hạ 200 lần trọng tài còi đen" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="76" PlaceID="3" PreAchievementID="4058," StartDate="2000-01-01 00:00:00" Title="Trọng tài còi đen">
+    <Item_Condiction AchievementID="4059" CondictionID="1" CondictionType="81" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4058" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân hạ 100 lần trọng tài còi đen" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="76" PlaceID="3" PreAchievementID="4057," StartDate="2000-01-01 00:00:00" Title="Trọng tài còi đen">
+    <Item_Condiction AchievementID="4058" CondictionID="1" CondictionType="81" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4057" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân hạ 50 lần trọng tài còi đen" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="76" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Trọng tài còi đen">
+    <Item_Condiction AchievementID="4057" CondictionID="1" CondictionType="81" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="4056" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Qua ải &quot;giải cứu gà con&quot;500 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="75" PlaceID="3" PreAchievementID="4055," StartDate="2000-01-01 00:00:00" Title="Giải cứu gà con">
+    <Item_Condiction AchievementID="4056" CondictionID="1" CondictionType="80" Condiction_Para1="0" Condiction_Para2="500" />
+    <Item_Reward AchievementID="4056" RewardValueId="65" RewardCount="1" RewardType="1" RewardPara="Giải cứu gà con" />
+  </Item>
+  <Item ID="4055" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Qua ải &quot;giải cứu gà con&quot;400 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="75" PlaceID="3" PreAchievementID="4054," StartDate="2000-01-01 00:00:00" Title="Giải cứu gà con">
+    <Item_Condiction AchievementID="4055" CondictionID="1" CondictionType="80" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4054" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Qua ải &quot;giải cứu gà con&quot;300 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="75" PlaceID="3" PreAchievementID="4053," StartDate="2000-01-01 00:00:00" Title="Giải cứu gà con">
+    <Item_Condiction AchievementID="4054" CondictionID="1" CondictionType="80" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4053" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Qua ải &quot;giải cứu gà con&quot;200 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="75" PlaceID="3" PreAchievementID="4052," StartDate="2000-01-01 00:00:00" Title="Giải cứu gà con">
+    <Item_Condiction AchievementID="4053" CondictionID="1" CondictionType="80" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4052" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Qua ải &quot;giải cứu gà con&quot;100 lần " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="75" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Giải cứu gà con">
+    <Item_Condiction AchievementID="4052" CondictionID="1" CondictionType="80" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4051" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân hạ 400 lần gà mái xấu xí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="74" PlaceID="3" PreAchievementID="4050," StartDate="2000-01-01 00:00:00" Title="Hạ gà mái xấu xí">
+    <Item_Condiction AchievementID="4051" CondictionID="1" CondictionType="79" Condiction_Para1="0" Condiction_Para2="400" />
+    <Item_Reward AchievementID="4051" RewardValueId="64" RewardCount="1" RewardType="1" RewardPara="Ân nhân" />
+  </Item>
+  <Item ID="4050" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân hạ 300 lần gà mái xấu xí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="74" PlaceID="3" PreAchievementID="4049," StartDate="2000-01-01 00:00:00" Title="Hạ gà mái xấu xí">
+    <Item_Condiction AchievementID="4050" CondictionID="1" CondictionType="79" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4049" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân hạ 200 lần gà mái xấu xí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="74" PlaceID="3" PreAchievementID="4048," StartDate="2000-01-01 00:00:00" Title="Hạ gà mái xấu xí">
+    <Item_Condiction AchievementID="4049" CondictionID="1" CondictionType="79" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4048" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân hạ 100 lần gà mái xấu xí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="74" PlaceID="3" PreAchievementID="4047," StartDate="2000-01-01 00:00:00" Title="Hạ gà mái xấu xí">
+    <Item_Condiction AchievementID="4048" CondictionID="1" CondictionType="79" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4047" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân hạ 50 lần gà mái xấu xí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="74" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Hạ gà mái xấu xí">
+    <Item_Condiction AchievementID="4047" CondictionID="1" CondictionType="79" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="4046" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Đích thân đánh bại Minotaure cấp anh hùng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="52" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Minotaure">
+    <Item_Condiction AchievementID="4046" CondictionID="1" CondictionType="8" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="4045" AchievementPoint="25" AchievementType="0" CanHide="false" Detail="Đích thân đánh bại thủ lĩnh bộ lạc cấp anh hùng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="51" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thủ lĩnh bộ lạc">
+    <Item_Condiction AchievementID="4045" CondictionID="1" CondictionType="7" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="4044" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Đích thân đánh bại Vua Vip lựu đạn" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="50" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vua Vip lựu đạn">
+    <Item_Condiction AchievementID="4044" CondictionID="1" CondictionType="60" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="4042" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Bản thân không diệt dũng sĩ bộ lạc và đích thân đánh bại anh em Bulanbala cấp anh hùng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="48" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Anh em Bulanbala">
+    <Item_Condiction AchievementID="4042" CondictionID="1" CondictionType="62" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="4041" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Đích thân đánh bại đội trưởng Gà cấp độ anh Hùng" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="47" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tiểu đội trưởng">
+    <Item_Condiction AchievementID="4041" CondictionID="1" CondictionType="61" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="4040" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Vượt ải Pháo đài hắc ám 500 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="46" PlaceID="3" PreAchievementID="4039," StartDate="2000-01-01 00:00:00" Title="Vượt ải pháo đài">
+    <Item_Condiction AchievementID="4040" CondictionID="1" CondictionType="6" Condiction_Para1="0" Condiction_Para2="500" />
+    <Item_Reward AchievementID="4040" RewardValueId="56" RewardCount="1" RewardType="1" RewardPara="Càn quét dũng sĩ" />
+  </Item>
+  <Item ID="4039" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Vượt ải Pháo đài hắc ám 400 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="46" PlaceID="3" PreAchievementID="4038," StartDate="2000-01-01 00:00:00" Title="Vượt ải pháo đài">
+    <Item_Condiction AchievementID="4039" CondictionID="1" CondictionType="6" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4038" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Vượt ải Pháo đài hắc ám 300 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="46" PlaceID="3" PreAchievementID="4037," StartDate="2000-01-01 00:00:00" Title="Vượt ải pháo đài">
+    <Item_Condiction AchievementID="4038" CondictionID="1" CondictionType="6" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4037" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Vượt ải Pháo đài hắc ám 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="46" PlaceID="3" PreAchievementID="4036," StartDate="2000-01-01 00:00:00" Title="Vượt ải pháo đài">
+    <Item_Condiction AchievementID="4037" CondictionID="1" CondictionType="6" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4036" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Vượt ải Pháo đài hắc ám 100 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="46" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vượt ải pháo đài">
+    <Item_Condiction AchievementID="4036" CondictionID="1" CondictionType="6" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4035" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân đánh bại 400 lần Minotaure" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="45" PlaceID="3" PreAchievementID="4034," StartDate="2000-01-01 00:00:00" Title="Pháo đài hắc ám ">
+    <Item_Condiction AchievementID="4035" CondictionID="1" CondictionType="5" Condiction_Para1="0" Condiction_Para2="400" />
+    <Item_Reward AchievementID="4035" RewardValueId="36" RewardCount="1" RewardType="1" RewardPara="Dũng sĩ vượt ải" />
+  </Item>
+  <Item ID="4034" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 300 lần Minotaure" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="45" PlaceID="3" PreAchievementID="4033," StartDate="2000-01-01 00:00:00" Title="Pháo đài hắc ám ">
+    <Item_Condiction AchievementID="4034" CondictionID="1" CondictionType="5" Condiction_Para1="0" Condiction_Para2="300" />
+  </Item>
+  <Item ID="4033" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 200 lần Minotaure" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="45" PlaceID="3" PreAchievementID="4032," StartDate="2000-01-01 00:00:00" Title="Pháo đài hắc ám ">
+    <Item_Condiction AchievementID="4033" CondictionID="1" CondictionType="5" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4032" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 100 lần Minotaure" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="45" PlaceID="3" PreAchievementID="4031," StartDate="2000-01-01 00:00:00" Title="Pháo đài hắc ám ">
+    <Item_Condiction AchievementID="4032" CondictionID="1" CondictionType="5" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4031" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 50 lần Minotaure" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="45" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Pháo đài hắc ám ">
+    <Item_Condiction AchievementID="4031" CondictionID="1" CondictionType="5" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="4030" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Thông qua ải bộ lạc Tà Thần 5000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="42" PlaceID="3" PreAchievementID="4029," StartDate="2000-01-01 00:00:00" Title="Vượt ải bộ lạc Tà Thần">
+    <Item_Condiction AchievementID="4030" CondictionID="1" CondictionType="30" Condiction_Para1="0" Condiction_Para2="5000" />
+    <Item_Reward AchievementID="4030" RewardValueId="52" RewardCount="1" RewardType="1" RewardPara="Thống trị" />
+  </Item>
+  <Item ID="4029" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Thông qua ải bộ lạc Tà Thần 2000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="42" PlaceID="3" PreAchievementID="4028," StartDate="2000-01-01 00:00:00" Title="Vượt ải bộ lạc Tà Thần">
+    <Item_Condiction AchievementID="4029" CondictionID="1" CondictionType="30" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="4028" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Thông qua ải bộ lạc Tà Thần 1000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="42" PlaceID="3" PreAchievementID="4027," StartDate="2000-01-01 00:00:00" Title="Vượt ải bộ lạc Tà Thần">
+    <Item_Condiction AchievementID="4028" CondictionID="1" CondictionType="30" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="4027" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Thông qua ải bộ lạc Tà Thần 400 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="42" PlaceID="3" PreAchievementID="4026," StartDate="2000-01-01 00:00:00" Title="Vượt ải bộ lạc Tà Thần">
+    <Item_Condiction AchievementID="4027" CondictionID="1" CondictionType="30" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4026" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Thông qua ải bộ lạc Tà Thần 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="42" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vượt ải bộ lạc Tà Thần">
+    <Item_Condiction AchievementID="4026" CondictionID="1" CondictionType="30" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4025" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân đánh bại  thủ lĩnh bộ lạc 2000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="41" PlaceID="3" PreAchievementID="4024," StartDate="2000-01-01 00:00:00" Title="Đòn chí mạng">
+    <Item_Condiction AchievementID="4025" CondictionID="1" CondictionType="31" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="4025" RewardValueId="18" RewardCount="1" RewardType="1" RewardPara="Tà Thần Vương" />
+  </Item>
+  <Item ID="4024" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại  thủ lĩnh bộ lạc 1000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="41" PlaceID="3" PreAchievementID="4023," StartDate="2000-01-01 00:00:00" Title="Xáp trận">
+    <Item_Condiction AchievementID="4024" CondictionID="1" CondictionType="31" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="4023" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại  thủ lĩnh bộ lạc 500 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="41" PlaceID="3" PreAchievementID="4022," StartDate="2000-01-01 00:00:00" Title="Quyết chiến">
+    <Item_Condiction AchievementID="4023" CondictionID="1" CondictionType="31" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="4022" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại  thủ lĩnh bộ lạc 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="41" PlaceID="3" PreAchievementID="4021," StartDate="2000-01-01 00:00:00" Title="Tiến công">
+    <Item_Condiction AchievementID="4022" CondictionID="1" CondictionType="31" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4021" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại  thủ lĩnh bộ lạc 100 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="41" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Xung công">
+    <Item_Condiction AchievementID="4021" CondictionID="1" CondictionType="31" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4020" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Thông qua ải Vương thành gà 5000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="31" PlaceID="3" PreAchievementID="4019," StartDate="2000-01-01 00:00:00" Title="Vượt ải Vương thành gà">
+    <Item_Condiction AchievementID="4020" CondictionID="1" CondictionType="29" Condiction_Para1="0" Condiction_Para2="5000" />
+    <Item_Reward AchievementID="4020" RewardValueId="51" RewardCount="1" RewardType="1" RewardPara="Vua vượt ải" />
+  </Item>
+  <Item ID="4019" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Thông qua ải Vương thành gà 2000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="31" PlaceID="3" PreAchievementID="4018," StartDate="2000-01-01 00:00:00" Title="Vượt ải Vương thành gà">
+    <Item_Condiction AchievementID="4019" CondictionID="1" CondictionType="29" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="4018" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Thông qua ải Vương thành gà 1000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="31" PlaceID="3" PreAchievementID="4017," StartDate="2000-01-01 00:00:00" Title="Vượt ải Vương thành gà">
+    <Item_Condiction AchievementID="4018" CondictionID="1" CondictionType="29" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="4017" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Thông qua ải Vương thành gà 400 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="31" PlaceID="3" PreAchievementID="4016," StartDate="2000-01-01 00:00:00" Title="Vượt ải Vương thành gà">
+    <Item_Condiction AchievementID="4017" CondictionID="1" CondictionType="29" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4016" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Thông qua ải Vương thành gà 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="31" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vượt ải Vương thành gà">
+    <Item_Condiction AchievementID="4016" CondictionID="1" CondictionType="29" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4015" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Thông qua ải Huyệt ma kiến 5000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="30" PlaceID="3" PreAchievementID="4014," StartDate="2000-01-01 00:00:00" Title="Vượt ải Huyệt Ma Kiến">
+    <Item_Condiction AchievementID="4015" CondictionID="1" CondictionType="28" Condiction_Para1="0" Condiction_Para2="5000" />
+    <Item_Reward AchievementID="4015" RewardValueId="50" RewardCount="1" RewardType="1" RewardPara="Quét sạch" />
+  </Item>
+  <Item ID="4014" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Thông qua ải Huyệt ma kiến 2000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="30" PlaceID="3" PreAchievementID="4013," StartDate="2000-01-01 00:00:00" Title="Vượt ải Huyệt Ma Kiến">
+    <Item_Condiction AchievementID="4014" CondictionID="1" CondictionType="28" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="4013" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Thông qua ải Huyệt ma kiến 1000 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="30" PlaceID="3" PreAchievementID="4012," StartDate="2000-01-01 00:00:00" Title="Vượt ải Huyệt Ma Kiến">
+    <Item_Condiction AchievementID="4013" CondictionID="1" CondictionType="28" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="4012" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Thông qua ải Huyệt ma kiến 400 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="30" PlaceID="3" PreAchievementID="4011," StartDate="2000-01-01 00:00:00" Title="Vượt ải Huyệt Ma Kiến">
+    <Item_Condiction AchievementID="4012" CondictionID="1" CondictionType="28" Condiction_Para1="0" Condiction_Para2="400" />
+  </Item>
+  <Item ID="4011" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Thông qua ải Huyệt ma kiến 200 lần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="30" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Vượt ải Huyệt Ma Kiến">
+    <Item_Condiction AchievementID="4011" CondictionID="1" CondictionType="28" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4010" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân đánh bại 2000 lần Boss quốc vương gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="29" PlaceID="3" PreAchievementID="4009," StartDate="2000-01-01 00:00:00" Title="Đánh bại Quốc Vương Gà">
+    <Item_Condiction AchievementID="4010" CondictionID="1" CondictionType="27" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="4010" RewardValueId="14" RewardCount="1" RewardType="1" RewardPara="Khắc tinh gà" />
+  </Item>
+  <Item ID="4009" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 1000 lần Boss quốc vương gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="29" PlaceID="3" PreAchievementID="4008," StartDate="2000-01-01 00:00:00" Title="Đánh bại Quốc Vương Gà">
+    <Item_Condiction AchievementID="4009" CondictionID="1" CondictionType="27" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="4008" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 500 lần Boss quốc vương gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="29" PlaceID="3" PreAchievementID="4007," StartDate="2000-01-01 00:00:00" Title="Đánh bại Quốc Vương Gà">
+    <Item_Condiction AchievementID="4008" CondictionID="1" CondictionType="27" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="4007" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 200 lần Boss quốc vương gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="29" PlaceID="3" PreAchievementID="4006," StartDate="2000-01-01 00:00:00" Title="Đánh bại Quốc Vương Gà">
+    <Item_Condiction AchievementID="4007" CondictionID="1" CondictionType="27" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4006" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 100 lần Boss quốc vương gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="29" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Đánh bại Quốc Vương Gà">
+    <Item_Condiction AchievementID="4006" CondictionID="1" CondictionType="27" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="4005" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Đích thân đánh bại 2000 lần nữ vương kiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="28" PlaceID="3" PreAchievementID="4004," StartDate="2000-01-01 00:00:00" Title="Khắc tinh của nữ vương kiến">
+    <Item_Condiction AchievementID="4005" CondictionID="1" CondictionType="26" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="4005" RewardValueId="13" RewardCount="1" RewardType="1" RewardPara="Chuyền Suy Nữ Vương" />
+  </Item>
+  <Item ID="4004" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 1000 lần nữ vương kiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="28" PlaceID="3" PreAchievementID="4003," StartDate="2000-01-01 00:00:00" Title="Ngày ngày đánh bại">
+    <Item_Condiction AchievementID="4004" CondictionID="1" CondictionType="26" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="4003" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 500 lần nữ vương kiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="28" PlaceID="3" PreAchievementID="4002," StartDate="2000-01-01 00:00:00" Title="Không ngừng đánh bại">
+    <Item_Condiction AchievementID="4003" CondictionID="1" CondictionType="26" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="4002" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 200 lần nữ vương kiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="28" PlaceID="3" PreAchievementID="4001," StartDate="2000-01-01 00:00:00" Title="Tiếp tục đánh bại">
+    <Item_Condiction AchievementID="4002" CondictionID="1" CondictionType="26" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="4001" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Đích thân đánh bại 100 lần nữ vương kiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="28" PlaceID="3" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tiến đánh nữ vương">
+    <Item_Condiction AchievementID="4001" CondictionID="1" CondictionType="26" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="3019" AchievementPoint="15" AchievementType="0" CanHide="true" Detail="Ngâm mình tắm suối 3000 phút" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="44" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thích tắm táp">
+    <Item_Condiction AchievementID="3019" CondictionID="1" CondictionType="33" Condiction_Para1="0" Condiction_Para2="3000" />
+  </Item>
+  <Item ID="3018" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Hoàn thành 2000 nhiệm vụ hằng ngày" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="43" PlaceID="2" PreAchievementID="3017," StartDate="2000-01-01 00:00:00" Title="2000 nhiệm vụ hằng ngày">
+    <Item_Condiction AchievementID="3018" CondictionID="1" CondictionType="22" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="3018" RewardValueId="55" RewardCount="1" RewardType="1" RewardPara="Vua nhiệm vụ" />
+  </Item>
+  <Item ID="3017" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Hoàn thành 1000 nhiệm vụ hằng ngày" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="43" PlaceID="2" PreAchievementID="3016," StartDate="2000-01-01 00:00:00" Title="1000 nhiệm vụ hằng ngày">
+    <Item_Condiction AchievementID="3017" CondictionID="1" CondictionType="22" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="3016" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Hoàn thành 500 nhiệm vụ hằng ngày" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="43" PlaceID="2" PreAchievementID="3015," StartDate="2000-01-01 00:00:00" Title="500 nhiệm vụ hằng ngày">
+    <Item_Condiction AchievementID="3016" CondictionID="1" CondictionType="22" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="3015" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Hoàn thành 200 nhiệm vụ hằng ngày" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="43" PlaceID="2" PreAchievementID="3014," StartDate="2000-01-01 00:00:00" Title="200 nhiệm vụ hằng ngày">
+    <Item_Condiction AchievementID="3015" CondictionID="1" CondictionType="22" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="3014" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Hoàn thành 100 nhiệm vụ hằng ngày" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="43" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="100 nhiệm vụ hằng ngày">
+    <Item_Condiction AchievementID="3014" CondictionID="1" CondictionType="22" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="3013" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Hoàn thành 500 nhiệm vụ màu xanh" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="27" PlaceID="2" PreAchievementID="3012," StartDate="2000-01-01 00:00:00" Title="Hoàn thành nhiệm vụ">
+    <Item_Condiction AchievementID="3013" CondictionID="1" CondictionType="21" Condiction_Para1="0" Condiction_Para2="500" />
+    <Item_Reward AchievementID="3013" RewardValueId="29" RewardCount="1" RewardType="1" RewardPara="Thần tình ái" />
+  </Item>
+  <Item ID="3012" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Hoàn thành 200 nhiệm vụ màu xanh" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="27" PlaceID="2" PreAchievementID="3011," StartDate="2000-01-01 00:00:00" Title="Hoàn thành nhiệm vụ">
+    <Item_Condiction AchievementID="3012" CondictionID="1" CondictionType="21" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="3011" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Hoàn thành 100 nhiệm vụ màu xanh" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="27" PlaceID="2" PreAchievementID="3010," StartDate="2000-01-01 00:00:00" Title="Hoàn thành nhiệm vụ">
+    <Item_Condiction AchievementID="3011" CondictionID="1" CondictionType="21" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="3010" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Hoàn thành 50 nhiệm vụ màu xanh" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="27" PlaceID="2" PreAchievementID="3009," StartDate="2000-01-01 00:00:00" Title="Hoàn thành nhiệm vụ">
+    <Item_Condiction AchievementID="3010" CondictionID="1" CondictionType="21" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="3009" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Hoàn thành 10 nhiệm vụ màu xanh" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="27" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Hoàn thành nhiệm vụ">
+    <Item_Condiction AchievementID="3009" CondictionID="1" CondictionType="21" Condiction_Para1="0" Condiction_Para2="10" />
+  </Item>
+  <Item ID="3007" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Thông qua các bài luyện tập cơ bản (ph.luyện tập)" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="94" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bước chân giang hồ">
+    <Item_Condiction AchievementID="3007" CondictionID="1" CondictionType="94" Condiction_Para1="0" Condiction_Para2="5" />
+    <Item_Reward AchievementID="3007" RewardValueId="70" RewardCount="1" RewardType="1" RewardPara="Chiến sĩ quyền năng" />
+  </Item>
+  <Item ID="3006" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Thông qua bắn góc cao (tác chiến ph.luyện tập)" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="93" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tùy Tâm Sở Dục">
+    <Item_Condiction AchievementID="3006" CondictionID="1" CondictionType="56" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="3005" AchievementPoint="25" AchievementType="0" CanHide="false" Detail="Thông qua luyện tập bắn siêu cao" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="92" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bước nhảy không trung">
+    <Item_Condiction AchievementID="3005" CondictionID="1" CondictionType="55" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="3004" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Thông qua luyện tập bắn góc 65°" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="91" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Hoàn Mỹ Hồ Tuyến">
+    <Item_Condiction AchievementID="3004" CondictionID="1" CondictionType="54" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="3003" AchievementPoint="15" AchievementType="0" CanHide="false" Detail="Thông qua luyện tập bắn góc 20°" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="89" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Đế Không Chế Đạo">
+    <Item_Condiction AchievementID="3003" CondictionID="1" CondictionType="53" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="3002" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Thông qua luyện tập đo cự ly" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="90" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Ưng nhãn">
+    <Item_Condiction AchievementID="3002" CondictionID="1" CondictionType="52" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="3001" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Hoàn thành nhiệm vụ &quot;Đến đáp người tốt&quot;" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="24" PlaceID="2" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Đền đáp">
+    <Item_Condiction AchievementID="3001" CondictionID="1" CondictionType="59" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2080" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ Ngũ Thần Binh cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="89" PlaceID="1" PreAchievementID="2079," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Ngũ Thần Binh">
+    <Item_Condiction AchievementID="2080" CondictionID="1" CondictionType="95" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2079" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ Ngũ Thần Binh cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="89" PlaceID="1" PreAchievementID="2078," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Ngũ Thần Binh">
+    <Item_Condiction AchievementID="2079" CondictionID="1" CondictionType="95" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2078" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ Ngũ Thần Binh cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="89" PlaceID="1" PreAchievementID="2077," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Ngũ Thần Binh">
+    <Item_Condiction AchievementID="2078" CondictionID="1" CondictionType="95" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2077" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ Ngũ Thần Binh" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="89" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Ngũ Thần Binh">
+    <Item_Condiction AchievementID="2077" CondictionID="1" CondictionType="95" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2076" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ Đấu trường gà cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="88" PlaceID="1" PreAchievementID="2075," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đấu trường gà ">
+    <Item_Condiction AchievementID="2076" CondictionID="1" CondictionType="93" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2075" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ Đấu trường gà cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="88" PlaceID="1" PreAchievementID="2074," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đấu trường gà ">
+    <Item_Condiction AchievementID="2075" CondictionID="1" CondictionType="93" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2074" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ Đấu trường gà cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="88" PlaceID="1" PreAchievementID="2073," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đấu trường gà ">
+    <Item_Condiction AchievementID="2074" CondictionID="1" CondictionType="93" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2073" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ Đấu trường gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="88" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đấu trường gà ">
+    <Item_Condiction AchievementID="2073" CondictionID="1" CondictionType="93" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2072" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ giải cứu gà con cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="87" PlaceID="1" PreAchievementID="2071," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:&quot;giải cứu gà con&quot;">
+    <Item_Condiction AchievementID="2072" CondictionID="1" CondictionType="92" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2071" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ giải cứu gà con cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="87" PlaceID="1" PreAchievementID="2070," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:&quot;giải cứu gà con&quot;">
+    <Item_Condiction AchievementID="2071" CondictionID="1" CondictionType="92" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2070" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ giải cứu gà con cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="87" PlaceID="1" PreAchievementID="2069," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:&quot;giải cứu gà con&quot;">
+    <Item_Condiction AchievementID="2070" CondictionID="1" CondictionType="92" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2069" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ giải cứu gà con" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="87" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:&quot;giải cứu gà con&quot;">
+    <Item_Condiction AchievementID="2069" CondictionID="1" CondictionType="92" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2068" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ đại chiến rồng cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="86" PlaceID="1" PreAchievementID="2067," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đại chiến rồng ">
+    <Item_Condiction AchievementID="2068" CondictionID="1" CondictionType="91" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2067" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ đại chiến rồng cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="86" PlaceID="1" PreAchievementID="2066," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đại chiến rồng ">
+    <Item_Condiction AchievementID="2067" CondictionID="1" CondictionType="91" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2066" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ đại chiến rồng cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="86" PlaceID="1" PreAchievementID="2065," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đại chiến rồng ">
+    <Item_Condiction AchievementID="2066" CondictionID="1" CondictionType="91" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2065" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ đại chiến rồng " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="86" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Đại chiến rồng ">
+    <Item_Condiction AchievementID="2065" CondictionID="1" CondictionType="91" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2064" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Mở 2 vị trí thẻ phụ" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="83" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Mở thẻ phụ">
+    <Item_Condiction AchievementID="2064" CondictionID="1" CondictionType="88" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2063" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ vũ khí thần bí cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="82" PlaceID="1" PreAchievementID="2062," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vũ khí thần bí">
+    <Item_Condiction AchievementID="2063" CondictionID="1" CondictionType="87" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2062" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ vũ khí thần bí cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="82" PlaceID="1" PreAchievementID="2061," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vũ khí thần bí">
+    <Item_Condiction AchievementID="2062" CondictionID="1" CondictionType="87" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2061" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ vũ khí thần bí cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="82" PlaceID="1" PreAchievementID="2060," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vũ khí thần bí">
+    <Item_Condiction AchievementID="2061" CondictionID="1" CondictionType="87" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2060" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ vũ khí thần bí" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="82" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vũ khí thần bí">
+    <Item_Condiction AchievementID="2060" CondictionID="1" CondictionType="87" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2059" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ pháo đài hắc ám cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="81" PlaceID="1" PreAchievementID="2058," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Pháo đài hắc ám">
+    <Item_Condiction AchievementID="2059" CondictionID="1" CondictionType="86" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2058" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ pháo đài hắc ám cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="81" PlaceID="1" PreAchievementID="2057," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Pháo đài hắc ám">
+    <Item_Condiction AchievementID="2058" CondictionID="1" CondictionType="86" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2057" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ pháo đài hắc ám cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="81" PlaceID="1" PreAchievementID="2056," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Pháo đài hắc ám">
+    <Item_Condiction AchievementID="2057" CondictionID="1" CondictionType="86" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2056" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ pháo đài hắc ám" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="81" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Pháo đài hắc ám">
+    <Item_Condiction AchievementID="2056" CondictionID="1" CondictionType="86" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2055" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ bộ lạc tà thần cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="80" PlaceID="1" PreAchievementID="2054," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Bộ lạc tà thần">
+    <Item_Condiction AchievementID="2055" CondictionID="1" CondictionType="85" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2054" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ bộ lạc tà thần cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="80" PlaceID="1" PreAchievementID="2053," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Bộ lạc tà thần">
+    <Item_Condiction AchievementID="2054" CondictionID="1" CondictionType="85" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2053" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ bộ lạc tà thần cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="80" PlaceID="1" PreAchievementID="2052," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Bộ lạc tà thần">
+    <Item_Condiction AchievementID="2053" CondictionID="1" CondictionType="85" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2052" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ bộ lạc tà thần" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="80" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Bộ lạc tà thần">
+    <Item_Condiction AchievementID="2052" CondictionID="1" CondictionType="85" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2051" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ vương thành gà cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="79" PlaceID="1" PreAchievementID="2050," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vương thành gà">
+    <Item_Condiction AchievementID="2051" CondictionID="1" CondictionType="84" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2050" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ vương thành gà cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="79" PlaceID="1" PreAchievementID="2049," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vương thành gà">
+    <Item_Condiction AchievementID="2050" CondictionID="1" CondictionType="84" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2049" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ vương thành gà cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="79" PlaceID="1" PreAchievementID="2048," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vương thành gà">
+    <Item_Condiction AchievementID="2049" CondictionID="1" CondictionType="84" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2048" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ vương thành gà" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="79" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Vương thành gà">
+    <Item_Condiction AchievementID="2048" CondictionID="1" CondictionType="84" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2047" AchievementPoint="40" AchievementType="1" CanHide="false" Detail="Trang bị 1 bộ thẻ huyệt ma kiến cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="78" PlaceID="1" PreAchievementID="2046," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Huyệt ma kiến">
+    <Item_Condiction AchievementID="2047" CondictionID="1" CondictionType="83" Condiction_Para1="0" Condiction_Para2="4" />
+  </Item>
+  <Item ID="2046" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ huyệt ma kiến cấp 20" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="78" PlaceID="1" PreAchievementID="2045," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Huyệt ma kiến">
+    <Item_Condiction AchievementID="2046" CondictionID="1" CondictionType="83" Condiction_Para1="0" Condiction_Para2="3" />
+  </Item>
+  <Item ID="2045" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ huyệt ma kiến cấp 10" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="78" PlaceID="1" PreAchievementID="2044," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Huyệt ma kiến">
+    <Item_Condiction AchievementID="2045" CondictionID="1" CondictionType="83" Condiction_Para1="0" Condiction_Para2="2" />
+  </Item>
+  <Item ID="2044" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Trang bị 1 bộ thẻ huyệt ma kiến" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="78" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bộ thẻ:Huyệt ma kiến">
+    <Item_Condiction AchievementID="2044" CondictionID="1" CondictionType="83" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2043" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="VIP đạt cấp 9 " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="69" PlaceID="1" PreAchievementID="2042," StartDate="2000-01-01 00:00:00" Title="VIP 9">
+    <Item_Condiction AchievementID="2043" CondictionID="1" CondictionType="74" Condiction_Para1="0" Condiction_Para2="9" />
+    <Item_Reward AchievementID="2043" RewardValueId="63" RewardCount="1" RewardType="1" RewardPara="VIP kim cương" />
+  </Item>
+  <Item ID="2042" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="VIP đạt cấp 7 " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="69" PlaceID="1" PreAchievementID="2041," StartDate="2000-01-01 00:00:00" Title="VIP 7">
+    <Item_Condiction AchievementID="2042" CondictionID="1" CondictionType="74" Condiction_Para1="0" Condiction_Para2="7" />
+    <Item_Reward AchievementID="2042" RewardValueId="62" RewardCount="1" RewardType="1" RewardPara="VIP bạch kim" />
+  </Item>
+  <Item ID="2041" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="VIP đạt cấp 5 " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="69" PlaceID="1" PreAchievementID="2040," StartDate="2000-01-01 00:00:00" Title="VIP 5">
+    <Item_Condiction AchievementID="2041" CondictionID="1" CondictionType="74" Condiction_Para1="0" Condiction_Para2="5" />
+    <Item_Reward AchievementID="2041" RewardValueId="61" RewardCount="1" RewardType="1" RewardPara="VIP vàng" />
+  </Item>
+  <Item ID="2040" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="VIP đạt cấp 3 " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="69" PlaceID="1" PreAchievementID="2039," StartDate="2000-01-01 00:00:00" Title="VIP 3">
+    <Item_Condiction AchievementID="2040" CondictionID="1" CondictionType="74" Condiction_Para1="0" Condiction_Para2="3" />
+    <Item_Reward AchievementID="2040" RewardValueId="60" RewardCount="1" RewardType="1" RewardPara="VIP bạc" />
+  </Item>
+  <Item ID="2039" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="VIP đạt cấp 1 " EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="69" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="VIP 1">
+    <Item_Condiction AchievementID="2039" CondictionID="1" CondictionType="74" Condiction_Para1="0" Condiction_Para2="1" />
+    <Item_Reward AchievementID="2039" RewardValueId="59" RewardCount="1" RewardType="1" RewardPara="VIP" />
+  </Item>
+  <Item ID="2037" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị VIP Thiên sứ ban phúc" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="22" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Hồi phục đại sư">
+    <Item_Condiction AchievementID="2037" CondictionID="1" CondictionType="42" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="2035" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Thời gian online đạt 60000 phút" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="20" PlaceID="1" PreAchievementID="2034," StartDate="2000-01-01 00:00:00" Title="Tài năng">
+    <Item_Condiction AchievementID="2035" CondictionID="1" CondictionType="13" Condiction_Para1="0" Condiction_Para2="60000" />
+    <Item_Reward AchievementID="2035" RewardValueId="49" RewardCount="1" RewardType="1" RewardPara="Anh tài" />
+  </Item>
+  <Item ID="2034" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Thời gian online đạt 30000 phút" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="20" PlaceID="1" PreAchievementID="2033," StartDate="2000-01-01 00:00:00" Title="Tài năng">
+    <Item_Condiction AchievementID="2034" CondictionID="1" CondictionType="13" Condiction_Para1="0" Condiction_Para2="30000" />
+  </Item>
+  <Item ID="2033" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Thời gian online đạt 12000 phút" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="20" PlaceID="1" PreAchievementID="2032," StartDate="2000-01-01 00:00:00" Title="Tài năng">
+    <Item_Condiction AchievementID="2033" CondictionID="1" CondictionType="13" Condiction_Para1="0" Condiction_Para2="12000" />
+  </Item>
+  <Item ID="2032" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Thời gian online đạt 6000 phút" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="20" PlaceID="1" PreAchievementID="2031," StartDate="2000-01-01 00:00:00" Title="Tài năng">
+    <Item_Condiction AchievementID="2032" CondictionID="1" CondictionType="13" Condiction_Para1="0" Condiction_Para2="6000" />
+  </Item>
+  <Item ID="2031" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Thời gian online đạt 3000 phút" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="20" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Tài năng">
+    <Item_Condiction AchievementID="2031" CondictionID="1" CondictionType="13" Condiction_Para1="0" Condiction_Para2="3000" />
+  </Item>
+  <Item ID="2030" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Thăng lên cấp 40" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="19" PlaceID="1" PreAchievementID="2029," StartDate="2000-01-01 00:00:00" Title="cấp 40">
+    <Item_Condiction AchievementID="2030" CondictionID="1" CondictionType="10" Condiction_Para1="0" Condiction_Para2="40" />
+    <Item_Reward AchievementID="2030" RewardValueId="28" RewardCount="1" RewardType="1" RewardPara="Nguyên soái Gunny" />
+  </Item>
+  <Item ID="2029" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Thăng lên cấp 35" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="19" PlaceID="1" PreAchievementID="2028," StartDate="2000-01-01 00:00:00" Title="cấp 35">
+    <Item_Condiction AchievementID="2029" CondictionID="1" CondictionType="10" Condiction_Para1="0" Condiction_Para2="35" />
+    <Item_Reward AchievementID="2029" RewardValueId="27" RewardCount="1" RewardType="1" RewardPara="Thượng Tá Gunny" />
+  </Item>
+  <Item ID="2028" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Thăng lên cấp 30" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="19" PlaceID="1" PreAchievementID="2027," StartDate="2000-01-01 00:00:00" Title="cấp 30">
+    <Item_Condiction AchievementID="2028" CondictionID="1" CondictionType="10" Condiction_Para1="0" Condiction_Para2="30" />
+    <Item_Reward AchievementID="2028" RewardValueId="26" RewardCount="1" RewardType="1" RewardPara="Trung úy Gunny" />
+  </Item>
+  <Item ID="2027" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Thăng lên cấp 25" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="19" PlaceID="1" PreAchievementID="2026," StartDate="2000-01-01 00:00:00" Title="cấp 25">
+    <Item_Condiction AchievementID="2027" CondictionID="1" CondictionType="10" Condiction_Para1="0" Condiction_Para2="25" />
+    <Item_Reward AchievementID="2027" RewardValueId="25" RewardCount="1" RewardType="1" RewardPara="Hạ sĩ Gunny" />
+  </Item>
+  <Item ID="2026" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Thăng lên cấp 15" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="19" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="cấp 15">
+    <Item_Condiction AchievementID="2026" CondictionID="1" CondictionType="10" Condiction_Para1="0" Condiction_Para2="15" />
+    <Item_Reward AchievementID="2026" RewardValueId="24" RewardCount="1" RewardType="1" RewardPara="Tân binh Gunny" />
+  </Item>
+  <Item ID="2025" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Lực chiến đạt 60000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="18" PlaceID="1" PreAchievementID="2024," StartDate="2000-01-01 00:00:00" Title="Lực chiến siêu cấp">
+    <Item_Condiction AchievementID="2025" CondictionID="1" CondictionType="9" Condiction_Para1="0" Condiction_Para2="60000" />
+    <Item_Reward AchievementID="2025" RewardValueId="11" RewardCount="1" RewardType="1" RewardPara="Tôn Ngộ Không" />
+  </Item>
+  <Item ID="2024" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Lực chiến đạt 50000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="18" PlaceID="1" PreAchievementID="2023," StartDate="2000-01-01 00:00:00" Title="Lực chiến siêu cấp">
+    <Item_Condiction AchievementID="2024" CondictionID="1" CondictionType="9" Condiction_Para1="0" Condiction_Para2="50000" />
+  </Item>
+  <Item ID="2023" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Lực chiến đạt 40000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="18" PlaceID="1" PreAchievementID="2022," StartDate="2000-01-01 00:00:00" Title="Lực chiến siêu cấp">
+    <Item_Condiction AchievementID="2023" CondictionID="1" CondictionType="9" Condiction_Para1="0" Condiction_Para2="40000" />
+  </Item>
+  <Item ID="2022" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Lực chiến đạt 30000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="18" PlaceID="1" PreAchievementID="2021," StartDate="2000-01-01 00:00:00" Title="Lực chiến siêu cấp">
+    <Item_Condiction AchievementID="2022" CondictionID="1" CondictionType="9" Condiction_Para1="0" Condiction_Para2="30000" />
+  </Item>
+  <Item ID="2021" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Lực chiến đạt 15000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="18" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Lực chiến siêu cấp">
+    <Item_Condiction AchievementID="2021" CondictionID="1" CondictionType="9" Condiction_Para1="0" Condiction_Para2="15000" />
+  </Item>
+  <Item ID="2020" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Điểm may mắn đạt 2000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="17" PlaceID="1" PreAchievementID="2019," StartDate="2000-01-01 00:00:00" Title="Chí mạng chi kích">
+    <Item_Condiction AchievementID="2020" CondictionID="1" CondictionType="4" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="2020" RewardValueId="10" RewardCount="1" RewardType="1" RewardPara="Chí mạng chi kích" />
+  </Item>
+  <Item ID="2019" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Điểm may mắn đạt 1800" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="17" PlaceID="1" PreAchievementID="2018," StartDate="2000-01-01 00:00:00" Title="Chí mạng chi kích">
+    <Item_Condiction AchievementID="2019" CondictionID="1" CondictionType="4" Condiction_Para1="0" Condiction_Para2="1800" />
+  </Item>
+  <Item ID="2018" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Điểm may mắn đạt 1600" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="17" PlaceID="1" PreAchievementID="2017," StartDate="2000-01-01 00:00:00" Title="Chí mạng chi kích">
+    <Item_Condiction AchievementID="2018" CondictionID="1" CondictionType="4" Condiction_Para1="0" Condiction_Para2="1600" />
+  </Item>
+  <Item ID="2017" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Điểm may mắn đạt 1400" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="17" PlaceID="1" PreAchievementID="2016," StartDate="2000-01-01 00:00:00" Title="Chí mạng chi kích">
+    <Item_Condiction AchievementID="2017" CondictionID="1" CondictionType="4" Condiction_Para1="0" Condiction_Para2="1400" />
+  </Item>
+  <Item ID="2016" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Điểm may mắn đạt 1200" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="17" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Chí mạng chi kích">
+    <Item_Condiction AchievementID="2016" CondictionID="1" CondictionType="4" Condiction_Para1="0" Condiction_Para2="1200" />
+  </Item>
+  <Item ID="2015" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Điểm nhanh nhẹn đạt 2000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="16" PlaceID="1" PreAchievementID="2014," StartDate="2000-01-01 00:00:00" Title="Sấm sét khó bì">
+    <Item_Condiction AchievementID="2015" CondictionID="1" CondictionType="3" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="2015" RewardValueId="9" RewardCount="1" RewardType="1" RewardPara="Sấm sét khó bì" />
+  </Item>
+  <Item ID="2014" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Điểm nhanh nhẹn đạt 1800" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="16" PlaceID="1" PreAchievementID="2013," StartDate="2000-01-01 00:00:00" Title="Sấm sét khó bì">
+    <Item_Condiction AchievementID="2014" CondictionID="1" CondictionType="3" Condiction_Para1="0" Condiction_Para2="1800" />
+  </Item>
+  <Item ID="2013" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Điểm nhanh nhẹn đạt 1600" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="16" PlaceID="1" PreAchievementID="2012," StartDate="2000-01-01 00:00:00" Title="Sấm sét khó bì">
+    <Item_Condiction AchievementID="2013" CondictionID="1" CondictionType="3" Condiction_Para1="0" Condiction_Para2="1600" />
+  </Item>
+  <Item ID="2012" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Điểm nhanh nhẹn đạt 1400" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="16" PlaceID="1" PreAchievementID="2011," StartDate="2000-01-01 00:00:00" Title="Sấm sét khó bì">
+    <Item_Condiction AchievementID="2012" CondictionID="1" CondictionType="3" Condiction_Para1="0" Condiction_Para2="1400" />
+  </Item>
+  <Item ID="2011" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Điểm nhanh nhẹn đạt 1200" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="16" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Sấm sét khó bì">
+    <Item_Condiction AchievementID="2011" CondictionID="1" CondictionType="3" Condiction_Para1="0" Condiction_Para2="1200" />
+  </Item>
+  <Item ID="2010" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Điểm phòng ngự  đạt 2000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="15" PlaceID="1" PreAchievementID="2009," StartDate="2000-01-01 00:00:00" Title="Kim Cang Bất Hoại">
+    <Item_Condiction AchievementID="2010" CondictionID="1" CondictionType="2" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="2010" RewardValueId="8" RewardCount="1" RewardType="1" RewardPara="Kim Cang Bất Hoại" />
+  </Item>
+  <Item ID="2009" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Điểm phòng ngự  đạt 1800" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="15" PlaceID="1" PreAchievementID="2008," StartDate="2000-01-01 00:00:00" Title="Kim Cang Bất Hoại">
+    <Item_Condiction AchievementID="2009" CondictionID="1" CondictionType="2" Condiction_Para1="0" Condiction_Para2="1800" />
+  </Item>
+  <Item ID="2008" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Điểm phòng ngự  đạt 1600" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="15" PlaceID="1" PreAchievementID="2007," StartDate="2000-01-01 00:00:00" Title="Kim Cang Bất Hoại">
+    <Item_Condiction AchievementID="2008" CondictionID="1" CondictionType="2" Condiction_Para1="0" Condiction_Para2="1600" />
+  </Item>
+  <Item ID="2007" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Điểm phòng ngự  đạt 1400" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="15" PlaceID="1" PreAchievementID="2006," StartDate="2000-01-01 00:00:00" Title="Kim Cang Bất Hoại">
+    <Item_Condiction AchievementID="2007" CondictionID="1" CondictionType="2" Condiction_Para1="0" Condiction_Para2="1400" />
+  </Item>
+  <Item ID="2006" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Điểm phòng ngự  đạt 1200" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="15" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Kim Cang Bất Hoại">
+    <Item_Condiction AchievementID="2006" CondictionID="1" CondictionType="2" Condiction_Para1="0" Condiction_Para2="1200" />
+  </Item>
+  <Item ID="2005" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Điểm công kích đạt 2000" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="14" PlaceID="1" PreAchievementID="2004," StartDate="2000-01-01 00:00:00" Title="Lực Quý Thiên Quân">
+    <Item_Condiction AchievementID="2005" CondictionID="1" CondictionType="1" Condiction_Para1="0" Condiction_Para2="2000" />
+    <Item_Reward AchievementID="2005" RewardValueId="7" RewardCount="1" RewardType="1" RewardPara="Lực Quý Thiên Quân" />
+  </Item>
+  <Item ID="2004" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Điểm công kích đạt 1800" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="14" PlaceID="1" PreAchievementID="2003," StartDate="2000-01-01 00:00:00" Title="Lực Quý Thiên Quân">
+    <Item_Condiction AchievementID="2004" CondictionID="1" CondictionType="1" Condiction_Para1="0" Condiction_Para2="1800" />
+  </Item>
+  <Item ID="2003" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Điểm công kích đạt 1600" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="14" PlaceID="1" PreAchievementID="2002," StartDate="2000-01-01 00:00:00" Title="Lực Quý Thiên Quân">
+    <Item_Condiction AchievementID="2003" CondictionID="1" CondictionType="1" Condiction_Para1="0" Condiction_Para2="1600" />
+  </Item>
+  <Item ID="2002" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Điểm công kích đạt 1400" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="14" PlaceID="1" PreAchievementID="2001," StartDate="2000-01-01 00:00:00" Title="Lực Quý Thiên Quân">
+    <Item_Condiction AchievementID="2002" CondictionID="1" CondictionType="1" Condiction_Para1="0" Condiction_Para2="1400" />
+  </Item>
+  <Item ID="2001" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Điểm công kích đạt 1200" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="14" PlaceID="1" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Lực Quý Thiên Quân">
+    <Item_Condiction AchievementID="2001" CondictionID="1" CondictionType="1" Condiction_Para1="0" Condiction_Para2="1200" />
+  </Item>
+  <Item ID="1057" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Lần đầu dạy đệ tử tốt nghiệp" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="73" PlaceID="0" PreAchievementID="1056," StartDate="2000-01-01 00:00:00" Title="Danh sư">
+    <Item_Condiction AchievementID="1057" CondictionID="1" CondictionType="78" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="1056" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Lần đầu thu nạp đệ tử" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="72" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Hướng dẫn đệ tử">
+    <Item_Condiction AchievementID="1056" CondictionID="1" CondictionType="77" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="1055" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Học thành tài, tốt nghiệp" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="71" PlaceID="0" PreAchievementID="1054," StartDate="2000-01-01 00:00:00" Title="Học thành tài">
+    <Item_Condiction AchievementID="1055" CondictionID="1" CondictionType="76" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="1054" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Lần đầu bái sư" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="70" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Bái sư ">
+    <Item_Condiction AchievementID="1054" CondictionID="1" CondictionType="75" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="1053" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Liên tiếp 30 ngày nhận phần thưởng đăng nhập" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="68" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Online chăm chỉ">
+    <Item_Condiction AchievementID="1053" CondictionID="1" CondictionType="37" Condiction_Para1="0" Condiction_Para2="30" />
+  </Item>
+  <Item ID="1042" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Trong lễ đường sử dụng 1000 lần pháo hoa" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="11" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Biểu tượng của lãng mạn">
+    <Item_Condiction AchievementID="1042" CondictionID="1" CondictionType="45" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="1041" AchievementPoint="50" AchievementType="1" CanHide="false" Detail="Trang bị 1 trang bị luyện hóa 3" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="10" PlaceID="0" PreAchievementID="1040," StartDate="2000-01-01 00:00:00" Title="Thiên hạ vô song">
+    <Item_Condiction AchievementID="1041" CondictionID="1" CondictionType="32" Condiction_Para1="0" Condiction_Para2="12" />
+    <Item_Reward AchievementID="1041" RewardValueId="47" RewardCount="1" RewardType="1" RewardPara="Cường hóa anh tài" />
+  </Item>
+  <Item ID="1040" AchievementPoint="40" AchievementType="0" CanHide="false" Detail="Trang bị 1 trang bị luyện hóa 2" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="10" PlaceID="0" PreAchievementID="1039," StartDate="2000-01-01 00:00:00" Title="Đạt đỉnh sức mạnh">
+    <Item_Condiction AchievementID="1040" CondictionID="1" CondictionType="32" Condiction_Para1="0" Condiction_Para2="11" />
+  </Item>
+  <Item ID="1039" AchievementPoint="30" AchievementType="0" CanHide="false" Detail="Trang bị 1 trang bị luyện hóa 1" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="10" PlaceID="0" PreAchievementID="1038," StartDate="2000-01-01 00:00:00" Title="Nâng tầm cao mới">
+    <Item_Condiction AchievementID="1039" CondictionID="1" CondictionType="32" Condiction_Para1="0" Condiction_Para2="10" />
+  </Item>
+  <Item ID="1038" AchievementPoint="20" AchievementType="0" CanHide="false" Detail="Trang bị 1 trang bị +9" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="10" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thực lực hùng hậu">
+    <Item_Condiction AchievementID="1038" CondictionID="1" CondictionType="32" Condiction_Para1="0" Condiction_Para2="9" />
+  </Item>
+  <Item ID="1037" AchievementPoint="10" AchievementType="0" CanHide="false" Detail="Mặc lên người 1 trang bị đã đổi màu" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="0" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="9" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thay đổi hình dạng">
+    <Item_Condiction AchievementID="1037" CondictionID="1" CondictionType="36" Condiction_Para1="0" Condiction_Para2="1" />
+  </Item>
+  <Item ID="1036" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Cống hiến cho guild 50000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="8" PlaceID="0" PreAchievementID="1035," StartDate="2000-01-01 00:00:00" Title="Hội đồng quản trị">
+    <Item_Condiction AchievementID="1036" CondictionID="1" CondictionType="24" Condiction_Para1="0" Condiction_Para2="50000" />
+    <Item_Reward AchievementID="1036" RewardValueId="4" RewardCount="1" RewardType="1" RewardPara="Tài Chính Đại Thần" />
+  </Item>
+  <Item ID="1035" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Cống hiến cho guild 20000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="8" PlaceID="0" PreAchievementID="1034," StartDate="2000-01-01 00:00:00" Title="Giám đốc guild">
+    <Item_Condiction AchievementID="1035" CondictionID="1" CondictionType="24" Condiction_Para1="0" Condiction_Para2="20000" />
+  </Item>
+  <Item ID="1034" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Cống hiến cho guild 5000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="8" PlaceID="0" PreAchievementID="1033," StartDate="2000-01-01 00:00:00" Title="Giám sát guild">
+    <Item_Condiction AchievementID="1034" CondictionID="1" CondictionType="24" Condiction_Para1="0" Condiction_Para2="5000" />
+  </Item>
+  <Item ID="1033" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Cống hiến cho guild 2000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="8" PlaceID="0" PreAchievementID="1032," StartDate="2000-01-01 00:00:00" Title="Chủ quản guild">
+    <Item_Condiction AchievementID="1033" CondictionID="1" CondictionType="24" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="1032" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Cống hiến cho guild 1000 tài sản" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="8" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Thành viên guild">
+    <Item_Condiction AchievementID="1032" CondictionID="1" CondictionType="24" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="1031" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng 1000 loa nhỏ" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="7" PlaceID="0" PreAchievementID="1030," StartDate="2000-01-01 00:00:00" Title="Toàn Thị Danh Nhân">
+    <Item_Condiction AchievementID="1031" CondictionID="1" CondictionType="48" Condiction_Para1="0" Condiction_Para2="1000" />
+    <Item_Reward AchievementID="1031" RewardValueId="3" RewardCount="1" RewardType="1" RewardPara="Danh Truyền Nhất Phương" />
+  </Item>
+  <Item ID="1030" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng 500 loa nhỏ" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="7" PlaceID="0" PreAchievementID="1029," StartDate="2000-01-01 00:00:00" Title="Toàn Thị Danh Nhân">
+    <Item_Condiction AchievementID="1030" CondictionID="1" CondictionType="48" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="1029" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng 200 loa nhỏ" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="7" PlaceID="0" PreAchievementID="1028," StartDate="2000-01-01 00:00:00" Title="Toàn Thị Danh Nhân">
+    <Item_Condiction AchievementID="1029" CondictionID="1" CondictionType="48" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="1028" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng 100 loa nhỏ" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="7" PlaceID="0" PreAchievementID="1027," StartDate="2000-01-01 00:00:00" Title="Toàn Thị Danh Nhân">
+    <Item_Condiction AchievementID="1028" CondictionID="1" CondictionType="48" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="1027" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng 50 loa nhỏ" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="7" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Toàn Thị Danh Nhân">
+    <Item_Condiction AchievementID="1027" CondictionID="1" CondictionType="48" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="1026" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Sử dụng 1000 loa lớn" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="6" PlaceID="0" PreAchievementID="1025," StartDate="2000-01-01 00:00:00" Title="Toàn Thành Giai Trí">
+    <Item_Condiction AchievementID="1026" CondictionID="1" CondictionType="47" Condiction_Para1="0" Condiction_Para2="1000" />
+    <Item_Reward AchievementID="1026" RewardValueId="2" RewardCount="1" RewardType="1" RewardPara="Anh Danh Viễn Dương" />
+  </Item>
+  <Item ID="1025" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Sử dụng 500 loa lớn" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="6" PlaceID="0" PreAchievementID="1024," StartDate="2000-01-01 00:00:00" Title="Toàn Thành Giai Trí">
+    <Item_Condiction AchievementID="1025" CondictionID="1" CondictionType="47" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="1024" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Sử dụng 200 loa lớn" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="6" PlaceID="0" PreAchievementID="1023," StartDate="2000-01-01 00:00:00" Title="Toàn Thành Giai Trí">
+    <Item_Condiction AchievementID="1024" CondictionID="1" CondictionType="47" Condiction_Para1="0" Condiction_Para2="200" />
+  </Item>
+  <Item ID="1023" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Sử dụng 100 loa lớn" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="6" PlaceID="0" PreAchievementID="1022," StartDate="2000-01-01 00:00:00" Title="Toàn Thành Giai Trí">
+    <Item_Condiction AchievementID="1023" CondictionID="1" CondictionType="47" Condiction_Para1="0" Condiction_Para2="100" />
+  </Item>
+  <Item ID="1022" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Sử dụng 50 loa lớn" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="6" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Toàn Thành Giai Trí">
+    <Item_Condiction AchievementID="1022" CondictionID="1" CondictionType="47" Condiction_Para1="0" Condiction_Para2="50" />
+  </Item>
+  <Item ID="1015" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Tích lũy nhận được 2000 huân chương" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="3" PlaceID="0" PreAchievementID="1014," StartDate="2000-01-01 00:00:00" Title="Cứu thế chủ">
+    <Item_Condiction AchievementID="1015" CondictionID="1" CondictionType="40" Condiction_Para1="0" Condiction_Para2="5000" />
+    <Item_Reward AchievementID="1015" RewardValueId="23" RewardCount="1" RewardType="1" RewardPara="Quang Vinh Vương Quốc Gà" />
+  </Item>
+  <Item ID="1014" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 1000 huân chương" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="3" PlaceID="0" PreAchievementID="1013," StartDate="2000-01-01 00:00:00" Title="Anh hùng vương quốc gà">
+    <Item_Condiction AchievementID="1014" CondictionID="1" CondictionType="40" Condiction_Para1="0" Condiction_Para2="2000" />
+  </Item>
+  <Item ID="1013" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 800 huân chương" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="3" PlaceID="0" PreAchievementID="1012," StartDate="2000-01-01 00:00:00" Title="Anh hùng gà vàng">
+    <Item_Condiction AchievementID="1013" CondictionID="1" CondictionType="40" Condiction_Para1="0" Condiction_Para2="1000" />
+  </Item>
+  <Item ID="1012" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 400 huân chương" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="3" PlaceID="0" PreAchievementID="1011," StartDate="2000-01-01 00:00:00" Title="Anh hùng chiến đấu">
+    <Item_Condiction AchievementID="1012" CondictionID="1" CondictionType="40" Condiction_Para1="0" Condiction_Para2="500" />
+  </Item>
+  <Item ID="1011" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 200 huân chương" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="3" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Quang vinh đất trời">
+    <Item_Condiction AchievementID="1011" CondictionID="1" CondictionType="40" Condiction_Para1="0" Condiction_Para2="300" />
+    <Item_Reward AchievementID="1011" RewardValueId="22" RewardCount="1" RewardType="1" RewardPara="Quang vinh đất trời" />
+  </Item>
+  <Item ID="1010" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Tích lũy nhận được 600000 lễ kim" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="2" PlaceID="0" PreAchievementID="1009," StartDate="2000-01-01 00:00:00" Title=" Hoàng Đế">
+    <Item_Condiction AchievementID="1010" CondictionID="1" CondictionType="39" Condiction_Para1="0" Condiction_Para2="600000" />
+    <Item_Reward AchievementID="1010" RewardValueId="21" RewardCount="1" RewardType="1" RewardPara="Lễ Kim Tài Thần" />
+  </Item>
+  <Item ID="1009" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 300000 lễ kim" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="2" PlaceID="0" PreAchievementID="1008," StartDate="2000-01-01 00:00:00" Title=" Tiểu Thái Tử">
+    <Item_Condiction AchievementID="1009" CondictionID="1" CondictionType="39" Condiction_Para1="0" Condiction_Para2="300000" />
+  </Item>
+  <Item ID="1008" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 100000 lễ kim" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="2" PlaceID="0" PreAchievementID="1007," StartDate="2000-01-01 00:00:00" Title="Tiểu A Ca">
+    <Item_Condiction AchievementID="1008" CondictionID="1" CondictionType="39" Condiction_Para1="0" Condiction_Para2="100000" />
+  </Item>
+  <Item ID="1007" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 50000 lễ kim" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="2" PlaceID="0" PreAchievementID="1006," StartDate="2000-01-01 00:00:00" Title=" Tiểu Thái Lang">
+    <Item_Condiction AchievementID="1007" CondictionID="1" CondictionType="39" Condiction_Para1="0" Condiction_Para2="50000" />
+  </Item>
+  <Item ID="1006" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 20000 lễ kim" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="2" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title=" Tiểu Nhị Lang">
+    <Item_Condiction AchievementID="1006" CondictionID="1" CondictionType="39" Condiction_Para1="0" Condiction_Para2="20000" />
+  </Item>
+  <Item ID="1005" AchievementPoint="50" AchievementType="1" CanHide="true" Detail="Tích lũy nhận được 1000 vạn Gold" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="1" PlaceID="0" PreAchievementID="1004," StartDate="2000-01-01 00:00:00" Title="Giàu nhất Thế giới">
+    <Item_Condiction AchievementID="1005" CondictionID="1" CondictionType="38" Condiction_Para1="0" Condiction_Para2="10000000" />
+    <Item_Reward AchievementID="1005" RewardValueId="20" RewardCount="1" RewardType="1" RewardPara="Phú Giáp Thiên Hạ" />
+  </Item>
+  <Item ID="1004" AchievementPoint="40" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 500 vạn Gold" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="1" PlaceID="0" PreAchievementID="1003," StartDate="2000-01-01 00:00:00" Title="Phú Khả Địch Quốc">
+    <Item_Condiction AchievementID="1004" CondictionID="1" CondictionType="38" Condiction_Para1="0" Condiction_Para2="5000000" />
+  </Item>
+  <Item ID="1003" AchievementPoint="30" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 100 vạn Gold" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="1" PlaceID="0" PreAchievementID="1002," StartDate="2000-01-01 00:00:00" Title="Thương Giới Tinh Anh">
+    <Item_Condiction AchievementID="1003" CondictionID="1" CondictionType="38" Condiction_Para1="0" Condiction_Para2="1000000" />
+  </Item>
+  <Item ID="1002" AchievementPoint="20" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 60 vạn Gold" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="1" PlaceID="0" PreAchievementID="1001," StartDate="2000-01-01 00:00:00" Title="Phú Giáp Nhất Phương">
+    <Item_Condiction AchievementID="1002" CondictionID="1" CondictionType="38" Condiction_Para1="0" Condiction_Para2="600000" />
+  </Item>
+  <Item ID="1001" AchievementPoint="10" AchievementType="0" CanHide="true" Detail="Tích lũy nhận được 30 vạn Gold" EndDate="2050-01-01 00:00:00" IsActive="1" IsOther="1" IsShare="true" NeedMaxLevel="100" NeedMinLevel="0" PicID="1" PlaceID="0" PreAchievementID="0," StartDate="2000-01-01 00:00:00" Title="Cơm no áo ấm">
+    <Item_Condiction AchievementID="1001" CondictionID="1" CondictionType="38" Condiction_Para1="0" Condiction_Para2="300000" />
+    <Item_Reward AchievementID="1001" RewardValueId="19" RewardCount="1" RewardType="1" RewardPara="Yếu Triền Vạn Quán" />
+  </Item>
+</Result>

@@ -1,0 +1,439 @@
+C:\Source\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\Source\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\Source\Game.Server\bin\Debug\net472\log4net.dll
+C:\Source\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\Source\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Source\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\Source\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\Source\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Source\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Core.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Data.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\Source\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\Source\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\Source\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\Source\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\Source\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\Source\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\Source\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\Source\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\Source\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\Source\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Core.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Data.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\Users\Administrator\Desktop\Source sv 24-11\Source1-12\Game.Server\obj\Debug\net472\Game.Server.pdb
+G:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+G:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Server.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Server.pdb
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\log4net.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\protobuf-net.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Buffers.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Memory.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Bussiness.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Base.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Logic.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Configuration.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Core.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Data.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\zlib.net.dll
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Bussiness.pdb
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Base.pdb
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Logic.pdb
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+G:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+G:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+G:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.dll
+G:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Core.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Data.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\Users\Administrator\Desktop\Source8-12\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Server.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Server.pdb
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\log4net.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\protobuf-net.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Buffers.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Memory.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Bussiness.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Base.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Logic.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Configuration.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Core.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Data.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\zlib.net.dll
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Bussiness.pdb
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Game.Logic.pdb
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+H:\1.Gunny Project\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+H:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+H:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+H:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.dll
+H:\1.Gunny Project\Source\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\log4net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Core.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Data.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\Users\Administrator\Desktop\Source 26-12\Game.Server\obj\Debug\net472\Game.Server.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Server.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Server.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\log4net.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\protobuf-net.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Buffers.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Memory.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Bussiness.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Base.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Logic.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Configuration.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Core.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Data.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\zlib.net.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Bussiness.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Base.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Logic.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.dll
+G:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Server.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Server.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\log4net.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\protobuf-net.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Buffers.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Memory.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Bussiness.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Base.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Logic.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Configuration.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Core.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Data.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\zlib.net.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Bussiness.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Base.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Game.Logic.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.dll
+H:\1.Gunny Project\Source ManhQuynh\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\PhamNgocKhanhLam\Source\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\PhamNgocKhanhLam\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\PhamNgocKhanhLam\Source\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\log4net.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Core.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Data.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\PhamNgocKhanhLam\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\PhamNgocKhanhLam\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\log4net.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Core.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Data.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\NEWGUN\Source\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\NEWGUN\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\NEWGUN\Source\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+C:\NEWGUN\Source\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\NEWGUN\Source\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\log4net.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Core.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Data.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\NEWGUN\Source Server\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\NEWGUN\Source Server\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\NEWGUN\Source Server\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN\Source Server\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\NEWGUN\Source Server\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+C:\NEWGUN\Source Server\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\NEWGUN\Source Server\Game.Server\obj\Debug\net472\Game.Server.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Game.Server.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Game.Server.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\log4net.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\protobuf-net.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Buffers.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Memory.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Bussiness.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Game.Base.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Game.Logic.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Configuration.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Core.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Data.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\zlib.net.dll
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Bussiness.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Game.Base.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Game.Logic.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Newtonsoft.Json.pdb
+C:\NEWGUN36\NEWGUN\Game.Server\bin\Debug\net472\Newtonsoft.Json.xml
+C:\NEWGUN36\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+C:\NEWGUN36\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\NEWGUN36\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+C:\NEWGUN36\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+C:\NEWGUN36\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.dll
+C:\NEWGUN36\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Game.Server.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Game.Server.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\log4net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\protobuf-net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Buffers.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Memory.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Bussiness.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Game.Base.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Game.Logic.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Configuration.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Core.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Data.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\zlib.net.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Bussiness.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Game.Base.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\Game.Logic.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.dll
+E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.pdb
