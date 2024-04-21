@@ -81,3 +81,44 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.c
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.exe
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Service\obj\Debug\net48\Road.Service.pdb
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\App.config
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\battle.xml
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Datas\consortiatask.data
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Datas\consortiatask.snapedata
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Datas\LittleGame\map.data
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Datas\shopfreecount.data
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Datas\shopfreecount.snapedata
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\logconfig.xml
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Road.Service.exe.config
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Road.Service.exe
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Road.Service.pdb
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\log4net.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Newtonsoft.Json.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\protobuf-net.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Buffers.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Memory.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Bussiness.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Game.Base.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Game.Logic.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Game.Server.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\SqlDataProvider.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Configuration.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.Configuration.Install.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\System.ServiceProcess.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\zlib.net.dll
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Bussiness.pdb
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Game.Base.pdb
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Game.Logic.pdb
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\Game.Server.pdb
+W:\ShareSource\DDTank41\Road.Service\bin\Debug\net48\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Service.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Service.GeneratedMSBuildEditorConfig.editorconfig
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Service.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Service.sourcelink.json
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Ser.CF71672E.Up2Date
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Service.exe
+W:\ShareSource\DDTank41\Road.Service\obj\Debug\net48\Road.Service.pdb

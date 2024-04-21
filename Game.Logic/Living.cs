@@ -2289,4 +2289,8 @@ public class Living : Physics
     public event KillLivingEventHanlde AfterKilledByLiving;
 
     public event KillLivingEventHanlde AfterKillingLiving;
+
+    public virtual void OnDieNewMethod()
+    {
+    }
 }

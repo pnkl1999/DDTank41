@@ -437,3 +437,36 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.cs
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Server\obj\Debug\net472\Game.Server.pdb
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Server.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Server.GeneratedMSBuildEditorConfig.editorconfig
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Server.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Server.sourcelink.json
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Server.dll
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Server.pdb
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Game.Server.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Game.Server.pdb
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\log4net.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Newtonsoft.Json.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\protobuf-net.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Buffers.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Memory.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Bussiness.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Game.Base.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Game.Logic.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\SqlDataProvider.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Configuration.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Core.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Data.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Runtime.Serialization.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.ServiceModel.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\System.Xml.Linq.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\zlib.net.dll
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Bussiness.pdb
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Game.Base.pdb
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\Game.Logic.pdb
+W:\ShareSource\DDTank41\Game.Server\bin\Debug\net472\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\Game.Server\obj\Debug\net472\Game.Ser.DFAAE5D6.Up2Date

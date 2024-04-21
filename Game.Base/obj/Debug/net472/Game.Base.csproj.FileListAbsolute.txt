@@ -255,3 +255,24 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Game.Base\obj\Debug\net472\Game.Base.pdb
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\Game.Base.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\Game.Base.pdb
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\log4net.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\protobuf-net.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Buffers.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Memory.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Configuration.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Core.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\System.Xml.dll
+W:\ShareSource\DDTank41\Game.Base\bin\Debug\net472\zlib.net.dll
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.GeneratedMSBuildEditorConfig.editorconfig
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.sourcelink.json
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.csproj.Up2Date
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.dll
+W:\ShareSource\DDTank41\Game.Base\obj\Debug\net472\Game.Base.pdb

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj": {}
+    "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {}
   },
   "projects": {
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj": {
+    "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectUniqueName": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
         "projectName": "SqlDataProvider",
-        "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\obj\\",
+        "outputPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,7 +58,7 @@
               "version": "[3.0.101, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

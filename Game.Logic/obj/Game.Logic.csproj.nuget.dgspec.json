@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj": {}
+    "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj": {}
   },
   "projects": {
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj": {
+    "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj",
+        "projectUniqueName": "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj",
         "projectName": "Bussiness",
-        "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj",
+        "projectPath": "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\obj\\",
+        "outputPath": "W:\\ShareSource\\DDTank41\\Bussiness\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj": {
-                "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj"
+              "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
+                "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj"
               },
-              "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj": {
-                "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj"
+              "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
+                "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj"
               }
             }
           }
@@ -41,6 +41,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -56,18 +61,18 @@
               "version": "[2.0.14, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj": {
+    "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj",
+        "projectUniqueName": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
         "projectName": "Game.Base",
-        "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj",
+        "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\obj\\",
+        "outputPath": "W:\\ShareSource\\DDTank41\\Game.Base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -90,6 +95,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -105,18 +115,18 @@
               "version": "[3.0.101, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj": {
+    "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj",
+        "projectUniqueName": "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj",
         "projectName": "Game.Logic",
-        "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj",
+        "projectPath": "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\obj\\",
+        "outputPath": "W:\\ShareSource\\DDTank41\\Game.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -133,14 +143,14 @@
           "net472": {
             "targetAlias": "net472",
             "projectReferences": {
-              "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj": {
-                "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj"
+              "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj": {
+                "projectPath": "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj"
               },
-              "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj": {
-                "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj"
+              "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
+                "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj"
               },
-              "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj": {
-                "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj"
+              "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
+                "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj"
               }
             }
           }
@@ -149,6 +159,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -160,18 +175,18 @@
               "version": "[2.0.14, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj": {
+    "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectUniqueName": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
         "projectName": "SqlDataProvider",
-        "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj",
+        "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\obj\\",
+        "outputPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -194,6 +209,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -213,7 +233,7 @@
               "version": "[3.0.101, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

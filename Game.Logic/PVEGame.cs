@@ -2277,5 +2277,29 @@ namespace Game.Logic
             }
             m_gameState = eGameState.TryAgain;
         }
+
+        internal void OnTakeDamage()
+        {
+            try
+            {
+                m_missionAI.OnTakeDamage();
+            }
+            catch (Exception ex)
+            {
+                log.ErrorFormat("game ai script m_gameAI.OnTakeDamage() error:{0}", ex);
+            }
+        }
+
+        internal void OnMoving()
+        {
+            try
+            {
+                m_missionAI.OnMoving();
+            }
+            catch (Exception ex)
+            {
+                log.ErrorFormat("game ai script m_gameAI.OnMoving() error:{0}", ex);
+            }
+        }
     }
 }

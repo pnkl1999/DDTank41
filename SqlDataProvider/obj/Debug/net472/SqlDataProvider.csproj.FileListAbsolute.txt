@@ -250,3 +250,24 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\SqlDataProvider\obj\Debug\net472\SqlDataPro
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\SqlDataProvider\obj\Debug\net472\SqlDataProvider.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\SqlDataProvider\obj\Debug\net472\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\SqlDataProvider.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\log4net.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\Newtonsoft.Json.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\protobuf-net.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Buffers.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Memory.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Configuration.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Data.dll
+W:\ShareSource\DDTank41\SqlDataProvider\bin\Debug\net472\System.Xml.dll
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataProvider.GeneratedMSBuildEditorConfig.editorconfig
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataProvider.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataProvider.sourcelink.json
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataP.F5CDDF18.Up2Date
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataProvider.dll
+W:\ShareSource\DDTank41\SqlDataProvider\obj\Debug\net472\SqlDataProvider.pdb

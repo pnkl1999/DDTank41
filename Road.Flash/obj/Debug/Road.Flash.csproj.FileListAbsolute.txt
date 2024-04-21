@@ -205,3 +205,22 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.Core
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Road.Flash\obj\Debug\Road.Flash.pdb
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\Road.Flash.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\Road.Flash.pdb
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\log4net.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\Newtonsoft.Json.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\SqlDataProvider.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\System.Memory.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\System.Buffers.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\log4net.xml
+W:\ShareSource\DDTank41\Road.Flash\bin\Debug\Newtonsoft.Json.xml
+W:\ShareSource\DDTank41\Road.Flash\obj\Debug\Road.Flash.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\Road.Flash\obj\Debug\Road.Flash.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\Road.Flash\obj\Debug\Road.Flash.csproj.Up2Date
+W:\ShareSource\DDTank41\Road.Flash\obj\Debug\Road.Flash.dll
+W:\ShareSource\DDTank41\Road.Flash\obj\Debug\Road.Flash.pdb

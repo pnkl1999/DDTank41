@@ -25,10 +25,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SqlDataProvider", "SqlDataP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Road.Flash", "Road.Flash\Road.Flash.csproj", "{0718EC51-72B2-42B9-A1E3-C18790C9781A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminGunny", "GameAdmin\AdminGunny.csproj", "{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tank.Request", "Tank.Request\Tank.Request.csproj", "{5722B731-DC47-4DEE-9A3D-65FED82BE5E6}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -79,14 +75,6 @@ Global
 		{0718EC51-72B2-42B9-A1E3-C18790C9781A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0718EC51-72B2-42B9-A1E3-C18790C9781A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0718EC51-72B2-42B9-A1E3-C18790C9781A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6EDA7995-BDB0-4E43-80C0-FD5B8EF9311F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5722B731-DC47-4DEE-9A3D-65FED82BE5E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5722B731-DC47-4DEE-9A3D-65FED82BE5E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5722B731-DC47-4DEE-9A3D-65FED82BE5E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5722B731-DC47-4DEE-9A3D-65FED82BE5E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

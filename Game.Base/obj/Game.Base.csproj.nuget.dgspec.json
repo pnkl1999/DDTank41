@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj": {}
+    "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {}
   },
   "projects": {
-    "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj": {
+    "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj",
+        "projectUniqueName": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
         "projectName": "Game.Base",
-        "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj",
+        "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
         "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-        "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\obj\\",
+        "outputPath": "W:\\ShareSource\\DDTank41\\Game.Base\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -49,7 +54,7 @@
               "version": "[3.0.101, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

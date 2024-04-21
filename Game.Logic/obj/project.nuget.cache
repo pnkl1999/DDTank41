@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "q6gAWXXt5m6Qm/BCM2koRK0U6IqciiICG0P80t9Ck1xxmMMnRfJmW2Q2QErHQNbX32dHJG/eyEZP9zctvk8DWA==",
+  "dgSpecHash": "1s4s3spZ8sQ1hg5rTDvn2VNKp5Hr5HcL8FX/D2TWmAWNj7MDISG8cCQfVe4oHIuTnNvtqvLBR7YMdopOO3NVLQ==",
   "success": true,
-  "projectFilePath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj",
+  "projectFilePath": "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khanh\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
     "C:\\Users\\khanh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

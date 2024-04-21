@@ -9,19 +9,27 @@
           "System.Web"
         ],
         "compile": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/log4net.dll": {}
+          "lib/net45/log4net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Newtonsoft.Json/13.0.1": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {}
+          "lib/net45/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "protobuf-net/3.0.101": {
@@ -31,10 +39,14 @@
           "protobuf-net.Core": "3.0.101"
         },
         "compile": {
-          "lib/net461/protobuf-net.dll": {}
+          "lib/net461/protobuf-net.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/protobuf-net.dll": {}
+          "lib/net461/protobuf-net.dll": {
+            "related": ".xml"
+          }
         }
       },
       "protobuf-net.Core/3.0.101": {
@@ -44,10 +56,14 @@
           "System.Memory": "4.5.4"
         },
         "compile": {
-          "lib/net461/protobuf-net.Core.dll": {}
+          "lib/net461/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/protobuf-net.Core.dll": {}
+          "lib/net461/protobuf-net.Core.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Buffers/4.5.1": {
@@ -56,10 +72,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net45/System.Buffers.dll": {}
+          "ref/net45/System.Buffers.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Buffers.dll": {}
+          "lib/net461/System.Buffers.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Collections.Immutable/1.7.1": {
@@ -73,10 +93,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Collections.Immutable.dll": {}
+          "lib/net461/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Collections.Immutable.dll": {}
+          "lib/net461/System.Collections.Immutable.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Memory/4.5.4": {
@@ -91,10 +115,14 @@
           "mscorlib"
         ],
         "compile": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Memory.dll": {}
+          "lib/net461/System.Memory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Numerics.Vectors/4.5.0": {
@@ -104,10 +132,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net46/System.Numerics.Vectors.dll": {}
+          "ref/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net46/System.Numerics.Vectors.dll": {}
+          "lib/net46/System.Numerics.Vectors.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.3": {
@@ -116,10 +148,14 @@
           "mscorlib"
         ],
         "compile": {
-          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         },
         "runtime": {
-          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Bussiness/1.0.0": {
@@ -479,11 +515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Server\\Game.Server.csproj",
+      "projectUniqueName": "W:\\ShareSource\\DDTank41\\Game.Server\\Game.Server.csproj",
       "projectName": "Game.Server",
-      "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Server\\Game.Server.csproj",
+      "projectPath": "W:\\ShareSource\\DDTank41\\Game.Server\\Game.Server.csproj",
       "packagesPath": "C:\\Users\\khanh\\.nuget\\packages\\",
-      "outputPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Server\\obj\\",
+      "outputPath": "W:\\ShareSource\\DDTank41\\Game.Server\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\khanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -500,17 +536,17 @@
         "net472": {
           "targetAlias": "net472",
           "projectReferences": {
-            "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj": {
-              "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Bussiness\\Bussiness.csproj"
+            "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj": {
+              "projectPath": "W:\\ShareSource\\DDTank41\\Bussiness\\Bussiness.csproj"
             },
-            "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj": {
-              "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj"
+            "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj": {
+              "projectPath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj"
             },
-            "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj": {
-              "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Logic\\Game.Logic.csproj"
+            "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj": {
+              "projectPath": "W:\\ShareSource\\DDTank41\\Game.Logic\\Game.Logic.csproj"
             },
-            "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj": {
-              "projectPath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\SqlDataProvider\\SqlDataProvider.csproj"
+            "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj": {
+              "projectPath": "W:\\ShareSource\\DDTank41\\SqlDataProvider\\SqlDataProvider.csproj"
             }
           }
         }
@@ -519,6 +555,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -538,7 +579,7 @@
             "version": "[3.0.101, )"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
       }
     }
   }

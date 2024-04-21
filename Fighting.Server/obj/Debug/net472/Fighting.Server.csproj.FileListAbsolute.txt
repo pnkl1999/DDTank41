@@ -346,3 +346,31 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Fighting.Server\obj\Debug\net472\Fighting.S
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Fighting.Server\obj\Debug\net472\Fighting.Server.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Fighting.Server\obj\Debug\net472\Fighting.Server.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Fighting.Server\obj\Debug\net472\Fighting.Server.pdb
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Fighting.Server.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Fighting.Server.pdb
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\log4net.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Newtonsoft.Json.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\protobuf-net.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\System.Buffers.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\System.Memory.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Bussiness.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Game.Base.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Game.Logic.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\SqlDataProvider.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\System.Core.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\zlib.net.dll
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Bussiness.pdb
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Game.Base.pdb
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\Game.Logic.pdb
+W:\ShareSource\DDTank41\Fighting.Server\bin\Debug\net472\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.Server.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.Server.GeneratedMSBuildEditorConfig.editorconfig
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.Server.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.Server.sourcelink.json
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.AE85E515.Up2Date
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.Server.dll
+W:\ShareSource\DDTank41\Fighting.Server\obj\Debug\net472\Fighting.Server.pdb

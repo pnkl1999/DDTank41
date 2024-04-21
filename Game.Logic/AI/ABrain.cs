@@ -108,5 +108,9 @@ namespace Game.Logic.AI
         {
 
         }
+
+        public virtual void OnDieNewMethod()
+        {
+        }
     }
 }

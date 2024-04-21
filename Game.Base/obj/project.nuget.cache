@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "DCKNMnLTHiMHWb1hIXd4x3hB30oVLrfzre+P6GinWB5J2butTnCR3hmACgWMnlE0YUa/2eFm9cRwn6v4vw2HHA==",
+  "dgSpecHash": "AeKxX8AZpSz+sTRDttzfnbbMIL6zbm5oPHeFYLBCFZtfxuPR8QkpG0/MwGxAYubU+c6LyOggAmD+oFHEm2tc3A==",
   "success": true,
-  "projectFilePath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Game.Base\\Game.Base.csproj",
+  "projectFilePath": "W:\\ShareSource\\DDTank41\\Game.Base\\Game.Base.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khanh\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
     "C:\\Users\\khanh\\.nuget\\packages\\protobuf-net\\3.0.101\\protobuf-net.3.0.101.nupkg.sha512",

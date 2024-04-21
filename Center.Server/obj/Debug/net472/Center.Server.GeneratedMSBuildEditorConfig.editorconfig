@@ -1,3 +1,5 @@
 is_global = true
 build_property.RootNamespace = Center.Server
-build_property.ProjectDir = E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Center.Server\
+build_property.ProjectDir = W:\ShareSource\DDTank41\Center.Server\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

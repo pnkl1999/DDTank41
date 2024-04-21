@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LRsjDGiFlpiXDdLCmk6UbfCuP/7y+VqKhJPOaPwRTAhRfrnU36p3tNrJdQ8RvEEJo94JHnSX6mEkG0kaQMiqLg==",
+  "dgSpecHash": "rKWOjphy1VL6SwC5NLUsHdJhb7N9yaWLlvvmta2tpgQolMxXw333BJSLZ4F4Yl19RfvIadRUgV4srDgXpc1Tmg==",
   "success": true,
-  "projectFilePath": "E:\\Backup KhanhLam\\NEWGUN Dev\\NEWGUN\\Center.Server\\Center.Server.csproj",
+  "projectFilePath": "W:\\ShareSource\\DDTank41\\Center.Server\\Center.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\khanh\\.nuget\\packages\\log4net\\2.0.14\\log4net.2.0.14.nupkg.sha512",
     "C:\\Users\\khanh\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",

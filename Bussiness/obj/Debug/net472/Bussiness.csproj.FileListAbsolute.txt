@@ -385,3 +385,34 @@ E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Bussiness\obj\Debug\net472\Bussiness.csproj
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Bussiness\obj\Debug\net472\Bussiness.csproj.CopyComplete
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Bussiness\obj\Debug\net472\Bussiness.dll
 E:\Backup KhanhLam\NEWGUN Dev\NEWGUN\Bussiness\obj\Debug\net472\Bussiness.pdb
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\Bussiness.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\Bussiness.pdb
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\log4net.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\Newtonsoft.Json.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\protobuf-net.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\protobuf-net.Core.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Buffers.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Collections.Immutable.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Memory.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Numerics.Vectors.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Runtime.CompilerServices.Unsafe.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\Game.Base.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\SqlDataProvider.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Configuration.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Core.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Data.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Runtime.Serialization.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.ServiceModel.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Web.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Xml.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\System.Xml.Linq.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\zlib.net.dll
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\Game.Base.pdb
+W:\ShareSource\DDTank41\Bussiness\bin\Debug\net472\SqlDataProvider.pdb
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.csproj.AssemblyReference.cache
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.GeneratedMSBuildEditorConfig.editorconfig
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.csproj.CoreCompileInputs.cache
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.sourcelink.json
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.csproj.Up2Date
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.dll
+W:\ShareSource\DDTank41\Bussiness\obj\Debug\net472\Bussiness.pdb

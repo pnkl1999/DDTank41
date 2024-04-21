@@ -250,5 +250,18 @@ namespace Game.Logic.Phy.Object
 		{
 			ilog_1 = LogManager.GetLogger(MethodBase.GetCurrentMethod().DeclaringType);
 		}
-	}
+
+        public override void OnDieNewMethod()
+        {
+            try
+            {
+                abrain_0.OnDieNewMethod();
+            }
+            catch (Exception ex)
+            {
+                ilog_1.ErrorFormat("SimpleNpc OnDie Error:{0}", (object)ex);
+            }
+            base.OnDieNewMethod();
+        }
+    }
 }
