@@ -1,0 +1,17 @@
+{
+  "name": "ddtank-render-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Standalone DDTank web portal; does not run the legacy game server",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "engines": {"node": ">=20"},
+  "dependencies": {
+    "express": "^4.21.2",
+    "pg": "^8.13.3",
+    "helmet": "^8.0.0",
+    "express-rate-limit": "^7.5.0"
+  }
+}
