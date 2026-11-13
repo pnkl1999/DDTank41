@@ -1,0 +1,25 @@
+services:
+  - type: web
+    name: ddtank-web
+    runtime: node
+    plan: free
+    rootDir: render-web
+    buildCommand: npm install --omit=dev
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: DATABASE_URL
+        fromDatabase:
+          name: ddtank-web-db
+          property: connectionString
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
+databases:
+  - name: ddtank-web-db
+    plan: free
+    databaseName: ddtank_web
+    user: ddtank_web
